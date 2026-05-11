@@ -1,18 +1,26 @@
 name: Auto Scraper
 on:
-push:
-branches: [ main ]
-schedule:
-- cron: '0 0 * * *' # 每天北京时间早上8点运行
+  push:
+    branches: [ main ]
+  schedule:
+    # 每天北京时间早上 8 点运行 (UTC 时间 0 点)
+    - cron: '0 0 * * *'
+
 jobs:
-build:
-runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v2
-- name: Run Scraper
-run: python scraper.py
-- name: Deploy
-uses: peaceiris/actions-gh-pages@v3
-with:
-github_token: ${{ secrets.GITHUB_TOKEN }}
-publish_dir: ./
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run Scraper
+        run: python scraper.py
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
