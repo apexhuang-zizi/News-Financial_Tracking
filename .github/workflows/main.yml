@@ -3,11 +3,11 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'  # 每天北京时间早上 8:00 运行
+  workflow_dispatch:      # 【新增】允许你在 Actions 页面点按钮直接运行
 
-# 强制使用 Node.js 24 并赋予写入权限
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # 解决 2026 年 Node.js 20 弃用问题
 
 permissions:
   contents: write
@@ -30,18 +30,20 @@ jobs:
         run: pip install requests
 
       - name: Run Scraper
+        env:
+          # 【关键】从 GitHub Secrets 读取加密的代理地址
+          MY_PROXY: ${{ secrets.PROXY_URL }} 
         run: |
           python scraper.py
-          # 检查文件是否真的生成了
           if [ ! -f index.html ]; then
             echo "错误：index.html 未生成！"
             exit 1
           fi
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4 # 升级到 v4
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
           publish_branch: gh-pages
-          force_orphan: true
+          force_orphan: true # 确保文件同步最彻底
