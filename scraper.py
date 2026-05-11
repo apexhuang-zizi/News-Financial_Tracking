@@ -1,63 +1,66 @@
 import requests
-import json
+import os
+from datetime import datetime
 
 def fetch_kickstarter_projects():
-    # 2026年实测：直接请求 Kickstarter 的搜索接口比爬网页更稳
-    url = "https://www.kickstarter.com/discover/advanced.json?category_id=16&sort=magic&seed=2851417&page=1"
+    # 尝试使用高级搜索接口
+    url = "https://www.kickstarter.com/discover/advanced.json?category_id=16&sort=magic&page=1"
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "X-Requested-With": "XMLHttpRequest"
     }
     
     try:
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=15)
+        # 如果返回不是 200，主动抛出异常
+        response.raise_for_status() 
         data = response.json()
-        projects = data.get('projects', [])
-        
-        results = []
-        for p in projects[:10]: # 只取前10个最热门的
-            results.append({
-                "name": p.get('name'),
-                "goal": p.get('goal'),
-                "pledged": p.get('pledged'),
-                "currency": p.get('currency'),
-                "deadline": p.get('deadline'),
-                "url": p.get('urls', {}).get('web', {}).get('project'),
-                "photo": p.get('photo', {}).get('medium')
-            })
-        return results
+        return data.get('projects', [])
     except Exception as e:
         print(f"数据抓取失败: {e}")
-        return []
+        return None # 返回 None 代表彻底失败
 
-def generate_html(projects):
-    project_cards = ""
-    for p in projects:
-        percent = int((p['pledged'] / p['goal']) * 100) if p['goal'] > 0 else 0
-        project_cards += f"""
-        <div class="card">
-            <img src="{p['photo']}" style="width:100%; border-radius:8px;">
-            <h3><a href="{p['url']}" target="_blank">{p['name']}</a></h3>
-            <p>筹款进度: <strong>{percent}%</strong> ({p['pledged']} {p['currency']})</p>
+def generate_html(projects, error_msg=None):
+    now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    
+    # 如果没有项目数据，生成一个“维护中”或“被拦截”的提示页面
+    if projects is None or len(projects) == 0:
+        content = f"""
+        <div style="text-align:center; padding:50px;">
+            <h2>⚠️ 抓取暂时受阻</h2>
+            <p>Kickstarter 拦截了来自 GitHub 服务器的请求。</p>
+            <p style="color:red;">错误代码: {error_msg if error_msg else "IP 被封锁 (403)"}</p>
+            <p><strong>解决建议：</strong> 接入我们在方案二中提到的 <strong>DataImpulse 代理 IP</strong> 即可解决。</p>
+            <p><small>尝试更新时间: {now}</small></p>
         </div>
         """
-    
+    else:
+        cards = ""
+        for p in projects[:12]:
+            percent = int((p.get('pledged', 0) / p.get('goal', 1)) * 100)
+            cards += f"""
+            <div style="border:1px solid #ddd; padding:15px; border-radius:10px; background:white;">
+                <img src="{p.get('photo', {}).get('medium')}" style="width:100%; border-radius:5px;">
+                <h3 style="font-size:16px;">{p.get('name')}</h3>
+                <p>进度: <strong>{percent}%</strong></p>
+                <a href="{p.get('urls', {}).get('web', {}).get('project')}" target="_blank">查看详情</a>
+            </div>
+            """
+        content = f"""
+        <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(250px, 1fr)); gap:20px;">
+            {cards}
+        </div>
+        """
+
     html_template = f"""
     <!DOCTYPE html>
-    <html lang="zh">
-    <head>
-        <meta charset="UTF-8">
-        <title>众筹灵感监控站 - 实战版</title>
-        <style>
-            body {{ font-family: 'PingFang SC', sans-serif; background: #f0f2f5; padding: 20px; }}
-            .container {{ max-width: 1000px; margin: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }}
-            .card {{ background: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }}
-            h1 {{ text-align: center; color: #1a365d; }}
-            a {{ color: #2b6cb0; text-decoration: none; }}
-        </style>
-    </head>
-    <body>
-        <h1>🔥 全球硬件众筹热门动态</h1>
-        <div class="container">{project_cards}</div>
+    <html>
+    <head><meta charset="UTF-8"><title>众筹看板</title></head>
+    <body style="font-family:sans-serif; background:#f4f4f4; padding:20px;">
+        <h1 style="text-align:center;">🚀 全球硬件众筹动态 (2026)</h1>
+        {content}
+        <hr><p style="text-align:center; color:#888;">最后更新: {now}</p>
     </body>
     </html>
     """
@@ -65,9 +68,6 @@ def generate_html(projects):
         f.write(html_template)
 
 if __name__ == "__main__":
-    data = fetch_kickstarter_projects()
-    if data:
-        generate_html(data)
-        print(f"成功抓取 {len(data)} 个真实项目！")
-    else:
-        print("未抓取到数据，请检查网络或接口地址。")
+    projects = fetch_kickstarter_projects()
+    generate_html(projects)
+    print("网页文件已强制生成。")
