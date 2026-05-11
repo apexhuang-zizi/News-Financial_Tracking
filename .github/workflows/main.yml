@@ -32,9 +32,9 @@ jobs:
       - name: Run Scraper
         env:
           # 将三个独立的 Secret 传给 Python
-          DI_USER: ${{ secrets.DI_USER }}
-          DI_PASS: ${{ secrets.DI_PASS }}
-          DI_HOST: ${{ secrets.DI_HOST }}
+          DI_USER: ${{ secrets.PROXY_USER }}
+          DI_PASS: ${{ secrets.PROXY_PASS }}
+          DI_HOST: ${{ secrets.PROXY_HOST }}
         run: |
           python scraper.py
           if [ ! -f index.html ]; then
