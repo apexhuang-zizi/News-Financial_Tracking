@@ -1,39 +1,57 @@
-name: Core_Data_Scraper
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch: 
+name: Daily News Scraper & Email
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+on:
+  workflow_dispatch: # 手动触发
+  schedule:
+    # 每天 UTC 时间 01:00 运行，即越南/北京时间 08:00 (根据你的位置计算)
+    - cron: '0 1 * * *'
 
 jobs:
-  build:
+  build_and_deploy:
     runs-on: ubuntu-latest
-    # 强制指定在 GitHub Actions 模式下运行
     steps:
-      - name: Checkout_Repo
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup_Python_Environment
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install_Dependencies
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Execute_Scraper_Logic
+      - name: Execute Scraper
         env:
           MY_PROXY_URL: ${{ secrets.PROXY_URL }}
         run: python scraper.py
 
-      - name: Prepare_Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
+      - name: Commit and Push update
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add index.html
+          git commit -m "Auto-update trends" || exit 0
+          git push
 
-      - name: Final_Deployment
-        uses: actions/deploy-pages@v4
+      - name: Send Email Notification
+        uses: dawidd6/action-send-mail@v3
+        with:
+          # QQ 邮箱的 SMTP 服务器设置
+          server_address: smtp.qq.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: 🚀 每日技术趋势报告 (Hacker News)
+          to: ${{ secrets.MAIL_RECEIVER }}
+          from: "Trend Monitor Agent"
+          # 邮件正文：告知页面已更新并附带预览
+          body: |
+            你好！
+            
+            今天的技术资讯已经抓取完成并同步至你的网页。
+            查看实时页面：https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+            
+            抓取时间：${{ env.CURRENT_TIME }} (UTC)
+          # 把生成的 index.html 作为附件发送，这样你在邮件里直接就能看
+          attachments: index.html
