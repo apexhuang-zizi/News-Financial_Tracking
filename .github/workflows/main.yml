@@ -6,6 +6,11 @@ on:
     # 每天 UTC 时间 01:00 运行，即越南/北京时间 08:00 (根据你的位置计算)
     - cron: '0 1 * * *'
 
+permissions:
+  contents: write  # 允许机器人提交代码（解决 403 报错）
+  pages: write     # 允许更新网页
+  id-token: write  # 用于安全验证
+
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
