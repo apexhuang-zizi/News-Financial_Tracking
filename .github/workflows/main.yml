@@ -4,15 +4,10 @@ on:
     branches: [ main ]
   schedule:
     - cron: '0 0 * * *' 
-  workflow_dispatch: # 允许你点击按钮手动运行
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
+  workflow_dispatch: # 允许手动点击按钮测试
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   build:
@@ -31,16 +26,10 @@ jobs:
 
       - name: Run Scraper
         env:
-          # 将三个独立的 Secret 传给 Python
-          DI_USER: ${{ secrets.PROXY_URL_USER }}
-          DI_PASS: ${{ secrets.PROXY_URL_PASS }}
-          DI_HOST: ${{ secrets.PROXY_URL_HOST }}
+          # 此处必须与您网页上的 Secret 名称 PROXY_URL 严格一致
+          MY_PROXY_URL: ${{ secrets.PROXY_URL }}
         run: |
           python scraper.py
-          if [ ! -f index.html ]; then
-            echo "错误：index.html 未生成！"
-            exit 1
-          fi
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
