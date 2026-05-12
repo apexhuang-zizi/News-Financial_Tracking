@@ -35,22 +35,25 @@ jobs:
 
       - name: Commit and Push update
         run: |
-         git config --global user.name "github-actions[bot]"
-         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-         git add index.html
-
-         # 如果没有变化，直接退出
-         git diff --quiet && git diff --staged --quiet && exit 0
-
-         git commit -m "Auto-update trends [skip ci]"
-
-         # ✅ 关键修复点：使用更安全的方式同步远程
-         git fetch origin main
-         git rebase origin/main
-
-         git push --force-with-lease origin main
-
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # 确保拉取最新状态，防止版本脱节
+          git fetch origin main
+          git checkout main
+          
+          git add index.html
+          
+          # 检查是否有内容变化，没变化就直接跳过，不报错
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "Auto-update trends: $(date)"
+          # 使用强力推送，确保以机器人生成的结果为准
+          git push origin main --force
+          
       - name: Send Email Notification
         if: success() # 只有上面成功了才发邮件
         uses: dawidd6/action-send-mail@v3
