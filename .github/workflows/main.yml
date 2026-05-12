@@ -35,19 +35,21 @@ jobs:
 
       - name: Commit and Push update
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          git add index.html
-          
-          # 如果没有变化就退出，不报错
-          git diff --quiet && git diff --staged --quiet && echo "No changes to commit" && exit 0
-          
-          git commit -m "Auto-update trends [skip ci]"
-          
-          # 关键操作：先拉取远程改动并 rebase，再推送
-          git pull --rebase origin main
-          git push origin main
+         git config --global user.name "github-actions[bot]"
+         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+         git add index.html
+
+         # 如果没有变化，直接退出
+         git diff --quiet && git diff --staged --quiet && exit 0
+
+         git commit -m "Auto-update trends [skip ci]"
+
+         # ✅ 关键修复点：使用更安全的方式同步远程
+         git fetch origin main
+         git rebase origin/main
+
+         git push origin main
 
       - name: Send Email Notification
         if: success() # 只有上面成功了才发邮件
