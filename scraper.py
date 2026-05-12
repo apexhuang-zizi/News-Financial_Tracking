@@ -2,73 +2,83 @@ import os
 import requests
 from datetime import datetime
 import time
-import random
 import re
 
 def fetch_data():
-    print("=== 切换至网页解析模式 (绕过 API 拦截) ===")
+    print("=== 正在通过 Atom 订阅源获取数据 ===")
     proxy_url = os.environ.get('MY_PROXY_URL')
     if not proxy_url:
+        print("❌ 错误：未检测到 PROXY_URL")
         return None
 
     proxies = {"http": proxy_url, "https": proxy_url}
     
-    # 尝试访问网页版搜索结果，而不是 JSON API
-    # url = "https://www.kickstarter.com/discover/advanced?category_id=16&sort=newest"
-    # url = "https://en.wikipedia.org/wiki/Main_Page"
+    # 使用后门 RSS/Atom 地址，防御等级更低
     url = "https://www.kickstarter.com/discover/advanced.atom?category_id=16&sort=newest"
     
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.5",
-        "Upgrade-Insecure-Requests": "1",
-        "Sec-Fetch-Dest": "document",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Site": "none",
-        "Cache-Control": "max-age=0"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        # 解决 406 报错的关键：明确告诉服务器我们要 atom+xml 格式
+        "Accept": "application/atom+xml, application/xml, text/xml, */*"
     }
     
     try:
-        # 随机增加一个更长的等待，模拟真人打开网页
-        time.sleep(random.uniform(3, 7))
         response = requests.get(url, headers=headers, proxies=proxies, timeout=30)
-        print(f"📡 网页响应状态码: {response.status_code}")
+        print(f"📡 服务器响应状态码: {response.status_code}")
         
         if response.status_code == 200:
-            # 使用正则简单抓取项目名称和链接（因为没装 BeautifulSoup，我们用正则最快）
             content = response.text
-            # 匹配项目链接和名称的简化正则
-            links = re.findall(r'href="(/projects/[^?"]+)', content)
-            # 去重
-            unique_links = list(dict.fromkeys(links))
-            print(f"✅ 成功从网页提取到 {len(unique_links)} 个链接")
-            return unique_links
-        elif response.status_code == 403:
-            print("❌ 代理被彻底封锁。原因：DataImpulse 的 IP 质量已被目标站列入黑名单。")
+            print(f"✅ 成功获取数据，长度: {len(content)} 字符")
+            
+            # 使用正则抓取标题和链接
+            # Atom 源的格式很固定：<title>项目名</title> 和 <link href="链接"/>
+            titles = re.findall(r'<title>(.*?)</title>', content)
+            links = re.findall(r'<link [^>]*href="(.*?)"', content)
+            
+            # 过滤掉第一个标题（通常是频道标题 "Kickstarter » Discover"）
+            results = []
+            for t, l in zip(titles[1:], links[1:]):
+                if '/projects/' in l:
+                    results.append({"title": t, "link": l})
+            
+            print(f"✅ 成功提取到 {len(results)} 个最新项目")
+            return results
+        else:
+            print(f"⚠️ 无法获取数据，状态码: {response.status_code}")
+            
     except Exception as e:
         print(f"❌ 异常: {e}")
     return None
 
-def write_html(links):
+def write_html(projects):
     now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     list_items = ""
-    if links:
-        for link in links[:15]:
-            # 提取名字
-            name = link.split('/')[-1].replace('-', ' ').title()
-            full_url = f"https://www.kickstarter.com{link}"
-            list_items += f'<li><a href="{full_url}" target="_blank">{name}</a></li>'
+    
+    if projects:
+        for p in projects[:15]:
+            list_items += f"""
+            <li style="margin-bottom: 12px; list-style: none;">
+                <span style="color: #10b981;">●</span>
+                <a href="{p['link']}" target="_blank" style="color: #1f2937; text-decoration: none; font-weight: 500; font-size: 16px;">
+                    {p['title']}
+                </a>
+            </li>"""
+    else:
+        list_items = "<li>⚠️ 暂无更新，请检查日志。</li>"
     
     html = f"""
     <!DOCTYPE html>
     <html>
-    <head><meta charset="UTF-8"><title>Trends Monitor</title></head>
-    <body style="font-family:sans-serif; padding:20px;">
-        <h2>Global Hardware Trends</h2>
-        <p>Last Update: {now}</p>
-        <hr>
-        <ul>{list_items if list_items else "<li>Wait for IP Rotation...</li>"}</ul>
+    <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Trends Monitor</title></head>
+    <body style="font-family: system-ui, sans-serif; background: #f3f4f6; padding: 30px;">
+        <div style="max-width: 600px; margin: auto; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+            <h2 style="margin-top: 0; color: #111827;">Global Trends Monitor</h2>
+            <p style="color: #6b7280; font-size: 14px;">Sync Time: {now}</p>
+            <hr style="border: 0; border-top: 1px solid #e5e7eb; margin: 20px 0;">
+            <ul style="padding: 0;">
+                {list_items}
+            </ul>
+        </div>
     </body>
     </html>
     """
@@ -76,5 +86,5 @@ def write_html(links):
         f.write(html)
 
 if __name__ == "__main__":
-    links = fetch_data()
-    write_html(links)
+    data = fetch_data()
+    write_html(data)
