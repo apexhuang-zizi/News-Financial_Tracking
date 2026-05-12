@@ -15,7 +15,8 @@ def fetch_data():
     
     # 尝试访问网页版搜索结果，而不是 JSON API
     # url = "https://www.kickstarter.com/discover/advanced?category_id=16&sort=newest"
-    url = "https://en.wikipedia.org/wiki/Main_Page"
+    # url = "https://en.wikipedia.org/wiki/Main_Page"
+    url = "https://www.kickstarter.com/discover/advanced.atom?category_id=16&sort=newest"
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
