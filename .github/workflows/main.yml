@@ -12,35 +12,30 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # 新增下面这三行，告诉 GitHub 这是 Pages 部署环境
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-      - name: Checkout code
+      - name: 1. 下载代码
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: 2. 安装 Python 环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: 3. 安装必要的工具
         run: pip install requests
 
-      - name: Run Scraper
+      - name: 4. 执行爬虫脚本 (Run Scraper)
         env:
-          # 确保这里的 Secret 名字 PROXY_URL 准确无误
           MY_PROXY_URL: ${{ secrets.PROXY_URL }}
         run: |
           python scraper.py
 
-      - name: Upload pages artifact
+      - name: 5. 打包生成物
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - name: 6. 发布到网页
         uses: actions/deploy-pages@v4
