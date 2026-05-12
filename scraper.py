@@ -8,7 +8,7 @@ import google.generativeai as genai
 # --- Gemini 配置 ---
 # 请确保已在 GitHub Secrets 中设置 GEMINI_API_KEY
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 def translate_title(english_title):
     """调用 Gemini API 将标题翻译为中文"""
