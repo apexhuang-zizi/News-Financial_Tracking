@@ -5,15 +5,15 @@ from datetime import datetime
 def fetch_kickstarter_projects():
     print("=== 1. 启动数据采集流程 ===")
     
-    # 这里的名字 MY_PROXY_URL 必须与 main.yml 里的 env 名字一致
+    # 必须与 main.yml 中的 env 变量名 MY_PROXY_URL 保持一致
     proxy_url = os.environ.get('MY_PROXY_URL')
     
     if not proxy_url:
-        print("❌ 错误：未读取到环境变量。请检查 GitHub Secret 名称是否确实为 PROXY_URL。")
+        print("❌ 错误：读取不到环境变量。请检查 GitHub Secret 名称是否确实为 PROXY_URL。")
         return None
 
-    # 打印前缀以确认格式（http://...）
-    print(f"📡 代理配置已读取，准备连接...")
+    # 验证代理配置是否已读取
+    print(f"📡 代理配置已就绪，准备连接...")
 
     proxies = {
         "http": proxy_url,
@@ -43,7 +43,7 @@ def fetch_kickstarter_projects():
             print(f"✅ 成功！拿到 {len(projects)} 个项目数据。")
             return projects
         elif response.status_code == 407:
-            print("❌ 代理认证失败 (407)：请检查 PROXY_URL 里的用户名密码是否包含特殊字符且格式正确。")
+            print("❌ 代理认证失败 (407)：请检查 PROXY_URL 里的用户名密码是否正确。")
         else:
             print(f"⚠️ 请求未成功，返回代码: {response.status_code}")
             
@@ -82,13 +82,13 @@ def generate_html(projects):
     html_template = f"""
     <!DOCTYPE html>
     <html>
-    <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Apex的潮流监控看板</title></head>
+    <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Apex的潮流收集看板</title></head>
     <body style="font-family:sans-serif; background:#f7fafc; padding:20px;">
         <div style="max-width:1000px; margin:auto;">
             <h1 style="text-align:center; color:#2c5282;">🚀 硬件众筹趋势监控</h1>
             {content}
             <div style="text-align:center; margin-top:40px; color:#a0aec0; border-top:1px solid #e2e8f0; padding-top:20px;">
-                最后更新：{now} | 版权归属：@Apex's workspace
+                最后更新：{now} | 版权归属：@Apex Huang
             </div>
         </div>
     </body>
