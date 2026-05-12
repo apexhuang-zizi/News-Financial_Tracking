@@ -31,6 +31,7 @@ jobs:
       - name: Execute Scraper
         env:
           MY_PROXY_URL: ${{ secrets.PROXY_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # 增加这一行
         run: python scraper.py
 
       - name: Commit and Push update
