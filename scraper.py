@@ -82,7 +82,7 @@ def generate_html(projects):
     html_template = f"""
     <!DOCTYPE html>
     <html>
-    <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>KINGWOOD VIETNAM 看板</title></head>
+    <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Apex的潮流监控看板</title></head>
     <body style="font-family:sans-serif; background:#f7fafc; padding:20px;">
         <div style="max-width:1000px; margin:auto;">
             <h1 style="text-align:center; color:#2c5282;">🚀 硬件众筹趋势监控</h1>
