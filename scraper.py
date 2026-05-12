@@ -12,7 +12,7 @@ def fetch_data():
     proxies = {"http": proxy_url, "https": proxy_url}
     
     # 目标换成 Indiegogo 的探索页面
-    url = "[https://news.ycombinator.com/](https://news.ycombinator.com/)"
+    url = "https://news.ycombinator.com/"
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
