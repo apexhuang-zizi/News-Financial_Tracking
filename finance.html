@@ -1,0 +1,42 @@
+
+    <html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    </head>
+    <body style='background:#f0fdf4; font-family:sans-serif; padding:20px;'>
+        <div style='max-width:800px; margin:auto;'>
+            
+    <div style="margin-bottom:20px; padding:15px; background:white; border-radius:8px;">
+        <a href="index.html" style="margin-right:20px; text-decoration:none; color:#ff6600; font-weight:bold;">🏠 HN Tech / 技术趋势</a>
+        <a href="news.html" style="margin-right:20px; text-decoration:none; color:#2563eb; font-weight:bold;">🌍 World News / 国际要闻</a>
+        <a href="finance.html" style="text-decoration:none; color:#059669; font-weight:bold;">📈 Finance / 金融看板</a>
+    </div>
+    
+            <div style="background:white; padding:20px; border-radius:12px; margin-bottom:20px;">
+                <h2 style="color:#059669;">Finance Dashboard / 金融看板</h2>
+                <div style="display:flex; justify-content:space-between;">
+                    <table style="width:45%; border-collapse:collapse;"><tr><td style='padding:8px; border-bottom:1px solid #eee;'>USD/CNY</td><td style='text-align:right; font-weight:bold;'>6.7903</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>VND/CNY</td><td style='text-align:right; font-weight:bold;'>0.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>FPT (FPT)</td><td style='text-align:right; font-weight:bold;'>70700.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>Vietcombank (VCB)</td><td style='text-align:right; font-weight:bold;'>60100.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>Vinamilk (VNM)</td><td style='text-align:right; font-weight:bold;'>59300.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>Hoa Phat (HPG)</td><td style='text-align:right; font-weight:bold;'>27100.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>Mobile World (MWG)</td><td style='text-align:right; font-weight:bold;'>83700.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>BIDV (BID)</td><td style='text-align:right; font-weight:bold;'>42800.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>Vinhomes (VHM)</td><td style='text-align:right; font-weight:bold;'>152500.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>Masan (MSN)</td><td style='text-align:right; font-weight:bold;'>78900.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>PV Gas (GAS)</td><td style='text-align:right; font-weight:bold;'>81800.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>SSI Securities (SSI)</td><td style='text-align:right; font-weight:bold;'>27800.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>VN-Index</td><td style='text-align:right; font-weight:bold;'>0.0</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>VN30 Index</td><td style='text-align:right; font-weight:bold;'>0.0</td></tr></table>
+                    <div style="width:50%; background:#fef3c7; padding:15px; border-radius:8px; height:fit-content;">
+                        <h3>✈️ Flight Price / 机票监控</h3>
+                        <p>SGN - CAN (Direct): <b style="font-size:24px; color:#b45309;">$0</b></p>
+                        <small>Ho Chi Minh to Guangzhou / 胡志明-广州</small>
+                    </div>
+                </div>
+            </div>
+            <div style="background:white; padding:20px; border-radius:12px;">
+                <div id="main" style="width:100%; height:300px;"></div>
+            </div>
+        </div>
+        <script>
+            var myChart = echarts.init(document.getElementById('main'));
+            myChart.setOption({
+                title: { text: 'USD/CNY Trend / 美元汇率趋势' },
+                tooltip: { trigger: 'axis' },
+                xAxis: { data: ['2026-05-13'] },
+                yAxis: { scale: true },
+                series: [{ name: 'USD/CNY', type: 'line', data: [6.7903], smooth: true, color: '#059669' }]
+            });
+        </script>
+    </body>
+    </html>
+    
