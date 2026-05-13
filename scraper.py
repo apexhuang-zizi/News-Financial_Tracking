@@ -10,7 +10,7 @@ import google.generativeai as genai
 # --- 1. 配置区 ---
 # 修正为你指定的版本
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 def translate_text(text):
     if not text: return ""
