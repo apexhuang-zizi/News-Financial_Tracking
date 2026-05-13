@@ -1,35 +1,62 @@
 
     <html>
-    <head><script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script></head>
-    <body style='font-family:sans-serif; padding:30px; background:#f4f7f6;'>
-        <div style='margin-bottom:20px; text-align:center;'>
-        <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a>
-    </div>
-        <div style="display:flex; gap:20px;">
-            <div style="background:#fff; padding:20px; border-radius:10px; flex:1;">
-                <h3>📊 实时看板</h3>
-                <p>美元/人民币: <b>6.7903</b></p>
-                <p>越南盾/人民币(1k): <b>0.258</b></p>
-                <p>SGN-CAN 机票起价: <b>$280</b></p>
-                <hr>
-                <table width="100%"><tr><td>FPT</td><td align='right'><b>70700.0</b></td></tr><tr><td>Vietcombank</td><td align='right'><b>60100.0</b></td></tr><tr><td>Vinamilk</td><td align='right'><b>59300.0</b></td></tr><tr><td>Hoa Phat</td><td align='right'><b>27100.0</b></td></tr><tr><td>Mobile World</td><td align='right'><b>83700.0</b></td></tr><tr><td>BIDV</td><td align='right'><b>42800.0</b></td></tr><tr><td>Vinhomes</td><td align='right'><b>152500.0</b></td></tr><tr><td>Masan</td><td align='right'><b>78900.0</b></td></tr><tr><td>PV Gas</td><td align='right'><b>81800.0</b></td></tr><tr><td>SSI</td><td align='right'><b>27800.0</b></td></tr><tr><td>VN-Index</td><td align='right'><b>0.0</b></td></tr><tr><td>VN30</td><td align='right'><b>0.0</b></td></tr></table>
-            </div>
-            <div style="flex:2;">
-                <div id="chart1" style="height:300px; background:#fff; margin-bottom:20px; border-radius:10px;"></div>
-                <div id="chart2" style="height:300px; background:#fff; border-radius:10px;"></div>
-            </div>
+    <head>
+        <meta charset="utf-8"><script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+        <style> .chart { height: 300px; margin-bottom: 30px; background: #fff; padding: 15px; border-radius: 8px; shadow: 0 2px 5px #0001; } </style>
+    </head>
+    <body style="background:#f0f2f5; padding:20px; font-family:sans-serif;">
+        <h2 style="text-align:center;">📊 金融监控看板</h2>
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div id="c1" class="chart"></div>
+            <div id="c2" class="chart"></div>
+            <div id="c3" class="chart"></div>
+            <div id="c4" class="chart"></div>
         </div>
         <script>
-            var common = { tooltip:{trigger:'axis'}, xAxis:{data:['2026-05-13']}, yAxis:{scale:true} };
-            echarts.init(document.getElementById('chart1')).setOption({
-                ...common, title:{text:'汇率趋势 (Exchange Rate)'},
-                series:[{name:'USD/CNY', type:'line', data:[6.7903], color:'#10b981'},
-                        {name:'VND/CNY(1k)', type:'line', data:[0.258], color:'#3b82f6'}]
-            });
-            echarts.init(document.getElementById('chart2')).setOption({
-                ...common, title:{text:'机票价格与股市指数趋势'},
-                series:[{name:'Flight($)', type:'line', data:[280.0], color:'#f59e0b'},
-                        {name:'VN-Index', type:'line', data:[0.0], color:'#ef4444'}]
-            });
+            
+        var chart_c1 = echarts.init(document.getElementById('c1'));
+        chart_c1.setOption({
+            title: { text: '汇率走势' },
+            tooltip: { trigger: 'axis' },
+            xAxis: { data: ['2026-05-13'] },
+            yAxis: { scale: true },
+            series: [{'name': 'USD/CNY', 'type': 'line', 'data': [6.7903]}, {'name': 'VND/CNY(1k)', 'type': 'line', 'data': [0.258]}]
+        });
+        
+            
+        var chart_c2 = echarts.init(document.getElementById('c2'));
+        chart_c2.setOption({
+            title: { text: '关注个股历史' },
+            tooltip: { trigger: 'axis' },
+            xAxis: { data: ['2026-05-13'] },
+            yAxis: { scale: true },
+            series: [{'name': 'FPT', 'type': 'line', 'data': [nan]}, {'name': 'VCB', 'type': 'line', 'data': [nan]}, {'name': 'VNM', 'type': 'line', 'data': [nan]}]
+        });
+        
+            
+        var chart_c3 = echarts.init(document.getElementById('c3'));
+        chart_c3.setOption({
+            title: { text: '越南指数' },
+            tooltip: { trigger: 'axis' },
+            xAxis: { data: ['2026-05-13'] },
+            yAxis: { scale: true },
+            series: [{'name': 'VN-Index', 'type': 'line', 'data': [nan]}]
+        });
+        
+            
+        var chart_c4 = echarts.init(document.getElementById('c4'));
+        chart_c4.setOption({
+            title: { text: 'SGN-CAN 机票监控' },
+            tooltip: { trigger: 'axis' },
+            xAxis: { data: ['2026-05-13'] },
+            yAxis: { scale: true },
+            series: [{'name': '当日低价', 'type': 'line', 'data': [nan]}, {'name': '2027-02-01价', 'type': 'line', 'data': [nan]}]
+        });
+        
         </script>
-    </body></html>
+        <hr>
+        <h3>🔥 今日技术趋势 (20条)</h3>
+        <ul><li><a href='https://fredchan.org/blog/locality-domains-guide/'>翻译失败</a><br><small>Setting up a free *.city.state.us locality domain</small></li><li><a href='https://ossresistance.com/'>翻译失败</a><br><small>Open Source Resistance: keep OSS alive on company time</small></li><li><a href='https://laurent.le-brun.eu/blog/a-history-of-ides-at-google'>翻译失败</a><br><small>A History of IDEs at Google</small></li><li><a href='https://www.tryardent.com/'>翻译失败</a><br><small>Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration</small></li><li><a href='https://grantmestrength.github.io/S100/'>翻译失败</a><br><small>S-100 Virtual Workbench</small></li><li><a href='https://github.com/nooga/xsofy'>翻译失败</a><br><small>Xs of Y – roguelike that names itself every run. Written in 4kLoC</small></li><li><a href='https://discuss.python.org/t/reverting-the-incremental-gc-in-python-3-14-and-3-15/107014'>翻译失败</a><br><small>Reverting the incremental GC in Python 3.14 and 3.15</small></li><li><a href='https://sockpuppet.org/blog/2026/05/12/emacsification/'>翻译失败</a><br><small>The Emacsification of Software</small></li><li><a href='https://dynomight.net/lifespan/'>翻译失败</a><br><small>Heritability of human life span is ~50% when heritability is redefined</small></li><li><a href='https://jorijn.com/en/blog/leaving-github-for-forgejo/'>翻译失败</a><br><small>Leaving GitHub for Forgejo</small></li><li><a href='https://avkcode.github.io/blog/us-winning-ai-race.html'>翻译失败</a><br><small>The US is winning the AI race where it matters most: commercialization</small></li><li><a href='https://magnusross.github.io/posts/protein-lead-optimisation-1/'>翻译失败</a><br><small>An idiot&#x27;s guide to lead optimisation for proteins</small></li><li><a href='https://www.sciencedaily.com/releases/2026/05/260510030950.htm'>翻译失败</a><br><small>New stainless steel can survive conditions for hydrogen production in seawater</small></li><li><a href='https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/'>翻译失败</a><br><small>I moved my digital stack to Europe</small></li><li><a href='https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter'>翻译失败</a><br><small>Preserving Fisher-Price Pixter</small></li><li><a href='https://www.haiku-os.org'>翻译失败</a><br><small>Haiku</small></li><li><a href='https://github.com/FULU-Foundation/OrcaSlicer-bambulab'>翻译失败</a><br><small>Restore full BambuNetwork support for Bambu Lab printers</small></li><li><a href='https://www.ycombinator.com/companies/substrate/jobs/T2fMBhD-technical-success-manager'>翻译失败</a><br><small>Substrate (YC S24) Is Hiring a Technical Success Manager</small></li><li><a href='https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/'>翻译失败</a><br><small>Linux gaming is faster because Windows APIs are becoming Linux kernel features</small></li><li><a href='https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/'>翻译失败</a><br><small>Twin brothers wipe 96 government databases minutes after being fired</small></li></ul>
+    </body>
+    </html>
+    
