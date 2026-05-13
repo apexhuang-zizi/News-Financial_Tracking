@@ -1,113 +1,201 @@
 import os
 import requests
+import pandas as pd
+import yfinance as yf
 from datetime import datetime
 import re
 import time
+from bs4 import BeautifulSoup
 import google.generativeai as genai
+import xml.etree.ElementTree as ET
 
-# --- Gemini 配置 ---
-# 请确保已在 GitHub Secrets 中设置 GEMINI_API_KEY
+# --- 配置区 ---
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-2.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
-def translate_title(english_title):
-    """调用 Gemini API 将标题翻译为中文"""
-    if not english_title:
-        return ""
-    
-    prompt = f"你是一个专业的软件工程师和技术翻译。请将以下技术新闻标题翻译成地道的中文，保持术语准确（如保留 Python, AI 等词汇）。只需返回翻译后的文字，不要有任何解释：\n\n{english_title}"
-    
+def translate_text(text, is_tech=True):
+    """通用 Gemini 翻译函数"""
+    if not text: return ""
+    domain = "技术新闻" if is_tech else "国际新闻"
+    prompt = f"你是一个专业的{domain}翻译。请将以下标题翻译成地道的中文。只需返回翻译结果：\n\n{text}"
     try:
         response = model.generate_content(prompt)
         return response.text.strip()
-    except Exception as e:
-        print(f"⚠️ 翻译执行异常: {e}")
+    except:
         return ""
 
-def fetch_data():
-    print("=== 最终链路验证：抓取 Hacker News ===")
-    
-    # 自动获取你在 GitHub Secrets 设置的代理
-    proxy_url = os.environ.get('MY_PROXY_URL')
-    proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
-    
-    # 目标 URL
-    url = "https://news.ycombinator.com/"
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    }
-    
+# --- 1. 国际要闻抓取 (BBC RSS) ---
+def fetch_intl_news():
+    print("🌍 抓取国际要闻...")
+    url = "http://feeds.bbci.co.uk/news/world/rss.xml"
     try:
-        # 执行请求
-        response = requests.get(url, headers=headers, proxies=proxies, timeout=20)
-        print(f"📡 响应状态码: {response.status_code}")
-        
-        if response.status_code == 200:
-            content = response.text
-            # 提取新闻标题和链接
-            pattern = r'<span class="titleline"><a href="(.*?)".*?>(.*?)</a>'
-            items = re.findall(pattern, content)
-            
-            print(f"✅ 成功！抓取到 {len(items)} 条真实新闻")
-            return items
+        r = requests.get(url, timeout=20)
+        root = ET.fromstring(r.content)
+        news_items = []
+        for item in root.findall('.//item')[:10]:
+            title = item.find('title').text
+            link = item.find('link').text
+            cn_title = translate_text(title, is_tech=False)
+            news_items.append({'en': title, 'cn': cn_title, 'url': link})
+            time.sleep(0.5) # 频率控制
+        return news_items
     except Exception as e:
-        print(f"❌ 抓取异常: {e}")
-    return None
+        print(f"新闻抓取失败: {e}")
+        return []
 
-def write_html(items):
-    now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    list_items = ""
+# --- 2. 金融数据抓取 (汇率 & 越南股市) ---
+def fetch_finance():
+    print("📈 抓取金融数据...")
+    # 定义代码映射
+    tickers = {
+        "USD/CNY": "USDCNY=X",
+        "VND/CNY": "VNDCNY=X",
+        "FPT (FPT)": "FPT.VN",
+        "Vietcombank (VCB)": "VCB.VN",
+        "Vinamilk (VNM)": "VNM.VN",
+        "Hoa Phat (HPG)": "HPG.VN",
+        "Mobile World (MWG)": "MWG.VN",
+        "BIDV (BID)": "BID.VN",
+        "Vinhomes (VHM)": "VHM.VN",
+        "Masan (MSN)": "MSN.VN",
+        "PV Gas (GAS)": "GAS.VN",
+        "SSI Securities (SSI)": "SSI.VN",
+        "VN-Index": "^VNINDEX",
+        "VN30 Index": "^VN30"
+    }
+    results = {}
+    for name, code in tickers.items():
+        try:
+            t = yf.Ticker(code)
+            # 获取最新价格，若 yfinance 获取不到，则设为 0
+            price = t.fast_info['last_price']
+            results[name] = round(price, 4 if "CNY" in name else 2)
+        except:
+            results[name] = 0.0
+    return results
+
+# --- 3. 机票监控 (SGN - CAN) ---
+def fetch_flight_price():
+    print("✈️ 抓取机票价格...")
+    # 这里通过搜索引擎结果进行“最佳努力”抓取，避免 headless browser 导致的 403
+    url = "https://www.google.com/search?q=flight+price+SGN+to+CAN+direct+one+way"
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    try:
+        r = requests.get(url, headers=headers, timeout=15)
+        # 正则寻找包含 $ 符号的金额数字
+        prices = re.findall(r'\$(\d{2,4})', r.text)
+        if prices:
+            return min([int(p) for p in prices])
+    except:
+        pass
+    return 0
+
+# --- 4. 数据库持久化 ---
+def update_database(finance_data, flight_price):
+    today = datetime.now().strftime('%Y-%m-%d')
+    new_data = {"Date": today, "Flight_Price": flight_price, **finance_data}
     
-    if items:
-        count = 0
-        for link, title in items[:20]:
-            count += 1
-            print(f"正在处理第 {count}/20 条: {title[:30]}...")
-            
-            # 1. 处理相对路径链接
-            full_url = link if link.startswith('http') else f"https://news.ycombinator.com/{link}"
-            
-            # 2. 调用 Gemini 进行翻译
-            cn_title = translate_title(title)
-            
-            # 3. 构造翻译后的显示内容
-            # 如果翻译成功，则在英文下方显示灰色中文；如果失败，则只显示英文
-            translation_html = f"<div style='color: #6b7280; font-size: 13px; margin-top: 4px;'>{cn_title}</div>" if cn_title else ""
-            
-            list_items += f"""
-            <li style="margin-bottom: 20px; border-bottom: 1px solid #f3f4f6; pb: 10px;">
-                <a href="{full_url}" target="_blank" style="color: #d97706; text-decoration: none; font-weight: 500; font-size: 16px;">
-                    {title}
-                </a>
-                {translation_html}
-            </li>"""
-            
-            # 4. 频率控制：由于 Gemini 免费版有限制，每条之间休息 1 秒
-            time.sleep(1)
+    file = "history.csv"
+    if os.path.exists(file):
+        df = pd.read_csv(file)
+        # 覆盖当天旧数据，合并新数据
+        df = df[df['Date'] != today]
+        df = pd.concat([df, pd.DataFrame([new_data])], ignore_index=True)
     else:
-        list_items = "<li>⚠️ 暂时没有抓取到数据，请检查 Actions 日志。</li>"
+        df = pd.DataFrame([new_data])
     
-    html = f"""
-    <!DOCTYPE html>
+    # 只保留最近 30 天
+    df = df.tail(30)
+    df.to_csv(file, index=False)
+    return df
+
+# --- 5. 网页生成模块 ---
+def generate_pages(hn_news, intl_news, finance_data, history_df):
+    now = datetime.now().strftime('%Y-%m-%d %H:%M')
+    
+    # 导航栏 HTML
+    nav_html = """
+    <div style="margin-bottom:20px; padding:15px; background:white; border-radius:8px;">
+        <a href="index.html" style="margin-right:20px; text-decoration:none; color:#ff6600; font-weight:bold;">🏠 HN Tech / 技术趋势</a>
+        <a href="news.html" style="margin-right:20px; text-decoration:none; color:#2563eb; font-weight:bold;">🌍 World News / 国际要闻</a>
+        <a href="finance.html" style="text-decoration:none; color:#059669; font-weight:bold;">📈 Finance / 金融看板</a>
+    </div>
+    """
+
+    # --- Page 1: index.html (Hacker News) ---
+    hn_list = "".join([f"<li><a href='{link}'>{title}</a><br><small style='color:gray'>{translate_text(title)}</small></li>" for link, title in hn_news[:15]])
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write(f"<html><body style='background:#f9fafb; font-family:sans-serif; padding:20px;'><div style='max-width:800px; margin:auto;'>{nav_html}<h2>Technical Trends / 技术趋势</h2><ul>{hn_list}</ul><p><small>Updated: {now}</small></p></div></body></html>")
+
+    # --- Page 2: news.html (BBC News) ---
+    intl_list = "".join([f"<li style='margin-bottom:15px;'><a href='{n['url']}'>{n['en']}</a><br><b style='color:#1e40af'>{n['cn']}</b></li>" for n in intl_news])
+    with open("news.html", "w", encoding="utf-8") as f:
+        f.write(f"<html><body style='background:#f3f4f6; font-family:sans-serif; padding:20px;'><div style='max-width:800px; margin:auto;'>{nav_html}<h2>International News / 国际要闻 (BBC)</h2><ul>{intl_list}</ul></div></body></html>")
+
+    # --- Page 3: finance.html (Dashboard + Charts) ---
+    stock_rows = "".join([f"<tr><td style='padding:8px; border-bottom:1px solid #eee;'>{k}</td><td style='text-align:right; font-weight:bold;'>{v}</td></tr>" for k, v in finance_data.items()])
+    
+    # 提取图表数据 (最近15天)
+    chart_df = history_df.tail(15)
+    dates = chart_df['Date'].tolist()
+    usd_vals = chart_df['USD/CNY'].tolist()
+
+    finance_html = f"""
     <html>
-    <head><meta charset="UTF-8"><title>Data Monitor</title></head>
-    <body style="font-family: system-ui, -apple-system, sans-serif; background: #fffaf0; padding: 40px;">
-        <div style="max-width: 700px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-            <h2 style="color: #ff6600; margin-top: 0;">Hacker News Tech Trends (With AI Translation)</h2>
-            <p style="color: #71717a; font-size: 14px;">最后更新时间: {now}</p>
-            <hr style="border: 0; border-top: 1px solid #fee2e2; margin: 20px 0;">
-            <ul style="padding-left: 0; list-style: none;">
-                {list_items}
-            </ul>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    </head>
+    <body style='background:#f0fdf4; font-family:sans-serif; padding:20px;'>
+        <div style='max-width:800px; margin:auto;'>
+            {nav_html}
+            <div style="background:white; padding:20px; border-radius:12px; margin-bottom:20px;">
+                <h2 style="color:#059669;">Finance Dashboard / 金融看板</h2>
+                <div style="display:flex; justify-content:space-between;">
+                    <table style="width:45%; border-collapse:collapse;">{stock_rows}</table>
+                    <div style="width:50%; background:#fef3c7; padding:15px; border-radius:8px; height:fit-content;">
+                        <h3>✈️ Flight Price / 机票监控</h3>
+                        <p>SGN - CAN (Direct): <b style="font-size:24px; color:#b45309;">${history_df.iloc[-1]['Flight_Price']}</b></p>
+                        <small>Ho Chi Minh to Guangzhou / 胡志明-广州</small>
+                    </div>
+                </div>
+            </div>
+            <div style="background:white; padding:20px; border-radius:12px;">
+                <div id="main" style="width:100%; height:300px;"></div>
+            </div>
         </div>
+        <script>
+            var myChart = echarts.init(document.getElementById('main'));
+            myChart.setOption({{
+                title: {{ text: 'USD/CNY Trend / 美元汇率趋势' }},
+                tooltip: {{ trigger: 'axis' }},
+                xAxis: {{ data: {dates} }},
+                yAxis: {{ scale: true }},
+                series: [{{ name: 'USD/CNY', type: 'line', data: {usd_vals}, smooth: true, color: '#059669' }}]
+            }});
+        </script>
     </body>
     </html>
     """
-    with open("index.html", "w", encoding="utf-8") as f:
-        f.write(html)
-    print("🚀 index.html 页面已更新（包含 AI 翻译）")
+    with open("finance.html", "w", encoding="utf-8") as f:
+        f.write(finance_html)
+
+# --- 原有 HN 抓取逻辑简化适配 ---
+def fetch_hn_simple():
+    try:
+        r = requests.get("https://news.ycombinator.com/", timeout=15)
+        pattern = r'<span class="titleline"><a href="(.*?)".*?>(.*?)</a>'
+        return re.findall(pattern, r.text)
+    except: return []
 
 if __name__ == "__main__":
-    data = fetch_data()
-    write_html(data)
+    # 1. 抓取所有维度数据
+    hn_news = fetch_hn_simple()
+    intl_news = fetch_intl_news()
+    fin_data = fetch_finance()
+    f_price = fetch_flight_price()
+    
+    # 2. 更新数据库并生成页面
+    history_df = update_database(fin_data, f_price)
+    generate_pages(hn_news, intl_news, fin_data, history_df)
+    
+    print("✅ 任务圆满完成！")
