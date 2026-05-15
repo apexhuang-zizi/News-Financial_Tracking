@@ -173,6 +173,7 @@ def fetch_flight_data_v2(target_date, is_fixed=False):
         "stops": "1"
     }
     try:
+        from serpapi.google_search import GoogleSearch
         search = GoogleSearch(params)
         results = search.get_dict()
         flights = results.get("best_flights", []) + results.get("other_flights", [])
