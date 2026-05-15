@@ -153,223 +153,55 @@ def fetch_finance():
     }
 
 # ---------- 5. 机票价格监控 (当日 + 固定日期 2027-02-01) ----------
-def fetch_today_flight_price():
-    """获取胡志明->广州 当日最低价 (美元)"""
-    query = "cheapest flight SGN to CAN 2025"
-    url = f"https://www.google.com/search?q={query.replace(' ', '+')}"
-    headers = {"User-Agent": "Mozilla/5.0"}
-    try:
-        r = requests.get(url, headers=headers, timeout=15)
-        prices = [int(p) for p in re.findall(r'\$(\d{2,4})', r.text) if 50 < int(p) < 1000]
-        if prices:
-            return min(prices)
-    except Exception:
-        pass
-    return 185
 
-def fetch_flight_price_for_date(target_date="2027-02-01"):
-    """特定日期票价估算（基于当日价 + 春节溢价）"""
-    today_price = fetch_today_flight_price()
-    estimated = int(today_price * 1.45)
-    if estimated < 250:
-        estimated = 320
-    elif estimated > 650:
-        estimated = 580
-    return estimated
-
-def fetch_flight_prices():
-    today = fetch_today_flight_price()
-    fixed = fetch_flight_price_for_date("2027-02-01")
-    return today, fixed
-
-# ---------- 6. 数据库与页面生成 ----------
-def update_db_and_pages(hn, world, fin, flight_today, flight_fixed):
-    today_str = datetime.now().strftime('%Y-%m-%d')
-
-    # ---------- 历史数据：汇率 + 机票 ----------
-    hist_row = {
-        "Date": today_str,
-        "USD_CNY": fin["USD_CNY"],
-        "VND_CNY_1k": fin["VND_CNY_1k"],
-        "Flight_Today": flight_today,
-        "VN_Index": fin["VN_Index"]
+def fetch_flight_data_v2(target_date, is_fixed=False):
+    """通过 SerpApi 抓取南航直达机票数据"""
+    api_key = os.environ.get("SERPAPI_KEY")
+    if not api_key:
+        return 0, "<tr><td colspan='3'>未配置 API Key</td></tr>"
+    
+    from serpapi import GoogleSearch
+    params = {
+        "engine": "google_flights",
+        "departure_id": "SGN",
+        "arrival_id": "CAN",
+        "outbound_date": target_date,
+        "currency": "CNY",  # <--- 改为人民币计价
+        "hl": "zh-cn",
+        "api_key": api_key,
+        "type": "1",
+        "stops": "1"
     }
-    hist_file = "history.csv"
-    if os.path.exists(hist_file):
-        df_hist = pd.read_csv(hist_file)
-        df_hist = df_hist[df_hist['Date'] != today_str]
-        df_hist = pd.concat([df_hist, pd.DataFrame([hist_row])], ignore_index=True)
-    else:
-        df_hist = pd.DataFrame([hist_row])
-    df_hist.tail(90).to_csv(hist_file, index=False)
+    try:
+        search = GoogleSearch(params)
+        results = search.get_dict()
+        flights = results.get("best_flights", []) + results.get("other_flights", [])
+        cz_flights = []
+        for f in flights:
+            for seg in f.get("flights", []):
+                name = seg.get("airline", "")
+                if "China Southern" in name or "南方航空" in name:
+                    cz_flights.append({
+                        "flight_number": seg.get("flight_number", "CZ???"),
+                        "price": f.get("price", 9999),
+                        "departure": seg.get("departure_airport", {}).get("time", "未知")
+                    })
+        if not cz_flights:
+            return 0, "<tr><td colspan='3'>未找到南航直达航班</td></tr>"
+        
+        cz_flights.sort(key=lambda x: x['price'])
+        lowest_price = cz_flights[0]['price']
+        rows_html = "".join([f"<tr><td style='padding:8px;border-bottom:1px solid #eee;'>{f['flight_number']}</td><td style='padding:8px;border-bottom:1px solid #eee;'>￥{f['price']}</td><td style='padding:8px;border-bottom:1px solid #eee;'>{f['departure']}</td></tr>" for f in cz_flights[:5]])
+        return lowest_price, rows_html
+    except Exception as e:
+        print(f"Error fetching flight: {e}")
+        return 0, f"<tr><td colspan='3'>错误: {str(e)}</td></tr>"
 
-    # ---------- 股票历史 ----------
-    stock_file = "stock_history.csv"
-    stock_row = {"Date": today_str}
-    for name, price in fin["Stocks"].items():
-        stock_row[name] = price
-    if os.path.exists(stock_file):
-        df_stock = pd.read_csv(stock_file)
-        df_stock = df_stock[df_stock['Date'] != today_str]
-        df_stock = pd.concat([df_stock, pd.DataFrame([stock_row])], ignore_index=True)
-    else:
-        df_stock = pd.DataFrame([stock_row])
-    df_stock.tail(90).to_csv(stock_file, index=False)
+def fetch_today_flight_price():
+    # 趋势参考：抓取 14 天后的机票
+    target = (pd.Timestamp.now() + pd.Timedelta(days=14)).strftime('%Y-%m-%d')
+    return fetch_flight_data_v2(target)
 
-    # ---------- 导航栏 ----------
-    nav = """<div style='margin-bottom:25px; text-align:center; font-size:1.2rem;'>
-        <a href='index.html'>🏠 技术趋势</a> | 
-        <a href='news.html'>🌍 国际要闻</a> | 
-        <a href='finance.html'>📈 金融看板</a>
-    </div><hr>"""
-
-    # ---------- index.html ----------
-    hn_list = "".join([
-        f"<li style='margin-bottom:15px;'><a href='{item['url']}' target='_blank'><b>{item['title']}</b></a><br>"
-        f"<small style='color:#2c5282;'>{item['cn_title']}</small></li>"
-        for item in hn
-    ])
-    with open("index.html", "w", encoding="utf-8") as f:
-        f.write(f"<html><head><meta charset='UTF-8'><title>技术趋势</title></head>"
-                f"<body style='font-family:system-ui, sans-serif; padding:30px; max-width:1000px; margin:auto;'>"
-                f"{nav}<h2>📌 Hacker News 技术热点 (Top 20)</h2><ul style='line-height:1.6;'>{hn_list}</ul></body></html>")
-
-    # ---------- news.html ----------
-    news_list = "".join([
-        f"<li style='margin-bottom:18px;'><a href='{item['url']}' target='_blank'><b>{item['cn_title']}</b></a><br>"
-        f"<small style='color:#4a5568;'>{item['title']}</small></li>"
-        for item in world
-    ])
-    with open("news.html", "w", encoding="utf-8") as f:
-        f.write(f"<html><head><meta charset='UTF-8'><title>国际要闻</title></head>"
-                f"<body style='font-family:system-ui, sans-serif; padding:30px; max-width:1000px; margin:auto;'>"
-                f"{nav}<h2>🌐 BBC 国际要闻</h2><ul style='line-height:1.6;'>{news_list}</ul></body></html>")
-
-    # ---------- finance.html ----------
-    hist_curve = pd.read_csv(hist_file) if os.path.exists(hist_file) else df_hist
-    stock_curve = pd.read_csv(stock_file) if os.path.exists(stock_file) else df_stock
-
-    dates = hist_curve['Date'].tolist()
-    usd_cny_vals = hist_curve['USD_CNY'].tolist()
-    vnd_cny_vals = hist_curve['VND_CNY_1k'].tolist()
-    flight_hist_vals = hist_curve['Flight_Today'].tolist()
-
-    stock_columns = [col for col in stock_curve.columns if col != 'Date']
-    stock_series_js = []
-    for stock_name in stock_columns:
-        stock_vals = stock_curve[stock_name].fillna(0).tolist()
-        stock_series_js.append(f"{{ name: '{stock_name}', type: 'line', data: {stock_vals}, smooth: false }}")
-
-    stock_rows = "".join([
-        f"<tr><td><b>{name}</b></td><td align='right'>{price:,.2f} ₫</td></tr>"
-        for name, price in fin["Stocks"].items()
-    ])
-
-    # 修复关键点：正确拼接 JS 数组
-    stock_series_str = ', '.join(stock_series_js)
-
-    finance_html = f"""
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>金融看板 · 越南投资仪表盘</title>
-    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-    <style>
-        body {{ font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f4f8; padding: 20px; }}
-        .dashboard {{ display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; }}
-        .card {{ background: white; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 20px; flex: 1 1 45%; }}
-        .full-card {{ flex: 1 1 100%; }}
-        .real-time {{ background: #1e293b; color: white; border-radius: 20px; padding: 20px; margin-bottom: 20px; display: flex; justify-content: space-between; flex-wrap: wrap; }}
-        .real-time div {{ background: #0f172a; padding: 12px 18px; border-radius: 40px; min-width: 180px; margin: 6px; }}
-        table {{ width: 100%; border-collapse: collapse; }}
-        td, th {{ padding: 8px; border-bottom: 1px solid #e2e8f0; }}
-        h3 {{ margin-top: 0; color: #0f3b5c; }}
-        .chart-box {{ height: 320px; width: 100%; margin-top: 15px; }}
-    </style>
-</head>
-<body>
-    {nav}
-    <div class="real-time">
-        <div>💵 美元/人民币: <b>{fin['USD_CNY']}</b></div>
-        <div>🇻🇳 越南盾/1k CNY: <b>{fin['VND_CNY_1k']}</b></div>
-        <div>📈 VN-Index: <b>{fin['VN_Index']:.2f}</b></div>
-        <div>✈️ 今日 SGN→CAN: <b>${flight_today}</b></div>
-        <div>📅 2027-02-01 票价: <b>${flight_fixed}</b> (预估值)</div>
-    </div>
-
-    <div class="dashboard">
-        <div class="card">
-            <h3>📉 汇率A · 美元/人民币 (USD/CNY)</h3>
-            <div id="chart_usdcny" class="chart-box"></div>
-        </div>
-        <div class="card">
-            <h3>🧮 汇率B · 越南盾/千元人民币 (VND/1k CNY)</h3>
-            <div id="chart_vndcny" class="chart-box"></div>
-        </div>
-        <div class="full-card">
-            <h3>📊 越南龙头股历史走势 (收盘价)</h3>
-            <div id="chart_stocks" class="chart-box" style="height: 420px;"></div>
-            <div style="font-size: 12px; color: #555; margin-top: 8px; text-align:center;">注: 单位为越南盾 (VND)，部分股票价格缺失日可能为0</div>
-        </div>
-        <div class="full-card">
-            <h3>✈️ 胡志明→广州 当日机票价格历史 ($)</h3>
-            <div id="chart_flight" class="chart-box" style="height: 300px;"></div>
-        </div>
-    </div>
-
-    <div class="card" style="margin-top: 20px;">
-        <h3>🏦 实时股票价格 (越南市场)</h3>
-        <table> <thead><tr><th>股票名称</th><th>最新价 (VND)</th></tr></thead>
-        <tbody>{stock_rows}</tbody>
-        </table>
-    </div>
-
-    <script>
-        var dates = {dates};
-        var chart1 = echarts.init(document.getElementById('chart_usdcny'));
-        chart1.setOption({{
-            tooltip: {{ trigger: 'axis' }},
-            xAxis: {{ data: dates, name: '日期' }},
-            yAxis: {{ name: 'USD/CNY', scale: true }},
-            series: [{{ name: 'USD/CNY', type: 'line', data: {usd_cny_vals}, color: '#e53e3e', smooth: true }}]
-        }});
-        var chart2 = echarts.init(document.getElementById('chart_vndcny'));
-        chart2.setOption({{
-            tooltip: {{ trigger: 'axis' }},
-            xAxis: {{ data: dates, name: '日期' }},
-            yAxis: {{ name: 'VND / 1000 CNY', scale: true }},
-            series: [{{ name: 'VND/1k CNY', type: 'line', data: {vnd_cny_vals}, color: '#3182ce', smooth: true }}]
-        }});
-        var chart3 = echarts.init(document.getElementById('chart_stocks'));
-        chart3.setOption({{
-            tooltip: {{ trigger: 'axis' }},
-            legend: {{ type: 'scroll', orient: 'horizontal', left: 'left', top: 0, itemWidth: 30 }},
-            xAxis: {{ data: dates, name: '日期' }},
-            yAxis: {{ name: '价格 (越南盾)', scale: true }},
-            series: [{stock_series_str}]
-        }});
-        var chart4 = echarts.init(document.getElementById('chart_flight'));
-        chart4.setOption({{
-            tooltip: {{ trigger: 'axis' }},
-            xAxis: {{ data: dates, name: '日期' }},
-            yAxis: {{ name: '美元 ($)', min: 0 }},
-            series: [{{ name: '当日票价 (SGN→CAN)', type: 'line', data: {flight_hist_vals}, color: '#f59e0b', smooth: true }}]
-        }});
-        window.addEventListener('resize', () => {{ chart1.resize(); chart2.resize(); chart3.resize(); chart4.resize(); }});
-    </script>
-</body>
-</html>"""
-    with open("finance.html", "w", encoding="utf-8") as f:
-        f.write(finance_html)
-
-    print("✅ 所有页面已生成，历史曲线数据已更新")
-
-# ---------- 主程序 ----------
-if __name__ == "__main__":
-    hn_news = fetch_hn_tech()
-    world_news = fetch_world_news()
-    fin_data = fetch_finance()
-    flight_today, flight_fixed = fetch_flight_prices()
-    update_db_and_pages(hn_news, world_news, fin_data, flight_today, flight_fixed)
-    print("🎉 全部完成！")
+def fetch_fixed_date_flight():
+    # 固定盯住 2027-02-01
+    return fetch_flight_data_v2("2027-02-01", is_fixed=True)
