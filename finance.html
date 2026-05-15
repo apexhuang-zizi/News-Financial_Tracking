@@ -1,96 +1,64 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>金融看板 · 越南投资仪表盘</title>
-    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <title>金融看板</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
     <style>
-        body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f4f8; padding: 20px; }
-        .dashboard { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; }
-        .card { background: white; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 20px; flex: 1 1 45%; }
-        .full-card { flex: 1 1 100%; }
-        .real-time { background: #1e293b; color: white; border-radius: 20px; padding: 20px; margin-bottom: 20px; display: flex; justify-content: space-between; flex-wrap: wrap; }
-        .real-time div { background: #0f172a; padding: 12px 18px; border-radius: 40px; min-width: 180px; margin: 6px; }
-        table { width: 100%; border-collapse: collapse; }
-        td, th { padding: 8px; border-bottom: 1px solid #e2e8f0; }
-        h3 { margin-top: 0; color: #0f3b5c; }
-        .chart-box { height: 320px; width: 100%; margin-top: 15px; }
+        body { font-family: sans-serif; background: #f4f7f6; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th { background: #f8f9fa; }
+        .btn { padding: 10px 20px; color: white; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; display: inline-block; }
     </style>
 </head>
 <body>
-    <div style='margin-bottom:25px; text-align:center; font-size:1.2rem;'>
-        <a href='index.html'>🏠 技术趋势</a> | 
-        <a href='news.html'>🌍 国际要闻</a> | 
-        <a href='finance.html'>📈 金融看板</a>
-    </div><hr>
-    <div class="real-time">
-        <div>💵 美元/人民币: <b>6.8087</b></div>
-        <div>🇻🇳 越南盾/1k CNY: <b>0.2584</b></div>
-        <div>📈 VN-Index: <b>0.00</b></div>
-        <div>✈️ 今日 SGN→CAN: <b>$185</b></div>
-        <div>📅 2027-02-01 票价: <b>$268</b> (预估值)</div>
-    </div>
-
-    <div class="dashboard">
-        <div class="card">
-            <h3>📉 汇率A · 美元/人民币 (USD/CNY)</h3>
-            <div id="chart_usdcny" class="chart-box"></div>
-        </div>
-        <div class="card">
-            <h3>🧮 汇率B · 越南盾/千元人民币 (VND/1k CNY)</h3>
-            <div id="chart_vndcny" class="chart-box"></div>
-        </div>
-        <div class="full-card">
-            <h3>📊 越南龙头股历史走势 (收盘价)</h3>
-            <div id="chart_stocks" class="chart-box" style="height: 420px;"></div>
-            <div style="font-size: 12px; color: #555; margin-top: 8px; text-align:center;">注: 单位为越南盾 (VND)，部分股票价格缺失日可能为0</div>
-        </div>
-        <div class="full-card">
-            <h3>✈️ 胡志明→广州 当日机票价格历史 ($)</h3>
-            <div id="chart_flight" class="chart-box" style="height: 300px;"></div>
-        </div>
-    </div>
-
-    <div class="card" style="margin-top: 20px;">
-        <h3>🏦 实时股票价格 (越南市场)</h3>
-        <table> <thead><tr><th>股票名称</th><th>最新价 (VND)</th></tr></thead>
-        <tbody><tr><td><b>FPT</b></td><td align='right'>72,900.00 ₫</td></tr><tr><td><b>Vietcombank</b></td><td align='right'>60,700.00 ₫</td></tr><tr><td><b>Vinamilk</b></td><td align='right'>59,800.00 ₫</td></tr><tr><td><b>Hoa Phat</b></td><td align='right'>26,550.00 ₫</td></tr><tr><td><b>Mobile World</b></td><td align='right'>82,000.00 ₫</td></tr><tr><td><b>BIDV</b></td><td align='right'>42,950.00 ₫</td></tr><tr><td><b>Vinhomes</b></td><td align='right'>158,000.00 ₫</td></tr><tr><td><b>Masan</b></td><td align='right'>77,500.00 ₫</td></tr><tr><td><b>PV Gas</b></td><td align='right'>89,400.00 ₫</td></tr><tr><td><b>SSI</b></td><td align='right'>27,900.00 ₫</td></tr></tbody>
+    <div class="card">
+        <h3>✈️ 南航直达明细 (SGN → CAN)</h3>
+        <table>
+            <tr><th>航班号</th><th>价格 (CNY)</th><th>起飞时间</th></tr>
+            <tr><td colspan='3'>未找到南航直达航班</td></tr>
         </table>
+    </div>
+
+    <div class="card"><div id="chart_flight" style="height:400px;"></div></div>
+    <div class="card"><div id="chart_fixed" style="height:400px;"></div></div>
+    <div class="card"><div id="chart_stocks" style="height:400px;"></div></div>
+
+    <div style="text-align:center;">
+        <a href="history.csv" download class="btn" style="background:#3182ce;">📥 下载汇率机票数据</a>
+        <a href="stock_history.csv" download class="btn" style="background:#38a169; margin-left:10px;">📥 下载股票历史数据</a>
     </div>
 
     <script>
         var dates = ['2026-05-13', '2026-05-14', '2026-05-15'];
-        var chart1 = echarts.init(document.getElementById('chart_usdcny'));
-        chart1.setOption({
+        var chartF = echarts.init(document.getElementById('chart_flight'));
+        chartF.setOption({
+            title: { text: '南航票价趋势 (14天后参考)' },
             tooltip: { trigger: 'axis' },
-            xAxis: { data: dates, name: '日期' },
-            yAxis: { name: 'USD/CNY', scale: true },
-            series: [{ name: 'USD/CNY', type: 'line', data: [6.7903, 6.7852, 6.8087], color: '#e53e3e', smooth: true }]
+            xAxis: { data: dates },
+            yAxis: { name: '人民币 (￥)', scale: true },
+            series: [{ name: '票价', type: 'line', data: [nan, nan, 0.0], color: '#f59e0b', smooth: true }]
         });
-        var chart2 = echarts.init(document.getElementById('chart_vndcny'));
-        chart2.setOption({
+
+        var chartFix = echarts.init(document.getElementById('chart_fixed'));
+        chartFix.setOption({
+            title: { text: '2027-02-01 固定日期追踪' },
             tooltip: { trigger: 'axis' },
-            xAxis: { data: dates, name: '日期' },
-            yAxis: { name: 'VND / 1000 CNY', scale: true },
-            series: [{ name: 'VND/1k CNY', type: 'line', data: [0.258, 0.2578, 0.2584], color: '#3182ce', smooth: true }]
+            xAxis: { data: dates },
+            yAxis: { name: '人民币 (￥)', scale: true },
+            series: [{ name: '票价', type: 'line', data: [0.0, 0.0, 0.0], color: '#e53e3e', smooth: true }]
         });
-        var chart3 = echarts.init(document.getElementById('chart_stocks'));
-        chart3.setOption({
+
+        var chartS = echarts.init(document.getElementById('chart_stocks'));
+        chartS.setOption({
+            title: { text: '越南股票趋势' },
             tooltip: { trigger: 'axis' },
-            legend: { type: 'scroll', orient: 'horizontal', left: 'left', top: 0, itemWidth: 30 },
-            xAxis: { data: dates, name: '日期' },
-            yAxis: { name: '价格 (越南盾)', scale: true },
-            series: [{ name: 'FPT', type: 'line', data: [72900.0], smooth: false }, { name: 'Vietcombank', type: 'line', data: [60700.0], smooth: false }, { name: 'Vinamilk', type: 'line', data: [59800.0], smooth: false }, { name: 'Hoa Phat', type: 'line', data: [26550.0], smooth: false }, { name: 'Mobile World', type: 'line', data: [82000.0], smooth: false }, { name: 'BIDV', type: 'line', data: [42950.0], smooth: false }, { name: 'Vinhomes', type: 'line', data: [158000.0], smooth: false }, { name: 'Masan', type: 'line', data: [77500.0], smooth: false }, { name: 'PV Gas', type: 'line', data: [89400.0], smooth: false }, { name: 'SSI', type: 'line', data: [27900.0], smooth: false }]
+            xAxis: { data: dates },
+            yAxis: { name: '越南盾', scale: true },
+            series: [{ name: 'FPT', type: 'line', data: [72900.0], smooth: true },{ name: 'VCB', type: 'line', data: [60700.0], smooth: true },{ name: 'VIC', type: 'line', data: [228000.0], smooth: true },{ name: 'VNM', type: 'line', data: [59800.0], smooth: true }]
         });
-        var chart4 = echarts.init(document.getElementById('chart_flight'));
-        chart4.setOption({
-            tooltip: { trigger: 'axis' },
-            xAxis: { data: dates, name: '日期' },
-            yAxis: { name: '美元 ($)', min: 0 },
-            series: [{ name: '当日票价 (SGN→CAN)', type: 'line', data: [185.0, 185.0, 185.0], color: '#f59e0b', smooth: true }]
-        });
-        window.addEventListener('resize', () => { chart1.resize(); chart2.resize(); chart3.resize(); chart4.resize(); });
     </script>
 </body>
 </html>
