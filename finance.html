@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>金融看板 · 越南投资仪表盘</title>
+    <title>金融看板 · 仪表盘</title>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
     <style>
         body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f4f8; padding: 20px; }
@@ -25,42 +25,53 @@
     </div><hr>
     <div class="real-time">
         <div>💵 美元/人民币: <b>6.8092</b></div>
-        <div>🇻🇳 越南盾/1k CNY: <b>0.2584</b></div>
+        <div>🇻🇳 1k CNY/越南盾: <b>0.2584</b></div>
         <div>📈 VN-Index: <b>0.00</b></div>
-        <div>✈️ 南航参考(14天后): <b>￥0</b></div>
-        <div>📅 2027-02-01 票价: <b>￥0</b></div>
+        <div>✈️ 南航参考: <b>￥0</b></div>
+        <div>📅 2027-02-01: <b>￥0</b></div>
     </div>
 
     <div class="dashboard">
         <div class="card">
-            <h3 style="border-left: 4px solid #3182ce; padding-left: 10px;">✈️ 南航直达明细 (SGN → CAN)</h3>
+            <h3 style="border-left: 4px solid #f59e0b; padding-left: 10px;">✈️ 南航直达明细 (SGN → CAN)</h3>
             <table>
                 <tr style="background:#f7fafc;"><th>航班号</th><th>价格 (CNY)</th><th>起飞时间</th></tr>
                 <tr><td colspan='3'>未找到南航直达航班</td></tr>
             </table>
-            <p style="font-size: 12px; color: #a0aec0; margin-top: 10px;">* 数据源: SerpApi, 采集14天后参考价</p>
         </div>
         <div class="card">
-            <h3>🧮 汇率 · 越南盾/千元人民币 (VND/1k CNY)</h3>
+            <h3>📈 汇率趋势 (USD/CNY)</h3>
+            <div id="chart_usdcny" class="chart-box"></div>
+        </div>
+        <div class="card">
+            <h3>🧮 汇率趋势 (VND/1k CNY)</h3>
             <div id="chart_vndcny" class="chart-box"></div>
         </div>
         <div class="full-card">
-            <h3>✈️ 南航直达票价追踪 (￥)</h3>
+            <h3>✈️ 机票追踪 (趋势价 vs 2027-02-01)</h3>
             <div id="chart_flight" class="chart-box" style="height: 350px;"></div>
         </div>
         <div class="full-card">
-            <h3>📊 越南龙头股历史走势 (收盘价)</h3>
+            <h3>📊 越南股票历史走势</h3>
             <div id="chart_stocks" class="chart-box" style="height: 400px;"></div>
         </div>
     </div>
 
     <div style="text-align:center; margin: 30px 0;">
-        <a href="history.csv" download class="btn-down" style="background:#3182ce;">📥 下载汇率/机票历史 (CSV)</a>
-        <a href="stock_history.csv" download class="btn-down" style="background:#38a169;">📥 下载越南股票历史 (CSV)</a>
+        <a href="history.csv" download class="btn-down" style="background:#3182ce;">📥 下载汇率/机票历史</a>
+        <a href="stock_history.csv" download class="btn-down" style="background:#38a169;">📥 下载股票历史</a>
     </div>
 
     <script>
         var dates = ["2026-05-15"];
+        // 新增 USD/CNY 图表
+        var chart1 = echarts.init(document.getElementById('chart_usdcny'));
+        chart1.setOption({
+            tooltip: { trigger: 'axis' },
+            xAxis: { data: dates, name: '日期' },
+            yAxis: { name: 'USD/CNY', scale: true },
+            series: [{ name: 'USD/CNY', type: 'line', data: [6.8092], color: '#e53e3e', smooth: true }]
+        });
         var chart2 = echarts.init(document.getElementById('chart_vndcny'));
         chart2.setOption({
             tooltip: { trigger: 'axis' },
@@ -71,23 +82,23 @@
         var chart3 = echarts.init(document.getElementById('chart_stocks'));
         chart3.setOption({
             tooltip: { trigger: 'axis' },
-            legend: { type: 'scroll', orient: 'horizontal', left: 'left', top: 0, itemWidth: 30 },
+            legend: { type: 'scroll', orient: 'horizontal', left: 'left', top: 0 },
             xAxis: { data: dates, name: '日期' },
-            yAxis: { name: '价格 (越南盾)', scale: true },
+            yAxis: { name: '价格', scale: true },
             series: [{ name: 'FPT', type: 'line', data: [72900.0], smooth: false }, { name: 'Vietcombank', type: 'line', data: [60700.0], smooth: false }, { name: 'Vinamilk', type: 'line', data: [59800.0], smooth: false }, { name: 'Hoa Phat', type: 'line', data: [26550.0], smooth: false }, { name: 'Mobile World', type: 'line', data: [82000.0], smooth: false }, { name: 'BIDV', type: 'line', data: [42950.0], smooth: false }, { name: 'Vinhomes', type: 'line', data: [158000.0], smooth: false }, { name: 'Masan', type: 'line', data: [77500.0], smooth: false }, { name: 'PV Gas', type: 'line', data: [89400.0], smooth: false }, { name: 'SSI', type: 'line', data: [27900.0], smooth: false }]
         });
         var chart4 = echarts.init(document.getElementById('chart_flight'));
         chart4.setOption({
             tooltip: { trigger: 'axis' },
-            legend: { data: ['南航趋势(14天后)', '目标日(2027-02-01)'] },
+            legend: { data: ['趋势(14天后)', '2027-02-01'] },
             xAxis: { data: dates, name: '日期' },
             yAxis: { name: '人民币 (￥)', scale: true },
             series: [
-                { name: '南航趋势(14天后)', type: 'line', data: [0], color: '#f59e0b', smooth: true },
-                { name: '目标日(2027-02-01)', type: 'line', data: [0], color: '#e53e3e', smooth: true }
+                { name: '趋势(14天后)', type: 'line', data: [0], color: '#f59e0b', smooth: true },
+                { name: '2027-02-01', type: 'line', data: [0], color: '#805ad5', smooth: true }
             ]
         });
-        window.addEventListener('resize', () => { chart2.resize(); chart3.resize(); chart4.resize(); });
+        window.addEventListener('resize', () => { chart1.resize(); chart2.resize(); chart3.resize(); chart4.resize(); });
     </script>
 </body>
 </html>
