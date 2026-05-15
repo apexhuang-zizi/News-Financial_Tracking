@@ -25,8 +25,8 @@
         <a href='finance.html'>📈 金融看板</a>
     </div><hr>
     <div class="real-time">
-        <div>💵 美元/人民币: <b>6.7954</b></div>
-        <div>🇻🇳 越南盾/1k CNY: <b>0.258</b></div>
+        <div>💵 美元/人民币: <b>6.8087</b></div>
+        <div>🇻🇳 越南盾/1k CNY: <b>0.2584</b></div>
         <div>📈 VN-Index: <b>0.00</b></div>
         <div>✈️ 今日 SGN→CAN: <b>$185</b></div>
         <div>📅 2027-02-01 票价: <b>$268</b> (预估值)</div>
@@ -55,7 +55,7 @@
     <div class="card" style="margin-top: 20px;">
         <h3>🏦 实时股票价格 (越南市场)</h3>
         <table> <thead><tr><th>股票名称</th><th>最新价 (VND)</th></tr></thead>
-        <tbody><tr><td><b>FPT</b></td><td align='right'>73,400.00 ₫</td></tr><tr><td><b>Vietcombank</b></td><td align='right'>61,500.00 ₫</td></tr><tr><td><b>Vinamilk</b></td><td align='right'>60,100.00 ₫</td></tr><tr><td><b>Hoa Phat</b></td><td align='right'>26,700.00 ₫</td></tr><tr><td><b>Mobile World</b></td><td align='right'>83,200.00 ₫</td></tr><tr><td><b>BIDV</b></td><td align='right'>43,750.00 ₫</td></tr><tr><td><b>Vinhomes</b></td><td align='right'>154,600.00 ₫</td></tr><tr><td><b>Masan</b></td><td align='right'>78,300.00 ₫</td></tr><tr><td><b>PV Gas</b></td><td align='right'>86,700.00 ₫</td></tr><tr><td><b>SSI</b></td><td align='right'>28,050.00 ₫</td></tr></tbody>
+        <tbody><tr><td><b>FPT</b></td><td align='right'>72,900.00 ₫</td></tr><tr><td><b>Vietcombank</b></td><td align='right'>60,700.00 ₫</td></tr><tr><td><b>Vinamilk</b></td><td align='right'>59,800.00 ₫</td></tr><tr><td><b>Hoa Phat</b></td><td align='right'>26,550.00 ₫</td></tr><tr><td><b>Mobile World</b></td><td align='right'>82,000.00 ₫</td></tr><tr><td><b>BIDV</b></td><td align='right'>42,950.00 ₫</td></tr><tr><td><b>Vinhomes</b></td><td align='right'>158,000.00 ₫</td></tr><tr><td><b>Masan</b></td><td align='right'>77,500.00 ₫</td></tr><tr><td><b>PV Gas</b></td><td align='right'>89,400.00 ₫</td></tr><tr><td><b>SSI</b></td><td align='right'>27,900.00 ₫</td></tr></tbody>
         </table>
     </div>
 
@@ -66,14 +66,14 @@
             tooltip: { trigger: 'axis' },
             xAxis: { data: dates, name: '日期' },
             yAxis: { name: 'USD/CNY', scale: true },
-            series: [{ name: 'USD/CNY', type: 'line', data: [6.7903, 6.7852, 6.7954], color: '#e53e3e', smooth: true }]
+            series: [{ name: 'USD/CNY', type: 'line', data: [6.7903, 6.7852, 6.8087], color: '#e53e3e', smooth: true }]
         });
         var chart2 = echarts.init(document.getElementById('chart_vndcny'));
         chart2.setOption({
             tooltip: { trigger: 'axis' },
             xAxis: { data: dates, name: '日期' },
             yAxis: { name: 'VND / 1000 CNY', scale: true },
-            series: [{ name: 'VND/1k CNY', type: 'line', data: [0.258, 0.2578, 0.258], color: '#3182ce', smooth: true }]
+            series: [{ name: 'VND/1k CNY', type: 'line', data: [0.258, 0.2578, 0.2584], color: '#3182ce', smooth: true }]
         });
         var chart3 = echarts.init(document.getElementById('chart_stocks'));
         chart3.setOption({
@@ -81,7 +81,7 @@
             legend: { type: 'scroll', orient: 'horizontal', left: 'left', top: 0, itemWidth: 30 },
             xAxis: { data: dates, name: '日期' },
             yAxis: { name: '价格 (越南盾)', scale: true },
-            series: [{ name: 'FPT', type: 'line', data: [73400.0], smooth: false }, { name: 'Vietcombank', type: 'line', data: [61500.0], smooth: false }, { name: 'Vinamilk', type: 'line', data: [60100.0], smooth: false }, { name: 'Hoa Phat', type: 'line', data: [26700.0], smooth: false }, { name: 'Mobile World', type: 'line', data: [83200.0], smooth: false }, { name: 'BIDV', type: 'line', data: [43750.0], smooth: false }, { name: 'Vinhomes', type: 'line', data: [154600.0], smooth: false }, { name: 'Masan', type: 'line', data: [78300.0], smooth: false }, { name: 'PV Gas', type: 'line', data: [86700.0], smooth: false }, { name: 'SSI', type: 'line', data: [28050.0], smooth: false }]
+            series: [{ name: 'FPT', type: 'line', data: [72900.0], smooth: false }, { name: 'Vietcombank', type: 'line', data: [60700.0], smooth: false }, { name: 'Vinamilk', type: 'line', data: [59800.0], smooth: false }, { name: 'Hoa Phat', type: 'line', data: [26550.0], smooth: false }, { name: 'Mobile World', type: 'line', data: [82000.0], smooth: false }, { name: 'BIDV', type: 'line', data: [42950.0], smooth: false }, { name: 'Vinhomes', type: 'line', data: [158000.0], smooth: false }, { name: 'Masan', type: 'line', data: [77500.0], smooth: false }, { name: 'PV Gas', type: 'line', data: [89400.0], smooth: false }, { name: 'SSI', type: 'line', data: [27900.0], smooth: false }]
         });
         var chart4 = echarts.init(document.getElementById('chart_flight'));
         chart4.setOption({
