@@ -25,12 +25,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -q -U google-generativeai 
-          pip install requests pandas yfinance beautifulsoup4
+          pip install requests pandas yfinance beautifulsoup4 serpapi  # 加上 serpapi
 
       - name: Execute Scraper
         env:
           MY_PROXY_URL: ${{ secrets.PROXY_URL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}  # 加上这一行
         run: python scraper.py
 
       # --- 关键：直接将生成的 index.html 提交到仓库 ---
@@ -39,8 +40,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # 确认这五个文件都被添加
-          git add index.html finance.html news.html history.csv stock_history.csv
-          git commit -m "Auto-update all dashboards: $(date)" || exit 0
+          git add index.html finance.html news.html *.csv 
+          git commit -m "Auto-update: $(date)" || exit 0
           git push origin main --force
 
       # --- 关键：直接触发网页发布（无需等待） ---
