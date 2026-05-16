@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 import json
 import warnings
 
-# 屏蔽无害的 FutureWarning 警告，让日志更干净
+# 屏蔽无害的 FutureWarning 警告
 warnings.filterwarnings('ignore')
 
 # ---------- 1. 配置区 ----------
@@ -85,7 +85,6 @@ def get_safe_price(code):
     """稳健的价格抓取函数，扩大检索区间并清洗空值，彻底解决指数为零的问题"""
     try:
         ticker = yf.Ticker(code)
-        # 扩大到 1 个月历史区间，防止周末或特定假期导致 5 天内全为 NaN
         hist = ticker.history(period="1mo")
         if not hist.empty:
             valid_closes = hist['Close'].dropna()
@@ -98,16 +97,6 @@ def get_safe_price(code):
     except Exception:
         pass
     return 0.0
-
-def get_exchange_rate_fallback():
-    try:
-        resp = requests.get("https://api.exchangerate.host/latest?base=USD", timeout=10)
-        data = resp.json()
-        cny = data['rates'].get('CNY')
-        vnd = data['rates'].get('VND')
-        if cny and vnd: return cny, vnd
-    except Exception: pass
-    return None, None
 
 def fetch_finance():
     print("📊 正在获取金融数据 (汇率+越南股票)...")
@@ -138,12 +127,12 @@ def fetch_finance():
         
     return {"USD_CNY": round(usd_cny, 4), "VND_CNY_1k": round(vnd_cny_1k, 4), "Stocks": stock_data, "VN_Index": vn_index}
 
-# ---------- 5. 机票价格监控 (参考 SerpApi 规范修正) ----------
+# ---------- 5. 机票价格监控 (结合南航与越捷航空) ----------
 def fetch_flight_data_v2(target_date):
     api_key = os.environ.get("SERPAPI_KEY")
     if not api_key:
         print("⚠️ 未配置 SERPAPI_KEY")
-        return 0, "<tr><td colspan='3'>未配置 API Key</td></tr>"
+        return 0, 0, "<tr><td colspan='3'>未配置 API Key</td></tr>"
     try:
         from serpapi.google_search import GoogleSearch
         params = {
@@ -154,35 +143,58 @@ def fetch_flight_data_v2(target_date):
             "currency": "CNY", 
             "hl": "zh-cn",
             "api_key": api_key, 
-            "type": "2",   # 修正：2 代表单程机票 (One-way)
-            "stops": "1"  # 修正：1 代表直达航班 (Non-stop only)
+            "type": "2",   # 2 代表单程机票 (One-way)
+            "stops": "1"  # 1 代表直达航班 (Non-stop only)
         }
         search = GoogleSearch(params)
         results = search.get_dict()
         flights = results.get("best_flights", []) + results.get("other_flights", [])
         
         cz_flights = []
+        vj_flights = []
         for f in flights:
             for seg in f.get("flights", []):
                 airline = seg.get("airline", "").lower()
                 f_num = seg.get("flight_number", "").upper()
-                # 模糊匹配“南方航空”或以南航代码“CZ”开头的直达航班
-                if "china southern" in airline or "南方航空" in airline or f_num.startswith("CZ"):
-                    cz_flights.append({
-                        "flight_number": f_num,
-                        "price": f.get("price", 0),
-                        "departure": seg.get("departure_airport", {}).get("time", "未知")
-                    })
-        if not cz_flights: 
-            return 0, "<tr><td colspan='3'>今日暂未排到南航直达航班</td></tr>"
+                
+                is_cz = "china southern" in airline or "南方航空" in airline or f_num.startswith("CZ")
+                is_vj = "vietjet" in airline or "越捷" in airline or f_num.startswith("VJ")
+                
+                flight_info = {
+                    "flight_number": f_num,
+                    "price": f.get("price", 0),
+                    "departure": seg.get("departure_airport", {}).get("time", "未知"),
+                    "label": "南航" if is_cz else "越捷"
+                }
+                if is_cz:
+                    cz_flights.append(flight_info)
+                elif is_vj:
+                    vj_flights.append(flight_info)
         
-        cz_flights.sort(key=lambda x: x['price'])
-        lowest_price = cz_flights[0]['price']
-        rows_html = "".join([f"<tr><td style='padding:8px;border-bottom:1px solid #eee;'>{f['flight_number']}</td><td style='padding:8px;border-bottom:1px solid #eee;'>￥{f['price']}</td><td style='padding:8px;border-bottom:1px solid #eee;'>{f['departure']}</td></tr>" for f in cz_flights[:5]])
-        return lowest_price, rows_html
+        cz_lowest = 0
+        vj_lowest = 0
+        combined_display = []
+        
+        if cz_flights:
+            cz_flights.sort(key=lambda x: x['price'])
+            cz_lowest = cz_flights[0]['price']
+            combined_display.extend(cz_flights[:3]) # 提取价格前3的南航直达
+        if vj_flights:
+            vj_flights.sort(key=lambda x: x['price'])
+            vj_lowest = vj_flights[0]['price']
+            combined_display.extend(vj_flights[:3]) # 提取价格前3的越捷直达
+            
+        if not combined_display: 
+            return 0, 0, "<tr><td colspan='3'>今日暂无直达航班数据</td></tr>"
+            
+        # 整体按价格从低到高显示在页面明细中
+        combined_display.sort(key=lambda x: x['price'])
+        rows_html = "".join([f"<tr><td style='padding:8px;border-bottom:1px solid #eee;'>{f['label']} ({f['flight_number']})</td><td style='padding:8px;border-bottom:1px solid #eee;'>￥{f['price']}</td><td style='padding:8px;border-bottom:1px solid #eee;'>{f['departure']}</td></tr>" for f in combined_display])
+        
+        return cz_lowest, vj_lowest, rows_html
     except Exception as e:
         print(f"⚠️ 机票抓取异常: {e}")
-        return 0, "<tr><td colspan='3'>抓取异常</td></tr>"
+        return 0, 0, "<tr><td colspan='3'>抓取异常</td></tr>"
 
 def fetch_today_flight_price():
     target = (pd.Timestamp.now() + pd.Timedelta(days=14)).strftime('%Y-%m-%d')
@@ -195,26 +207,30 @@ def fetch_fixed_date_flight():
 def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
     today_str = datetime.now().strftime('%Y-%m-%d')
     
-    flight_today_price, flight_rows_html = flight_today_tuple
-    flight_fixed_price, _ = flight_fixed_tuple
+    cz_today, vj_today, flight_today_html = flight_today_tuple
+    cz_fixed, vj_fixed, flight_fixed_html = flight_fixed_tuple
 
-    # ---------- 历史数据：汇率 + 机票 ----------
+    # ---------- 历史数据存储更新 ----------
     hist_row = {
         "Date": today_str, "USD_CNY": fin["USD_CNY"], "VND_CNY_1k": fin["VND_CNY_1k"],
-        "Flight_Today": flight_today_price, "Fixed_Flight": flight_fixed_price, "VN_Index": fin["VN_Index"]
+        "Flight_Today": cz_today, "Fixed_Flight": cz_fixed, 
+        "VJ_Today": vj_today, "VJ_Fixed": vj_fixed, "VN_Index": fin["VN_Index"]
     }
     hist_file = "history.csv"
     if os.path.exists(hist_file):
         df_hist = pd.read_csv(hist_file)
+        # 补全可能缺失的数据列
         if "USD_CNY" not in df_hist.columns: df_hist["USD_CNY"] = 7.25
         if "Fixed_Flight" not in df_hist.columns: df_hist["Fixed_Flight"] = 0
+        if "VJ_Today" not in df_hist.columns: df_hist["VJ_Today"] = 0
+        if "VJ_Fixed" not in df_hist.columns: df_hist["VJ_Fixed"] = 0
         df_hist = df_hist[df_hist['Date'] != today_str]
         df_hist = pd.concat([df_hist, pd.DataFrame([hist_row])], ignore_index=True)
     else:
         df_hist = pd.DataFrame([hist_row])
     df_hist.tail(90).to_csv(hist_file, index=False)
 
-    # ---------- 股票历史 ----------
+    # ---------- 股票历史存储 ----------
     stock_file = "stock_history.csv"
     stock_row = {"Date": today_str, **fin["Stocks"]}
     if os.path.exists(stock_file):
@@ -229,22 +245,25 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
         <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a>
     </div><hr>"""
 
-    # Index HTML 
+    # 生成基础的新闻列表 (保持原逻辑)
     hn_list = "".join([f"<li style='margin-bottom:15px;'><a href='{item['url']}' target='_blank'><b>{item['title']}</b></a><br><small style='color:#2c5282;'>{item['cn_title']}</small></li>" for item in hn])
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(f"<html><head><meta charset='UTF-8'><title>技术趋势</title></head><body style='font-family:system-ui, sans-serif; padding:30px; max-width:1000px; margin:auto;'>{nav}<h2>📌 Hacker News 技术热点 (Top 20)</h2><ul style='line-height:1.6;'>{hn_list}</ul></body></html>")
 
-    # News HTML
     news_list = "".join([f"<li style='margin-bottom:18px;'><a href='{item['url']}' target='_blank'><b>{item['cn_title']}</b></a><br><small style='color:#4a5568;'>{item['title']}</small></li>" for item in world])
     with open("news.html", "w", encoding="utf-8") as f:
         f.write(f"<html><head><meta charset='UTF-8'><title>国际要闻</title></head><body style='font-family:system-ui, sans-serif; padding:30px; max-width:1000px; margin:auto;'>{nav}<h2>🌐 BBC 国际要闻</h2><ul style='line-height:1.6;'>{news_list}</ul></body></html>")
 
-    # Finance HTML 
+    # ---------- 前端 ECharts 数据序列化 ----------
     dates_js = json.dumps(df_hist['Date'].tolist())
     usd_cny_vals = json.dumps(df_hist['USD_CNY'].fillna(7.25).tolist())
     vnd_cny_vals = json.dumps(df_hist['VND_CNY_1k'].fillna(0).tolist())
-    flight_hist_vals = json.dumps(df_hist['Flight_Today'].fillna(0).tolist())
-    fixed_flight_vals = json.dumps(df_hist['Fixed_Flight'].fillna(0).tolist())
+    
+    # 四条机票曲线数据
+    flight_cz_today_vals = json.dumps(df_hist['Flight_Today'].fillna(0).tolist())
+    flight_cz_fixed_vals = json.dumps(df_hist['Fixed_Flight'].fillna(0).tolist())
+    flight_vj_today_vals = json.dumps(df_hist['VJ_Today'].fillna(0).tolist())
+    flight_vj_fixed_vals = json.dumps(df_hist['VJ_Fixed'].fillna(0).tolist())
 
     stock_columns = [col for col in df_stock.columns if col != 'Date']
     stock_series_js = []
@@ -263,7 +282,7 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
     <style>
         body {{ font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f4f8; padding: 20px; }}
         .dashboard {{ display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; }}
-        .card {{ background: white; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 20px; flex: 1 1 45%; }}
+        .card {{ background: white; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 20px; flex: 1 1 45%; min-width: 320px; }}
         .full-card {{ flex: 1 1 100%; }}
         .real-time {{ background: #1e293b; color: white; border-radius: 20px; padding: 20px; margin-bottom: 20px; display: flex; justify-content: space-between; flex-wrap: wrap; }}
         .real-time div {{ background: #0f172a; padding: 12px 18px; border-radius: 40px; min-width: 180px; margin: 6px; }}
@@ -278,20 +297,29 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
     {nav}
     <div class="real-time">
         <div>💵 美元/人民币: <b>{fin['USD_CNY']}</b></div>
-        <div>🇻🇳 1k CNY/越南盾: <b>{fin['VND_CNY_1k']}</b></div>
+        <div>🇻🇳 1k CNY/越南盾: <b>{fin['VND_CNY_1k']:.2f}</b></div>
         <div>📈 VN-Index: <b>{fin['VN_Index']:.2f}</b></div>
-        <div>✈️ 南航参考: <b>￥{flight_today_price}</b></div>
-        <div>📅 2027-02-01: <b>￥{flight_fixed_price}</b></div>
+        <div>✈️ 南航/越捷趋势: <b>￥{cz_today}/￥{vj_today}</b></div>
+        <div>📅 2027-02-01定日: <b>￥{cz_fixed}/￥{vj_fixed}</b></div>
     </div>
 
     <div class="dashboard">
         <div class="card">
-            <h3 style="border-left: 4px solid #f59e0b; padding-left: 10px;">✈️ 南航直达明细 (SGN → CAN)</h3>
+            <h3 style="border-left: 4px solid #f59e0b; padding-left: 10px;">✈️ 趋势明细 (14天后参考)</h3>
             <table>
-                <tr style="background:#f7fafc;"><th>航班号</th><th>价格 (CNY)</th><th>起飞时间</th></tr>
-                {flight_rows_html}
+                <tr style="background:#f7fafc;"><th>航班 (航司)</th><th>价格 (CNY)</th><th>起飞时间</th></tr>
+                {flight_today_html}
             </table>
         </div>
+        
+        <div class="card">
+            <h3 style="border-left: 4px solid #805ad5; padding-left: 10px;">📅 定日明细 (2027-02-01)</h3>
+            <table>
+                <tr style="background:#f7fafc;"><th>航班 (航司)</th><th>价格 (CNY)</th><th>起飞时间</th></tr>
+                {flight_fixed_html}
+            </table>
+        </div>
+
         <div class="card">
             <h3>📈 汇率趋势 (USD/CNY)</h3>
             <div id="chart_usdcny" class="chart-box"></div>
@@ -300,10 +328,12 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
             <h3>🧮 汇率趋势 (VND/1k CNY)</h3>
             <div id="chart_vndcny" class="chart-box"></div>
         </div>
+
         <div class="full-card">
-            <h3>✈️ 机票追踪 (趋势价 vs 2027-02-01)</h3>
-            <div id="chart_flight" class="chart-box" style="height: 350px;"></div>
+            <h3>✈️ 机票价格多维追踪 (中越直达)</h3>
+            <div id="chart_flight" class="chart-box" style="height: 380px;"></div>
         </div>
+
         <div class="full-card">
             <h3>📊 越南股票历史走势</h3>
             <div id="chart_stocks" class="chart-box" style="height: 400px;"></div>
@@ -343,24 +373,28 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
             series: [{stock_series_str}]
         }});
         
+        // 渲染包含南航和越捷的 4 条机票折线
         var chart4 = echarts.init(document.getElementById('chart_flight'));
         chart4.setOption({{
             tooltip: {{ trigger: 'axis' }},
-            legend: {{ data: ['趋势(14天后)', '2027-02-01'] }},
+            legend: {{ data: ['南航趋势(14天后)', '南航定日(2027-02-01)', '越捷趋势(14天后)', '越捷定日(2027-02-01)'] }},
             xAxis: {{ data: dates, name: '日期' }},
             yAxis: {{ name: '人民币 (￥)', scale: true }},
             series: [
-                {{ name: '趋势(14天后)', type: 'line', data: {flight_hist_vals}, color: '#f59e0b', smooth: true }},
-                {{ name: '2027-02-01', type: 'line', data: {fixed_flight_vals}, color: '#805ad5', smooth: true }}
+                {{ name: '南航趋势(14天后)', type: 'line', data: {flight_cz_today_vals}, color: '#f59e0b', smooth: true }},
+                {{ name: '南航定日(2027-02-01)', type: 'line', data: {flight_cz_fixed_vals}, color: '#e53e3e', smooth: true }},
+                {{ name: '越捷趋势(14天后)', type: 'line', data: {flight_vj_today_vals}, color: '#3182ce', smooth: true }},
+                {{ name: '越捷定日(2027-02-01)', type: 'line', data: {flight_vj_fixed_vals}, color: '#38a169', smooth: true }}
             ]
         }});
+        
         window.addEventListener('resize', () => {{ chart1.resize(); chart2.resize(); chart3.resize(); chart4.resize(); }});
     </script>
 </body>
 </html>"""
     with open("finance.html", "w", encoding="utf-8") as f:
         f.write(finance_html)
-    print("✅ 所有页面已生成，历史曲线数据已更新")
+    print("✅ 所有数据已成功渲染，前端栅格布局对齐完毕。")
 
 if __name__ == "__main__":
     hn_news = fetch_hn_tech()
