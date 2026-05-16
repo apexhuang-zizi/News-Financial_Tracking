@@ -11,11 +11,12 @@
         .card { background: white; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 20px; flex: 1 1 45%; min-width: 320px; }
         .full-card { flex: 1 1 100%; }
         .real-time { background: #1e293b; color: white; border-radius: 20px; padding: 20px; margin-bottom: 20px; display: flex; justify-content: space-between; flex-wrap: wrap; }
-        .real-time div { background: #0f172a; padding: 12px 18px; border-radius: 40px; min-width: 180px; margin: 6px; }
+        .real-time div { background: #0f172a; padding: 12px 18px; border-radius: 40px; min-width: 180px; margin: 6px; font-size: 13px; }
         table { width: 100%; border-collapse: collapse; font-size:14px; }
         td, th { padding: 8px; border-bottom: 1px solid #e2e8f0; }
         h3 { margin-top: 0; color: #0f3b5c; }
-        .chart-box { height: 320px; width: 100%; margin-top: 15px; }
+        .chart-box { height: 350px; width: 100%; margin-top: 15px; }
+        .chart-box-sm { height: 215px; width: 100%; margin-top: 10px; }
         .btn-down { padding: 10px 20px; color: white; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; font-weight: bold; margin: 0 10px; }
     </style>
 </head>
@@ -25,40 +26,40 @@
     </div><hr>
     <div class="real-time">
         <div>💵 美元/人民币: <b>6.8087</b></div>
-        <div>🇻🇳 1k CNY/越南盾: <b>0.26</b></div>
+        <div>🇻🇳 VND 1K / CNY: <b>￥0.2584</b></div>
         <div>📈 VN-Index: <b>0.00</b></div>
         <div>✈️ 南航/越捷趋势: <b>￥1487/￥907</b></div>
-        <div>📅 2027-02-01定日: <b>￥2421/￥0</b></div>
+        <div>📅 02-01定日最低: <b>￥2421</b></div>
     </div>
 
     <div class="dashboard">
         <div class="card">
+            <h3>📈 汇率趋势 (USD/CNY)</h3>
+            <div id="chart_usdcny" class="chart-box-sm"></div>
+        </div>
+        <div class="card">
+            <h3>🧮 汇率趋势 (VND 1K / CNY)</h3>
+            <div id="chart_vndcny" class="chart-box-sm"></div>
+        </div>
+
+        <div class="card">
             <h3 style="border-left: 4px solid #f59e0b; padding-left: 10px;">✈️ 趋势明细 (14天后参考)</h3>
             <table>
                 <tr style="background:#f7fafc;"><th>航班 (航司)</th><th>价格 (CNY)</th><th>起飞时间</th></tr>
-                <tr><td style='padding:8px;border-bottom:1px solid #eee;'>越捷 (VJ 3908)</td><td style='padding:8px;border-bottom:1px solid #eee;'>￥907</td><td style='padding:8px;border-bottom:1px solid #eee;'>2026-05-30 21:45</td></tr><tr><td style='padding:8px;border-bottom:1px solid #eee;'>南航 (CZ 374)</td><td style='padding:8px;border-bottom:1px solid #eee;'>￥1487</td><td style='padding:8px;border-bottom:1px solid #eee;'>2026-05-30 15:50</td></tr><tr><td style='padding:8px;border-bottom:1px solid #eee;'>南航 (CZ 8160)</td><td style='padding:8px;border-bottom:1px solid #eee;'>￥1862</td><td style='padding:8px;border-bottom:1px solid #eee;'>2026-05-30 11:55</td></tr>
+                <tr><td>越捷 (VJ 3908)</td><td>￥907</td><td>2026-05-30 21:45</td></tr><tr><td>南航 (CZ 374)</td><td>￥1487</td><td>2026-05-30 15:50</td></tr><tr><td>南航 (CZ 8160)</td><td>￥1862</td><td>2026-05-30 11:55</td></tr>
             </table>
         </div>
         
         <div class="card">
-            <h3 style="border-left: 4px solid #805ad5; padding-left: 10px;">📅 定日明细 (2027-02-01)</h3>
+            <h3 style="border-left: 4px solid #805ad5; padding-left: 10px;">📅 定日明细 (南航独家锁定)</h3>
             <table>
-                <tr style="background:#f7fafc;"><th>航班 (航司)</th><th>价格 (CNY)</th><th>起飞时间</th></tr>
-                <tr><td style='padding:8px;border-bottom:1px solid #eee;'>南航 (CZ 374)</td><td style='padding:8px;border-bottom:1px solid #eee;'>￥2421</td><td style='padding:8px;border-bottom:1px solid #eee;'>2027-02-01 16:10</td></tr><tr><td style='padding:8px;border-bottom:1px solid #eee;'>南航 (CZ 6090)</td><td style='padding:8px;border-bottom:1px solid #eee;'>￥2762</td><td style='padding:8px;border-bottom:1px solid #eee;'>2027-02-01 02:25</td></tr><tr><td style='padding:8px;border-bottom:1px solid #eee;'>南航 (CZ 368)</td><td style='padding:8px;border-bottom:1px solid #eee;'>￥2762</td><td style='padding:8px;border-bottom:1px solid #eee;'>2027-02-01 08:00</td></tr>
+                <tr style="background:#f7fafc;"><th>航班 (日期/航线)</th><th>最低价格</th><th>时间</th></tr>
+                <tr><td>📅 01/31 CZ 6090 (SGN✈️CAN)</td><td><b>￥1500</b></td><td>2027-01-31 02:25</td></tr><tr><td>📅 02/01 CZ 374 (SGN✈️CAN)</td><td><b>￥2421</b></td><td>2027-02-01 16:10</td></tr><tr><td>📅 02/02 CZ 374 (SGN✈️CAN)</td><td><b>￥2421</b></td><td>2027-02-02 16:10</td></tr><tr><td>📅 02/13 CZ 8159 (CAN✈️SGN)</td><td><b>￥3198</b></td><td>2027-02-13 08:45</td></tr><tr><td>📅 02/14 CZ 8159 (CAN✈️SGN)</td><td><b>￥1998</b></td><td>2027-02-14 08:45</td></tr>
             </table>
         </div>
 
-        <div class="card">
-            <h3>📈 汇率趋势 (USD/CNY)</h3>
-            <div id="chart_usdcny" class="chart-box"></div>
-        </div>
-        <div class="card">
-            <h3>🧮 汇率趋势 (VND/1k CNY)</h3>
-            <div id="chart_vndcny" class="chart-box"></div>
-        </div>
-
         <div class="full-card">
-            <h3>✈️ 机票价格多维追踪 (中越直达)</h3>
+            <h3>✈️ 中越直达航线多维大盘追踪 (CNY)</h3>
             <div id="chart_flight" class="chart-box" style="height: 380px;"></div>
         </div>
 
@@ -88,8 +89,8 @@
         chart2.setOption({
             tooltip: { trigger: 'axis' },
             xAxis: { data: dates, name: '日期' },
-            yAxis: { name: 'VND / 1000 CNY', scale: true },
-            series: [{ name: 'VND/1k CNY', type: 'line', data: [0.2584, 0.2584], color: '#3182ce', smooth: true }]
+            yAxis: { name: 'CNY', scale: true },
+            series: [{ name: 'VND 1K / CNY', type: 'line', data: [0.2584, 0.2584], color: '#3182ce', smooth: true }]
         });
         
         var chart3 = echarts.init(document.getElementById('chart_stocks'));
@@ -101,18 +102,20 @@
             series: [{ name: 'FPT', type: 'line', data: [72900.0, 72900.0], smooth: false }, { name: 'Vietcombank', type: 'line', data: [60700.0, 60700.0], smooth: false }, { name: 'Vinamilk', type: 'line', data: [59800.0, 59800.0], smooth: false }, { name: 'Hoa Phat', type: 'line', data: [26550.0, 26550.0], smooth: false }, { name: 'Mobile World', type: 'line', data: [82000.0, 82000.0], smooth: false }, { name: 'BIDV', type: 'line', data: [42950.0, 42950.0], smooth: false }, { name: 'Vinhomes', type: 'line', data: [158000.0, 158000.0], smooth: false }, { name: 'Masan', type: 'line', data: [77500.0, 77500.0], smooth: false }, { name: 'PV Gas', type: 'line', data: [89400.0, 89400.0], smooth: false }, { name: 'SSI', type: 'line', data: [27900.0, 27900.0], smooth: false }]
         });
         
-        // 渲染包含南航和越捷的 4 条机票折线
         var chart4 = echarts.init(document.getElementById('chart_flight'));
         chart4.setOption({
             tooltip: { trigger: 'axis' },
-            legend: { data: ['南航趋势(14天后)', '南航定日(2027-02-01)', '越捷趋势(14天后)', '越捷定日(2027-02-01)'] },
+            legend: { type: 'scroll', orient: 'horizontal', top: 0 },
             xAxis: { data: dates, name: '日期' },
             yAxis: { name: '人民币 (￥)', scale: true },
             series: [
                 { name: '南航趋势(14天后)', type: 'line', data: [0, 1487], color: '#f59e0b', smooth: true },
-                { name: '南航定日(2027-02-01)', type: 'line', data: [0, 2421], color: '#e53e3e', smooth: true },
                 { name: '越捷趋势(14天后)', type: 'line', data: [0, 907], color: '#3182ce', smooth: true },
-                { name: '越捷定日(2027-02-01)', type: 'line', data: [0, 0], color: '#38a169', smooth: true }
+                { name: '南航定日(01/31)', type: 'line', data: [0, 1500], color: '#48bb78', smooth: true },
+                { name: '南航定日(02/01)', type: 'line', data: [0, 2421], color: '#e53e3e', smooth: true },
+                { name: '南航定日(02/02)', type: 'line', data: [0, 2421], color: '#805ad5', smooth: true },
+                { name: '南航定日(02/13)', type: 'line', data: [0, 3198], color: '#00b5d8', smooth: true },
+                { name: '南航定日(02/14)', type: 'line', data: [0, 1998], color: '#b7791f', smooth: true }
             ]
         });
         
