@@ -82,13 +82,15 @@ def fetch_world_news():
 
 # ---------- 4. 金融数据：汇率 + 股票价格 ----------
 def get_safe_price(code):
-    """更稳健的价格抓取函数，优先使用历史数据以适配指数"""
+    """稳健的价格抓取函数，扩大检索区间并清洗空值，彻底解决指数为零的问题"""
     try:
         ticker = yf.Ticker(code)
-        # 指数类数据（如 ^VNINDEX）在 history 中更稳定
-        hist = ticker.history(period="5d")
+        # 扩大到 1 个月历史区间，防止周末或特定假期导致 5 天内全为 NaN
+        hist = ticker.history(period="1mo")
         if not hist.empty:
-            return round(hist['Close'].iloc[-1], 4)
+            valid_closes = hist['Close'].dropna()
+            if not valid_closes.empty:
+                return round(valid_closes.iloc[-1], 4)
         
         price = ticker.fast_info.get('last_price', None)
         if price and price > 0:
@@ -129,14 +131,14 @@ def fetch_finance():
             price = get_safe_price(code)
         stock_data[name] = price
 
-    # 尝试多种代码抓取 VN-Index
+    # 多重代号保障抓取真实 VN-Index 股指
     vn_index = get_safe_price("^VNINDEX")
     if vn_index == 0:
         vn_index = get_safe_price("VNI.HM")
         
     return {"USD_CNY": round(usd_cny, 4), "VND_CNY_1k": round(vnd_cny_1k, 4), "Stocks": stock_data, "VN_Index": vn_index}
 
-# ---------- 5. 机票价格监控 (SerpApi, 南航直达, 人民币) ----------
+# ---------- 5. 机票价格监控 (参考 SerpApi 规范修正) ----------
 def fetch_flight_data_v2(target_date):
     api_key = os.environ.get("SERPAPI_KEY")
     if not api_key:
@@ -145,10 +147,15 @@ def fetch_flight_data_v2(target_date):
     try:
         from serpapi.google_search import GoogleSearch
         params = {
-            "engine": "google_flights", "departure_id": "SGN", "arrival_id": "CAN",
-            "outbound_date": target_date, "currency": "CNY", "hl": "zh-cn",
-            "api_key": api_key, "type": "1", 
-            "stops": "0" # 修正：0 代表直达 (Non-stop)
+            "engine": "google_flights", 
+            "departure_id": "SGN", 
+            "arrival_id": "CAN",
+            "outbound_date": target_date, 
+            "currency": "CNY", 
+            "hl": "zh-cn",
+            "api_key": api_key, 
+            "type": "2",   # 修正：2 代表单程机票 (One-way)
+            "stops": "1"  # 修正：1 代表直达航班 (Non-stop only)
         }
         search = GoogleSearch(params)
         results = search.get_dict()
@@ -159,14 +166,15 @@ def fetch_flight_data_v2(target_date):
             for seg in f.get("flights", []):
                 airline = seg.get("airline", "").lower()
                 f_num = seg.get("flight_number", "").upper()
-                # 增强过滤：名称匹配或以 CZ 开头的南航航班
+                # 模糊匹配“南方航空”或以南航代码“CZ”开头的直达航班
                 if "china southern" in airline or "南方航空" in airline or f_num.startswith("CZ"):
                     cz_flights.append({
                         "flight_number": f_num,
                         "price": f.get("price", 0),
                         "departure": seg.get("departure_airport", {}).get("time", "未知")
                     })
-        if not cz_flights: return 0, "<tr><td colspan='3'>未找到南航直达航班</td></tr>"
+        if not cz_flights: 
+            return 0, "<tr><td colspan='3'>今日暂未排到南航直达航班</td></tr>"
         
         cz_flights.sort(key=lambda x: x['price'])
         lowest_price = cz_flights[0]['price']
@@ -221,19 +229,19 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
         <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a>
     </div><hr>"""
 
-    # Index HTML (保持原样)
+    # Index HTML 
     hn_list = "".join([f"<li style='margin-bottom:15px;'><a href='{item['url']}' target='_blank'><b>{item['title']}</b></a><br><small style='color:#2c5282;'>{item['cn_title']}</small></li>" for item in hn])
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(f"<html><head><meta charset='UTF-8'><title>技术趋势</title></head><body style='font-family:system-ui, sans-serif; padding:30px; max-width:1000px; margin:auto;'>{nav}<h2>📌 Hacker News 技术热点 (Top 20)</h2><ul style='line-height:1.6;'>{hn_list}</ul></body></html>")
 
-    # News HTML (保持原样)
+    # News HTML
     news_list = "".join([f"<li style='margin-bottom:18px;'><a href='{item['url']}' target='_blank'><b>{item['cn_title']}</b></a><br><small style='color:#4a5568;'>{item['title']}</small></li>" for item in world])
     with open("news.html", "w", encoding="utf-8") as f:
         f.write(f"<html><head><meta charset='UTF-8'><title>国际要闻</title></head><body style='font-family:system-ui, sans-serif; padding:30px; max-width:1000px; margin:auto;'>{nav}<h2>🌐 BBC 国际要闻</h2><ul style='line-height:1.6;'>{news_list}</ul></body></html>")
 
     # Finance HTML 
     dates_js = json.dumps(df_hist['Date'].tolist())
-    usd_cny_vals = json.dumps(df_hist['USD_CNY'].fillna(7.25).tolist()) # 补齐 USD/CNY 序列
+    usd_cny_vals = json.dumps(df_hist['USD_CNY'].fillna(7.25).tolist())
     vnd_cny_vals = json.dumps(df_hist['VND_CNY_1k'].fillna(0).tolist())
     flight_hist_vals = json.dumps(df_hist['Flight_Today'].fillna(0).tolist())
     fixed_flight_vals = json.dumps(df_hist['Fixed_Flight'].fillna(0).tolist())
@@ -309,7 +317,7 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
 
     <script>
         var dates = {dates_js};
-        // 新增 USD/CNY 图表
+        
         var chart1 = echarts.init(document.getElementById('chart_usdcny'));
         chart1.setOption({{
             tooltip: {{ trigger: 'axis' }},
@@ -317,6 +325,7 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
             yAxis: {{ name: 'USD/CNY', scale: true }},
             series: [{{ name: 'USD/CNY', type: 'line', data: {usd_cny_vals}, color: '#e53e3e', smooth: true }}]
         }});
+        
         var chart2 = echarts.init(document.getElementById('chart_vndcny'));
         chart2.setOption({{
             tooltip: {{ trigger: 'axis' }},
@@ -324,6 +333,7 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
             yAxis: {{ name: 'VND / 1000 CNY', scale: true }},
             series: [{{ name: 'VND/1k CNY', type: 'line', data: {vnd_cny_vals}, color: '#3182ce', smooth: true }}]
         }});
+        
         var chart3 = echarts.init(document.getElementById('chart_stocks'));
         chart3.setOption({{
             tooltip: {{ trigger: 'axis' }},
@@ -332,6 +342,7 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple, flight_fixed_tuple):
             yAxis: {{ name: '价格', scale: true }},
             series: [{stock_series_str}]
         }});
+        
         var chart4 = echarts.init(document.getElementById('chart_flight'));
         chart4.setOption({{
             tooltip: {{ trigger: 'axis' }},
