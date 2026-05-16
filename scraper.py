@@ -99,8 +99,8 @@ def get_safe_price(code):
     return 0.0
 
 def get_vn_index_direct():
-    """专为 VN-Index 打造的直连 Yahoo Chart API 终极解析函数"""
-    url = "https://query1.finance.yahoo.com/v8/finance/chart/%5EVNINDEX?interval=1d&range=7d"
+    """专为 VN-Index 打造的直连 Yahoo Chart API 终极解析函数 (升级为 1mo 历史穿透监测)"""
+    url = "https://query1.finance.yahoo.com/v8/finance/chart/%5EVNINDEX?interval=1d&range=1mo"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
@@ -110,13 +110,13 @@ def get_vn_index_direct():
         result = data.get("chart", {}).get("result", [])
         if result:
             closes = result[0].get("indicators", {}).get("quote", [{}])[0].get("close", [])
-            # 核心清洗：过滤由于闭市或交易结算产生的 None/Null 占位符
+            # 核心清洗：剔除所有由于周末或非交易结算期引发的 None 干扰项
             valid_closes = [c for c in closes if c is not None]
             if valid_closes:
-                print(f"🎯 通过底层 API 成功截获真实 VN-Index: {valid_closes[-1]}")
+                print(f"🎯 底层实时截获真实 VN-Index: {valid_closes[-1]}")
                 return round(valid_closes[-1], 2)
     except Exception as e:
-        print(f"⚠️ 越过组件直连 VN-Index 接口时发生异常: {e}")
+        print(f"⚠️ 直连 API 探测 VN-Index 异常: {e}")
     return 0.0
 
 def fetch_finance():
@@ -141,12 +141,27 @@ def fetch_finance():
             price = get_safe_price(code)
         stock_data[name] = price
 
-    # 引入多重链路保障：yfinance 兜底 -> 核心直连 API -> 地区关联码兜底
+    # 链路大协同：yfinance检索 -> 底层 Chart 1mo 历史穿透 
     vn_index = get_safe_price("^VNINDEX")
     if vn_index == 0:
         vn_index = get_vn_index_direct()
     if vn_index == 0:
         vn_index = get_safe_price("VNI.HM")
+        
+    # 【核心新增】：周末与节假日智能数据库承接平滑兜底机制
+    if vn_index == 0:
+        try:
+            if os.path.exists("history.csv"):
+                df_exist = pd.read_csv("history.csv")
+                if "VN_Index" in df_exist.columns and not df_exist.empty:
+                    valid_indices = df_exist["VN_Index"].dropna()
+                    # 过滤可能残留的 0 值，追溯最近一个真实交易日的正数点位
+                    valid_indices = valid_indices[valid_indices > 0]
+                    if not valid_indices.empty:
+                        vn_index = float(valid_indices.iloc[-1])
+                        print(f"📦 非交易日(周末/长假)线上休市，成功从历史数据库继承上一交易日收盘价: {vn_index}")
+        except Exception as e:
+            print(f"⚠️ 尝试继承昨日历史指数时失败: {e}")
         
     return {"USD_CNY": round(usd_cny, 4), "VND_CNY_1k": round(vnd_cny_1k, 4), "Stocks": stock_data, "VN_Index": vn_index}
 
