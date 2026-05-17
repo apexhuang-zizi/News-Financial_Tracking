@@ -16,16 +16,46 @@ warnings.filterwarnings('ignore')
 
 # ---------- 1. 配置区 ----------
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-model = genai.GenerativeModel('models/gemini-2.5-flash')
+
+# 全局初始化模型时，默认直接关闭思考模式，既省 Token 又极大地提升单行翻译速度
+model = genai.GenerativeModel(
+    'models/gemini-2.5-flash',
+    generation_config={"thinking_config": {"thinking_budget": 0}}
+)
 
 def translate_text(text, is_tech=True):
-    """通用的 Gemini 翻译函数，带容错机制"""
+    """通用的 Gemini 翻译函数，彻底关闭思考推理，带高强容错净化滤镜"""
     if not text: return ""
     domain = "技术新闻" if is_tech else "国际新闻要闻"
-    prompt = f"你是一个专业的{domain}翻译。请将以下标题翻译成地道的中文。只需返回翻译结果：\n\n{text}"
+    
+    # 进一步在 Prompt 层面严厉申明边界
+    prompt = f"你是一个极简的{domain}单行标题翻译官。请将以下英文直接翻译成地道简短的中文。严禁输出任何前言、解释、生平、推导或内心思考过程（思绪），只需返回最终的中文翻译结果文本：\n\n{text}"
+    
     try:
-        response = model.generate_content(prompt)
-        return response.text.strip()
+        # 发起请求（双重保险：显式将思维预算设为0）
+        response = model.generate_content(
+            prompt,
+            generation_config={"thinking_config": {"thinking_budget": 0}}
+        )
+        res_text = response.text.strip()
+        
+        # --- 强力清洁滤镜：彻底封杀任何由于模型异常导致的思维泄漏 ---
+        # 1. 剥离可能存在的 markdown 思考标签
+        res_text = re.sub(r'(?s)<think>.*?</think>', '', res_text).strip()
+        
+        # 2. 剥离可能生成的引导词前缀
+        if "最终方案" in res_text: res_text = res_text.split("最终方案")[-1].strip(":：\n ")
+        if "翻译结果" in res_text: res_text = res_text.split("翻译结果")[-1].strip(":：\n ")
+        
+        # 3. 终极截断：如果依然含有“思绪”或“Thinking”等字样且篇幅异常过长
+        if ("思绪" in res_text or "思考" in res_text or "思维" in res_text) and len(res_text) > 100:
+            lines = [line.strip() for line in res_text.split('\n') if line.strip()]
+            # 倒序检索，提取最后一行完全不含思考痕迹的干净文本作为译文
+            for line in reversed(lines):
+                if not any(k in line for k in ["思绪", "方案", "思考", "分析", "思维", "Thinking", "Prompt"]):
+                    return line
+                    
+        return res_text if res_text else "翻译处理中..."
     except Exception as e:
         print(f"⚠️ 翻译异常: {e}")
         return "翻译处理中..."
@@ -183,7 +213,6 @@ def fetch_finance():
     try:
         if os.path.exists("history.csv"):
             df_exist = pd.read_csv("history.csv")
-            # 清洗脏数据防止污染
             df_exist = df_exist[df_exist['Date'] != "2026-05-15"]
             if not df_exist.empty:
                 if vn_index == 0 and "VN_Index" in df_exist.columns:
@@ -292,7 +321,6 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
     hist_file = "history.csv"
     if os.path.exists(hist_file):
         df_hist = pd.read_csv(hist_file)
-        # 【微调亮点一】强力过滤剔除 2026-05-15 异常全零行
         df_hist = df_hist[df_hist['Date'] != "2026-05-15"]
         for col in ["USD_CNY", "Fixed_Flight", "VJ_Today", "VN_Index", "US_Index", "CN_Index", "Fixed_0131", "Fixed_0202", "Fixed_0213", "Fixed_0214"]:
             if col not in df_hist.columns: df_hist[col] = 0
@@ -307,7 +335,6 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
     stock_row = {"Date": today_str, **fin["Stocks"]}
     if os.path.exists(stock_file):
         df_stock = pd.read_csv(stock_file)
-        # 【微调亮点二】股票数据库同步剔除 2026-05-15 记录
         df_stock = df_stock[df_stock['Date'] != "2026-05-15"]
         df_stock = df_stock[df_stock['Date'] != today_str]
         df_stock = pd.concat([df_stock, pd.DataFrame([stock_row])], ignore_index=True)
@@ -327,7 +354,7 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
     with open("news.html", "w", encoding="utf-8") as f:
         f.write(f"<html><head><meta charset='UTF-8'><title>国际要闻</title></head><body style='font-family:system-ui, sans-serif; padding:30px; max-width:1000px; margin:auto;'>{nav}<h2>🌐 BBC 国际要闻</h2><ul style='line-height:1.6;'>{news_list}</ul></body></html>")
 
-    # ---------- 前端 ECharts 序列化分配 ----------
+    # ---------- 前端图表数据序列化 ----------
     dates_js = json.dumps(df_hist['Date'].tolist())
     usd_cny_vals = json.dumps(df_hist['USD_CNY'].fillna(7.25).tolist())
     vnd_cny_vals = json.dumps(df_hist['VND_CNY_1k'].fillna(0).tolist())
@@ -495,7 +522,7 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
 </html>"""
     with open("finance.html", "w", encoding="utf-8") as f:
         f.write(finance_html)
-    print("🎉 看板细节微调及 5/15 历史零值数据清洗全面完毕！")
+    print("🎉 看板细节微调、思维溢出高强过滤全面完毕！")
 
 if __name__ == "__main__":
     hn_news = fetch_hn_tech()
