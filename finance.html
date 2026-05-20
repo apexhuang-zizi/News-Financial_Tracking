@@ -27,8 +27,8 @@
     <div class="real-time">
         <div>💵 美元/人民币: <b>6.8005</b></div>
         <div>🇻🇳 VND 1K / CNY: <b>￥0.2580</b></div>
-        <div>🇺🇸 S&P 500: <b>7418.62</b></div>
-        <div>🇨🇳 上证指数: <b>4162.18</b></div>
+        <div>🇺🇸 S&P 500: <b>7422.31</b></div>
+        <div>🇨🇳 上证指数: <b>4169.54</b></div>
         <div>🇻🇳 VN-Index: <b>1913.23</b></div>
         <div>✈️ 南航/越捷趋势: <b>￥1349/￥725</b></div>
     </div>
@@ -81,14 +81,14 @@
     </div>
 
     <script>
-        var dates = [6.8087, 6.8087, 6.8127, 6.8012, 6.8005, "2026-05-20"];
+        var dates = ["2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20"];
         
         var chart1 = echarts.init(document.getElementById('chart_usdcny'));
         chart1.setOption({
             tooltip: { trigger: 'axis' },
             xAxis: { data: dates, name: '日期' },
             yAxis: { name: 'USD/CNY', scale: true },
-            series: [{ name: 'USD/CNY', type: 'line', data: [0.2584, 0.2584, 0.2585, 0.2583, 0.258, 6.8005], color: '#e53e3e', smooth: true }]
+            series: [{ name: 'USD/CNY', type: 'line', data: [6.8087, 6.8087, 6.8127, 6.8012, 6.8005], color: '#e53e3e', smooth: true }]
         });
         
         var chart2 = echarts.init(document.getElementById('chart_vndcny'));
@@ -96,7 +96,7 @@
             tooltip: { trigger: 'axis' },
             xAxis: { data: dates, name: '日期' },
             yAxis: { name: 'CNY', scale: true },
-            series: [{ name: 'VND 1K / CNY', type: 'line', data: [1487.0, 1487.0, 1487.0, 1485.0, 1349.0, 0.258], color: '#3182ce', smooth: true }]
+            series: [{ name: 'VND 1K / CNY', type: 'line', data: [0.2584, 0.2584, 0.2585, 0.2583, 0.258], color: '#3182ce', smooth: true }]
         });
         
         var chart3 = echarts.init(document.getElementById('chart_stocks'));
@@ -115,13 +115,13 @@
             xAxis: { data: dates, name: '日期' },
             yAxis: { name: '人民币 (￥)', scale: true },
             series: [
-                { name: '南航趋势(14天后)', type: 'line', data: [2421, 2421, 2420, 2417, 2416, 1349], color: '#f59e0b', smooth: true },
-                { name: '越捷趋势(14天后)', type: 'line', data: [907.0, 907.0, 0.0, 847.0, 0.0, 725.0], color: '#3182ce', smooth: true },
-                { name: '南航定日(01/31)', type: 'line', data: [1500, 1500, 1500, 1498, 2416, 1498], color: '#48bb78', smooth: true },
-                { name: '南航定日(02/01)', type: 'line', data: [1.0, 1.0, 1.0, 1.0, 1913.23, 2416.0], color: '#e53e3e', smooth: true },
-                { name: '南航定日(02/02)', type: 'line', data: [2421, 2421, 2420, 2417, 3198, 2416], color: '#805ad5', smooth: true },
-                { name: '南航定日(02/13)', type: 'line', data: [3198, 3198, 3198, 3198, 1998, 3198], color: '#00b5d8', smooth: true },
-                { name: '南航定日(02/14)', type: 'line', data: [1998.0, 1998.0, 1998.0, 1998.0, 7419.3799, 1998.0], color: '#b7791f', smooth: true }
+                { name: '南航趋势(14天后)', type: 'line', data: [1487, 1487, 1487, 1485, 1349], color: '#f59e0b', smooth: true },
+                { name: '越捷趋势(14天后)', type: 'line', data: [907, 907, 0, 847, 725], color: '#3182ce', smooth: true },
+                { name: '南航定日(01/31)', type: 'line', data: [1500, 1500, 1500, 1498, 1498], color: '#48bb78', smooth: true },
+                { name: '南航定日(02/01)', type: 'line', data: [2421, 2421, 2420, 2417, 2416], color: '#e53e3e', smooth: true },
+                { name: '南航定日(02/02)', type: 'line', data: [2421, 2421, 2420, 2417, 2416], color: '#805ad5', smooth: true },
+                { name: '南航定日(02/13)', type: 'line', data: [3198, 3198, 3198, 3198, 3198], color: '#00b5d8', smooth: true },
+                { name: '南航定日(02/14)', type: 'line', data: [1998, 1998, 1998, 1998, 1998], color: '#b7791f', smooth: true }
             ]
         });
 
@@ -132,9 +132,9 @@
             xAxis: { data: dates, name: '日期' },
             yAxis: { name: '指数点数', scale: true },
             series: [
-                { name: '美国 S&P 500', type: 'line', data: [7408.5, 7408.5, 7408.5, 7403.0498, 4162.1846, 7418.6201], color: '#e53e3e', smooth: true },
-                { name: '中国 上证指数', type: 'line', data: [4135.3892, 4135.3892, 4126.3545, 4132.4585, 3060.0, 4162.1846], color: '#3182ce', smooth: true },
-                { name: '越南 VN-Index', type: 'line', data: [925.46, 921.6, 927.94, 912.93, 725.0, 1913.23], color: '#38a169', smooth: true }
+                { name: '美国 S&P 500', type: 'line', data: [7408.5, 7408.5, 7408.5, 7403.0498, 7422.3101], color: '#e53e3e', smooth: true },
+                { name: '中国 上证指数', type: 'line', data: [4135.3892, 4135.3892, 4126.3545, 4132.4585, 4169.5381], color: '#3182ce', smooth: true },
+                { name: '越南 VN-Index', type: 'line', data: [1912.0, 1913.0, 1920.0, 1915.0, 1913.23], color: '#38a169', smooth: true }
             ]
         });
         
