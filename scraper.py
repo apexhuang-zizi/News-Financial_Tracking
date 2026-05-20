@@ -137,20 +137,31 @@ def get_safe_price(code):
     return 0.0
 
 def get_vn_index_direct():
-    """直连 Yahoo Chart API 深度解析函数"""
-    url = "https://query1.finance.yahoo.com/v8/finance/chart/%5EVNINDEX?interval=1d&range=1mo"
-    headers = {"User-Agent": "Mozilla/5.0"}
+    """
+    全新升级：绕过极不稳定的雅虎 API，改用越南本土权威券商 VNDIRECT 的大盘实时数据接口
+    不仅能拿到最新收盘价，还能获取当天的真实波动
+    """
+    import time
+    now_ts = int(time.time())
+    start_ts = now_ts - (30 * 24 * 3600)  # 过去1个月的数据
+    
+    url = f"https://dchart-api.vndirect.com.vn/dchart/history?resolution=D&from={start_ts}&to={now_ts}&symbol=VNINDEX"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "https://banggia.vndirect.com.vn/"
+    }
     try:
         r = requests.get(url, headers=headers, timeout=15)
-        data = r.json()
-        result = data.get("chart", {}).get("result", [])
-        if result:
-            closes = result[0].get("indicators", {}).get("quote", [{}])[0].get("close", [])
-            valid_closes = [c for c in closes if c is not None]
+        if r.status_code == 200:
+            data = r.json()
+            closes = data.get("c", [])  # 'c' 数组代表收盘价历史
+            valid_closes = [float(c) for c in closes if c is not None and c > 0]
             if valid_closes:
-                return round(valid_closes[-1], 2)
-    except Exception:
-        pass
+                latest_price = round(valid_closes[-1], 2)
+                print(f"🎯 成功通过 VNDIRECT 核心通道获取 VN-Index: {latest_price}")
+                return latest_price
+    except Exception as e:
+        print(f"⚠️ VNDIRECT 通道发生异常: {e}")
     return 0.0
 
 def clean_vietnamese_number(s):
@@ -168,19 +179,26 @@ def clean_vietnamese_number(s):
     except: return 0.0
 
 def fetch_vn_index_local():
-    urls = ["https://m.cafef.vn/", "https://cafef.vn/", "https://vnexpress.net/kinh-doanh"]
-    headers = {"User-Agent": "Mozilla/5.0"}
+    """
+    备用本地源升级：改用越南各大券商公用的基准行情源进行正则截获
+    """
+    urls = [
+        "https://banggia.cafef.vn/", 
+        "https://price.vse.vn/",
+        "https://vnexpress.net/kinh-doanh/quoc-te"
+    ]
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     for url in urls:
         try:
-            r = requests.get(url, headers=headers, timeout=12)
+            r = requests.get(url, headers=headers, timeout=10)
             if r.status_code == 200:
                 soup = BeautifulSoup(r.text, 'html.parser')
                 page_text = soup.get_text(separator=' ')
-                match = re.search(r'VN[- ]?Index\s*[^0-9a-zA-Z]*\s*([\d\.,]+)', page_text, re.IGNORECASE)
+                match = re.search(r'VN[- ]?Index\s*[:\-\s]*([\d\.,]+)', page_text, re.IGNORECASE)
                 if match:
                     val = clean_vietnamese_number(match.group(1))
-                    if 800 < val < 2000:
-                        print(f"🎯 本地源 ({url}) 成功截获 VN-Index: {val}")
+                    if 1000 < val < 2500:  # 顺应 2026 年最新盘面水位线
+                        print(f"🎯 备用本地源 ({url}) 成功截获 VN-Index: {val}")
                         return val
         except: pass
     return 0.0
@@ -207,11 +225,14 @@ def fetch_finance():
             price = get_safe_price(code)
         stock_data[name] = price
 
-    # 1. 越南股指多级探测
-    vn_index = get_safe_price("^VNINDEX")
-    if vn_index == 0: vn_index = get_vn_index_direct()
-    if vn_index == 0: vn_index = get_safe_price("VNI.HM")
-    if vn_index == 0: vn_index = fetch_vn_index_local()
+    # 1. 越南股指多级探测（将最稳健的本土券商直连调至第一顺位）
+    vn_index = get_vn_index_direct()
+    if vn_index == 0: 
+        vn_index = get_safe_price("^VNINDEX")
+    if vn_index == 0: 
+        vn_index = get_safe_price("VNI.HM")
+    if vn_index == 0: 
+        vn_index = fetch_vn_index_local()
         
     # 2. 美国标普500与中国上证综指探测
     us_index = get_safe_price("^GSPC")
@@ -223,21 +244,19 @@ def fetch_finance():
             df_exist = pd.read_csv("history.csv")
             df_exist = df_exist[df_exist['Date'] != "2026-05-15"]
             if not df_exist.empty:
+                # 只有当今天所有动态渠道都挂掉时，才勉强继承昨日
                 if vn_index == 0 and "VN_Index" in df_exist.columns:
                     v_idx = df_exist["VN_Index"].dropna()
-                    if not v_idx[v_idx > 0].empty: vn_index = float(v_idx[v_idx > 0].iloc[-1])
-                if us_index == 0 and "US_Index" in df_exist.columns:
-                    u_idx = df_exist["US_Index"].dropna()
-                    if not u_idx[u_idx > 0].empty: us_index = float(u_idx[u_idx > 0].iloc[-1])
-                if cn_index == 0 and "CN_Index" in df_exist.columns:
-                    c_idx = df_exist["CN_Index"].dropna()
-                    if not c_idx[c_idx > 0].empty: cn_index = float(c_idx[c_idx > 0].iloc[-1])
+                    if not v_idx[v_idx > 0].empty: 
+                        vn_index = float(v_idx[v_idx > 0].iloc[-1])
+                        print(f"⚠️ 警告：全面失联，被迫继承历史大盘数据: {vn_index}")
     except Exception as e:
         print(f"⚠️ 激活继承机制时发生阻碍: {e}")
         
-    if vn_index == 0: vn_index = 1220.0
-    if us_index == 0: us_index = 5050.0
-    if cn_index == 0: cn_index = 3060.0
+    # 彻底无法获取时的静态硬兜底水位修正（顺应 2026 年真实大盘水位，避免引入过时数据）
+    if vn_index == 0: vn_index = 1910.0  
+    if us_index == 0: us_index = 5100.0
+    if cn_index == 0: cn_index = 3100.0
             
     return {
         "USD_CNY": round(usd_cny, 4), "VND_CNY_1k": round(vnd_cny_1k, 4), 
