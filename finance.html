@@ -21,8 +21,13 @@
     </style>
 </head>
 <body>
-    <div style='margin-bottom:25px; text-align:center; font-size:1.2rem;'>
-        <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a>
+    <div style='position:relative; margin-bottom:25px;'>
+        <div style='text-align:center; font-size:1.2rem;'>
+            <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a>
+        </div>
+        <div style='position:absolute; top:0; right:0; font-size:0.9rem; color:#666;'>
+            @ApexH | 📅 2026-05-23
+        </div>
     </div><hr>
     <div class="real-time">
         <div>💵 美元/人民币: <b>6.794</b></div>
@@ -30,7 +35,7 @@
         <div>🇺🇸 S&P 500: <b>7473.47</b></div>
         <div>🇨🇳 上证指数: <b>4112.90</b></div>
         <div>🇻🇳 VN-Index: <b>1877.13</b></div>
-        <div>✈️ 南航/越捷趋势: <b>￥1348/￥724</b></div>
+        <div>✈️ 南航/越捷趋势: <b>￥1484/￥724</b></div>
     </div>
 
     <div class="dashboard">
@@ -75,6 +80,10 @@
         </div>
     </div>
 
+    <div style="text-align:right; padding: 10px 20px; font-size:0.9rem; color:#666; position:fixed; top:10px; right:10px;">
+        @ApexH | 📅 2026-05-23
+    </div>
+
     <div style="text-align:center; margin: 30px 0;">
         <a href="history.csv" download class="btn-down" style="background:#3182ce;">📥 下载汇率/机票历史</a>
         <a href="stock_history.csv" download class="btn-down" style="background:#38a169;">📥 下载股票历史</a>
@@ -115,7 +124,7 @@
             xAxis: { data: dates, name: '日期' },
             yAxis: { name: '人民币 (￥)', scale: true },
             series: [
-                { name: '南航趋势(14天后)', type: 'line', data: [1487, 1487, 1487, 1485, 1349, 1349, 1350, 1348], color: '#f59e0b', smooth: true },
+                { name: '南航趋势(14天后)', type: 'line', data: [1487, 1487, 1487, 1485, 1349, 1349, 1350, 1484], color: '#f59e0b', smooth: true },
                 { name: '越捷趋势(14天后)', type: 'line', data: [907, 907, 0, 847, 725, 725, 0, 724], color: '#3182ce', smooth: true },
                 { name: '南航定日(01/31)', type: 'line', data: [1500, 1500, 1500, 1498, 1498, 1498, 1500, 1497], color: '#48bb78', smooth: true },
                 { name: '南航定日(02/01)', type: 'line', data: [2421, 2421, 2420, 2417, 2416, 2417, 2419, 2415], color: '#e53e3e', smooth: true },
