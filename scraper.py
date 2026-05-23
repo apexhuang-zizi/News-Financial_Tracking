@@ -486,10 +486,6 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
         </div>
     </div>
 
-    <div style="text-align:right; padding: 10px 20px; font-size:0.9rem; color:#666; position:fixed; top:10px; right:10px;">
-        @ApexH | 📅 {today_date}
-    </div>
-
     <div style="text-align:center; margin: 30px 0;">
         <a href="history.csv" download class="btn-down" style="background:#3182ce;">📥 下载汇率/机票历史</a>
         <a href="stock_history.csv" download class="btn-down" style="background:#38a169;">📥 下载股票历史</a>
