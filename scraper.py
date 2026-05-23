@@ -369,8 +369,14 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
         df_stock = pd.DataFrame([stock_row])
     df_stock.tail(90).to_csv(stock_file, index=False)
 
-    nav = """<div style='margin-bottom:25px; text-align:center; font-size:1.2rem;'>
-        <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a>
+    today_date = datetime.now().strftime('%Y-%m-%d')
+    nav = f"""<div style='position:relative; margin-bottom:25px;'>
+        <div style='text-align:center; font-size:1.2rem;'>
+            <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a>
+        </div>
+        <div style='position:absolute; top:0; right:0; font-size:0.9rem; color:#666;'>
+            @ApexH | 📅 {today_date}
+        </div>
     </div><hr>"""
 
     hn_list = "".join([f"<li style='margin-bottom:15px;'><a href='{item['url']}' target='_blank'><b>{item['title']}</b></a><br><small style='color:#2c5282;'>{item['cn_title']}</small></li>" for item in hn])
@@ -478,6 +484,10 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
             <h3>📊 越南股票历史走势 (成分股)</h3>
             <div id="chart_stocks" class="chart-box" style="height: 400px;"></div>
         </div>
+    </div>
+
+    <div style="text-align:right; padding: 10px 20px; font-size:0.9rem; color:#666; position:fixed; top:10px; right:10px;">
+        @ApexH | 📅 {today_date}
     </div>
 
     <div style="text-align:center; margin: 30px 0;">
