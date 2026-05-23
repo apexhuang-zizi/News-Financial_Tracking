@@ -28,7 +28,7 @@ def translate_text(text, is_tech=True):
     # 释放模型的分析和思考能力，但要求最终译文必须包裹在特定的标签中
     prompt = (
         f"你是一个精通{domain}的专业翻译官。请将以下英文标题翻译成地道、准确、符合中文表达习惯的单行标题。\n"
-        f"你可以展开充分的背景思考、词义辨析和语境分析，但请务必将你最终的“纯中文翻译结果”包裹在 <translation> 和 </translation> 标签中。\n"
+        f"你可以展开充分的背景思考、词义辨析和语境分析，但请务必将你最终的"纯中文翻译结果"包裹在 <translation> 和 </translation> 标签中。\n"
         f"例如：<translation>这里是你的最终简短翻译结果</translation>。\n\n"
         f"待翻译标题：{text}"
     )
@@ -47,7 +47,7 @@ def translate_text(text, is_tech=True):
         if match:
             return match.group(1).strip().strip('*# \n')
         
-        # 兜底防线：如果模型偶尔未吐出标签，则通过传统的“思维特征树”剔除多余部分
+        # 兜底防线：如果模型偶尔未吐出标签，则通过传统的"思维特征树"剔除多余部分
         cleaned = re.sub(r'(?s)<think>.*?</think>', '', res_text)  # 移除标准 think 标签块
         cleaned = re.sub(r'(?s)思绪：.*?(?=最终方案|最终翻译|翻译结果|$)', '', cleaned) # 移除中文思绪前缀
         
@@ -257,7 +257,7 @@ def fetch_finance():
     if vn_index == 0: vn_index = 1910.0  
     if us_index == 0: us_index = 5100.0
     if cn_index == 0: cn_index = 3100.0
-            
+             
     return {
         "USD_CNY": round(usd_cny, 4), "VND_CNY_1k": round(vnd_cny_1k, 4), 
         "Stocks": stock_data, "VN_Index": vn_index, "US_Index": us_index, "CN_Index": cn_index
@@ -371,7 +371,18 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
 
     nav = """<div style='margin-bottom:25px; text-align:center; font-size:1.2rem;'>
         <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a>
-    </div><hr>"""
+    </div><hr>
+    <footer style="text-align: center; margin-top: 30px; padding: 20px; color: #666; font-size: 12px; border-top: 1px solid #ddd;">
+        <p>📅 更新时间: <span id="currentDate"></span></p>
+        <p>© @ApexH. All rights reserved.</p>
+    </footer>
+    <script>
+        const today = new Date();
+        const year = today.getFullYear();
+        const month = String(today.getMonth() + 1).padStart(2, '0');
+        const date = String(today.getDate()).padStart(2, '0');
+        document.getElementById('currentDate').textContent = `${year}-${month}-${date}`;
+    </script>"""
 
     hn_list = "".join([f"<li style='margin-bottom:15px;'><a href='{item['url']}' target='_blank'><b>{item['title']}</b></a><br><small style='color:#2c5282;'>{item['cn_title']}</small></li>" for item in hn])
     with open("index.html", "w", encoding="utf-8") as f:
@@ -486,6 +497,13 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
     </div>
 
     <script>
+        // 动态显示当前日期
+        const today = new Date();
+        const year = today.getFullYear();
+        const month = String(today.getMonth() + 1).padStart(2, '0');
+        const day = String(today.getDate()).padStart(2, '0');
+        document.getElementById('currentDate').textContent = `${{year}}-${{month}}-${{day}}`;
+
         var dates = {dates_js};
         
         var chart1 = echarts.init(document.getElementById('chart_usdcny'));
