@@ -1,0 +1,7 @@
+# Kickstarter 众筹看板的临时 cookie 会话文件，每次运行自动生成，不需要入库
+.ks_cookie.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/

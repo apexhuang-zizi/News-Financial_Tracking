@@ -35,6 +35,12 @@ jobs:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python scraper.py
 
+      # Kickstarter 众筹看板：独立模块，仅依赖标准库 + curl。
+      # continue-on-error 保证它失败时绝不影响上面三张主看板的提交与部署。
+      - name: Execute Kickstarter Scraper
+        continue-on-error: true
+        run: python kickstarter_scraper.py
+
       - name: Commit and Push update
         run: |
           git config --global user.name "github-actions[bot]"

@@ -372,7 +372,7 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
     today_date = datetime.now().strftime('%Y-%m-%d')
     nav = f"""<div style='position:relative; margin-bottom:25px;'>
         <div style='text-align:center; font-size:1.2rem;'>
-            <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a>
+            <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a> | <a href='kickstarter.html'>💡 众筹热点</a>
         </div>
         <div style='position:absolute; top:0; right:0; font-size:0.9rem; color:#666;'>
             @ApexH | 📅 {today_date}
