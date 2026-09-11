@@ -10,6 +10,11 @@ permissions:
   pages: write     
   id-token: write  
 
+# 与 Publish Pages 工作流串行，避免并发部署冲突
+concurrency:
+  group: github-pages-deploy
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
