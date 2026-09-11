@@ -88,15 +88,27 @@ def log(msg):
 
 
 # ---------------------------------------------------------------- 网络层
-def curl(url, referer, accept=None, tries=3):
-    """统一走 curl + cookie 会话：python urllib 的 TLS 指纹会被 Cloudflare 拦截"""
+def _proxy_url():
+    """复用仓库已有的 PROXY_URL 密钥。
+
+    GitHub Actions 的机房 IP 会被 Cloudflare 直接拒绝（返回空响应），
+    走仓库为其他爬虫配好的代理才能拿到数据。
+    """
+    for k in ("MY_PROXY_URL", "PROXY_URL", "HTTPS_PROXY", "https_proxy"):
+        v = (os.environ.get(k) or "").strip()
+        if v:
+            return v
+    return ""
+
+
+def _curl_once(url, referer, accept, extra, tries):
     body, code = "", 0
     for attempt in range(tries):
-        cmd = [CURL, "-sSL", "--compressed", "-m", "60", "-A", UA,
+        cmd = [CURL, "-sSL", "--compressed", "-m", "90", "-A", UA,
                "-c", COOKIE, "-b", COOKIE,
                "-H", "Referer: " + referer,
                "-H", "Accept-Language: en-US,en;q=0.9",
-               "-w", "\n__HTTPCODE__%{http_code}"]
+               "-w", "\n__HTTPCODE__%{http_code}"] + list(extra)
         if accept:
             cmd += ["-H", "Accept: " + accept]
         cmd.append(url)
@@ -104,7 +116,7 @@ def curl(url, referer, accept=None, tries=3):
             res = subprocess.run(cmd, capture_output=True, text=True,
                                  encoding="utf-8", errors="replace").stdout
         except Exception as e:
-            log("curl 执行失败: %s" % e)
+            log("curl 执行异常: %s" % e)
             time.sleep(3 + attempt * 4)
             continue
         if "__HTTPCODE__" in res:
@@ -113,18 +125,58 @@ def curl(url, referer, accept=None, tries=3):
                 code = int(code_s.strip() or 0)
             except ValueError:
                 code = 0
-            if code == 200:
+            if code == 200 and tail.strip():
                 return tail, code
             body = tail
         time.sleep(3 + attempt * 4)
     return body, code
 
 
-def fetch_json(url, referer):
-    body, code = curl(url, referer, accept="application/json, text/plain, */*")
-    if not body:
-        raise RuntimeError("HTTP %s %s" % (code, url))
-    return json.loads(body)
+JINA = "https://r.jina.ai/"
+CATEGORY_REF = "https://www.kickstarter.com/discover/categories/technology/hardware"
+
+
+def _strip_jina(text):
+    """r.jina.ai 会在正文前加 Title / URL Source / Markdown Content 头，需要剥掉"""
+    m = re.search(r"Markdown Content:\s*", text)
+    return text[m.end():] if m else text
+
+
+def fetch_text(url, referer, accept=None, tries=2, allow_jina=True):
+    """多通道降级：代理 -> 直连 -> r.jina.ai 渲染。返回 (正文, 通道名)"""
+    errors = []
+    plans = []
+    px = _proxy_url()
+    if px:
+        plans.append(("proxy", ["-x", px]))
+    plans.append(("direct", []))
+    for label, extra in plans:
+        body, code = _curl_once(url, referer, accept, extra, tries)
+        if code == 200 and body.strip():
+            return body, label
+        errors.append("%s(HTTP%s,%dB)" % (label, code, len(body or "")))
+    if allow_jina:
+        body, code = _curl_once(JINA + url, referer, None, [], tries)
+        if code == 200 and body.strip():
+            return _strip_jina(body), "jina"
+        errors.append("jina(HTTP%s,%dB)" % (code, len(body or "")))
+    raise RuntimeError("全部通道失败: " + " / ".join(errors))
+
+
+def fetch_json(url, referer, accept=None, tries=2):
+    body, via = fetch_text(url, referer,
+                           accept or "application/json, text/plain, */*", tries)
+    try:
+        return json.loads(body), via
+    except Exception:
+        m = re.search(r"[\[{]", body)
+        if m:
+            try:
+                return json.loads(body[m.start():]), via
+            except Exception:
+                pass
+        raise RuntimeError("JSON 解析失败 via %s: %r"
+                           % (via, body[:120].replace("\n", " ")))
 
 
 # ---------------------------------------------------------------- escaped JSON 提取
@@ -215,12 +267,12 @@ def collect_candidates():
     for label, query, ref in SOURCES:
         url = "https://www.kickstarter.com/discover/advanced?%s&format=json" % query
         try:
-            data = fetch_json(url, ref)
+            data, via = fetch_json(url, ref)
         except Exception as e:
             log("来源 <%s> 失败: %s" % (label, e))
             continue
         projects = data.get("projects", [])
-        log("来源 <%s> 返回 %d 个项目" % (label, len(projects)))
+        log("来源 <%s> 返回 %d 个项目（通道：%s）" % (label, len(projects), via))
         for rank, p in enumerate(projects):
             pid = p.get("id")
             if not pid or p.get("state") != "live":
@@ -262,9 +314,11 @@ def enrich(p):
     if not url:
         return
     time.sleep(2)
-    raw, code = curl(url, "https://www.kickstarter.com/discover/categories/technology/hardware")
-    if not raw:
-        log("  ⚠ 详情页失败 HTTP %s: %s" % (code, (p.get("name") or "")[:40]))
+    # 详情页必须拿原始 HTML（Jina 的 markdown 里没有档次数据），因此 allow_jina=False
+    try:
+        raw, via = fetch_text(url, CATEGORY_REF, tries=2, allow_jina=False)
+    except Exception as e:
+        log("  ⚠ 详情页失败: %s —— %s" % ((p.get("name") or "")[:36], e))
         return
 
     clean = []
@@ -357,8 +411,17 @@ def save_snapshots(snaps):
     return snaps
 
 
+def read_history():
+    if not os.path.exists(HIST_CSV):
+        return []
+    with open(HIST_CSV, "r", encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
+
+
 def append_history(snap):
     """累计台账：按 (日期, 项目ID) 去重后追加，永不删除历史行"""
+    fields = ["Date", "ProjectID", "Name", "Category",
+              "USD_Pledged", "Backers", "Min_Price", "Tiers", "URL"]
     rows = []
     for p in snap["projects"]:
         prices = [r["price"] for r in p.get("rewards", []) if r.get("price")]
@@ -373,8 +436,6 @@ def append_history(snap):
             "Tiers": len(p.get("rewards", [])),
             "URL": p.get("url"),
         })
-    fields = ["Date", "ProjectID", "Name", "Category",
-              "USD_Pledged", "Backers", "Min_Price", "Tiers", "URL"]
     seen, old = set(), []
     if os.path.exists(HIST_CSV):
         with open(HIST_CSV, "r", encoding="utf-8", newline="") as f:
@@ -626,6 +687,7 @@ HTML_TPL = """<!DOCTYPE html>
 <style>__CSS__</style></head>
 <body><div class="wrap">
 __NAV__
+__ALERT__
 <header class="top">
   <h1>💡 Kickstarter 每日科技众筹 Top 5</h1>
   <div class="sub">智能硬件 · 软件 · AI · 自动化 —— 与财经/新闻看板共用同一定时更新引擎</div>
@@ -656,7 +718,7 @@ __NAV__
 """
 
 
-def render_page(snaps, hist_rows, today):
+def render_page(snaps, hist_rows, today, stale=None):
     payload = json.dumps(snaps, ensure_ascii=False).replace("</script>", "<\\/script>")
     recent = [r for r in hist_rows if r.get("Date")]
     recent = sorted(recent, key=lambda r: r["Date"], reverse=True)[:ARCHIVE_DAYS * TOP_N]
@@ -665,10 +727,19 @@ def render_page(snaps, hist_rows, today):
                 "u": r["URL"]} for r in recent]
     hist_js = json.dumps(compact, ensure_ascii=False).replace("</script>", "<\\/script>")
 
+    if stale:
+        newest = snaps[0]["date"] if snaps else "-"
+        alert = ("<div class='alert'>⚠ <b>今日数据抓取失败</b>（%s）。当前页面显示的"
+                 "仍是 <b>%s</b> 的榜单，非最新。常见原因是 Cloudflare 拒绝了数据中"
+                 "心出口 IP，通常下一次运行会自行恢复。</div>" % (stale, newest))
+    else:
+        alert = ""
+
     js = JS.replace("__DATA__", payload).replace("__HIST__", hist_js)
     page = (HTML_TPL
             .replace("__CSS__", CSS)
             .replace("__JS__", js)
+            .replace("__ALERT__", alert)
             .replace("__NAV__", NAV.format(date=today))
             .replace("__ARCHIVE_DAYS__", str(ARCHIVE_DAYS))
             .replace("__HIST_N__", str(len(compact))))

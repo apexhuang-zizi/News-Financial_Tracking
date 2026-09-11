@@ -39,6 +39,8 @@ jobs:
       # continue-on-error 保证它失败时绝不影响上面三张主看板的提交与部署。
       - name: Execute Kickstarter Scraper
         continue-on-error: true
+        env:
+          MY_PROXY_URL: ${{ secrets.PROXY_URL }}
         run: python kickstarter_scraper.py
 
       - name: Commit and Push update
