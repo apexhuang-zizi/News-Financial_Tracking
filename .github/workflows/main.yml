@@ -35,14 +35,15 @@ jobs:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python scraper.py
 
-      # Kickstarter 众筹看板：独立模块，仅依赖标准库 + curl。
-      # continue-on-error 保证它失败时绝不影响上面三张主看板的提交与部署。
-      - name: Execute Kickstarter Scraper
-        continue-on-error: true
-        env:
-          MY_PROXY_URL: ${{ secrets.PROXY_URL }}
-        run: python kickstarter_scraper.py
-
+      # ⚠ 众筹看板（kickstarter.html / ks_data.json / ks_history.csv）不在 CI 里抓取。
+      # 实测 GitHub Actions 的机房出口 IP 会被 Cloudflare 全线拒绝：连 discover
+      # 的 JSON 接口都返回 403 "Just a moment..."，详情页更拿不到原始 HTML，
+      # 解析不出档次价格，只会用残缺数据覆盖完整数据。
+      # 因此该看板改由本机（住宅出口 IP 可正常抓取）执行：
+      #   python kickstarter_scraper.py --push
+      # 即 pull --rebase → 抓取 → 写 ks_data.json / ks_history.csv →
+      # 渲染 kickstarter.html → commit → push。文件进仓库后，
+      # 本工作流的提交与 Pages 部署会自动把它一并发布。
       - name: Commit and Push update
         run: |
           git config --global user.name "github-actions[bot]"

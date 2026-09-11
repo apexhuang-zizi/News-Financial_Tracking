@@ -748,10 +748,57 @@ def render_page(snaps, hist_rows, today, stale=None):
     log("页面已生成 kickstarter.html（%.0f KB）" % (os.path.getsize(OUT_HTML) / 1024))
 
 
+KS_FILES = ["kickstarter.html", "ks_data.json", "ks_history.csv"]
+
+
+def _git(*args):
+    r = subprocess.run(["git"] + list(args), cwd=BASE, capture_output=True,
+                       text=True, encoding="utf-8", errors="replace")
+    return r.returncode, ((r.stdout or "") + (r.stderr or "")).strip()
+
+
+def git_push(snap, today, tiers):
+    """把本次数据同步到远端。
+
+    仓库现有的 GitHub Actions 每天会用 `git push --force` 覆盖 main，
+    所以这里先 rebase 到远端最新，再重新合并台账（append_history 幂等），最后推送。
+    """
+    code, branch = _git("rev-parse", "--abbrev-ref", "HEAD")
+    branch = branch or "main"
+    _git("checkout", "--", *KS_FILES)
+
+    code, out = _git("pull", "--rebase", "origin", branch)
+    if code != 0:
+        log("⚠ git pull 失败：%s" % out[:200])
+        return 1
+
+    # 远端可能在此期间追加过台账行，重新合并（按 Date+ProjectID 去重，幂等）
+    hist_rows = append_history(snap)
+    snaps = [s for s in load_snapshots() if s.get("date") != today]
+    snaps.insert(0, snap)
+    snaps = save_snapshots(snaps)
+    render_page(snaps, hist_rows, today)
+
+    _git("add", *KS_FILES)
+    code, out = _git("commit", "-m", "Auto-update crowdfunding board: %s (%d tiers)"
+                     % (today, tiers))
+    if code != 0 and "nothing to commit" not in out:
+        log("⚠ git commit 失败：%s" % out[:200])
+        return 1
+    code, out = _git("push", "origin", branch)
+    if code != 0:
+        log("⚠ git push 失败：%s" % out[:200])
+        return 1
+    log("已推送至远端 %s" % branch)
+    return 0
+
+
 # ---------------------------------------------------------------- 主流程
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true", help="只抓取，不写文件")
+    ap.add_argument("--push", action="store_true",
+                    help="生成后自动 git pull --rebase / commit / push 到当前分支")
     args = ap.parse_args()
 
     log("curl 可执行档: %s" % CURL)
@@ -790,14 +837,32 @@ def main():
                 bool(p["coverRemote"]), bool(p["videoMp4"])))
         return 0
 
-    snaps = [s for s in load_snapshots() if s.get("date") != today]
+    old = load_snapshots()
+    old_tiers = sum(len(p.get("rewards") or []) for p in old[0]["projects"]) if old else 0
+    new_tiers = sum(len(p["rewards"]) for p in snap["projects"])
+
+    # 数据质量闸门：档次数据依赖详情页原始 HTML。若详情页全部失败（数据中心 IP
+    # 被 Cloudflare 拒绝时必现），本次结果残缺，绝不能覆盖上一次的完整结果。
+    if new_tiers == 0 and old_tiers > 0:
+        msg = "详情页全部抓取失败，档次数据缺失，已保留上一次完整数据"
+        log("⚠ " + msg)
+        hist_rows = read_history()
+        render_page(old, hist_rows, today, stale=msg)
+        sys.stderr.write("::error::%s\n" % msg)
+        return 1
+
+    snaps = [s for s in old if s.get("date") != today]
     snaps.insert(0, snap)
     snaps = save_snapshots(snaps)
-    log("快照库保留 %d 天（上限 %d 天）" % (len(snaps), KEEP_DAYS))
+    log("快照库保留 %d 天（上限 %d 天），本次档次合计 %d 个"
+        % (len(snaps), KEEP_DAYS, new_tiers))
 
     hist_rows = append_history(snap)
     render_page(snaps, hist_rows, today)
     log("众筹看板更新完成")
+
+    if args.push:
+        return git_push(snap, today, new_tiers)
     return 0
 
 
