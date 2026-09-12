@@ -28,6 +28,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import time
 from datetime import datetime, timezone, timedelta
 
@@ -41,9 +42,26 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 
 TOP_N = 5
+TOP_TIERS = 3          # 每个项目只展示支持人数最多的 N 个档次（档次表常达 30+ 项）
 KEEP_DAYS = 7          # 完整快照保留天数（自动裁剪，防止仓库膨胀）
 ARCHIVE_DAYS = 90      # 页面底部历史榜展示天数（数据源为累计 CSV）
 TZ = timezone(timedelta(hours=7))
+
+# ---- 中文字幕（本地 Whisper 转写 + 免费翻译），装机缺失时自动降级 ----
+ASR_MODEL = os.environ.get("KS_ASR_MODEL", "base")   # tiny/base/small
+ASR_MAX_SECONDS = 300  # 超过此长度的视频不做转写，避免耗时失控
+MAX_CUE_CHARS = 42     # 单条字幕最大字符数，超过则按词拆分
+GTX = "https://translate.googleapis.com/translate_a/single"
+# Google 免费翻译接口常被限流(429)，必须有备用通道。MyMemory 免费、无需密钥、
+# 且保留换行，作为 GTX 失败时的兜底。
+MYMEM = "https://api.mymemory.translated.net/get"
+
+# ---- 产品功能图文（详情页 story 由 JS 渲染，只能走 Jina 的 headless 渲染通道）----
+STORY_MAX_IMG = 14
+STORY_MAX_TEXT = 26
+STORY_MAX_CHARS = 5000
+# Jina 免费额度有限且会间歇性返回 CF 挑战页，主通道用耐心退避重试
+JINA_TRIES = 2
 
 
 def _find_curl():
@@ -308,7 +326,7 @@ def score(p):
     return s
 
 
-def enrich(p):
+def enrich(p, story_cache=None):
     """抓详情页补齐档次数据；封面一律走 KS CDN 外链，不落本地（避免仓库膨胀）"""
     url = (p.get("urls") or {}).get("web", {}).get("project")
     if not url:
@@ -341,8 +359,12 @@ def enrich(p):
             "shipping": r.get("shipping_preference"),
         })
     clean.sort(key=lambda x: x["price"])
-    p["rewards"] = clean
-    log("  ✓ 档次 %d 个" % len(clean))
+    total = len(clean)
+    # 档次表动辄三四十项，全列出来没有信息量：只留支持人数最多的几个
+    hot = sorted(clean, key=lambda x: (-(x.get("backers") or 0), x["price"]))[:TOP_TIERS]
+    hot.sort(key=lambda x: x["price"])
+    p["rewards"] = hot
+    p["rewardsTotal"] = total
 
     video = p.get("video") or {}
     if isinstance(video, dict):
@@ -352,6 +374,286 @@ def enrich(p):
         v = p.get(k)
         if isinstance(v, str) and v.startswith("//"):
             p[k] = "https:" + v
+
+    # 先做字幕（耗时长，顺便给后面的 Jina 请求留出间隔），再抓功能图文
+    sub = build_subtitles(p, raw)
+    if sub:
+        p["cues"], p["vttLang"] = sub
+    p["story"] = fetch_story(url, raw, p.get("blurb"),
+                             story_cache.get(p["id"]) if story_cache else None)
+    log("  ✓ %d/%d 档次 · 图文 %s · 字幕 %s" % (
+        len(hot), total,
+        ("%d 图/%d 段" % (sum(1 for b in (p["story"] or []) if b["t"] == "img"),
+                       sum(1 for b in (p["story"] or []) if b["t"] == "p"))
+         if p["story"] else "无"),
+        ("%d 条" % len(p["cues"])) if p.get("cues") else "无"))
+
+
+# ---------------------------------------------------------------- 中文字幕
+def _pick_video_url(raw_html):
+    """视频地址带时效签名，必须用详情页里最新的那个（列表接口里的往往已过期 403）"""
+    s = htmllib.unescape(raw_html or "")
+    best = {}
+    for ts, sig, path in re.findall(
+            r'https://v2\.kickstarter\.com/(\d{9,12})-([^"\\ ]{5,140}?)'
+            r'/(projects/\d+/[^"\\ ]{5,90})', s):
+        key = ("high" if "h264_high" in path else
+               "base" if "h264_base" in path else "other")
+        if key not in best or int(ts) > int(best[key][0]):
+            best[key] = (ts, sig, path)
+    for key in ("high", "base", "other"):
+        if key in best:
+            ts, sig, path = best[key]
+            return "https://v2.kickstarter.com/%s-%s/%s" % (ts, sig, path)
+    return None
+
+
+def _translate_gtx(q):
+    try:
+        res = subprocess.run(
+            [CURL, "-s", "-m", "25", "-G", GTX,
+             "--data-urlencode", "client=gtx", "--data-urlencode", "sl=en",
+             "--data-urlencode", "tl=zh-CN", "--data-urlencode", "dt=t",
+             "--data-urlencode", "q=" + q],
+            capture_output=True, text=True,
+            encoding="utf-8", errors="replace").stdout
+        data = json.loads(res)
+        return "".join(b[0] for b in data[0] if b and b[0])
+    except Exception:
+        return None
+
+
+def _translate_mymem(q):
+    try:
+        res = subprocess.run(
+            [CURL, "-s", "-m", "25", "-G", MYMEM,
+             "--data-urlencode", "q=" + q,
+             "--data-urlencode", "langpair=en|zh-CN"],
+            capture_output=True, text=True,
+            encoding="utf-8", errors="replace").stdout
+        d = json.loads(res)
+        t = ((d.get("responseData") or {}).get("translatedText") or "").strip()
+        if t and "MYMEMORY WARNING" not in t:
+            return t
+    except Exception:
+        pass
+    return None
+
+
+def translate_lines(lines, label=""):
+    """英文行 -> 中文行。GTX 优先（可整批），失败则逐行走 MyMemory（单次有长度上限，
+    必须逐行）。二者皆失败保留英文，保证功能不中断。"""
+    if not lines:
+        return list(lines)
+    out = []
+    for i in range(0, len(lines), 15):
+        chunk = [" ".join((c or "").split()) for c in lines[i:i + 15]]
+        q = "\n".join(chunk)
+        txt = _translate_gtx(q)
+        if txt:
+            out.extend(t.strip() for t in txt.split("\n"))
+        else:
+            # GTX 不可用：逐行走 MyMemory，避免单次超长被拒
+            for ln in chunk:
+                t = _translate_mymem(ln)
+                out.append(t.strip() if t else ln)
+                time.sleep(0.15)
+            if not any(chunk):
+                pass
+        if i + 15 < len(lines):
+            time.sleep(0.4)
+    if len(out) < len(lines):
+        out += list(lines[len(out):])
+    return out[:len(lines)]
+
+
+def _split_segment(start, end, text, max_chars=MAX_CUE_CHARS):
+    """Whisper 的片段可长达十几秒，按词切成适合阅读的短字幕并按字数分配时长"""
+    text = " ".join((text or "").split())
+    if not text:
+        return []
+    if len(text) <= max_chars:
+        return [(start, end, text)]
+    lines, cur = [], ""
+    for w in text.split():
+        if cur and len(cur) + 1 + len(w) > max_chars:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = (cur + " " + w).strip()
+    if cur:
+        lines.append(cur)
+    dur = max(0.1, end - start)
+    total = sum(len(x) for x in lines) or 1
+    out, t = [], start
+    for ln in lines:
+        d = dur * len(ln) / total
+        out.append((t, t + d, ln))
+        t += d
+    return out
+
+
+_ASR = None
+
+
+def _asr_model():
+    """延迟加载 Whisper：未安装时抛异常，由调用方降级"""
+    global _ASR
+    if _ASR is None:
+        from faster_whisper import WhisperModel
+        _ASR = WhisperModel(ASR_MODEL, device="cpu", compute_type="int8")
+    return _ASR
+
+
+def build_subtitles(p, raw_html):
+    """下载视频 -> 本地 Whisper 转写 -> 逐句译中 -> 返回 (cues, lang)。
+    cues 为 [[start, end, text], ...]；任一步失败返回 None。"""
+    url = _pick_video_url(raw_html) or p.get("videoMp4")
+    if not url:
+        return None
+    try:
+        _asr_model()
+    except Exception:
+        log("  · 未安装 faster-whisper，跳过中文字幕"
+            "（pip install faster-whisper 后自动启用）")
+        return None
+
+    tmp = os.path.join(tempfile.gettempdir(), "ks_%s.mp4" % (p.get("id") or "tmp"))
+    try:
+        code = subprocess.run(
+            [CURL, "-sSL", "-m", "180", "-A", UA,
+             "-H", "Referer: https://www.kickstarter.com/",
+             "-o", tmp, "-w", "%{http_code}", url],
+            capture_output=True, text=True,
+            encoding="utf-8", errors="replace").stdout.strip()
+        if code != "200" or not os.path.exists(tmp) or os.path.getsize(tmp) < 50000:
+            log("  · 视频下载失败 HTTP %s，跳过字幕" % code)
+            return None
+        segs, info = _asr_model().transcribe(
+            tmp, language="en", vad_filter=True, beam_size=1)
+        if info.duration > ASR_MAX_SECONDS:
+            log("  · 视频 %.0fs 过长，跳过字幕" % info.duration)
+            return None
+        cues = []
+        for s in segs:
+            cues.extend(_split_segment(s.start, s.end, s.text))
+        if not cues:
+            log("  · 视频无有效语音（%.0fs），跳过字幕" % info.duration)
+            return None
+        src = [c[2] for c in cues]
+        zh = translate_lines(src, "字幕")
+        lang = "zh" if any(a != b for a, b in zip(src, zh)) else "en"
+        cues = [[round(a, 2), round(b, 2), t] for (a, b, _), t in zip(cues, zh)]
+        log("  ✓ 字幕 %d 条（%s，视频 %.0fs / %.1fMB）"
+            % (len(cues), "中译" if lang == "zh" else "英文",
+               info.duration, os.path.getsize(tmp) / 1048576))
+        return cues, lang
+    except Exception as e:
+        log("  · 字幕生成失败: %s" % str(e)[:80])
+        return None
+    finally:
+        try:
+            if os.path.exists(tmp):
+                os.remove(tmp)
+        except Exception:
+            pass
+
+
+# ---------------------------------------------------------------- 产品功能图文
+def _jina(url, tries=JINA_TRIES):
+    """r.jina.ai 免费额度有限且会间歇性返回 Cloudflare 挑战页，必须耐心退避重试。
+    命中『Markdown Content:』即视为成功；否则按 15/35/55/75s 递增退避。"""
+    res = ""
+    for i in range(tries):
+        try:
+            res = subprocess.run([CURL, "-sSL", "-m", "120", "-A", UA, JINA + url],
+                                 capture_output=True, text=True,
+                                 encoding="utf-8", errors="replace").stdout or ""
+        except Exception:
+            res = ""
+        if "Markdown Content:" in res:
+            return res
+        if i < tries - 1:
+            time.sleep(15 + i * 20)
+    return res
+
+
+def _parse_jina_story(md):
+    """把 Jina 的 markdown 拆成 [{'t':'img','u'},{'t':'p','x'}] 块。"""
+    body = md.split("Markdown Content:", 1)[1]
+    blocks, seen, chars, n_img, n_txt = [], set(), 0, 0, 0
+    for ln in body.split("\n"):
+        ln = ln.strip()
+        if not ln or ln.startswith(("[", "#", ">", "|", "---")):
+            continue
+        m = re.match(r"!\[[^\]]*\]\((https?://[^)\s]+)\)", ln)
+        if m:
+            u = m.group(1)
+            if u in seen or n_img >= STORY_MAX_IMG:
+                continue
+            # 跳过头像/图标等极小配图（width/height 40~80 的多为头像）
+            if re.search(r"[?&](?:width|height)=(?:40|60|80)\b", u):
+                continue
+            seen.add(u)
+            n_img += 1
+            blocks.append({"t": "img", "u": u})
+            continue
+        if len(ln) < 12 or n_txt >= STORY_MAX_TEXT or chars >= STORY_MAX_CHARS:
+            continue
+        n_txt += 1
+        chars += len(ln)
+        blocks.append({"t": "p", "x": ln})
+    return blocks or None
+
+
+def _translate_story(blocks):
+    idx = [i for i, b in enumerate(blocks) if b["t"] == "p"]
+    if idx:
+        zh = translate_lines([blocks[i]["x"] for i in idx], "功能文案")
+        for i, t in zip(idx, zh):
+            blocks[i]["z"] = t
+    return blocks
+
+
+def _story_fallback(raw, blurb):
+    """Jina 全失败时的兜底：用详情页里能直接拿到的产品图（带 sig 的 assets 大图）
+    + 项目简介拼出一个『产品图集』，保证『产品功能』板块永不空白。"""
+    blocks = []
+    if raw:
+        seen = set()
+        clean = raw.replace("&amp;", "&")
+        for u in re.findall(
+                r"https://i\.kickstarter\.com/assets/[^\\\"\s]+?_original\."
+                r"(?:jpg|png|webp)(?:\?[^\"\\\s]+)?", clean):
+            base = u.split("?", 1)[0]
+            if base in seen or len(blocks) >= STORY_MAX_IMG:
+                continue
+            if re.search(r"[?&](?:width|height)=(?:40|60|80)\b", u):
+                continue
+            seen.add(base)
+            blocks.append({"t": "img", "u": u})
+    if blurb:
+        blocks.append({"t": "p", "x": (blurb or "").strip()})
+    return _translate_story(blocks) if blocks else None
+
+
+def fetch_story(url, raw=None, blurb=None, cached=None):
+    """产品功能图文：story 由 JS 渲染，SSR 里没有，唯一稳定来源是 r.jina.ai 的
+    headless 渲染。主通道 Jina（耐心退避重试）；全失败时【优先复用历史缓存】，
+    其次回落到详情页已知产品图 + 简介，保证板块永不空白。
+    返回 [{'t':'img','u':...}, {'t':'p','x':英文,'z':中文}] 或 None。"""
+    md = _jina(url)
+    if "Markdown Content:" in md:
+        blocks = _parse_jina_story(md)
+        if blocks:
+            return _translate_story(blocks)
+        log("  · Jina 正文无图文，改用兜底")
+    else:
+        log("  · Jina 全部通道失败")
+    # 优先级：Jina 成功 > 历史缓存（限流时保板块不空白）> 详情页兜底图集
+    if cached:
+        return cached
+    return _story_fallback(raw, blurb)
 
 
 def simplify(p):
@@ -385,6 +687,10 @@ def simplify(p):
         "videoMp4": p.get("videoMp4"),
         "videoHls": p.get("videoHls"),
         "rewards": p.get("rewards", []),
+        "rewardsTotal": p.get("rewardsTotal") or len(p.get("rewards", [])),
+        "cues": p.get("cues") or [],
+        "vttLang": p.get("vttLang") or "",
+        "story": p.get("story") or [],
     }
 
 
@@ -433,7 +739,7 @@ def append_history(snap):
             "USD_Pledged": round(float(p.get("usdPledged") or 0), 2),
             "Backers": p.get("backers"),
             "Min_Price": min(prices) if prices else "",
-            "Tiers": len(p.get("rewards", [])),
+            "Tiers": p.get("rewardsTotal") or len(p.get("rewards", [])),
             "URL": p.get("url"),
         })
     seen, old = set(), []
@@ -475,7 +781,7 @@ CSS = """
 *{box-sizing:border-box}
 body{margin:0;background:#fff;color:var(--ink);
 font-family:"Segoe UI",system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
-line-height:1.6;-webkit-font-smoothing:antialiased}
+font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1080px;margin:0 auto;padding:24px 20px 60px}
 header.top{background:linear-gradient(135deg,#037362,#05ce78);color:#fff;border-radius:14px;
 padding:24px 26px 20px;margin:18px 0 0;box-shadow:0 6px 20px rgba(3,115,98,.18)}
@@ -540,7 +846,44 @@ table.hist tr:hover td{background:#fafbfc}
 footer.note{margin-top:26px;color:var(--muted);font-size:12.5px;line-height:1.8;
 border-top:1px solid var(--line);padding-top:14px}
 .empty{padding:40px;text-align:center;color:var(--muted)}
-@media(max-width:640px){.hero{height:210px}.panel,.card{border-radius:10px}}
+
+/* ---- 产品功能图文 ---- */
+.story-bar{display:flex;gap:8px;align-items:center;margin:0 0 10px;flex-wrap:wrap}
+.sbtn{font:inherit;font-size:13px;padding:5px 11px;border-radius:7px;
+border:1px solid var(--line);background:#fff;color:#374151;cursor:pointer}
+.sbtn:hover{background:#f9fafb}
+.simgs{display:flex;gap:10px;overflow-x:auto;padding:4px 2px 10px;
+scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.simgs img{flex:0 0 auto;width:270px;height:165px;object-fit:cover;border-radius:10px;
+scroll-snap-align:start;background:#f3f4f6;border:1px solid var(--line)}
+.stxt{margin-top:4px;max-height:270px;overflow:auto;
+border-left:3px solid var(--accent2);padding:2px 0 2px 13px}
+.stxt p{margin:0 0 11px;font-size:15.5px;line-height:1.8;color:#374151}
+.stxt p .en{display:none;color:var(--muted);font-size:13.5px}
+.stxt.en p .zh{display:none}
+.stxt.en p .en{display:inline}
+
+/* ---- 视频中文字幕（自绘浮层，规避跨域 <track> 限制）---- */
+.cap{position:absolute;left:0;right:0;bottom:0;padding:10px 14px 14px;text-align:center;
+color:#fff;font-size:18px;line-height:1.5;font-weight:600;z-index:3;pointer-events:none;
+text-shadow:0 1px 3px rgba(0,0,0,.95),0 0 12px rgba(0,0,0,.8)}
+.cap:empty{display:none}
+.capbtn{position:absolute;top:14px;right:56px;z-index:4;background:rgba(0,0,0,.55);
+color:#fff;border:none;border-radius:999px;padding:4px 11px;font-size:12.5px;
+cursor:pointer;font-family:inherit}
+
+@media(max-width:640px){
+  body{font-size:16px}
+  .hero{height:200px}
+  .panel,.card{border-radius:10px}
+  h2.name{font-size:19px}
+  .blurb{font-size:15.5px}
+  table.rw{font-size:14.5px}
+  table.rw th,table.rw td{padding:8px 7px}
+  .simgs img{width:215px;height:135px}
+  .stxt p{font-size:15px}
+  .cap{font-size:15.5px;padding:8px 10px 11px}
+}
 """
 
 JS = """
@@ -572,6 +915,23 @@ function statusOf(r){
   if(r.limit) return '限量 '+r.limit;
   return '不限量';
 }
+function storyHtml(p,i){
+  const st = p.story||[];
+  const imgs = st.filter(b=>b.t==='img'), paras = st.filter(b=>b.t==='p');
+  if(!imgs.length && !paras.length) return '';
+  const gal = imgs.length
+    ? '<div class="simgs">'+imgs.map(b=>'<img loading="lazy" src="'+esc(b.u)+'" alt="">').join('')+'</div>'
+    : '';
+  const txt = paras.length
+    ? '<div class="stxt" id="stxt'+i+'">'+paras.map(b=>
+        '<p><span class="zh">'+esc(b.z||b.x)+'</span><span class="en">'+esc(b.x)+'</span></p>').join('')+'</div>'
+    : '';
+  const sw = (paras.length && paras.some(b=>b.z))
+    ? '<div class="story-bar"><button class="sbtn" type="button" data-lang="'+i+'">显示英文原文</button></div>'
+    : '';
+  return '<h3 class="sec">产品功能 · 项目原帖图文</h3>'+sw+gal+txt;
+}
+
 function projectCard(p,i){
   const cover = p.coverRemote||'';
   const tags = [];
@@ -580,8 +940,13 @@ function projectCard(p,i){
   if(p.staffPick) tags.push('<span class="tag g">Projects We Love</span>');
   (p.kwHits||[]).slice(0,5).forEach(k=>tags.push('<span class="tag o">'+esc(k)+'</span>'));
 
+  const cues = p.cues||[];
   const videoHtml = p.videoMp4
-    ? '<video controls preload="none" poster="'+esc(cover)+'" src="'+esc(p.videoMp4)+'"></video>'
+    ? '<video controls preload="none" playsinline poster="'+esc(cover)+'" src="'+esc(p.videoMp4)+'" data-pi="'+i+'"></video>'
+      + (cues.length
+         ? '<div class="cap" id="cap'+i+'"></div>'
+           + '<button class="capbtn" data-cap="'+i+'" type="button">字幕 '+(p.vttLang==='zh'?'中':'EN')+'</button>'
+         : '')
     : '<img loading="lazy" src="'+esc(cover)+'" alt="">';
 
   const rws = (p.rewards||[]);
@@ -624,7 +989,8 @@ function projectCard(p,i){
       '</div>'+
       '<div class="bar"><i style="width:'+Math.min(100,Number(p.percentFunded||0))+'%"></i></div>'+
       '<div class="barlab">'+money(p.usdPledged)+' / 目标 '+money(p.goalUsd)+'　·　发起人 '+esc(p.creator||'-')+'</div>'+
-      '<h3 class="sec">选购档次（共 '+rws.length+' 档）</h3>'+tableHtml+
+      '<h3 class="sec">选购档次（支持人数最多的 '+rws.length+' 档 / 共 '+(p.rewardsTotal||rws.length)+' 档）</h3>'+tableHtml+
+      storyHtml(p,i)+
       '<a class="cta" href="'+esc(p.url)+'" target="_blank" rel="noopener">前往 Kickstarter 项目页 →</a>'+
     '</div></article>';
 }
@@ -644,6 +1010,43 @@ function renderHist(){
     '</tr></thead><tbody>'+body+'</tbody></table></div>';
 }
 
+/* 字幕自绘：跨域视频用原生 <track> 会被浏览器拦掉，改为监听 timeupdate 自己画 */
+function wireCards(d){
+  document.querySelectorAll('video[data-pi]').forEach(v=>{
+    const i = +v.getAttribute('data-pi');
+    const p = (d.projects||[])[i];
+    const cues = (p && p.cues) || [];
+    if(!cues.length) return;
+    const box = document.getElementById('cap'+i);
+    const btn = document.querySelector('button[data-cap="'+i+'"]');
+    if(!box) return;
+    let on = true;
+    const paint = ()=>{
+      if(!on){ box.textContent=''; return; }
+      const t = v.currentTime;
+      let lo=0, hi=cues.length-1, k=-1;
+      while(lo<=hi){ const m=(lo+hi)>>1; if(cues[m][0]<=t){ k=m; lo=m+1; } else hi=m-1; }
+      box.textContent = (k>=0 && t<=cues[k][1]) ? cues[k][2] : '';
+    };
+    v.addEventListener('timeupdate', paint);
+    v.addEventListener('seeked', paint);
+    if(btn) btn.addEventListener('click', ()=>{
+      on = !on;
+      btn.textContent = on ? ('字幕 '+(p.vttLang==='zh'?'中':'EN')) : '字幕 关';
+      btn.style.opacity = on ? '1' : '.55';
+      paint();
+    });
+  });
+  document.querySelectorAll('button[data-lang]').forEach(b=>{
+    b.addEventListener('click', ()=>{
+      const box = document.getElementById('stxt'+b.getAttribute('data-lang'));
+      if(!box) return;
+      box.classList.toggle('en');
+      b.textContent = box.classList.contains('en') ? '显示中文翻译' : '显示英文原文';
+    });
+  });
+}
+
 function render(){
   const d = DATA.find(x=>x.date===current);
   const box = el('list');
@@ -652,6 +1055,7 @@ function render(){
   el('gen').textContent = '更新于 ' + d.generatedAt.replace('T',' ').slice(0,19) + ' (UTC+7)';
   el('pool').textContent = d.poolSize + ' 个候选';
   box.innerHTML = d.projects.map(projectCard).join('');
+  wireCards(d);
   window.scrollTo({top:0,behavior:'smooth'});
 }
 
@@ -814,12 +1218,22 @@ def main():
     cands.sort(key=score, reverse=True)
     top = cands[:TOP_N]
 
+    # 预载历史快照，建立『项目ID -> 已抓产品图文』缓存：Jina 偶发限流时复用，
+    # 保证『产品功能』板块不空白（Kickstarter 的 story 很少变动）。
+    old = load_snapshots()
+    story_cache = {}
+    for _s in old:
+        for _pr in _s.get("projects", []):
+            _st = _pr.get("story")
+            if _st and _pr.get("id") is not None:
+                story_cache.setdefault(_pr["id"], _st)
+
     for p in top:
         log("选中 [%s] %s  ($%s / %s人 / %s档)" % (
             p["_score"], (p.get("name") or "")[:44],
             format(float(p.get("usd_pledged") or 0), ",.0f"),
             p.get("backers_count"), len(p.get("rewards", []))))
-        enrich(p)
+        enrich(p, story_cache)
 
     snap = {
         "date": today,
@@ -837,9 +1251,10 @@ def main():
                 bool(p["coverRemote"]), bool(p["videoMp4"])))
         return 0
 
-    old = load_snapshots()
-    old_tiers = sum(len(p.get("rewards") or []) for p in old[0]["projects"]) if old else 0
-    new_tiers = sum(len(p["rewards"]) for p in snap["projects"])
+    # 用档次总数（而非展示的 3 个）判定，避免裁剪逻辑干扰质量闸门
+    old_tiers = sum(int(p.get("rewardsTotal") or len(p.get("rewards") or []))
+                    for p in old[0]["projects"]) if old else 0
+    new_tiers = sum(int(p.get("rewardsTotal") or 0) for p in snap["projects"])
 
     # 数据质量闸门：档次数据依赖详情页原始 HTML。若详情页全部失败（数据中心 IP
     # 被 Cloudflare 拒绝时必现），本次结果残缺，绝不能覆盖上一次的完整结果。

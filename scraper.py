@@ -370,22 +370,73 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
     df_stock.tail(90).to_csv(stock_file, index=False)
 
     today_date = datetime.now().strftime('%Y-%m-%d')
-    nav = f"""<div style='position:relative; margin-bottom:25px;'>
-        <div style='text-align:center; font-size:1.2rem;'>
-            <a href='index.html'>🏠 技术趋势</a> | <a href='news.html'>🌍 国际要闻</a> | <a href='finance.html'>📈 金融看板</a> | <a href='kickstarter.html'>💡 众筹热点</a>
+    nav = f"""<div class="nav">
+        <div class="nav-links">
+            <a href='index.html'>🏠 技术趋势</a>
+            <a href='news.html'>🌍 国际要闻</a>
+            <a href='finance.html'>📈 金融看板</a>
+            <a href='kickstarter.html'>💡 众筹热点</a>
         </div>
-        <div style='position:absolute; top:0; right:0; font-size:0.9rem; color:#666;'>
-            @ApexH | 📅 {today_date}
-        </div>
-    </div><hr>"""
+        <div class="nav-date">@ApexH | 📅 {today_date}</div>
+    </div>"""
 
-    hn_list = "".join([f"<li style='margin-bottom:15px;'><a href='{item['url']}' target='_blank'><b>{item['title']}</b></a><br><small style='color:#2c5282;'>{item['cn_title']}</small></li>" for item in hn])
+    # 四张看板共用的响应式基础样式：手机竖屏 / 横屏 / 桌面都能清晰阅读
+    BASE_CSS = """
+        html{-webkit-text-size-adjust:100%; text-size-adjust:100%}
+        *{box-sizing:border-box}
+        body{font-family:system-ui,-apple-system,'Segoe UI','Microsoft YaHei',sans-serif;
+             font-size:19px; line-height:1.75; color:#111827}
+        a{-webkit-tap-highlight-color:rgba(29,78,216,.15)}
+        .nav{display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
+             gap:10px 16px; margin:0 0 20px; padding:0 0 14px; border-bottom:2px solid #e5e7eb}
+        .nav-links{display:flex; flex-wrap:wrap; gap:8px 18px; font-size:18px}
+        .nav-links a{color:#1d4ed8; text-decoration:none; font-weight:600; white-space:nowrap}
+        .nav-links a:hover{text-decoration:underline}
+        .nav-date{font-size:15px; color:#6b7280; white-space:nowrap}
+        @media (max-width:900px){ body{font-size:18px} }
+        @media (max-width:640px){
+            body{font-size:17px}
+            .nav{flex-direction:column; align-items:flex-start; gap:8px}
+            .nav-links{font-size:16.5px; gap:8px 14px}
+            .nav-date{font-size:14px}
+        }
+    """
+
+    # 列表页（技术趋势 / 国际要闻）专用
+    LIST_CSS = BASE_CSS + """
+        .wrap{max-width:1100px; margin:0 auto; padding:20px 16px 60px}
+        h2{font-size:31px; line-height:1.4; margin:0 0 20px}
+        ul{list-style:none; padding:0; margin:0}
+        li{margin:0 0 20px; padding:0 0 18px; border-bottom:1px solid #e5e7eb}
+        li a{display:inline-block; font-size:21px; font-weight:700; line-height:1.5;
+             color:#1d4ed8; text-decoration:none; word-break:break-word}
+        li a:hover{text-decoration:underline}
+        li small{display:block; margin-top:8px; font-size:17px; line-height:1.7}
+        @media (max-width:900px){ h2{font-size:27px} li a{font-size:19.5px} li small{font-size:16px} }
+        @media (max-width:640px){
+            .wrap{padding:16px 13px 48px}
+            h2{font-size:23px}
+            li{margin-bottom:17px; padding-bottom:15px}
+            li a{font-size:18px}
+            li small{font-size:15.5px}
+        }
+    """
+
+    def _list_page(title, heading, items_html):
+        """生成一张列表页：统一 viewport + 响应式大字号"""
+        return (f"""<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{title}</title><style>{LIST_CSS}</style></head>
+<body><div class="wrap">{nav}<h2>{heading}</h2><ul>{items_html}</ul></div></body></html>""")
+
+    hn_list = "".join([f"<li><a href='{item['url']}' target='_blank'><b>{item['title']}</b></a><small style='color:#2c5282;'>{item['cn_title']}</small></li>" for item in hn])
     with open("index.html", "w", encoding="utf-8") as f:
-        f.write(f"<html><head><meta charset='UTF-8'><title>技术趋势</title></head><body style='font-family:system-ui, sans-serif; padding:30px; max-width:1000px; margin:auto;'>{nav}<h2>📌 Hacker News 技术热点 (Top 20)</h2><ul style='line-height:1.6;'>{hn_list}</ul></body></html>")
+        f.write(_list_page("技术趋势", "📌 Hacker News 技术热点 (Top 20)", hn_list))
 
-    news_list = "".join([f"<li style='margin-bottom:18px;'><a href='{item['url']}' target='_blank'><b>{item['cn_title']}</b></a><br><small style='color:#4a5568;'>{item['title']}</small></li>" for item in world])
+    news_list = "".join([f"<li><a href='{item['url']}' target='_blank'><b>{item['cn_title']}</b></a><small style='color:#4a5568;'>{item['title']}</small></li>" for item in world])
     with open("news.html", "w", encoding="utf-8") as f:
-        f.write(f"<html><head><meta charset='UTF-8'><title>国际要闻</title></head><body style='font-family:system-ui, sans-serif; padding:30px; max-width:1000px; margin:auto;'>{nav}<h2>🌐 BBC 国际要闻</h2><ul style='line-height:1.6;'>{news_list}</ul></body></html>")
+        f.write(_list_page("国际要闻", "🌐 BBC 国际要闻", news_list))
 
     # ---------- 前端图表数据序列化 ----------
     dates_js = json.dumps(df_hist['Date'].tolist())
@@ -416,21 +467,41 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>金融看板 · 仪表盘</title>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
     <style>
-        body {{ font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f4f8; padding: 20px; }}
+        {BASE_CSS}
+        body {{ background: #f0f4f8; padding: 20px; }}
         .dashboard {{ display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; }}
-        .card {{ background: white; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 20px; flex: 1 1 45%; min-width: 320px; }}
+        .card {{ background: white; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 22px; flex: 1 1 45%; min-width: 340px; }}
         .full-card {{ flex: 1 1 100%; }}
         .real-time {{ background: #1e293b; color: white; border-radius: 20px; padding: 20px; margin-bottom: 20px; display: flex; justify-content: space-between; flex-wrap: wrap; }}
-        .real-time div {{ background: #0f172a; padding: 12px 18px; border-radius: 40px; min-width: 165px; margin: 6px; font-size: 13px; }}
-        table {{ width: 100%; border-collapse: collapse; font-size:14px; }}
-        td, th {{ padding: 8px; border-bottom: 1px solid #e2e8f0; }}
-        h3 {{ margin-top: 0; color: #0f3b5c; }}
+        .real-time div {{ background: #0f172a; padding: 14px 20px; border-radius: 40px; min-width: 200px; margin: 6px; font-size: 16px; }}
+        table {{ width: 100%; border-collapse: collapse; font-size:16.5px; }}
+        td, th {{ padding: 11px 9px; border-bottom: 1px solid #e2e8f0; }}
+        th {{ text-align: left; }}
+        h3 {{ margin-top: 0; color: #0f3b5c; font-size:21px; }}
         .chart-box {{ height: 350px; width: 100%; margin-top: 15px; }}
-        .chart-box-sm {{ height: 215px; width: 100%; margin-top: 10px; }}
-        .btn-down {{ padding: 10px 20px; color: white; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; font-weight: bold; margin: 0 10px; }}
+        .chart-box-sm {{ height: 235px; width: 100%; margin-top: 10px; }}
+        .btn-down {{ padding: 12px 22px; color: white; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; font-weight: bold; margin: 0 10px; font-size:16px; display:inline-block; }}
+        @media (max-width:900px){{
+            body{{font-size:18px}}
+            table{{font-size:15.5px}} td,th{{padding:10px 7px}}
+            h3{{font-size:19px}}
+            .real-time div{{font-size:15px; min-width:180px}}
+        }}
+        @media (max-width:640px){{
+            body{{padding:13px}}
+            .card{{flex:1 1 100%; min-width:0; padding:17px; border-radius:16px}}
+            .dashboard{{gap:15px}}
+            .real-time{{padding:15px; border-radius:16px}}
+            .real-time div{{font-size:14.5px; min-width:0; flex:1 1 45%; padding:11px 14px; border-radius:22px}}
+            table{{font-size:15px}} td,th{{padding:9px 6px}}
+            h3{{font-size:18px}}
+            .chart-box{{height:290px}} .chart-box-sm{{height:230px}}
+            .btn-down{{display:block; margin:10px 0; font-size:15.5px; text-align:center}}
+        }}
     </style>
 </head>
 <body>
@@ -493,10 +564,13 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
 
     <script>
         var dates = {dates_js};
+        var FZ  = window.innerWidth < 640 ? 12 : 14;   // 图表正文/坐标轴字号
+        var LFZ = window.innerWidth < 640 ? 11 : 13;   // 图例字号
         
         var chart1 = echarts.init(document.getElementById('chart_usdcny'));
         chart1.setOption({{
-            tooltip: {{ trigger: 'axis' }},
+            textStyle: {{ fontSize: FZ }},
+            tooltip: {{ trigger: 'axis', textStyle: {{ fontSize: FZ }} }},
             xAxis: {{ data: dates, name: '日期' }},
             yAxis: {{ name: 'USD/CNY', scale: true }},
             series: [{{ name: 'USD/CNY', type: 'line', data: {usd_cny_vals}, color: '#e53e3e', smooth: true }}]
@@ -504,7 +578,8 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
         
         var chart2 = echarts.init(document.getElementById('chart_vndcny'));
         chart2.setOption({{
-            tooltip: {{ trigger: 'axis' }},
+            textStyle: {{ fontSize: FZ }},
+            tooltip: {{ trigger: 'axis', textStyle: {{ fontSize: FZ }} }},
             xAxis: {{ data: dates, name: '日期' }},
             yAxis: {{ name: 'CNY', scale: true }},
             series: [{{ name: 'VND 1K / CNY', type: 'line', data: {vnd_cny_vals}, color: '#3182ce', smooth: true }}]
@@ -512,8 +587,9 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
         
         var chart3 = echarts.init(document.getElementById('chart_stocks'));
         chart3.setOption({{
-            tooltip: {{ trigger: 'axis' }},
-            legend: {{ type: 'scroll', orient: 'horizontal', left: 'left', top: 0 }},
+            textStyle: {{ fontSize: FZ }},
+            tooltip: {{ trigger: 'axis', textStyle: {{ fontSize: FZ }} }},
+            legend: {{ type: 'scroll', orient: 'horizontal', left: 'left', top: 0, textStyle: {{ fontSize: LFZ }} }},
             xAxis: {{ data: dates, name: '日期' }},
             yAxis: {{ name: '价格', scale: true }},
             series: [{stock_series_str}]
@@ -521,8 +597,9 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
         
         var chart4 = echarts.init(document.getElementById('chart_flight'));
         chart4.setOption({{
-            tooltip: {{ trigger: 'axis' }},
-            legend: {{ type: 'scroll', orient: 'horizontal', top: 0 }},
+            textStyle: {{ fontSize: FZ }},
+            tooltip: {{ trigger: 'axis', textStyle: {{ fontSize: FZ }} }},
+            legend: {{ type: 'scroll', orient: 'horizontal', top: 0, textStyle: {{ fontSize: LFZ }} }},
             xAxis: {{ data: dates, name: '日期' }},
             yAxis: {{ name: '人民币 (￥)', scale: true }},
             series: [
@@ -538,8 +615,9 @@ def update_db_and_pages(hn, world, fin, flight_today_tuple):
 
         var chart5 = echarts.init(document.getElementById('chart_global_indices'));
         chart5.setOption({{
-            tooltip: {{ trigger: 'axis' }},
-            legend: {{ data: ['美国 S&P 500', '中国 上证指数', '越南 VN-Index'], top: 0 }},
+            textStyle: {{ fontSize: FZ }},
+            tooltip: {{ trigger: 'axis', textStyle: {{ fontSize: FZ }} }},
+            legend: {{ data: ['美国 S&P 500', '中国 上证指数', '越南 VN-Index'], top: 0, textStyle: {{ fontSize: LFZ }} }},
             xAxis: {{ data: dates, name: '日期' }},
             yAxis: {{ name: '指数点数', scale: true }},
             series: [
