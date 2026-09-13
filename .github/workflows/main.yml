@@ -73,9 +73,45 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A  # 关键修改：直接添加所有变更文件，防止报错
-          git commit -m "Auto-update all dashboards: $(date)" || exit 0
-          git push origin main --force
+
+          # ① 工作流文件绝不进入自动提交。
+          #    GITHUB_TOKEN 是 GitHub App 令牌，GitHub 明文禁止它
+          #    create/update .github/workflows/*，提交里只要带上就会被拒：
+          #      refusing to allow a GitHub App to create or update workflow ...
+          #    工作流文件只由人工推送维护，这里先还原、再从暂存区剔除。
+          git checkout -- .github/workflows 2>/dev/null || true
+          git add -A
+          git reset -q -- .github/workflows 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "本次没有需要提交的变更，跳过"
+            exit 0
+          fi
+          git commit -m "Auto-update all dashboards: $(date)"
+
+          # ② 绝不使用 --force。
+          #    force push 会把远端领先的提交整体回退（含人工提交的工作流改动、
+          #    本机补抓的众筹数据），既丢数据，又因为"回退了 main.yml"而必然
+          #    触发上面那条工作流保护报错。改为先对齐远端、再普通推送（快进）。
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main || {
+              git rebase --abort 2>/dev/null || true
+              git merge -X ours --no-edit origin/main || true
+            }
+            # ③ 双保险：无论走哪条路径，工作流文件都以远端版本为准
+            git checkout origin/main -- .github/workflows 2>/dev/null || true
+            if ! git diff --cached --quiet; then
+              git commit --amend --no-edit
+            fi
+            if git push origin main; then
+              echo "推送成功（第 $attempt 次尝试）"
+              exit 0
+            fi
+            echo "第 $attempt 次推送失败，重试…"
+          done
+          echo "推送连续失败，请检查远端是否有并发写入" >&2
+          exit 1
 
       # --- 关键：直接触发网页发布（无需等待） ---
       - name: Setup Pages
