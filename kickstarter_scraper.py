@@ -1169,7 +1169,14 @@ def git_push(snap, today, tiers):
     """
     code, branch = _git("rev-parse", "--abbrev-ref", "HEAD")
     branch = branch or "main"
+
+    # 工作区必须先干净，否则 `git pull --rebase` 会直接失败（"You have unstaged
+    # changes"），整个推送就废了、页面长期不更新。而 HTML 看板常被外部工具
+    # （编辑器/预览面板）注入 data-page-node-id 之类的属性而变脏，所以这里把
+    # 全部"生成产物"都还原，而不只是众筹三件套。源码文件不在此列，不会误伤。
     _git("checkout", "--", *KS_FILES)
+    _git("checkout", "--", "index.html", "news.html", "finance.html",
+         "history.csv", "stock_history.csv")
 
     code, out = _git("pull", "--rebase", "origin", branch)
     if code != 0:
