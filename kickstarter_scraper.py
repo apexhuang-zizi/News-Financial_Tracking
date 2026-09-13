@@ -1166,22 +1166,31 @@ def _git(*args):
     return r.returncode, ((r.stdout or "") + (r.stderr or "")).strip()
 
 
+def _clean_worktree():
+    """把全部「生成产物」还原，保证工作区干净。
+
+    HTML 看板常被外部工具（编辑器/预览面板）注入 data-page-node-id 之类的属性而
+    变「脏」，脏工作区会让 `git pull --rebase` 直接失败（"You have unstaged
+    changes"）。源码文件不在此列，不会误伤。
+    """
+    _git("checkout", "--", *KS_FILES)
+    _git("checkout", "--", "index.html", "news.html", "finance.html",
+         "history.csv", "stock_history.csv")
+
+
+def _branch():
+    code, b = _git("rev-parse", "--abbrev-ref", "HEAD")
+    return (b or "main").strip() or "main"
+
+
 def git_push(snap, today, tiers):
     """把本次数据同步到远端。
 
     仓库现有的 GitHub Actions 每天会用 `git push --force` 覆盖 main，
     所以这里先 rebase 到远端最新，再重新合并台账（append_history 幂等），最后推送。
     """
-    code, branch = _git("rev-parse", "--abbrev-ref", "HEAD")
-    branch = branch or "main"
-
-    # 工作区必须先干净，否则 `git pull --rebase` 会直接失败（"You have unstaged
-    # changes"），整个推送就废了、页面长期不更新。而 HTML 看板常被外部工具
-    # （编辑器/预览面板）注入 data-page-node-id 之类的属性而变脏，所以这里把
-    # 全部"生成产物"都还原，而不只是众筹三件套。源码文件不在此列，不会误伤。
-    _git("checkout", "--", *KS_FILES)
-    _git("checkout", "--", "index.html", "news.html", "finance.html",
-         "history.csv", "stock_history.csv")
+    branch = _branch()
+    _clean_worktree()
 
     code, out = _git("pull", "--rebase", "origin", branch)
     if code != 0:
@@ -1215,12 +1224,29 @@ def main():
     ap.add_argument("--dry", action="store_true", help="只抓取，不写文件")
     ap.add_argument("--push", action="store_true",
                     help="生成后自动 git pull --rebase / commit / push 到当前分支")
+    ap.add_argument("--skip-if-fresh", action="store_true",
+                    help="兜底模式：若远端今天已有快照（说明云端已更新）则直接退出，"
+                         "避免重复抓取与重复提交")
     args = ap.parse_args()
 
     log("curl 可执行档: %s" % CURL)
     now = datetime.now(TZ)
     today = now.strftime("%Y-%m-%d")
     log("开始抓取 %s 的 Kickstarter 数据" % today)
+
+    if args.skip_if_fresh:
+        # 作为「云端抓取失败时」的本机兜底：先拉到远端最新，只有确认今天还没有
+        # 快照（即云端那次没成功）才动手；否则直接退出，不额外产生第二个触发源。
+        br = _branch()
+        _clean_worktree()
+        code, out = _git("pull", "--rebase", "origin", br)
+        if code != 0:
+            log("⚠ 兜底模式 pull 失败：%s" % out[:160])
+            return 1
+        if any(s.get("date") == today for s in load_snapshots()):
+            log("今日（%s）已由云端更新，兜底任务跳过" % today)
+            return 0
+        log("今日（%s）尚无快照，云端可能未更新，本机接管抓取" % today)
 
     cands = collect_candidates()
     if not cands:
