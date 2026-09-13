@@ -40,15 +40,35 @@ jobs:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python scraper.py
 
-      # ⚠ 众筹看板（kickstarter.html / ks_data.json / ks_history.csv）不在 CI 里抓取。
-      # 实测 GitHub Actions 的机房出口 IP 会被 Cloudflare 全线拒绝：连 discover
-      # 的 JSON 接口都返回 403 "Just a moment..."，详情页更拿不到原始 HTML，
-      # 解析不出档次价格，只会用残缺数据覆盖完整数据。
-      # 因此该看板改由本机（住宅出口 IP 可正常抓取）执行：
-      #   python kickstarter_scraper.py --push
-      # 即 pull --rebase → 抓取 → 写 ks_data.json / ks_history.csv →
-      # 渲染 kickstarter.html → commit → push。文件进仓库后，
-      # 本工作流的提交与 Pages 部署会自动把它一并发布。
+      # ---- 众筹看板：与上面三张看板共用同一条定时、同一次提交（同频） ----
+      # 众筹抓取必须用「非机房出口 IP」才能过 Cloudflare，否则连 discover 的
+      # JSON 接口都返回 403 "Just a moment..."，详情页更拿不到原始 HTML、解析
+      # 不出档次价格。因此本步骤复用仓库已配好的 PROXY_URL 密钥走代理：
+      # 脚本内 _proxy_url() 会自动读取 MY_PROXY_URL，无需改脚本。
+      # 抓取结果（kickstarter.html / ks_data.json / ks_history.csv）由下面
+      # 统一的 Commit & Push 步骤一并提交，Pages 随主工作流一起发布。
+
+      - name: Cache Whisper model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-${{ runner.os }}-${{ hashFiles('.github/workflows/main.yml') }}
+          restore-keys: whisper-${{ runner.os }}-
+
+      # 语音识别引擎：装上才能生成视频中文字幕；装不上也不影响抓取，
+      # kickstarter_scraper.py 检测不到 faster-whisper 会自动跳过字幕。
+      - name: Install subtitle engine (faster-whisper)
+        continue-on-error: true
+        run: pip install -q faster-whisper
+
+      # 抓取本身失败（如代理失效）不应拖垮新闻页发布：continue-on-error 兜底，
+      # 且脚本内建质量闸门——档次数据全缺时会保留上一次完整数据并渲染告警条。
+      - name: Execute Kickstarter scraper
+        continue-on-error: true
+        env:
+          MY_PROXY_URL: ${{ secrets.PROXY_URL }}
+        run: python kickstarter_scraper.py
+
       - name: Commit and Push update
         run: |
           git config --global user.name "github-actions[bot]"

@@ -520,11 +520,16 @@ def build_subtitles(p, raw_html):
 
     tmp = os.path.join(tempfile.gettempdir(), "ks_%s.mp4" % (p.get("id") or "tmp"))
     try:
+        # 视频走 CDN（v2.kickstarter.com），CI 机房 IP 同样可能被 Cloudflare 拦，
+        # 所以与抓取正文保持一致的代理通道：有代理就走代理。
+        dl = [CURL, "-sSL", "-m", "180", "-A", UA]
+        px = _proxy_url()
+        if px:
+            dl += ["-x", px]
+        dl += ["-H", "Referer: https://www.kickstarter.com/",
+               "-o", tmp, "-w", "%{http_code}", url]
         code = subprocess.run(
-            [CURL, "-sSL", "-m", "180", "-A", UA,
-             "-H", "Referer: https://www.kickstarter.com/",
-             "-o", tmp, "-w", "%{http_code}", url],
-            capture_output=True, text=True,
+            dl, capture_output=True, text=True,
             encoding="utf-8", errors="replace").stdout.strip()
         if code != "200" or not os.path.exists(tmp) or os.path.getsize(tmp) < 50000:
             log("  · 视频下载失败 HTTP %s，跳过字幕" % code)
