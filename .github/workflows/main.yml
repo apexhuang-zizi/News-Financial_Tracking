@@ -41,12 +41,18 @@ jobs:
         run: python scraper.py
 
       # ---- 众筹看板：与上面三张看板共用同一条定时、同一次提交（同频） ----
-      # 众筹抓取必须用「非机房出口 IP」才能过 Cloudflare，否则连 discover 的
-      # JSON 接口都返回 403 "Just a moment..."，详情页更拿不到原始 HTML、解析
-      # 不出档次价格。因此本步骤复用仓库已配好的 PROXY_URL 密钥走代理：
-      # 脚本内 _proxy_url() 会自动读取 MY_PROXY_URL，无需改脚本。
-      # 抓取结果（kickstarter.html / ks_data.json / ks_history.csv）由下面
-      # 统一的 Commit & Push 步骤一并提交，Pages 随主工作流一起发布。
+      # 抓取通道（脚本内 _proxy_url / fetch_text 自动降级，无需在此配置）：
+      #   榜单 JSON：代理 -> 直连 -> r.jina.ai  →  机房 IP 下实测只有 Jina 通
+      #   详情页 HTML（档次来源）：代理 -> 直连 -> Jina 的 X-Return-Format: html
+      #     实测机房 IP 直连与机房代理都被 Cloudflare 403（6KB "Just a moment"），
+      #     Jina 的 HTML 模式是唯一能透传原始 DOM（含 &quot;rewards&quot; 转义
+      #     JSON）的通道；它对首次抓取的 URL 也常先回一次挑战页，脚本会退避重试。
+      #   ★ 想进一步提成功率：去 jina.ai 免费注册拿 API Key，加到仓库密钥
+      #     JINA_API_KEY —— 脚本会自动带上 Authorization 并启用浏览器引擎
+      #     （免费额度 100 万 token/月，比匿名通道稳得多）。
+      # 即使档次全拿不到，脚本也不再整页冻结：榜单金额/支持者/排名照常按今日
+      # 发布，档次逐项沿用历史值并在页面标注「档次沿用」。因此本步骤不会因为
+      # Cloudflare 而让看板停更（continue-on-error 仅作最后保险）。
 
       - name: Cache Whisper model
         uses: actions/cache@v4
@@ -61,12 +67,11 @@ jobs:
         continue-on-error: true
         run: pip install -q faster-whisper
 
-      # 抓取本身失败（如代理失效）不应拖垮新闻页发布：continue-on-error 兜底，
-      # 且脚本内建质量闸门——档次数据全缺时会保留上一次完整数据并渲染告警条。
       - name: Execute Kickstarter scraper
         continue-on-error: true
         env:
           MY_PROXY_URL: ${{ secrets.PROXY_URL }}
+          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
         run: python kickstarter_scraper.py
 
       - name: Commit and Push update

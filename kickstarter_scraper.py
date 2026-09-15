@@ -160,8 +160,61 @@ def _strip_jina(text):
     return text[m.end():] if m else text
 
 
-def fetch_text(url, referer, accept=None, tries=2, allow_jina=True):
-    """多通道降级：代理 -> 直连 -> r.jina.ai 渲染。返回 (正文, 通道名)"""
+JINA_API_KEY_ENV = "JINA_API_KEY"
+
+
+def _jina_headers(want_html):
+    """r.jina.ai 的请求头。
+
+    不带密钥时免费额度很紧（约 20 次/分钟），且对 Kickstarter 这类强防护站点
+    大概率直接返回 Cloudflare 挑战页；配上 JINA_API_KEY（jina.ai 免费注册，每月
+    100 万 token）后可启用真正的浏览器引擎，成功率高出一个量级。
+    仓库密钥里加了 JINA_API_KEY 即自动生效，无需改代码。
+    """
+    extra = []
+    key = (os.environ.get(JINA_API_KEY_ENV) or "").strip()
+    if key:
+        extra += ["-H", "Authorization: Bearer " + key]
+    if want_html:
+        extra += ["-H", "X-Return-Format: html"]
+        if key:
+            extra += ["-H", "X-Engine: browser"]
+    return extra
+
+
+def _is_challenge(body):
+    """识别 Cloudflare 挑战页（约 6KB 的 'Just a moment...'）"""
+    head = (body or "")[:4000]
+    return ("Just a moment" in head) or ("_cf_chl_opt" in head)
+
+
+def _fetch_jina_html(url, referer, tries):
+    """Jina 的 HTML 模式：把渲染后的【原始 HTML】透传回来。
+
+    档次数据在详情页 HTML 的 &quot;rewards&quot; 转义 JSON 里，markdown 模式拿不到；
+    而直连/机房代理会被 Cloudflare 直接 403（实测 proxy/direct 同为 HTTP403 +
+    6KB 挑战页）。Jina 是数据中心 IP 下唯一还能拿到完整 DOM 的通道，但它对
+    首次抓取的 URL 也常先返回一次挑战页，因此必须退避重试——一旦命中就会进入
+    Jina 自己的缓存，同一天后续请求即稳定。
+    """
+    last, code = "", 0
+    for i in range(tries):
+        body, code = _curl_once(JINA + url, referer, None, _jina_headers(True), 1)
+        if code == 200 and body.strip() and not _is_challenge(body):
+            return _strip_jina(body), "jina-html"
+        last = body or ""
+        if i < tries - 1:
+            time.sleep(10 + i * 15)
+    return last, code
+
+
+def fetch_text(url, referer, accept=None, tries=2, allow_jina=True, want_html=False):
+    """多通道降级：代理 -> 直连 -> r.jina.ai。返回 (正文, 通道名)
+
+    want_html=True（详情页）时额外启用 Jina 的 HTML 模式：这是机房 IP 下唯一
+    还能拿到 rewards 档次 JSON 的通道。挑战页会被判为失败并继续降级，不会把
+    6KB 的 'Just a moment' 当成正文返回。
+    """
     errors = []
     plans = []
     px = _proxy_url()
@@ -170,11 +223,19 @@ def fetch_text(url, referer, accept=None, tries=2, allow_jina=True):
     plans.append(("direct", []))
     for label, extra in plans:
         body, code = _curl_once(url, referer, accept, extra, tries)
-        if code == 200 and body.strip():
+        ok = code == 200 and bool(body.strip())
+        if ok and want_html and _is_challenge(body):
+            ok = False            # 拿到的是 CF 挑战页，不是真内容
+        if ok:
             return body, label
         errors.append("%s(HTTP%s,%dB)" % (label, code, len(body or "")))
+    if want_html:
+        body, code = _fetch_jina_html(url, referer, max(tries, JINA_TRIES + 1))
+        if body.strip() and not _is_challenge(body):
+            return body, "jina-html"
+        errors.append("jina-html(HTTP%s,%dB)" % (code, len(body or "")))
     if allow_jina:
-        body, code = _curl_once(JINA + url, referer, None, [], tries)
+        body, code = _curl_once(JINA + url, referer, None, _jina_headers(False), tries)
         if code == 200 and body.strip():
             return _strip_jina(body), "jina"
         errors.append("jina(HTTP%s,%dB)" % (code, len(body or "")))
@@ -326,17 +387,44 @@ def score(p):
     return s
 
 
-def enrich(p, story_cache=None):
+def _carry_over(p, story_cache, tier_cache):
+    """详情页彻底拿不到时，把历史快照里的档次/图文/字幕接过来。
+
+    关键取舍：视频地址（v2.kickstarter.com/时间戳-签名/...）是**带时效签名**的，
+    过期即 403，所以【不沿用视频】，页面自然回落到封面图；但档次价格、包含内容、
+    产品图文、字幕文案都是与时间无关的静态内容，沿用它可以让看板继续按最新榜单
+    数据更新，而不是整页冻结在几天前。
+    """
+    t = (tier_cache or {}).get(p.get("id")) or {}
+    if t.get("rewards"):
+        p["rewards"] = t["rewards"]
+        p["rewardsTotal"] = t.get("rewardsTotal") or len(t["rewards"])
+        # 沿用链要保留最初抓取到的那一天，避免把「沿用」误标成今天
+        p["tiersDate"] = t.get("tiersDate") or t.get("date") or ""
+    if t.get("cues"):
+        p["cues"], p["vttLang"] = t["cues"], t.get("vttLang") or "zh"
+    st = (story_cache or {}).get(p.get("id"))
+    if st:
+        p["story"] = st
+
+
+def enrich(p, story_cache=None, tier_cache=None):
     """抓详情页补齐档次数据；封面一律走 KS CDN 外链，不落本地（避免仓库膨胀）"""
     url = (p.get("urls") or {}).get("web", {}).get("project")
     if not url:
         return
     time.sleep(2)
-    # 详情页必须拿原始 HTML（Jina 的 markdown 里没有档次数据），因此 allow_jina=False
+    story_cache = story_cache or {}
+    tier_cache = tier_cache or {}
+    # 详情页要的必须是【原始 HTML】：档次数据在 &quot;rewards&quot; 转义 JSON 里，
+    # markdown 模式没有。通道优先级 代理 -> 直连 -> Jina 的 HTML 模式。
     try:
-        raw, via = fetch_text(url, CATEGORY_REF, tries=2, allow_jina=False)
+        raw, via = fetch_text(url, CATEGORY_REF, tries=2, allow_jina=False,
+                             want_html=True)
     except Exception as e:
-        log("  ⚠ 详情页失败: %s —— %s" % ((p.get("name") or "")[:36], e))
+        log("  ⚠ 详情页失败: %s —— %s（改用历史档次/图文）"
+            % ((p.get("name") or "")[:36], e))
+        _carry_over(p, story_cache, tier_cache)
         return
 
     clean = []
@@ -363,8 +451,14 @@ def enrich(p, story_cache=None):
     # 档次表动辄三四十项，全列出来没有信息量：只留支持人数最多的几个
     hot = sorted(clean, key=lambda x: (-(x.get("backers") or 0), x["price"]))[:TOP_TIERS]
     hot.sort(key=lambda x: x["price"])
+    if not hot:
+        # 拿到了 HTML 但解析不出档次（偶发仍是挑战页/页面结构变了）：沿用上次
+        log("  ⚠ 详情页无档次数据（via %s），改用历史档次" % via)
+        _carry_over(p, story_cache, tier_cache)
+        return
     p["rewards"] = hot
     p["rewardsTotal"] = total
+    p["tiersDate"] = datetime.now(TZ).strftime("%Y-%m-%d")
 
     video = p.get("video") or {}
     if isinstance(video, dict):
@@ -379,6 +473,13 @@ def enrich(p, story_cache=None):
     sub = build_subtitles(p, raw)
     if sub:
         p["cues"], p["vttLang"] = sub
+    else:
+        # 机房 IP 下视频 CDN 常下载失败；视频内容与项目一一对应、基本不变，
+        # 沿用上次字幕即可与新的视频地址配合播放。
+        _t = tier_cache.get(p.get("id")) or {}
+        if _t.get("cues"):
+            p["cues"], p["vttLang"] = _t["cues"], _t.get("vttLang") or "zh"
+            log("  · 字幕沿用上次（%d 条）" % len(_t["cues"]))
     p["story"] = fetch_story(url, raw, p.get("blurb"),
                              story_cache.get(p["id"]) if story_cache else None)
     log("  ✓ %d/%d 档次 · 图文 %s · 字幕 %s" % (
@@ -693,6 +794,8 @@ def simplify(p):
         "videoHls": p.get("videoHls"),
         "rewards": p.get("rewards", []),
         "rewardsTotal": p.get("rewardsTotal") or len(p.get("rewards", [])),
+        "tiersDate": p.get("tiersDate") or "",
+        "tiersCarried": p.get("tiersCarried") or "",
         "cues": p.get("cues") or [],
         "vttLang": p.get("vttLang") or "",
         "story": p.get("story") or [],
@@ -788,6 +891,13 @@ body{margin:0;background:#fff;color:var(--ink);
 font-family:"Segoe UI",system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
 font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1080px;margin:0 auto;padding:24px 20px 60px}
+.alert,.notice{border-radius:12px;padding:12px 16px;margin:16px 0 0;font-size:15px;
+line-height:1.6}
+.alert{background:#fef2f2;border:1px solid #fecaca;color:#b91c1c}
+.notice{background:#fffbeb;border:1px solid #fde68a;color:#92400e}
+.carried{display:inline-block;margin-left:8px;padding:2px 8px;border-radius:999px;
+background:#fffbeb;border:1px solid #fde68a;color:var(--warn);font-size:12px;
+font-weight:600;vertical-align:middle}
 header.top{background:linear-gradient(135deg,#037362,#05ce78);color:#fff;border-radius:14px;
 padding:24px 26px 20px;margin:18px 0 0;box-shadow:0 6px 20px rgba(3,115,98,.18)}
 header.top h1{margin:0 0 6px;font-size:25px;letter-spacing:.5px}
@@ -994,7 +1104,8 @@ function projectCard(p,i){
       '</div>'+
       '<div class="bar"><i style="width:'+Math.min(100,Number(p.percentFunded||0))+'%"></i></div>'+
       '<div class="barlab">'+money(p.usdPledged)+' / 目标 '+money(p.goalUsd)+'　·　发起人 '+esc(p.creator||'-')+'</div>'+
-      '<h3 class="sec">选购档次（支持人数最多的 '+rws.length+' 档 / 共 '+(p.rewardsTotal||rws.length)+' 档）</h3>'+tableHtml+
+      '<h3 class="sec">选购档次（支持人数最多的 '+rws.length+' 档 / 共 '+(p.rewardsTotal||rws.length)+' 档）'
+        +(p.tiersCarried?'<span class="carried">档次沿用 '+esc(p.tiersCarried)+'</span>':'')+'</h3>'+tableHtml+
       storyHtml(p,i)+
       '<a class="cta" href="'+esc(p.url)+'" target="_blank" rel="noopener">前往 Kickstarter 项目页 →</a>'+
     '</div></article>';
@@ -1127,7 +1238,7 @@ __ALERT__
 """
 
 
-def render_page(snaps, hist_rows, today, stale=None):
+def render_page(snaps, hist_rows, today, stale=None, warn=None):
     payload = json.dumps(snaps, ensure_ascii=False).replace("</script>", "<\\/script>")
     recent = [r for r in hist_rows if r.get("Date")]
     recent = sorted(recent, key=lambda r: r["Date"], reverse=True)[:ARCHIVE_DAYS * TOP_N]
@@ -1138,9 +1249,14 @@ def render_page(snaps, hist_rows, today, stale=None):
 
     if stale:
         newest = snaps[0]["date"] if snaps else "-"
-        alert = ("<div class='alert'>⚠ <b>今日数据抓取失败</b>（%s）。当前页面显示的"
+        alert = ("<div class='alert'>⚠ <b>今日榜单抓取失败</b>（%s）。当前页面显示的"
                  "仍是 <b>%s</b> 的榜单，非最新。常见原因是 Cloudflare 拒绝了数据中"
                  "心出口 IP，通常下一次运行会自行恢复。</div>" % (stale, newest))
+    elif warn:
+        alert = ("<div class='notice'>ℹ <b>榜单已更新至今日</b>，其中 %s 的档次表"
+                 "本次未能从详情页取到（Cloudflare 拦截了数据中心出口 IP），"
+                 "已沿用上一次抓到的价位与内容并逐项标注，其余字段为今日实时数据。"
+                 "</div>" % warn)
     else:
         alert = ""
 
@@ -1235,18 +1351,26 @@ def main():
     log("开始抓取 %s 的 Kickstarter 数据" % today)
 
     if args.skip_if_fresh:
-        # 作为「云端抓取失败时」的本机兜底：先拉到远端最新，只有确认今天还没有
-        # 快照（即云端那次没成功）才动手；否则直接退出，不额外产生第二个触发源。
+        # 作为「云端抓取不完整时」的本机兜底：先拉到远端最新，再看今天的快照。
+        # 注意：云端（机房 IP）经常拿不到详情页档次、只能沿用历史值，这种时候
+        # 本机必须接管——住宅 IP 直连就能取到真实档次。所以「今天已有快照」不足
+        # 以跳过，还要确认档次不是沿用的。
         br = _branch()
         _clean_worktree()
         code, out = _git("pull", "--rebase", "origin", br)
         if code != 0:
             log("⚠ 兜底模式 pull 失败：%s" % out[:160])
             return 1
-        if any(s.get("date") == today for s in load_snapshots()):
-            log("今日（%s）已由云端更新，兜底任务跳过" % today)
-            return 0
-        log("今日（%s）尚无快照，云端可能未更新，本机接管抓取" % today)
+        _today = next((s for s in load_snapshots() if s.get("date") == today), None)
+        if _today:
+            carried = [p for p in _today.get("projects", []) if p.get("tiersCarried")]
+            if not carried:
+                log("今日（%s）已由云端更新且档次数据完整，兜底任务跳过" % today)
+                return 0
+            log("今日（%s）云端已更新，但有 %d 个项目档次是沿用的，"
+                "本机用住宅 IP 补抓真实档次" % (today, len(carried)))
+        else:
+            log("今日（%s）尚无快照，云端可能未更新，本机接管抓取" % today)
 
     cands = collect_candidates()
     if not cands:
@@ -1258,20 +1382,35 @@ def main():
 
     # 预载历史快照，建立『项目ID -> 已抓产品图文』缓存：Jina 偶发限流时复用，
     # 保证『产品功能』板块不空白（Kickstarter 的 story 很少变动）。
+    # 同时建立『项目ID -> 上次档次/字幕』缓存：详情页拿不到时逐项沿用，
+    # 让榜单数据每天照常更新，而不是整页冻结。
     old = load_snapshots()
-    story_cache = {}
+    story_cache, tier_cache = {}, {}
     for _s in old:
         for _pr in _s.get("projects", []):
+            _pid = _pr.get("id")
+            if _pid is None:
+                continue
             _st = _pr.get("story")
-            if _st and _pr.get("id") is not None:
-                story_cache.setdefault(_pr["id"], _st)
+            if _st:
+                story_cache.setdefault(_pid, _st)
+            if _pr.get("rewards"):
+                tier_cache.setdefault(_pid, {
+                    "rewards": _pr.get("rewards"),
+                    "rewardsTotal": _pr.get("rewardsTotal"),
+                    "date": _s.get("date"),
+                    "tiersDate": _pr.get("tiersDate") or _pr.get("tiersCarried")
+                                 or _s.get("date"),
+                    "cues": _pr.get("cues") or [],
+                    "vttLang": _pr.get("vttLang") or "",
+                })
 
     for p in top:
         log("选中 [%s] %s  ($%s / %s人 / %s档)" % (
             p["_score"], (p.get("name") or "")[:44],
             format(float(p.get("usd_pledged") or 0), ",.0f"),
             p.get("backers_count"), len(p.get("rewards", []))))
-        enrich(p, story_cache)
+        enrich(p, story_cache, tier_cache)
 
     snap = {
         "date": today,
@@ -1281,12 +1420,17 @@ def main():
         "poolSize": len(cands),
         "projects": [simplify(p) for p in top],
     }
+    # 标注档次是否为沿用：同一项目沿用链保留最初抓取日，避免误报成「今天」
+    for _p in snap["projects"]:
+        _d = _p.get("tiersDate") or ""
+        _p["tiersCarried"] = _d if (_d and _d != today) else ""
 
     if args.dry:
         for p in snap["projects"]:
-            print(" * %-52s 档次%3d  封面%5s  视频%5s" % (
+            print(" * %-52s 档次%3d  封面%5s  视频%5s  沿用%5s" % (
                 (p["name"] or "")[:52], len(p["rewards"]),
-                bool(p["coverRemote"]), bool(p["videoMp4"])))
+                bool(p["coverRemote"]), bool(p["videoMp4"]),
+                p["tiersCarried"] or "-"))
         return 0
 
     # 用档次总数（而非展示的 3 个）判定，避免裁剪逻辑干扰质量闸门
@@ -1294,15 +1438,37 @@ def main():
                     for p in old[0]["projects"]) if old else 0
     new_tiers = sum(int(p.get("rewardsTotal") or 0) for p in snap["projects"])
 
-    # 数据质量闸门：档次数据依赖详情页原始 HTML。若详情页全部失败（数据中心 IP
-    # 被 Cloudflare 拒绝时必现），本次结果残缺，绝不能覆盖上一次的完整结果。
+    # 数据质量闸门（新）：档次取自详情页原始 HTML，机房 IP 被 Cloudflare 拦是常态，
+    # 但【不能因此整页冻结】——榜单金额/支持者/排名本来就是新鲜的，必须照常发布；
+    # 只有档次逐项沿用上一次，并在页面标注。真正「整页保留旧数据」只留给榜单本身
+    # 都没抓到的场景（见上面 cands 为空的分支）。
     if new_tiers == 0 and old_tiers > 0:
-        msg = "详情页全部抓取失败，档次数据缺失，已保留上一次完整数据"
-        log("⚠ " + msg)
-        hist_rows = read_history()
-        render_page(old, hist_rows, today, stale=msg)
-        sys.stderr.write("::error::%s\n" % msg)
-        return 1
+        carried = [p["name"] for p in snap["projects"] if p["rewards"]]
+        if not carried:
+            msg = "详情页全部抓取失败且历史无档次可沿用"
+            log("⚠ %s，保留上一次完整页面" % msg)
+            hist_rows = read_history()
+            render_page(old, hist_rows, today, stale=msg)
+            sys.stderr.write("::warning::%s\n" % msg)
+            return 1
+        warn = "全部 %d 个项目" % len(carried) if len(carried) == TOP_N \
+            else "%d/%d 个项目" % (len(carried), TOP_N)
+        log("⚠ 详情页本次全部失败，档次改为沿用历史数据（%s）" % warn)
+        snaps = [s for s in old if s.get("date") != today]
+        snaps.insert(0, snap)
+        snaps = save_snapshots(snaps)
+        hist_rows = append_history(snap)
+        render_page(snaps, hist_rows, today, warn=warn)
+        if args.push:
+            return git_push(snap, today, new_tiers)
+        return 0
+
+    # 部分项目沿用（不是全部）时同样要提示，避免读者把旧档次当成今日数据
+    partial = [p for p in snap["projects"] if p["tiersCarried"]]
+    warn = None
+    if partial:
+        warn = "%d/%d 个项目" % (len(partial), TOP_N)
+        log("⚠ %s 的档次沿用历史数据" % warn)
 
     snaps = [s for s in old if s.get("date") != today]
     snaps.insert(0, snap)
@@ -1311,7 +1477,7 @@ def main():
         % (len(snaps), KEEP_DAYS, new_tiers))
 
     hist_rows = append_history(snap)
-    render_page(snaps, hist_rows, today)
+    render_page(snaps, hist_rows, today, warn=warn)
     log("众筹看板更新完成")
 
     if args.push:
