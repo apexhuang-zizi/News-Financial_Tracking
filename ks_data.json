@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-09-18",
-  "generatedAt": "2026-09-18T12:28:19+07:00",
+  "generatedAt": "2026-09-18T19:31:35+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 42,
@@ -18,11 +18,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 30000.0,
-    "pledged": 227879.0,
-    "usdPledged": "29055.34045223",
+    "pledged": 235389.0,
+    "usdPledged": "30012.89076093",
     "goalUsd": 3825.1,
-    "percentFunded": 759.5966666666667,
-    "backers": 49,
+    "percentFunded": 784.63,
+    "backers": 50,
     "deadline": 1792069120,
     "launchedAt": 1789477120,
     "staffPick": false,
@@ -34,7 +34,7 @@
      "llm",
      "nas"
     ],
-    "score": 0.8838,
+    "score": 0.8847,
     "coverRemote": "https://i.kickstarter.com/assets/055/132/904/6095f4d8bbd8c2fda48671b3587db770_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789477392&width=1024&sig=CGrxhMLnEIhRlVHUE6FNPqf5RAwt%2B5ClHOAGg2ggwjM%3D",
     "videoMp4": "https://v2.kickstarter.com/1789651022-dfxFaUL8iepNaLpckXmOB5O6YDECwZ%2F8nautVH%2FrM1s%3D/projects/5358743/video-1450939-h264_high.mp4",
     "videoHls": "https://v2.kickstarter.com/1789651022-dfxFaUL8iepNaLpckXmOB5O6YDECwZ%2F8nautVH%2FrM1s%3D/projects/5358743/video-1450939-hls_playlist.m3u8",
@@ -66,7 +66,7 @@
       "price": 7510.0,
       "title": "StationPC AI NAS DA400 + Lexar 2TB SSD",
       "desc": "DA400 × 1\\n2TB SSD × 1\\n\\n- You will get a StationPC AI NAS DA400 + 2TB SSD and save 31% off the MSRP.\\nSeize this incredible offer before prices increase!\\n\\n*HDDs are not included.\\n*DA400 2‑Year warranty included.\\n*SSD 3‑Year warranty included.",
-      "backers": 3,
+      "backers": 4,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -79,283 +79,313 @@
     "cues": [
      [
       0.24,
-      2.24,
+      3.44,
       "情缘你在哪"
      ],
      [
-      2.24,
-      4.24,
+      3.44,
+      5.12,
       "情缘你在哪"
      ],
      [
-      4.24,
-      7.24,
+      5.12,
+      6.96,
       "查找文件似乎不可能。"
      ],
      [
-      7.24,
-      13.24,
+      6.96,
+      7.96,
+      "呃啊~"
+     ],
+     [
+      7.96,
+      8.96,
+      "呃啊~"
+     ],
+     [
+      10.16,
+      13.2,
       "你需要一个聪明人，而不是这种聪明人。"
      ],
      [
-      13.24,
-      15.24,
+      13.2,
+      15.68,
       "您需要一个聪明时尚的助手。"
      ],
      [
-      15.24,
-      16.24,
+      15.68,
+      16.96,
       "等一下，等一下。"
      ],
      [
-      16.24,
-      19.24,
+      16.96,
+      19.44,
       "看起来不错，但很有用。"
      ],
      [
-      19.24,
-      21.65,
+      19.44,
+      23.23,
       "相信我，它比"
      ],
      [
-      21.65,
-      22.24,
+      23.23,
+      24.16,
       "别以为你用些"
      ],
      [
-      22.24,
-      26.52,
+      24.16,
+      26.84,
       "它可以容纳几代家庭成员。"
      ],
      [
-      26.52,
-      29.52,
+      26.84,
+      29.8,
       "支持8TB M2固态硬盘。"
      ],
      [
-      29.52,
-      32.72,
-      "支持高达32TB的4托架设计"
+      29.8,
+      32.28,
+      "4槽设计，支持多达32个"
      ],
      [
-      32.72,
-      35.91,
-      "每个驱动器，为您提供高达136TB的总容量"
+      32.28,
+      33.52,
+      "每驱动器TB ，"
      ],
      [
-      35.91,
-      36.52,
+      33.52,
+      38.12,
+      "为您提供高达136 TB的总容量"
+     ],
+     [
+      38.12,
+      39.06,
       "储藏"
      ],
      [
-      36.52,
-      40.64,
+      39.06,
+      40.93,
       "查找文件的问题可能是"
      ],
      [
-      40.64,
-      41.38,
+      40.93,
+      41.26,
       "解决了的"
      ],
      [
-      41.38,
-      44.0,
+      41.26,
+      43.93,
       "严肃地说，只需键入一个关键字，"
      ],
      [
-      44.0,
-      45.38,
+      43.93,
+      45.34,
       "人或场景。"
      ],
      [
-      45.38,
-      47.03,
+      45.34,
+      47.06,
       "借助人工智能驱动的全球搜索，"
      ],
      [
-      47.03,
-      48.78,
-      "即刻找到你真正的样子"
+      47.06,
+      49.37,
+      "它会立即找到你真正的样子"
      ],
      [
-      48.78,
-      49.38,
+      49.37,
+      50.1,
       "寻找"
      ],
      [
-      49.38,
-      51.38,
+      50.1,
+      51.1,
       "这还不是全部。"
      ],
      [
-      51.38,
-      53.38,
+      51.1,
+      53.5,
       "它提供极快的传输速度。"
      ],
      [
-      53.38,
-      55.76,
+      53.5,
+      55.74,
       "这些双2.5千兆以太网端口"
      ],
      [
-      55.76,
-      57.38,
-      "绝对不是来玩的。"
+      55.74,
+      56.5,
+      "才不"
      ],
      [
-      57.38,
-      59.38,
-      "哇！太快了！"
+      56.5,
+      57.1,
+      "在这里玩。"
      ],
      [
-      59.38,
-      62.19,
+      57.1,
+      57.86,
+      "唔"
+     ],
+     [
+      57.86,
+      60.06,
+      "太快了！"
+     ],
+     [
+      60.06,
+      62.93,
       "它还支持本地4K超高清视频"
      ],
      [
-      62.19,
-      64.99,
-      "播放，带来清晰的视觉效果"
+      62.93,
+      63.58,
+      "播放"
      ],
      [
-      64.99,
-      67.38,
-      "具有流畅、无滞后的性能。"
+      63.58,
+      70.21,
+      "带来清晰的视觉效果，"
      ],
      [
-      75.34,
-      78.34,
+      70.21,
+      75.7,
+      "光滑、无延迟的性能。"
+     ],
+     [
+      75.7,
+      78.62,
       "你捕捉了无数珍贵的时刻。"
      ],
      [
-      78.34,
-      80.86,
+      78.62,
+      81.3,
       "D400 AI智能相册自动"
      ],
      [
-      80.86,
-      83.25,
+      81.3,
+      83.36,
       "整理您杂乱的照片库，"
      ],
      [
-      83.25,
-      85.77,
-      "对记忆进行排序和分类，"
+      83.36,
+      84.78,
+      "排序和分类"
      ],
      [
-      85.77,
-      87.34,
-      "他们被创造出来的那一刻。"
+      84.78,
+      87.54,
+      "回忆它们被创造出来的那一刻。"
      ],
      [
-      87.34,
-      89.98,
+      87.54,
+      89.9,
       "由双处理器驱动，人工智能计算"
      ],
      [
-      89.98,
-      92.68,
+      89.9,
+      94.79,
       "发生在本地更快，更智能，以及更多"
      ],
      [
-      92.68,
-      93.34,
+      94.79,
+      95.98,
       "完成。"
      ],
      [
-      93.34,
-      97.45,
-      "嘿，伙计们，我们有一个有趣的"
+      95.98,
+      96.62,
+      "伙计们"
      ],
      [
-      97.45,
-      98.42,
-      "这是一个正在进行的项目。"
+      96.62,
+      98.66,
+      "我们有一个有趣的项目。"
      ],
      [
-      98.42,
-      100.42,
+      98.66,
+      101.1,
       "需要合作？"
      ],
      [
-      100.42,
-      103.74,
+      101.1,
+      104.75,
       "现在，让我将文件上传到俱乐部"
      ],
      [
-      103.74,
-      104.42,
+      104.75,
+      105.5,
       "。"
      ],
      [
-      104.42,
-      106.95,
+      105.5,
+      107.33,
       "创建具有详细内容的共享文件夹"
      ],
      [
-      106.95,
-      109.98,
-      "权限控制，保持您的团队合作"
+      107.33,
+      108.38,
+      "权限控制，"
      ],
      [
-      109.98,
-      111.42,
-      "安全无缝。"
+      108.38,
+      112.14,
+      "确保您的团队合作安全无缝。"
      ],
      [
-      111.42,
-      113.42,
+      112.14,
+      113.62,
       "有复杂的文件？"
      ],
      [
-      113.42,
-      116.42,
+      113.62,
+      116.34,
       "此文档包含太多内容。"
      ],
      [
-      116.42,
-      124.53,
+      116.34,
+      124.71,
       "AI即时总结，提取"
      ],
      [
-      124.53,
-      128.78,
+      124.71,
+      129.1,
       "关键点（以秒为单位）。"
      ],
      [
-      128.78,
-      131.09,
+      129.1,
+      131.22,
       "借助本地存储，您的数据始终安全无虞"
      ],
      [
-      131.09,
-      131.78,
+      131.22,
+      131.86,
       "和私人空间。"
      ],
      [
-      131.78,
-      134.78,
+      131.86,
+      135.38,
       "它可以安全地锁定一切。"
      ],
      [
-      134.78,
-      138.78,
-      "PCDA400站，桌面AI NAS。"
+      135.38,
+      139.1,
+      "PCDA400台式AI NAS站。"
      ],
      [
-      138.78,
-      141.78,
+      139.1,
+      141.94,
       "不仅仅是NAS ，还有本地AI系统。"
      ],
      [
-      141.78,
-      144.73,
-      "让搜索更智能。恢复效率"
+      141.94,
+      143.3,
+      "让搜索更智能。"
      ],
      [
-      144.73,
-      145.78,
-      "其精髓。"
+      143.3,
+      146.58,
+      "让效率回归本质。"
      ]
     ],
     "vttLang": "zh",
@@ -395,11 +425,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 78424.0,
-    "pledged": 10002635.0,
-    "usdPledged": "1275369.67137995",
+    "pledged": 10200484.0,
+    "usdPledged": "1300596.08563108",
     "goalUsd": 9999.32,
-    "percentFunded": 12754.558553504028,
-    "backers": 2257,
+    "percentFunded": 13006.839742935836,
+    "backers": 2302,
     "deadline": 1793376023,
     "launchedAt": 1789488023,
     "staffPick": true,
@@ -411,7 +441,7 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.8129,
+    "score": 0.8136,
     "coverRemote": "https://i.kickstarter.com/assets/055/137/608/23f9ae3b6af367f4c60b3aa75ae1dafa_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789499764&width=1024&sig=dEDdgi8SKxSDmuG70yPXRauECzVWrZ%2FKZrnh1m7zZUo%3D",
     "videoMp4": "https://v2.kickstarter.com/1789698699-LVJCgXMs%2BGIxpOUR7IFUhNWIdfud%2BnKnYIzOrmGdWcI%3D/projects/5342600/video-1438224-h264_high.mp4",
     "videoHls": "https://v2.kickstarter.com/1789698699-LVJCgXMs%2BGIxpOUR7IFUhNWIdfud%2BnKnYIzOrmGdWcI%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
@@ -421,7 +451,7 @@
       "price": 3128.0,
       "title": "Super Early Bird - Violoop",
       "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 1972,
+      "backers": 2018,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -551,43 +581,43 @@
      ],
      [
       47.26,
-      49.98,
+      50.44,
       "从产品到内容再到库存再到"
      ],
      [
-      49.98,
-      52.56,
-      "客户，它保留了整个过程"
+      50.44,
+      51.26,
+      "顾客"
      ],
      [
-      52.56,
+      51.26,
       53.26,
-      "已连接"
+      "它使整个过程保持联系。"
      ],
      [
       53.26,
-      55.98,
-      "无论您的目标、业务或"
+      56.36,
+      "无论您的目标，您的业务或"
      ],
      [
-      55.98,
-      58.49,
-      "您的任务，人工智能将自行建模"
+      56.36,
+      57.26,
+      "您的任务"
      ],
      [
-      58.49,
-      59.26,
-      "附近的"
+      57.26,
+      62.18,
+      "人工智能将围绕您进行自我建模。"
      ],
      [
-      59.26,
-      64.38,
-      "它在您的设备上运行。您的数据"
+      62.18,
+      64.18,
+      "它可以在您的设备上运行。"
      ],
      [
-      64.38,
+      64.18,
       66.18,
-      "这副表情不会消失了。"
+      "您的数据永远不会消失。"
      ],
      [
       66.18,
@@ -611,18 +641,18 @@
      ],
      [
       92.86,
-      95.96,
+      95.97,
       "当一切都协调一致时，你的想法，"
      ],
      [
-      95.96,
-      99.39,
-      "你的节奏，你的时间，你停止反应，"
+      95.97,
+      97.86,
+      "你的节奏，你的时间，"
      ],
      [
-      99.39,
-      100.86,
-      "你开始流动。"
+      97.86,
+      101.86,
+      "你停止反应，你开始流动。"
      ]
     ],
     "vttLang": "zh",
@@ -658,11 +688,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 758598.0,
-    "usdPledged": "758598.0",
+    "pledged": 761882.0,
+    "usdPledged": "761882.0",
     "goalUsd": 20000.0,
-    "percentFunded": 3792.9900000000002,
-    "backers": 733,
+    "percentFunded": 3809.41,
+    "backers": 737,
     "deadline": 1794067204,
     "launchedAt": 1788879604,
     "staffPick": true,
@@ -672,10 +702,10 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6567,
+    "score": 0.6569,
     "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1789724939-nf9UZFHl8Cbwy4SEFM99JDr8DpXMPdN0%2FM%2FtFUV0lt8%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1789724939-nf9UZFHl8Cbwy4SEFM99JDr8DpXMPdN0%2FM%2FtFUV0lt8%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11398822,
@@ -693,7 +723,7 @@
       "price": 799.0,
       "title": "BirdieSense - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 663,
+      "backers": 677,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -704,7 +734,7 @@
       "price": 1498.0,
       "title": "BirdieSense X2 - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️50% OFF $2998 MSRP (save $1500)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 26,
+      "backers": 27,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -712,8 +742,8 @@
      }
     ],
     "rewardsTotal": 7,
-    "tiersDate": "2026-09-17",
-    "tiersCarried": "2026-09-17",
+    "tiersDate": "2026-09-18",
+    "tiersCarried": "",
     "cues": [
      [
       1.55,
@@ -1019,8 +1049,8 @@
     ],
     "score": 0.628,
     "coverRemote": "https://i.kickstarter.com/assets/054/975/488/d2c4cd9519d56305cc726640718dfc4c_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788354487&width=1024&sig=WoGvrEKVzqKacnYNCd0AoL9SC6iosXIdV%2Bx8M%2B3f6dc%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1789654516-%2F2hA%2BlaKZ7BHRrrPAzVR2BNZDSJ4t32oAcdJXeRn2k8%3D/projects/5325235/video-1436329-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1789654516-%2F2hA%2BlaKZ7BHRrrPAzVR2BNZDSJ4t32oAcdJXeRn2k8%3D/projects/5325235/video-1436329-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11168629,
@@ -1038,9 +1068,9 @@
       "price": 855.0,
       "title": "$109 Early Bird — 150 Units",
       "desc": "1× FernSnap AI Plant Time-Lapse Camera\\nSmart AI-assisted plant monitoring + time-lapse capture\\nOptimized lighting for stable indoor plant growth\\nOne-tap video export via app workflow\\nDesigned for everyday plant parents and hobby growers\\nIncludes USB-C Cable + Plant Care Guide\\n\\n👉 Most popular early-stage reward after Super Early Bird sells out.",
-      "backers": 7,
+      "backers": 9,
       "limit": 150,
-      "remaining": 143,
+      "remaining": 141,
       "eta": 1793491200,
       "shipping": "unrestricted"
      },
@@ -1049,7 +1079,7 @@
       "price": 1560.0,
       "title": "$199 Duo Pack (2×) — Best Value",
       "desc": "2× FernSnap AI Plant Time-Lapse Camera\\nMonitor two plants or two growth environments simultaneously\\nPerfect for comparison setups (growth stages, plant types)\\nIdeal for shelves, balconies, or dual plant corners\\nIncludes 2× USB-C Cables + 2× Guides\\n\\n👉 Best value per device for multi-plant users.",
-      "backers": 8,
+      "backers": 10,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1057,8 +1087,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-09-17",
-    "tiersCarried": "2026-09-17",
+    "tiersDate": "2026-09-18",
+    "tiersCarried": "",
     "cues": [
      [
       1.62,
@@ -1266,19 +1296,19 @@
     ],
     "score": 0.6115,
     "coverRemote": "https://i.kickstarter.com/assets/054/961/249/8324422515749530f8ad04a8e28301e5_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788269823&width=1024&sig=fgX7mCqD%2BzfXNkzgRkLy6%2Flf6o6g%2FZdIfo7PSdU%2F6Lc%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1789683245-6SVvMF06wy6ksh9J9nuJ8uuj9QZW%2FAexKUEnVYvFtuY%3D/projects/5378169/video-1456360-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1789683245-6SVvMF06wy6ksh9J9nuJ8uuj9QZW%2FAexKUEnVYvFtuY%3D/projects/5378169/video-1456360-hls_playlist.m3u8",
     "rewards": [
      {
-      "id": 0,
-      "price": 1.0,
-      "title": "No Reward",
-      "desc": "No Reward",
-      "backers": null,
+      "id": 11376860,
+      "price": 25.0,
+      "title": "Super Early Bird – Founding Backer",
+      "desc": "One season of Pocket Blue. Your kid's games, scored and saved. Founding price, locked. Beta seat as soon as we can set it up.",
+      "backers": 1,
       "limit": null,
       "remaining": null,
-      "eta": null,
-      "shipping": null
+      "eta": 1803859200,
+      "shipping": "restricted"
      },
      {
       "id": 11376863,
@@ -1304,8 +1334,8 @@
      }
     ],
     "rewardsTotal": 9,
-    "tiersDate": "2026-09-17",
-    "tiersCarried": "2026-09-17",
+    "tiersDate": "2026-09-18",
+    "tiersCarried": "",
     "cues": [
      [
       6.83,
