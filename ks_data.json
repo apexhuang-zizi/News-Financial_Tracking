@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-09-19",
-  "generatedAt": "2026-09-19T12:21:47+07:00",
+  "generatedAt": "2026-09-19T19:30:36+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 43,
@@ -18,11 +18,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 30000.0,
-    "pledged": 231973.0,
-    "usdPledged": "29577.33924901",
+    "pledged": 236982.0,
+    "usdPledged": "30216.00362934",
     "goalUsd": 3825.1,
-    "percentFunded": 773.2433333333333,
-    "backers": 50,
+    "percentFunded": 789.94,
+    "backers": 51,
     "deadline": 1792069120,
     "launchedAt": 1789477120,
     "staffPick": false,
@@ -34,7 +34,7 @@
      "llm",
      "nas"
     ],
-    "score": 0.8844,
+    "score": 0.8852,
     "coverRemote": "https://i.kickstarter.com/assets/055/132/904/6095f4d8bbd8c2fda48671b3587db770_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789477392&width=1024&sig=CGrxhMLnEIhRlVHUE6FNPqf5RAwt%2B5ClHOAGg2ggwjM%3D",
     "videoMp4": "https://v2.kickstarter.com/1789737426-EEVryCO%2BYe8dHsKOVGNitlA5RhYZlsfTV7sFSW7wg6Q%3D/projects/5358743/video-1450939-h264_high.mp4",
     "videoHls": "https://v2.kickstarter.com/1789737426-EEVryCO%2BYe8dHsKOVGNitlA5RhYZlsfTV7sFSW7wg6Q%3D/projects/5358743/video-1450939-hls_playlist.m3u8",
@@ -55,7 +55,7 @@
       "price": 5009.0,
       "title": "StationPC AI NAS DA400",
       "desc": "DA400 x 1\\n\\n- You will get a StationPC AI NAS DA400 and save 36% off the MSRP. \\nSeize this incredible offer before prices increase!\\n\\n*HDDs & SDDs are not included.\\n*2-Year warranty included.",
-      "backers": 28,
+      "backers": 29,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -79,283 +79,313 @@
     "cues": [
      [
       0.24,
-      2.24,
+      3.44,
       "情缘你在哪"
      ],
      [
-      2.24,
-      4.24,
+      3.44,
+      5.12,
       "情缘你在哪"
      ],
      [
-      4.24,
-      7.24,
+      5.12,
+      6.96,
       "查找文件似乎不可能。"
      ],
      [
-      7.24,
-      13.24,
+      6.96,
+      7.96,
+      "呃啊~"
+     ],
+     [
+      7.96,
+      8.96,
+      "呃啊~"
+     ],
+     [
+      10.16,
+      13.2,
       "你需要一个聪明人，而不是这种聪明人。"
      ],
      [
-      13.24,
-      15.24,
+      13.2,
+      15.68,
       "您需要一个聪明时尚的助手。"
      ],
      [
-      15.24,
-      16.24,
+      15.68,
+      17.0,
       "等一下，等一下。"
      ],
      [
-      16.24,
-      19.24,
+      17.0,
+      19.44,
       "看起来不错，但很有用。"
      ],
      [
-      19.24,
-      21.65,
+      19.44,
+      23.23,
       "相信我，它比"
      ],
      [
-      21.65,
-      22.24,
+      23.23,
+      24.16,
       "别以为你用些"
      ],
      [
-      22.24,
-      26.52,
+      24.16,
+      26.84,
       "它可以容纳几代家庭成员。"
      ],
      [
-      26.52,
-      29.52,
+      26.84,
+      29.8,
       "支持8TB M2固态硬盘。"
      ],
      [
-      29.52,
-      32.72,
-      "支持高达32TB的4托架设计"
+      29.8,
+      32.28,
+      "4槽设计，支持多达32个"
      ],
      [
-      32.72,
-      35.91,
-      "每个驱动器，为您提供高达136TB的总容量"
+      32.28,
+      33.52,
+      "每驱动器TB ，"
      ],
      [
-      35.91,
-      36.52,
+      33.52,
+      38.12,
+      "为您提供高达136 TB的总容量"
+     ],
+     [
+      38.12,
+      39.06,
       "储藏"
      ],
      [
-      36.52,
-      40.64,
+      39.06,
+      40.93,
       "查找文件的问题可能是"
      ],
      [
-      40.64,
-      41.38,
+      40.93,
+      41.26,
       "解决了的"
      ],
      [
-      41.38,
-      44.0,
+      41.26,
+      43.93,
       "严肃地说，只需键入一个关键字，"
      ],
      [
-      44.0,
-      45.38,
+      43.93,
+      45.34,
       "人或场景。"
      ],
      [
-      45.38,
-      47.03,
+      45.34,
+      47.19,
       "借助人工智能驱动的全球搜索，"
      ],
      [
-      47.03,
-      48.78,
-      "即刻找到你真正的样子"
+      47.19,
+      47.7,
+      "立刻"
      ],
      [
-      48.78,
-      49.38,
-      "寻找"
+      47.7,
+      50.14,
+      "准确地找到您要查找的内容。"
      ],
      [
-      49.38,
-      51.38,
+      50.14,
+      51.1,
       "这还不是全部。"
      ],
      [
-      51.38,
-      53.38,
+      51.1,
+      53.54,
       "它提供极快的传输速度。"
      ],
      [
-      53.38,
+      53.54,
       55.76,
       "这些双2.5千兆以太网端口"
      ],
      [
       55.76,
-      57.38,
-      "绝对不是来玩的。"
+      56.3,
+      "无疑"
      ],
      [
-      57.38,
-      59.38,
-      "哇！太快了！"
+      56.3,
+      57.1,
+      "不是来玩的。"
      ],
      [
-      59.38,
-      62.19,
+      57.1,
+      57.86,
+      "唔"
+     ],
+     [
+      57.86,
+      60.1,
+      "太快了！"
+     ],
+     [
+      60.1,
+      62.97,
       "它还支持本地4K超高清视频"
      ],
      [
-      62.19,
-      64.99,
-      "播放，带来清晰的视觉效果"
+      62.97,
+      63.62,
+      "播放"
      ],
      [
-      64.99,
-      67.38,
-      "具有流畅、无滞后的性能。"
+      63.62,
+      70.23,
+      "带来清晰的视觉效果，"
      ],
      [
-      75.34,
-      78.34,
+      70.23,
+      75.7,
+      "光滑、无滞后的性能。"
+     ],
+     [
+      75.7,
+      78.66,
       "你捕捉了无数珍贵的时刻。"
      ],
      [
-      78.34,
-      80.86,
+      78.66,
+      81.3,
       "D400 AI智能相册自动"
      ],
      [
-      80.86,
-      83.25,
+      81.3,
+      83.58,
       "整理您杂乱的照片库，"
      ],
      [
-      83.25,
-      85.77,
-      "对记忆进行排序和分类，"
+      83.58,
+      85.22,
+      "对记忆进行排序和分类"
      ],
      [
-      85.77,
-      87.34,
+      85.22,
+      87.54,
       "他们被创造出来的那一刻。"
      ],
      [
-      87.34,
-      89.98,
+      87.54,
+      89.9,
       "由双处理器驱动，人工智能计算"
      ],
      [
-      89.98,
-      92.68,
+      89.9,
+      94.82,
       "发生在本地更快，更智能，以及更多"
      ],
      [
-      92.68,
-      93.34,
+      94.82,
+      96.02,
       "完成。"
      ],
      [
-      93.34,
-      97.45,
+      96.02,
+      98.2,
       "嘿，伙计们，我们有一个有趣的"
      ],
      [
-      97.45,
-      98.42,
+      98.2,
+      98.7,
       "这是一个正在进行的项目。"
      ],
      [
-      98.42,
-      100.42,
-      "需要合作？"
+      98.7,
+      101.14,
+      "我们需要合作。"
      ],
      [
-      100.42,
-      103.74,
+      101.14,
+      104.5,
       "现在，让我将文件上传到俱乐部"
      ],
      [
-      103.74,
-      104.42,
-      "。"
+      104.5,
+      105.54,
+      "了一会"
      ],
      [
-      104.42,
-      106.95,
+      105.54,
+      107.37,
       "创建具有详细内容的共享文件夹"
      ],
      [
-      106.95,
-      109.98,
-      "权限控制，保持您的团队合作"
+      107.37,
+      108.42,
+      "权限控制，"
      ],
      [
-      109.98,
-      111.42,
-      "安全无缝。"
+      108.42,
+      112.18,
+      "确保您的团队合作安全无缝。"
      ],
      [
-      111.42,
-      113.42,
+      112.18,
+      113.66,
       "有复杂的文件？"
      ],
      [
-      113.42,
-      116.42,
+      113.66,
+      116.38,
       "此文档包含太多内容。"
      ],
      [
-      116.42,
-      124.53,
+      116.38,
+      124.75,
       "AI即时总结，提取"
      ],
      [
-      124.53,
-      128.78,
+      124.75,
+      129.14,
       "关键点（以秒为单位）。"
      ],
      [
-      128.78,
-      131.09,
+      129.14,
+      131.26,
       "借助本地存储，您的数据始终安全无虞"
      ],
      [
-      131.09,
-      131.78,
+      131.26,
+      131.9,
       "和私人空间。"
      ],
      [
-      131.78,
-      134.78,
+      131.9,
+      135.38,
       "它可以安全地锁定一切。"
      ],
      [
-      134.78,
-      138.78,
+      135.38,
+      139.06,
       "PCDA400站，桌面AI NAS。"
      ],
      [
-      138.78,
-      141.78,
+      139.06,
+      141.94,
       "不仅仅是NAS ，还有本地AI系统。"
      ],
      [
-      141.78,
-      144.73,
-      "让搜索更智能。恢复效率"
+      141.94,
+      143.3,
+      "让搜索更智能。"
      ],
      [
-      144.73,
-      145.78,
-      "其精髓。"
+      143.3,
+      146.58,
+      "让效率回归本质。"
      ]
     ],
     "vttLang": "zh",
@@ -395,11 +425,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 78424.0,
-    "pledged": 10968738.0,
-    "usdPledged": "1398551.05964706",
+    "pledged": 11077597.0,
+    "usdPledged": "1412430.94900189",
     "goalUsd": 9999.32,
-    "percentFunded": 13986.455676833622,
-    "backers": 2484,
+    "percentFunded": 14125.263949811282,
+    "backers": 2510,
     "deadline": 1793376023,
     "launchedAt": 1789488023,
     "staffPick": true,
@@ -411,17 +441,17 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.8164,
+    "score": 0.8167,
     "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1789740467-CpWmQwiP4ybaPaUlKQHUn%2BUWuWfvuc1bpJ1LsWEYIXE%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1789740467-CpWmQwiP4ybaPaUlKQHUn%2BUWuWfvuc1bpJ1LsWEYIXE%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11254735,
       "price": 3128.0,
       "title": "Super Early Bird - Violoop",
       "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 2018,
+      "backers": 2192,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -443,16 +473,16 @@
       "price": 5951.0,
       "title": "Super Early Bird - Violoop Duo Pack",
       "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 211,
+      "backers": 241,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
       "shipping": "unrestricted"
      }
     ],
-    "rewardsTotal": 9,
-    "tiersDate": "2026-09-18",
-    "tiersCarried": "2026-09-18",
+    "rewardsTotal": 10,
+    "tiersDate": "2026-09-19",
+    "tiersCarried": "",
     "cues": [
      [
       0.02,
@@ -551,43 +581,43 @@
      ],
      [
       47.26,
-      50.44,
+      49.98,
       "从产品到内容再到库存再到"
      ],
      [
-      50.44,
-      51.26,
-      "顾客"
+      49.98,
+      52.56,
+      "客户，它保留了整个过程"
      ],
      [
-      51.26,
+      52.56,
       53.26,
-      "它使整个过程保持联系。"
+      "已连接"
      ],
      [
       53.26,
-      56.36,
-      "无论您的目标，您的业务或"
+      55.98,
+      "无论您的目标、业务或"
      ],
      [
-      56.36,
-      57.26,
-      "您的任务"
+      55.98,
+      58.49,
+      "您的任务，人工智能将自行建模"
      ],
      [
-      57.26,
-      62.18,
-      "人工智能将围绕您进行自我建模。"
+      58.49,
+      59.26,
+      "附近的"
      ],
      [
-      62.18,
-      64.18,
-      "它可以在您的设备上运行。"
+      59.26,
+      64.38,
+      "它在您的设备上运行。您的数据"
      ],
      [
-      64.18,
+      64.38,
       66.18,
-      "您的数据永远不会消失。"
+      "这副表情不会消失了。"
      ],
      [
       66.18,
@@ -611,18 +641,18 @@
      ],
      [
       92.86,
-      95.97,
+      96.35,
       "当一切都协调一致时，你的想法，"
      ],
      [
-      95.97,
-      97.86,
-      "你的节奏，你的时间，"
+      96.35,
+      100.21,
+      "你的节奏，你的时间，你停止反应，"
      ],
      [
-      97.86,
+      100.21,
       101.86,
-      "你停止反应，你开始流动。"
+      "你开始流动。"
      ]
     ],
     "vttLang": "zh",
@@ -658,11 +688,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 776552.0,
-    "usdPledged": "776552.0",
+    "pledged": 779857.0,
+    "usdPledged": "779857.0",
     "goalUsd": 20000.0,
-    "percentFunded": 3882.7599999999998,
-    "backers": 754,
+    "percentFunded": 3899.285,
+    "backers": 758,
     "deadline": 1794067204,
     "launchedAt": 1788879604,
     "staffPick": true,
@@ -672,10 +702,10 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6577,
+    "score": 0.6579,
     "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1789811400-6CA5X2Q7kyh0PxspN6SjyACedV%2BnKay0rivMTGlU4eI%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1789811400-6CA5X2Q7kyh0PxspN6SjyACedV%2BnKay0rivMTGlU4eI%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11398822,
@@ -693,7 +723,7 @@
       "price": 799.0,
       "title": "BirdieSense - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 677,
+      "backers": 697,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -704,7 +734,7 @@
       "price": 1498.0,
       "title": "BirdieSense X2 - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️50% OFF $2998 MSRP (save $1500)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 27,
+      "backers": 28,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -712,8 +742,8 @@
      }
     ],
     "rewardsTotal": 7,
-    "tiersDate": "2026-09-18",
-    "tiersCarried": "2026-09-18",
+    "tiersDate": "2026-09-19",
+    "tiersCarried": "",
     "cues": [
      [
       1.55,
@@ -773,17 +803,17 @@
      [
       36.94,
       47.17,
-      "小袋鼠来了！"
+      "就 像 這樣 。"
      ],
      [
       47.17,
-      51.22,
-      "如果您希望我严谨严谨"
+      50.3,
+      "如果您希望我严格"
      ],
      [
-      51.22,
+      50.3,
       52.96,
-      "我也可以这样做呀！"
+      "严格，我也能做到。"
      ],
      [
       52.96,
@@ -1001,10 +1031,10 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 119436.0,
-    "usdPledged": "15236.12565408",
+    "pledged": 121081.0,
+    "usdPledged": "15445.97382968",
     "goalUsd": 1275.67,
-    "percentFunded": 1194.36,
+    "percentFunded": 1210.81,
     "backers": 126,
     "deadline": 1791813616,
     "launchedAt": 1788357616,
@@ -1017,19 +1047,19 @@
      "automate",
      "camera"
     ],
-    "score": 0.6286,
+    "score": 0.6288,
     "coverRemote": "https://i.kickstarter.com/assets/054/975/488/d2c4cd9519d56305cc726640718dfc4c_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788354487&width=1024&sig=WoGvrEKVzqKacnYNCd0AoL9SC6iosXIdV%2Bx8M%2B3f6dc%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1789740923-ibe%2FpEx1wH%2FuhDW7YOIi6hUdhzozvuNmQscJlaIlLeI%3D/projects/5325235/video-1436329-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1789740923-ibe%2FpEx1wH%2FuhDW7YOIi6hUdhzozvuNmQscJlaIlLeI%3D/projects/5325235/video-1436329-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11168629,
       "price": 777.0,
       "title": "$99 Super Early Bird — 100 Units",
       "desc": "1× FernSnap AI Plant Time-Lapse Camera System\\nTriple-Spectrum Grow Light for healthy indoor plant growth\\nPlug & play setup — ready to use in minutes\\nAutomatically captures plant growth in cinematic time-lapse\\nIncludes USB-C Power Cable + Quick Start Guide + Plant Growth Guide\\n\\n👉 Lowest price ever offered for early supporters joining first.",
-      "backers": 100,
+      "backers": 99,
       "limit": 100,
-      "remaining": 0,
+      "remaining": 1,
       "eta": 1793491200,
       "shipping": "unrestricted"
      },
@@ -1038,9 +1068,9 @@
       "price": 855.0,
       "title": "$109 Early Bird — 150 Units",
       "desc": "1× FernSnap AI Plant Time-Lapse Camera\\nSmart AI-assisted plant monitoring + time-lapse capture\\nOptimized lighting for stable indoor plant growth\\nOne-tap video export via app workflow\\nDesigned for everyday plant parents and hobby growers\\nIncludes USB-C Cable + Plant Care Guide\\n\\n👉 Most popular early-stage reward after Super Early Bird sells out.",
-      "backers": 9,
+      "backers": 11,
       "limit": 150,
-      "remaining": 141,
+      "remaining": 139,
       "eta": 1793491200,
       "shipping": "unrestricted"
      },
@@ -1049,7 +1079,7 @@
       "price": 1560.0,
       "title": "$199 Duo Pack (2×) — Best Value",
       "desc": "2× FernSnap AI Plant Time-Lapse Camera\\nMonitor two plants or two growth environments simultaneously\\nPerfect for comparison setups (growth stages, plant types)\\nIdeal for shelves, balconies, or dual plant corners\\nIncludes 2× USB-C Cables + 2× Guides\\n\\n👉 Best value per device for multi-plant users.",
-      "backers": 10,
+      "backers": 11,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1057,8 +1087,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-09-18",
-    "tiersCarried": "2026-09-18",
+    "tiersDate": "2026-09-19",
+    "tiersCarried": "",
     "cues": [
      [
       1.62,
@@ -1076,8 +1106,8 @@
       "坯件"
      ],
      [
-      8.76,
-      11.2,
+      8.74,
+      11.22,
       "但是你眨了眨眼睛，你错过了它"
      ],
      [
@@ -1093,7 +1123,7 @@
      [
       22.9,
       24.9,
-      "刚刚开机，准备就绪"
+      "只需打开电源，即可使用"
      ],
      [
       25.42,
@@ -1126,28 +1156,28 @@
       "捕捉白天和黑夜的绽放"
      ],
      [
-      50.63,
-      53.11,
+      50.67,
+      53.07,
       "在重要时刻，应用会轻轻推动您"
      ],
      [
-      54.47,
-      56.48,
+      54.35,
+      56.4,
       "在稳定的环境中捕捉每一刻"
      ],
      [
-      56.48,
-      58.99,
+      56.4,
+      58.96,
       "恒定光线下的无闪烁质量"
      ],
      [
-      58.99,
+      58.96,
       60.43,
       "和固定的研究角度"
      ],
      [
-      65.77,
-      67.77,
+      65.89,
+      67.89,
       "自动生成完美无瑕的视频"
      ],
      [
@@ -1156,32 +1186,32 @@
       "需要零编辑"
      ],
      [
-      72.76,
-      75.06,
+      72.84,
+      75.11,
       "准备好与世界分享这一刻"
      ],
      [
-      75.06,
-      75.64,
+      75.11,
+      75.68,
       "案子还是会发生。"
      ],
      [
-      76.16,
-      82.62,
+      81.07,
+      83.26,
       "三种植物光模式促进植物生长"
      ],
      [
-      82.62,
+      83.26,
       83.59,
       "成长"
      ],
      [
-      87.33,
-      90.35,
+      87.41,
+      90.36,
       "蕨类植物永远不会捕捉每一个神奇的时刻"
      ],
      [
-      90.35,
+      90.36,
       90.85,
       "差到了"
      ],
@@ -1249,11 +1279,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 1200.0,
-    "pledged": 78547.0,
-    "usdPledged": "78547.0",
+    "pledged": 82501.0,
+    "usdPledged": "82501.0",
     "goalUsd": 1200.0,
-    "percentFunded": 6545.583333333333,
-    "backers": 451,
+    "percentFunded": 6875.083333333333,
+    "backers": 472,
     "deadline": 1792677600,
     "launchedAt": 1789653600,
     "staffPick": false,
@@ -1264,7 +1294,7 @@
      "ai",
      "smart"
     ],
-    "score": 0.6243,
+    "score": 0.626,
     "coverRemote": "https://i.kickstarter.com/assets/055/171/933/fbcf346ac620a2ea950187fa541475e8_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789704531&width=1024&sig=R3daoGUCYIaQAt46W5kNSHbTqWyPia3XEEQgonAnkTU%3D",
     "videoMp4": "https://v2.kickstarter.com/1789750416-ycjSTXcbzTcJGN%2BinECEtHV9k5NPepKgu7sRTzqPLFo%3D/projects/5321611/video-1460017-h264_high.mp4",
     "videoHls": "https://v2.kickstarter.com/1789750416-ycjSTXcbzTcJGN%2BinECEtHV9k5NPepKgu7sRTzqPLFo%3D/projects/5321611/video-1460017-hls_playlist.m3u8",
@@ -1274,9 +1304,9 @@
       "price": 159.0,
       "title": "VIP EXCLUSIVE｜1× SPARK RING",
       "desc": "You’ll get a Spark Ring, a Charging Case, and all included accessories for just $159—39% off the $259 MSRP. Double-tap to capture ideas instantly, then let Spark turn them into organized notes, to-dos, and reminders. Secure yours before the price goes up!\\n\\n- Global Shipping\\n- Customs & Taxes Included\\n- 4 Colors Available (to be selected in the post-campaign survey)",
-      "backers": 320,
+      "backers": 329,
       "limit": 1000,
-      "remaining": 680,
+      "remaining": 671,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -1285,9 +1315,9 @@
       "price": 179.0,
       "title": "Super Early Bird ｜Spark Ring",
       "desc": "You’ll get a Spark Ring, a Charging Case, and all included accessories for just $179—31% off the $259 MSRP. Double-tap to capture ideas instantly, then let Spark turn them into organized notes, to-dos, and reminders. Secure yours before the price goes up!\\n\\n- Global Shipping\\n- Customs & Taxes Included\\n- 4 Colors Available (to be selected in the post-campaign survey)",
-      "backers": 94,
+      "backers": 103,
       "limit": 500,
-      "remaining": 406,
+      "remaining": 397,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -1296,9 +1326,9 @@
       "price": 309.0,
       "title": "VIP EXCLUSIVE DUO｜2× SPARK RING",
       "desc": "You’ll get 2x Spark Rings, 2x Charging Cases, and all included accessories for just $309—40% off the combined $518 MSRP. Keep one and share one with a partner, friend, or teammate. Secure yours before the price goes up!\\n\\n- Global Shipping\\n- Customs & Taxes Included\\n- 4 Colors Available for Each Ring (to be selected in the post-campaign survey)",
-      "backers": 18,
+      "backers": 20,
       "limit": 500,
-      "remaining": 482,
+      "remaining": 480,
       "eta": 1796083200,
       "shipping": "unrestricted"
      }
@@ -1349,56 +1379,61 @@
      ],
      [
       31.82,
-      33.76,
+      35.9,
       "Sparkling确切地知道它在哪里"
      ],
      [
-      33.76,
-      34.14,
-      "所属账户"
+      35.9,
+      39.88,
+      "属于从一个短暂的想法到一个"
      ],
      [
-      34.78,
-      41.07,
-      "从短暂的想法到项目更新"
+      39.88,
+      40.67,
+      "项目"
      ],
      [
-      42.75,
-      45.17,
+      40.83,
+      42.83,
+      "更新"
+     ],
+     [
+      42.83,
+      45.25,
       "原型测试12旋转连接器90"
      ],
      [
-      45.17,
-      47.47,
+      45.25,
+      47.55,
       "度仍然有点偏移"
      ],
      [
-      47.79,
-      50.08,
+      47.87,
+      50.16,
       "Sparkering不仅仅是捕捉一个想法，"
      ],
      [
-      50.08,
-      51.55,
+      50.16,
+      51.63,
       "有助于推动工作向前发展"
      ],
      [
       54.74,
-      57.22,
+      57.28,
       "当需要构建时，只需说出"
      ],
      [
-      57.22,
-      57.7,
+      57.28,
+      57.78,
       "需要的部分"
      ],
      [
-      60.7,
-      62.86,
+      60.62,
+      62.85,
       "当小事情回来时，他们"
      ],
      [
-      62.86,
+      62.85,
       63.18,
       "事件"
      ],
