@@ -1,5 +1,1088 @@
 [
  {
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T12:36:48+07:00",
+  "source": "Kickstarter discover/advanced API + 项目详情页",
+  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
+  "poolSize": 30,
+  "projects": [
+   {
+    "id": 1471279538,
+    "name": "VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER",
+    "blurb": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
+    "url": "https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer",
+    "category": "Hardware",
+    "creator": "Bvio Tech",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 78424.0,
+    "pledged": 11491286.0,
+    "usdPledged": "1465177.69063382",
+    "goalUsd": 9999.32,
+    "percentFunded": 14652.767010098949,
+    "backers": 2612,
+    "deadline": 1793376023,
+    "launchedAt": 1789488023,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.8182,
+    "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11254735,
+      "price": 3128.0,
+      "title": "Super Early Bird - Violoop",
+      "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 2192,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11414615,
+      "price": 3128.0,
+      "title": "Violoop Display Splitter",
+      "desc": "Designed for Violoop, this compact display splitter expands your computer’s video connection, enabling seamless screen sharing between Violoop and an external display. Its plug-and-play design keeps your setup simple, stable, and clutter-free.",
+      "backers": 37,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11414602,
+      "price": 5951.0,
+      "title": "Super Early Bird - Violoop Duo Pack",
+      "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 241,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 10,
+    "tiersDate": "2026-09-19",
+    "tiersCarried": "2026-09-19",
+    "cues": [
+     [
+      0.02,
+      2.71,
+      "每天我们都要穿过十几个"
+     ],
+     [
+      2.71,
+      4.02,
+      "不同的工具。"
+     ],
+     [
+      4.02,
+      8.02,
+      "切换、复制、粘贴、重复。"
+     ],
+     [
+      8.02,
+      10.77,
+      "但是这些工具中到底有多少是真正"
+     ],
+     [
+      10.77,
+      12.02,
+      "明白了吗？"
+     ],
+     [
+      12.02,
+      15.02,
+      "早上好！准备好进行董事会审核了吗？"
+     ],
+     [
+      15.02,
+      19.12,
+      "Violoupe是您当地的人工智能代理，专为"
+     ],
+     [
+      19.12,
+      20.02,
+      "认识你。"
+     ],
+     [
+      20.02,
+      24.02,
+      "因此，在您提出要求之前，您的工作已经准备就绪。"
+     ],
+     [
+      24.02,
+      26.02,
+      "Violoupe与您协同行动，"
+     ],
+     [
+      26.02,
+      28.02,
+      "在后台静静地学习。"
+     ],
+     [
+      28.02,
+      31.64,
+      "我找到了类似的任务，是否要完成"
+     ],
+     [
+      31.64,
+      34.26,
+      "和上次一样吗？"
+     ],
+     [
+      34.26,
+      37.28,
+      "Violoupe找到您的流程并执行"
+     ],
+     [
+      37.28,
+      38.26,
+      "你的命令。"
+     ],
+     [
+      38.26,
+      41.26,
+      "批量准备，后续步骤排列齐全。"
+     ],
+     [
+      41.26,
+      44.19,
+      "它运行您的店面、您的内容和"
+     ],
+     [
+      44.19,
+      46.98,
+      "您在每个平台上的客户"
+     ],
+     [
+      46.98,
+      47.26,
+      "使用。"
+     ],
+     [
+      47.26,
+      49.98,
+      "从产品到内容再到库存再到"
+     ],
+     [
+      49.98,
+      52.56,
+      "客户，它保留了整个过程"
+     ],
+     [
+      52.56,
+      53.26,
+      "已连接"
+     ],
+     [
+      53.26,
+      55.98,
+      "无论您的目标、业务或"
+     ],
+     [
+      55.98,
+      58.49,
+      "您的任务，人工智能将自行建模"
+     ],
+     [
+      58.49,
+      59.26,
+      "附近的"
+     ],
+     [
+      59.26,
+      64.38,
+      "它在您的设备上运行。您的数据"
+     ],
+     [
+      64.38,
+      66.18,
+      "这副表情不会消失了。"
+     ],
+     [
+      66.18,
+      76.04,
+      "您的环境变化，工作"
+     ],
+     [
+      76.04,
+      78.94,
+      "下一代的事业依然在继续。"
+     ],
+     [
+      78.94,
+      91.57,
+      "最好的系统学习如何像"
+     ],
+     [
+      91.57,
+      92.86,
+      "你"
+     ],
+     [
+      92.86,
+      96.35,
+      "当一切都协调一致时，你的想法，"
+     ],
+     [
+      96.35,
+      100.21,
+      "你的节奏，你的时间，你停止反应，"
+     ],
+     [
+      100.21,
+      101.86,
+      "你开始流动。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/124/797/efad3c6f32de1f4db4a466f06ad4dbba_original.jpg?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1781595932&width=338&sig=7dDfrqN%2Bz3UsDkGcWZZblhdvTphi%2FPfE7eOZM0g%2BW3w%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/135/242/f9b0a34c19f50ca0d4705b080b5234f9_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1789488148&width=560&sig=NU%2Bw%2FERTS44HNy0IV9ademHj23arfTVASzDpS8dSFMY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/036/761/432/2064ca18ea847269e07c3b22cffca7fe_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1648110767&width=200&sig=Hzqs%2FrDGcgxqUTft8qBQ%2FIskreAhtkoY%2FLkx946ribY%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/longham&quot;},&quot;title&quot;:&quot;Campaign"
+     },
+     {
+      "t": "p",
+      "x": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
+      "z": "借助可读取您的屏幕、准备任务并等待您批准的插件AI ，让每个PC代理都做好准备。"
+     }
+    ]
+   },
+   {
+    "id": 2096747458,
+    "name": "TICKEY: A Customizable Clip-On Color E-Paper Card",
+    "blurb": "Made for your bag, desk, or badge—bringing photos, art, and ideas beyond the screen and into everyday life.",
+    "url": "https://www.kickstarter.com/projects/enilinx/ticket-refresh-it-new-clip-it-on-carry-your-moment",
+    "category": "Gadgets",
+    "creator": "ENIAC",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 5478241.0,
+    "usdPledged": "698283.87950018",
+    "goalUsd": 1274.65,
+    "percentFunded": 54782.41,
+    "backers": 6595,
+    "deadline": 1790348402,
+    "launchedAt": 1786460402,
+    "staffPick": true,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [],
+    "score": 0.663,
+    "coverRemote": "https://i.kickstarter.com/assets/054/736/801/501f1fa193081b32230d1e93771e623f_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1786536460&width=1024&sig=KAcw2SLQN%2B97QDCpQ6T5b0TukXh6XO27gXrQstSsvVM%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [],
+    "rewardsTotal": 0,
+    "tiersDate": "",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": []
+   },
+   {
+    "id": 1826957254,
+    "name": "Spark Ring — The Smart Ring That Captures Ideas Instantly",
+    "blurb": "Double-tap idea capture | AI-organized notes & tasks | Smart reminders | Privacy-first | 2.8g Ultra-light | No subscription required",
+    "url": "https://www.kickstarter.com/projects/sparkring/spark-ring-the-smart-ring-built-to-capture-ideas-instantly",
+    "category": "Gadgets",
+    "creator": "Spark Ring",
+    "location": "USA, Mobile, AL",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 1200.0,
+    "pledged": 88864.0,
+    "usdPledged": "88864.0",
+    "goalUsd": 1200.0,
+    "percentFunded": 7405.333333333333,
+    "backers": 508,
+    "deadline": 1792677600,
+    "launchedAt": 1789653600,
+    "staffPick": false,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai",
+     "smart"
+    ],
+    "score": 0.6163,
+    "coverRemote": "https://i.kickstarter.com/assets/055/171/933/fbcf346ac620a2ea950187fa541475e8_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789704531&width=1024&sig=R3daoGUCYIaQAt46W5kNSHbTqWyPia3XEEQgonAnkTU%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11295586,
+      "price": 159.0,
+      "title": "VIP EXCLUSIVE｜1× SPARK RING",
+      "desc": "You’ll get a Spark Ring, a Charging Case, and all included accessories for just $159—39% off the $259 MSRP. Double-tap to capture ideas instantly, then let Spark turn them into organized notes, to-dos, and reminders. Secure yours before the price goes up!\\n\\n- Global Shipping\\n- Customs & Taxes Included\\n- 4 Colors Available (to be selected in the post-campaign survey)",
+      "backers": 329,
+      "limit": 1000,
+      "remaining": 671,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11412866,
+      "price": 179.0,
+      "title": "Super Early Bird ｜Spark Ring",
+      "desc": "You’ll get a Spark Ring, a Charging Case, and all included accessories for just $179—31% off the $259 MSRP. Double-tap to capture ideas instantly, then let Spark turn them into organized notes, to-dos, and reminders. Secure yours before the price goes up!\\n\\n- Global Shipping\\n- Customs & Taxes Included\\n- 4 Colors Available (to be selected in the post-campaign survey)",
+      "backers": 103,
+      "limit": 500,
+      "remaining": 397,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11412857,
+      "price": 309.0,
+      "title": "VIP EXCLUSIVE DUO｜2× SPARK RING",
+      "desc": "You’ll get 2x Spark Rings, 2x Charging Cases, and all included accessories for just $309—40% off the combined $518 MSRP. Keep one and share one with a partner, friend, or teammate. Secure yours before the price goes up!\\n\\n- Global Shipping\\n- Customs & Taxes Included\\n- 4 Colors Available for Each Ring (to be selected in the post-campaign survey)",
+      "backers": 20,
+      "limit": 500,
+      "remaining": 480,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 16,
+    "tiersDate": "2026-09-19",
+    "tiersCarried": "2026-09-19",
+    "cues": [
+     [
+      2.38,
+      7.06,
+      "您的最佳创意无需等待完美"
+     ],
+     [
+      7.06,
+      9.95,
+      "思想触及的那一刻"
+     ],
+     [
+      11.63,
+      13.76,
+      "轻触两次并说它旋转"
+     ],
+     [
+      13.76,
+      15.15,
+      "连接90度"
+     ],
+     [
+      16.91,
+      19.55,
+      "任何时候闪闪发光都能省钱"
+     ],
+     [
+      20.51,
+      23.37,
+      "不是每个想法都很大，但即使是很小的想法"
+     ],
+     [
+      23.37,
+      25.35,
+      "明天早上可以节省"
+     ],
+     [
+      27.47,
+      29.47,
+      "提醒我买咖啡豆"
+     ],
+     [
+      31.82,
+      35.9,
+      "Sparkling确切地知道它在哪里"
+     ],
+     [
+      35.9,
+      39.88,
+      "属于从一个短暂的想法到一个"
+     ],
+     [
+      39.88,
+      40.67,
+      "项目"
+     ],
+     [
+      40.83,
+      42.83,
+      "更新"
+     ],
+     [
+      42.83,
+      45.25,
+      "原型测试12旋转连接器90"
+     ],
+     [
+      45.25,
+      47.55,
+      "度仍然有点偏移"
+     ],
+     [
+      47.87,
+      50.16,
+      "Sparkering不仅仅是捕捉一个想法，"
+     ],
+     [
+      50.16,
+      51.63,
+      "有助于推动工作向前发展"
+     ],
+     [
+      54.74,
+      57.28,
+      "当需要构建时，只需说出"
+     ],
+     [
+      57.28,
+      57.78,
+      "需要的部分"
+     ],
+     [
+      60.62,
+      62.85,
+      "当小事情回来时，他们"
+     ],
+     [
+      62.85,
+      63.18,
+      "事件"
+     ],
+     [
+      66.14,
+      68.86,
+      "闪耀永远不会失去另一个伟大的想法"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/587/299/cb2a77dbcf0cbc2a16e111b2e26b208d_original.png?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1785292748&width=338&sig=fKkAiKeegV0ltg5hGhZxSQnC%2BKibhQ0LiSWC%2B5rugB8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/171/933/fbcf346ac620a2ea950187fa541475e8_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1789704531&width=560&sig=nA6AVqyJst5jJd%2F6U2a2n7%2FOkIzAp7R6JRBJ1qRpyTI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/130/136/cb2a77dbcf0cbc2a16e111b2e26b208d_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1789464111&width=200&sig=CdXbdMyAtnALdY3Qt3bm3HhHbAqQlMS9QQ0ap%2FW7%2Bq4%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1470570659&quot;},&quot;title&quot;:&quot;Rose&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;Kickbooster&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/021/346/206/659c32cf7e102c2f1c3ce44dd37a297d_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1601909014&width=200&sig=GKNNuIw7wK2qmP%2BJ%2BHsPBAh5ZfAS7h3VRjpNkotwU9k%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/prettyslug&quot;},&quot;title&quot;:&quot;kickbooster&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerMany"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/988/638/fa32c47b1f2a90d4bbbeb762ee1d2053_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1788433548&width=200&sig=34yEv8UNcCA1TCmZYiqKRxJ90gNF4BNKkE9yXWux%2F%2FE%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/53725247&quot;},&quot;title&quot;:&quot;backermany&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerSpaces-www.backerspaces.com&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/054/911/365/745317122bbebed5ff02693593ca67c8_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1787874242&width=200&sig=C20Vy9eHpJEzvVw5Eox0xe9WVQUfjHq23k4y%2BGp5HUA%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/544966829&quot;},&quot;title&quot;:&quot;backerspaces&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerShares"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/036/933/090/e3efb6e8f631ba07b752008dae44ba30_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1650349501&width=200&sig=rBE3gR5SMNLJNCyS63t3euiXdVZnH0b35tSzZN3ZjsI%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/101219468&quot;},&quot;title&quot;:&quot;backershares&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerHive"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/840/433/c09899fbf90ad221700f21b1bf854e26_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1779545651&width=200&sig=OrUP3dLXO7N2Xjr%2F8Ke0EaQsVwgXlpwaY%2BnyrG2p3to%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1615044103&quot;},&quot;title&quot;:&quot;backerhive&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerWeb&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/054/834/136/b343a0ea7d028f2cf6ada17947a57f41_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1787298828&width=200&sig=rDduO%2BjCVXwYsDGhqUaz77rldYr%2FBD9KfXYntGrgkLU%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1275398657&quot;},&quot;title&quot;:&quot;backerweb01&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;Lindsey"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/145/711/9e0bbffdd80a2fbcecc65fe7ebc0d18c_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1789549453&width=200&sig=UsSIrwnMr%2F4QBLC7eW2ghhKhZF9ZXg3B3lvdM5zKj3g%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/173979028&quot;},&quot;title&quot;:&quot;Lindsey&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;生长发生&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/055/144/167/f6c05f44af23a6f1c0c0581eee9f028d_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1789540723&width=200&sig=enHa3IBIbNNgfTwCLQ172FFdrqYyhjxLIBNELKiIDq8%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1291059048&quot;},&quot;title&quot;:&quot;SZFS&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;Wency&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/missing_user_avatar.png?anim=false&fit=cover&height=200&origin=ugc&q=92&width=200&sig=GO6kC5VF5iWafmw%2BBkxrCEAVo3EfALI8N4itHm6rVT0%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1347295209&quot;},&quot;title&quot;:&quot;Wency&quot;}]},&quot;timeline&quot;:{&quot;edges&quot;:[{&quot;node&quot;:{&quot;type&quot;:&quot;update&quot;,&quot;timestamp&quot;:1789750415,&quot;data&quot;:{&quot;id&quot;:&quot;RnJlZWZvcm1Qb3N0LTQ4MDE5Njc=&quot;}}}]},&quot;isInPostCampaignPledgingPhase&quot;:false},&quot;projectModal&quot;:{&quot;opened&quot;:false,&quot;modalType&quot;:null},&quot;watching&quot;:{&quot;projectIsLaunched&quot;:true,&quot;projectCanRemind&quot;:true,&quot;projectId&quot;:&quot;UHJvamVjdC0xODI2OTU3MjU0&quot;},&quot;currentUser&quot;:{}}"
+     },
+     {
+      "t": "p",
+      "x": "Double-tap idea capture | AI-organized notes & tasks | Smart reminders | Privacy-first | 2.8g Ultra-light | No subscription required",
+      "z": "轻触两次创意捕获|人工智能组织的笔记和任务|智能提醒|隐私至上| 2.8g超轻|无需订阅"
+     }
+    ]
+   },
+   {
+    "id": 627793363,
+    "name": "Pocket Blue: Automated Scoring for Youth Baseball & Softball",
+    "blurb": "Clip your phone to the backstop. AI keeps the book – count, outs, score – live on every phone in the stands. Watch the game.",
+    "url": "https://www.kickstarter.com/projects/mike-casper/pocket-blue-automated-scoring-for-youth-baseball-and-softball",
+    "category": "Apps",
+    "creator": "Mike Casper",
+    "location": "Chicago, IL",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 8000.0,
+    "pledged": 2474.0,
+    "usdPledged": "2474.0",
+    "goalUsd": 8000.0,
+    "percentFunded": 30.925000000000004,
+    "backers": 20,
+    "deadline": 1792063118,
+    "launchedAt": 1789471118,
+    "staffPick": false,
+    "sources": [
+     "软件/APP"
+    ],
+    "kwHits": [
+     "ai",
+     "automate"
+    ],
+    "score": 0.6115,
+    "coverRemote": "https://i.kickstarter.com/assets/054/961/249/8324422515749530f8ad04a8e28301e5_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788269823&width=1024&sig=fgX7mCqD%2BzfXNkzgRkLy6%2Flf6o6g%2FZdIfo7PSdU%2F6Lc%3D",
+    "videoMp4": "https://v2.kickstarter.com/1789856143-UNW64ppOkhcwFZcYfNoM1K83i20QgVxbtfp1yLb7xPo%3D/projects/5378169/video-1456360-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1789856143-UNW64ppOkhcwFZcYfNoM1K83i20QgVxbtfp1yLb7xPo%3D/projects/5378169/video-1456360-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11376860,
+      "price": 25.0,
+      "title": "Super Early Bird – Founding Backer",
+      "desc": "One season of Pocket Blue. Your kid's games, scored and saved. Founding price, locked. Beta seat as soon as we can set it up.",
+      "backers": 1,
+      "limit": null,
+      "remaining": null,
+      "eta": 1803859200,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11376863,
+      "price": 39.0,
+      "title": "Early Bird Season Pass",
+      "desc": "One season of Pocket Blue. Your kid's games, scored and saved. The early price, limited to the first 100.",
+      "backers": 14,
+      "limit": 100,
+      "remaining": 86,
+      "eta": 1803859200,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11376865,
+      "price": 49.0,
+      "title": "Season Pass",
+      "desc": "One season of Pocket Blue. Your kid's games, scored and saved.",
+      "backers": 1,
+      "limit": null,
+      "remaining": null,
+      "eta": 1803859200,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 9,
+    "tiersDate": "2026-09-20",
+    "tiersCarried": "",
+    "cues": [
+     [
+      6.83,
+      11.06,
+      "Pocket创始人兼首席执行官Mike Casper"
+     ],
+     [
+      11.06,
+      11.62,
+      "蓝"
+     ],
+     [
+      11.62,
+      13.98,
+      "所以这在青少年棒球或"
+     ],
+     [
+      13.98,
+      14.82,
+      "垒球比赛。"
+     ],
+     [
+      14.82,
+      16.66,
+      "您几乎可以在任何地方看到它。"
+     ],
+     [
+      16.66,
+      18.7,
+      "在比赛开始前，家长们"
+     ],
+     [
+      18.7,
+      19.1,
+      "排队"
+     ],
+     [
+      19.1,
+      20.02,
+      "进行旁观"
+     ],
+     [
+      20.02,
+      21.88,
+      "他们终于有机会坐下来"
+     ],
+     [
+      21.88,
+      22.62,
+      "他们的草坪椅"
+     ],
+     [
+      22.62,
+      24.18,
+      "休息一下。"
+     ],
+     [
+      24.18,
+      26.86,
+      "教练会跑过来问，嘿，可以"
+     ],
+     [
+      26.86,
+      27.42,
+      "人"
+     ],
+     [
+      27.42,
+      30.02,
+      "今天拿一本记分簿，或者有人可以做到"
+     ],
+     [
+      30.02,
+      30.66,
+      "分数"
+     ],
+     [
+      30.66,
+      33.17,
+      "很多时候，每个人都向下看"
+     ],
+     [
+      33.17,
+      33.98,
+      "或将目光移开"
+     ],
+     [
+      33.98,
+      35.3,
+      "并希望他们不会被召唤。"
+     ],
+     [
+      35.3,
+      37.1,
+      "这就像孩子们在教室里，希望"
+     ],
+     [
+      37.1,
+      40.14,
+      "老师不会拜访你。"
+     ],
+     [
+      40.14,
+      42.66,
+      "因此， Pocket Blue接受实时流式传输"
+     ],
+     [
+      42.66,
+      43.58,
+      "用您的手机扫描"
+     ],
+     [
+      43.58,
+      45.59,
+      "在篱笆后面，可以自动"
+     ],
+     [
+      45.59,
+      46.62,
+      "得分，以便您"
+     ],
+     [
+      46.62,
+      49.41,
+      "作为家长可以享受每一刻"
+     ],
+     [
+      49.41,
+      51.3,
+      "看着你的孩子玩耍。"
+     ],
+     [
+      51.3,
+      52.92,
+      "因此，它在开始时的工作方式"
+     ],
+     [
+      52.92,
+      53.3,
+      "他是数一数二的"
+     ],
+     [
+      53.3,
+      55.11,
+      "其中一位家长将拿走他们的手机"
+     ],
+     [
+      55.11,
+      56.02,
+      "从口袋里掏出来，"
+     ],
+     [
+      56.02,
+      57.87,
+      "把它安装在栅栏上，就像任何"
+     ],
+     [
+      57.87,
+      58.82,
+      "其他直播"
+     ],
+     [
+      58.82,
+      61.71,
+      "本垒打，并确保所有"
+     ],
+     [
+      61.71,
+      63.34,
+      "四个基地都在视图中"
+     ],
+     [
+      63.34,
+      65.1,
+      "然后就可以开始了。"
+     ],
+     [
+      65.1,
+      67.97,
+      "然后人工智能将自动得分"
+     ],
+     [
+      67.97,
+      68.54,
+      "他是数一数二的"
+     ],
+     [
+      68.54,
+      69.98,
+      "因为它正在进行中。"
+     ],
+     [
+      69.98,
+      71.63,
+      "因此，当父母坐在"
+     ],
+     [
+      71.63,
+      71.94,
+      "看台"
+     ],
+     [
+      71.94,
+      73.9,
+      "他们可以获得实时评分更新。"
+     ],
+     [
+      73.9,
+      75.49,
+      "但他们的大部分时间，"
+     ],
+     [
+      75.49,
+      76.42,
+      "只是看着他们的孩子"
+     ],
+     [
+      76.42,
+      81.65,
+      "享受这一刻。"
+     ],
+     [
+      81.65,
+      84.53,
+      "从小到大，爸爸和家人都很大"
+     ],
+     [
+      84.53,
+      85.73,
+      "投入体育运动的时间。"
+     ],
+     [
+      85.73,
+      88.01,
+      "所以我爸爸是一个投手"
+     ],
+     [
+      88.01,
+      88.53,
+      "学院"
+     ],
+     [
+      88.53,
+      90.97,
+      "因此，体育运动是他童年的重要组成部分。"
+     ],
+     [
+      90.97,
+      93.05,
+      "然后他继续从事体育产业，"
+     ],
+     [
+      93.05,
+      95.61,
+      "获得了无线电广播学位，"
+     ],
+     [
+      95.61,
+      98.42,
+      "并且是一名体育广播员，在他的早期"
+     ],
+     [
+      98.42,
+      98.89,
+      "n.事业"
+     ],
+     [
+      98.89,
+      101.06,
+      "所以我记得我长大了，去"
+     ],
+     [
+      101.06,
+      101.69,
+      "球场，"
+     ],
+     [
+      101.69,
+      104.07,
+      "他在周末工作，他会带我去"
+     ],
+     [
+      104.07,
+      104.41,
+      "陪伴"
+     ],
+     [
+      104.41,
+      106.08,
+      "我可以坐在记者席上帮忙"
+     ],
+     [
+      106.08,
+      106.85,
+      "用分数簿"
+     ],
+     [
+      106.85,
+      109.54,
+      "并帮助准备好统计数据"
+     ],
+     [
+      109.54,
+      111.13,
+      "中间局。"
+     ],
+     [
+      111.13,
+      113.32,
+      "因此，体育运动一直是我们"
+     ],
+     [
+      113.32,
+      113.53,
+      "生命"
+     ],
+     [
+      113.53,
+      117.18,
+      "和我们的家庭成长。"
+     ],
+     [
+      117.18,
+      118.83,
+      "我们正在构建的第一个版本"
+     ],
+     [
+      118.83,
+      119.26,
+      "口袋蓝"
+     ],
+     [
+      119.26,
+      121.22,
+      "实际上只是为了获得"
+     ],
+     [
+      121.22,
+      121.98,
+      "准确分数"
+     ],
+     [
+      121.98,
+      124.85,
+      "并了解它是如何在"
+     ],
+     [
+      124.85,
+      125.62,
+      "終場分數"
+     ],
+     [
+      125.62,
+      126.58,
+      "游戏的一部分。"
+     ],
+     [
+      126.58,
+      128.06,
+      "不过，随着这种情况的发展，我们将"
+     ],
+     [
+      128.06,
+      130.5,
+      "能够自动绘制喷雾图表"
+     ],
+     [
+      130.5,
+      131.22,
+      "对于每个孩子："
+     ],
+     [
+      131.22,
+      133.4,
+      "他们在蝙蝠上，在每场比赛中"
+     ],
+     [
+      133.4,
+      134.38,
+      "和季节。"
+     ],
+     [
+      134.38,
+      136.71,
+      "我们还可以获得俯仰速度"
+     ],
+     [
+      136.71,
+      137.94,
+      "更准确地说。"
+     ],
+     [
+      137.94,
+      140.29,
+      "这些是我们可以使用的一些东西，"
+     ],
+     [
+      140.29,
+      140.98,
+      "用于辅导"
+     ],
+     [
+      140.98,
+      143.24,
+      "见解和额外培训，以及"
+     ],
+     [
+      143.24,
+      144.18,
+      "作为已验证的统计数据"
+     ],
+     [
+      144.18,
+      148.89,
+      "正在录制的所有游戏。"
+     ],
+     [
+      148.89,
+      150.89,
+      "我们希望您成为Pocket Blue的支持者"
+     ],
+     [
+      150.89,
+      153.06,
+      "这样您就可以帮助我们解锁"
+     ],
+     [
+      153.06,
+      153.69,
+      "他们的手机"
+     ],
+     [
+      153.69,
+      156.49,
+      "在球场上永远不会错过任何一个时刻。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/907/449/8c0d47ea555e816bb8a32ae63257df40_original.jpg?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1787846171&width=338&sig=uY67ng%2FO%2Fsm%2FVX7BO4lYm3dEqfPeJ4avCYRxhJNTXEI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/961/249/8324422515749530f8ad04a8e28301e5_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1788269823&width=560&sig=x2UMF6Hp1JZdbQ9doeN%2Ft16Z%2BSmZwnQZPDVIfuMTP%2FE%3D"
+     },
+     {
+      "t": "p",
+      "x": "Clip your phone to the backstop. AI keeps the book – count, outs, score – live on every phone in the stands. Watch the game.",
+      "z": "将手机夹在靠背上。人工智能让书籍（计数、出局、得分）在看台上的每部手机上直播。观看比赛。"
+     }
+    ]
+   },
+   {
+    "id": 191417082,
+    "name": "Atlas - E-ink Smart Chessboard for Online & Offline Play",
+    "blurb": "Real-time online play, offline practice, and a distraction-free E-ink experience built for hours of comfortable, focused play.",
+    "url": "https://www.kickstarter.com/projects/1482571777/atlas-e-ink-smart-chessboard-for-online-and-offline-play",
+    "category": "Hardware",
+    "creator": "Atlas-E-Ink Chess",
+    "location": "Central, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 78444.0,
+    "pledged": 1057882.0,
+    "usdPledged": "134872.3382496",
+    "goalUsd": 10001.05,
+    "percentFunded": 1348.582428229055,
+    "backers": 861,
+    "deadline": 1792161000,
+    "launchedAt": 1789557347,
+    "staffPick": false,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "smart",
+     "e-ink"
+    ],
+    "score": 0.6089,
+    "coverRemote": "https://i.kickstarter.com/assets/055/095/607/d65b63552368c65bf6ac0584e23c02ee_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789217624&width=1024&sig=8OiMFmjaKfWTfE%2Fku44OFdt9L%2Bsaj6jPwpKfZGN4s6s%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [],
+    "rewardsTotal": 0,
+    "tiersDate": "",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": []
+   }
+  ]
+ },
+ {
   "date": "2026-09-19",
   "generatedAt": "2026-09-19T19:30:36+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
