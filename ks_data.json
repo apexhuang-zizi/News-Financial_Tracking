@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-09-22",
-  "generatedAt": "2026-09-22T12:41:13+07:00",
+  "generatedAt": "2026-09-22T19:30:22+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 42,
+  "poolSize": 41,
   "projects": [
    {
     "id": 604978070,
@@ -79,283 +79,313 @@
     "cues": [
      [
       0.24,
-      2.24,
+      3.44,
       "情缘你在哪"
      ],
      [
-      2.24,
-      4.24,
+      3.44,
+      5.12,
       "情缘你在哪"
      ],
      [
-      4.24,
-      7.24,
+      5.12,
+      6.96,
       "查找文件似乎不可能。"
      ],
      [
-      7.24,
-      13.24,
+      6.96,
+      7.96,
+      "呃啊~"
+     ],
+     [
+      7.96,
+      8.96,
+      "呃啊~"
+     ],
+     [
+      10.16,
+      13.2,
       "你需要一个聪明人，而不是这种聪明人。"
      ],
      [
-      13.24,
-      15.24,
+      13.2,
+      15.68,
       "您需要一个聪明时尚的助手。"
      ],
      [
-      15.24,
-      16.24,
+      15.68,
+      17.0,
       "等一下，等一下。"
      ],
      [
-      16.24,
-      19.24,
+      17.0,
+      19.44,
       "看起来不错，但很有用。"
      ],
      [
-      19.24,
-      21.65,
+      19.44,
+      23.23,
       "相信我，它比"
      ],
      [
-      21.65,
-      22.24,
+      23.23,
+      24.16,
       "别以为你用些"
      ],
      [
-      22.24,
-      26.52,
+      24.16,
+      26.84,
       "它可以容纳几代家庭成员。"
      ],
      [
-      26.52,
-      29.52,
+      26.84,
+      29.8,
       "支持8TB M2固态硬盘。"
      ],
      [
-      29.52,
-      32.72,
-      "支持高达32TB的4托架设计"
+      29.8,
+      32.28,
+      "4槽设计，支持多达32个"
      ],
      [
-      32.72,
-      35.91,
-      "每个驱动器，为您提供高达136TB的总容量"
+      32.28,
+      33.52,
+      "每驱动器TB ，"
      ],
      [
-      35.91,
-      36.52,
+      33.52,
+      38.12,
+      "为您提供高达136 TB的总容量"
+     ],
+     [
+      38.12,
+      39.06,
       "储藏"
      ],
      [
-      36.52,
-      40.64,
+      39.06,
+      40.93,
       "查找文件的问题可能是"
      ],
      [
-      40.64,
-      41.38,
+      40.93,
+      41.26,
       "解决了的"
      ],
      [
-      41.38,
-      44.0,
+      41.26,
+      43.93,
       "严肃地说，只需键入一个关键字，"
      ],
      [
-      44.0,
-      45.38,
+      43.93,
+      45.34,
       "人或场景。"
      ],
      [
-      45.38,
-      47.03,
+      45.34,
+      47.19,
       "借助人工智能驱动的全球搜索，"
      ],
      [
-      47.03,
-      48.78,
-      "即刻找到你真正的样子"
+      47.19,
+      47.7,
+      "立刻"
      ],
      [
-      48.78,
-      49.38,
-      "寻找"
+      47.7,
+      50.14,
+      "准确地找到您要查找的内容。"
      ],
      [
-      49.38,
-      51.38,
+      50.14,
+      51.1,
       "这还不是全部。"
      ],
      [
-      51.38,
-      53.38,
+      51.1,
+      53.54,
       "它提供极快的传输速度。"
      ],
      [
-      53.38,
+      53.54,
       55.76,
       "这些双2.5千兆以太网端口"
      ],
      [
       55.76,
-      57.38,
-      "绝对不是来玩的。"
+      56.3,
+      "无疑"
      ],
      [
-      57.38,
-      59.38,
-      "哇！太快了！"
+      56.3,
+      57.1,
+      "不是来玩的。"
      ],
      [
-      59.38,
-      62.19,
+      57.1,
+      57.86,
+      "唔"
+     ],
+     [
+      57.86,
+      60.1,
+      "太快了！"
+     ],
+     [
+      60.1,
+      62.97,
       "它还支持本地4K超高清视频"
      ],
      [
-      62.19,
-      64.99,
-      "播放，带来清晰的视觉效果"
+      62.97,
+      63.62,
+      "播放"
      ],
      [
-      64.99,
-      67.38,
-      "具有流畅、无滞后的性能。"
+      63.62,
+      70.23,
+      "带来清晰的视觉效果，"
      ],
      [
-      75.34,
-      78.34,
+      70.23,
+      75.7,
+      "光滑、无滞后的性能。"
+     ],
+     [
+      75.7,
+      78.66,
       "你捕捉了无数珍贵的时刻。"
      ],
      [
-      78.34,
-      80.86,
+      78.66,
+      81.3,
       "D400 AI智能相册自动"
      ],
      [
-      80.86,
-      83.25,
+      81.3,
+      83.58,
       "整理您杂乱的照片库，"
      ],
      [
-      83.25,
-      85.77,
-      "对记忆进行排序和分类，"
+      83.58,
+      85.22,
+      "对记忆进行排序和分类"
      ],
      [
-      85.77,
-      87.34,
+      85.22,
+      87.54,
       "他们被创造出来的那一刻。"
      ],
      [
-      87.34,
-      89.98,
+      87.54,
+      89.9,
       "由双处理器驱动，人工智能计算"
      ],
      [
-      89.98,
-      92.68,
+      89.9,
+      94.82,
       "发生在本地更快，更智能，以及更多"
      ],
      [
-      92.68,
-      93.34,
+      94.82,
+      96.02,
       "完成。"
      ],
      [
-      93.34,
-      97.45,
+      96.02,
+      98.2,
       "嘿，伙计们，我们有一个有趣的"
      ],
      [
-      97.45,
-      98.42,
+      98.2,
+      98.7,
       "这是一个正在进行的项目。"
      ],
      [
-      98.42,
-      100.42,
-      "需要合作？"
+      98.7,
+      101.14,
+      "我们需要合作。"
      ],
      [
-      100.42,
-      103.74,
+      101.14,
+      104.5,
       "现在，让我将文件上传到俱乐部"
      ],
      [
-      103.74,
-      104.42,
-      "。"
+      104.5,
+      105.54,
+      "了一会"
      ],
      [
-      104.42,
-      106.95,
+      105.54,
+      107.37,
       "创建具有详细内容的共享文件夹"
      ],
      [
-      106.95,
-      109.98,
-      "权限控制，保持您的团队合作"
+      107.37,
+      108.42,
+      "权限控制，"
      ],
      [
-      109.98,
-      111.42,
-      "安全无缝。"
+      108.42,
+      112.18,
+      "确保您的团队合作安全无缝。"
      ],
      [
-      111.42,
-      113.42,
+      112.18,
+      113.66,
       "有复杂的文件？"
      ],
      [
-      113.42,
-      116.42,
+      113.66,
+      116.38,
       "此文档包含太多内容。"
      ],
      [
-      116.42,
-      124.53,
+      116.38,
+      124.75,
       "AI即时总结，提取"
      ],
      [
-      124.53,
-      128.78,
+      124.75,
+      129.14,
       "关键点（以秒为单位）。"
      ],
      [
-      128.78,
-      131.09,
+      129.14,
+      131.26,
       "借助本地存储，您的数据始终安全无虞"
      ],
      [
-      131.09,
-      131.78,
+      131.26,
+      131.9,
       "和私人空间。"
      ],
      [
-      131.78,
-      134.78,
+      131.9,
+      135.38,
       "它可以安全地锁定一切。"
      ],
      [
-      134.78,
-      138.78,
+      135.38,
+      139.06,
       "PCDA400站，桌面AI NAS。"
      ],
      [
-      138.78,
-      141.78,
+      139.06,
+      141.94,
       "不仅仅是NAS ，还有本地AI系统。"
      ],
      [
-      141.78,
-      144.73,
-      "让搜索更智能。恢复效率"
+      141.94,
+      143.3,
+      "让搜索更智能。"
      ],
      [
-      144.73,
-      145.78,
-      "其精髓。"
+      143.3,
+      146.58,
+      "让效率回归本质。"
      ]
     ],
     "vttLang": "zh",
@@ -395,11 +425,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 78424.0,
-    "pledged": 12288709.0,
-    "usdPledged": "1566851.81044933",
+    "pledged": 12589232.0,
+    "usdPledged": "1605169.50571184",
     "goalUsd": 9999.32,
-    "percentFunded": 15669.576915230033,
-    "backers": 2831,
+    "percentFunded": 16052.779761297563,
+    "backers": 2860,
     "deadline": 1793376023,
     "launchedAt": 1789488023,
     "staffPick": true,
@@ -411,28 +441,17 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.821,
+    "score": 0.8216,
     "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790056875-TFwK5PPSef%2FyyJ95AIIJqEHLthO4Vyfvw%2F2E1HJOoSY%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790056875-TFwK5PPSef%2FyyJ95AIIJqEHLthO4Vyfvw%2F2E1HJOoSY%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11254735,
       "price": 3128.0,
       "title": "Super Early Bird - Violoop",
       "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 2409,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11414615,
-      "price": 3128.0,
-      "title": "Violoop Display Splitter",
-      "desc": "Designed for Violoop, this compact display splitter expands your computer’s video connection, enabling seamless screen sharing between Violoop and an external display. Its plug-and-play design keeps your setup simple, stable, and clutter-free.",
-      "backers": 37,
+      "backers": 2510,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -443,7 +462,18 @@
       "price": 5951.0,
       "title": "Super Early Bird - Violoop Duo Pack",
       "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 255,
+      "backers": 264,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11415618,
+      "price": 56432.0,
+      "title": "Super Early Bird - Violoop Team Pack",
+      "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 38,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -451,13 +481,13 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-09-21",
-    "tiersCarried": "2026-09-21",
+    "tiersDate": "2026-09-22",
+    "tiersCarried": "",
     "cues": [
      [
       0.02,
       2.71,
-      "每天我们都会经历十几个"
+      "每天我们都要穿过十几个"
      ],
      [
       2.71,
@@ -472,22 +502,22 @@
      [
       8.02,
       10.77,
-      "但这些工具中有多少是真正"
+      "但是这些工具中到底有多少是真正"
      ],
      [
       10.77,
       12.02,
-      "理解你吗？"
+      "明白了吗？"
      ],
      [
       12.02,
       15.02,
-      "早上好！准备好接受董事会审查了吗？"
+      "早上好！准备好进行董事会审核了吗？"
      ],
      [
       15.02,
       19.12,
-      "Violoupe 是您本地的 AI 代理，旨在"
+      "Violoupe是您当地的人工智能代理，专为"
      ],
      [
       19.12,
@@ -497,22 +527,22 @@
      [
       20.02,
       24.02,
-      "因此，在您提出要求之前，您的工作就已准备就绪。"
+      "因此，在您提出要求之前，您的工作已经准备就绪。"
      ],
      [
       24.02,
       26.02,
-      "Violoupe 与您协同行动，"
+      "Violoupe与您协同行动，"
      ],
      [
       26.02,
       28.02,
-      "在后台安静地学习。"
+      "在后台静静地学习。"
      ],
      [
       28.02,
       31.64,
-      "我发现了一个类似的任务。我要完成吗"
+      "我找到了类似的任务，是否要完成"
      ],
      [
       31.64,
@@ -522,7 +552,7 @@
      [
       34.26,
       37.28,
-      "Violoupe 找到您的流程并执行"
+      "Violoupe找到您的流程并执行"
      ],
      [
       37.28,
@@ -532,12 +562,12 @@
      [
       38.26,
       41.26,
-      "批次准备就绪，下一步正在排队。"
+      "批量准备，后续步骤排列齐全。"
      ],
      [
       41.26,
       44.19,
-      "它运行您的店面、您的内容以及"
+      "它运行您的店面、您的内容和"
      ],
      [
       44.19,
@@ -552,7 +582,7 @@
      [
       47.26,
       49.98,
-      "从产品到内容到库存"
+      "从产品到内容再到库存再到"
      ],
      [
       49.98,
@@ -562,7 +592,7 @@
      [
       52.56,
       53.26,
-      "连接。"
+      "已连接"
      ],
      [
       53.26,
@@ -572,12 +602,12 @@
      [
       55.98,
       58.49,
-      "你的任务，人工智能会自己建模"
+      "您的任务，人工智能将自行建模"
      ],
      [
       58.49,
       59.26,
-      "你周围。"
+      "附近的"
      ],
      [
       59.26,
@@ -587,32 +617,32 @@
      [
       64.38,
       66.18,
-      "永远不会离开。"
+      "这副表情不会消失了。"
      ],
      [
       66.18,
       76.04,
-      "你的环境改变了，工作也改变了"
+      "您的环境变化，工作"
      ],
      [
       76.04,
       78.94,
-      "继续。"
+      "下一代的事业依然在继续。"
      ],
      [
       78.94,
       91.57,
-      "最好的系统学习如何工作"
+      "最好的系统学习如何像"
      ],
      [
       91.57,
       92.86,
-      "你。"
+      "你"
      ],
      [
       92.86,
       96.35,
-      "当一切都一致时，你的想法，"
+      "当一切都协调一致时，你的想法，"
      ],
      [
       96.35,
@@ -658,11 +688,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 5793410.0,
-    "usdPledged": "738456.8897818",
+    "pledged": 5842340.0,
+    "usdPledged": "744693.7512532",
     "goalUsd": 1274.65,
-    "percentFunded": 57934.1,
-    "backers": 6892,
+    "percentFunded": 58423.4,
+    "backers": 6935,
     "deadline": 1790348402,
     "launchedAt": 1786460402,
     "staffPick": true,
@@ -670,10 +700,10 @@
      "Technology 热门"
     ],
     "kwHits": [],
-    "score": 0.6648,
+    "score": 0.6651,
     "coverRemote": "https://i.kickstarter.com/assets/054/736/801/501f1fa193081b32230d1e93771e623f_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1786536460&width=1024&sig=KAcw2SLQN%2B97QDCpQ6T5b0TukXh6XO27gXrQstSsvVM%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790050518-91NhCKHm5%2FL3ViwQf6mv7qMTav0%2BLY0mmPv5xOMw3gE%3D/projects/5358823/video-1450451-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790050518-91NhCKHm5%2FL3ViwQf6mv7qMTav0%2BLY0mmPv5xOMw3gE%3D/projects/5358823/video-1450451-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11354153,
@@ -691,7 +721,7 @@
       "price": 391.0,
       "title": "KS Special | TICKEY",
       "desc": "$49.9\\n\\n⭐️ 1x TICKEY\\n⭐️ 17% off MSRP\\n⭐️ Taxes are not included\\n⭐️ Global shipping: cost varies by destination",
-      "backers": 2724,
+      "backers": 2801,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -702,7 +732,7 @@
       "price": 705.0,
       "title": "Standard Duo Pack | TICKEY",
       "desc": "$89.9\\n\\n⭐️ 2x TICKEY\\n⭐️ 25% off MSRP\\n⭐️ Taxes are not included\\n⭐️ Global shipping: cost varies by destination",
-      "backers": 1951,
+      "backers": 2004,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -710,8 +740,8 @@
      }
     ],
     "rewardsTotal": 20,
-    "tiersDate": "2026-09-21",
-    "tiersCarried": "2026-09-21",
+    "tiersDate": "2026-09-22",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
@@ -746,11 +776,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 802723.0,
-    "usdPledged": "802723.0",
+    "pledged": 803531.0,
+    "usdPledged": "803531.0",
     "goalUsd": 20000.0,
-    "percentFunded": 4013.6150000000002,
-    "backers": 784,
+    "percentFunded": 4017.6549999999997,
+    "backers": 785,
     "deadline": 1794067204,
     "launchedAt": 1788879604,
     "staffPick": true,
@@ -762,8 +792,8 @@
     ],
     "score": 0.6591,
     "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790070616-IMy%2FnoNrTh60NzuH92MacaBL4owBpM0%2BTEFJE0xIcSI%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790070616-IMy%2FnoNrTh60NzuH92MacaBL4owBpM0%2BTEFJE0xIcSI%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11398822,
@@ -781,7 +811,7 @@
       "price": 799.0,
       "title": "BirdieSense - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 716,
+      "backers": 724,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -800,118 +830,118 @@
      }
     ],
     "rewardsTotal": 7,
-    "tiersDate": "2026-09-21",
-    "tiersCarried": "2026-09-21",
+    "tiersDate": "2026-09-22",
+    "tiersCarried": "",
     "cues": [
      [
       1.55,
       3.55,
-      "介绍小鸟意识。"
+      "隆重推出Birdie Sense。"
      ],
      [
       3.55,
       6.55,
-      "Gulse 第一个人工智能伴侣。"
+      "Gulse第一个人工智能伙伴。"
      ],
      [
       6.55,
       9.43,
-      "时尚紧凑的设计，方便携带"
+      "时尚紧凑的设计，专为"
      ],
      [
       9.43,
       11.55,
-      "无论游戏带您到哪里。"
+      "无论游戏带你去哪里。"
      ],
      [
       11.55,
       14.58,
-      "提升您的实践以重新定义"
+      "提升你的实践，重新定义"
      ],
      [
       14.58,
       16.55,
-      "你的游戏的边界。"
+      "游戏的界限。"
      ],
      [
       16.55,
       19.78,
-      "采用双摄像头镜头和我们的"
+      "采用双摄像头镜头设计，"
      ],
      [
       19.78,
       21.55,
-      "签名人工智能处理器。"
+      "签名AI处理器。"
      ],
      [
       21.55,
       25.55,
-      "将每次挥杆动作转化为可追踪的数据。"
+      "将每个摇摆变成您可以跟踪的数据。"
      ],
      [
       25.55,
       34.94,
-      "仍然向后靠。"
+      "依旧向后靠。"
      ],
      [
       34.94,
       36.94,
-      "让我们继续您的换乘之路吧。"
+      "让我们沿途步行接送。"
      ],
      [
       36.94,
       47.17,
-      "就在那里。"
+      "就 像 這樣 。"
      ],
      [
       47.17,
       50.3,
-      "如果你希望我严格并且"
+      "如果您希望我严格"
      ],
      [
       50.3,
       52.96,
-      "严谨，我也能做到。"
+      "严格，我也能做到。"
      ],
      [
       52.96,
       55.53,
-      "不仅仅是为了驾驶而打造"
+      "不仅仅是为了驾驶而设计的"
      ],
      [
       55.53,
       55.96,
-      "范围。"
+      "区间。"
      ],
      [
       55.96,
       58.38,
-      "从果岭的微妙断裂到"
+      "从绿色的微妙突破到"
      ],
      [
       58.38,
       59.96,
-      "沙坑线困难。"
+      "碉堡的难度线。"
      ],
      [
       59.96,
       62.78,
-      "实时指导帮助您达到目标"
+      "实时指导可帮助您到达"
      ],
      [
       62.78,
       65.6,
-      "充分发挥潜力并掌控你的"
+      "充分发挥潜力并掌控您的"
      ],
      [
       65.6,
       65.96,
-      "游戏。"
+      "牌局"
      ],
      [
       65.96,
       68.96,
-      "距旗帜 56 码。"
+      "距离旗帜56码。"
      ],
      [
       68.96,
@@ -926,27 +956,27 @@
      [
       72.96,
       82.8,
-      "如果我们计划的话。"
+      "如果我们有计划的话。"
      ],
      [
       82.8,
       84.8,
-      "今天第一只小鸟。"
+      "今天的第一只小鸟。"
      ],
      [
       84.8,
       87.69,
-      "小鸟不仅仅是一位精英数字教练"
+      "不仅仅是精英数字教练，小鸟"
      ],
      [
       87.69,
       90.44,
-      "感觉是你的智能声音"
+      "感官是你的智能声音"
      ],
      [
       90.44,
       90.8,
-      "边。"
+      "然后在这边消失。"
      ],
      [
       90.8,
@@ -961,17 +991,17 @@
      [
       94.8,
       96.97,
-      "毕竟不能忘记提高准确性"
+      "毕竟，别忘了提高准确性"
      ],
      [
       96.97,
       97.8,
-      "那速度工作。"
+      "那种速度是有效的。"
      ],
      [
       97.8,
       104.24,
-      "您的进步的完整历史记录"
+      "您进度的完整历史记录"
      ],
      [
       104.24,
@@ -981,27 +1011,27 @@
      [
       109.58,
       112.39,
-      "击球、手套和身体指标、小鸟"
+      "射击、手套和身体指标、小鸟"
      ],
      [
       112.39,
       115.58,
-      "理智知道你的优点和缺点。"
+      "感官知道你的优点和缺点。"
      ],
      [
       115.58,
       118.27,
-      "游戏化体验让高尔夫变得更有趣"
+      "游戏化体验让高尔夫更有趣"
      ],
      [
       118.27,
       119.58,
-      "比现在已经是这样了。"
+      "比已经存在的要多。"
      ],
      [
       119.58,
       123.27,
-      "通过将您的挥杆视频与球相结合"
+      "通过将您的秋千视频与球整合"
      ],
      [
       123.27,
@@ -1011,37 +1041,37 @@
      [
       125.38,
       128.38,
-      "你的练习将会变得更加有效。"
+      "您的练习将变得更有效。"
      ],
      [
       128.38,
       150.64,
-      "无需繁琐的编辑。"
+      "无需进行繁琐的编辑。"
      ],
      [
       150.64,
       153.44,
-      "我们的系统打造您的个人亮点"
+      "我们的系统会创建您的个人亮点"
      ],
      [
       153.44,
       156.17,
-      "卷轴，捕捉您最美好的瞬间"
+      "卷轴，捕捉您的最佳时刻"
      ],
      [
       156.17,
       156.64,
-      "课程。"
+      "加固"
      ],
      [
       156.64,
       162.7,
-      "我们是小鸟的感觉。"
+      "我们是小鸟般的感觉。"
      ],
      [
       162.7,
       165.7,
-      "看看你的进步。达到你的巅峰。"
+      "查看您的进度。达到您的巅峰。"
      ]
     ],
     "vttLang": "zh",
@@ -1089,11 +1119,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 125004.0,
-    "usdPledged": "15946.42026912",
+    "pledged": 123013.0,
+    "usdPledged": "15692.43381464",
     "goalUsd": 1275.67,
-    "percentFunded": 1250.0400000000002,
-    "backers": 130,
+    "percentFunded": 1230.1299999999999,
+    "backers": 129,
     "deadline": 1791813616,
     "launchedAt": 1788357616,
     "staffPick": false,
@@ -1105,10 +1135,10 @@
      "automate",
      "camera"
     ],
-    "score": 0.6299,
+    "score": 0.6295,
     "coverRemote": "https://i.kickstarter.com/assets/054/975/488/d2c4cd9519d56305cc726640718dfc4c_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788354487&width=1024&sig=WoGvrEKVzqKacnYNCd0AoL9SC6iosXIdV%2Bx8M%2B3f6dc%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790062090-N%2BvVNOPVOqx%2BJCMC%2FTHxa%2BG0RYhR8W5VGwqiYLwrQFc%3D/projects/5325235/video-1436329-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790062090-N%2BvVNOPVOqx%2BJCMC%2FTHxa%2BG0RYhR8W5VGwqiYLwrQFc%3D/projects/5325235/video-1436329-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11168629,
@@ -1137,7 +1167,7 @@
       "price": 1560.0,
       "title": "$199 Duo Pack (2×) — Best Value",
       "desc": "2× FernSnap AI Plant Time-Lapse Camera\\nMonitor two plants or two growth environments simultaneously\\nPerfect for comparison setups (growth stages, plant types)\\nIdeal for shelves, balconies, or dual plant corners\\nIncludes 2× USB-C Cables + 2× Guides\\n\\n👉 Best value per device for multi-plant users.",
-      "backers": 11,
+      "backers": 10,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1145,33 +1175,33 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-09-21",
-    "tiersCarried": "2026-09-21",
+    "tiersDate": "2026-09-22",
+    "tiersCarried": "",
     "cues": [
      [
       1.62,
       4.6,
-      "你观察并等待希望能抓住它"
+      "你观看并等待，希望能抓住它"
      ],
      [
       4.6,
       7.8,
-      "完美的转瞬即逝的瞬间你的植物终于"
+      "完美的转瞬即逝，您的工厂终于"
      ],
      [
       7.8,
       8.26,
-      "开花"
+      "坯件"
      ],
      [
       8.74,
       11.22,
-      "但你一眨眼就错过了"
+      "但是你眨了眨眼睛，你错过了它"
      ],
      [
       11.62,
       19.39,
-      "Fern 捕捉人工智能驱动的即时自然"
+      "蕨类植物捕捉人工智能驱动的即时自然"
      ],
      [
       19.39,
@@ -1181,17 +1211,17 @@
      [
       22.9,
       24.9,
-      "只需打开电源即可"
+      "只需打开电源，即可使用"
      ],
      [
       25.42,
       30.74,
-      "扫描一次即可立即识别您的"
+      "一次扫描它会立即识别您的"
      ],
      [
       30.74,
       36.49,
-      "将转盘设置为完美的拍摄模式"
+      "完美拍摄模式下的植物表盘"
      ],
      [
       36.49,
@@ -1201,7 +1231,7 @@
      [
       39.58,
       42.3,
-      "五种模式旨在捕捉每一个"
+      "五种模式旨在捕捉"
      ],
      [
       42.3,
@@ -1211,32 +1241,32 @@
      [
       47.23,
       49.23,
-      "捕捉日夜绽放"
+      "捕捉白天和黑夜的绽放"
      ],
      [
       50.67,
       53.07,
-      "您的应用程序会在重要的时候轻轻地推动您"
+      "在重要时刻，应用会轻轻推动您"
      ],
      [
       54.35,
       56.4,
-      "捕捉马厩里的每一刻"
+      "在稳定的环境中捕捉每一刻"
      ],
      [
       56.4,
       58.96,
-      "恒定光线下无闪烁质量"
+      "恒定光线下的无闪烁质量"
      ],
      [
       58.96,
       60.43,
-      "以及固定的学习角度"
+      "和固定的研究角度"
      ],
      [
       65.89,
       67.89,
-      "自动生成完美视频"
+      "自动生成完美无瑕的视频"
      ],
      [
       68.77,
@@ -1246,12 +1276,12 @@
      [
       72.84,
       75.11,
-      "准备好与世界分享的那一刻"
+      "准备好与世界分享这一刻"
      ],
      [
       75.11,
       75.68,
-      "它发生了"
+      "案子还是会发生。"
      ],
      [
       81.07,
@@ -1266,22 +1296,22 @@
      [
       87.41,
       90.36,
-      "弗恩捕捉每一个神奇的时刻"
+      "蕨类植物永远不会捕捉每一个神奇的时刻"
      ],
      [
       90.36,
       90.85,
-      "错过了"
+      "差到了"
      ],
      [
       90.85,
       93.65,
-      "如果你喜欢我，请先点开"
+      "如果您喜欢我，请先打开"
      ],
      [
       93.65,
       94.61,
-      "众筹"
+      "Kickstarter"
      ]
     ],
     "vttLang": "zh",
