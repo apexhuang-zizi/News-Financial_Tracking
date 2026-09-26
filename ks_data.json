@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-09-26",
-  "generatedAt": "2026-09-26T12:46:07+07:00",
+  "generatedAt": "2026-09-26T19:30:44+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 41,
+  "poolSize": 40,
   "projects": [
    {
     "id": 604978070,
@@ -89,307 +89,302 @@
      ],
      [
       5.12,
-      6.92,
+      6.96,
       "查找文件似乎不可能。"
      ],
      [
-      6.92,
-      7.92,
+      6.96,
+      7.96,
       "呃啊~"
      ],
      [
-      7.92,
-      9.08,
+      7.96,
+      8.96,
       "呃啊~"
      ],
      [
-      9.08,
-      13.36,
+      10.16,
+      13.2,
       "你需要一个聪明人，而不是这种聪明人。"
      ],
      [
-      13.36,
-      15.76,
+      13.2,
+      15.68,
       "您需要一个聪明时尚的助手。"
      ],
      [
-      15.76,
-      17.04,
+      15.68,
+      16.96,
       "等一下，等一下。"
      ],
      [
-      17.04,
-      19.52,
+      16.96,
+      19.44,
       "看起来不错，但很有用。"
      ],
      [
-      19.52,
-      23.31,
+      19.44,
+      23.23,
       "相信我，它比"
      ],
      [
-      23.31,
-      24.24,
+      23.23,
+      24.16,
       "别以为你用些"
      ],
      [
-      24.24,
-      27.24,
+      24.16,
+      26.84,
       "它可以容纳几代家庭成员。"
      ],
      [
-      27.24,
-      29.76,
+      26.84,
+      29.8,
       "支持8TB M2固态硬盘。"
      ],
      [
-      29.76,
-      32.3,
+      29.8,
+      32.28,
       "4槽设计，支持多达32个"
      ],
      [
-      32.3,
-      34.91,
-      "每驱动器兆兆字节，为您提供高达136"
+      32.28,
+      33.52,
+      "每驱动器TB ，"
      ],
      [
-      34.91,
-      35.48,
-      "TByte"
+      33.52,
+      38.12,
+      "为您提供高达136 TB的总容量"
      ],
      [
-      35.48,
-      39.1,
-      "占总存储空间的百分比。"
+      38.12,
+      39.06,
+      "储藏"
      ],
      [
-      39.1,
-      41.17,
+      39.06,
+      40.93,
       "查找文件的问题可能是"
      ],
      [
-      41.17,
-      41.54,
+      40.93,
+      41.26,
       "解决了的"
      ],
      [
-      41.54,
-      44.11,
+      41.26,
+      43.93,
       "严肃地说，只需键入一个关键字，"
      ],
      [
-      44.11,
-      45.46,
+      43.93,
+      45.34,
       "人或场景。"
      ],
      [
-      45.46,
-      47.41,
+      45.34,
+      47.06,
       "借助人工智能驱动的全球搜索，"
      ],
      [
-      47.41,
-      49.47,
-      "即刻找到你真正的样子"
+      47.06,
+      49.37,
+      "它会立即找到你真正的样子"
      ],
      [
-      49.47,
-      50.18,
+      49.37,
+      50.1,
       "寻找"
      ],
      [
-      50.18,
-      51.18,
+      50.1,
+      51.1,
       "这还不是全部。"
      ],
      [
-      51.18,
-      53.62,
+      51.1,
+      53.5,
       "它提供极快的传输速度。"
      ],
      [
-      53.62,
-      55.71,
+      53.5,
+      55.74,
       "这些双2.5千兆以太网端口"
      ],
      [
-      55.71,
-      57.14,
-      "绝对不是来玩的。"
+      55.74,
+      56.5,
+      "才不"
      ],
      [
-      57.14,
-      58.14,
+      56.5,
+      57.1,
+      "在这里玩。"
+     ],
+     [
+      57.1,
+      57.86,
       "唔"
      ],
      [
-      58.14,
-      60.14,
+      57.86,
+      60.06,
       "太快了！"
      ],
      [
-      60.14,
-      62.59,
+      60.06,
+      62.93,
       "它还支持本地4K超高清视频"
      ],
      [
-      62.59,
-      65.04,
-      "播放，带来清晰的视觉效果"
+      62.93,
+      63.58,
+      "播放"
      ],
      [
-      65.04,
-      65.78,
-      "光滑，"
+      63.58,
+      70.21,
+      "带来清晰的视觉效果，"
      ],
      [
-      65.78,
-      75.74,
-      "无滞后的性能。"
+      70.21,
+      75.7,
+      "光滑、无延迟的性能。"
      ],
      [
-      75.74,
-      78.66,
+      75.7,
+      78.62,
       "你捕捉了无数珍贵的时刻。"
      ],
      [
-      78.66,
-      80.99,
+      78.62,
+      81.3,
       "D400 AI智能相册自动"
      ],
      [
-      80.99,
-      83.19,
+      81.3,
+      83.36,
       "整理您杂乱的照片库，"
      ],
      [
-      83.19,
-      84.7,
+      83.36,
+      84.78,
       "排序和分类"
      ],
      [
-      84.7,
+      84.78,
       87.54,
       "回忆它们被创造出来的那一刻。"
      ],
      [
       87.54,
-      89.87,
+      89.9,
       "由双处理器驱动，人工智能计算"
      ],
      [
-      89.87,
-      92.26,
+      89.9,
+      94.79,
       "发生在本地更快，更智能，以及更多"
      ],
      [
-      92.26,
-      92.78,
-      "高效过"
+      94.79,
+      95.98,
+      "完成。"
      ],
      [
-      92.78,
-      95.86,
-      "而受到限制。"
+      95.98,
+      96.62,
+      "伙计们"
      ],
      [
-      95.86,
-      98.16,
-      "嘿，伙计们，我们有一个有趣的"
+      96.62,
+      98.66,
+      "我们有一个有趣的项目。"
      ],
      [
-      98.16,
-      98.7,
-      "这是一个正在进行的项目。"
+      98.66,
+      101.1,
+      "需要合作？"
      ],
      [
-      98.7,
-      100.7,
-      "我们需要合作。"
-     ],
-     [
-      100.7,
-      104.52,
+      101.1,
+      104.75,
       "现在，让我将文件上传到俱乐部"
      ],
      [
-      104.52,
-      105.7,
-      "了一会"
+      104.75,
+      105.5,
+      "。"
      ],
      [
-      105.7,
-      107.37,
+      105.5,
+      107.33,
       "创建具有详细内容的共享文件夹"
      ],
      [
-      107.37,
-      109.38,
-      "权限控制，保持您的团队合作"
+      107.33,
+      108.38,
+      "权限控制，"
      ],
      [
-      109.38,
-      109.86,
-      "安全和"
+      108.38,
+      112.14,
+      "确保您的团队合作安全无缝。"
      ],
      [
-      109.86,
-      110.86,
-      "无缝衔接。"
-     ],
-     [
-      110.86,
-      113.74,
+      112.14,
+      113.62,
       "有复杂的文件？"
      ],
      [
-      113.74,
-      116.3,
+      113.62,
+      116.34,
       "此文档包含太多内容。"
      ],
      [
-      116.3,
-      124.78,
+      116.34,
+      124.71,
       "AI即时总结，提取"
      ],
      [
-      124.78,
-      129.22,
+      124.71,
+      129.1,
       "关键点（以秒为单位）。"
      ],
      [
-      129.22,
-      131.1,
+      129.1,
+      131.22,
       "借助本地存储，您的数据始终安全无虞"
      ],
      [
-      131.1,
-      131.66,
+      131.22,
+      131.86,
       "和私人空间。"
      ],
      [
-      131.66,
-      135.5,
+      131.86,
+      135.38,
       "它可以安全地锁定一切。"
      ],
      [
-      135.5,
-      139.26,
-      "PlayStation PCDA 400桌面AI NAS。"
+      135.38,
+      139.1,
+      "PCDA400台式AI NAS站。"
      ],
      [
-      139.26,
-      142.1,
+      139.1,
+      141.94,
       "不仅仅是NAS ，还有本地AI系统。"
      ],
      [
-      142.1,
-      143.46,
+      141.94,
+      143.3,
       "让搜索更智能。"
      ],
      [
-      143.46,
-      145.34,
+      143.3,
+      146.58,
       "让效率回归本质。"
      ]
     ],
@@ -430,11 +425,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 80000.0,
-    "pledged": 3959066.0,
-    "usdPledged": "504644.96067356",
+    "pledged": 4098431.0,
+    "usdPledged": "522409.21237946",
     "goalUsd": 10197.25,
-    "percentFunded": 4948.8325,
-    "backers": 290,
+    "percentFunded": 5123.03875,
+    "backers": 296,
     "deadline": 1795269636,
     "launchedAt": 1790082036,
     "staffPick": true,
@@ -447,19 +442,19 @@
      "gesture",
      "voice"
     ],
-    "score": 0.7445,
+    "score": 0.7405,
     "coverRemote": "https://i.kickstarter.com/assets/055/222/776/73e4d72cd123faa7f49d20a9a4af3243_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790081997&width=1024&sig=s41fC5xtZvfxHA5kRk39fhtUdbmGCTLPB5ETJRngDKA%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790390739-ySGEkzSziThLx4cqlgpN5tuc5h%2Fjbm2YdJ2AI%2BRLT9Q%3D/projects/5262668/video-1461200-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790390739-ySGEkzSziThLx4cqlgpN5tuc5h%2Fjbm2YdJ2AI%2BRLT9Q%3D/projects/5262668/video-1461200-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11429771,
       "price": 8616.0,
       "title": "Founding Backer Special Price",
       "desc": "🌟 Founding Backer Special — US$1,099\\nSave US$1,400 · 56% off the US$2,499 retail price\\n\\nOur best-ever price, reserved exclusively for CyboPal’s earliest supporters.\\n\\nBring home CyboPal ONE—the Desktop Robotic Terminal that moves with you and brings voice, gesture, and AI-assisted interaction to your computer.\\n\\n📦 Includes one complete CyboPal ONE package:\\nCyboPal ONE, Standard C-Clamp Mount, USB-C Cable, Power Adapter, and Quick Start Guide.\\n\\n🔒 Available only to eligible early supporters through a private link.\\n🚚 Shipping, import duties, and applicable taxes are included for eligible",
-      "backers": 34,
+      "backers": 35,
       "limit": 500,
-      "remaining": 466,
+      "remaining": 465,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -468,9 +463,9 @@
       "price": 11517.0,
       "title": "VIP Special Price",
       "desc": "💎 Exclusive VIP Price — US$1,499\\nUS$30 deposit already paid · US$1,469 due now\\nSave US$1,000 · 40% off the US$2,499 retail price\\n\\nYour US$30 deposit counts toward the US$1,499 VIP price, so you only need to pledge the remaining US$1,469 through this private reward.\\n\\nBring home CyboPal ONE—the Desktop Robotic Terminal that moves with you and brings voice, gesture, and AI-assisted interaction to your computer.\\n\\n📦 Includes one complete CyboPal ONE package:\\nCyboPal ONE, Standard C-Clamp Mount, USB-C Cable, Power Adapter, and Quick Start Guide.\\n\\n🔒 Available exclusively to eligible deposi",
-      "backers": 101,
+      "backers": 104,
       "limit": 1100,
-      "remaining": 999,
+      "remaining": 996,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -479,16 +474,16 @@
       "price": 12536.0,
       "title": "Super Early Bird Price — First 300 Units",
       "desc": "🔥 Super Early Bird Price — US$1,599\\nSave US$900 · 36% off the US$2,499 retail price\\n\\nBring home CyboPal ONE—the Desktop Robotic Terminal that moves with you and brings voice, gesture, and AI-assisted interaction to your computer.\\n\\n📦 Includes one complete CyboPal ONE package:\\nCyboPal ONE, Standard C-Clamp Mount, USB-C Cable, Power Adapter, and Quick Start Guide.\\n\\n⚡ Limited to the first 300 rewards!\\n🚚 Shipping included within the contiguous United States.\\n🌎 US$50 shipping per unit to other supported destinations. Import duties and applicable taxes are covered by CyboPal.\\n📅 Estimated d",
-      "backers": 116,
+      "backers": 121,
       "limit": 300,
-      "remaining": 184,
+      "remaining": 179,
       "eta": 1796083200,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 22,
-    "tiersDate": "2026-09-25",
-    "tiersCarried": "2026-09-25",
+    "tiersDate": "2026-09-26",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -527,11 +522,11 @@
      ],
      [
       16.76,
-      19.33,
-      "我们让自己适应电脑"
+      19.0,
+      "我们让自己适应电脑，"
      ],
      [
-      19.33,
+      19.0,
       22.2,
       "而不是让电脑适应我们。"
      ],
@@ -543,7 +538,7 @@
      [
       27.66,
       30.7,
-      "因此，我们构建了Sebblepile 1。"
+      "因此，我们构建了Sebblepell 1。"
      ],
      [
       30.7,
@@ -563,25 +558,25 @@
      [
       37.14,
       40.98,
-      "Sebblepile带着屏幕迎接您。"
+      "Sebblepell带着屏幕迎接您。"
      ],
      [
       40.98,
-      43.8,
+      43.77,
       "无论您是坐直，向后倾斜还是"
      ],
      [
-      43.8,
-      44.94,
+      43.77,
+      44.9,
       "移动侧面，"
      ],
      [
-      44.94,
-      48.36,
+      44.9,
+      48.34,
       "帮助您在整个过程中保持舒适，"
      ],
      [
-      48.36,
+      48.34,
       49.9,
       "八小时工作日。"
      ],
@@ -633,7 +628,7 @@
      [
       71.54,
       74.02,
-      "当Sebblepile开始和你一起移动时，"
+      "当Sebblepell开始和你一起行动时，"
      ],
      [
       74.02,
@@ -642,33 +637,33 @@
      ],
      [
       76.3,
-      78.87,
+      78.89,
       "为什么要与技术互动"
      ],
      [
-      78.87,
-      80.22,
+      78.89,
+      80.26,
       "还有同样的感受吗？"
      ],
      [
-      80.22,
-      83.5,
+      80.26,
+      83.54,
       "随着人工智能成为我们更多工作的一部分，"
      ],
      [
-      83.5,
-      85.88,
-      "我们与这项技术互动的方式"
+      83.54,
+      86.2,
+      "我们与技术互动的方式应该"
      ],
      [
-      85.88,
+      86.2,
       87.78,
-      "对你来说应该感觉更自然。"
+      "对你来说感觉更自然。"
      ],
      [
       87.78,
       92.17,
-      "静止手指， Sebblepile转动。"
+      "静止手指， Sebblepell转动。"
      ],
      [
       92.17,
@@ -682,16 +677,16 @@
      ],
      [
       96.93,
-      99.9,
+      99.86,
       "手势，当它更快时，速度是"
      ],
      [
-      99.9,
-      100.49,
+      99.86,
+      100.45,
       "更容易"
      ],
      [
-      100.49,
+      100.45,
       103.17,
       "无需处理手册，无需打破"
      ],
@@ -703,7 +698,7 @@
      [
       103.81,
       106.85,
-      "Sebblepile与技术的互动"
+      "Sebblepell与技术的互动"
      ],
      [
       106.85,
@@ -718,7 +713,7 @@
      [
       113.65,
       115.55,
-      "到目前为止，您已经看到了Sebblepile"
+      "到目前为止，您已经看到了Sebblepell"
      ],
      [
       115.55,
@@ -732,108 +727,113 @@
      ],
      [
       118.81,
-      120.96,
+      120.92,
       "但我们想了解一些"
      ],
      [
-      120.96,
-      121.25,
+      120.92,
+      121.21,
       "更多"
      ],
      [
-      121.25,
-      123.57,
+      121.21,
+      123.53,
       "你真正想要实现的目标。"
      ],
      [
-      123.57,
-      126.49,
+      123.53,
+      125.53,
       "这就是Fully发挥作用的地方。"
      ],
      [
-      126.49,
-      127.85,
+      126.41,
+      127.77,
       "当你专注的时候，"
      ],
      [
-      127.85,
+      127.77,
       130.73,
-      "Sebblepile不会挡道。"
+      "Sebblepell不会碍事。"
      ],
      [
       130.73,
-      134.13,
+      134.09,
       "到了放松的时候，它可以加入进来。"
      ],
      [
-      134.13,
-      135.61,
+      134.09,
+      135.53,
       "需要消息方面的帮助吗？"
      ],
      [
-      135.61,
-      138.19,
-      "Holly ，了解背景并帮助您"
+      135.53,
+      137.37,
+      "Holly ，了解上下文"
      ],
      [
-      138.19,
+      137.37,
       139.05,
-      "说得更好。"
+      "并帮助您更好地表达。"
      ],
      [
       139.05,
-      142.89,
+      142.24,
       "嘿，普利，你能不能把我的"
      ],
      [
-      142.89,
-      145.01,
+      142.24,
+      144.01,
       "用适当的语气说话？"
      ],
      [
-      145.01,
-      147.13,
+      144.97,
+      147.05,
       "当工作变得复杂时，"
      ],
      [
       147.13,
-      149.29,
+      149.21,
       "只要告诉它你想要的结果。"
      ],
      [
-      149.29,
-      153.53,
-      "Holly ，现在给我总结一下，然后"
+      149.21,
+      151.79,
+      "Pully ，现在给我总结一下，然后"
      ],
      [
-      153.53,
-      155.33,
+      151.79,
+      152.89,
       "起草提案。"
      ],
      [
-      155.33,
-      158.45,
-      "Sebblepile可以将作业分解为任务。"
+      155.29,
+      158.41,
+      "Sebblepell可以将工作分解为任务。"
      ],
      [
-      158.45,
+      158.41,
       161.53,
-      "将多种试剂引入工作流程"
+      "将多个AI代理引入工作流程"
      ],
      [
       161.53,
-      167.94,
+      167.9,
       "并将结果带回给您。"
      ],
      [
-      167.94,
-      171.02,
-      "掌控一切，只需一个手势，"
+      167.9,
+      169.9,
+      "保持控制。"
      ],
      [
-      171.02,
-      174.46,
-      "下一步继续前进。"
+      169.9,
+      172.18,
+      "一个手势，下一步移动"
+     ],
+     [
+      172.18,
+      172.7,
+      "向前"
      ],
      [
       174.46,
@@ -842,28 +842,33 @@
      ],
      [
       176.14,
-      186.04,
-      "好吧， Sebblepile知道如何玩得开心"
+      186.18,
+      "好吧， Sebblepell知道如何玩得开心"
      ],
      [
-      186.04,
-      187.08,
+      186.18,
+      187.24,
       "也"
      ],
      [
-      187.08,
-      190.4,
-      "停止操作。开始交互。"
+      187.24,
+      188.6,
+      "关闭运作状态"
      ],
      [
-      190.4,
-      192.0,
-      "Sebblepile."
+      188.6,
+      190.04,
+      "开始互动"
      ],
      [
-      192.0,
-      194.84,
-      "打造您的电脑和生活。"
+      190.36,
+      194.19,
+      "Sebblepell让您的电脑发挥作用，"
+     ],
+     [
+      194.19,
+      194.68,
+      "生命"
      ]
     ],
     "vttLang": "zh",
@@ -943,11 +948,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 78424.0,
-    "pledged": 14068079.0,
-    "usdPledged": "1793727.48192623",
+    "pledged": 14129635.0,
+    "usdPledged": "1801576.07936995",
     "goalUsd": 9999.32,
-    "percentFunded": 17938.486942772623,
-    "backers": 3271,
+    "percentFunded": 18016.97822095277,
+    "backers": 3288,
     "deadline": 1793376023,
     "launchedAt": 1789488023,
     "staffPick": true,
@@ -959,17 +964,17 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7012,
+    "score": 0.7014,
     "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790423128-LEQ%2B%2BgcDk8UC4AngZYt7bV%2FHEa%2Fg785cmRk9IEW7pzc%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790423128-LEQ%2B%2BgcDk8UC4AngZYt7bV%2FHEa%2Fg785cmRk9IEW7pzc%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11254735,
       "price": 3128.0,
       "title": "Super Early Bird - Violoop",
       "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 2728,
+      "backers": 2892,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -980,7 +985,7 @@
       "price": 5951.0,
       "title": "Super Early Bird - Violoop Duo Pack",
       "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 289,
+      "backers": 301,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -999,13 +1004,13 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-09-24",
-    "tiersCarried": "2026-09-24",
+    "tiersDate": "2026-09-26",
+    "tiersCarried": "",
     "cues": [
      [
       0.02,
       2.71,
-      "每天我们都会经历十几个"
+      "每天我们都要穿过十几个"
      ],
      [
       2.71,
@@ -1020,22 +1025,22 @@
      [
       8.02,
       10.77,
-      "但这些工具中有多少是真正"
+      "但是这些工具中到底有多少是真正"
      ],
      [
       10.77,
       12.02,
-      "理解你吗？"
+      "明白了吗？"
      ],
      [
       12.02,
       15.02,
-      "早上好！准备好接受董事会审查了吗？"
+      "早上好！准备好进行董事会审核了吗？"
      ],
      [
       15.02,
       19.12,
-      "Violoupe 是您本地的 AI 代理，旨在"
+      "Violoupe是您当地的人工智能代理，专为"
      ],
      [
       19.12,
@@ -1045,22 +1050,22 @@
      [
       20.02,
       24.02,
-      "因此，在您提出要求之前，您的工作就已准备就绪。"
+      "因此，在您提出要求之前，您的工作已经准备就绪。"
      ],
      [
       24.02,
       26.02,
-      "Violoupe 与您协同行动，"
+      "Violoupe与您协同行动，"
      ],
      [
       26.02,
       28.02,
-      "在后台安静地学习。"
+      "在后台静静地学习。"
      ],
      [
       28.02,
       31.64,
-      "我发现了一个类似的任务。我要完成吗"
+      "我找到了类似的任务，是否要完成"
      ],
      [
       31.64,
@@ -1070,7 +1075,7 @@
      [
       34.26,
       37.28,
-      "Violoupe 找到您的流程并执行"
+      "Violoupe找到您的流程并执行"
      ],
      [
       37.28,
@@ -1080,12 +1085,12 @@
      [
       38.26,
       41.26,
-      "批次准备就绪，下一步正在排队。"
+      "批量准备，后续步骤排列齐全。"
      ],
      [
       41.26,
       44.19,
-      "它运行您的店面、您的内容以及"
+      "它运行您的店面、您的内容和"
      ],
      [
       44.19,
@@ -1100,67 +1105,67 @@
      [
       47.26,
       50.44,
-      "从产品到内容到库存"
+      "从产品到内容再到库存再到"
      ],
      [
       50.44,
       51.26,
-      "客户，"
+      "顾客"
      ],
      [
       51.26,
       53.26,
-      "它使整个过程保持连接。"
+      "它使整个过程保持联系。"
      ],
      [
       53.26,
       56.36,
-      "无论您的目标、业务或"
+      "无论您的目标，您的业务或"
      ],
      [
       56.36,
       57.26,
-      "你的任务，"
+      "您的任务"
      ],
      [
       57.26,
       62.18,
-      "人工智能会围绕你进行自我建模。"
+      "人工智能将围绕您进行自我建模。"
      ],
      [
       62.18,
       64.18,
-      "它在您的设备上运行。"
+      "它可以在您的设备上运行。"
      ],
      [
       64.18,
       66.18,
-      "您的数据永远不会离开。"
+      "您的数据永远不会消失。"
      ],
      [
       66.18,
       76.04,
-      "你的环境改变了，工作也改变了"
+      "您的环境变化，工作"
      ],
      [
       76.04,
       78.94,
-      "继续。"
+      "下一代的事业依然在继续。"
      ],
      [
       78.94,
       91.57,
-      "最好的系统学习如何工作"
+      "最好的系统学习如何像"
      ],
      [
       91.57,
       92.86,
-      "你。"
+      "你"
      ],
      [
       92.86,
       95.97,
-      "当一切都一致时，你的想法，"
+      "当一切都协调一致时，你的想法，"
      ],
      [
       95.97,
@@ -1206,11 +1211,11 @@
     "currency": "AUD",
     "currencySymbol": "$",
     "goal": 100000.0,
-    "pledged": 456817.0,
-    "usdPledged": "325355.2544191",
+    "pledged": 464565.0,
+    "usdPledged": "330873.5527995",
     "goalUsd": 71222.23,
-    "percentFunded": 456.817,
-    "backers": 753,
+    "percentFunded": 464.565,
+    "backers": 764,
     "deadline": 1793476800,
     "launchedAt": 1790193605,
     "staffPick": true,
@@ -1221,10 +1226,10 @@
     "kwHits": [
      "e-ink"
     ],
-    "score": 0.6671,
+    "score": 0.6677,
     "coverRemote": "https://i.kickstarter.com/assets/055/236/824/051966b3b9ba67d32e4c5b0fd99d629c_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790163785&width=1024&sig=vWnFqNJ7LLEfv6m4ymPvJ4rEGg%2BYFNV%2BlHDG38uWNjI%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790413143-fntB%2BGL2M3YaK9FaowO08T8P%2F50A536eHTtf90kA0cc%3D/projects/5333801/video-1461492-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790413143-fntB%2BGL2M3YaK9FaowO08T8P%2F50A536eHTtf90kA0cc%3D/projects/5333801/video-1461492-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 0,
@@ -1250,8 +1255,8 @@
      }
     ],
     "rewardsTotal": 2,
-    "tiersDate": "2026-09-25",
-    "tiersCarried": "2026-09-25",
+    "tiersDate": "2026-09-26",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
@@ -1294,11 +1299,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 831542.0,
-    "usdPledged": "831542.0",
+    "pledged": 832356.0,
+    "usdPledged": "832356.0",
     "goalUsd": 20000.0,
-    "percentFunded": 4157.71,
-    "backers": 819,
+    "percentFunded": 4161.780000000001,
+    "backers": 820,
     "deadline": 1794067204,
     "launchedAt": 1788879604,
     "staffPick": true,
@@ -1308,10 +1313,10 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6605,
+    "score": 0.6606,
     "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790416366-373h%2F%2FcJ5B%2BjNV62hlX3ieoZha%2F0gY8QXWaXon3eDj8%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790416366-373h%2F%2FcJ5B%2BjNV62hlX3ieoZha%2F0gY8QXWaXon3eDj8%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11398822,
@@ -1329,7 +1334,7 @@
       "price": 799.0,
       "title": "BirdieSense - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 743,
+      "backers": 759,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -1340,7 +1345,7 @@
       "price": 1498.0,
       "title": "BirdieSense X2 - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️50% OFF $2998 MSRP (save $1500)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 30,
+      "backers": 29,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -1348,118 +1353,118 @@
      }
     ],
     "rewardsTotal": 7,
-    "tiersDate": "2026-09-24",
-    "tiersCarried": "2026-09-24",
+    "tiersDate": "2026-09-26",
+    "tiersCarried": "",
     "cues": [
      [
       1.55,
       3.55,
-      "介绍小鸟意识。"
+      "隆重推出Birdie Sense。"
      ],
      [
       3.55,
       6.55,
-      "Gulse 第一个人工智能伴侣。"
+      "Gulse第一个人工智能伙伴。"
      ],
      [
       6.55,
       9.43,
-      "时尚紧凑的设计，方便携带"
+      "时尚紧凑的设计，专为"
      ],
      [
       9.43,
       11.55,
-      "无论游戏带您到哪里。"
+      "无论游戏带你去哪里。"
      ],
      [
       11.55,
       14.58,
-      "提升您的实践以重新定义"
+      "提升你的实践，重新定义"
      ],
      [
       14.58,
       16.55,
-      "你的游戏的边界。"
+      "游戏的界限。"
      ],
      [
       16.55,
       19.78,
-      "采用双摄像头镜头和我们的"
+      "采用双摄像头镜头设计，"
      ],
      [
       19.78,
       21.55,
-      "签名人工智能处理器。"
+      "签名AI处理器。"
      ],
      [
       21.55,
       25.55,
-      "将每次挥杆动作转化为可追踪的数据。"
+      "将每个摇摆变成您可以跟踪的数据。"
      ],
      [
       25.55,
       34.94,
-      "仍然向后靠。"
+      "依旧向后靠。"
      ],
      [
       34.94,
       36.94,
-      "让我们继续您的换乘之路吧。"
+      "让我们沿途步行接送。"
      ],
      [
       36.94,
       47.17,
-      "就在那里！"
+      "小袋鼠来了！"
      ],
      [
       47.17,
       51.22,
-      "如果你希望我严格、严谨"
+      "如果您希望我严谨严谨"
      ],
      [
       51.22,
       52.96,
-      "我也能做到。"
+      "我也可以这样做呀！"
      ],
      [
       52.96,
       55.53,
-      "不仅仅是为了驾驶而打造"
+      "不仅仅是为了驾驶而设计的"
      ],
      [
       55.53,
       55.96,
-      "范围。"
+      "区间。"
      ],
      [
       55.96,
       58.38,
-      "从果岭的微妙断裂到"
+      "从绿色的微妙突破到"
      ],
      [
       58.38,
       59.96,
-      "沙坑线困难。"
+      "碉堡的难度线。"
      ],
      [
       59.96,
       62.78,
-      "实时指导帮助您达到目标"
+      "实时指导可帮助您到达"
      ],
      [
       62.78,
       65.6,
-      "充分发挥潜力并掌控你的"
+      "充分发挥潜力并掌控您的"
      ],
      [
       65.6,
       65.96,
-      "游戏。"
+      "牌局"
      ],
      [
       65.96,
       68.96,
-      "距旗帜 56 码。"
+      "距离旗帜56码。"
      ],
      [
       68.96,
@@ -1474,27 +1479,27 @@
      [
       72.96,
       82.8,
-      "如果我们计划的话。"
+      "如果我们有计划的话。"
      ],
      [
       82.8,
       84.8,
-      "今天第一只小鸟。"
+      "今天的第一只小鸟。"
      ],
      [
       84.8,
       87.69,
-      "小鸟不仅仅是一位精英数字教练"
+      "不仅仅是精英数字教练，小鸟"
      ],
      [
       87.69,
       90.44,
-      "感觉是你的智能声音"
+      "感官是你的智能声音"
      ],
      [
       90.44,
       90.8,
-      "边。"
+      "然后在这边消失。"
      ],
      [
       90.8,
@@ -1509,17 +1514,17 @@
      [
       94.8,
       96.97,
-      "毕竟不能忘记提高准确性"
+      "毕竟，别忘了提高准确性"
      ],
      [
       96.97,
       97.8,
-      "那速度工作。"
+      "那种速度是有效的。"
      ],
      [
       97.8,
       104.24,
-      "您的进步的完整历史记录"
+      "您进度的完整历史记录"
      ],
      [
       104.24,
@@ -1529,27 +1534,27 @@
      [
       109.58,
       112.39,
-      "击球、手套和身体指标、小鸟"
+      "射击、手套和身体指标、小鸟"
      ],
      [
       112.39,
       115.58,
-      "理智知道你的优点和缺点。"
+      "感官知道你的优点和缺点。"
      ],
      [
       115.58,
       118.27,
-      "游戏化体验让高尔夫变得更有趣"
+      "游戏化体验让高尔夫更有趣"
      ],
      [
       118.27,
       119.58,
-      "比现在已经是这样了。"
+      "比已经存在的要多。"
      ],
      [
       119.58,
       123.27,
-      "通过将您的挥杆视频与球相结合"
+      "通过将您的秋千视频与球整合"
      ],
      [
       123.27,
@@ -1559,37 +1564,37 @@
      [
       125.38,
       128.38,
-      "你的练习将会变得更加有效。"
+      "您的练习将变得更有效。"
      ],
      [
       128.38,
       150.64,
-      "无需繁琐的编辑。"
+      "无需进行繁琐的编辑。"
      ],
      [
       150.64,
       153.44,
-      "我们的系统打造您的个人亮点"
+      "我们的系统会创建您的个人亮点"
      ],
      [
       153.44,
       156.17,
-      "卷轴，捕捉您最美好的瞬间"
+      "卷轴，捕捉您的最佳时刻"
      ],
      [
       156.17,
       156.64,
-      "课程。"
+      "加固"
      ],
      [
       156.64,
       162.7,
-      "我们是小鸟的感觉。"
+      "我们是小鸟般的感觉。"
      ],
      [
       162.7,
       165.7,
-      "看看你的进步。达到你的巅峰。"
+      "查看您的进度。达到您的巅峰。"
      ]
     ],
     "vttLang": "zh",
