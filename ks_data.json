@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-09-29",
-  "generatedAt": "2026-09-29T13:28:26+07:00",
+  "generatedAt": "2026-09-29T19:31:08+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 35,
+  "poolSize": 41,
   "projects": [
    {
     "id": 604978070,
@@ -89,307 +89,302 @@
      ],
      [
       5.12,
-      6.92,
+      6.96,
       "查找文件似乎不可能。"
      ],
      [
-      6.92,
-      7.92,
+      6.96,
+      7.96,
       "呃啊~"
      ],
      [
-      7.92,
-      9.08,
+      7.96,
+      8.96,
       "呃啊~"
      ],
      [
-      9.08,
-      13.36,
+      10.16,
+      13.2,
       "你需要一个聪明人，而不是这种聪明人。"
      ],
      [
-      13.36,
-      15.76,
+      13.2,
+      15.68,
       "您需要一个聪明时尚的助手。"
      ],
      [
-      15.76,
-      17.04,
+      15.68,
+      16.96,
       "等一下，等一下。"
      ],
      [
-      17.04,
-      19.52,
+      16.96,
+      19.44,
       "看起来不错，但很有用。"
      ],
      [
-      19.52,
-      23.31,
+      19.44,
+      23.23,
       "相信我，它比"
      ],
      [
-      23.31,
-      24.24,
+      23.23,
+      24.16,
       "别以为你用些"
      ],
      [
-      24.24,
-      27.24,
+      24.16,
+      26.84,
       "它可以容纳几代家庭成员。"
      ],
      [
-      27.24,
-      29.76,
+      26.84,
+      29.8,
       "支持8TB M2固态硬盘。"
      ],
      [
-      29.76,
-      32.3,
+      29.8,
+      32.28,
       "4槽设计，支持多达32个"
      ],
      [
-      32.3,
-      34.91,
-      "每驱动器兆兆字节，为您提供高达136"
+      32.28,
+      33.52,
+      "每驱动器TB ，"
      ],
      [
-      34.91,
-      35.48,
-      "TByte"
+      33.52,
+      38.12,
+      "为您提供高达136 TB的总容量"
      ],
      [
-      35.48,
-      39.1,
-      "占总存储空间的百分比。"
+      38.12,
+      39.06,
+      "储藏"
      ],
      [
-      39.1,
-      41.17,
+      39.06,
+      40.93,
       "查找文件的问题可能是"
      ],
      [
-      41.17,
-      41.54,
+      40.93,
+      41.26,
       "解决了的"
      ],
      [
-      41.54,
-      44.11,
+      41.26,
+      43.93,
       "严肃地说，只需键入一个关键字，"
      ],
      [
-      44.11,
-      45.46,
+      43.93,
+      45.34,
       "人或场景。"
      ],
      [
-      45.46,
-      47.41,
+      45.34,
+      47.06,
       "借助人工智能驱动的全球搜索，"
      ],
      [
-      47.41,
-      49.47,
-      "即刻找到你真正的样子"
+      47.06,
+      49.37,
+      "它会立即找到你真正的样子"
      ],
      [
-      49.47,
-      50.18,
+      49.37,
+      50.1,
       "寻找"
      ],
      [
-      50.18,
-      51.18,
+      50.1,
+      51.1,
       "这还不是全部。"
      ],
      [
-      51.18,
-      53.62,
+      51.1,
+      53.5,
       "它提供极快的传输速度。"
      ],
      [
-      53.62,
-      55.71,
+      53.5,
+      55.74,
       "这些双2.5千兆以太网端口"
      ],
      [
-      55.71,
-      57.14,
-      "绝对不是来玩的。"
+      55.74,
+      56.5,
+      "才不"
      ],
      [
-      57.14,
-      58.14,
+      56.5,
+      57.1,
+      "在这里玩。"
+     ],
+     [
+      57.1,
+      57.86,
       "唔"
      ],
      [
-      58.14,
-      60.14,
+      57.86,
+      60.06,
       "太快了！"
      ],
      [
-      60.14,
-      62.59,
+      60.06,
+      62.93,
       "它还支持本地4K超高清视频"
      ],
      [
-      62.59,
-      65.04,
-      "播放，带来清晰的视觉效果"
+      62.93,
+      63.58,
+      "播放"
      ],
      [
-      65.04,
-      65.78,
-      "光滑，"
+      63.58,
+      70.21,
+      "带来清晰的视觉效果，"
      ],
      [
-      65.78,
-      75.74,
-      "无滞后的性能。"
+      70.21,
+      75.7,
+      "光滑、无延迟的性能。"
      ],
      [
-      75.74,
-      78.66,
+      75.7,
+      78.62,
       "你捕捉了无数珍贵的时刻。"
      ],
      [
-      78.66,
-      80.99,
+      78.62,
+      81.3,
       "D400 AI智能相册自动"
      ],
      [
-      80.99,
-      83.19,
+      81.3,
+      83.36,
       "整理您杂乱的照片库，"
      ],
      [
-      83.19,
-      84.7,
+      83.36,
+      84.78,
       "排序和分类"
      ],
      [
-      84.7,
+      84.78,
       87.54,
       "回忆它们被创造出来的那一刻。"
      ],
      [
       87.54,
-      89.87,
+      89.9,
       "由双处理器驱动，人工智能计算"
      ],
      [
-      89.87,
-      92.26,
+      89.9,
+      94.79,
       "发生在本地更快，更智能，以及更多"
      ],
      [
-      92.26,
-      92.78,
-      "高效过"
+      94.79,
+      95.98,
+      "完成。"
      ],
      [
-      92.78,
-      95.86,
-      "而受到限制。"
+      95.98,
+      96.62,
+      "伙计们"
      ],
      [
-      95.86,
-      98.16,
-      "嘿，伙计们，我们有一个有趣的"
+      96.62,
+      98.66,
+      "我们有一个有趣的项目。"
      ],
      [
-      98.16,
-      98.7,
-      "这是一个正在进行的项目。"
+      98.66,
+      101.1,
+      "需要合作？"
      ],
      [
-      98.7,
-      100.7,
-      "我们需要合作。"
-     ],
-     [
-      100.7,
-      104.52,
+      101.1,
+      104.75,
       "现在，让我将文件上传到俱乐部"
      ],
      [
-      104.52,
-      105.7,
-      "了一会"
+      104.75,
+      105.5,
+      "。"
      ],
      [
-      105.7,
-      107.37,
+      105.5,
+      107.33,
       "创建具有详细内容的共享文件夹"
      ],
      [
-      107.37,
-      109.38,
-      "权限控制，保持您的团队合作"
+      107.33,
+      108.38,
+      "权限控制，"
      ],
      [
-      109.38,
-      109.86,
-      "安全和"
+      108.38,
+      112.14,
+      "确保您的团队合作安全无缝。"
      ],
      [
-      109.86,
-      110.86,
-      "无缝衔接。"
-     ],
-     [
-      110.86,
-      113.74,
+      112.14,
+      113.62,
       "有复杂的文件？"
      ],
      [
-      113.74,
-      116.3,
+      113.62,
+      116.34,
       "此文档包含太多内容。"
      ],
      [
-      116.3,
-      124.78,
+      116.34,
+      124.71,
       "AI即时总结，提取"
      ],
      [
-      124.78,
-      129.22,
+      124.71,
+      129.1,
       "关键点（以秒为单位）。"
      ],
      [
-      129.22,
-      131.1,
+      129.1,
+      131.22,
       "借助本地存储，您的数据始终安全无虞"
      ],
      [
-      131.1,
-      131.66,
+      131.22,
+      131.86,
       "和私人空间。"
      ],
      [
-      131.66,
-      135.5,
+      131.86,
+      135.38,
       "它可以安全地锁定一切。"
      ],
      [
-      135.5,
-      139.26,
-      "PlayStation PCDA 400桌面AI NAS。"
+      135.38,
+      139.1,
+      "PCDA400台式AI NAS站。"
      ],
      [
-      139.26,
-      142.1,
+      139.1,
+      141.94,
       "不仅仅是NAS ，还有本地AI系统。"
      ],
      [
-      142.1,
-      143.46,
+      141.94,
+      143.3,
       "让搜索更智能。"
      ],
      [
-      143.46,
-      145.34,
+      143.3,
+      146.58,
       "让效率回归本质。"
      ]
     ],
@@ -430,32 +425,33 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 78424.0,
-    "pledged": 14971551.0,
-    "usdPledged": "1908923.20662687",
+    "pledged": 15003604.0,
+    "usdPledged": "1913010.07214548",
     "goalUsd": 9999.32,
-    "percentFunded": 19090.5220340712,
-    "backers": 3516,
+    "percentFunded": 19131.393450984393,
+    "backers": 3527,
     "deadline": 1793376023,
     "launchedAt": 1789488023,
     "staffPick": true,
     "sources": [
      "Hardware 热门",
+     "Technology 热门",
      "AI 关键词"
     ],
     "kwHits": [
      "ai"
     ],
-    "score": 0.8287,
+    "score": 0.8288,
     "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790678764-ysHxp1kbErjviMowaxQ3jAZM3e5U1aMdD3M2%2FD6SV6Q%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790678764-ysHxp1kbErjviMowaxQ3jAZM3e5U1aMdD3M2%2FD6SV6Q%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11254735,
       "price": 3128.0,
       "title": "Super Early Bird - Violoop",
       "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 3035,
+      "backers": 3092,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -466,7 +462,7 @@
       "price": 5951.0,
       "title": "Super Early Bird - Violoop Duo Pack",
       "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 324,
+      "backers": 329,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -485,8 +481,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-09-28",
-    "tiersCarried": "2026-09-28",
+    "tiersDate": "2026-09-29",
+    "tiersCarried": "",
     "cues": [
      [
       0.02,
@@ -692,11 +688,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 80000.0,
-    "pledged": 6115096.0,
-    "usdPledged": "779464.74760336",
+    "pledged": 6703725.0,
+    "usdPledged": "854494.7315835",
     "goalUsd": 10197.25,
-    "percentFunded": 7643.87,
-    "backers": 381,
+    "percentFunded": 8379.65625,
+    "backers": 403,
     "deadline": 1795269636,
     "launchedAt": 1790082036,
     "staffPick": true,
@@ -709,19 +705,19 @@
      "gesture",
      "voice"
     ],
-    "score": 0.7575,
+    "score": 0.7602,
     "coverRemote": "https://i.kickstarter.com/assets/055/222/776/73e4d72cd123faa7f49d20a9a4af3243_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790081997&width=1024&sig=s41fC5xtZvfxHA5kRk39fhtUdbmGCTLPB5ETJRngDKA%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790649948-s1m5UZO18VdzjS4KZKC45YcMOstftrKIwLyWfCStZfU%3D/projects/5262668/video-1461200-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790649948-s1m5UZO18VdzjS4KZKC45YcMOstftrKIwLyWfCStZfU%3D/projects/5262668/video-1461200-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11429771,
       "price": 8616.0,
       "title": "Founding Backer Special Price",
       "desc": "🌟 Founding Backer Special — US$1,099\\nSave US$1,400 · 56% off the US$2,499 retail price\\n\\nOur best-ever price, reserved exclusively for CyboPal’s earliest supporters.\\n\\nBring home CyboPal ONE—the Desktop Robotic Terminal that moves with you and brings voice, gesture, and AI-assisted interaction to your computer.\\n\\n📦 Includes one complete CyboPal ONE package:\\nCyboPal ONE, Standard C-Clamp Mount, USB-C Cable, Power Adapter, and Quick Start Guide.\\n\\n🔒 Available only to eligible early supporters through a private link.\\n🚚 Shipping, import duties, and applicable taxes are included for eligible",
-      "backers": 38,
+      "backers": 39,
       "limit": 500,
-      "remaining": 462,
+      "remaining": 461,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -730,9 +726,9 @@
       "price": 11517.0,
       "title": "VIP Special Price",
       "desc": "💎 Exclusive VIP Price — US$1,499\\nUS$30 deposit already paid · US$1,469 due now\\nSave US$1,000 · 40% off the US$2,499 retail price\\n\\nYour US$30 deposit counts toward the US$1,499 VIP price, so you only need to pledge the remaining US$1,469 through this private reward.\\n\\nBring home CyboPal ONE—the Desktop Robotic Terminal that moves with you and brings voice, gesture, and AI-assisted interaction to your computer.\\n\\n📦 Includes one complete CyboPal ONE package:\\nCyboPal ONE, Standard C-Clamp Mount, USB-C Cable, Power Adapter, and Quick Start Guide.\\n\\n🔒 Available exclusively to eligible deposi",
-      "backers": 117,
+      "backers": 122,
       "limit": 1100,
-      "remaining": 983,
+      "remaining": 978,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -741,16 +737,16 @@
       "price": 12536.0,
       "title": "Super Early Bird Price — First 300 Units",
       "desc": "🔥 Super Early Bird Price — US$1,599\\nSave US$900 · 36% off the US$2,499 retail price\\n\\nBring home CyboPal ONE—the Desktop Robotic Terminal that moves with you and brings voice, gesture, and AI-assisted interaction to your computer.\\n\\n📦 Includes one complete CyboPal ONE package:\\nCyboPal ONE, Standard C-Clamp Mount, USB-C Cable, Power Adapter, and Quick Start Guide.\\n\\n⚡ Limited to the first 300 rewards!\\n🚚 Shipping included within the contiguous United States.\\n🌎 US$50 shipping per unit to other supported destinations. Import duties and applicable taxes are covered by CyboPal.\\n📅 Estimated d",
-      "backers": 137,
+      "backers": 161,
       "limit": 300,
-      "remaining": 163,
+      "remaining": 139,
       "eta": 1796083200,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 23,
-    "tiersDate": "2026-09-28",
-    "tiersCarried": "2026-09-28",
+    "tiersDate": "2026-09-29",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -1204,6 +1200,351 @@
     ]
    },
    {
+    "id": 618032046,
+    "name": "LunchOn: The Smart Portable LunchBox That Heats & Cools",
+    "blurb": "Heat/Cool meals with advanced Peltier technology | APP-controlled | Portable 3-tier bento |Detachable 25,000mAh power bank & 100W USB-C",
+    "url": "https://www.kickstarter.com/projects/lunchon/lunchon-the-smart-portable-lunch-box-that-heats-and-cools",
+    "category": "Gadgets",
+    "creator": "LunchOn",
+    "location": "Newark, DE",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 218532.0,
+    "usdPledged": "218532.0",
+    "goalUsd": 10000.0,
+    "percentFunded": 2185.32,
+    "backers": 1130,
+    "deadline": 1791295217,
+    "launchedAt": 1787666417,
+    "staffPick": false,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "smart"
+    ],
+    "score": 0.6878,
+    "coverRemote": "https://i.kickstarter.com/assets/054/476/989/14195e68581530258fc70d8df8420fe5_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1784372036&width=1024&sig=zUehP%2FoDiHI9rUJMevyfC4ulOb%2BK7XWONxWDDSV5Ixg%3D",
+    "videoMp4": "https://v2.kickstarter.com/1790612036-E60GgH9i%2BsBKiu515I9nlfqQm5y3XYWgnq0CUdlRQF0%3D/projects/5360212/video-1453761-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790612036-E60GgH9i%2BsBKiu515I9nlfqQm5y3XYWgnq0CUdlRQF0%3D/projects/5360212/video-1453761-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11374999,
+      "price": 14.0,
+      "title": "Sauce Cup + 2x Dividers",
+      "desc": "Keep every bite just the way you like it. Use the sauce cup for dressings, dips, or condiments, and the 2 removable dividers to separate different foods inside your LunchOn bento. 🍱\\nA simple add-on that gives you more flexibility and keeps your meal neatly organized. ✨",
+      "backers": 408,
+      "limit": 440,
+      "remaining": 32,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11375026,
+      "price": 25.0,
+      "title": "LunchOn Travel Bag",
+      "desc": "Take your LunchOn anywhere with a dedicated travel bag designed for a secure, comfortable fit. It helps keep your LunchOn protected and easy to carry throughout the day. 🎒\\nPerfect for commuting, travel, work, school, or weekend adventures. ✨",
+      "backers": 361,
+      "limit": 400,
+      "remaining": 39,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11375039,
+      "price": 159.0,
+      "title": "LunchOn: Back to School Bundle",
+      "desc": "A limited-time bundle made for busy school days. Get your LunchOn with a Travel Bag, 100W USB-C Cable, and Extra 25,000mAh Battery for more freedom, longer use, and easy carrying throughout the day. 🎒ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤEnjoy fresh meals at the temperature you want, wherever the day takes you.🍱ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤChoose your preferred LunchOn color in our post-campaign survey. 🎨",
+      "backers": 394,
+      "limit": 480,
+      "remaining": 86,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 23,
+    "tiersDate": "2026-09-29",
+    "tiersCarried": "",
+    "cues": [
+     [
+      0.0,
+      2.49,
+      "午餐。智能便携式午餐盒"
+     ],
+     [
+      2.49,
+      5.04,
+      "加热、冷却和保存您的膳食"
+     ],
+     [
+      5.04,
+      7.0,
+      "随时随地为您的生活做好准备。"
+     ],
+     [
+      8.0,
+      11.0,
+      "加热、冷却和保存食物的午餐"
+     ],
+     [
+      11.0,
+      13.64,
+      "在合适的温度下使用保温瓶"
+     ],
+     [
+      13.64,
+      14.0,
+      "不亮。"
+     ],
+     [
+      14.0,
+      15.82,
+      "通过手机掌控一切，"
+     ],
+     [
+      15.82,
+      17.74,
+      "按照您的方式准备餐点"
+     ],
+     [
+      17.74,
+      18.0,
+      "想要"
+     ],
+     [
+      18.0,
+      21.2,
+      "然后，当午餐开始时，游戏会让你的"
+     ],
+     [
+      21.2,
+      24.09,
+      "食物和饮料很酷，没有检查，没有"
+     ],
+     [
+      24.09,
+      25.18,
+      "打断"
+     ],
+     [
+      25.18,
+      28.16,
+      "一切准备就绪后，通过应用享用午餐"
+     ],
+     [
+      28.16,
+      29.18,
+      "让您知道。"
+     ],
+     [
+      30.18,
+      32.42,
+      "冷却只是开始。午餐"
+     ],
+     [
+      32.42,
+      34.61,
+      "识别您的食物和估价关键"
+     ],
+     [
+      34.61,
+      35.18,
+      "营养"
+     ],
+     [
+      35.18,
+      38.01,
+      "虽然它是可拆卸的25,000毫安时"
+     ],
+     [
+      38.01,
+      40.84,
+      "电池，兼作100瓦USB-C电源"
+     ],
+     [
+      40.84,
+      41.18,
+      "组"
+     ],
+     [
+      41.18,
+      44.21,
+      "午餐使用可更换电池，电源"
+     ],
+     [
+      44.21,
+      46.49,
+      "就在您的办公桌旁取暖。"
+     ],
+     [
+      46.49,
+      49.62,
+      "没有微波炉，无需排队等候。只是很热"
+     ],
+     [
+      49.62,
+      51.49,
+      "随时为您准备好美食。"
+     ],
+     [
+      51.49,
+      54.49,
+      "无论您走到哪里，午餐都会继续。"
+     ],
+     [
+      54.49,
+      56.94,
+      "在户外享用新鲜餐点，保留食物和"
+     ],
+     [
+      56.94,
+      59.28,
+      "饮料冷却，并组织一切"
+     ],
+     [
+      59.28,
+      61.49,
+      "其可拆卸的便当式容器。"
+     ],
+     [
+      61.49,
+      65.24,
+      "从办公室到户外，"
+     ],
+     [
+      65.24,
+      67.8,
+      "餐点随时可达。"
+     ],
+     [
+      67.8,
+      70.6,
+      "午餐的背后是无数的原型，"
+     ],
+     [
+      70.6,
+      73.46,
+      "测试和改进，所有这些都是由一个"
+     ],
+     [
+      73.46,
+      73.8,
+      "得分"
+     ],
+     [
+      73.8,
+      77.03,
+      "在任何地方都能让日常用餐变得更美好"
+     ],
+     [
+      77.03,
+      77.8,
+      "带你去。"
+     ],
+     [
+      77.8,
+      79.8,
+      "一切都很棒。"
+     ],
+     [
+      79.8,
+      82.1,
+      "午餐上只有一个午餐伴侣"
+     ],
+     [
+      82.1,
+      84.41,
+      "可以满足您的日常午餐需求，"
+     ],
+     [
+      84.41,
+      84.8,
+      "出乎"
+     ],
+     [
+      84.8,
+      86.3,
+      "我希望您能分享我们的愿景，让我们"
+     ],
+     [
+      86.3,
+      87.8,
+      "为更好的午餐体验做出贡献。"
+     ],
+     [
+      87.8,
+      89.8,
+      "感谢您的支持。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/476/852/867bd3618920aa6e92c5c4ac7b88a67a_original.png?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1784369676&width=338&sig=5udBaGKlaCyyfl8gFVScC0aMhXVNhHzdb8m4qEx5rI4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/476/989/14195e68581530258fc70d8df8420fe5_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1784372036&width=560&sig=q2UjcmakIgsfveFzP4y%2FQuref6vlyI%2FlbtYYqGc6%2FWg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/811/365/fa32c47b1f2a90d4bbbeb762ee1d2053_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1787144656&width=200&sig=Ox3JXpaWesSTLr93o4N6nE0hfDC%2BaG3tk5wYXAuZWDk%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/180455553&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerSpaces-"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/706/662/745317122bbebed5ff02693593ca67c8_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1786331318&width=200&sig=kszwYF6heURrdwXb4xzftUSYaGVMBTo%2BoIPljp89RKs%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/416306093&quot;},&quot;title&quot;:&quot;collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerShares"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/036/933/090/e3efb6e8f631ba07b752008dae44ba30_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1650349501&width=200&sig=rBE3gR5SMNLJNCyS63t3euiXdVZnH0b35tSzZN3ZjsI%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/101219468&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerHive"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/840/433/c09899fbf90ad221700f21b1bf854e26_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1779545651&width=200&sig=OrUP3dLXO7N2Xjr%2F8Ke0EaQsVwgXlpwaY%2BnyrG2p3to%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1615044103&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;IGadgets"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/052/778/260/e44f79da78774d8696f7ce084fecba80_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1772339942&width=200&sig=6LYcdr1nrJWAPBpKkwU07ew3PVMxEMQJynjBvq%2F6uEQ%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/igadgetshub&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerGlow"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/821/449/e92652a05d6187b6e4b27f00056fb0b6_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1787211132&width=200&sig=YU8CS6W4ojutMmNZsjxE5rc%2BR2h9jnQ1jIfb6Sqjo1E%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/2087434817&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;KST&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/missing_user_avatar.png?anim=false&fit=cover&height=200&origin=ugc&q=92&width=200&sig=GO6kC5VF5iWafmw%2BBkxrCEAVo3EfALI8N4itHm6rVT0%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/862178253&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerRock"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/308/954/6f4a01108dae29035958f8cd33705a37_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1782983259&width=200&sig=MlLZKpgofOtoYNgeP9oktJ6r%2BYTmFp32KjnAP5Awas0%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/backerrock-collab&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;PledgeBox"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/266/032/6d3c97a92796db8387772436e08f39dc_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1782699602&width=200&sig=QZU4fCw6zL9kCvkDTHfIr0v%2F1yNWCj1wUxcEMLJ1GbQ%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1451391313&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;Hunt4Best"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/486/272/9cadc589998d44802b455a9da08719dd_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1784488487&width=200&sig=hJlL6nkSqhhKzyM4FodjzYcYLpPOw%2BYtG8d6tgi2ytA%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1966685590&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerGlow"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/824/925/ed4cc9892e9318c7e922ffec4e361833_original.webp?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1779412895&width=200&sig=zD0nXINxNh%2BgHmGj932B0KQLB3zjkVNUS7U61hbrp9U%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/backerglow-team&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;lucy&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/missing_user_avatar.png?anim=false&fit=cover&height=200&origin=ugc&q=92&width=200&sig=GO6kC5VF5iWafmw%2BBkxrCEAVo3EfALI8N4itHm6rVT0%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1108709833&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerLead"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/815/132/ecdc85126a4f6306e44b422722cd80cf_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1779354603&width=200&sig=IoXmBBxngwEf5FnEfIDW8AbQmo8Zn7z936HyGX%2BO4a8%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/405519742&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;Kickbooster&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/021/346/206/659c32cf7e102c2f1c3ce44dd37a297d_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1601909014&width=200&sig=GKNNuIw7wK2qmP%2BJ%2BHsPBAh5ZfAS7h3VRjpNkotwU9k%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/prettyslug&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerCave"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/048/467/661/19b32799ad7badbdf1394f5d6cce95ca_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1741619901&width=200&sig=nIdasEbeIy8OtwqI6PxItDduUUW79q2EogFyycGwr3I%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1371351616&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerViews&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/054/485/795/ed0fbf8223ddd42c9dfab031485a7419_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1784483162&width=200&sig=PHbmUAhbnCMDG5QXFu9xywdL2gKXQk7Eo4snfvn8bec%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/912853631&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;NewBacker&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/049/527/515/8e12a24b169d1bb43861b9e25830a818_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1748948655&width=200&sig=hmCvCgPXkCkqStDq7HaRQ6QIxAFx0yq7VDGuAYg60QY%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1459630675&quot;},&quot;title&quot;:&quot;Collaborator&quot;}]},&quot;timeline&quot;:{&quot;edges&quot;:[{&quot;node&quot;:{&quot;type&quot;:&quot;update&quot;,&quot;timestamp&quot;:1790173717,&quot;data&quot;:{&quot;id&quot;:&quot;RnJlZWZvcm1Qb3N0LTQ4MDYyMDg=&quot;}}}]},&quot;isInPostCampaignPledgingPhase&quot;:false},&quot;projectModal&quot;:{&quot;opened&quot;:false,&quot;modalType&quot;:null},&quot;watching&quot;:{&quot;projectIsLaunched&quot;:true,&quot;projectCanRemind&quot;:true,&quot;projectId&quot;:&quot;UHJvamVjdC02MTgwMzIwNDY=&quot;},&quot;currentUser&quot;:{}}"
+     },
+     {
+      "t": "p",
+      "x": "Heat/Cool meals with advanced Peltier technology | APP-controlled | Portable 3-tier bento |Detachable 25,000mAh power bank & 100W USB-C",
+      "z": "采用先进Peltier技术的加热/冷却膳食| APP控制|便携式3层便当|可拆卸25,000mAh移动电源和100W USB-C"
+     }
+    ]
+   },
+   {
     "id": 1500870645,
     "name": "FernSnap: AI Plant Time-Lapse Camera",
     "blurb": "Turn plant growth into share-ready videos with AI-powered presets, automated capture, local storage, and a built-in grow light.",
@@ -1233,17 +1574,17 @@
     ],
     "score": 0.6246,
     "coverRemote": "https://i.kickstarter.com/assets/054/975/488/d2c4cd9519d56305cc726640718dfc4c_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788354487&width=1024&sig=WoGvrEKVzqKacnYNCd0AoL9SC6iosXIdV%2Bx8M%2B3f6dc%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790667128-Hb11JStw6rVjRM6I2mC0s6zU65S%2F9%2BFZdYa1Lp53EAA%3D/projects/5325235/video-1436329-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790667128-Hb11JStw6rVjRM6I2mC0s6zU65S%2F9%2BFZdYa1Lp53EAA%3D/projects/5325235/video-1436329-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11168629,
       "price": 777.0,
       "title": "$99 Super Early Bird — 100 Units",
       "desc": "1× FernSnap AI Plant Time-Lapse Camera System\\nTriple-Spectrum Grow Light for healthy indoor plant growth\\nPlug & play setup — ready to use in minutes\\nAutomatically captures plant growth in cinematic time-lapse\\nIncludes USB-C Power Cable + Quick Start Guide + Plant Growth Guide\\n\\n👉 Lowest price ever offered for early supporters joining first.",
-      "backers": 99,
+      "backers": 100,
       "limit": 100,
-      "remaining": 1,
+      "remaining": 0,
       "eta": 1793491200,
       "shipping": "unrestricted"
      },
@@ -1252,9 +1593,9 @@
       "price": 855.0,
       "title": "$109 Early Bird — 150 Units",
       "desc": "1× FernSnap AI Plant Time-Lapse Camera\\nSmart AI-assisted plant monitoring + time-lapse capture\\nOptimized lighting for stable indoor plant growth\\nOne-tap video export via app workflow\\nDesigned for everyday plant parents and hobby growers\\nIncludes USB-C Cable + Plant Care Guide\\n\\n👉 Most popular early-stage reward after Super Early Bird sells out.",
-      "backers": 20,
+      "backers": 21,
       "limit": 150,
-      "remaining": 130,
+      "remaining": 129,
       "eta": 1793491200,
       "shipping": "unrestricted"
      },
@@ -1271,8 +1612,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-09-28",
-    "tiersCarried": "2026-09-28",
+    "tiersDate": "2026-09-29",
+    "tiersCarried": "",
     "cues": [
      [
       1.62,
@@ -1448,349 +1789,6 @@
       "t": "p",
       "x": "Turn plant growth into share-ready videos with AI-powered presets, automated capture, local storage, and a built-in grow light.",
       "z": "利用人工智能驱动的预设、自动捕捉、本地存储和内置生长灯，将植物生长转化为可共享的视频。"
-     }
-    ]
-   },
-   {
-    "id": 1841814277,
-    "name": "BirdieSense: Your Golf's First AI Companion!",
-    "blurb": "Capture Every Swing丨Real-Time 3D Mapping丨Proactive AI Coach丨Dual 4K Vision & Edge AI丨6-Hour Runtime丨Portable Design",
-    "url": "https://www.kickstarter.com/projects/1054191270/birdiesense-your-golfs-first-ai-companion",
-    "category": "Robots",
-    "creator": "BirdieSense",
-    "location": "New York, NY",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 20000.0,
-    "pledged": 850338.0,
-    "usdPledged": "850338.0",
-    "goalUsd": 20000.0,
-    "percentFunded": 4251.69,
-    "backers": 842,
-    "deadline": 1794067204,
-    "launchedAt": 1788879604,
-    "staffPick": true,
-    "sources": [
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.6198,
-    "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11398822,
-      "price": 35.0,
-      "title": "Charging Dock",
-      "desc": "Please note: This charging dock is NOT a wireless charger and does not have a built-in charging function. It serves as a stand only, featuring a precise cable cutout at the bottom for the charging cable.",
-      "backers": 104,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11394490,
-      "price": 799.0,
-      "title": "BirdieSense - Super Early Bird",
-      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 775,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11394492,
-      "price": 1498.0,
-      "title": "BirdieSense X2 - Super Early Bird",
-      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️50% OFF $2998 MSRP (save $1500)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 30,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 7,
-    "tiersDate": "2026-09-28",
-    "tiersCarried": "2026-09-28",
-    "cues": [
-     [
-      1.55,
-      3.55,
-      "隆重推出Birdie Sense。"
-     ],
-     [
-      3.55,
-      6.55,
-      "Gulse第一个人工智能伙伴。"
-     ],
-     [
-      6.55,
-      9.43,
-      "时尚紧凑的设计，专为"
-     ],
-     [
-      9.43,
-      11.55,
-      "无论游戏带你去哪里。"
-     ],
-     [
-      11.55,
-      14.58,
-      "提升你的实践，重新定义"
-     ],
-     [
-      14.58,
-      16.55,
-      "游戏的界限。"
-     ],
-     [
-      16.55,
-      19.78,
-      "采用双摄像头镜头设计，"
-     ],
-     [
-      19.78,
-      21.55,
-      "签名AI处理器。"
-     ],
-     [
-      21.55,
-      25.55,
-      "将每个摇摆变成您可以跟踪的数据。"
-     ],
-     [
-      25.55,
-      34.94,
-      "依旧向后靠。"
-     ],
-     [
-      34.94,
-      36.94,
-      "让我们沿途步行接送。"
-     ],
-     [
-      36.94,
-      47.17,
-      "小袋鼠来了！"
-     ],
-     [
-      47.17,
-      51.22,
-      "如果您希望我严谨严谨"
-     ],
-     [
-      51.22,
-      52.96,
-      "我也可以这样做呀！"
-     ],
-     [
-      52.96,
-      55.53,
-      "不仅仅是为了驾驶而设计的"
-     ],
-     [
-      55.53,
-      55.96,
-      "区间。"
-     ],
-     [
-      55.96,
-      58.38,
-      "从绿色的微妙突破到"
-     ],
-     [
-      58.38,
-      59.96,
-      "碉堡的难度线。"
-     ],
-     [
-      59.96,
-      62.78,
-      "实时指导可帮助您到达"
-     ],
-     [
-      62.78,
-      65.6,
-      "充分发挥潜力并掌控您的"
-     ],
-     [
-      65.6,
-      65.96,
-      "牌局"
-     ],
-     [
-      65.96,
-      68.96,
-      "距离旗帜56码。"
-     ],
-     [
-      68.96,
-      71.58,
-      "根据您的历史数据，我建议"
-     ],
-     [
-      71.58,
-      72.96,
-      "我们使用50度。"
-     ],
-     [
-      72.96,
-      82.8,
-      "如果我们有计划的话。"
-     ],
-     [
-      82.8,
-      84.8,
-      "今天的第一只小鸟。"
-     ],
-     [
-      84.8,
-      87.69,
-      "不仅仅是精英数字教练，小鸟"
-     ],
-     [
-      87.69,
-      90.44,
-      "感官是你的智能声音"
-     ],
-     [
-      90.44,
-      90.8,
-      "然后在这边消失。"
-     ],
-     [
-      90.8,
-      92.8,
-      "我们今天在做什么？"
-     ],
-     [
-      92.8,
-      94.8,
-      "让我们切换一下。"
-     ],
-     [
-      94.8,
-      96.97,
-      "毕竟，别忘了提高准确性"
-     ],
-     [
-      96.97,
-      97.8,
-      "那种速度是有效的。"
-     ],
-     [
-      97.8,
-      104.24,
-      "您进度的完整历史记录"
-     ],
-     [
-      104.24,
-      109.58,
-      "触手可及。"
-     ],
-     [
-      109.58,
-      112.39,
-      "射击、手套和身体指标、小鸟"
-     ],
-     [
-      112.39,
-      115.58,
-      "感官知道你的优点和缺点。"
-     ],
-     [
-      115.58,
-      118.27,
-      "游戏化体验让高尔夫更有趣"
-     ],
-     [
-      118.27,
-      119.58,
-      "比已经存在的要多。"
-     ],
-     [
-      119.58,
-      123.27,
-      "通过将您的秋千视频与球整合"
-     ],
-     [
-      123.27,
-      125.38,
-      "来自其他设备的数据，"
-     ],
-     [
-      125.38,
-      128.38,
-      "您的练习将变得更有效。"
-     ],
-     [
-      128.38,
-      150.64,
-      "无需进行繁琐的编辑。"
-     ],
-     [
-      150.64,
-      153.44,
-      "我们的系统会创建您的个人亮点"
-     ],
-     [
-      153.44,
-      156.17,
-      "卷轴，捕捉您的最佳时刻"
-     ],
-     [
-      156.17,
-      156.64,
-      "加固"
-     ],
-     [
-      156.64,
-      162.7,
-      "我们是小鸟般的感觉。"
-     ],
-     [
-      162.7,
-      165.7,
-      "查看您的进度。达到您的巅峰。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/111/671/69c2b2ad8ab89f7dabfbb94bba29f48b_original.png?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1781518285&width=338&sig=lhlI5lB1IPhrLA8OsiVEb1McvkuFmdd0agJxg3%2FM2%2Fc%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1787304106&width=560&sig=s24VrXihNabps3jUA%2B9GTc%2F%2Bu92yewbvteOphfGdE2E%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/911/365/745317122bbebed5ff02693593ca67c8_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1787874242&width=200&sig=C20Vy9eHpJEzvVw5Eox0xe9WVQUfjHq23k4y%2BGp5HUA%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/544966829&quot;},&quot;title&quot;:&quot;collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerMany"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/988/638/fa32c47b1f2a90d4bbbeb762ee1d2053_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1788433548&width=200&sig=34yEv8UNcCA1TCmZYiqKRxJ90gNF4BNKkE9yXWux%2F%2FE%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/53725247&quot;},&quot;title&quot;:&quot;collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;Longham-Crowdfunding"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/036/761/432/2064ca18ea847269e07c3b22cffca7fe_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1648110767&width=200&sig=Hzqs%2FrDGcgxqUTft8qBQ%2FIskreAhtkoY%2FLkx946ribY%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/longham&quot;},&quot;title&quot;:&quot;collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;Longham"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/825/433/5ccee49ad5852d4acd697cce6677123d_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1787236480&width=200&sig=N6r8lZuTWZL5lDUq3izxTFG4PbYoczJjzkAgkV5kMcM%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1777794631&quot;},&quot;title&quot;:&quot;collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;Kickbooster&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/021/346/206/659c32cf7e102c2f1c3ce44dd37a297d_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1601909014&width=200&sig=GKNNuIw7wK2qmP%2BJ%2BHsPBAh5ZfAS7h3VRjpNkotwU9k%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/prettyslug&quot;},&quot;title&quot;:&quot;collaborator&quot;}]},&quot;timeline&quot;:{&quot;edges&quot;:[{&quot;node&quot;:{&quot;type&quot;:&quot;update&quot;,&quot;timestamp&quot;:1788953079,&quot;data&quot;:{&quot;id&quot;:&quot;RnJlZWZvcm1Qb3N0LTQ3OTM0MjU=&quot;}}}]},&quot;isInPostCampaignPledgingPhase&quot;:false},&quot;projectModal&quot;:{&quot;opened&quot;:false,&quot;modalType&quot;:null},&quot;watching&quot;:{&quot;projectIsLaunched&quot;:true,&quot;projectCanRemind&quot;:true,&quot;projectId&quot;:&quot;UHJvamVjdC0xODQxODE0Mjc3&quot;},&quot;currentUser&quot;:{}}"
-     },
-     {
-      "t": "p",
-      "x": "Capture Every Swing丨Real-Time 3D Mapping丨Proactive AI Coach丨Dual 4K Vision & Edge AI丨6-Hour Runtime丨Portable Design",
-      "z": "捕捉每一个摆动丨实时3D映射丨主动AI教练丨双4K视觉和边缘AI丨 6小时运行时间丨便携式设计"
      }
     ]
    }
