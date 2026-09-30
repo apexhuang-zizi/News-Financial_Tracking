@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T13:14:35+07:00",
+  "generatedAt": "2026-09-30T19:30:31+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 41,
@@ -79,283 +79,313 @@
     "cues": [
      [
       0.24,
-      2.24,
+      3.44,
       "情缘你在哪"
      ],
      [
-      2.24,
-      4.24,
+      3.44,
+      5.12,
       "情缘你在哪"
      ],
      [
-      4.24,
-      7.24,
+      5.12,
+      6.96,
       "查找文件似乎不可能。"
      ],
      [
-      7.24,
-      13.24,
+      6.96,
+      7.96,
+      "呃啊~"
+     ],
+     [
+      7.96,
+      8.96,
+      "呃啊~"
+     ],
+     [
+      10.16,
+      13.2,
       "你需要一个聪明人，而不是这种聪明人。"
      ],
      [
-      13.24,
-      15.24,
+      13.2,
+      15.68,
       "您需要一个聪明时尚的助手。"
      ],
      [
-      15.24,
-      16.24,
+      15.68,
+      17.0,
       "等一下，等一下。"
      ],
      [
-      16.24,
-      19.24,
+      17.0,
+      19.44,
       "看起来不错，但很有用。"
      ],
      [
-      19.24,
-      21.65,
+      19.44,
+      23.23,
       "相信我，它比"
      ],
      [
-      21.65,
-      22.24,
+      23.23,
+      24.16,
       "别以为你用些"
      ],
      [
-      22.24,
-      26.52,
+      24.16,
+      26.84,
       "它可以容纳几代家庭成员。"
      ],
      [
-      26.52,
-      29.52,
+      26.84,
+      29.8,
       "支持8TB M2固态硬盘。"
      ],
      [
-      29.52,
-      32.72,
-      "支持高达32TB的4托架设计"
+      29.8,
+      32.28,
+      "4槽设计，支持多达32个"
      ],
      [
-      32.72,
-      35.91,
-      "每个驱动器，为您提供高达136TB的总容量"
+      32.28,
+      33.52,
+      "每驱动器TB ，"
      ],
      [
-      35.91,
-      36.52,
+      33.52,
+      38.12,
+      "为您提供高达136 TB的总容量"
+     ],
+     [
+      38.12,
+      39.06,
       "储藏"
      ],
      [
-      36.52,
-      40.64,
+      39.06,
+      40.93,
       "查找文件的问题可能是"
      ],
      [
-      40.64,
-      41.38,
+      40.93,
+      41.26,
       "解决了的"
      ],
      [
-      41.38,
-      44.0,
+      41.26,
+      43.93,
       "严肃地说，只需键入一个关键字，"
      ],
      [
-      44.0,
-      45.38,
+      43.93,
+      45.34,
       "人或场景。"
      ],
      [
-      45.38,
-      47.03,
+      45.34,
+      47.19,
       "借助人工智能驱动的全球搜索，"
      ],
      [
-      47.03,
-      48.78,
-      "即刻找到你真正的样子"
+      47.19,
+      47.7,
+      "立刻"
      ],
      [
-      48.78,
-      49.38,
-      "寻找"
+      47.7,
+      50.14,
+      "准确地找到您要查找的内容。"
      ],
      [
-      49.38,
-      51.38,
+      50.14,
+      51.1,
       "这还不是全部。"
      ],
      [
-      51.38,
-      53.38,
+      51.1,
+      53.54,
       "它提供极快的传输速度。"
      ],
      [
-      53.38,
+      53.54,
       55.76,
       "这些双2.5千兆以太网端口"
      ],
      [
       55.76,
-      57.38,
-      "绝对不是来玩的。"
+      56.3,
+      "无疑"
      ],
      [
-      57.38,
-      59.38,
-      "哇！太快了！"
+      56.3,
+      57.1,
+      "不是来玩的。"
      ],
      [
-      59.38,
-      62.19,
+      57.1,
+      57.86,
+      "唔"
+     ],
+     [
+      57.86,
+      60.1,
+      "太快了！"
+     ],
+     [
+      60.1,
+      62.97,
       "它还支持本地4K超高清视频"
      ],
      [
-      62.19,
-      64.99,
-      "播放，带来清晰的视觉效果"
+      62.97,
+      63.62,
+      "播放"
      ],
      [
-      64.99,
-      67.38,
-      "具有流畅、无滞后的性能。"
+      63.62,
+      70.23,
+      "带来清晰的视觉效果，"
      ],
      [
-      75.34,
-      78.34,
+      70.23,
+      75.7,
+      "光滑、无滞后的性能。"
+     ],
+     [
+      75.7,
+      78.66,
       "你捕捉了无数珍贵的时刻。"
      ],
      [
-      78.34,
-      80.86,
+      78.66,
+      81.3,
       "D400 AI智能相册自动"
      ],
      [
-      80.86,
-      83.25,
+      81.3,
+      83.58,
       "整理您杂乱的照片库，"
      ],
      [
-      83.25,
-      85.77,
-      "对记忆进行排序和分类，"
+      83.58,
+      85.22,
+      "对记忆进行排序和分类"
      ],
      [
-      85.77,
-      87.34,
+      85.22,
+      87.54,
       "他们被创造出来的那一刻。"
      ],
      [
-      87.34,
-      89.98,
+      87.54,
+      89.9,
       "由双处理器驱动，人工智能计算"
      ],
      [
-      89.98,
-      92.68,
+      89.9,
+      94.82,
       "发生在本地更快，更智能，以及更多"
      ],
      [
-      92.68,
-      93.34,
+      94.82,
+      96.02,
       "完成。"
      ],
      [
-      93.34,
-      97.45,
+      96.02,
+      98.2,
       "嘿，伙计们，我们有一个有趣的"
      ],
      [
-      97.45,
-      98.42,
+      98.2,
+      98.7,
       "这是一个正在进行的项目。"
      ],
      [
-      98.42,
-      100.42,
-      "需要合作？"
+      98.7,
+      101.14,
+      "我们需要合作。"
      ],
      [
-      100.42,
-      103.74,
+      101.14,
+      104.5,
       "现在，让我将文件上传到俱乐部"
      ],
      [
-      103.74,
-      104.42,
-      "。"
+      104.5,
+      105.54,
+      "了一会"
      ],
      [
-      104.42,
-      106.95,
+      105.54,
+      107.37,
       "创建具有详细内容的共享文件夹"
      ],
      [
-      106.95,
-      109.98,
-      "权限控制，保持您的团队合作"
+      107.37,
+      108.42,
+      "权限控制，"
      ],
      [
-      109.98,
-      111.42,
-      "安全无缝。"
+      108.42,
+      112.18,
+      "确保您的团队合作安全无缝。"
      ],
      [
-      111.42,
-      113.42,
+      112.18,
+      113.66,
       "有复杂的文件？"
      ],
      [
-      113.42,
-      116.42,
+      113.66,
+      116.38,
       "此文档包含太多内容。"
      ],
      [
-      116.42,
-      124.53,
+      116.38,
+      124.75,
       "AI即时总结，提取"
      ],
      [
-      124.53,
-      128.78,
+      124.75,
+      129.14,
       "关键点（以秒为单位）。"
      ],
      [
-      128.78,
-      131.09,
+      129.14,
+      131.26,
       "借助本地存储，您的数据始终安全无虞"
      ],
      [
-      131.09,
-      131.78,
+      131.26,
+      131.9,
       "和私人空间。"
      ],
      [
-      131.78,
-      134.78,
+      131.9,
+      135.38,
       "它可以安全地锁定一切。"
      ],
      [
-      134.78,
-      138.78,
+      135.38,
+      139.06,
       "PCDA400站，桌面AI NAS。"
      ],
      [
-      138.78,
-      141.78,
+      139.06,
+      141.94,
       "不仅仅是NAS ，还有本地AI系统。"
      ],
      [
-      141.78,
-      144.73,
-      "让搜索更智能。恢复效率"
+      141.94,
+      143.3,
+      "让搜索更智能。"
      ],
      [
-      144.73,
-      145.78,
-      "其精髓。"
+      143.3,
+      146.58,
+      "让效率回归本质。"
      ]
     ],
     "vttLang": "zh",
@@ -395,11 +425,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 136922.0,
-    "usdPledged": "136922.0",
+    "pledged": 140950.0,
+    "usdPledged": "140950.0",
     "goalUsd": 20000.0,
-    "percentFunded": 684.61,
-    "backers": 415,
+    "percentFunded": 704.75,
+    "backers": 426,
     "deadline": 1793343600,
     "launchedAt": 1790685085,
     "staffPick": true,
@@ -411,17 +441,880 @@
      "ai",
      "smart"
     ],
-    "score": 0.8202,
+    "score": 0.8212,
     "coverRemote": "https://i.kickstarter.com/assets/055/314/273/dc7f74720c76ecaf78c71e9a87a34af5_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790692390&width=1024&sig=GmWcgA6Xo%2Ba4RrUoyc0vIEeOo%2Ffcqd6nspxlhf09s3Q%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
+    "videoMp4": "https://v2.kickstarter.com/1790733316-n8gVFAw5ih6p6kirHijmI3iAhmW5%2Fk6cFnruVBaWGDo%3D/projects/5358412/video-1462030-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790733316-n8gVFAw5ih6p6kirHijmI3iAhmW5%2Fk6cFnruVBaWGDo%3D/projects/5358412/video-1462030-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11303046,
+      "price": 250.0,
+      "title": "VIP - 1 Dog Bundle",
+      "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 32% OFF. $270 total with your $20 deposit, $130 off the $400 retail price\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
+      "backers": 203,
+      "limit": 250,
+      "remaining": 47,
+      "eta": 1806537600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11433279,
+      "price": 295.0,
+      "title": "Early Bird - 1 Dog Bundle",
+      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 26% OFF. $105 off the $400 retail price\\n⚡ Limited quantity. When these are gone the price goes to $330.\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
+      "backers": 124,
+      "limit": 270,
+      "remaining": 146,
+      "eta": 1806537600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11433247,
+      "price": 400.0,
+      "title": "VIP - 2 Dog Bundle",
+      "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 2x DogVibe\\n✅ 2x Static Module\\n✅ 2x Leash Module\\n✅ 1x Remote\\n\\n🚀 47% OFF. $420 total with your $20 deposit, $380 off the $800 retail price\\n🐕 $210 per dog\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
+      "backers": 53,
+      "limit": 150,
+      "remaining": 97,
+      "eta": 1806537600,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 12,
+    "tiersDate": "2026-09-30",
     "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
+    "cues": [
+     [
+      19.31,
+      22.07,
+      "我是Miles ，这是我的狗Baloo。"
+     ],
+     [
+      22.07,
+      24.55,
+      "我们一起营造了这种狗狗的氛围，"
+     ],
+     [
+      24.55,
+      27.27,
+      "首款智能电子色彩停止"
+     ],
+     [
+      27.27,
+      28.11,
+      "拉绳"
+     ],
+     [
+      28.11,
+      30.59,
+      "并建立真正的脱绳信任。"
+     ],
+     [
+      30.59,
+      32.59,
+      "最棒的是，它是蓝牙控制的，"
+     ],
+     [
+      32.59,
+      35.25,
+      "这意味着您的手机就像您的日常"
+     ],
+     [
+      35.25,
+      35.71,
+      "间接"
+     ],
+     [
+      35.71,
+      37.31,
+      "拥有一只狗可能令人难以置信，"
+     ],
+     [
+      37.31,
+      39.47,
+      "一个冒险伙伴，一个最好的朋友。"
+     ],
+     [
+      39.47,
+      41.03,
+      "但现实是，养狗"
+     ],
+     [
+      41.03,
+      42.71,
+      "有时可能非常困难"
+     ],
+     [
+      42.71,
+      44.71,
+      "对他们进行培训可能令人生畏。"
+     ],
+     [
+      44.71,
+      48.83,
+      "拉扯，吠叫，不来"
+     ],
+     [
+      48.83,
+      49.99,
+      "当你打电话给他们时。"
+     ],
+     [
+      49.99,
+      51.43,
+      "阿普索！"
+     ],
+     [
+      51.43,
+      53.39,
+      "无法信任他们的皮带。"
+     ],
+     [
+      53.39,
+      54.99,
+      "如果你经常感到压力过大，"
+     ],
+     [
+      54.99,
+      57.11,
+      "总是为你的狗的行为道歉"
+     ],
+     [
+      57.11,
+      58.99,
+      "觉得你不能相信他，我"
+     ],
+     [
+      58.99,
+      59.31,
+      "获得"
+     ],
+     [
+      59.31,
+      60.63,
+      "因为我也去过那里，"
+     ],
+     [
+      60.63,
+      63.02,
+      "这正是我制作狗的原因"
+     ],
+     [
+      63.02,
+      63.31,
+      "氛围。"
+     ],
+     [
+      63.31,
+      65.11,
+      "我甚至为一个"
+     ],
+     [
+      65.11,
+      65.99,
+      "增长最快的"
+     ],
+     [
+      65.99,
+      67.78,
+      "世界上的宠物品牌，"
+     ],
+     [
+      67.78,
+      68.55,
+      "分心玩具"
+     ],
+     [
+      68.55,
+      70.43,
+      "帮助被动的狗狗安定下来，"
+     ],
+     [
+      70.43,
+      72.48,
+      "但我仍然遇到了问题，"
+     ],
+     [
+      72.48,
+      72.99,
+      "现实世界。"
+     ],
+     [
+      72.99,
+      77.05,
+      "我的狗在下面。"
+     ],
+     [
+      77.05,
+      79.14,
+      "所以我建立了这个我希望存在的系统"
+     ],
+     [
+      79.14,
+      79.89,
+      "当我开始的时候。"
+     ],
+     [
+      79.89,
+      82.02,
+      "一种一致的培训语言，"
+     ],
+     [
+      82.02,
+      82.17,
+      "狗"
+     ],
+     [
+      82.17,
+      88.91,
+      "终于明"
+     ],
+     [
+      88.91,
+      90.55,
+      "这就是狗狗氛围系统。"
+     ],
+     [
+      90.55,
+      93.03,
+      "它由四件硬件组成，"
+     ],
+     [
+      93.03,
+      93.59,
+      "狗狗的氛围，"
+     ],
+     [
+      93.59,
+      95.82,
+      "皮带模块，可选的静态"
+     ],
+     [
+      95.82,
+      96.91,
+      "校正模块，"
+     ],
+     [
+      96.91,
+      98.23,
+      "以及我们的远程遥控器。"
+     ],
+     [
+      98.23,
+      100.36,
+      "狗氛围附着在您的"
+     ],
+     [
+      100.36,
+      101.27,
+      "狗已经穿了"
+     ],
+     [
+      101.27,
+      103.66,
+      "它用超声波与他们交谈，"
+     ],
+     [
+      103.66,
+      104.83,
+      "音调和振动。"
+     ],
+     [
+      104.83,
+      106.67,
+      "它有发声检测"
+     ],
+     [
+      106.67,
+      108.56,
+      "以帮助安静过度吠叫"
+     ],
+     [
+      108.56,
+      109.35,
+      "到"
+     ],
+     [
+      109.35,
+      111.67,
+      "它应该全天候佩戴"
+     ],
+     [
+      111.67,
+      114.11,
+      "这样规则就不会改变。"
+     ],
+     [
+      114.11,
+      115.95,
+      "有了狗狗氛围应用程序，您的手机"
+     ],
+     [
+      115.95,
+      117.35,
+      "充当您的日常遥控器。"
+     ],
+     [
+      117.35,
+      119.12,
+      "锁定屏幕上的小部件意味着您"
+     ],
+     [
+      119.12,
+      119.55,
+      "甚至不"
+     ],
+     [
+      119.55,
+      121.23,
+      "必须解锁手机才能使用"
+     ],
+     [
+      121.23,
+      121.51,
+      "颜色"
+     ],
+     [
+      121.51,
+      123.51,
+      "每种设置都可以在应用中找到，"
+     ],
+     [
+      123.51,
+      125.59,
+      "和大约200英尺的范围。"
+     ],
+     [
+      125.59,
+      127.83,
+      "一部手机最多可运行四只狗"
+     ],
+     [
+      127.83,
+      130.4,
+      "和整个家庭的手机相比，"
+     ],
+     [
+      130.4,
+      131.03,
+      "单色"
+     ],
+     [
+      131.03,
+      133.18,
+      "狗狗之间的牵引绳模块夹子"
+     ],
+     [
+      133.18,
+      134.23,
+      "颜色和皮带。"
+     ],
+     [
+      134.23,
+      136.96,
+      "因此，当您的狗拉动时，颜色会做出反应"
+     ],
+     [
+      136.96,
+      137.55,
+      "立刻"
+     ],
+     [
+      137.55,
+      139.23,
+      "每一次"
+     ],
+     [
+      139.23,
+      141.31,
+      "你的狗很快就把这些点连接起来，"
+     ],
+     [
+      141.31,
+      143.15,
+      "这意味着牵引停止"
+     ],
+     [
+      143.15,
+      145.8,
+      "你紧张的散步会变得平静，"
+     ],
+     [
+      145.8,
+      146.99,
+      "宽松的皮带散步。"
+     ],
+     [
+      146.99,
+      149.11,
+      "最好的部分是它是自动的，"
+     ],
+     [
+      149.11,
+      151.06,
+      "这意味着它的工作每一个"
+     ],
+     [
+      151.06,
+      151.27,
+      "time"
+     ],
+     [
+      151.27,
+      153.43,
+      "与任何尺寸的狗在一起。"
+     ],
+     [
+      153.43,
+      155.49,
+      "然后是远程遥控器，"
+     ],
+     [
+      155.49,
+      156.23,
+      "召回按钮。"
+     ],
+     [
+      156.23,
+      158.66,
+      "我们帮助您训练召回，实际上"
+     ],
+     [
+      158.66,
+      159.03,
+      "持有"
+     ],
+     [
+      159.03,
+      161.03,
+      "好的，让我向您展示一个召回演示。"
+     ],
+     [
+      161.03,
+      162.83,
+      "我这里有召回按钮"
+     ],
+     [
+      162.83,
+      163.23,
+      "我的电话"
+     ],
+     [
+      163.23,
+      164.67,
+      "宽松的衣领。"
+     ],
+     [
+      164.67,
+      167.27,
+      "我打这个的时候，她知道要回来"
+     ],
+     [
+      167.27,
+      168.47,
+      "每一次"
+     ],
+     [
+      168.47,
+      171.24,
+      "所以我打它，她听到它，她来了"
+     ],
+     [
+      171.24,
+      171.59,
+      "返回"
+     ],
+     [
+      171.59,
+      173.39,
+      "来吧，嘘。"
+     ],
+     [
+      173.39,
+      175.07,
+      "就这样，我训练了她"
+     ],
+     [
+      175.07,
+      175.15,
+      "上涨"
+     ],
+     [
+      175.15,
+      176.87,
+      "每次都会回来。"
+     ],
+     [
+      176.87,
+      178.73,
+      "我们还包括内部培训，"
+     ],
+     [
+      178.73,
+      178.87,
+      "应用程序"
+     ],
+     [
+      178.87,
+      181.07,
+      "帮助你训练你的狗狗做同样的事情。"
+     ],
+     [
+      181.07,
+      183.47,
+      "一旦召回牢固，您就可以解锁它。"
+     ],
+     [
+      183.47,
+      186.21,
+      "接近模式，一种随"
+     ],
+     [
+      186.21,
+      187.75,
+      "无论你走到哪里。"
+     ],
+     [
+      187.75,
+      190.59,
+      "将其设置在5到200英尺之间的任何地方。"
+     ],
+     [
+      190.59,
+      192.35,
+      "当你的狗接近边界时，"
+     ],
+     [
+      192.35,
+      194.75,
+      "他们会自动获得召回音。"
+     ],
+     [
+      194.75,
+      197.65,
+      "因此，当Heipes在海滩上跑步或"
+     ],
+     [
+      197.65,
+      198.31,
+      "露营"
+     ],
+     [
+      198.31,
+      200.23,
+      "你可以让你的狗脱离皮带和信任"
+     ],
+     [
+      200.23,
+      202.03,
+      "他们会保持密切联系。"
+     ],
+     [
+      202.03,
+      204.01,
+      "所以技术很酷，但这就是我们如何"
+     ],
+     [
+      204.01,
+      205.11,
+      "想想培训。"
+     ],
+     [
+      205.11,
+      207.3,
+      "带有狗氛围的一切都建立在"
+     ],
+     [
+      207.3,
+      208.03,
+      "信任、玩耍、"
+     ],
+     [
+      208.03,
+      210.04,
+      "并奖励你的狗，当他们在做"
+     ],
+     [
+      210.04,
+      210.83,
+      "做正确的事"
+     ],
+     [
+      210.83,
+      212.19,
+      "这并不是很多人认为的"
+     ],
+     [
+      212.19,
+      212.91,
+      "关于他们什么时候听到"
+     ],
+     [
+      212.91,
+      214.31,
+      "培训给她打电话。"
+     ],
+     [
+      214.31,
+      216.27,
+      "因此，我们还提供了可选的静态"
+     ],
+     [
+      216.27,
+      217.23,
+      "校正模块，"
+     ],
+     [
+      217.23,
+      219.11,
+      "一直被误解"
+     ],
+     [
+      219.11,
+      221.07,
+      "而且可能不是你想的那样。"
+     ],
+     [
+      221.07,
+      223.11,
+      "我在下面的视频中深入探讨了这一点。"
+     ],
+     [
+      223.11,
+      225.05,
+      "所以当你在这里完成时，向下滚动，"
+     ],
+     [
+      225.05,
+      225.71,
+      "来看一下"
+     ],
+     [
+      225.71,
+      228.05,
+      "我将向您展示为什么它不是"
+     ],
+     [
+      228.05,
+      228.99,
+      "害怕。"
+     ],
+     [
+      228.99,
+      230.95,
+      "所以让我对你说实话。"
+     ],
+     [
+      230.95,
+      232.95,
+      "狗的氛围不是灵丹妙药。"
+     ],
+     [
+      232.95,
+      234.11,
+      "这不是魔法项圈。"
+     ],
+     [
+      234.11,
+      236.2,
+      "你拍打你的狗，它修复了所有"
+     ],
+     [
+      236.2,
+      236.99,
+      "他们的问题。"
+     ],
+     [
+      236.99,
+      239.97,
+      "训练一只狗会让你付出真正的工作，"
+     ],
+     [
+      239.97,
+      240.71,
+      "业主"
+     ],
+     [
+      240.71,
+      242.29,
+      "但狗氛围提供的是"
+     ],
+     [
+      242.29,
+      243.67,
+      "令人难以置信的硬件"
+     ],
+     [
+      243.67,
+      245.61,
+      "配合深思熟虑的培训"
+     ],
+     [
+      245.61,
+      245.91,
+      "系統"
+     ],
+     [
+      245.91,
+      248.07,
+      "由专业的狗狗训练师开发。"
+     ],
+     [
+      248.07,
+      249.67,
+      "我在狗狗家住了很多年"
+     ],
+     [
+      249.67,
+      251.77,
+      "我理解这些问题，因为"
+     ],
+     [
+      251.77,
+      252.63,
+      "我已经经历过了。"
+     ],
+     [
+      252.63,
+      254.99,
+      "我为自己和我的"
+     ],
+     [
+      254.99,
+      255.23,
+      "狗"
+     ],
+     [
+      255.23,
+      256.96,
+      "但现在我已经准备好与"
+     ],
+     [
+      256.96,
+      257.23,
+      "主的见证人。"
+     ],
+     [
+      257.23,
+      259.54,
+      "我之前已经筹集了超过200万$"
+     ],
+     [
+      259.54,
+      260.15,
+      "就在这里"
+     ],
+     [
+      260.15,
+      262.31,
+      "在Kickstarter上查看之前的项目"
+     ],
+     [
+      262.31,
+      264.18,
+      "我一直在鲨鱼坦克上"
+     ],
+     [
+      264.18,
+      264.43,
+      "那样。"
+     ],
+     [
+      264.43,
+      266.59,
+      "我去过我们的海外制造商"
+     ],
+     [
+      266.59,
+      269.18,
+      "为狗的批量生产做好准备"
+     ],
+     [
+      269.18,
+      269.51,
+      "氛围。"
+     ],
+     [
+      269.51,
+      271.4,
+      "成千上万的人已经放下了"
+     ],
+     [
+      271.4,
+      271.63,
+      "钱"
+     ],
+     [
+      271.63,
+      274.0,
+      "预订狗狗的氛围，我不能再多了"
+     ],
+     [
+      274.0,
+      274.39,
+      "激动的"
+     ],
+     [
+      274.39,
+      275.83,
+      "推出此产品。"
+     ],
+     [
+      275.83,
+      277.9,
+      "今天支持我们，您将成为"
+     ],
+     [
+      277.9,
+      278.51,
+      "第一人"
+     ],
+     [
+      278.51,
+      280.96,
+      "在世界上获得最好的狗狗氛围"
+     ],
+     [
+      280.96,
+      281.27,
+      "价格"
+     ],
+     [
+      281.27,
+      282.55,
+      "他们将永远是。"
+     ],
+     [
+      282.55,
+      284.39,
+      "是时候给你的狗更多的自由了。"
+     ],
+     [
+      284.39,
+      286.71,
+      "因为生活，它只是更好的牵引。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/448/067/1cf9da82bc5f0eba34124ca2e95b74af_original.png?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1784129401&width=338&sig=LcR7lHrVO51JFASPchcWuBVepufW6%2BQjLW9jwp2Zo10%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/314/273/dc7f74720c76ecaf78c71e9a87a34af5_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1790692390&width=560&sig=No7rzL%2BVWIkB994GfACLZqXqys3BSidBMcxVD33mPpE%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/052/759/870/3f82343c4e7809b17d6b56f19668316a_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1772200346&width=200&sig=5bbnc03o19o3i%2BKliin%2FsQFdQXHHZYnWq7ddlXyNKGo%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/ab-launch&quot;},&quot;title&quot;:&quot;Collaborator&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerSpaces-www.backerspaces.com&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/055/100/358/745317122bbebed5ff02693593ca67c8_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1789255599&width=200&sig=rq8UqJWJ02NUy78T7ereRI%2BbS4d5zzRRe%2BVNy%2FjWzSY%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1462810935&quot;},&quot;title&quot;:&quot;BackerSpaces&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;James"
+     },
+     {
+      "t": "p",
+      "x": "A smart training system that detects leash pulling, sets virtual proximity fences, and runs from an app on your phone. No subscription.",
+      "z": "一个智能培训系统，可检测皮带拉扯，设置虚拟接近围栏，并从手机上的应用程序运行。无订阅。"
+     }
+    ]
    },
    {
     "id": 1308518566,
@@ -435,11 +1328,11 @@
     "currency": "EUR",
     "currencySymbol": "€",
     "goal": 20000.0,
-    "pledged": 36446.0,
-    "usdPledged": "41498.85959052",
+    "pledged": 40952.0,
+    "usdPledged": "46629.56971824",
     "goalUsd": 22772.79,
-    "percentFunded": 182.23,
-    "backers": 350,
+    "percentFunded": 204.76000000000002,
+    "backers": 395,
     "deadline": 1794157213,
     "launchedAt": 1790697613,
     "staffPick": true,
@@ -450,17 +1343,240 @@
      "ai",
      "camera"
     ],
-    "score": 0.7455,
+    "score": 0.7499,
     "coverRemote": "https://i.kickstarter.com/assets/054/272/605/d9450fab3ae070a40101036a293f84e6_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1782745745&width=1024&sig=%2BSyL5%2BfSMZ9ydN9bCMNLrha0v8Jd5sczBvxbS%2F3kYs8%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
+    "videoMp4": "https://v2.kickstarter.com/1790697621-NkmEoJ6Vl4kfwOTPsL6gWk69LzbNNsctMRkYt4LA0JI%3D/projects/5267103/video-1463695-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790697621-NkmEoJ6Vl4kfwOTPsL6gWk69LzbNNsctMRkYt4LA0JI%3D/projects/5267103/video-1463695-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 10973126,
+      "price": 89.0,
+      "title": "Super Early Bird - Await Full Kit",
+      "desc": "Save 43%! ✨ Get €68 off the €157 MSRP.\\n\\nWhat's in the box:\\n📷 1x Await Camera\\n🪢 1x Wrist Strap\\n🎨 2x Additional Faceplates\\n📿 1x Neck Strap\\n\\nColor options (camera + faceplates):\\n💙 Blue\\n🩷 Pink\\n🩵 Teal\\n💚 Green\\n💛 Yellow\\n\\n🎨 Pick your colors after the campaign, in backer tools.\\n\\nShipping:\\n📦 Estimated delivery: Dec 2026\\n🌍 Ships anywhere - flat €8",
+      "backers": 364,
+      "limit": 400,
+      "remaining": 36,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11441043,
+      "price": 99.0,
+      "title": "Early Bird - Await Full Kit",
+      "desc": "Save 37%! ✨ Get €58 off the €157 MSRP.\\n\\nJust €10 more than the Solo for €28 of extras: a neck strap and two spare faceplates, so you can change the look of your camera whenever you want.\\n\\nWhat's in the box:\\n📷 1x Await Camera\\n🪢 1x Wrist Strap\\n🎨 2x Additional Faceplates\\n📿 1x Neck Strap\\n\\nColor options (camera + faceplates):\\n💙 Blue\\n🩷 Pink\\n🩵 Teal\\n💚 Green\\n💛 Yellow\\n\\n🎨 Pick your colors after the campaign, in backer tools.\\n\\nShipping:\\n📦 Estimated delivery: Dec 2026\\n🌍 Ships anywhere - flat €8",
+      "backers": 2,
+      "limit": 100,
+      "remaining": 98,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11441056,
+      "price": 179.0,
+      "title": "Early Bird - x2 Await Full Kit",
+      "desc": "Save 43%! ✨ Get €135 off the €314 MSRP. Two full kits at €89.50 each.\\n\\nOne for you, one for someone you love <3\\n\\nWhat's in the box:\\n📷 2x Await Cameras\\n🪢 2x Wrist Straps\\n🎨 4x Additional Faceplates\\n📿 2x Neck Straps\\n\\nColor options (each camera + faceplates chosen separately):\\n💙 Blue\\n🩷 Pink\\n🩵 Teal\\n💚 Green\\n💛 Yellow\\n\\n🎨 Pick your colors after the campaign, in backer tools.\\n\\nShipping:\\n📦 Estimated delivery: Dec 2026\\n🌍 Ships anywhere - flat €12",
+      "backers": 27,
+      "limit": 100,
+      "remaining": 73,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 9,
+    "tiersDate": "2026-09-30",
     "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
+    "cues": [
+     [
+      0.0,
+      4.64,
+      "嗨，我是来自Rolling Square的Una ，这是"
+     ],
+     [
+      4.64,
+      5.8,
+      "是等待。"
+     ],
+     [
+      5.8,
+      7.8,
+      "为什么90年代仍然如此怀旧？"
+     ],
+     [
+      7.8,
+      9.24,
+      "这不是十年。"
+     ],
+     [
+      9.24,
+      11.0,
+      "人们实际上是在他们的时刻，而不是"
+     ],
+     [
+      11.0,
+      11.84,
+      "只是捕捉它们。"
+     ],
+     [
+      11.84,
+      14.37,
+      "现在，每场音乐会的一半都会经历"
+     ],
+     [
+      14.37,
+      14.8,
+      "屏幕"
+     ],
+     [
+      14.8,
+      16.8,
+      "进入相机永远不会再打开。"
+     ],
+     [
+      16.8,
+      18.28,
+      "所以我们回顾过去。"
+     ],
+     [
+      18.28,
+      20.24,
+      "一次性相机做对了。"
+     ],
+     [
+      20.24,
+      21.98,
+      "几张照片无所谓，下一张"
+     ],
+     [
+      21.98,
+      23.76,
+      "指纹回来了，记忆回来了"
+     ],
+     [
+      23.76,
+      24.76,
+      "回到他们身边。"
+     ],
+     [
+      24.76,
+      26.95,
+      "等待就是那种感觉，而不是去"
+     ],
+     [
+      26.95,
+      29.08,
+      "印刷厂，而且成本很低。"
+     ],
+     [
+      29.08,
+      31.35,
+      "24次虚拟投篮完成"
+     ],
+     [
+      31.35,
+      33.86,
+      "滚动和真实打印在您的"
+     ],
+     [
+      33.86,
+      34.16,
+      "车门。"
+     ],
+     [
+      34.16,
+      36.24,
+      "摄像头本身也很紧凑，"
+     ],
+     [
+      36.24,
+      38.89,
+      "半透明，就像标志性的Game Boy"
+     ],
+     [
+      38.89,
+      40.4,
+      "颜色或半透明"
+     ],
+     [
+      40.4,
+      42.4,
+      "eye-knack ，一个真正的zillion flash。"
+     ],
+     [
+      42.4,
+      44.98,
+      "可接受颜色的磁性外壳，"
+     ],
+     [
+      44.98,
+      47.32,
+      "等待不是为了更换您的手机。"
+     ],
+     [
+      47.32,
+      48.92,
+      "这是一款相机，适合您"
+     ],
+     [
+      48.92,
+      49.8,
+      "居然还想活下去。"
+     ],
+     [
+      49.8,
+      51.86,
+      "它会回馈一些你可以"
+     ],
+     [
+      51.86,
+      52.12,
+      "待决"
+     ],
+     [
+      52.12,
+      53.92,
+      "立即重新订购等待中的相机。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/051/939/415/32f0ed61bc68f5a8d26fb42036ba08ea_original.png?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1765552668&width=338&sig=KL8FAWRnoTLbuqZzK7T8v4lwi%2FlHcKngY46LlNY80FI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/272/605/d9450fab3ae070a40101036a293f84e6_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1782745745&width=560&sig=QKIgUzI4r2Pje%2FhvB9ep9Lx56w3S1f8AOx%2FUukqPdco%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/100/358/745317122bbebed5ff02693593ca67c8_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1789255599&width=200&sig=rq8UqJWJ02NUy78T7ereRI%2BbS4d5zzRRe%2BVNy%2FjWzSY%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1462810935&quot;},&quot;title&quot;:&quot;Backerspaces&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerShares"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/923/568/1868dc48e8fe95464af0e2fa85f6ea87_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1787969901&width=200&sig=1hjEXVjMvmRKkU150kF4nhv6L442IybMrC3UYiMZlgE%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/2133274132&quot;},&quot;title&quot;:&quot;BackerShares&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerRock"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/708/596/83a5b47046623660a7986bc0a26c6fa7_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1786348338&width=200&sig=qMGwLIOSxQmMq1bRVEz%2BE7kCX5eniSuymHzsbzv0OjE%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/backerrock-collab2&quot;},&quot;title&quot;:&quot;Backer"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/193/264/fa32c47b1f2a90d4bbbeb762ee1d2053_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1789888295&width=200&sig=QSNMrPQWjXw6llN9gIcZfkWe%2B2OZOXcg66tgzjfuK%2BE%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1305056875&quot;},&quot;title&quot;:&quot;Backermany&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;HugeBackers&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/055/197/783/f42f64bcc6ee39b8bd77de6e2db98134_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1789923863&width=200&sig=Pb1Mepz8a3WUzBXr167TvDc29diHlOsPEJyoH8B93Xk%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/722869871&quot;},&quot;title&quot;:&quot;HugeBackers&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerViews"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/842/804/ed0fbf8223ddd42c9dfab031485a7419_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1787363429&width=200&sig=C5IB5Wi2KtVutPfjL4N3ERANf91mjkJ%2F%2FjxIlz1xhrc%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1840447079&quot;},&quot;title&quot;:&quot;BackerViews&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;April"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/039/339/159/2aa44923a83b758797d8a9ff3ec76814_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1669647273&width=200&sig=wCwEBuJWOo2xg0F8crjz8LEH0xgPqPMsh6lKhHZMoUg%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/324053188&quot;},&quot;title&quot;:&quot;Janice"
+     },
+     {
+      "t": "p",
+      "x": "A modern camera inspired by film, designed to slow down, capture with intention, and receive meaningful prints at home.",
+      "z": "一款受胶片启发的现代相机，旨在放慢速度，有意识地拍摄，并在家中获得有意义的印刷品。"
+     }
+    ]
    },
    {
     "id": 1471279538,
@@ -474,11 +1590,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 78424.0,
-    "pledged": 15260648.0,
-    "usdPledged": "1945784.04838376",
+    "pledged": 15296122.0,
+    "usdPledged": "1950307.10293114",
     "goalUsd": 9999.32,
-    "percentFunded": 19459.155360603894,
-    "backers": 3598,
+    "percentFunded": 19504.38896256248,
+    "backers": 3609,
     "deadline": 1793376023,
     "launchedAt": 1789488023,
     "staffPick": true,
@@ -490,17 +1606,17 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6628,
+    "score": 0.6629,
     "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790736928-omPEo3iRiEq9u49W20rvkvd0QDhKuVOF%2BgHtjWE139c%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790736928-omPEo3iRiEq9u49W20rvkvd0QDhKuVOF%2BgHtjWE139c%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11254735,
       "price": 3128.0,
       "title": "Super Early Bird - Violoop",
       "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 3092,
+      "backers": 3171,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -511,7 +1627,7 @@
       "price": 5951.0,
       "title": "Super Early Bird - Violoop Duo Pack",
       "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 329,
+      "backers": 335,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -530,8 +1646,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-09-29",
-    "tiersCarried": "2026-09-29",
+    "tiersDate": "2026-09-30",
+    "tiersCarried": "",
     "cues": [
      [
       0.02,
@@ -630,43 +1746,43 @@
      ],
      [
       47.26,
-      50.44,
+      49.98,
       "从产品到内容再到库存再到"
      ],
      [
-      50.44,
-      51.26,
-      "顾客"
+      49.98,
+      52.56,
+      "客户，它保留了整个过程"
      ],
      [
-      51.26,
+      52.56,
       53.26,
-      "它使整个过程保持联系。"
+      "已连接"
      ],
      [
       53.26,
-      56.36,
-      "无论您的目标，您的业务或"
+      55.98,
+      "无论您的目标、业务或"
      ],
      [
-      56.36,
-      57.26,
-      "您的任务"
+      55.98,
+      58.49,
+      "您的任务，人工智能将自行建模"
      ],
      [
-      57.26,
-      62.18,
-      "人工智能将围绕您进行自我建模。"
+      58.49,
+      59.26,
+      "附近的"
      ],
      [
-      62.18,
-      64.18,
-      "它可以在您的设备上运行。"
+      59.26,
+      64.38,
+      "它在您的设备上运行。您的数据"
      ],
      [
-      64.18,
+      64.38,
       66.18,
-      "您的数据永远不会消失。"
+      "这副表情不会消失了。"
      ],
      [
       66.18,
@@ -690,18 +1806,18 @@
      ],
      [
       92.86,
-      95.97,
+      96.35,
       "当一切都协调一致时，你的想法，"
      ],
      [
-      95.97,
-      97.86,
-      "你的节奏，你的时间，"
+      96.35,
+      100.21,
+      "你的节奏，你的时间，你停止反应，"
      ],
      [
-      97.86,
+      100.21,
       101.86,
-      "你停止反应，你开始流动。"
+      "你开始流动。"
      ]
     ],
     "vttLang": "zh",
@@ -755,8 +1871,8 @@
     ],
     "score": 0.625,
     "coverRemote": "https://i.kickstarter.com/assets/054/975/488/d2c4cd9519d56305cc726640718dfc4c_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788354487&width=1024&sig=WoGvrEKVzqKacnYNCd0AoL9SC6iosXIdV%2Bx8M%2B3f6dc%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1790753559-lJZXcPmVLbNHU%2FCx1TK1S85gOQP9MH%2BPR5tLKKBR%2FUg%3D/projects/5325235/video-1436329-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1790753559-lJZXcPmVLbNHU%2FCx1TK1S85gOQP9MH%2BPR5tLKKBR%2FUg%3D/projects/5325235/video-1436329-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11168629,
@@ -774,9 +1890,9 @@
       "price": 855.0,
       "title": "$109 Early Bird — 150 Units",
       "desc": "1× FernSnap AI Plant Time-Lapse Camera\\nSmart AI-assisted plant monitoring + time-lapse capture\\nOptimized lighting for stable indoor plant growth\\nOne-tap video export via app workflow\\nDesigned for everyday plant parents and hobby growers\\nIncludes USB-C Cable + Plant Care Guide\\n\\n👉 Most popular early-stage reward after Super Early Bird sells out.",
-      "backers": 21,
+      "backers": 23,
       "limit": 150,
-      "remaining": 129,
+      "remaining": 127,
       "eta": 1793491200,
       "shipping": "unrestricted"
      },
@@ -793,8 +1909,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-09-29",
-    "tiersCarried": "2026-09-29",
+    "tiersDate": "2026-09-30",
+    "tiersCarried": "",
     "cues": [
      [
       1.62,
@@ -812,8 +1928,8 @@
       "坯件"
      ],
      [
-      8.76,
-      11.2,
+      8.74,
+      11.22,
       "但是你眨了眨眼睛，你错过了它"
      ],
      [
@@ -829,7 +1945,7 @@
      [
       22.9,
       24.9,
-      "刚刚开机，准备就绪"
+      "只需打开电源，即可使用"
      ],
      [
       25.42,
@@ -862,28 +1978,28 @@
       "捕捉白天和黑夜的绽放"
      ],
      [
-      50.63,
-      53.11,
+      50.67,
+      53.07,
       "在重要时刻，应用会轻轻推动您"
      ],
      [
-      54.47,
-      56.48,
+      54.35,
+      56.4,
       "在稳定的环境中捕捉每一刻"
      ],
      [
-      56.48,
-      58.99,
+      56.4,
+      58.96,
       "恒定光线下的无闪烁质量"
      ],
      [
-      58.99,
+      58.96,
       60.43,
       "和固定的研究角度"
      ],
      [
-      65.77,
-      67.77,
+      65.89,
+      67.89,
       "自动生成完美无瑕的视频"
      ],
      [
@@ -892,32 +2008,32 @@
       "需要零编辑"
      ],
      [
-      72.76,
-      75.06,
+      72.84,
+      75.11,
       "准备好与世界分享这一刻"
      ],
      [
-      75.06,
-      75.64,
+      75.11,
+      75.68,
       "案子还是会发生。"
      ],
      [
-      76.16,
-      82.62,
+      81.07,
+      83.26,
       "三种植物光模式促进植物生长"
      ],
      [
-      82.62,
+      83.26,
       83.59,
       "成长"
      ],
      [
-      87.33,
-      90.35,
+      87.41,
+      90.36,
       "蕨类植物永远不会捕捉每一个神奇的时刻"
      ],
      [
-      90.35,
+      90.36,
       90.85,
       "差到了"
      ],
