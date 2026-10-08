@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T13:53:51+07:00",
+  "generatedAt": "2026-10-08T19:30:45+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 40,
+  "poolSize": 39,
   "projects": [
    {
     "id": 604978070,
@@ -79,283 +79,313 @@
     "cues": [
      [
       0.24,
-      2.24,
+      3.44,
       "你在哪里？"
      ],
      [
-      2.24,
-      4.24,
+      3.44,
+      5.12,
       "你在哪里？"
      ],
      [
-      4.24,
-      7.24,
+      5.12,
+      6.96,
       "找到你的文件感觉是不可能的。"
      ],
      [
-      7.24,
-      13.24,
+      6.96,
+      7.96,
+      "啊!"
+     ],
+     [
+      7.96,
+      8.96,
+      "啊!"
+     ],
+     [
+      10.16,
+      13.2,
       "你需要的是聪明，而不是这种聪明。"
      ],
      [
-      13.24,
-      15.24,
+      13.2,
+      15.68,
       "您需要一个聪明又时尚的助手。"
      ],
      [
-      15.24,
-      16.24,
+      15.68,
+      17.0,
       "坚持住，坚持住。"
      ],
      [
-      16.24,
-      19.24,
+      17.0,
+      19.44,
       "它看起来不错，但很有用。"
      ],
      [
-      19.24,
-      21.65,
+      19.44,
+      23.23,
       "相信我，它比"
      ],
      [
-      21.65,
-      22.24,
+      23.23,
+      24.16,
       "你认为。"
      ],
      [
-      22.24,
-      26.52,
+      24.16,
+      26.84,
       "它可以容纳几代家庭成员。"
      ],
      [
-      26.52,
-      29.52,
-      "支持8TB M2 SSD。"
+      26.84,
+      29.8,
+      "支持 8 TB M2 SSD。"
      ],
      [
-      29.52,
-      32.72,
-      "4 盘位设计，最高支持 32TB"
+      29.8,
+      32.28,
+      "4 盘位设计，最多支持 32 个"
      ],
      [
-      32.72,
-      35.91,
-      "每个驱动器的总容量高达 136TB"
+      32.28,
+      33.52,
+      "每个驱动器 TB，"
      ],
      [
-      35.91,
-      36.52,
+      33.52,
+      38.12,
+      "总共为您提供高达 136 TB"
+     ],
+     [
+      38.12,
+      39.06,
       "存储。"
      ],
      [
-      36.52,
-      40.64,
+      39.06,
+      40.93,
       "难道是找不到文件的问题"
      ],
      [
-      40.64,
-      41.38,
+      40.93,
+      41.26,
       "解决了吗？"
      ],
      [
-      41.38,
-      44.0,
+      41.26,
+      43.93,
       "说真的，只需输入一个关键字，a"
      ],
      [
-      44.0,
-      45.38,
+      43.93,
+      45.34,
       "一个人，或者一个场景。"
      ],
      [
-      45.38,
-      47.03,
+      45.34,
+      47.19,
       "借助人工智能驱动的全球搜索，"
      ],
      [
-      47.03,
-      48.78,
-      "立即找到您的真实身份"
+      47.19,
+      47.7,
+      "立即"
      ],
      [
-      48.78,
-      49.38,
-      "寻找。"
+      47.7,
+      50.14,
+      "准确找到您正在寻找的内容。"
      ],
      [
-      49.38,
-      51.38,
+      50.14,
+      51.1,
       "这还不是全部。"
      ],
      [
-      51.38,
-      53.38,
+      51.1,
+      53.54,
       "它提供极快的传输速度。"
      ],
      [
-      53.38,
+      53.54,
       55.76,
       "这些双 2.5 Gb 以太网端口是"
      ],
      [
       55.76,
-      57.38,
-      "绝对不是来这里玩的。"
+      56.3,
+      "绝对"
      ],
      [
-      57.38,
-      59.38,
-      "哇！这么快啊！"
+      56.3,
+      57.1,
+      "不是来这里玩的。"
      ],
      [
-      59.38,
-      62.19,
+      57.1,
+      57.86,
+      "哇！"
+     ],
+     [
+      57.86,
+      60.1,
+      "这么快啊！"
+     ],
+     [
+      60.1,
+      62.97,
       "还支持本地4K超高清视频"
      ],
      [
-      62.19,
-      64.99,
-      "播放，带来晶莹剔透的视觉效果"
+      62.97,
+      63.62,
+      "播放、"
      ],
      [
-      64.99,
-      67.38,
-      "具有流畅、无延迟的性能。"
+      63.62,
+      70.23,
+      "带来水晶般清晰的视觉效果"
      ],
      [
-      75.34,
-      78.34,
+      70.23,
+      75.7,
+      "流畅、无延迟的性能。"
+     ],
+     [
+      75.7,
+      78.66,
       "您捕捉到了无数珍贵的瞬间。"
      ],
      [
-      78.34,
-      80.86,
+      78.66,
+      81.3,
       "D400自动AI智能相册"
      ],
      [
-      80.86,
-      83.25,
+      81.3,
+      83.58,
       "整理你杂乱的照片库，"
      ],
      [
-      83.25,
-      85.77,
+      83.58,
+      85.22,
       "对记忆进行排序和分类"
      ],
      [
-      85.77,
-      87.34,
+      85.22,
+      87.54,
       "它们被创建的那一刻。"
      ],
      [
-      87.34,
-      89.98,
+      87.54,
+      89.9,
       "双处理器，AI计算"
      ],
      [
-      89.98,
-      92.68,
+      89.9,
+      94.82,
       "本地发生更快、更智能、更多"
      ],
      [
-      92.68,
-      93.34,
+      94.82,
+      96.02,
       "高效。"
      ],
      [
-      93.34,
-      97.45,
-      "嘿伙计们，我们有一个有趣的"
+      96.02,
+      98.2,
+      "嘿，伙计们，我们有一个有趣的"
      ],
      [
-      97.45,
-      98.42,
+      98.2,
+      98.7,
       "项目。"
      ],
      [
-      98.42,
-      100.42,
-      "需要合作吗？"
+      98.7,
+      101.14,
+      "我们需要合作。"
      ],
      [
-      100.42,
-      103.74,
+      101.14,
+      104.5,
       "现在，让我将文件上传到俱乐部"
      ],
      [
-      103.74,
-      104.42,
-      "为了你。"
+      104.5,
+      105.54,
+      "有一段时间了。"
      ],
      [
-      104.42,
-      106.95,
+      105.54,
+      107.37,
       "创建包含详细信息的共享文件夹"
      ],
      [
-      106.95,
-      109.98,
-      "权限控制，保持团队合作"
+      107.37,
+      108.42,
+      "权限控制，"
      ],
      [
-      109.98,
-      111.42,
-      "安全且无缝。"
+      108.42,
+      112.18,
+      "确保您的团队合作安全、无缝。"
      ],
      [
-      111.42,
-      113.42,
+      112.18,
+      113.66,
       "有复杂的文件吗？"
      ],
      [
-      113.42,
-      116.42,
+      113.66,
+      116.38,
       "这个文档包含的内容太多了。"
      ],
      [
-      116.42,
-      124.53,
+      116.38,
+      124.75,
       "AI立即总结，提取"
      ],
      [
-      124.53,
-      128.78,
+      124.75,
+      129.14,
       "几秒钟内的关键点。"
      ],
      [
-      128.78,
-      131.09,
+      129.14,
+      131.26,
       "通过本地存储，您的数据保持安全"
      ],
      [
-      131.09,
-      131.78,
+      131.26,
+      131.9,
       "和私人的。"
      ],
      [
-      131.78,
-      134.78,
+      131.9,
+      135.38,
       "它可以安全地锁定所有东西。"
      ],
      [
-      134.78,
-      138.78,
+      135.38,
+      139.06,
       "Station PCDA400，桌面AI NAS。"
      ],
      [
-      138.78,
-      141.78,
+      139.06,
+      141.94,
       "不仅仅是 NAS，更是本地 AI 系统。"
      ],
      [
-      141.78,
-      144.73,
-      "让搜索更智能。恢复效率"
+      141.94,
+      143.3,
+      "让搜索更智能。"
      ],
      [
-      144.73,
-      145.78,
-      "其本质。"
+      143.3,
+      146.58,
+      "让效率回归本质。"
      ]
     ],
     "vttLang": "zh",
@@ -395,11 +425,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 836837.0,
-    "usdPledged": "836837.0",
+    "pledged": 829533.0,
+    "usdPledged": "829533.0",
     "goalUsd": 20000.0,
-    "percentFunded": 4184.185,
-    "backers": 862,
+    "percentFunded": 4147.665,
+    "backers": 861,
     "deadline": 1794067204,
     "launchedAt": 1788879604,
     "staffPick": true,
@@ -409,10 +439,10 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6616,
+    "score": 0.6615,
     "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1791453488-bbFrEluokUSMq12GQDEzy%2F3hwjc1hWf5m4ZIgC9reXs%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791453488-bbFrEluokUSMq12GQDEzy%2F3hwjc1hWf5m4ZIgC9reXs%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11398822,
@@ -430,7 +460,7 @@
       "price": 799.0,
       "title": "BirdieSense - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 799,
+      "backers": 804,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -449,8 +479,8 @@
      }
     ],
     "rewardsTotal": 7,
-    "tiersDate": "2026-10-07",
-    "tiersCarried": "2026-10-07",
+    "tiersDate": "2026-10-08",
+    "tiersCarried": "",
     "cues": [
      [
       1.55,
@@ -727,6 +757,110 @@
     ]
    },
    {
+    "id": 1903899538,
+    "name": "The World's Smallest AI Calorie Scale in Your Pocket",
+    "blurb": "77g | Apple native design | Waterproof | Wireless Charge | chatGPT AI | 0.1 Gram Accuracy | Smart Set",
+    "url": "https://www.kickstarter.com/projects/calbank/the-worlds-smallest-ai-calorie-scale-in-your-pocket",
+    "category": "Gadgets",
+    "creator": "Calbank",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 25000.0,
+    "pledged": 103850.0,
+    "usdPledged": "13248.2016175",
+    "goalUsd": 3189.26,
+    "percentFunded": 415.4,
+    "backers": 77,
+    "deadline": 1791554807,
+    "launchedAt": 1787666807,
+    "staffPick": false,
+    "sources": [
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai",
+     "gpt",
+     "smart"
+    ],
+    "score": 0.6382,
+    "coverRemote": "https://i.kickstarter.com/assets/054/834/886/47361fdd5915465f970c578940222ee9_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304858&width=1024&sig=EaZckXev1km56utHZHhyVj4HtbcauuAHDxxwqxslOeM%3D",
+    "videoMp4": "https://v2.kickstarter.com/1791385294-2THmbJ%2F%2BAOb3mOX8nWML6ljPoMuZ%2BNQj%2F6%2BdP6JMxsw%3D/projects/5291938/video-1419739-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791385294-2THmbJ%2F%2BAOb3mOX8nWML6ljPoMuZ%2BNQj%2F6%2BdP6JMxsw%3D/projects/5291938/video-1419739-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11041572,
+      "price": 898.0,
+      "title": "Super early bird",
+      "desc": "🔥 save $110\\n\\nCalbank Scale | 49% off retail \\nAuto‑recognize, log & track food · Your weight‑management companion\\nwith 3-years Pro subscription\\n\\n📦 Shipping calculated after campaign",
+      "backers": 30,
+      "limit": 30,
+      "remaining": 0,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11041574,
+      "price": 1055.0,
+      "title": "Early bird",
+      "desc": "Hardware-level AI, still a steal.              \\nwith 3-years Pro subscription.\\n\\n📦 Shipping calculated after campaign",
+      "backers": 42,
+      "limit": 200,
+      "remaining": 158,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11041577,
+      "price": 1958.0,
+      "title": "Better Together Bundle",
+      "desc": "Double the precision, share the health.\\nwith 3-years Pro subscription",
+      "backers": 4,
+      "limit": 150,
+      "remaining": 146,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 11,
+    "tiersDate": "2026-10-08",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/052/691/854/c5cc4ee7337d8d853870ac107109b9d4_original.png?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1771764402&width=338&sig=LLU43GWrVICyfET1eYN0cuJ%2BYanDiA4gLTtqtcvSaBw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/834/886/47361fdd5915465f970c578940222ee9_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1787304858&width=560&sig=Wv6NhrG5cf05Q6n%2FCevMEyNA6sA0aOUoWAYMVwYFpg0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/052/319/739/e22abb94d79ab7442f8a169b3c7eb80f_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1769168715&width=200&sig=1zLbymHoGsdZXFcfWtKhoVbUe4Rz%2BMnlzBEmqAHvV5s%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/kk11marketing&quot;},&quot;title&quot;:&quot;KK11"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/837/446/0d299d90b5a2cb07dfc26012e18e9d5d_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1779504649&width=200&sig=ZoA3mavrrOwK%2B5JtNcZROKslwKjA46dbJt9OHhrZGx8%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1195554802&quot;},&quot;title&quot;:&quot;Backerbooster&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerLead"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/815/132/ecdc85126a4f6306e44b422722cd80cf_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1779354603&width=200&sig=IoXmBBxngwEf5FnEfIDW8AbQmo8Zn7z936HyGX%2BO4a8%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/405519742&quot;},&quot;title&quot;:&quot;BackerLead&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerSpaces-"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/706/662/745317122bbebed5ff02693593ca67c8_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1786331318&width=200&sig=kszwYF6heURrdwXb4xzftUSYaGVMBTo%2BoIPljp89RKs%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/416306093&quot;},&quot;title&quot;:&quot;BackerSpaces&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;Kickbooster&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/021/346/206/659c32cf7e102c2f1c3ce44dd37a297d_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1601909014&width=200&sig=GKNNuIw7wK2qmP%2BJ%2BHsPBAh5ZfAS7h3VRjpNkotwU9k%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/prettyslug&quot;},&quot;title&quot;:&quot;kickbooster&quot;}]},&quot;timeline&quot;:{&quot;edges&quot;:[{&quot;node&quot;:{&quot;type&quot;:&quot;update&quot;,&quot;timestamp&quot;:1790998958,&quot;data&quot;:{&quot;id&quot;:&quot;RnJlZWZvcm1Qb3N0LTQ4MTYyNjk=&quot;}}}]},&quot;isInPostCampaignPledgingPhase&quot;:false},&quot;projectModal&quot;:{&quot;opened&quot;:false,&quot;modalType&quot;:null},&quot;watching&quot;:{&quot;projectIsLaunched&quot;:true,&quot;projectCanRemind&quot;:true,&quot;projectId&quot;:&quot;UHJvamVjdC0xOTAzODk5NTM4&quot;},&quot;currentUser&quot;:{}}"
+     },
+     {
+      "t": "p",
+      "x": "77g | Apple native design | Waterproof | Wireless Charge | chatGPT AI | 0.1 Gram Accuracy | Smart Set",
+      "z": "77克|苹果原生设计|防水|无线充电|聊天GPT AI | 0.1 克精度 |智能设置"
+     }
+    ]
+   },
+   {
     "id": 1500870645,
     "name": "FernSnap: AI Plant Time-Lapse Camera",
     "blurb": "Turn plant growth into share-ready videos with AI-powered presets, automated capture, local storage, and a built-in grow light.",
@@ -754,10 +888,10 @@
      "automate",
      "camera"
     ],
-    "score": 0.6387,
+    "score": 0.6303,
     "coverRemote": "https://i.kickstarter.com/assets/054/975/488/d2c4cd9519d56305cc726640718dfc4c_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788354487&width=1024&sig=WoGvrEKVzqKacnYNCd0AoL9SC6iosXIdV%2Bx8M%2B3f6dc%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1791445126-JElrN2lnjIj%2BEhJqmcbfwYrqmMebpaD2vcHNdPOZIzU%3D/projects/5325235/video-1436329-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791445126-JElrN2lnjIj%2BEhJqmcbfwYrqmMebpaD2vcHNdPOZIzU%3D/projects/5325235/video-1436329-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11168629,
@@ -775,9 +909,9 @@
       "price": 855.0,
       "title": "$109 Early Bird — 150 Units",
       "desc": "1× FernSnap AI Plant Time-Lapse Camera\\nSmart AI-assisted plant monitoring + time-lapse capture\\nOptimized lighting for stable indoor plant growth\\nOne-tap video export via app workflow\\nDesigned for everyday plant parents and hobby growers\\nIncludes USB-C Cable + Plant Care Guide\\n\\n👉 Most popular early-stage reward after Super Early Bird sells out.",
-      "backers": 35,
+      "backers": 42,
       "limit": 150,
-      "remaining": 115,
+      "remaining": 108,
       "eta": 1793491200,
       "shipping": "unrestricted"
      },
@@ -786,7 +920,7 @@
       "price": 1560.0,
       "title": "$199 Duo Pack (2×) — Best Value",
       "desc": "2× FernSnap AI Plant Time-Lapse Camera\\nMonitor two plants or two growth environments simultaneously\\nPerfect for comparison setups (growth stages, plant types)\\nIdeal for shelves, balconies, or dual plant corners\\nIncludes 2× USB-C Cables + 2× Guides\\n\\n👉 Best value per device for multi-plant users.",
-      "backers": 15,
+      "backers": 14,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -794,8 +928,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-10-07",
-    "tiersCarried": "2026-10-07",
+    "tiersDate": "2026-10-08",
+    "tiersCarried": "",
     "cues": [
      [
       1.62,
@@ -975,110 +1109,6 @@
     ]
    },
    {
-    "id": 1903899538,
-    "name": "The World's Smallest AI Calorie Scale in Your Pocket",
-    "blurb": "77g | Apple native design | Waterproof | Wireless Charge | chatGPT AI | 0.1 Gram Accuracy | Smart Set",
-    "url": "https://www.kickstarter.com/projects/calbank/the-worlds-smallest-ai-calorie-scale-in-your-pocket",
-    "category": "Gadgets",
-    "creator": "Calbank",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 25000.0,
-    "pledged": 103850.0,
-    "usdPledged": "13248.2016175",
-    "goalUsd": 3189.26,
-    "percentFunded": 415.4,
-    "backers": 77,
-    "deadline": 1791554807,
-    "launchedAt": 1787666807,
-    "staffPick": false,
-    "sources": [
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai",
-     "gpt",
-     "smart"
-    ],
-    "score": 0.6382,
-    "coverRemote": "https://i.kickstarter.com/assets/054/834/886/47361fdd5915465f970c578940222ee9_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304858&width=1024&sig=EaZckXev1km56utHZHhyVj4HtbcauuAHDxxwqxslOeM%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11041572,
-      "price": 898.0,
-      "title": "Super early bird",
-      "desc": "🔥 save $110\\n\\nCalbank Scale | 49% off retail \\nAuto‑recognize, log & track food · Your weight‑management companion\\nwith 3-years Pro subscription\\n\\n📦 Shipping calculated after campaign",
-      "backers": 30,
-      "limit": 30,
-      "remaining": 0,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11041574,
-      "price": 1055.0,
-      "title": "Early bird",
-      "desc": "Hardware-level AI, still a steal.              \\nwith 3-years Pro subscription.\\n\\n📦 Shipping calculated after campaign",
-      "backers": 42,
-      "limit": 200,
-      "remaining": 158,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11041577,
-      "price": 1958.0,
-      "title": "Better Together Bundle",
-      "desc": "Double the precision, share the health.\\nwith 3-years Pro subscription",
-      "backers": 4,
-      "limit": 150,
-      "remaining": 146,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 11,
-    "tiersDate": "2026-10-07",
-    "tiersCarried": "2026-10-07",
-    "cues": [],
-    "vttLang": "",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/052/691/854/c5cc4ee7337d8d853870ac107109b9d4_original.png?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1771764402&width=338&sig=LLU43GWrVICyfET1eYN0cuJ%2BYanDiA4gLTtqtcvSaBw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/834/886/47361fdd5915465f970c578940222ee9_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1787304858&width=560&sig=Wv6NhrG5cf05Q6n%2FCevMEyNA6sA0aOUoWAYMVwYFpg0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/052/319/739/e22abb94d79ab7442f8a169b3c7eb80f_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1769168715&width=200&sig=1zLbymHoGsdZXFcfWtKhoVbUe4Rz%2BMnlzBEmqAHvV5s%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/kk11marketing&quot;},&quot;title&quot;:&quot;KK11"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/837/446/0d299d90b5a2cb07dfc26012e18e9d5d_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1779504649&width=200&sig=ZoA3mavrrOwK%2B5JtNcZROKslwKjA46dbJt9OHhrZGx8%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/1195554802&quot;},&quot;title&quot;:&quot;Backerbooster&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerLead"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/815/132/ecdc85126a4f6306e44b422722cd80cf_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1779354603&width=200&sig=IoXmBBxngwEf5FnEfIDW8AbQmo8Zn7z936HyGX%2BO4a8%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/405519742&quot;},&quot;title&quot;:&quot;BackerLead&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;BackerSpaces-"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/706/662/745317122bbebed5ff02693593ca67c8_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1786331318&width=200&sig=kszwYF6heURrdwXb4xzftUSYaGVMBTo%2BoIPljp89RKs%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/416306093&quot;},&quot;title&quot;:&quot;BackerSpaces&quot;},{&quot;node&quot;:{&quot;name&quot;:&quot;Kickbooster&quot;,&quot;imageUrl&quot;:&quot;https://i.kickstarter.com/assets/021/346/206/659c32cf7e102c2f1c3ce44dd37a297d_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1601909014&width=200&sig=GKNNuIw7wK2qmP%2BJ%2BHsPBAh5ZfAS7h3VRjpNkotwU9k%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/prettyslug&quot;},&quot;title&quot;:&quot;kickbooster&quot;}]},&quot;timeline&quot;:{&quot;edges&quot;:[{&quot;node&quot;:{&quot;type&quot;:&quot;update&quot;,&quot;timestamp&quot;:1790998958,&quot;data&quot;:{&quot;id&quot;:&quot;RnJlZWZvcm1Qb3N0LTQ4MTYyNjk=&quot;}}}]},&quot;isInPostCampaignPledgingPhase&quot;:false},&quot;projectModal&quot;:{&quot;opened&quot;:false,&quot;modalType&quot;:null},&quot;watching&quot;:{&quot;projectIsLaunched&quot;:true,&quot;projectCanRemind&quot;:true,&quot;projectId&quot;:&quot;UHJvamVjdC0xOTAzODk5NTM4&quot;},&quot;currentUser&quot;:{}}"
-     },
-     {
-      "t": "p",
-      "x": "77g | Apple native design | Waterproof | Wireless Charge | chatGPT AI | 0.1 Gram Accuracy | Smart Set",
-      "z": "77克|苹果原生设计|防水|无线充电|聊天GPT AI | 0.1 克精度 |智能设置"
-     }
-    ]
-   },
-   {
     "id": 1321991576,
     "name": "DogVibe: The Smart Dog Training Collar for Off-Leash Freedom",
     "blurb": "A smart training system that detects leash pulling, sets virtual proximity fences, and runs from an app on your phone. No subscription.",
@@ -1090,11 +1120,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 301887.0,
-    "usdPledged": "301887.0",
+    "pledged": 303147.0,
+    "usdPledged": "303147.0",
     "goalUsd": 20000.0,
-    "percentFunded": 1509.435,
-    "backers": 906,
+    "percentFunded": 1515.735,
+    "backers": 909,
     "deadline": 1793343600,
     "launchedAt": 1790685085,
     "staffPick": true,
@@ -1105,19 +1135,19 @@
      "ai",
      "smart"
     ],
-    "score": 0.6271,
+    "score": 0.6222,
     "coverRemote": "https://i.kickstarter.com/assets/055/331/264/bbdcdc5a67384b4843a066e81b885c60_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790784223&width=1024&sig=BlgsHwEBuW9Qu4p%2BTD7oyzhYujYj1vzYj01dd%2BkuEvk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1791407929-dbxbrZCobeBvl%2Bnq7pdo1aex4z4HnjuOZcLwdc85F1I%3D/projects/5358412/video-1462030-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791407929-dbxbrZCobeBvl%2Bnq7pdo1aex4z4HnjuOZcLwdc85F1I%3D/projects/5358412/video-1462030-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11303046,
       "price": 250.0,
       "title": "VIP - 1 Dog Bundle",
       "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 32% OFF. $270 total with your $20 deposit, $130 off the $400 retail price\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 313,
+      "backers": 318,
       "limit": 350,
-      "remaining": 37,
+      "remaining": 32,
       "eta": 1806537600,
       "shipping": "restricted"
      },
@@ -1126,9 +1156,9 @@
       "price": 295.0,
       "title": "Early Bird - 1 Dog Bundle",
       "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 26% OFF. $105 off the $400 retail price\\n⚡ Limited quantity. When these are gone the price goes to $330.\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 327,
-      "limit": 350,
-      "remaining": 23,
+      "backers": 343,
+      "limit": 375,
+      "remaining": 32,
       "eta": 1806537600,
       "shipping": "restricted"
      },
@@ -1137,16 +1167,16 @@
       "price": 400.0,
       "title": "VIP - 2 Dog Bundle",
       "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 2x DogVibe\\n✅ 2x Static Module\\n✅ 2x Leash Module\\n✅ 1x Remote\\n\\n🚀 47% OFF. $420 total with your $20 deposit, $380 off the $800 retail price\\n🐕 $210 per dog\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 100,
+      "backers": 102,
       "limit": 150,
-      "remaining": 50,
+      "remaining": 48,
       "eta": 1806537600,
       "shipping": "restricted"
      }
     ],
     "rewardsTotal": 12,
-    "tiersDate": "2026-10-07",
-    "tiersCarried": "2026-10-07",
+    "tiersDate": "2026-10-08",
+    "tiersCarried": "",
     "cues": [
      [
       19.31,
