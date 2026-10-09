@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-10-09",
-  "generatedAt": "2026-10-09T14:03:01+07:00",
+  "generatedAt": "2026-10-09T19:30:51+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 40,
@@ -79,283 +79,313 @@
     "cues": [
      [
       0.24,
-      2.24,
+      3.44,
       "你在哪里？"
      ],
      [
-      2.24,
-      4.24,
+      3.44,
+      5.12,
       "你在哪里？"
      ],
      [
-      4.24,
-      7.24,
+      5.12,
+      6.96,
       "找到你的文件感觉是不可能的。"
      ],
      [
-      7.24,
-      13.24,
+      6.96,
+      7.96,
+      "啊!"
+     ],
+     [
+      7.96,
+      8.96,
+      "啊!"
+     ],
+     [
+      10.16,
+      13.2,
       "你需要的是聪明，而不是这种聪明。"
      ],
      [
-      13.24,
-      15.24,
+      13.2,
+      15.68,
       "您需要一个聪明又时尚的助手。"
      ],
      [
-      15.24,
-      16.24,
+      15.68,
+      16.96,
       "坚持住，坚持住。"
      ],
      [
-      16.24,
-      19.24,
+      16.96,
+      19.44,
       "它看起来不错，但很有用。"
      ],
      [
-      19.24,
-      21.65,
+      19.44,
+      23.23,
       "相信我，它比"
      ],
      [
-      21.65,
-      22.24,
+      23.23,
+      24.16,
       "你认为。"
      ],
      [
-      22.24,
-      26.52,
+      24.16,
+      26.84,
       "它可以容纳几代家庭成员。"
      ],
      [
-      26.52,
-      29.52,
-      "支持8TB M2 SSD。"
+      26.84,
+      29.8,
+      "支持 8 TB M2 SSD。"
      ],
      [
-      29.52,
-      32.72,
-      "4 盘位设计，最高支持 32TB"
+      29.8,
+      32.28,
+      "4 盘位设计，最多支持 32 个"
      ],
      [
-      32.72,
-      35.91,
-      "每个驱动器的总容量高达 136TB"
+      32.28,
+      33.52,
+      "每个驱动器 TB，"
      ],
      [
-      35.91,
-      36.52,
+      33.52,
+      38.12,
+      "总共为您提供高达 136 TB"
+     ],
+     [
+      38.12,
+      39.06,
       "存储。"
      ],
      [
-      36.52,
-      40.64,
+      39.06,
+      40.93,
       "难道是找不到文件的问题"
      ],
      [
-      40.64,
-      41.38,
+      40.93,
+      41.26,
       "解决了吗？"
      ],
      [
-      41.38,
-      44.0,
+      41.26,
+      43.93,
       "说真的，只需输入一个关键字，a"
      ],
      [
-      44.0,
-      45.38,
+      43.93,
+      45.34,
       "一个人，或者一个场景。"
      ],
      [
-      45.38,
-      47.03,
+      45.34,
+      47.06,
       "借助人工智能驱动的全球搜索，"
      ],
      [
-      47.03,
-      48.78,
-      "立即找到您的真实身份"
+      47.06,
+      49.37,
+      "它立即准确地找到您的身份"
      ],
      [
-      48.78,
-      49.38,
+      49.37,
+      50.1,
       "寻找。"
      ],
      [
-      49.38,
-      51.38,
+      50.1,
+      51.1,
       "这还不是全部。"
      ],
      [
-      51.38,
-      53.38,
+      51.1,
+      53.5,
       "它提供极快的传输速度。"
      ],
      [
-      53.38,
-      55.76,
+      53.5,
+      55.74,
       "这些双 2.5 Gb 以太网端口是"
      ],
      [
-      55.76,
-      57.38,
-      "绝对不是来这里玩的。"
+      55.74,
+      56.5,
+      "绝对不是"
      ],
      [
-      57.38,
-      59.38,
-      "哇！这么快啊！"
+      56.5,
+      57.1,
+      "来这里玩。"
      ],
      [
-      59.38,
-      62.19,
+      57.1,
+      57.86,
+      "哇！"
+     ],
+     [
+      57.86,
+      60.06,
+      "这么快啊！"
+     ],
+     [
+      60.06,
+      62.93,
       "还支持本地4K超高清视频"
      ],
      [
-      62.19,
-      64.99,
-      "播放，带来晶莹剔透的视觉效果"
+      62.93,
+      63.58,
+      "播放、"
      ],
      [
-      64.99,
-      67.38,
-      "具有流畅、无延迟的性能。"
+      63.58,
+      70.21,
+      "带来水晶般清晰的视觉效果"
      ],
      [
-      75.34,
-      78.34,
+      70.21,
+      75.7,
+      "流畅、无滞后的性能。"
+     ],
+     [
+      75.7,
+      78.62,
       "您捕捉到了无数珍贵的瞬间。"
      ],
      [
-      78.34,
-      80.86,
+      78.62,
+      81.3,
       "D400自动AI智能相册"
      ],
      [
-      80.86,
-      83.25,
+      81.3,
+      83.36,
       "整理你杂乱的照片库，"
      ],
      [
-      83.25,
-      85.77,
-      "对记忆进行排序和分类"
+      83.36,
+      84.78,
+      "排序和分类"
      ],
      [
-      85.77,
-      87.34,
-      "它们被创建的那一刻。"
+      84.78,
+      87.54,
+      "记忆被创造的那一刻。"
      ],
      [
-      87.34,
-      89.98,
+      87.54,
+      89.9,
       "双处理器，AI计算"
      ],
      [
-      89.98,
-      92.68,
+      89.9,
+      94.79,
       "本地发生更快、更智能、更多"
      ],
      [
-      92.68,
-      93.34,
+      94.79,
+      95.98,
       "高效。"
      ],
      [
-      93.34,
-      97.45,
-      "嘿伙计们，我们有一个有趣的"
+      95.98,
+      96.62,
+      "嘿，伙计们。"
      ],
      [
-      97.45,
-      98.42,
-      "项目。"
+      96.62,
+      98.66,
+      "我们有一个有趣的项目。"
      ],
      [
-      98.42,
-      100.42,
+      98.66,
+      101.1,
       "需要合作吗？"
      ],
      [
-      100.42,
-      103.74,
+      101.1,
+      104.75,
       "现在，让我将文件上传到俱乐部"
      ],
      [
-      103.74,
-      104.42,
+      104.75,
+      105.5,
       "为了你。"
      ],
      [
-      104.42,
-      106.95,
+      105.5,
+      107.33,
       "创建包含详细信息的共享文件夹"
      ],
      [
-      106.95,
-      109.98,
-      "权限控制，保持团队合作"
+      107.33,
+      108.38,
+      "权限控制，"
      ],
      [
-      109.98,
-      111.42,
-      "安全且无缝。"
+      108.38,
+      112.14,
+      "确保您的团队合作安全、无缝。"
      ],
      [
-      111.42,
-      113.42,
+      112.14,
+      113.62,
       "有复杂的文件吗？"
      ],
      [
-      113.42,
-      116.42,
+      113.62,
+      116.34,
       "这个文档包含的内容太多了。"
      ],
      [
-      116.42,
-      124.53,
+      116.34,
+      124.71,
       "AI立即总结，提取"
      ],
      [
-      124.53,
-      128.78,
+      124.71,
+      129.1,
       "几秒钟内的关键点。"
      ],
      [
-      128.78,
-      131.09,
+      129.1,
+      131.22,
       "通过本地存储，您的数据保持安全"
      ],
      [
-      131.09,
-      131.78,
+      131.22,
+      131.86,
       "和私人的。"
      ],
      [
-      131.78,
-      134.78,
+      131.86,
+      135.38,
       "它可以安全地锁定所有东西。"
      ],
      [
-      134.78,
-      138.78,
-      "Station PCDA400，桌面AI NAS。"
+      135.38,
+      139.1,
+      "Station PCDA400 桌面 AI NAS。"
      ],
      [
-      138.78,
-      141.78,
-      "不仅仅是 NAS，还是本地 AI 系统。"
+      139.1,
+      141.94,
+      "不仅仅是 NAS，更是本地 AI 系统。"
      ],
      [
-      141.78,
-      144.73,
-      "让搜索更智能。恢复效率"
+      141.94,
+      143.3,
+      "让搜索更智能。"
      ],
      [
-      144.73,
-      145.78,
-      "其本质。"
+      143.3,
+      146.58,
+      "让效率回归本质。"
      ]
     ],
     "vttLang": "zh",
@@ -411,8 +441,8 @@
     ],
     "score": 0.6614,
     "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1791539973-xH66NmdYP9bFJHRmmLMUkm5797E94ebZ1OIfMfNDVA4%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791539973-xH66NmdYP9bFJHRmmLMUkm5797E94ebZ1OIfMfNDVA4%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11398822,
@@ -430,7 +460,7 @@
       "price": 799.0,
       "title": "BirdieSense - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 804,
+      "backers": 803,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -449,8 +479,8 @@
      }
     ],
     "rewardsTotal": 7,
-    "tiersDate": "2026-10-08",
-    "tiersCarried": "2026-10-08",
+    "tiersDate": "2026-10-09",
+    "tiersCarried": "",
     "cues": [
      [
       1.55,
@@ -510,17 +540,17 @@
      [
       36.94,
       47.17,
-      "就在那里。"
+      "就在那里！"
      ],
      [
       47.17,
-      50.3,
-      "如果你希望我严格并且"
+      51.22,
+      "如果你希望我严格、严谨"
      ],
      [
-      50.3,
+      51.22,
       52.96,
-      "严谨，我也能做到。"
+      "我也能做到。"
      ],
      [
       52.96,
@@ -738,11 +768,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 322991.0,
-    "usdPledged": "322991.0",
+    "pledged": 325139.0,
+    "usdPledged": "325139.0",
     "goalUsd": 20000.0,
-    "percentFunded": 1614.9550000000002,
-    "backers": 970,
+    "percentFunded": 1625.695,
+    "backers": 976,
     "deadline": 1793343600,
     "launchedAt": 1790685085,
     "staffPick": true,
@@ -754,19 +784,19 @@
      "ai",
      "smart"
     ],
-    "score": 0.6435,
+    "score": 0.6438,
     "coverRemote": "https://i.kickstarter.com/assets/055/331/264/bbdcdc5a67384b4843a066e81b885c60_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790784223&width=1024&sig=BlgsHwEBuW9Qu4p%2BTD7oyzhYujYj1vzYj01dd%2BkuEvk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1791470989-oETK4wqqDHcD6K90nIWd%2BRaZPbCQp3XJPGlOOIdJPts%3D/projects/5358412/video-1462030-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791470989-oETK4wqqDHcD6K90nIWd%2BRaZPbCQp3XJPGlOOIdJPts%3D/projects/5358412/video-1462030-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11303046,
       "price": 250.0,
       "title": "VIP - 1 Dog Bundle",
       "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 32% OFF. $270 total with your $20 deposit, $130 off the $400 retail price\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 318,
-      "limit": 350,
-      "remaining": 32,
+      "backers": 338,
+      "limit": 375,
+      "remaining": 37,
       "eta": 1806537600,
       "shipping": "restricted"
      },
@@ -775,9 +805,9 @@
       "price": 295.0,
       "title": "Early Bird - 1 Dog Bundle",
       "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 26% OFF. $105 off the $400 retail price\\n⚡ Limited quantity. When these are gone the price goes to $330.\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 343,
-      "limit": 375,
-      "remaining": 32,
+      "backers": 369,
+      "limit": 400,
+      "remaining": 31,
       "eta": 1806537600,
       "shipping": "restricted"
      },
@@ -786,16 +816,16 @@
       "price": 400.0,
       "title": "VIP - 2 Dog Bundle",
       "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 2x DogVibe\\n✅ 2x Static Module\\n✅ 2x Leash Module\\n✅ 1x Remote\\n\\n🚀 47% OFF. $420 total with your $20 deposit, $380 off the $800 retail price\\n🐕 $210 per dog\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 102,
+      "backers": 109,
       "limit": 150,
-      "remaining": 48,
+      "remaining": 41,
       "eta": 1806537600,
       "shipping": "restricted"
      }
     ],
     "rewardsTotal": 12,
-    "tiersDate": "2026-10-08",
-    "tiersCarried": "2026-10-08",
+    "tiersDate": "2026-10-09",
+    "tiersCarried": "",
     "cues": [
      [
       19.31,
@@ -820,7 +850,7 @@
      [
       28.11,
       30.59,
-      "并建立真正的、不受约束的信任。"
+      "并建立真正的不受束缚的信任。"
      ],
      [
       30.59,
@@ -875,7 +905,7 @@
      [
       49.99,
       51.43,
-      "阿普索！"
+      "阿普索斯！"
      ],
      [
       51.43,
@@ -919,23 +949,23 @@
      ],
      [
       63.31,
-      65.11,
-      "我什至正在为其中之一进行营销"
+      64.67,
+      "我什至在进行营销"
      ],
      [
-      65.11,
-      65.99,
-      "增长最快的"
+      64.67,
+      66.71,
+      "发展最快的宠物品牌之一"
      ],
      [
-      65.99,
-      67.78,
-      "世界上的宠物品牌"
+      66.71,
+      67.31,
+      "在世界上"
      ],
      [
-      67.78,
+      67.31,
       68.55,
-      "分散注意力的玩具"
+      "做了一个分散注意力的玩具"
      ],
      [
       68.55,
@@ -954,33 +984,28 @@
      ],
      [
       72.99,
-      77.05,
+      77.01,
       "下面是我的狗。"
      ],
      [
-      77.05,
-      79.14,
+      77.01,
+      79.1,
       "所以我建立了这个我希望存在的系统"
      ],
      [
-      79.14,
-      79.89,
+      79.1,
+      79.85,
       "当我开始的时候。"
      ],
      [
-      79.89,
-      82.02,
-      "一种一致的培训语言，您可以"
+      79.85,
+      81.57,
+      "一种一致的培训语言"
      ],
      [
-      82.02,
-      82.17,
-      "狗"
-     ],
-     [
-      82.17,
+      81.57,
       88.91,
-      "终于会明白。"
+      "你的狗最终会理解的。"
      ],
      [
       88.91,
@@ -989,23 +1014,18 @@
      ],
      [
       90.55,
-      93.03,
-      "它由四块硬件组成，"
+      92.59,
+      "它由四块硬件组成。"
      ],
      [
-      93.03,
-      93.59,
-      "狗的气质，"
+      92.59,
+      94.87,
+      "狗的氛围，皮带模块，"
      ],
      [
-      93.59,
-      95.82,
-      "皮带模块，可选静态"
-     ],
-     [
-      95.82,
+      94.87,
       96.91,
-      "校正模块，"
+      "可选的静态校正模块，"
      ],
      [
       96.91,
@@ -1014,13 +1034,13 @@
      ],
      [
       98.23,
-      100.36,
-      "狗的氛围与你的颜色有关"
+      99.79,
+      "狗的氛围与颜色有关"
      ],
      [
-      100.36,
+      99.79,
       101.27,
-      "狗已经穿了"
+      "你的狗已经穿了"
      ],
      [
       101.27,
@@ -1059,233 +1079,243 @@
      ],
      [
       114.11,
-      115.95,
-      "借助 Dog Vivi 应用程序，您的手机"
+      115.27,
+      "有了狗的氛围应用程序，"
      ],
      [
-      115.95,
-      117.35,
-      "充当您的日常遥控器。"
+      115.27,
+      117.31,
+      "您的手机充当您的日常遥控器。"
      ],
      [
-      117.35,
-      119.12,
-      "锁定屏幕上的小部件意味着您"
+      117.31,
+      118.67,
+      "锁定屏幕上的小部件"
      ],
      [
-      119.12,
-      119.55,
-      "甚至不"
+      118.67,
+      120.23,
+      "意味着你甚至不需要解锁"
      ],
      [
-      119.55,
-      121.23,
-      "必须解锁您的手机才能使用"
+      120.23,
+      120.63,
+      "你的手机"
      ],
      [
-      121.23,
+      120.63,
       121.51,
-      "颜色。"
+      "使用颜色。"
      ],
      [
       121.51,
-      123.51,
-      "每个设置都在应用程序中，"
+      123.47,
+      "每个设置都在应用程序中"
      ],
      [
-      123.51,
+      123.47,
       125.59,
       "射程约 200 英尺。"
      ],
      [
       125.59,
-      127.83,
+      127.79,
       "一部手机最多可容纳四只狗"
      ],
      [
-      127.83,
-      130.4,
+      127.79,
+      130.36,
       "和全家人的手机相比"
      ],
      [
-      130.4,
-      131.03,
+      130.36,
+      130.99,
       "一种颜色。"
      ],
      [
-      131.03,
-      133.18,
+      130.99,
+      132.88,
       "皮带模块夹在您的狗之间"
      ],
      [
-      133.18,
-      134.23,
-      "颜色和皮带。"
+      132.88,
+      133.11,
+      "颜色"
      ],
      [
-      134.23,
-      136.96,
-      "所以当你的狗拉动时，颜色会做出反应"
+      133.11,
+      134.19,
+      "和皮带。"
      ],
      [
-      136.96,
-      137.55,
-      "立即"
+      134.19,
+      135.75,
+      "所以当你的狗拉扯时，"
      ],
      [
-      137.55,
-      139.23,
-      "每一次。"
+      135.75,
+      138.82,
+      "每一个颜色都会立即响应"
      ],
      [
-      139.23,
-      141.31,
-      "你的狗很快就会把这些点连起来，"
+      138.82,
+      139.19,
+      "时间。"
      ],
      [
-      141.31,
-      143.15,
+      139.19,
+      141.27,
+      "你的狗很快就能把这些点连起来"
+     ],
+     [
+      141.27,
+      143.07,
       "这意味着拉力停止"
      ],
      [
-      143.15,
-      145.8,
+      143.07,
+      145.75,
       "你紧张的散步变得平静，"
      ],
      [
-      145.8,
-      146.99,
-      "宽松的散步。"
+      145.75,
+      146.95,
+      "松散的皮带行走。"
      ],
      [
-      146.99,
-      149.11,
-      "最好的部分是它是自动的，"
+      146.95,
+      149.07,
+      "最好的部分是它是自动的"
      ],
      [
-      149.11,
-      151.06,
+      149.07,
+      151.02,
       "这意味着它适用于每一个"
      ],
      [
-      151.06,
-      151.27,
+      151.02,
+      151.23,
       "时间"
      ],
      [
-      151.27,
-      153.43,
+      151.23,
+      152.43,
       "与任何大小的狗。"
      ],
      [
-      153.43,
-      155.49,
+      153.35,
+      155.44,
       "然后是远程遥控"
      ],
      [
-      155.49,
-      156.23,
+      155.44,
+      156.19,
       "调用按钮。"
      ],
      [
-      156.23,
-      158.66,
+      156.19,
+      158.62,
       "我们帮助您训练实际上的回忆能力"
      ],
      [
-      158.66,
-      159.03,
+      158.62,
+      158.99,
       "成立。"
      ],
      [
-      159.03,
-      161.03,
+      158.99,
+      160.99,
       "好的，让我向您展示一个召回演示。"
      ],
      [
-      161.03,
-      162.83,
+      160.99,
+      162.79,
       "我这里有召回按钮"
      ],
      [
-      162.83,
-      163.23,
+      162.79,
+      163.19,
       "我的手机，"
      ],
      [
-      163.23,
-      164.67,
-      "她衣领宽松。"
+      163.19,
+      164.63,
+      "宽松的衣领。"
      ],
      [
-      164.67,
-      167.27,
+      164.63,
+      166.55,
       "当我击中这个时，她知道要回来"
      ],
      [
-      167.27,
-      168.47,
+      166.55,
+      167.43,
       "每一次。"
      ],
      [
-      168.47,
-      171.24,
+      168.43,
+      171.16,
       "所以我打了它，她听到了，她继续前进"
      ],
      [
-      171.24,
-      171.59,
+      171.16,
+      171.51,
       "回来。"
      ],
      [
-      171.59,
-      173.39,
+      171.51,
+      172.35,
       "来吧，嘘。"
      ],
      [
-      173.39,
-      175.07,
+      173.35,
+      175.03,
       "就这样，我训练了她"
      ],
      [
-      175.07,
-      175.15,
+      175.03,
+      175.11,
       "向上"
      ],
      [
-      175.15,
-      176.87,
+      175.11,
+      176.83,
       "每次都会回来。"
      ],
      [
-      176.87,
-      178.73,
+      176.83,
+      178.72,
       "我们还包括内部培训"
      ],
      [
-      178.73,
+      178.72,
       178.87,
       "应用程序"
      ],
      [
       178.87,
-      181.07,
+      181.03,
       "帮助您训练您的狗做同样的事情。"
      ],
      [
-      181.07,
+      181.03,
       183.47,
       "一旦记忆牢固，你就可以解锁它。"
      ],
      [
       183.47,
-      186.21,
+      186.15,
       "接近模式，随移动的栅栏"
      ],
      [
-      186.21,
+      186.15,
+      186.43,
+      "你。"
+     ],
+     [
+      186.43,
       187.75,
-      "你无论走到哪里。"
+      "无论你走到哪里。"
      ],
      [
       187.75,
@@ -1299,36 +1329,36 @@
      ],
      [
       192.35,
-      194.75,
+      194.71,
       "他们会自动听到召回音。"
      ],
      [
-      194.75,
-      197.65,
+      194.71,
+      197.61,
       "所以当heipes在海滩跑步或者"
      ],
      [
-      197.65,
-      198.31,
+      197.61,
+      198.27,
       "露营,"
      ],
      [
-      198.31,
-      200.23,
-      "你可以让你的狗摆脱束缚并信任"
+      198.27,
+      199.59,
+      "你可以让你的狗摆脱束缚"
      ],
      [
-      200.23,
-      202.03,
-      "他们会保持密切联系。"
+      199.59,
+      201.99,
+      "并相信他们会保持密切联系。"
      ],
      [
-      202.03,
-      204.01,
+      201.99,
+      204.0,
       "所以技术很酷，但我们是这样的"
      ],
      [
-      204.01,
+      204.0,
       205.11,
       "考虑培训。"
      ],
@@ -1350,35 +1380,35 @@
      [
       210.04,
       210.83,
-      "正确的事，"
+      "正确的事情。"
      ],
      [
       210.83,
-      212.19,
+      212.31,
       "这并不是很多人的想法"
      ],
      [
-      212.19,
-      212.91,
-      "关于当他们听到"
+      212.31,
+      212.51,
+      "关于"
      ],
      [
-      212.91,
-      214.31,
-      "训练时打电话给她。"
+      212.51,
+      214.27,
+      "当他们听到训练呼唤她时。"
      ],
      [
-      214.31,
-      216.27,
+      214.27,
+      216.23,
       "所以我们还有可选的静态"
      ],
      [
-      216.27,
-      217.23,
+      216.23,
+      217.19,
       "校正模块，"
      ],
      [
-      217.23,
+      217.19,
       219.11,
       "总是被误解"
      ],
@@ -1394,26 +1424,26 @@
      ],
      [
       223.11,
-      225.05,
+      225.02,
       "所以当你完成这里后，向下滚动，"
      ],
      [
-      225.05,
-      225.71,
+      225.02,
+      225.67,
       "一探究竟。"
      ],
      [
-      225.71,
-      228.05,
+      225.67,
+      228.01,
       "我会告诉你为什么它不是什么"
      ],
      [
-      228.05,
-      228.99,
+      228.01,
+      228.95,
       "害怕。"
      ],
      [
-      228.99,
+      228.95,
       230.95,
       "所以让我直接告诉你吧。"
      ],
@@ -1429,36 +1459,36 @@
      ],
      [
       234.11,
-      236.2,
+      236.18,
       "你拍你的狗一巴掌，它就解决了所有问题"
      ],
      [
-      236.2,
-      236.99,
+      236.18,
+      236.95,
       "他们的问题。"
      ],
      [
-      236.99,
-      239.97,
-      "训练狗需要你付出真正的努力，"
+      236.95,
+      239.91,
+      "训练狗需要你付出真正的努力"
      ],
      [
-      239.97,
-      240.71,
+      239.91,
+      240.67,
       "业主。"
      ],
      [
-      240.71,
-      242.29,
+      240.67,
+      242.25,
       "但狗的氛围提供的是"
      ],
      [
-      242.29,
-      243.67,
+      242.25,
+      243.63,
       "令人难以置信的硬件"
      ],
      [
-      243.67,
+      243.63,
       245.61,
       "搭配经过深思熟虑的培训"
      ],
@@ -1469,58 +1499,58 @@
      ],
      [
       245.91,
-      248.07,
+      248.03,
       "由专业训狗师开发。"
      ],
      [
-      248.07,
-      249.67,
+      248.03,
+      249.63,
       "我在狗的空间里度过了很多年"
      ],
      [
-      249.67,
-      251.77,
+      249.63,
+      251.73,
       "我理解这些问题是因为"
      ],
      [
-      251.77,
-      252.63,
+      251.73,
+      252.59,
       "我经历过它们。"
      ],
      [
-      252.63,
-      254.99,
+      252.59,
+      254.95,
       "我为自己和我的人建立了这个系统"
      ],
      [
-      254.99,
-      255.23,
+      254.95,
+      255.19,
       "狗,"
      ],
      [
-      255.23,
-      256.96,
+      255.19,
+      256.92,
       "但现在我准备好与大家分享"
      ],
      [
-      256.96,
-      257.23,
+      256.92,
+      257.19,
       "世界。"
      ],
      [
-      257.23,
-      259.54,
+      257.19,
+      259.71,
       "我之前已经筹集了超过 200 万美元"
      ],
      [
-      259.54,
-      260.15,
-      "就在这里"
+      259.71,
+      261.78,
+      "就在 Kickstarter 上，以获取之前的信息"
      ],
      [
-      260.15,
+      261.78,
       262.31,
-      "在 Kickstarter 上参与之前的项目"
+      "项目。"
      ],
      [
       262.31,
@@ -1534,21 +1564,21 @@
      ],
      [
       264.43,
-      266.59,
+      266.63,
       "我去过我们海外的厂家"
      ],
      [
-      266.59,
-      269.18,
+      266.63,
+      269.22,
       "为狗的量产做好准备"
      ],
      [
-      269.18,
-      269.51,
+      269.22,
+      269.55,
       "氛围。"
      ],
      [
-      269.51,
+      269.55,
       271.4,
       "已有上千人放下"
      ],
@@ -1569,31 +1599,31 @@
      ],
      [
       274.39,
-      275.83,
+      275.87,
       "推出该产品。"
      ],
      [
-      275.83,
-      277.9,
+      275.87,
+      277.94,
       "今天支持我们，您将成为其中之一"
      ],
      [
-      277.9,
-      278.51,
+      277.94,
+      278.55,
       "第一个人"
      ],
      [
-      278.51,
-      280.96,
+      278.55,
+      281.0,
       "在世界上获得最好的狗氛围"
      ],
      [
-      280.96,
-      281.27,
+      281.0,
+      281.31,
       "价格"
      ],
      [
-      281.27,
+      281.31,
       282.55,
       "他们将永远是。"
      ],
@@ -1604,7 +1634,7 @@
      ],
      [
       284.39,
-      286.71,
+      286.75,
       "因为生活，摆脱束缚会更好。"
      ]
     ],
@@ -1641,11 +1671,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 161816.0,
-    "usdPledged": "20642.42698048",
+    "pledged": 171744.0,
+    "usdPledged": "21908.91493632",
     "goalUsd": 1275.67,
-    "percentFunded": 1618.1599999999999,
-    "backers": 169,
+    "percentFunded": 1717.4399999999998,
+    "backers": 179,
     "deadline": 1791813616,
     "launchedAt": 1788357616,
     "staffPick": false,
@@ -1657,10 +1687,10 @@
      "automate",
      "camera"
     ],
-    "score": 0.631,
+    "score": 0.6332,
     "coverRemote": "https://i.kickstarter.com/assets/054/975/488/d2c4cd9519d56305cc726640718dfc4c_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788354487&width=1024&sig=WoGvrEKVzqKacnYNCd0AoL9SC6iosXIdV%2Bx8M%2B3f6dc%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1791531534-EaNWkLMfM0Uk3C2cHJzXPm9ZhR1jp5gmZuajdWs7nBc%3D/projects/5325235/video-1436329-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791531534-EaNWkLMfM0Uk3C2cHJzXPm9ZhR1jp5gmZuajdWs7nBc%3D/projects/5325235/video-1436329-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11168629,
@@ -1678,9 +1708,9 @@
       "price": 855.0,
       "title": "$109 Early Bird — 150 Units",
       "desc": "1× FernSnap AI Plant Time-Lapse Camera\\nSmart AI-assisted plant monitoring + time-lapse capture\\nOptimized lighting for stable indoor plant growth\\nOne-tap video export via app workflow\\nDesigned for everyday plant parents and hobby growers\\nIncludes USB-C Cable + Plant Care Guide\\n\\n👉 Most popular early-stage reward after Super Early Bird sells out.",
-      "backers": 42,
+      "backers": 54,
       "limit": 150,
-      "remaining": 108,
+      "remaining": 96,
       "eta": 1793491200,
       "shipping": "unrestricted"
      },
@@ -1697,8 +1727,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-10-08",
-    "tiersCarried": "2026-10-08",
+    "tiersDate": "2026-10-09",
+    "tiersCarried": "",
     "cues": [
      [
       1.62,
@@ -1716,8 +1746,8 @@
       "开花"
      ],
      [
-      8.74,
-      11.22,
+      8.76,
+      11.2,
       "但你一眨眼就错过了"
      ],
      [
@@ -1733,7 +1763,7 @@
      [
       22.9,
       24.9,
-      "只需打开电源即可"
+      "刚刚通电，准备就绪"
      ],
      [
       25.42,
@@ -1766,28 +1796,28 @@
       "捕捉日夜绽放"
      ],
      [
-      50.67,
-      53.07,
+      50.63,
+      53.11,
       "您的应用程序会在重要的时候轻轻地推动您"
      ],
      [
-      54.35,
-      56.4,
+      54.47,
+      56.48,
       "捕捉马厩里的每一刻"
      ],
      [
-      56.4,
-      58.96,
+      56.48,
+      58.99,
       "恒定光线下无闪烁质量"
      ],
      [
-      58.96,
+      58.99,
       60.43,
       "以及固定的学习角度"
      ],
      [
-      65.89,
-      67.89,
+      65.77,
+      67.77,
       "自动生成完美视频"
      ],
      [
@@ -1796,32 +1826,32 @@
       "需要零编辑"
      ],
      [
-      72.84,
-      75.11,
+      72.76,
+      75.06,
       "准备好与世界分享的那一刻"
      ],
      [
-      75.11,
-      75.68,
+      75.06,
+      75.64,
       "它发生了"
      ],
      [
-      81.07,
-      83.26,
+      76.16,
+      82.62,
       "三种植物光模式促进植物生长"
      ],
      [
-      83.26,
+      82.62,
       83.59,
       "成长"
      ],
      [
-      87.41,
-      90.36,
+      87.33,
+      90.35,
       "弗恩捕捉每一个神奇的时刻"
      ],
      [
-      90.36,
+      90.35,
       90.85,
       "错过了"
      ],
@@ -1878,65 +1908,66 @@
     ]
    },
    {
-    "id": 1261509744,
-    "name": "SLogic32U3 – The World's First 10Gbps USB3.2 Logic Analyzer",
-    "blurb": "1.4G@4CH,800M@8CH,400M@16CH,200M@32CH,100M ADC,AI debugging via MCP, Runs in your Browser or ngscope, Pro-grade specs at Maker price!",
-    "url": "https://www.kickstarter.com/projects/sipeed/slogic32u3-the-worlds-first-10gbps-usb32-logic-analyzer",
+    "id": 1471279538,
+    "name": "VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER",
+    "blurb": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
+    "url": "https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer",
     "category": "Hardware",
-    "creator": "zepan",
+    "creator": "Bvio Tech",
     "location": "Hong Kong, Hong Kong",
     "country": "Hong Kong",
     "currency": "HKD",
     "currencySymbol": "$",
-    "goal": 50000.0,
-    "pledged": 876822.0,
-    "usdPledged": "111726.6759306",
-    "goalUsd": 6371.11,
-    "percentFunded": 1753.6439999999998,
-    "backers": 580,
-    "deadline": 1794056580,
-    "launchedAt": 1791460980,
-    "staffPick": false,
+    "goal": 78424.0,
+    "pledged": 17207894.0,
+    "usdPledged": "2194064.47560278",
+    "goalUsd": 9999.32,
+    "percentFunded": 21942.12740997654,
+    "backers": 4142,
+    "deadline": 1793376023,
+    "launchedAt": 1789488023,
+    "staffPick": true,
     "sources": [
      "Hardware 热门",
-     "Technology 热门"
+     "Technology 热门",
+     "AI 关键词"
     ],
     "kwHits": [
      "ai"
     ],
-    "score": 0.6179,
-    "coverRemote": "https://i.kickstarter.com/assets/055/322/382/7ed9b95fc3a25a40f3a56f287dd85243_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790734002&width=1024&sig=5xX2aHBtssGD5acoRIm6gLsqMi2oNYLi%2FpEfYd5JnUc%3D",
-    "videoMp4": "https://v2.kickstarter.com/1791527016-sgETfxKcRCBGPkouK2q%2BnmTTHryex7NO6TEITz3f8lo%3D/projects/5386104/video-1464000-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1791527016-sgETfxKcRCBGPkouK2q%2BnmTTHryex7NO6TEITz3f8lo%3D/projects/5386104/video-1464000-hls_playlist.m3u8",
+    "score": 0.6201,
+    "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
+    "videoMp4": "https://v2.kickstarter.com/1791541098-7nM8qrYw40i2Loj%2Bb%2Fx23NyfvpYDrGgWs5QPpq06GZU%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791541098-7nM8qrYw40i2Loj%2Bb%2Fx23NyfvpYDrGgWs5QPpq06GZU%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
     "rewards": [
      {
-      "id": 11445728,
-      "price": 777.0,
-      "title": "SLogic32U3 Super EarlyBird",
-      "desc": "Get the one SLogic32U3 at 45% off MSRP !",
-      "backers": 100,
-      "limit": 100,
-      "remaining": 0,
+      "id": 11254735,
+      "price": 3128.0,
+      "title": "Super Early Bird - Violoop",
+      "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 3640,
+      "limit": null,
+      "remaining": null,
       "eta": 1793491200,
       "shipping": "unrestricted"
      },
      {
-      "id": 11445731,
-      "price": 1012.0,
-      "title": "SLogic32U3 Earlybird",
-      "desc": "Get the one SLogic32U3 at 28% off MSRP !",
-      "backers": 200,
-      "limit": 200,
-      "remaining": 0,
+      "id": 11414615,
+      "price": 3128.0,
+      "title": "Violoop Display Splitter",
+      "desc": "Designed for Violoop, this compact display splitter expands your computer’s video connection, enabling seamless screen sharing between Violoop and an external display. Its plug-and-play design keeps your setup simple, stable, and clutter-free.",
+      "backers": 37,
+      "limit": null,
+      "remaining": null,
       "eta": 1793491200,
       "shipping": "unrestricted"
      },
      {
-      "id": 11445732,
-      "price": 1169.0,
-      "title": "SLogic32U3",
-      "desc": "Get the one SLogic32U3 at 17% off MSRP !",
-      "backers": 232,
+      "id": 11414602,
+      "price": 5951.0,
+      "title": "Super Early Bird - Violoop Duo Pack",
+      "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 394,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1946,69 +1977,196 @@
     "rewardsTotal": 10,
     "tiersDate": "2026-10-09",
     "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
+    "cues": [
+     [
+      0.02,
+      2.71,
+      "每天我们都会经历十几个"
+     ],
+     [
+      2.71,
+      4.02,
+      "不同的工具。"
+     ],
+     [
+      4.02,
+      8.02,
+      "切换、复制、粘贴、重复。"
+     ],
+     [
+      8.02,
+      10.77,
+      "但这些工具中有多少是真正"
+     ],
+     [
+      10.77,
+      12.02,
+      "理解你吗？"
+     ],
+     [
+      12.02,
+      15.02,
+      "早上好！准备好接受董事会审查了吗？"
+     ],
+     [
+      15.02,
+      19.12,
+      "Violoupe 是您本地的 AI 代理，旨在"
+     ],
+     [
+      19.12,
+      20.02,
+      "认识你。"
+     ],
+     [
+      20.02,
+      24.02,
+      "因此，在您提出要求之前，您的工作就已准备就绪。"
+     ],
+     [
+      24.02,
+      26.02,
+      "Violoupe 与您协同行动，"
+     ],
+     [
+      26.02,
+      28.02,
+      "在后台安静地学习。"
+     ],
+     [
+      28.02,
+      31.64,
+      "我发现了一个类似的任务。我要完成吗"
+     ],
+     [
+      31.64,
+      34.26,
+      "和上次一样吗？"
+     ],
+     [
+      34.26,
+      37.28,
+      "Violoupe 找到您的流程并执行"
+     ],
+     [
+      37.28,
+      38.26,
+      "你的命令。"
+     ],
+     [
+      38.26,
+      41.26,
+      "批次准备就绪，下一步正在排队。"
+     ],
+     [
+      41.26,
+      44.19,
+      "它运行您的店面、您的内容以及"
+     ],
+     [
+      44.19,
+      46.98,
+      "您在每个平台上的客户"
+     ],
+     [
+      46.98,
+      47.26,
+      "使用。"
+     ],
+     [
+      47.26,
+      50.44,
+      "从产品到内容到库存"
+     ],
+     [
+      50.44,
+      51.26,
+      "客户，"
+     ],
+     [
+      51.26,
+      53.26,
+      "它使整个过程保持连接。"
+     ],
+     [
+      53.26,
+      56.36,
+      "无论您的目标、业务或"
+     ],
+     [
+      56.36,
+      57.26,
+      "你的任务，"
+     ],
+     [
+      57.26,
+      62.18,
+      "人工智能会围绕你进行自我建模。"
+     ],
+     [
+      62.18,
+      64.18,
+      "它在您的设备上运行。"
+     ],
+     [
+      64.18,
+      66.18,
+      "您的数据永远不会离开。"
+     ],
+     [
+      66.18,
+      76.04,
+      "你的环境改变了，工作也改变了"
+     ],
+     [
+      76.04,
+      78.94,
+      "继续。"
+     ],
+     [
+      78.94,
+      91.57,
+      "最好的系统学习如何工作"
+     ],
+     [
+      91.57,
+      92.86,
+      "你。"
+     ],
+     [
+      92.86,
+      95.97,
+      "当一切都一致时，你的想法，"
+     ],
+     [
+      95.97,
+      97.86,
+      "你的节奏，你的时间，"
+     ],
+     [
+      97.86,
+      101.86,
+      "你停止反应，你开始流动。"
+     ]
+    ],
+    "vttLang": "zh",
     "story": [
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/070/181/e3309d48ade78075d639eba88a517ced_original.png?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1789033083&width=338&sig=Psfbygij5Mh8HmHMHgSLjs3jGz80%2BvJOJznjeRtkFxo%3D"
+      "u": "https://i.kickstarter.com/assets/054/124/797/efad3c6f32de1f4db4a466f06ad4dbba_original.jpg?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1781595932&width=338&sig=7dDfrqN%2Bz3UsDkGcWZZblhdvTphi%2FPfE7eOZM0g%2BW3w%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/322/382/7ed9b95fc3a25a40f3a56f287dd85243_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1790734002&width=560&sig=mIQgkaPbzCEpH3VpGnQ1SvhB9NJzDn9PUxzFZDMzXoE%3D"
+      "u": "https://i.kickstarter.com/assets/055/135/242/f9b0a34c19f50ca0d4705b080b5234f9_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1789488148&width=560&sig=NU%2Bw%2FERTS44HNy0IV9ademHj23arfTVASzDpS8dSFMY%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/021/346/206/659c32cf7e102c2f1c3ce44dd37a297d_original.png?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1601909014&width=200&sig=GKNNuIw7wK2qmP%2BJ%2BHsPBAh5ZfAS7h3VRjpNkotwU9k%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/prettyslug&quot;},&quot;title&quot;:&quot;kickbooster&quot;}]},&quot;timeline&quot;:{&quot;edges&quot;:[{&quot;node&quot;:{&quot;type&quot;:&quot;launch&quot;,&quot;timestamp&quot;:1791460989,&quot;data&quot;:{}}}]},&quot;isInPostCampaignPledgingPhase&quot;:false},&quot;projectModal&quot;:{&quot;opened&quot;:false,&quot;modalType&quot;:null},&quot;watching&quot;:{&quot;projectIsLaunched&quot;:true,&quot;projectCanRemind&quot;:true,&quot;projectId&quot;:&quot;UHJvamVjdC0xMjYxNTA5NzQ0&quot;},&quot;currentUser&quot;:{}}"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/328/324/78acaad14022c59c8c76f056d4d6fa2f_original.png?fit=scale-down&origin=ugc&q=100&v=1790769302&width=680&sig=TS7Ke8XDmhRqxjagmoZQD91x4K201S%2BM5wVbLJX1RB4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/322/339/96da3c0ed82476619c8a6812a4e0713c_original.png?fit=scale-down&origin=ugc&q=100&v=1790733618&width=680&sig=X9MC6cRhdEAygZxZsD9bmhNyGkWfK5bl78WMcp1kLTA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/322/345/9bf282f5644bab3ac4a64ed583815211_original.png?fit=scale-down&origin=ugc&q=100&v=1790733666&width=680&sig=hlrtEey%2FiowvlD0qqSq%2BI70yJHRVYRThrPUuKqf4hx0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/442/761/6536b5a35c2f41df5299e03f7e93be29_original.png?fit=scale-down&origin=ugc&q=100&v=1791515225&width=680&sig=C95gVamX71HQiLY4BA3%2B6wBnJKdwzv1QRSkgBIQSHrk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/442/921/daebea4e94f515884d418474ba0b2191_original.png?fit=scale-down&origin=ugc&q=100&v=1791516255&width=680&sig=OPWuORk61rcWK%2BqnTLADKj69mttn%2F3hAqMENVNAXVzk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/328/327/12d29e21499ed3cd777859be75d11d8a_original.png?fit=scale-down&origin=ugc&q=100&v=1790769324&width=680&sig=OFFwdJowgpYkLoRU6RnxympZcQ5EbPqSHaG%2Bk9M0FkA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/323/002/1eaba369c873c4d093df10e773abdd5b_original.webp?fit=scale-down&origin=ugc&q=92&v=1790737678&width=680&sig=sZY51IoACAXNyDOI3azJNcnzQTvQX6xC5My207aZcc8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/323/008/89608d693282fb46e4b98e6bf52998db_original.webp?fit=scale-down&origin=ugc&q=92&v=1790737719&width=680&sig=W1AdRxWvpv1xzeuL5EYKvF4%2FbWHPFYpp66qxAHsQuck%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/323/013/5b24a7cb4f0588de649784aa342fb657_original.webp?fit=scale-down&origin=ugc&q=92&v=1790737734&width=680&sig=QXtukxw9h1rIkO6kfQT4kZiVbwvLGkdDz8DLbCpTtcM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/328/328/4e548d5b4e4a788088d7da6fe3a14e3d_original.png?fit=scale-down&origin=ugc&q=100&v=1790769333&width=680&sig=6pGYZwpC%2FY6ldCvtBNEef%2FwpwwdDUiUhwT5VST8Rx8E%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/323/016/855d7e2f39cb5d9d6708e2b8aa1300ec_original.webp?fit=scale-down&origin=ugc&q=92&v=1790737761&width=680&sig=uLCn%2BTFNIQ764HMvbD0bfSI4FBNJOQo22OQm32dLp%2Bk%3D"
+      "u": "https://i.kickstarter.com/assets/036/761/432/2064ca18ea847269e07c3b22cffca7fe_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1648110767&width=200&sig=Hzqs%2FrDGcgxqUTft8qBQ%2FIskreAhtkoY%2FLkx946ribY%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/longham&quot;},&quot;title&quot;:&quot;Campaign"
      },
      {
       "t": "p",
-      "x": "1.4G@4CH,800M@8CH,400M@16CH,200M@32CH,100M ADC,AI debugging via MCP, Runs in your Browser or ngscope, Pro-grade specs at Maker price!",
-      "z": "1.4G@4CH，800M@8CH，400M@16CH，200M@32CH，100M ADC，通过 MCP 进行 AI 调试，在浏览器或 ngscope 中运行，专业级规格，制造商价格！"
+      "x": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
+      "z": "借助可读取您的屏幕、准备任务并等待您批准的插件AI ，让每个PC代理都做好准备。"
      }
     ]
    }
