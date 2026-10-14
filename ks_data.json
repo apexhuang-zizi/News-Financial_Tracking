@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T12:42:00+07:00",
+  "generatedAt": "2026-10-14T19:30:57+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 42,
@@ -18,11 +18,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 30000.0,
-    "pledged": 396159.0,
-    "usdPledged": "50511.60755583",
+    "pledged": 401168.0,
+    "usdPledged": "51150.27193616",
     "goalUsd": 3825.1,
-    "percentFunded": 1320.53,
-    "backers": 81,
+    "percentFunded": 1337.2266666666667,
+    "backers": 82,
     "deadline": 1792069120,
     "launchedAt": 1789477120,
     "staffPick": false,
@@ -34,7 +34,7 @@
      "llm",
      "nas"
     ],
-    "score": 0.9022,
+    "score": 0.9026,
     "coverRemote": "https://i.kickstarter.com/assets/055/132/904/6095f4d8bbd8c2fda48671b3587db770_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789477392&width=1024&sig=CGrxhMLnEIhRlVHUE6FNPqf5RAwt%2B5ClHOAGg2ggwjM%3D",
     "videoMp4": "https://v2.kickstarter.com/1791896688-TE%2BBC1E0mQg4COXJLzIjGawissWZb52FCGhPPM54ng8%3D/projects/5358743/video-1450939-h264_high.mp4",
     "videoHls": "https://v2.kickstarter.com/1791896688-TE%2BBC1E0mQg4COXJLzIjGawissWZb52FCGhPPM54ng8%3D/projects/5358743/video-1450939-hls_playlist.m3u8",
@@ -55,7 +55,7 @@
       "price": 5009.0,
       "title": "StationPC AI NAS DA400",
       "desc": "DA400 x 1\\n\\n- You will get a StationPC AI NAS DA400 and save 36% off the MSRP. \\nSeize this incredible offer before prices increase!\\n\\n*HDDs & SDDs are not included.\\n*2-Year warranty included.",
-      "backers": 43,
+      "backers": 44,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -79,283 +79,313 @@
     "cues": [
      [
       0.24,
-      2.24,
+      3.44,
       "你在哪里？"
      ],
      [
-      2.24,
-      4.24,
+      3.44,
+      5.12,
       "你在哪里？"
      ],
      [
-      4.24,
-      7.24,
+      5.12,
+      6.96,
       "找到你的文件感觉是不可能的。"
      ],
      [
-      7.24,
-      13.24,
+      6.96,
+      7.96,
+      "啊!"
+     ],
+     [
+      7.96,
+      8.96,
+      "啊!"
+     ],
+     [
+      10.16,
+      13.2,
       "你需要的是聪明，而不是这种聪明。"
      ],
      [
-      13.24,
-      15.24,
+      13.2,
+      15.68,
       "您需要一个聪明又时尚的助手。"
      ],
      [
-      15.24,
-      16.24,
+      15.68,
+      17.0,
       "坚持住，坚持住。"
      ],
      [
-      16.24,
-      19.24,
+      17.0,
+      19.44,
       "它看起来不错，但很有用。"
      ],
      [
-      19.24,
-      21.65,
+      19.44,
+      23.23,
       "相信我，它比"
      ],
      [
-      21.65,
-      22.24,
+      23.23,
+      24.16,
       "你认为。"
      ],
      [
-      22.24,
-      26.52,
+      24.16,
+      26.84,
       "它可以容纳几代家庭成员。"
      ],
      [
-      26.52,
-      29.52,
-      "支持8TB M2 SSD。"
+      26.84,
+      29.8,
+      "支持 8 TB M2 SSD。"
      ],
      [
-      29.52,
-      32.72,
-      "4 盘位设计，最高支持 32TB"
+      29.8,
+      32.28,
+      "4 盘位设计，最多支持 32 个"
      ],
      [
-      32.72,
-      35.91,
-      "每个驱动器的总容量高达 136TB"
+      32.28,
+      33.52,
+      "每个驱动器 TB，"
      ],
      [
-      35.91,
-      36.52,
+      33.52,
+      38.12,
+      "总共为您提供高达 136 TB"
+     ],
+     [
+      38.12,
+      39.06,
       "存储。"
      ],
      [
-      36.52,
-      40.64,
+      39.06,
+      40.93,
       "难道是找不到文件的问题"
      ],
      [
-      40.64,
-      41.38,
+      40.93,
+      41.26,
       "解决了吗？"
      ],
      [
-      41.38,
-      44.0,
+      41.26,
+      43.93,
       "说真的，只需输入一个关键字，a"
      ],
      [
-      44.0,
-      45.38,
+      43.93,
+      45.34,
       "一个人，或者一个场景。"
      ],
      [
-      45.38,
-      47.03,
+      45.34,
+      47.19,
       "借助人工智能驱动的全球搜索，"
      ],
      [
-      47.03,
-      48.78,
-      "立即找到您的真实身份"
+      47.19,
+      47.7,
+      "立即"
      ],
      [
-      48.78,
-      49.38,
-      "寻找。"
+      47.7,
+      50.14,
+      "准确找到您正在寻找的内容。"
      ],
      [
-      49.38,
-      51.38,
+      50.14,
+      51.1,
       "这还不是全部。"
      ],
      [
-      51.38,
-      53.38,
+      51.1,
+      53.54,
       "它提供极快的传输速度。"
      ],
      [
-      53.38,
+      53.54,
       55.76,
       "这些双 2.5 Gb 以太网端口是"
      ],
      [
       55.76,
-      57.38,
-      "绝对不是来这里玩的。"
+      56.3,
+      "绝对"
      ],
      [
-      57.38,
-      59.38,
-      "哇！这么快啊！"
+      56.3,
+      57.1,
+      "不是来这里玩的。"
      ],
      [
-      59.38,
-      62.19,
+      57.1,
+      57.86,
+      "哇！"
+     ],
+     [
+      57.86,
+      60.1,
+      "这么快啊！"
+     ],
+     [
+      60.1,
+      62.97,
       "还支持本地4K超高清视频"
      ],
      [
-      62.19,
-      64.99,
-      "播放，带来晶莹剔透的视觉效果"
+      62.97,
+      63.62,
+      "播放、"
      ],
      [
-      64.99,
-      67.38,
-      "具有流畅、无延迟的性能。"
+      63.62,
+      70.23,
+      "带来水晶般清晰的视觉效果"
      ],
      [
-      75.34,
-      78.34,
+      70.23,
+      75.7,
+      "流畅、无延迟的性能。"
+     ],
+     [
+      75.7,
+      78.66,
       "您捕捉到了无数珍贵的瞬间。"
      ],
      [
-      78.34,
-      80.86,
+      78.66,
+      81.3,
       "D400自动AI智能相册"
      ],
      [
-      80.86,
-      83.25,
+      81.3,
+      83.58,
       "整理你杂乱的照片库，"
      ],
      [
-      83.25,
-      85.77,
+      83.58,
+      85.22,
       "对记忆进行排序和分类"
      ],
      [
-      85.77,
-      87.34,
+      85.22,
+      87.54,
       "它们被创建的那一刻。"
      ],
      [
-      87.34,
-      89.98,
+      87.54,
+      89.9,
       "双处理器，AI计算"
      ],
      [
-      89.98,
-      92.68,
+      89.9,
+      94.82,
       "本地发生更快、更智能、更多"
      ],
      [
-      92.68,
-      93.34,
+      94.82,
+      96.02,
       "高效。"
      ],
      [
-      93.34,
-      97.45,
-      "嘿伙计们，我们有一个有趣的"
+      96.02,
+      98.2,
+      "嘿，伙计们，我们有一个有趣的"
      ],
      [
-      97.45,
-      98.42,
+      98.2,
+      98.7,
       "项目。"
      ],
      [
-      98.42,
-      100.42,
-      "需要合作吗？"
+      98.7,
+      101.14,
+      "我们需要合作。"
      ],
      [
-      100.42,
-      103.74,
+      101.14,
+      104.5,
       "现在，让我将文件上传到俱乐部"
      ],
      [
-      103.74,
-      104.42,
-      "为了你。"
+      104.5,
+      105.54,
+      "有一段时间了。"
      ],
      [
-      104.42,
-      106.95,
+      105.54,
+      107.37,
       "创建包含详细信息的共享文件夹"
      ],
      [
-      106.95,
-      109.98,
-      "权限控制，保持团队合作"
+      107.37,
+      108.42,
+      "权限控制，"
      ],
      [
-      109.98,
-      111.42,
-      "安全且无缝。"
+      108.42,
+      112.18,
+      "确保您的团队合作安全、无缝。"
      ],
      [
-      111.42,
-      113.42,
+      112.18,
+      113.66,
       "有复杂的文件吗？"
      ],
      [
-      113.42,
-      116.42,
+      113.66,
+      116.38,
       "这个文档包含的内容太多了。"
      ],
      [
-      116.42,
-      124.53,
+      116.38,
+      124.75,
       "AI立即总结，提取"
      ],
      [
-      124.53,
-      128.78,
+      124.75,
+      129.14,
       "几秒钟内的关键点。"
      ],
      [
-      128.78,
-      131.09,
+      129.14,
+      131.26,
       "通过本地存储，您的数据保持安全"
      ],
      [
-      131.09,
-      131.78,
+      131.26,
+      131.9,
       "和私人的。"
      ],
      [
-      131.78,
-      134.78,
+      131.9,
+      135.38,
       "它可以安全地锁定所有东西。"
      ],
      [
-      134.78,
-      138.78,
+      135.38,
+      139.06,
       "Station PCDA400，桌面AI NAS。"
      ],
      [
-      138.78,
-      141.78,
-      "不仅仅是 NAS，还是本地 AI 系统。"
+      139.06,
+      141.94,
+      "不仅仅是 NAS，更是本地 AI 系统。"
      ],
      [
-      141.78,
-      144.73,
-      "让搜索更智能。恢复效率"
+      141.94,
+      143.3,
+      "让搜索更智能。"
      ],
      [
-      144.73,
-      145.78,
-      "其本质。"
+      143.3,
+      146.58,
+      "让效率回归本质。"
      ]
     ],
     "vttLang": "zh",
@@ -560,11 +590,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 25000.0,
-    "pledged": 96812.0,
-    "usdPledged": "96812.0",
+    "pledged": 102696.0,
+    "usdPledged": "102696.0",
     "goalUsd": 25000.0,
-    "percentFunded": 387.248,
-    "backers": 883,
+    "percentFunded": 410.78400000000005,
+    "backers": 936,
     "deadline": 1795791604,
     "launchedAt": 1791900004,
     "staffPick": true,
@@ -574,17 +604,67 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7485,
+    "score": 0.7506,
     "coverRemote": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
+    "videoMp4": "https://v2.kickstarter.com/1791901795-g82I5VqJRj%2BKndjNcFFg4cALeoHmTkqeYijuim5nWV4%3D/projects/5347395/video-1464810-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791901795-g82I5VqJRj%2BKndjNcFFg4cALeoHmTkqeYijuim5nWV4%3D/projects/5347395/video-1464810-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11313442,
+      "price": 94.0,
+      "title": "Random color",
+      "desc": "One Amoeba One device in a random color.",
+      "backers": 94,
+      "limit": null,
+      "remaining": null,
+      "eta": 1822348800,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11261115,
+      "price": 99.0,
+      "title": "Super Early Bird",
+      "desc": "One Amoeba One in your color. For our earliest backers.\\n\\nChoose your color after campaign via backer tools, all colors available.",
+      "backers": 617,
+      "limit": null,
+      "remaining": null,
+      "eta": 1822348800,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11471438,
+      "price": 109.0,
+      "title": "Spiky Amoeba - Super Early Bird",
+      "desc": "One Amoeba One in a spiked silicone shell.",
+      "backers": 111,
+      "limit": null,
+      "remaining": null,
+      "eta": 1822348800,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 13,
+    "tiersDate": "2026-10-14",
     "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
+    "cues": [
+     [
+      35.38,
+      37.38,
+      "好吧，酷。再见。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://www.kickstarter.com/favicon.ico"
+     },
+     {
+      "t": "p",
+      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "z": "该网站使用安全服务来防范恶意机器人。当网站验证您不是机器人时会显示此页面。"
+     }
+    ]
    },
    {
     "id": 1604811623,
@@ -598,11 +678,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 57681.0,
-    "usdPledged": "57681.0",
+    "pledged": 61568.0,
+    "usdPledged": "61568.0",
     "goalUsd": 10000.0,
-    "percentFunded": 576.81,
-    "backers": 537,
+    "percentFunded": 615.68,
+    "backers": 604,
     "deadline": 1794505687,
     "launchedAt": 1791910087,
     "staffPick": true,
@@ -613,17 +693,1226 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7296,
+    "score": 0.733,
     "coverRemote": "https://i.kickstarter.com/assets/054/128/870/d6ae4644bd59573e799b19414c37e58b_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1781618952&width=1024&sig=bgu9rt3xPQdf%2BuHrF7%2FvAt85zW27l76%2Bb6ReT86U3KI%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
+    "videoMp4": "https://v2.kickstarter.com/1791953273-1JHT80kyYUsuDBeuiIpGH1zAaTnjnL1lXJRZdtsWEXk%3D/projects/5346034/video-1467404-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791953273-1JHT80kyYUsuDBeuiIpGH1zAaTnjnL1lXJRZdtsWEXk%3D/projects/5346034/video-1467404-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11328874,
+      "price": 1.0,
+      "title": "Jams Player",
+      "desc": "Get the playlist William listens to while programming. 400+ songs, all instrumental-only, built for staying focused without vocals getting in the way.\\n\\nSmall donations have a huge impact when we all lift together!",
+      "backers": 80,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11472480,
+      "price": 49.0,
+      "title": "Early Bird Reserved Username+Beta Tester",
+      "desc": "Claim your Haven username right now, today, before anyone else gets a chance.\\n\\nGrab a short highly-coveted username, your creator handle, whatever you want to lock down.\\n\\nYou’ll also join Haven’s beta testing phase! Break our stuff, give feedback on each iteration as we build, and get to use our features early. Your opinion influences how the final product turns out. \\n\\nFeeling extra generous? You can grab more accounts as an add-on. Includes all rewards from previous tiers.\\n\\nAfter you back this tier, please fill out this short form: \\nhttps://forms.gle/cHtW2brTyTGQZQkj7",
+      "backers": 77,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11472485,
+      "price": 99.0,
+      "title": "Early Bird Superhuman Supporter",
+      "desc": "Make your account ad-free *forever* and get custom HTML/CSS on your profile *forever*. We know, ads suck, and we would prefer to have none. Our ads will be far more pro-consumer than anywhere else, please watch our interview with Roxane Lapa, timestamp 49:50 to see what we mean! \\n\\nIncludes all previous tiers, and you can grab more accounts as an add-on. This tier is also eligible for Kickstarter’s “pay over 3 months” option.\\n\\nPlease also see the Reserved Username tier to see how to lock in your username!",
+      "backers": 160,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 23,
+    "tiersDate": "2026-10-14",
     "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
+    "cues": [
+     [
+      0.0,
+      2.96,
+      "嘿，你是赛博朋克 Testopias 的粉丝吗？"
+     ],
+     [
+      2.96,
+      5.72,
+      "我希望如此，因为你就住在其中。"
+     ],
+     [
+      5.72,
+      7.7,
+      "当今所有大型社交媒体"
+     ],
+     [
+      7.7,
+      8.24,
+      "平台"
+     ],
+     [
+      8.24,
+      11.61,
+      "监视、利用和操纵他们的"
+     ],
+     [
+      11.61,
+      12.12,
+      "用户。"
+     ],
+     [
+      12.12,
+      14.56,
+      "TikTok 承认追踪位置"
+     ],
+     [
+      14.56,
+      16.72,
+      "以及几名记者的动向，"
+     ],
+     [
+      16.72,
+      19.0,
+      "包括通过他们的同事。"
+     ],
+     [
+      19.0,
+      21.4,
+      "所以即使只是认识一个感兴趣的人"
+     ],
+     [
+      21.4,
+      23.56,
+      "让你被政府跟踪。"
+     ],
+     [
+      23.56,
+      25.12,
+      "国内也有这样的情况"
+     ],
+     [
+      25.12,
+      27.24,
+      "即使你没有做错任何事。"
+     ],
+     [
+      27.32,
+      30.8,
+      "我们的生活条件已经更糟了"
+     ],
+     [
+      30.8,
+      32.84,
+      "与乔治·奥威尔的《1984》相比。"
+     ],
+     [
+      32.84,
+      34.96,
+      "完成新的说话，比如"
+     ],
+     [
+      34.96,
+      38.32,
+      "没有活力，皮尤皮尤去露营。"
+     ],
+     [
+      38.32,
+      41.2,
+      "太可怕了，让我充满恐惧。"
+     ],
+     [
+      41.2,
+      43.16,
+      "我的硕士论文就是关于这个的"
+     ],
+     [
+      43.16,
+      44.32,
+      "这给了我一个想法。"
+     ],
+     [
+      44.32,
+      46.8,
+      "我知道这是个疯狂的想法，但请听我说完。"
+     ],
+     [
+      46.8,
+      49.37,
+      "如果我们创建一个不是这样的社交媒体怎么办？"
+     ],
+     [
+      49.37,
+      49.68,
+      "邪恶？"
+     ],
+     [
+      49.68,
+      51.64,
+      "这就是我们在避风港正在建设的。"
+     ],
+     [
+      51.64,
+      53.9,
+      "我们正在接受 YouTube 对长格式的支持"
+     ],
+     [
+      53.9,
+      54.76,
+      "风景视频，"
+     ],
+     [
+      54.76,
+      56.56,
+      "Instagram 对图像的支持"
+     ],
+     [
+      56.56,
+      58.7,
+      "并将它们组合成一个平台"
+     ],
+     [
+      58.7,
+      59.52,
+      "保护人们"
+     ],
+     [
+      59.52,
+      62.02,
+      "来自猖獗的侵入性人工智能"
+     ],
+     [
+      62.02,
+      63.24,
+      "今天的互联网。"
+     ],
+     [
+      63.24,
+      65.88,
+      "是不是让你感到毛骨悚然？"
+     ],
+     [
+      65.88,
+      67.2,
+      "面部识别"
+     ],
+     [
+      67.2,
+      68.64,
+      "监视变成了？"
+     ],
+     [
+      68.64,
+      71.84,
+      "使用 Clearview AI 和 Pym Eyes 等工具"
+     ],
+     [
+      71.84,
+      74.44,
+      "在线浏览你所有的自拍照"
+     ],
+     [
+      74.44,
+      75.24,
+      "来追踪你。"
+     ],
+     [
+      75.24,
+      78.03,
+      "你是一名艺术家，对人工智能的盗窃行为感到不满吗？"
+     ],
+     [
+      78.03,
+      78.64,
+      "你的艺术？"
+     ],
+     [
+      78.64,
+      80.08,
+      "我们找到你了。"
+     ],
+     [
+      80.08,
+      81.44,
+      "一切都上传到我们的网站"
+     ],
+     [
+      81.44,
+      83.84,
+      "将自动受到人工智能保护。"
+     ],
+     [
+      83.84,
+      86.4,
+      "它有毒，所以如果人工智能吞下，"
+     ],
+     [
+      86.4,
+      90.06,
+      "人工智能什么也没学到，甚至更糟的是学到了"
+     ],
+     [
+      90.06,
+      90.64,
+      "错了。"
+     ],
+     [
+      90.64,
+      93.25,
+      "你是否厌倦了像一个人一样说话？"
+     ],
+     [
+      93.25,
+      94.48,
+      "卡通小丑"
+     ],
+     [
+      94.48,
+      96.99,
+      "或者像个婴儿一样来讨论"
+     ],
+     [
+      96.99,
+      98.76,
+      "重要的严肃话题"
+     ],
+     [
+      98.76,
+      100.84,
+      "就像你的家乡被烧毁一样"
+     ],
+     [
+      100.84,
+      103.4,
+      "还是现代的黑死病？"
+     ],
+     [
+      103.4,
+      104.8,
+      "我们找到你了。"
+     ],
+     [
+      104.8,
+      106.82,
+      "与我们一起，您可以畅所欲言"
+     ],
+     [
+      106.82,
+      107.32,
+      "通常。"
+     ],
+     [
+      107.32,
+      110.23,
+      "这不应该是革命性的，但是"
+     ],
+     [
+      110.23,
+      111.44,
+      "如今确实如此。"
+     ],
+     [
+      111.44,
+      113.79,
+      "当你付出很多的时候你是否感到沮丧"
+     ],
+     [
+      113.79,
+      114.08,
+      "心"
+     ],
+     [
+      114.08,
+      115.72,
+      "和灵魂融入视频"
+     ],
+     [
+      115.72,
+      116.8,
+      "你发布它吗？"
+     ],
+     [
+      116.8,
+      118.67,
+      "但因为你没有检查"
+     ],
+     [
+      118.67,
+      120.24,
+      "看不见的、不可知的盒子"
+     ],
+     [
+      120.24,
+      122.45,
+      "全能算法正在寻找"
+     ],
+     [
+      122.45,
+      122.68,
+      "对于，"
+     ],
+     [
+      122.68,
+      125.6,
+      "视频就这样被扔进了深渊。"
+     ],
+     [
+      125.6,
+      127.8,
+      "太糟糕了，对吧？"
+     ],
+     [
+      127.8,
+      130.28,
+      "完成所有所需的血脂分析"
+     ],
+     [
+      130.28,
+      132.28,
+      "确保您的视频不会失败"
+     ],
+     [
+      132.28,
+      134.52,
+      "本身就是一份全职工作。"
+     ],
+     [
+      134.52,
+      137.02,
+      "除了制作的所有工作之外"
+     ],
+     [
+      137.02,
+      137.44,
+      "视频、"
+     ],
+     [
+      137.44,
+      138.84,
+      "我们找到你了。"
+     ],
+     [
+      138.84,
+      141.09,
+      "我们直接告诉你，"
+     ],
+     [
+      141.09,
+      142.08,
+      "透明地，"
+     ],
+     [
+      142.08,
+      144.5,
+      "算法如何决定播放哪些视频"
+     ],
+     [
+      144.5,
+      144.8,
+      "展示。"
+     ],
+     [
+      144.84,
+      146.48,
+      "救世主大量的工作。"
+     ],
+     [
+      146.48,
+      149.46,
+      "您是否在社交媒体之间犹豫不决"
+     ],
+     [
+      149.46,
+      149.92,
+      "媒体"
+     ],
+     [
+      149.92,
+      152.19,
+      "因为你真的不想去"
+     ],
+     [
+      152.19,
+      152.64,
+      "通过"
+     ],
+     [
+      152.64,
+      156.0,
+      "并一张一张下载你的作品"
+     ],
+     [
+      156.0,
+      159.6,
+      "然后一一上传到别的地方？"
+     ],
+     [
+      159.6,
+      161.95,
+      "我们将为您做到这一点，以节省您的时间"
+     ],
+     [
+      161.95,
+      162.4,
+      "乏味。"
+     ],
+     [
+      162.4,
+      166.07,
+      "所以如果你厌倦了人工智能被推倒"
+     ],
+     [
+      166.07,
+      167.12,
+      "你的喉咙，"
+     ],
+     [
+      167.12,
+      169.6,
+      "无论您走到哪里，我们都可以为您提供位置"
+     ],
+     [
+      169.6,
+      170.72,
+      "摆脱它。"
+     ],
+     [
+      170.72,
+      173.1,
+      "如果你想反击AI"
+     ],
+     [
+      173.1,
+      173.56,
+      "艺术家"
+     ],
+     [
+      173.56,
+      176.32,
+      "和人工智能老大哥监控程序，"
+     ],
+     [
+      176.32,
+      178.94,
+      "但从来不知道如何做，这是你的机会"
+     ],
+     [
+      178.94,
+      180.28,
+      "有所作为。"
+     ],
+     [
+      180.28,
+      181.97,
+      "如果你想要一个不属于的社交媒体"
+     ],
+     [
+      181.97,
+      182.24,
+      "尝试"
+     ],
+     [
+      182.24,
+      184.56,
+      "偷偷地在幕后，"
+     ],
+     [
+      184.56,
+      186.89,
+      "操纵和影响你的思想和"
+     ],
+     [
+      186.89,
+      187.28,
+      "信仰"
+     ],
+     [
+      187.28,
+      189.4,
+      "更符合信仰"
+     ],
+     [
+      189.4,
+      191.88,
+      "该公司的首席执行官，"
+     ],
+     [
+      191.88,
+      193.96,
+      "我们齐心协力就能实现这一目标。"
+     ],
+     [
+      193.96,
+      195.28,
+      "如果您有兴趣了解更多信息"
+     ],
+     [
+      195.28,
+      195.96,
+      "关于这些话题，"
+     ],
+     [
+      195.96,
+      197.92,
+      "你可以在这里查看我的论文。"
+     ],
+     [
+      197.92,
+      199.52,
+      "感谢您的观看和您的"
+     ],
+     [
+      199.52,
+      199.88,
+      "支持。"
+     ],
+     [
+      199.88,
+      201.88,
+      "我们要一起做伟大的事情。"
+     ],
+     [
+      202.6,
+      205.01,
+      "好吧，我充满激情地颤抖着"
+     ],
+     [
+      205.01,
+      205.64,
+      "由此。"
+     ],
+     [
+      205.64,
+      207.84,
+      "我需要出去散散步，冷静一下。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/128/870/d6ae4644bd59573e799b19414c37e58b_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1781618952&width=1024&sig=bgu9rt3xPQdf%2BuHrF7%2FvAt85zW27l76%2Bb6ReT86U3KI%3D"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $10,000 pledged of $10,000 goal",
+      "z": "承诺 10,000 美元 承诺 10,000 美元目标"
+     },
+     {
+      "t": "p",
+      "x": "29 days to go",
+      "z": "倒计时 29 天"
+     },
+     {
+      "t": "p",
+      "x": "Social media that prevents AI & Big Tech from stealing your art, your biometrics, and your privacy. We're replacing Insta and YouTube.",
+      "z": "社交媒体可防止人工智能和大型科技窃取您的艺术品、生物特征识别和隐私。我们正在取代 Insta 和 YouTube。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/048/791/701/c780c9f7e207269c234cb7599e7a3d39_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1743823859&width=160&sig=H0HHMMA5I3JxEhZkJfwZc2RsTF%2FHW9IK6yL8xTyp%2F14%3D"
+     },
+     {
+      "t": "p",
+      "x": "William Lavelle",
+      "z": "威廉·拉维尔"
+     },
+     {
+      "t": "p",
+      "x": "3 created•19 backed",
+      "z": "3 个创建•19 个支持"
+     },
+     {
+      "t": "p",
+      "x": "Social media that prevents AI & Big Tech from stealing your art, your biometrics, and your privacy. We're replacing Insta and YouTube.",
+      "z": "社交媒体可防止人工智能和大型科技窃取您的艺术品、生物特征识别和隐私。我们正在取代 Insta 和 YouTube。"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $10,000 pledged of $10,000 goal",
+      "z": "承诺 10,000 美元 承诺 10,000 美元目标"
+     },
+     {
+      "t": "p",
+      "x": "29 days to go",
+      "z": "倒计时 29 天"
+     },
+     {
+      "t": "p",
+      "x": "Kickstarter connects creators with backers to fund projects.",
+      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
+     },
+     {
+      "t": "p",
+      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
+      "z": "奖励无法保证，但创作者必须定期更新支持者。"
+     },
+     {
+      "t": "p",
+      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+      "z": "仅当项目在活动截止日期前达到其融资目标时，您才需要付费。"
+     },
+     {
+      "t": "p",
+      "x": "*   [**THE QUICK VERSION**](h:THE-QUICK-VERSION)",
+      "z": "* [**快速版本**](h:快速版本)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**DEMO - SEE HAVEN IN ACTION**](h:DEMO-SEE-HAVEN-IN-ACTION)",
+      "z": "* [**演示 - 查看 HAVEN 的实际行动**](h:DEMO-SEE-HAVEN-IN-ACTION)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**WHY WE'RE BUILDING HAVEN**](h:WHY-WE-RE-BUILDING-HAVEN)",
+      "z": "* [**为什么我们要建造避风港**](h:为什么我们要重建避风港)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**WHO HAVEN IS FOR**](h:WHO-HAVEN-IS-FOR)",
+      "z": "* [**谁是避风港**](h:谁-避风港-是-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**EVERYTHING HAVEN IS BUILDING**](h:EVERYTHING-HAVEN-IS-BUILDING)",
+      "z": "* [**一切避风港都在建设**](h:一切避风港都在建设)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**ACHIEVEMENTS SO FAR**](h:ACHIEVEMENTS-SO-FAR)",
+      "z": "* [**迄今为止的成就**](h:迄今为止的成就)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**PEOPLE ARE ALREADY ASKING FOR THIS**](h:PEOPLE-ARE-ALREADY-ASKING-FOR-THIS)",
+      "z": "* [**人们已经在要求这个**](h:人们已经在要求这个)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**INTERVIEWS**](h:INTERVIEWS)",
+      "z": "* [**采访**](h:采访)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**REWARDS FOR BACKING**](h:REWARDS-FOR-BACKING)",
+      "z": "* [**支持奖励**](h:支持奖励)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**WHAT YOUR PLEDGE ACTUALLY FUNDS**](h:WHAT-YOUR-PLEDGE-ACTUALLY-FUNDS)",
+      "z": "* [**您的承诺实际资助金额**](h:您的承诺实际资助金额)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**ROADMAP**](h:ROADMAP)",
+      "z": "* [**路线图**](h:路线图)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**HOW WILL HAVEN FUND ITSELF WITHOUT ENSHITTIFYING?**](h:HOW-WILL-HAVEN-FUND-ITSELF-WITHOUT-ENSHITTIFYING-)",
+      "z": "* [**如何在没有 ENSHITTIFYING 的情况下筹集资金？**](h:HAVEN 如何在没有 ENSHITTIFING 的情况下筹集资金 -)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**WHO'S BUILDING THIS?**](h:WHO-S-BUILDING-THIS-)",
+      "z": "* [**谁在建造这个？**](h:谁-S-建造-这个-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**WHAT'S DIFFERENT FROM THE PREVIOUS KICKSTARTER?**](h:WHAT-S-DIFFERENT-FROM-THE-PREVIOUS-KICKSTARTER-)",
+      "z": "* [**与之前的 KICKSTARTER 有何不同？**](h:与之前的 KICKSTARTER 有何不同-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**RISKS AND CHALLENGES**](h:RISKS-AND-CHALLENGES)",
+      "z": "* [**风险和挑战**](h:风险和挑战)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/485/764/69fd9a5f334d5ac439aca206a4292f72_original.png?fit=scale-down&origin=ugc&q=100&v=1791842360&width=680&sig=Xr8Jn8cd5xcbEJ%2BwMEhkxA28P0BeBk8LD7x3Ch5zH38%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/485/766/b8b9d107c4cc0e3cb6a1e60e87e5fac1_original.png?fit=scale-down&origin=ugc&q=100&v=1791842384&width=680&sig=DlxiG9NGdEeyW71TM%2F9wUhgKFQWntQI5TUa2Y8MorTw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/485/775/6fe9042ab1d08f0cff1d164efd744363_original.png?fit=scale-down&origin=ugc&q=100&v=1791842403&width=680&sig=PtWJT8j7XSvS5QrskvQyBTX4tE%2F75EJWrC4r4mecYZg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/485/788/d71b933bb29d978711abadda94f6cc21_original.png?fit=scale-down&origin=ugc&q=100&v=1791842455&width=680&sig=9w4Wyo1wI422u8ykYLR2Yvav3hY7fozJw9aB%2BQ9xK4Y%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/485/795/50c22fc7f208e03728c614ecb8526209_original.png?fit=scale-down&origin=ugc&q=100&v=1791842482&width=680&sig=vHWuyJCvXuS9Yh92v4fY1Z6kudVAeVI%2BUt7eu2g9Z%2Fo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/499/874/cbf8eb26c203d67601d4c337165923e2_original.gif?fit=scale-down&origin=ugc&q=92&v=1791911246&width=680&sig=ejxc72SN9Cxrr1NXWx%2BJXuVz5aOJaEyJWGMfja3OHb0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/485/914/1db58ea4412eb8453a05eb0bc5396172_original.png?fit=scale-down&origin=ugc&q=100&v=1791843048&width=680&sig=Cl787kI5QVYgT5LoTBXTVty7JZ2yHZelWXqHwRewT8U%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/485/919/b819977fa36cc82663882e79925fb115_original.png?fit=scale-down&origin=ugc&q=100&v=1791843066&width=680&sig=pxvzJbBTjN8IrsATq68Q2M8ZNOXnAFbmk%2FIgchf8A6M%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/485/921/df172db6e4bef1deabc5a2081c582aed_original.png?fit=scale-down&origin=ugc&q=100&v=1791843076&width=680&sig=B3Jwf01B%2FpyT7qRRssaS5YvrT96uZsvJUhKOqfaj%2FRM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/485/923/bdbdae69b9bbe0883285d5f15f145015_original.png?fit=scale-down&origin=ugc&q=100&v=1791843091&width=680&sig=hKOdmEb2ja4dXs%2B99uMWhqstc5n2Gq8AteUhcmQ%2FIHM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/485/934/3e02cc80a6edd27882e3e3778aad76bd_original.png?fit=scale-down&origin=ugc&q=100&v=1791843125&width=680&sig=CCJLpCqiJQ0Cj6i2EVhQXYSFlcwWhloN7SVfsNBOkt0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/501/629/1b9b14d54a0695c675afda50ed199350_original.png?fit=scale-down&origin=ugc&q=100&v=1791919178&width=680&sig=piKg4dxwBpTHYK0kWvsl7RTNWxiW2g%2BQZcXPydzXhKw%3D"
+     }
+    ]
+   },
+   {
+    "id": 1471279538,
+    "name": "VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER",
+    "blurb": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
+    "url": "https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer",
+    "category": "Hardware",
+    "creator": "Bvio Tech",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 78424.0,
+    "pledged": 18842404.0,
+    "usdPledged": "2402470.00890148",
+    "goalUsd": 9999.32,
+    "percentFunded": 24026.323574415994,
+    "backers": 4477,
+    "deadline": 1793376023,
+    "launchedAt": 1789488023,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门",
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.6709,
+    "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
+    "videoMp4": "https://v2.kickstarter.com/1791974088-9MR2oA3J73jEawjDvJFYM4WRQ74wic7QJClc0HxoMno%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791974088-9MR2oA3J73jEawjDvJFYM4WRQ74wic7QJClc0HxoMno%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11254735,
+      "price": 3128.0,
+      "title": "Super Early Bird - Violoop",
+      "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 3911,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11414602,
+      "price": 5951.0,
+      "title": "Super Early Bird - Violoop Duo Pack",
+      "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 444,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11415618,
+      "price": 56432.0,
+      "title": "Super Early Bird - Violoop Team Pack",
+      "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 42,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 10,
+    "tiersDate": "2026-10-14",
+    "tiersCarried": "",
+    "cues": [
+     [
+      0.02,
+      2.71,
+      "每天我们都会经历十几个"
+     ],
+     [
+      2.71,
+      4.02,
+      "不同的工具。"
+     ],
+     [
+      4.02,
+      8.02,
+      "切换、复制、粘贴、重复。"
+     ],
+     [
+      8.02,
+      10.77,
+      "但这些工具中有多少是真正"
+     ],
+     [
+      10.77,
+      12.02,
+      "理解你吗？"
+     ],
+     [
+      12.02,
+      15.02,
+      "早上好！准备好接受董事会审查了吗？"
+     ],
+     [
+      15.02,
+      19.12,
+      "Violoupe 是您本地的 AI 代理，旨在"
+     ],
+     [
+      19.12,
+      20.02,
+      "认识你。"
+     ],
+     [
+      20.02,
+      24.02,
+      "因此，在您提出要求之前，您的工作就已准备就绪。"
+     ],
+     [
+      24.02,
+      26.02,
+      "Violoupe 与您协同行动，"
+     ],
+     [
+      26.02,
+      28.02,
+      "在后台安静地学习。"
+     ],
+     [
+      28.02,
+      31.64,
+      "我发现了一个类似的任务。我要完成吗"
+     ],
+     [
+      31.64,
+      34.26,
+      "和上次一样吗？"
+     ],
+     [
+      34.26,
+      37.28,
+      "Violoupe 找到您的流程并执行"
+     ],
+     [
+      37.28,
+      38.26,
+      "你的命令。"
+     ],
+     [
+      38.26,
+      41.26,
+      "批次准备就绪，下一步正在排队。"
+     ],
+     [
+      41.26,
+      44.19,
+      "它运行您的店面、您的内容以及"
+     ],
+     [
+      44.19,
+      46.98,
+      "您在每个平台上的客户"
+     ],
+     [
+      46.98,
+      47.26,
+      "使用。"
+     ],
+     [
+      47.26,
+      49.98,
+      "从产品到内容到库存"
+     ],
+     [
+      49.98,
+      52.56,
+      "客户，它保留了整个过程"
+     ],
+     [
+      52.56,
+      53.26,
+      "连接。"
+     ],
+     [
+      53.26,
+      55.98,
+      "无论您的目标、业务或"
+     ],
+     [
+      55.98,
+      58.49,
+      "你的任务，人工智能会自己建模"
+     ],
+     [
+      58.49,
+      59.26,
+      "你周围。"
+     ],
+     [
+      59.26,
+      64.38,
+      "它在您的设备上运行。您的数据"
+     ],
+     [
+      64.38,
+      66.18,
+      "永远不会离开。"
+     ],
+     [
+      66.18,
+      76.04,
+      "你的环境改变了，工作也改变了"
+     ],
+     [
+      76.04,
+      78.94,
+      "继续。"
+     ],
+     [
+      78.94,
+      91.57,
+      "最好的系统学习如何工作"
+     ],
+     [
+      91.57,
+      92.86,
+      "你。"
+     ],
+     [
+      92.86,
+      96.35,
+      "当一切都一致时，你的想法，"
+     ],
+     [
+      96.35,
+      100.21,
+      "你的节奏，你的时间，你停止反应，"
+     ],
+     [
+      100.21,
+      101.86,
+      "你开始流动。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/112/827/e3d7dc4edb30a39269986371a2223db7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789368177&width=680&sig=638gbidJMd%2B5wfEY6ZC738UrRxWZpJtrSbkcaVSiMFo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/025/5aa5a5cdb2d4caff5cb8c3ff3e8352d2_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883690&width=680&sig=DaYzBDNXiTUgvwjQn%2BEiUoHABJxon8Tcs5ingy4UxjY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/030/1f99c4f7e43e4ce4641b6c4b1949fe5a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883712&width=680&sig=WqmPovC%2BEfw%2FMKuo9H0xsQqnagD0eXyn%2BcRP9kqgSQw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/035/d3b7244996892cc69d498bd411332a2d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883734&width=680&sig=EomtSzfVvgT08p3oMw8WwO1xCTBh%2F7%2BNtijHIP8EtJU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/040/b9b849b6ec7a8fe79d629a8871505614_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=URrxiGNiYMI5Qg69woE3xtdFvE84X0sTJUwc2%2BThsrQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/041/eb2e613ee0c7f9f9601eb025732d1824_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=fz9SsozAZKMNNsepvYi%2BVW%2FLprxxf%2FHrJinbiW10vqA%3D"
+     },
+     {
+      "t": "p",
+      "x": "Extract customer, vehicle, and repair order data from the DMS and organize it into an Excel file.",
+      "z": "从 DMS 中提取客户、车辆和维修订单数据并将其组织到 Excel 文件中。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/046/95034dc50da375803bfaee565a971963_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883751&width=680&sig=ZFpERXuqiTWR0GTapmFX39bDG%2FuDmYdrz0ep8VEex4U%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/042/92aaafbe31cbdc0716be2a209853bf64_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=2gO1z1d0IUYi4JYxqZQ5FG7LmGJFoOyxKqcpg7qTfWc%3D"
+     },
+     {
+      "t": "p",
+      "x": "Locate the specific conversations in the WhatsApp chat list, extract the required information, and organize it into HubSpot CRM.",
+      "z": "在 WhatsApp 聊天列表中找到特定对话，提取所需信息，并将其组织到 HubSpot CRM 中。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/048/ef74c053efb4909aeffd7cb2b20398c0_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883752&width=680&sig=xtEunU4VmorulVL4JSUAcq0%2BHJNO9RDO4k2Fq5I4Xgg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/044/eb7da3af9ed34b128e1a3af80bf95075_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=5egcsVGfA1cLyYZ3j9ITwVqEoBHSd2OWFDrgxdYEIYg%3D"
+     },
+     {
+      "t": "p",
+      "x": "Read all unread emails. For each email that requires a reply, draft a response and save it to the Drafts folder. Archive every email that doesn't require a reply.",
+      "z": "阅读所有未读电子邮件。对于每封需要回复的电子邮件，起草回复并将其保存到草稿文件夹。归档每封不需要回复的电子邮件。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/045/76a9d3a488e7474f956e3b2817bfeffc_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883751&width=680&sig=%2BajHRPZfe51SliH9nues2LlSWT1NFH8YsifnqNVuVik%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/043/e390b7894ee7f2b9eec010f37cea13b9_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=UVGHy78n0QhdZpMf4p%2F3ND0pVcASRm%2FROTtVH%2FbGWfs%3D"
+     },
+     {
+      "t": "p",
+      "x": "Search online for the three hotels that best match the given criteria, select the best option, and fill the booking information, but stop right before payment.",
+      "z": "在线搜索最符合给定条件的三家酒店，选择最佳选项，然后填写预订信息，但在付款前停止。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/047/5d6d72dbe16d4f7312ba2ed2ef73a511_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883752&width=680&sig=SE5v%2BNea81dMRFvd57xJltd94ibSBbPcQ87ZwB5N%2B6I%3D"
+     },
+     {
+      "t": "p",
+      "x": "Visit Violoop’s official YouTube channel to discover more practical workflows: [Violoop Workflow Showcase - YouTube](https://www.youtube.com/playlist?list=PLEJ_9fI2IiTw)",
+      "z": "访问 Violoop 官方 YouTube 频道，了解更多实用工作流程：[Violoop 工作流程展示 - YouTube](https://www.youtube.com/playlist?list=PLEJ_9fI2IiTw)"
+     },
+     {
+      "t": "p",
+      "x": "The real workflows we demonstrate are starting points to help you discover what Violoop can do in your own daily work. Its capabilities extend far beyond these examples; we encourage you to experiment, try new ideas, and find ways to make Violoop work for you.",
+      "z": "我们演示的真实工作流程是帮助您发现 Violoop 在日常工作中可以做什么的起点。它的功能远远超出了这些例子；我们鼓励您尝试、尝试新想法并找到让 Violoop 为您服务的方法。"
+     },
+     {
+      "t": "p",
+      "x": "We look forward to seeing the workflows you create and learning from your experiences as we continue to improve Violoop together with our community.",
+      "z": "我们期待看到您创建的工作流程，并从您的经验中学习，我们将继续与社区一起改进 Violoop。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/493/246/e922bb26260d305320d8cef1ad2adb8e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791884412&width=680&sig=I21Dp5s5yWzkWqvu6SZx5IQOP8SodFB%2Bwv1sIOqRWgA%3D"
+     },
+     {
+      "t": "p",
+      "x": "Your personal on-device AI—with long-context memory that learns how you work. Violoop brings screen understanding and personal memory on-device, learning your habits, projects, and preferences entirely locally, with no cloud computing costs.",
+      "z": "您的个人设备上人工智能——具有长上下文记忆，可以了解您的工作方式。 Violoop 在设备上提供屏幕理解和个人记忆，完全在本地了解您的习惯、项目和偏好，无需云计算成本。"
+     },
+     {
+      "t": "p",
+      "x": "By combining OCR with a local model that understands long-form context, Violoop proactively moves your work forward—so you don’t have to write lengthy prompts for every task.",
+      "z": "通过将 OCR 与理解长格式上下文的本地模型相结合，Violoop 可以主动推动您的工作，因此您不必为每项任务编写冗长的提示。"
+     },
+     {
+      "t": "p",
+      "x": "Violoop reads and understands the text, pages, and interactive elements on your screen in real time. It controls your computer through mouse and keyboard inputs, carrying out tasks across apps without relying on app-specific APIs.",
+      "z": "Violoop 实时读取并理解屏幕上的文本、页面和交互元素。它通过鼠标和键盘输入控制您的计算机，跨应用程序执行任务，而无需依赖应用程序特定的 API。"
+     },
+     {
+      "t": "p",
+      "x": "Violoop separates AI processing from independent security control through its dual-chip architecture. The processing chip runs the local model, while the security chip enforces physical authorization for sensitive actions.",
+      "z": "Violoop 通过其双芯片架构将人工智能处理与独立的安全控制分开。处理芯片运行本地模型，而安全芯片则对敏感操作强制执行物理授权。"
+     },
+     {
+      "t": "p",
+      "x": "Violoop connects your computer and phone so work can continue beyond your desk. As long as your computer remains on and connected, Violoop can run tasks around the clock. From your phone, you can remotely view your computer’s screen, check task progress, and give new instructions.",
+      "z": "Violoop 连接您的计算机和手机，以便您可以在办公桌外继续工作。只要您的计算机保持开启并连接，Violoop 就可以全天候运行任务。通过手机，您可以远程查看计算机屏幕、检查任务进度并给出新指示。"
+     },
+     {
+      "t": "p",
+      "x": "Violoop can view and interact with two screens simultaneously, so you and Violoop can work on the same computer without getting in each other’s way.",
+      "z": "Violoop 可以同时查看两个屏幕并与之交互，因此您和 Violoop 可以在同一台计算机上工作，而不会互相妨碍。"
+     },
+     {
+      "t": "p",
+      "x": "Violoop is for people who repeatedly extract information, copy and paste, fill out forms, organize files, and follow up on tasks. These activities have clear goals and repeatable steps, but are spread across different apps—taking time and interrupting focus.",
+      "z": "Violoop 适合那些反复提取信息、复制和粘贴、填写表格、组织文件和跟踪任务的人员。这些活动有明确的目标和可重复的步骤，但分布在不同的应用程序中，既耗时又分散注意力。"
+     },
+     {
+      "t": "p",
+      "x": "Violoop handles the repetitive work across your apps, so you can focus on decisions, conversations, and creativity.",
+      "z": "Violoop 可以处理您应用程序中的重复性工作，因此您可以专注于决策、对话和创造力。"
+     },
+     {
+      "t": "p",
+      "x": "· Extract customer details and update your CRM.",
+      "z": "· 提取客户详细信息并更新您的 CRM。"
+     },
+     {
+      "t": "p",
+      "x": "· Draft personalized follow-up emails for your approval.",
+      "z": "· 起草个性化的后续电子邮件以供您批准。"
+     },
+     {
+      "t": "p",
+      "x": "· Organize product information and prepare listings for approval.",
+      "z": "· 整理产品信息并准备清单以供批准。"
+     },
+     {
+      "t": "p",
+      "x": "· Consolidate order, sales, and inventory data into spreadsheets.",
+      "z": "· 将订单、销售和库存数据合并到电子表格中。"
+     },
+     {
+      "t": "p",
+      "x": "· Sort, rename, and organize files by project or date.",
+      "z": "· 按项目或日期对文件进行排序、重命名和组织。"
+     },
+     {
+      "t": "p",
+      "x": "· Compare hotels and transportation prices for business trips.",
+      "z": "· 比较商务旅行的酒店和交通价格。"
+     },
+     {
+      "t": "p",
+      "x": "· Extract invoice and receipt details into financial records.",
+      "z": "· 将发票和收据详细信息提取到财务记录中。"
+     },
+     {
+      "t": "p",
+      "x": "· Compare statements and flag discrepancies for review.",
+      "z": "· 比较陈述并标记差异以供审查。"
+     },
+     {
+      "t": "p",
+      "x": "· Extract resume details and update candidate trackers.",
+      "z": "· 提取简历详细信息并更新候选人跟踪器。"
+     },
+     {
+      "t": "p",
+      "x": "· Compile availability and prepare interview schedules and invitations.",
+      "z": "· 收集可用情况并准备面试时间表和邀请。"
+     },
+     {
+      "t": "p",
+      "x": "· Gather research and links into a content library.",
+      "z": "· 将研究成果和链接收集到内容库中。"
+     }
+    ]
    },
    {
     "id": 1841814277,
@@ -637,11 +1926,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 861285.0,
-    "usdPledged": "861285.0",
+    "pledged": 859617.0,
+    "usdPledged": "859617.0",
     "goalUsd": 20000.0,
-    "percentFunded": 4306.425,
-    "backers": 875,
+    "percentFunded": 4298.085,
+    "backers": 873,
     "deadline": 1794067204,
     "launchedAt": 1788879604,
     "staffPick": true,
@@ -653,8 +1942,8 @@
     ],
     "score": 0.6624,
     "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1791975688-uRbGgjQ3h4Tke6T3CoaNCq2b8LjbiuvhDuFtUNoBW98%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1791975688-uRbGgjQ3h4Tke6T3CoaNCq2b8LjbiuvhDuFtUNoBW98%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11398822,
@@ -672,7 +1961,7 @@
       "price": 799.0,
       "title": "BirdieSense - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 818,
+      "backers": 815,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -691,8 +1980,8 @@
      }
     ],
     "rewardsTotal": 7,
-    "tiersDate": "2026-10-13",
-    "tiersCarried": "2026-10-13",
+    "tiersDate": "2026-10-14",
+    "tiersCarried": "",
     "cues": [
      [
       1.55,
@@ -917,7 +2206,7 @@
      [
       153.44,
       156.17,
-      "卷轴，捕捉您最美好的瞬间"
+      "卷轴，捕捉您最美好的时刻"
      ],
      [
       156.17,
@@ -1122,269 +2411,6 @@
      {
       "t": "img",
       "u": "https://i.kickstarter.com/assets/054/999/332/9dd1340ffbb0652cf282dc4c9d8503d4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788507473&width=680&sig=bPV7xT2pfc9WywwTaBPCd%2Bvj8JAOKQyxrXHlgiGZEi4%3D"
-     }
-    ]
-   },
-   {
-    "id": 1471279538,
-    "name": "VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER",
-    "blurb": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
-    "url": "https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer",
-    "category": "Hardware",
-    "creator": "Bvio Tech",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 78424.0,
-    "pledged": 18717839.0,
-    "usdPledged": "2386587.55161743",
-    "goalUsd": 9999.32,
-    "percentFunded": 23867.488268897276,
-    "backers": 4450,
-    "deadline": 1793376023,
-    "launchedAt": 1789488023,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门",
-     "Technology 热门",
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.6373,
-    "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11254735,
-      "price": 3128.0,
-      "title": "Super Early Bird - Violoop",
-      "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 3815,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11414602,
-      "price": 5951.0,
-      "title": "Super Early Bird - Violoop Duo Pack",
-      "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 415,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11415618,
-      "price": 56432.0,
-      "title": "Super Early Bird - Violoop Team Pack",
-      "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 40,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 10,
-    "tiersDate": "2026-10-12",
-    "tiersCarried": "2026-10-12",
-    "cues": [
-     [
-      0.02,
-      2.71,
-      "每天我们都会经历十几个"
-     ],
-     [
-      2.71,
-      4.02,
-      "不同的工具。"
-     ],
-     [
-      4.02,
-      8.02,
-      "切换、复制、粘贴、重复。"
-     ],
-     [
-      8.02,
-      10.77,
-      "但这些工具中有多少是真正"
-     ],
-     [
-      10.77,
-      12.02,
-      "理解你吗？"
-     ],
-     [
-      12.02,
-      15.02,
-      "早上好！准备好接受董事会审查了吗？"
-     ],
-     [
-      15.02,
-      19.12,
-      "Violoupe 是您本地的 AI 代理，旨在"
-     ],
-     [
-      19.12,
-      20.02,
-      "认识你。"
-     ],
-     [
-      20.02,
-      24.02,
-      "因此，在您提出要求之前，您的工作就已准备就绪。"
-     ],
-     [
-      24.02,
-      26.02,
-      "Violoupe 与您协同行动，"
-     ],
-     [
-      26.02,
-      28.02,
-      "在后台安静地学习。"
-     ],
-     [
-      28.02,
-      31.64,
-      "我发现了一个类似的任务。我要完成吗"
-     ],
-     [
-      31.64,
-      34.26,
-      "和上次一样吗？"
-     ],
-     [
-      34.26,
-      37.28,
-      "Violoupe 找到您的流程并执行"
-     ],
-     [
-      37.28,
-      38.26,
-      "你的命令。"
-     ],
-     [
-      38.26,
-      41.26,
-      "批次准备就绪，下一步正在排队。"
-     ],
-     [
-      41.26,
-      44.19,
-      "它运行您的店面、您的内容以及"
-     ],
-     [
-      44.19,
-      46.98,
-      "您在每个平台上的客户"
-     ],
-     [
-      46.98,
-      47.26,
-      "使用。"
-     ],
-     [
-      47.26,
-      49.98,
-      "从产品到内容到库存"
-     ],
-     [
-      49.98,
-      52.56,
-      "客户，它保留了整个过程"
-     ],
-     [
-      52.56,
-      53.26,
-      "连接。"
-     ],
-     [
-      53.26,
-      55.98,
-      "无论您的目标、业务或"
-     ],
-     [
-      55.98,
-      58.49,
-      "你的任务，人工智能会自己建模"
-     ],
-     [
-      58.49,
-      59.26,
-      "你周围。"
-     ],
-     [
-      59.26,
-      64.38,
-      "它在您的设备上运行。您的数据"
-     ],
-     [
-      64.38,
-      66.18,
-      "永远不会离开。"
-     ],
-     [
-      66.18,
-      76.04,
-      "你的环境改变了，工作也改变了"
-     ],
-     [
-      76.04,
-      78.94,
-      "继续。"
-     ],
-     [
-      78.94,
-      91.57,
-      "最好的系统学习如何工作"
-     ],
-     [
-      91.57,
-      92.86,
-      "你。"
-     ],
-     [
-      92.86,
-      96.35,
-      "当一切都一致时，你的想法，"
-     ],
-     [
-      96.35,
-      100.21,
-      "你的节奏，你的时间，你停止反应，"
-     ],
-     [
-      100.21,
-      101.86,
-      "你开始流动。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/124/797/efad3c6f32de1f4db4a466f06ad4dbba_original.jpg?anim=false&fit=cover&height=338&origin=ugc&q=92&v=1781595932&width=338&sig=7dDfrqN%2Bz3UsDkGcWZZblhdvTphi%2FPfE7eOZM0g%2BW3w%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/135/242/f9b0a34c19f50ca0d4705b080b5234f9_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1789488148&width=560&sig=NU%2Bw%2FERTS44HNy0IV9ademHj23arfTVASzDpS8dSFMY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/036/761/432/2064ca18ea847269e07c3b22cffca7fe_original.jpg?anim=false&fit=cover&height=200&origin=ugc&q=92&v=1648110767&width=200&sig=Hzqs%2FrDGcgxqUTft8qBQ%2FIskreAhtkoY%2FLkx946ribY%3D&quot;,&quot;url&quot;:&quot;https://www.kickstarter.com/profile/longham&quot;},&quot;title&quot;:&quot;Campaign"
-     },
-     {
-      "t": "p",
-      "x": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
-      "z": "借助可读取您的屏幕、准备任务并等待您批准的插件AI ，让每个PC代理都做好准备。"
      }
     ]
    }
