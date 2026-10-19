@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T12:33:28+07:00",
+  "generatedAt": "2026-10-19T19:30:38+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 41,
+  "poolSize": 42,
   "projects": [
    {
     "id": 1532930663,
@@ -18,11 +18,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 50000.0,
-    "pledged": 13128546.0,
-    "usdPledged": "13128546.0",
+    "pledged": 13220687.0,
+    "usdPledged": "13220687.0",
     "goalUsd": 50000.0,
-    "percentFunded": 26257.092,
-    "backers": 2602,
+    "percentFunded": 26441.374000000003,
+    "backers": 2619,
     "deadline": 1795964407,
     "launchedAt": 1792072807,
     "staffPick": true,
@@ -33,19 +33,19 @@
     "kwHits": [
      "smart"
     ],
-    "score": 0.7774,
+    "score": 0.7776,
     "coverRemote": "https://i.kickstarter.com/assets/055/511/707/84fcd21f28b2bd2b768b651c9a09a252_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791978266&width=1024&sig=qpElXBJCJWEPAuec7yx7lQl9d8ScBOTzHXdx5Q%2FW7sM%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792396984-5by7KCIzG2xtKHptAhQtHuK%2FmQ7rUASOa%2FxvKqX3CPE%3D/projects/5371207/video-1460824-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792396984-5by7KCIzG2xtKHptAhQtHuK%2FmQ7rUASOa%2FxvKqX3CPE%3D/projects/5371207/video-1460824-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11350088,
       "price": 2999.0,
       "title": "ToolDance X1",
       "desc": "⚡ Super Early Bird | ToolDance X1 — US$2,999\\n💰 Save US$3,000 · 50% Off MSRP (US$5,999)\\n🛡️ 1-Year Hassle-Free Warranty\\n🔶 Customs Duties & VAT Covered\\n🌍 Guaranteed Delivery\\n💬 24/7 Customer Service\\n📦 Shipping costs are charged separately after the campaign. Rate information is available on this page.\\n\\nKey Features:\\n✅ 1,500 W PMSM Spindle · Up to 24,000 RPM\\n✅ ±0.01 mm Repeatability\\n✅ 400 × 265 × 180 mm 3-Axis Work Envelope\\n✅ 9-Tool Automatic Tool Changer + 3D Probe\\n✅ 3D Sensing System\\n✅ ToolDance Studio · AutoCAM, DFM Analysis & Simulation",
-      "backers": 697,
+      "backers": 715,
       "limit": 1000,
-      "remaining": 303,
+      "remaining": 285,
       "eta": 1803859200,
       "shipping": "unrestricted"
      },
@@ -54,9 +54,9 @@
       "price": 4749.0,
       "title": "X1 5-Axis Flood Deluxe Bundle",
       "desc": "⚡ Super Early Bird | X1 5-Axis Flood Deluxe Bundle — US$4,749\\n💰 Save US$3,798, 44% Off MSRP (US$8,547)\\n🛡️ 1-Year Hassle-Free Warranty\\n🔶 Customs Duties & VAT Covered\\n🌍 Guaranteed Delivery\\n💬 24/7 Customer Service\\n📦 Shipping costs are charged separately after the campaign. Rate information is available on this page.\\n\\nKey Features:\\n✅ 1,500 W PMSM Spindle · Up to 24,000 RPM\\n✅ ±0.01 mm Repeatability\\n✅ 400 × 265 × 180 mm 3-Axis Work Envelope\\n✅ 9-Tool Automatic Tool Changer + 3D Probe\\n✅ 3D Sensing System\\n✅ ToolDance Studio · AutoCAM, DFM Analysis & Simulation\\n✅ 3+2 Positional & Simultan",
-      "backers": 351,
+      "backers": 364,
       "limit": 600,
-      "remaining": 249,
+      "remaining": 236,
       "eta": 1803859200,
       "shipping": "unrestricted"
      },
@@ -65,24 +65,19 @@
       "price": 5398.0,
       "title": "X1 Flood Ultimate Bundle",
       "desc": "⚡ Super Early Bird | X1 Flood Ultimate Bundle — US$5,398\\n💰 Save US$3,998, 43% Off MSRP (US$9,396)\\n🛡️ 1-Year Hassle-Free Warranty\\n🔶 Customs Duties & VAT Covered\\n🌍 Guaranteed Delivery\\n💬 24/7 Customer Service\\n📦 Shipping costs are charged separately after the campaign. Rate information is available on this page.\\n\\nKey Features:\\n✅ 1,500 W PMSM Spindle · Up to 24,000 RPM\\n✅ ±0.01 mm Repeatability\\n✅ 400 × 265 × 180 mm 3-Axis Work Envelope\\n✅ 9-Tool Automatic Tool Changer + 3D Probe\\n✅ 3D Sensing System\\n✅ ToolDance Studio · AutoCAM, DFM Analysis & Simulation\\n✅ 3+1 Positional & Simultaneous ",
-      "backers": 977,
+      "backers": 1025,
       "limit": 1200,
-      "remaining": 223,
+      "remaining": 175,
       "eta": 1803859200,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 30,
-    "tiersDate": "2026-10-18",
-    "tiersCarried": "2026-10-18",
+    "tiersDate": "2026-10-19",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
-     {
-      "t": "p",
-      "x": "*   [**First 72-Hour Launch Giveaway**](h:First-72-Hour-Launch-Giveaway)",
-      "z": "* [**首次 72 小时启动赠品**](h:首次 72 小时启动赠品)"
-     },
      {
       "t": "p",
       "x": "*   [**Your Personal Factory, Desktop Footprint.**](h:Your-Personal-Factory-Desktop-Footprint-)",
@@ -130,8 +125,8 @@
      },
      {
       "t": "p",
-      "x": "*   [**Ridigity by Design, Stability in Every Cut**](h:Ridigity-by-Design-Stability-in-Every-Cut)",
-      "z": "* [**Ridigity 设计，每次切割的稳定性**](h:Ridigity-by-Design-Stability-in-Every-Cut)"
+      "x": "*   [**Rigidity by Design, Stability in Every Cut**](h:Rigidity-by-Design-Stability-in-Every-Cut)",
+      "z": "* [**设计刚性，每次切割稳定性**](h：设计刚性-每次切割稳定性)"
      },
      {
       "t": "p",
@@ -209,8 +204,9 @@
       "z": "* [**真实世界噪音测试**](h:真实世界噪音测试)"
      },
      {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/523/540/a672fbf8bdd73b50078eaa8862822c83_original.png?fit=scale-down&origin=ugc&q=100&v=1792046315&width=680&sig=vHBUg2LNaqi0lgkO5vwYXFVWvQS2n4Mbks%2Fof0SWsh0%3D"
+      "t": "p",
+      "x": "*   [**A Platform That Grows with You**](h:A-Platform-That-Grows-with-You)",
+      "z": "* [**与您一起成长的平台**](h:与您一起成长的平台)"
      },
      {
       "t": "img",
@@ -218,7 +214,7 @@
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/513/514/9eb8bcb440add94762af3f9efc755a96_original.png?fit=scale-down&origin=ugc&q=100&v=1791989100&width=680&sig=C4aiGOARkdmfn4g03MaQtt5AKRsAGvYoLTNTFCsqyAM%3D"
+      "u": "https://i.kickstarter.com/assets/055/565/595/2680e81246a1785ba69451f108282079_original.png?fit=scale-down&origin=ugc&q=100&v=1792381263&width=680&sig=REjxVVBgTUPcqRO9hvJ7D0fjDG2wntqU5IPW6GJ7iaI%3D"
      },
      {
       "t": "img",
@@ -263,6 +259,10 @@
      {
       "t": "img",
       "u": "https://i.kickstarter.com/assets/055/505/739/39ef03e91b20da361f351b8fc998c5ef_original.gif?fit=scale-down&origin=ugc&q=92&v=1791943541&width=680&sig=ByojE0z11ufLYjurAS14OD%2FF751xfRMRwSwbTW4ACXI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/505/770/31341b38e5b74decbaa6907aa24b6bad_original.png?fit=scale-down&origin=ugc&q=100&v=1791943731&width=680&sig=xBTChJcRAGkHJQHJ3tScpdVKMkyDhHB9V3HobqMyfP8%3D"
      }
     ]
    },
@@ -278,11 +278,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 108828.0,
-    "usdPledged": "108828.0",
+    "pledged": 110007.0,
+    "usdPledged": "110007.0",
     "goalUsd": 10000.0,
-    "percentFunded": 1088.28,
-    "backers": 1333,
+    "percentFunded": 1100.07,
+    "backers": 1360,
     "deadline": 1794505687,
     "launchedAt": 1791910087,
     "staffPick": true,
@@ -293,17 +293,17 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7585,
+    "score": 0.7591,
     "coverRemote": "https://i.kickstarter.com/assets/055/522/797/d6ae4644bd59573e799b19414c37e58b_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792040749&width=1024&sig=hzxRoaY6g5R7dDeYZhuT8eVxvebmGuAiIbdUcsKTYcY%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792398998-E13AGXptCeL2l7b%2F8D0a3sVBeLtouNJnsOEyGfYFK6I%3D/projects/5346034/video-1468460-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792398998-E13AGXptCeL2l7b%2F8D0a3sVBeLtouNJnsOEyGfYFK6I%3D/projects/5346034/video-1468460-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11328874,
       "price": 1.0,
       "title": "Jams Player",
       "desc": "Get the playlist William listens to while programming. 400+ songs, all instrumental-only, built for staying focused without vocals getting in the way.\\n\\nSmall donations have a huge impact when we all lift together!",
-      "backers": 210,
+      "backers": 251,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -314,7 +314,7 @@
       "price": 99.0,
       "title": "Early Bird Superhuman Supporter",
       "desc": "Make your account ad-free *forever* and get custom HTML/CSS on your profile *forever*. We know, ads suck, and we would prefer to have none. Our ads will be far more pro-consumer than anywhere else, please watch our interview with Roxane Lapa, timestamp 49:50 to see what we mean! \\n\\nIncludes all previous tiers, and you can grab more accounts as an add-on. This tier is also eligible for Kickstarter’s “pay over 3 months” option.\\n\\nPlease also see the Reserved Username tier to see how to lock in your username!",
-      "backers": 226,
+      "backers": 225,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -325,7 +325,7 @@
       "price": 125.0,
       "title": "Superhuman Supporter",
       "desc": "Make your account ad-free *forever* and get custom HTML/CSS on your profile *forever*. We know, ads suck, and we would prefer to have none. Our ads will be far more pro-consumer than anywhere else, please watch our interview with Roxane Lapa, timestamp 49:50 to see what we mean! \\n\\nIncludes all previous tiers, and you can grab more accounts as an add-on. This tier is also eligible for Kickstarter’s “pay over 3 months” option.\\n\\nPlease also see the Reserved Username tier to see how to lock in your username!",
-      "backers": 147,
+      "backers": 186,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -333,8 +333,8 @@
      }
     ],
     "rewardsTotal": 23,
-    "tiersDate": "2026-10-18",
-    "tiersCarried": "2026-10-18",
+    "tiersDate": "2026-10-19",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -900,8 +900,8 @@
      },
      {
       "t": "p",
-      "x": "25 days to go",
-      "z": "还剩 25 天"
+      "x": "24 days to go",
+      "z": "还剩 24 天"
      },
      {
       "t": "p",
@@ -934,8 +934,8 @@
      },
      {
       "t": "p",
-      "x": "25 days to go",
-      "z": "还剩 25 天"
+      "x": "24 days to go",
+      "z": "还剩 24 天"
      },
      {
       "t": "p",
@@ -1089,11 +1089,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 78424.0,
-    "pledged": 20662774.0,
-    "usdPledged": "2634573.31854838",
+    "pledged": 20695305.0,
+    "usdPledged": "2638721.13067785",
     "goalUsd": 9999.32,
-    "percentFunded": 26347.513516270526,
-    "backers": 4822,
+    "percentFunded": 26388.994440477403,
+    "backers": 4830,
     "deadline": 1793376023,
     "launchedAt": 1789488023,
     "staffPick": true,
@@ -1107,15 +1107,15 @@
     ],
     "score": 0.674,
     "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792404458-pXp1KDPD8w0i1LlEBg91x%2FHmCN%2F0T6FBeN%2BkkrgWc6c%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792404458-pXp1KDPD8w0i1LlEBg91x%2FHmCN%2F0T6FBeN%2BkkrgWc6c%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11254735,
       "price": 3128.0,
       "title": "Super Early Bird - Violoop",
       "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 4174,
+      "backers": 4214,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1126,7 +1126,7 @@
       "price": 5951.0,
       "title": "Super Early Bird - Violoop Duo Pack",
       "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 471,
+      "backers": 477,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1137,7 +1137,7 @@
       "price": 56432.0,
       "title": "Super Early Bird - Violoop Team Pack",
       "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 49,
+      "backers": 50,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1145,8 +1145,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-10-18",
-    "tiersCarried": "2026-10-18",
+    "tiersDate": "2026-10-19",
+    "tiersCarried": "",
     "cues": [
      [
       0.02,
@@ -1323,189 +1323,12 @@
     "story": [
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/112/827/e3d7dc4edb30a39269986371a2223db7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789368177&width=680&sig=638gbidJMd%2B5wfEY6ZC738UrRxWZpJtrSbkcaVSiMFo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/025/5aa5a5cdb2d4caff5cb8c3ff3e8352d2_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883690&width=680&sig=DaYzBDNXiTUgvwjQn%2BEiUoHABJxon8Tcs5ingy4UxjY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/030/1f99c4f7e43e4ce4641b6c4b1949fe5a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883712&width=680&sig=WqmPovC%2BEfw%2FMKuo9H0xsQqnagD0eXyn%2BcRP9kqgSQw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/035/d3b7244996892cc69d498bd411332a2d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883734&width=680&sig=EomtSzfVvgT08p3oMw8WwO1xCTBh%2F7%2BNtijHIP8EtJU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/040/b9b849b6ec7a8fe79d629a8871505614_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=URrxiGNiYMI5Qg69woE3xtdFvE84X0sTJUwc2%2BThsrQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/041/eb2e613ee0c7f9f9601eb025732d1824_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=fz9SsozAZKMNNsepvYi%2BVW%2FLprxxf%2FHrJinbiW10vqA%3D"
+      "u": "https://www.kickstarter.com/favicon.ico"
      },
      {
       "t": "p",
-      "x": "Extract customer, vehicle, and repair order data from the DMS and organize it into an Excel file.",
-      "z": "从 DMS 中提取客户、车辆和维修订单数据并将其组织到 Excel 文件中。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/046/95034dc50da375803bfaee565a971963_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883751&width=680&sig=ZFpERXuqiTWR0GTapmFX39bDG%2FuDmYdrz0ep8VEex4U%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/042/92aaafbe31cbdc0716be2a209853bf64_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=2gO1z1d0IUYi4JYxqZQ5FG7LmGJFoOyxKqcpg7qTfWc%3D"
-     },
-     {
-      "t": "p",
-      "x": "Locate the specific conversations in the WhatsApp chat list, extract the required information, and organize it into HubSpot CRM.",
-      "z": "在 WhatsApp 聊天列表中找到特定对话，提取所需信息，并将其组织到 HubSpot CRM 中。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/048/ef74c053efb4909aeffd7cb2b20398c0_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883752&width=680&sig=xtEunU4VmorulVL4JSUAcq0%2BHJNO9RDO4k2Fq5I4Xgg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/044/eb7da3af9ed34b128e1a3af80bf95075_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=5egcsVGfA1cLyYZ3j9ITwVqEoBHSd2OWFDrgxdYEIYg%3D"
-     },
-     {
-      "t": "p",
-      "x": "Read all unread emails. For each email that requires a reply, draft a response and save it to the Drafts folder. Archive every email that doesn't require a reply.",
-      "z": "阅读所有未读电子邮件。对于每封需要回复的电子邮件，起草回复并将其保存到草稿文件夹。归档每封不需要回复的电子邮件。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/045/76a9d3a488e7474f956e3b2817bfeffc_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883751&width=680&sig=%2BajHRPZfe51SliH9nues2LlSWT1NFH8YsifnqNVuVik%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/043/e390b7894ee7f2b9eec010f37cea13b9_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=UVGHy78n0QhdZpMf4p%2F3ND0pVcASRm%2FROTtVH%2FbGWfs%3D"
-     },
-     {
-      "t": "p",
-      "x": "Search online for the three hotels that best match the given criteria, select the best option, and fill the booking information, but stop right before payment.",
-      "z": "在线搜索最符合给定条件的三家酒店，选择最佳选项，然后填写预订信息，但在付款前停止。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/047/5d6d72dbe16d4f7312ba2ed2ef73a511_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883752&width=680&sig=SE5v%2BNea81dMRFvd57xJltd94ibSBbPcQ87ZwB5N%2B6I%3D"
-     },
-     {
-      "t": "p",
-      "x": "Visit Violoop’s official YouTube channel to discover more practical workflows: [Violoop Workflow Showcase - YouTube](https://www.youtube.com/playlist?list=PLEJ_9fI2IiTw)",
-      "z": "访问 Violoop 官方 YouTube 频道，了解更多实用工作流程：[Violoop 工作流程展示 - YouTube](https://www.youtube.com/playlist?list=PLEJ_9fI2IiTw)"
-     },
-     {
-      "t": "p",
-      "x": "The real workflows we demonstrate are starting points to help you discover what Violoop can do in your own daily work. Its capabilities extend far beyond these examples; we encourage you to experiment, try new ideas, and find ways to make Violoop work for you.",
-      "z": "我们演示的真实工作流程是帮助您发现 Violoop 在您自己的日常工作中可以做什么的起点。它的功能远远超出了这些例子；我们鼓励您尝试、尝试新想法并找到让 Violoop 为您服务的方法。"
-     },
-     {
-      "t": "p",
-      "x": "We look forward to seeing the workflows you create and learning from your experiences as we continue to improve Violoop together with our community.",
-      "z": "我们期待看到您创建的工作流程，并从您的经验中学习，我们将继续与社区一起改进 Violoop。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/246/e922bb26260d305320d8cef1ad2adb8e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791884412&width=680&sig=I21Dp5s5yWzkWqvu6SZx5IQOP8SodFB%2Bwv1sIOqRWgA%3D"
-     },
-     {
-      "t": "p",
-      "x": "Your personal on-device AI—with long-context memory that learns how you work. Violoop brings screen understanding and personal memory on-device, learning your habits, projects, and preferences entirely locally, with no cloud computing costs.",
-      "z": "您的个人设备上人工智能——具有长上下文记忆，可以了解您的工作方式。 Violoop 在设备上提供屏幕理解和个人记忆，完全在本地了解您的习惯、项目和偏好，无需云计算成本。"
-     },
-     {
-      "t": "p",
-      "x": "By combining OCR with a local model that understands long-form context, Violoop proactively moves your work forward—so you don’t have to write lengthy prompts for every task.",
-      "z": "通过将 OCR 与理解长格式上下文的本地模型相结合，Violoop 可以主动推动您的工作，因此您不必为每项任务编写冗长的提示。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop reads and understands the text, pages, and interactive elements on your screen in real time. It controls your computer through mouse and keyboard inputs, carrying out tasks across apps without relying on app-specific APIs.",
-      "z": "Violoop 实时读取并理解屏幕上的文本、页面和交互元素。它通过鼠标和键盘输入控制您的计算机，跨应用程序执行任务，而无需依赖应用程序特定的 API。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop separates AI processing from independent security control through its dual-chip architecture. The processing chip runs the local model, while the security chip enforces physical authorization for sensitive actions.",
-      "z": "Violoop 通过其双芯片架构将人工智能处理与独立的安全控制分开。处理芯片运行本地模型，而安全芯片则对敏感操作强制执行物理授权。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop connects your computer and phone so work can continue beyond your desk. As long as your computer remains on and connected, Violoop can run tasks around the clock. From your phone, you can remotely view your computer’s screen, check task progress, and give new instructions.",
-      "z": "Violoop 连接您的计算机和手机，以便您可以在办公桌外继续工作。只要您的计算机保持开启并连接，Violoop 就可以全天候运行任务。通过手机，您可以远程查看计算机屏幕、检查任务进度并给出新指示。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop can view and interact with two screens simultaneously, so you and Violoop can work on the same computer without getting in each other’s way.",
-      "z": "Violoop 可以同时查看两个屏幕并与之交互，因此您和 Violoop 可以在同一台计算机上工作，而不会互相妨碍。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop is for people who repeatedly extract information, copy and paste, fill out forms, organize files, and follow up on tasks. These activities have clear goals and repeatable steps, but are spread across different apps—taking time and interrupting focus.",
-      "z": "Violoop 适合那些反复提取信息、复制和粘贴、填写表格、组织文件和跟踪任务的人员。这些活动有明确的目标和可重复的步骤，但分布在不同的应用程序中，既耗时又分散注意力。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop handles the repetitive work across your apps, so you can focus on decisions, conversations, and creativity.",
-      "z": "Violoop 可以处理您应用程序中的重复性工作，因此您可以专注于决策、对话和创造力。"
-     },
-     {
-      "t": "p",
-      "x": "· Extract customer details and update your CRM.",
-      "z": "· 提取客户详细信息并更新您的 CRM。"
-     },
-     {
-      "t": "p",
-      "x": "· Draft personalized follow-up emails for your approval.",
-      "z": "· 起草个性化的后续电子邮件以供您批准。"
-     },
-     {
-      "t": "p",
-      "x": "· Organize product information and prepare listings for approval.",
-      "z": "· 整理产品信息并准备清单以供批准。"
-     },
-     {
-      "t": "p",
-      "x": "· Consolidate order, sales, and inventory data into spreadsheets.",
-      "z": "· 将订单、销售和库存数据合并到电子表格中。"
-     },
-     {
-      "t": "p",
-      "x": "· Sort, rename, and organize files by project or date.",
-      "z": "· 按项目或日期对文件进行排序、重命名和组织。"
-     },
-     {
-      "t": "p",
-      "x": "· Compare hotels and transportation prices for business trips.",
-      "z": "· 比较商务旅行的酒店和交通价格。"
-     },
-     {
-      "t": "p",
-      "x": "· Extract invoice and receipt details into financial records.",
-      "z": "· 将发票和收据详细信息提取到财务记录中。"
-     },
-     {
-      "t": "p",
-      "x": "· Compare statements and flag discrepancies for review.",
-      "z": "· 比较陈述并标记差异以供审查。"
-     },
-     {
-      "t": "p",
-      "x": "· Extract resume details and update candidate trackers.",
-      "z": "· 提取简历详细信息并更新候选人跟踪器。"
-     },
-     {
-      "t": "p",
-      "x": "· Compile availability and prepare interview schedules and invitations.",
-      "z": "· 收集可用情况并准备面试时间表和邀请。"
-     },
-     {
-      "t": "p",
-      "x": "· Gather research and links into a content library.",
-      "z": "· 将研究成果和链接收集到内容库中。"
+      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "z": "该网站使用安全服务来防范恶意机器人。当网站验证您不是机器人时会显示此页面。"
      }
     ]
    },
@@ -1521,10 +1344,10 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 882596.0,
-    "usdPledged": "882596.0",
+    "pledged": 881767.0,
+    "usdPledged": "881767.0",
     "goalUsd": 20000.0,
-    "percentFunded": 4412.9800000000005,
+    "percentFunded": 4408.835,
     "backers": 899,
     "deadline": 1794067204,
     "launchedAt": 1788879604,
@@ -1537,8 +1360,8 @@
     ],
     "score": 0.6634,
     "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792407723-PO71nS4SOlaJJy0OM%2FlpjTNCJJo5BknR6f4DmVBM7rs%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792407723-PO71nS4SOlaJJy0OM%2FlpjTNCJJo5BknR6f4DmVBM7rs%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11398822,
@@ -1556,7 +1379,7 @@
       "price": 799.0,
       "title": "BirdieSense - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 832,
+      "backers": 837,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -1575,8 +1398,8 @@
      }
     ],
     "rewardsTotal": 7,
-    "tiersDate": "2026-10-18",
-    "tiersCarried": "2026-10-18",
+    "tiersDate": "2026-10-19",
+    "tiersCarried": "",
     "cues": [
      [
       1.55,
@@ -2010,1074 +1833,692 @@
     ]
    },
    {
-    "id": 1321991576,
-    "name": "DogVibe: The Smart Dog Training Collar for Off-Leash Freedom",
-    "blurb": "A smart training system that detects leash pulling, sets virtual proximity fences, and runs from an app on your phone. No subscription.",
-    "url": "https://www.kickstarter.com/projects/dogvibe/dogvibe",
-    "category": "Hardware",
-    "creator": "DogVibe",
-    "location": "Austin, TX",
+    "id": 697019974,
+    "name": "For me buds 2: Adaptive On-Device AI Sleep Earbuds",
+    "blurb": "10.4mm slim sleep earbuds with adaptive sound, triple-layer noise control, and private on-device AI designed for better sleep.",
+    "url": "https://www.kickstarter.com/projects/dbbeats/for-me-buds-2-private-on-device-ai-sleep-earbuds",
+    "category": "Wearables",
+    "creator": "dbbeats",
+    "location": "Dallas, TX",
     "country": "the United States",
     "currency": "USD",
     "currencySymbol": "$",
-    "goal": 20000.0,
-    "pledged": 456157.0,
-    "usdPledged": "456157.0",
-    "goalUsd": 20000.0,
-    "percentFunded": 2280.785,
-    "backers": 1370,
-    "deadline": 1793343600,
-    "launchedAt": 1790685085,
-    "staffPick": true,
+    "goal": 5000.0,
+    "pledged": 185399.0,
+    "usdPledged": "185399.0",
+    "goalUsd": 5000.0,
+    "percentFunded": 3707.98,
+    "backers": 1834,
+    "deadline": 1795161019,
+    "launchedAt": 1791269419,
+    "staffPick": false,
     "sources": [
-     "Hardware 热门",
      "Technology 热门"
     ],
     "kwHits": [
-     "ai",
-     "smart"
+     "ai"
     ],
-    "score": 0.6564,
-    "coverRemote": "https://i.kickstarter.com/assets/055/331/264/bbdcdc5a67384b4843a066e81b885c60_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790784223&width=1024&sig=BlgsHwEBuW9Qu4p%2BTD7oyzhYujYj1vzYj01dd%2BkuEvk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "score": 0.6493,
+    "coverRemote": "https://i.kickstarter.com/assets/055/351/538/af1f51b7641bc7b34ae9409eb8969db0_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790900273&width=1024&sig=Qv0N4YcIGKo3eix9E6rJfztf7BSl8ObjIv0e61Wi5WI%3D",
+    "videoMp4": "https://v2.kickstarter.com/1792405668-bDw39y1WqZuwwEXWMqpr%2FmAyWHwOe4qOG7n3hqxjgps%3D/projects/5366123/video-1466395-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792405668-bDw39y1WqZuwwEXWMqpr%2FmAyWHwOe4qOG7n3hqxjgps%3D/projects/5366123/video-1466395-hls_playlist.m3u8",
     "rewards": [
      {
-      "id": 11303046,
-      "price": 250.0,
-      "title": "VIP - 1 Dog Bundle",
-      "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 32% OFF. $270 total with your $20 deposit, $130 off the $400 retail price\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 377,
-      "limit": 425,
-      "remaining": 48,
-      "eta": 1806537600,
-      "shipping": "restricted"
+      "id": 11412654,
+      "price": 79.0,
+      "title": "Secret Reward",
+      "desc": "60% OFF, Reservation & Returning Backers Only",
+      "backers": 533,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
      },
      {
-      "id": 11433279,
-      "price": 295.0,
-      "title": "Early Bird - 1 Dog Bundle",
-      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 26% OFF. $105 off the $400 retail price\\n⚡ Limited quantity. When these are gone the price goes to $330.\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 557,
-      "limit": 600,
-      "remaining": 43,
-      "eta": 1806537600,
-      "shipping": "restricted"
+      "id": 11412589,
+      "price": 99.0,
+      "title": "Super Early Bird",
+      "desc": "50% OFF, FIRST 5 DAYS ONLY",
+      "backers": 1120,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
      },
      {
-      "id": 11433286,
-      "price": 475.0,
-      "title": "Early Bird - 2 Dog Bundle",
-      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 2x DogVibe\\n✅ 2x Static Module\\n✅ 2x Leash Module\\n✅ 1x Remote\\n\\n🚀 40% OFF. $325 off the $800 retail price\\n🐕 $238 per dog\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 136,
-      "limit": 170,
-      "remaining": 34,
-      "eta": 1806537600,
-      "shipping": "restricted"
+      "id": 11449755,
+      "price": 179.0,
+      "title": "For Couple",
+      "desc": "55% OFF, Free App + Free Shipping",
+      "backers": 138,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
      }
     ],
-    "rewardsTotal": 12,
-    "tiersDate": "2026-10-16",
-    "tiersCarried": "2026-10-16",
+    "rewardsTotal": 8,
+    "tiersDate": "2026-10-19",
+    "tiersCarried": "",
     "cues": [
      [
-      19.31,
-      22.07,
-      "我是迈尔斯，这是我的狗巴鲁。"
+      1.33,
+      9.14,
+      "又一个早晨醒来，疲惫不堪。"
      ],
      [
-      22.07,
-      24.55,
-      "我们一起创造了这种狗的氛围，"
+      9.14,
+      13.89,
+      "您的设备只会监视您的睡眠质量。"
      ],
      [
-      24.55,
-      27.27,
-      "首创的智能电子颜色停止"
+      13.89,
+      15.41,
+      "跟踪不会改变任何事情。"
      ],
      [
-      27.27,
-      28.11,
-      "牵引绳"
+      15.41,
+      21.34,
+      "是时候采取行动了。"
      ],
      [
-      28.11,
-      30.59,
-      "并建立真正的不受束缚的信任。"
+      21.34,
+      25.73,
+      "欢迎来到您的个人睡眠庇护所。"
      ],
      [
-      30.59,
-      32.59,
-      "最好的部分是蓝牙控制，"
+      25.73,
+      28.65,
+      "年内传感器读取您的实时数据"
      ],
      [
-      32.59,
-      35.25,
-      "这意味着您的手机就像您的日常生活"
+      28.65,
+      29.57,
+      "生物识别技术。"
      ],
      [
-      35.25,
-      35.71,
-      "远程。"
+      29.57,
+      32.69,
+      "自适应音频接管，引导您"
      ],
      [
-      35.71,
-      37.31,
-      "拥有一只狗可以是令人难以置信的，"
+      32.69,
+      34.01,
+      "进入深度睡眠。"
      ],
      [
-      37.31,
-      39.47,
-      "一个冒险伙伴，一个最好的朋友。"
+      34.01,
+      36.63,
+      "100% 依靠设备 AI 来沉没你"
      ],
      [
-      39.47,
-      41.03,
-      "但现实是养狗"
+      36.63,
+      39.98,
+      "实时生物识别以主动响应"
      ],
      [
-      41.03,
-      42.71,
-      "有时可能会很困难"
+      39.98,
+      40.85,
+      "你的睡眠。"
      ],
      [
-      42.71,
-      44.71,
-      "训练他们可能会令人畏惧。"
+      40.85,
+      45.33,
+      "您的私人睡眠数据永远不会离开您"
      ],
      [
-      44.71,
-      48.83,
-      "拉扯，吠叫，不来"
+      45.33,
+      46.09,
+      "设备。"
      ],
      [
-      48.83,
-      49.99,
-      "当你打电话给他们时。"
+      46.09,
+      52.72,
+      "实时PPG 每秒256次"
      ],
      [
-      49.99,
-      51.43,
-      "阿普索斯！"
+      52.72,
+      55.66,
+      "在你的耳朵里。"
      ],
      [
-      51.43,
-      53.39,
-      "无法信任他们。"
+      55.66,
+      57.81,
+      "对于我这些朋友来说，两件礼物很全面"
      ],
      [
-      53.39,
-      54.99,
-      "如果你经常感到压力很大，"
+      57.81,
+      60.13,
+      "对话式睡眠报告的作用类似于"
      ],
      [
-      54.99,
-      57.11,
-      "总是为你的狗的行为道歉"
+      60.13,
+      61.18,
+      "您的个人睡眠"
      ],
      [
-      57.11,
-      58.99,
-      "感觉你就是不能相信他，我"
+      61.18,
+      64.19,
+      "教练。"
      ],
      [
-      58.99,
-      59.31,
-      "得到它，"
+      64.19,
+      68.39,
+      "10.4毫米超薄。"
      ],
      [
-      59.31,
-      60.63,
-      "因为我也去过那里"
+      68.39,
+      71.51,
+      "靠在你身边，没什么感觉。"
      ],
      [
-      60.63,
-      63.02,
-      "这正是我养狗的原因"
+      71.51,
+      74.72,
+      "阻止、取消、掩蔽、三重"
      ],
      [
-      63.02,
-      63.31,
-      "氛围。"
+      74.72,
+      75.87,
+      "层寂静。"
      ],
      [
-      63.31,
-      64.67,
-      "我什至在进行营销"
+      75.87,
+      79.08,
+      "甚至你伴侣的鼾声、频率"
      ],
      [
-      64.67,
-      66.71,
-      "发展最快的宠物品牌之一"
+      79.08,
+      80.35,
+      "有针对性，消失了。"
      ],
      [
-      66.71,
-      67.31,
-      "在世界上"
+      80.35,
+      82.27,
+      "除了噪声掩蔽之外，它还记录并"
      ],
      [
-      67.31,
-      68.55,
-      "做了一个分散注意力的玩具"
+      82.27,
+      84.46,
+      "通过您的"
      ],
      [
-      68.55,
-      70.43,
-      "为了帮助反应性的狗安定下来，"
+      84.46,
+      85.15,
+      "电话、给予"
      ],
      [
-      70.43,
-      72.48,
-      "但我仍然遇到问题"
+      85.15,
+      89.35,
+      "每天早上你都有清晰的见解。"
      ],
      [
-      72.48,
-      72.99,
-      "现实世界"
+      89.35,
+      92.09,
+      "体验 100% 无服务器、活跃"
      ],
      [
-      72.99,
-      77.01,
-      "下面是我的狗。"
+      92.09,
+      95.13,
+      "使您的生物识别数据下降的响应"
      ],
      [
-      77.01,
-      79.1,
-      "所以我建立了这个我希望存在的系统"
+      95.13,
+      96.15,
+      "完美的休息。"
      ],
      [
-      79.1,
-      79.85,
-      "当我开始的时候。"
+      96.15,
+      98.32,
+      "对于那些寻求真正休息的人来说，睡眠"
      ],
      [
-      79.85,
-      81.57,
-      "一种一致的培训语言"
+      98.32,
+      100.62,
+      "技术必须是无缝且"
      ],
      [
-      81.57,
-      88.91,
-      "你的狗最终会理解的。"
+      100.62,
+      101.07,
+      "安全。"
      ],
      [
-      88.91,
-      90.55,
-      "这就是狗的氛围系统。"
+      101.07,
+      103.73,
+      "100% 依靠设备 AI，您的个人"
      ],
      [
-      90.55,
-      92.59,
-      "它由四块硬件组成。"
-     ],
-     [
-      92.59,
-      94.87,
-      "狗的氛围，皮带模块，"
-     ],
-     [
-      94.87,
-      96.91,
-      "可选的静态校正模块，"
-     ],
-     [
-      96.91,
-      98.23,
-      "和我们的远程遥控器。"
-     ],
-     [
-      98.23,
-      99.79,
-      "狗的氛围与颜色有关"
-     ],
-     [
-      99.79,
-      101.27,
-      "你的狗已经穿了"
-     ],
-     [
-      101.27,
-      103.66,
-      "它用超声波与他们交谈"
-     ],
-     [
-      103.66,
-      104.83,
-      "音调和振动。"
-     ],
-     [
-      104.83,
+      103.73,
       106.67,
-      "它有发声检测"
+      "睡眠数据完全保留在您的设备上，"
      ],
      [
       106.67,
-      108.56,
-      "帮助平息过度吠叫"
+      107.03,
+      "从不"
      ],
      [
-      108.56,
-      109.35,
-      "自动地"
+      107.03,
+      109.27,
+      "发送到外部服务器。"
      ],
      [
-      109.35,
-      111.67,
-      "它适合 7 天 24 小时穿着"
+      109.27,
+      111.8,
+      "设计尺寸仅为 10.4 毫米，消除了"
      ],
      [
-      111.67,
-      114.11,
-      "这样规则就永远不会改变。"
+      111.8,
+      114.06,
+      "侧睡压力，提供"
      ],
      [
-      114.11,
-      115.27,
-      "有了狗的氛围应用程序，"
+      114.06,
+      114.79,
+      "失重，"
      ],
      [
-      115.27,
-      117.31,
-      "您的手机充当您的日常遥控器。"
+      114.79,
+      116.39,
+      "整夜舒适。"
      ],
      [
-      117.31,
-      118.67,
-      "锁定屏幕上的小部件"
+      116.39,
+      118.44,
+      "除了简单的跟踪之外，它还主动"
      ],
      [
-      118.67,
-      120.23,
-      "意味着你甚至不需要解锁"
+      118.44,
+      120.84,
+      "响应实时生物识别，指导"
      ],
      [
-      120.23,
-      120.63,
-      "你的手机"
+      120.84,
+      121.31,
+      "你进入"
      ],
      [
-      120.63,
-      121.51,
-      "使用颜色。"
+      121.31,
+      124.55,
+      "更深入、不间断的睡眠。"
      ],
      [
-      121.51,
-      123.47,
-      "每个设置都在应用程序中"
+      124.55,
+      127.22,
+      "对我来说，这两个真正找到了你"
      ],
      [
-      123.47,
-      125.59,
-      "射程约 200 英尺。"
+      127.22,
+      128.63,
+      "一整天都在心里。"
      ],
      [
-      125.59,
-      127.79,
-      "一部手机最多可容纳四只狗"
+      128.63,
+      130.56,
+      "它会追踪您的打鼾模式并"
      ],
      [
-      127.79,
-      130.36,
-      "和全家人的手机相比"
+      130.56,
+      132.87,
+      "通过智能手机记录音频日志"
      ],
      [
-      130.36,
-      130.99,
-      "一种颜色。"
+      132.87,
+      133.47,
+      "为了一个明确的"
      ],
      [
-      130.99,
-      132.88,
-      "皮带模块夹在您的狗之间"
+      133.47,
+      135.67,
+      "上午回顾。"
      ],
      [
-      132.88,
-      133.11,
-      "颜色"
+      135.67,
+      138.27,
+      "它由先进的 LLMAI 提供支持"
      ],
      [
-      133.11,
-      134.19,
-      "和皮带。"
+      138.27,
+      140.6,
+      "个性化的对话式睡眠"
      ],
      [
-      134.19,
-      135.75,
-      "所以当你的狗拉扯时，"
+      140.6,
+      142.11,
+      "根据您的情况进行辅导"
      ],
      [
-      135.75,
-      138.82,
-      "每一个颜色都会立即响应"
+      142.11,
+      144.55,
+      "生物识别数据。"
      ],
      [
-      138.82,
-      139.19,
-      "时间。"
+      144.55,
+      146.89,
+      "现代睡眠技术，让您一整天都安心"
      ],
      [
-      139.19,
-      141.27,
-      "你的狗很快就能把这些点连起来"
+      146.89,
+      147.95,
+      "健康伴侣。"
      ],
      [
-      141.27,
-      143.07,
-      "这意味着拉力停止"
+      147.95,
+      153.98,
+      "大家好，我是 DBPIT 首席执行官 Sunpiono。"
      ],
      [
-      143.07,
-      145.75,
-      "你紧张的散步变得平静，"
+      153.98,
+      156.53,
+      "我们想要打造一款睡眠耳塞"
      ],
      [
-      145.75,
-      146.95,
-      "松散的皮带行走。"
+      156.53,
+      159.02,
+      "在您睡觉时实时为您带来乐趣。"
      ],
      [
-      146.95,
-      149.07,
-      "最好的部分是它是自动的"
+      159.02,
+      161.03,
+      "第一代推出后"
      ],
      [
-      149.07,
-      151.02,
-      "这意味着它适用于每一个"
+      161.03,
+      162.89,
+      "波密耳机，我们用心聆听"
      ],
      [
-      151.02,
-      151.23,
-      "时间"
+      162.89,
+      163.3,
+      "反馈"
      ],
      [
-      151.23,
-      152.43,
-      "与任何大小的狗。"
+      163.3,
+      165.86,
+      "来自 3,000 多名支持者和用户。"
      ],
      [
-      153.35,
-      155.44,
-      "然后是远程遥控"
+      165.86,
+      168.26,
+      "根据这些反馈，我们设计了"
      ],
      [
-      155.44,
-      156.19,
-      "调用按钮。"
+      168.26,
+      170.47,
+      "舒适性、控制性、隐私性和"
      ],
      [
-      156.19,
-      158.62,
-      "我们帮助您训练实际上的回忆能力"
+      170.47,
+      171.02,
+      "实时"
      ],
      [
-      158.62,
-      158.99,
-      "成立。"
+      171.02,
+      172.34,
+      "产品的反应。"
      ],
      [
-      158.99,
-      160.99,
-      "好的，让我向您展示一个召回演示。"
+      172.34,
+      174.71,
+      "你能看到里面的睡眠医生是如何做的吗？"
      ],
      [
-      160.99,
-      162.79,
-      "我这里有召回按钮"
+      174.71,
+      177.2,
+      "小耳塞，我们内置了 PP 传感器"
      ],
      [
-      162.79,
-      163.19,
-      "我的手机，"
+      177.2,
+      177.62,
+      "测量"
      ],
      [
-      163.19,
-      164.63,
-      "宽松的衣领。"
+      177.62,
+      180.42,
+      "您的心跳和设备 AI 上的隐私？"
      ],
      [
-      164.63,
-      166.55,
-      "当我击中这个时，她知道要回来"
+      180.42,
+      182.07,
+      "他们感知你的夜间节奏并"
      ],
      [
-      166.55,
-      167.43,
-      "每一次。"
+      182.07,
+      183.82,
+      "测量您的心率并调整"
      ],
      [
-      168.43,
-      171.16,
-      "所以我打了它，她听到了，她继续前进"
+      183.82,
+      184.74,
+      "声音、实时"
      ],
      [
-      171.16,
-      171.51,
-      "回来。"
+      184.74,
+      185.74,
+      "自动。"
      ],
      [
-      171.51,
-      172.35,
-      "来吧，嘘。"
+      185.74,
+      188.26,
+      "最重要的是，您的生物识别数据"
      ],
      [
-      173.35,
-      175.03,
-      "就这样，我训练了她"
+      188.26,
+      189.98,
+      "不是我们服务器的全能。"
      ],
      [
-      175.03,
-      175.11,
-      "向上"
+      189.98,
+      192.74,
+      "它的设计考虑到了您的隐私。"
      ],
      [
-      175.11,
-      176.83,
-      "每次都会回来。"
+      192.74,
+      194.74,
+      "体验前所未有的睡眠耳塞"
      ],
      [
-      176.83,
-      178.72,
-      "我们还包括内部培训"
+      194.74,
+      195.14,
+      "之前。"
      ],
      [
-      178.72,
-      178.87,
-      "应用程序"
+      195.14,
+      197.02,
+      "对我来说，对你来说，这就是庞西"
      ],
      [
-      178.87,
-      181.03,
-      "帮助您训练您的狗做同样的事情。"
+      197.02,
+      198.46,
+      "当你睡觉时实时。"
      ],
      [
-      181.03,
-      183.47,
-      "一旦记忆牢固，你就可以解锁它。"
-     ],
-     [
-      183.47,
-      186.15,
-      "接近模式，随移动的栅栏"
-     ],
-     [
-      186.15,
-      186.43,
-      "你。"
-     ],
-     [
-      186.43,
-      187.75,
-      "无论你走到哪里。"
-     ],
-     [
-      187.75,
-      190.59,
-      "将其设置在 5 到 200 英尺之间的任意位置。"
-     ],
-     [
-      190.59,
-      192.35,
-      "当你的狗接近边界时"
-     ],
-     [
-      192.35,
-      194.71,
-      "他们会自动听到召回音。"
-     ],
-     [
-      194.71,
-      197.61,
-      "所以当heipes在海滩跑步或者"
-     ],
-     [
-      197.61,
-      198.27,
-      "露营,"
-     ],
-     [
-      198.27,
-      199.59,
-      "你可以让你的狗摆脱束缚"
-     ],
-     [
-      199.59,
-      201.99,
-      "并相信他们会保持密切联系。"
-     ],
-     [
-      201.99,
-      204.0,
-      "所以技术很酷，但我们是这样的"
-     ],
-     [
-      204.0,
-      205.11,
-      "考虑培训。"
-     ],
-     [
-      205.11,
-      207.3,
-      "一切与狗的氛围都是建立在"
-     ],
-     [
-      207.3,
-      208.03,
-      "信任、玩耍、"
-     ],
-     [
-      208.03,
-      210.04,
-      "并在狗狗做事时给予奖励"
-     ],
-     [
-      210.04,
-      210.83,
-      "正确的事情。"
-     ],
-     [
-      210.83,
-      212.31,
-      "这并不是很多人的想法"
-     ],
-     [
-      212.31,
-      212.51,
-      "关于"
-     ],
-     [
-      212.51,
-      214.27,
-      "当他们听到训练呼唤她时。"
-     ],
-     [
-      214.27,
-      216.23,
-      "所以我们还有可选的静态"
-     ],
-     [
-      216.23,
-      217.19,
-      "校正模块，"
-     ],
-     [
-      217.19,
-      219.11,
-      "总是被误解"
-     ],
-     [
-      219.11,
-      221.07,
-      "可能不是你想的那样。"
-     ],
-     [
-      221.07,
-      223.11,
-      "我在下面的视频中深入探讨了这一点。"
-     ],
-     [
-      223.11,
-      225.02,
-      "所以当你完成这里后，向下滚动，"
-     ],
-     [
-      225.02,
-      225.67,
-      "一探究竟。"
-     ],
-     [
-      225.67,
-      228.01,
-      "我会告诉你为什么它不是什么"
-     ],
-     [
-      228.01,
-      228.95,
-      "害怕。"
-     ],
-     [
-      228.95,
-      230.95,
-      "所以让我直接告诉你吧。"
-     ],
-     [
-      230.95,
-      232.95,
-      "狗的氛围并不是灵丹妙药。"
-     ],
-     [
-      232.95,
-      234.11,
-      "这不是魔法项圈。"
-     ],
-     [
-      234.11,
-      236.18,
-      "你拍你的狗一巴掌，它就解决了所有问题"
-     ],
-     [
-      236.18,
-      236.95,
-      "他们的问题。"
-     ],
-     [
-      236.95,
-      239.91,
-      "训练狗需要你付出真正的努力"
-     ],
-     [
-      239.91,
-      240.67,
-      "业主。"
-     ],
-     [
-      240.67,
-      242.25,
-      "但狗的氛围提供的是"
-     ],
-     [
-      242.25,
-      243.63,
-      "令人难以置信的硬件"
-     ],
-     [
-      243.63,
-      245.61,
-      "搭配经过深思熟虑的培训"
-     ],
-     [
-      245.61,
-      245.91,
-      "系统"
-     ],
-     [
-      245.91,
-      248.03,
-      "由专业训狗师开发。"
-     ],
-     [
-      248.03,
-      249.63,
-      "我在狗的空间里度过了很多年"
-     ],
-     [
-      249.63,
-      251.73,
-      "我理解这些问题是因为"
-     ],
-     [
-      251.73,
-      252.59,
-      "我经历过它们。"
-     ],
-     [
-      252.59,
-      254.95,
-      "我为自己和我的人建立了这个系统"
-     ],
-     [
-      254.95,
-      255.19,
-      "狗,"
-     ],
-     [
-      255.19,
-      256.92,
-      "但现在我准备好与大家分享"
-     ],
-     [
-      256.92,
-      257.19,
-      "世界。"
-     ],
-     [
-      257.19,
-      259.71,
-      "我之前已经筹集了超过 200 万美元"
-     ],
-     [
-      259.71,
-      261.78,
-      "就在 Kickstarter 上，以获取之前的信息"
-     ],
-     [
-      261.78,
-      262.31,
-      "项目。"
-     ],
-     [
-      262.31,
-      264.18,
-      "我曾参加过《创智赢家》的其中一部"
-     ],
-     [
-      264.18,
-      264.43,
-      "他们。"
-     ],
-     [
-      264.43,
-      266.63,
-      "我去过我们海外的厂家"
-     ],
-     [
-      266.63,
-      269.22,
-      "为狗的量产做好准备"
-     ],
-     [
-      269.22,
-      269.55,
-      "氛围。"
-     ],
-     [
-      269.55,
-      271.4,
-      "已有上千人放下"
-     ],
-     [
-      271.4,
-      271.63,
-      "钱"
-     ],
-     [
-      271.63,
-      274.0,
-      "保留狗的氛围，我不能再多了"
-     ],
-     [
-      274.0,
-      274.39,
-      "兴奋"
-     ],
-     [
-      274.39,
-      275.87,
-      "推出该产品。"
-     ],
-     [
-      275.87,
-      277.94,
-      "今天支持我们，您将成为其中之一"
-     ],
-     [
-      277.94,
-      278.55,
-      "第一个人"
-     ],
-     [
-      278.55,
-      281.0,
-      "在世界上获得最好的狗氛围"
-     ],
-     [
-      281.0,
-      281.31,
-      "价格"
-     ],
-     [
-      281.31,
-      282.55,
-      "他们将永远是。"
-     ],
-     [
-      282.55,
-      284.39,
-      "是时候给你的狗更多的自由了。"
-     ],
-     [
-      284.39,
-      286.75,
-      "因为生活，摆脱束缚会更好。"
+      198.46,
+      198.82,
+      "谢谢。"
      ]
     ],
     "vttLang": "zh",
     "story": [
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/346/760/4c12a19366b50f59805316173a7e0602_original.png?fit=scale-down&origin=ugc&q=100&v=1790874218&width=680&sig=6ELkjBFsJz9lSs1nwXfzZHKULXE9%2Bz%2F4SdrNBuLBGyI%3D"
+      "u": "https://i.kickstarter.com/assets/055/568/996/74e9201168923185193afe08196faba7_original.png?fit=scale-down&origin=ugc&q=100&v=1792405541&width=680&sig=8GqhR%2FJjbGzdzkTYq7BmE3F6JZM7yAc93QoMgX30RE8%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/346/753/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790874140&width=680&sig=%2B2WlJ%2FbL1esU9MjMrTzGFlss8wi8d2C19Cs2DZItMO8%3D"
+      "u": "https://i.kickstarter.com/assets/055/566/954/b82405288075bd25d4df32cc02d7f89a_original.png?fit=scale-down&origin=ugc&q=100&v=1792393462&width=680&sig=C%2BCAhnBvmoFFQAXGn1i1T6Q%2BUPHeDmN163lRMmdRQGQ%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/258/947/2bb62fbdc7f6d341fc94378b8ade8489_original.png?fit=scale-down&origin=ugc&q=100&v=1790289022&width=680&sig=AJpcb2bcQ%2B3UdRHTibylJKrxs6GyoYLACVm%2FBMQKK8Y%3D"
+      "u": "https://i.kickstarter.com/assets/055/374/337/7fb37cd921b85eeab8b8318277fb962f_original.png?fit=scale-down&origin=ugc&q=100&v=1791094364&width=680&sig=8IO81FJFzvCuuy93TGHzyFXA5LN5TcPVnCkbUdLeUCw%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/349/683/7e77033f671a4f1217ab1192013a40cc_original.gif?fit=scale-down&origin=ugc&q=92&v=1790888644&width=680&sig=qCEmUCDLncOdFojVUSUgHVJEPevJOgA%2FRmhZxAFaVp4%3D"
+      "u": "https://i.kickstarter.com/assets/055/355/034/0930f8ea605edd8dc919689f650f2ecf_original.png?fit=scale-down&origin=ugc&q=100&v=1790931113&width=680&sig=YEUntCvWkTbQhsL2Fgt9e4o7jBaYBuDMcebfqBZrpU0%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/258/938/9805a093ed105671ed56896ab3c62070_original.png?fit=scale-down&origin=ugc&q=100&v=1790288884&width=680&sig=WZA6J80Gy1HdxnVD01HBSUTpZ%2FDgGQoRWVPDVAlXXpY%3D"
-     },
-     {
-      "t": "p",
-      "x": "DogVibe brings smart training tools, guided training and everyday control together in one connected system.",
-      "z": "DogVibe 将智能训练工具、指导训练和日常控制整合到一个互联系统中。"
-     },
-     {
-      "t": "p",
-      "x": "From leash pulling and recall to off-leash boundaries and barking, DogVibe gives you one consistent way to communicate with your dog, so everyday training leads to something bigger: more trust, more confidence, and more freedom together.",
-      "z": "从牵引绳和回忆到脱离牵引绳的界限和吠叫，DogVibe 为您提供了一种与您的狗沟通的一致方式，因此日常训练会带来更大的收获：更多的信任、更多的信心和更多的自由。"
+      "u": "https://i.kickstarter.com/assets/055/374/166/cc279aca4560adcfa13cbe6c8a8dadb4_original.png?fit=scale-down&origin=ugc&q=100&v=1791092010&width=680&sig=%2Bk80mnRPaLpTyj4ANSTJi7iNJtZTkbHYLJm8%2BXEKlfM%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/535/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790554466&width=680&sig=6ew6tl3AQlCkLwQ7aLcn%2FWCn58XOZD62GGL2g1xfqk8%3D"
+      "u": "https://i.kickstarter.com/assets/055/355/048/0930f8ea605edd8dc919689f650f2ecf_original.png?fit=scale-down&origin=ugc&q=100&v=1790931176&width=680&sig=zZ4jevzy69Ww31LsH8dXLShlShAGL85JgJ13JnJMV8Y%3D"
+     },
+     {
+      "t": "p",
+      "x": "Sleep trackers tell you what went wrong. They don't change what happens during the night. And traditional earbuds? They're bulky, uncomfortable for side-sleepers, and can fall out before midnight. For Me Buds 2 responds in real time, stays comfortable through the night, and helps create a better sleep experience.",
+      "z": "睡眠追踪器会告诉您出了什么问题。他们不会改变夜间发生的事情。那么传统耳塞呢？它们体积庞大，对于侧睡的人来说不舒服，并且可能在午夜之前掉下来。 For Me Buds 2 实时响应，整夜保持舒适，并有助于创造更好的睡眠体验。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/534/0b9ea946d273526f73a778aba69b4414_original.png?fit=scale-down&origin=ugc&q=100&v=1790554454&width=680&sig=FqnO%2FYkcx1QivrBYbxXdwhqKCA9gp1ZxkB2yav0Jyh0%3D"
+      "u": "https://i.kickstarter.com/assets/055/101/853/8a262f429f75d77c664c8d6691bc121b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789272849&width=680&sig=Zop4o0I1qHLYJ3qkihX0qL1UlKUsYhd2diL4192GmTA%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/260/916/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790305171&width=680&sig=ni7hnl%2BGVzJUxI5cbefZODphwfn7mRVOkQnSwNs53M0%3D"
+      "u": "https://i.kickstarter.com/assets/055/355/052/0930f8ea605edd8dc919689f650f2ecf_original.png?fit=scale-down&origin=ugc&q=100&v=1790931196&width=680&sig=eg%2BixKL8kab0RULlpqse%2F4T2YKwzZnuXNWFuBjs7D2o%3D"
+     },
+     {
+      "t": "p",
+      "x": "For Me Buds 2 uses a micro PPG sensor to sense your nighttime rhythm from your ear. Your heart rhythm and movement help indicate how relaxed or restless your body may be before sleep.",
+      "z": "For Me Buds 2 使用微型 PPG 传感器从您的耳朵感知您的夜间节奏。您的心律和运动有助于表明您的身体在入睡前的放松或不安程度。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/644/28e4f30928c4db7ab4b8db2a0ae57ece_original.png?fit=scale-down&origin=ugc&q=100&v=1790555345&width=680&sig=apGg%2F5pUR6DSBa7B8aQO7GErbCbZViCP3H%2BXbzZbkvk%3D"
+      "u": "https://i.kickstarter.com/assets/055/354/069/3840c463211b310b78914c00be15c714_original.png?fit=scale-down&origin=ugc&q=100&v=1790923728&width=680&sig=Ymythpr2YZGztdkJ%2Fpkdo0FfVH3QUQNTDWF%2BxgKFWFE%3D"
+     },
+     {
+      "t": "p",
+      "x": "Based on this signal, For Me Buds 2 adjusts dynamic binaural beats and blends them with calming background sounds in real time. The result is a more natural, comfortable sound experience designed to help you relax into your sleep routine. Everything is processed on-device, so your biometric data stays with you.",
+      "z": "根据该信号，For Me Buds 2 会调整动态双耳节拍，并将其与平静的背景声音实时混合。其结果是带来更自然、舒适的声音体验，旨在帮助您放松入睡。一切都在设备上进行处理，因此您的生物识别数据会一直伴随着您。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/261/457/f25f694664ea330ae7f4a17d6d4b31d8_original.gif?fit=scale-down&origin=ugc&q=92&v=1790309050&width=680&sig=tXtl%2FGspwkOOouCVln%2FhWcklwaSYQ2mwdlDAfgQWZgQ%3D"
+      "u": "https://i.kickstarter.com/assets/055/446/707/e03bcc5567f8c87a32a271dd9faf1acf_original.gif?fit=scale-down&origin=ugc&q=92&v=1791544025&width=680&sig=gY1gkirP1ZjmbPfhEZKqtrNqqm%2FhbcKyYE7PiSojGHA%3D"
      },
      {
       "t": "p",
-      "x": "You may have watched the videos, tried different techniques, changed equipment, or worked with a trainer, but progress still feels inconsistent.",
-      "z": "您可能已经观看了视频、尝试了不同的技术、更换了设备或与培训师一起工作，但进步仍然感觉不一致。"
-     },
-     {
-      "t": "p",
-      "x": "One technique says one thing. Another says something different. Your timing changes, your signals change, and what worked yesterday stops working today.",
-      "z": "一种技术说明一件事。另一个说不同的话。你的时间改变了，你的信号改变了，昨天有效的方法今天就不再有效了。"
-     },
-     {
-      "t": "p",
-      "x": "To you, the changes seem inconsequential. To your dog, the rules keep changing.",
-      "z": "对你来说，这些变化似乎无关紧要。对于你的狗来说，规则不断变化。"
+      "x": "Start Care Mode in the app, check your current state, and choose a recommended sleep sound. Then the earbuds play dynamic binaural beats and calming sleep sounds in real time - helping your body relax before sleep. After your session, review your sleep data and AI report in the app. Your biometric data stays on-device.",
+      "z": "在应用程序中启动护理模式，检查您当前的状态，然后选择推荐的睡眠声音。然后耳塞会实时播放动态双耳节拍和平静的睡眠声音 - 帮助您的身体在睡前放松。训练结束后，在应用程序中查看您的睡眠数据和 AI 报告。您的生物识别数据保留在设备上。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/260/918/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790305181&width=680&sig=uYhfxBNDF28RKxl0xaHgG9CgYZ23%2FrpTxORipnFyE64%3D"
+      "u": "https://i.kickstarter.com/assets/055/101/906/51201f7f87e389e347f115f98cd6efa8_original.png?fit=scale-down&origin=ugc&q=100&v=1789273466&width=680&sig=0hPBZhJtKx39oKwCJ9cr7RJ1qeJVeBCW0wDjO25ao6s%3D"
+     },
+     {
+      "t": "p",
+      "x": "See your sleep data, snoring events, and biometric signals all in one place. Replay detected snoring sounds, track heart rate and HRV, and receive an AI-powered report that helps you better understand your sleep and improve your routine.",
+      "z": "在一处查看您的睡眠数据、打鼾事件和生物识别信号。重播检测到的鼾声、跟踪心率和 HRV，并接收人工智能驱动的报告，帮助您更好地了解您的睡眠并改善您的日常生活。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/303/912/90ffa18743926421087c89566be357d9_original.png?fit=scale-down&origin=ugc&q=100&v=1790636563&width=680&sig=NAymglMbYftYf5Wu%2BAvNkV4ii0sNF6UGWVU%2FHwzC3ns%3D"
+      "u": "https://i.kickstarter.com/assets/055/114/095/7d99f198c6ecac6ee1f4a33176e2e083_original.png?fit=scale-down&origin=ugc&q=100&v=1789376247&width=680&sig=jI9f1yTHxRokXg9YMtV159rNjJDLx2QHoUSQsQAV9wA%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/457/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790553433&width=680&sig=uw770%2FRU57%2FgzUcxY%2F7F9ThA7HCY51EK4cQqz2RmB%2Bw%3D"
+      "u": "https://i.kickstarter.com/assets/055/355/055/0930f8ea605edd8dc919689f650f2ecf_original.png?fit=scale-down&origin=ugc&q=100&v=1790931219&width=680&sig=tuFwtBJE53LcG4zATjxoNwz0YwB3xyLZY0VWambhW1s%3D"
+     },
+     {
+      "t": "p",
+      "x": "Hear directly from our CEO about the vision behind For Me Buds 2 and how real user feedback shaped its next-generation design.",
+      "z": "直接聆听我们首席执行官讲述 For Me Buds 2 背后的愿景以及真实的用户反馈如何塑造其下一代设计。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/513/5669e2ee3f83f003b0555a8438136651_original.gif?fit=scale-down&origin=ugc&q=92&v=1790554078&width=680&sig=zODX4OvdQG4nJz8pCirq0pbXt%2B4eS6HrcXaLdEhLA8U%3D"
+      "u": "https://i.kickstarter.com/assets/055/355/057/0930f8ea605edd8dc919689f650f2ecf_original.png?fit=scale-down&origin=ugc&q=100&v=1790931232&width=680&sig=HRydxjqO17DO7Pb%2FHOeKONmtewQN6dXXYm7Zdoek5IY%3D"
      },
      {
       "t": "p",
-      "x": "DogVibe is the center of the whole system and clips onto the collar your dog already wears. It talks to your pup with an ultrasonic tone and vibration. It has a dedicated recall tone, bark detection, and a night light. It connects wirelessly to your phone, the remote, and other all other modules.",
-      "z": "DogVibe 是整个系统的中心，可夹在您的狗已经佩戴的项圈上。它通过超声波和振动与您的小狗交谈。它具有专用的召回音、树皮检测和夜灯。它无线连接到您的手机、遥控器和其他所有模块。"
+      "x": "For Me Buds 2 analyzes your biometric signals in the earbuds, while adaptive sound and AI Sleep Chat run locally on your phone. Your sleep data and AI model stay on your phone - not on cloud servers. No account or login is required. After the initial model download, these features work offline.",
+      "z": "For Me Buds 2 会分析您耳塞中的生物识别信号，而自适应声音和 AI Sleep Chat 则会在您的手机上本地运行。您的睡眠数据和人工智能模型保留在您的手机上，而不是云服务器上。无需帐户或登录。初始模型下载后，这些功能可以离线使用。"
      },
      {
       "t": "p",
-      "x": "*   Attaches to the collar your dog already wears",
-      "z": "* 连接到您的狗已经佩戴的项圈上"
+      "x": "No cloud processing.",
+      "z": "没有云处理。"
      },
      {
       "t": "p",
-      "x": "*   Ultrasonic correction tone and vibration",
-      "z": "* 超声波修正音调和振动"
+      "x": "No server storage.",
+      "z": "没有服务器存储。"
      },
      {
       "t": "p",
-      "x": "*   Dedicated recall tone",
-      "z": "* 专用回忆音"
+      "x": "Works offline after the initial model download.",
+      "z": "初始模型下载后可离线工作。"
      },
      {
       "t": "p",
-      "x": "*   Bark detection",
-      "z": "* 树皮检测"
+      "x": "Turn your sleep data into a conversation. Ask about your night and get personalized explanations based on your own recorded sleep data. AI Sleep Chat is included with For Me Buds 2: free, unlimited conversations with no subscription fee. It runs locally on your phone and works offline after the initial model download. Your conversations and sleep data are not sent to cloud servers.",
+      "z": "将您的睡眠数据变成对话。询问您的夜晚情况，并根据您自己记录的睡眠数据获得个性化的解释。 For Me Buds 2 包含 AI Sleep Chat：免费、无限制的对话，无需订阅费。它在您的手机上本地运行，并在初始模型下载后离线工作。您的对话和睡眠数据不会发送到云服务器。"
      },
      {
       "t": "p",
-      "x": "*   Night light",
-      "z": "* 夜灯"
+      "x": "No subscription.",
+      "z": "没有订阅。"
      },
      {
       "t": "p",
-      "x": "*   Fully waterproof",
-      "z": "* 完全防水"
+      "x": "Unlimited chats.",
+      "z": "无限聊天。"
      },
      {
       "t": "p",
-      "x": "*   Two-week battery, USB-C charging",
-      "z": "* 两周电池，USB-C 充电"
+      "x": "Offline after setup.",
+      "z": "设置后离线。"
      },
      {
       "t": "p",
-      "x": "Clips between the collar and the leash. The moment your dog pulls, the collar responds. Automatically, on every walk, with perfect timing. You set how much pull triggers a correction and whether the correction builds gradually or fires immediately.",
-      "z": "夹在项圈和皮带之间。当你的狗拉动时，项圈就会做出反应。每次行走时都会自动完成，时机恰到好处。您可以设置触发修正的拉动量以及修正是逐渐建立还是立即触发。"
+      "x": "For Me Buds 2 is 44% slimmer than our first generation, with a low-profile shape designed to sit more naturally in your ear. Less bulk. Less pressure. More comfort through the night. So you can toss, turn, and sleep on your side with confidence.",
+      "z": "For Me Buds 2 比第一代纤薄 44%，其低调的形状旨在更自然地贴合您的耳朵。体积较小。压力较小。整夜更加舒适。这样您就可以放心地翻身、翻身和侧睡。"
      },
      {
       "t": "p",
-      "x": "*   Works with any-size dog",
-      "z": "* 适用于任何体型的狗"
+      "x": "Three layers of noise control work together for a quieter night. The in-ear seal blocks noise. Hybrid ANC reduces outside sound. Adaptive sleep sound masks what remains. From ambient noise to your partner’s snoring, For Me Buds 2 helps you rest more peacefully through the night.",
+      "z": "三层噪音控制共同作用，让夜晚更安静。入耳式密封件可阻挡噪音。混合 ANC 可减少外界声音。自适应睡眠声音掩盖了剩余的声音。从环境噪音到伴侣的鼾声，For Me Buds 2 可帮助您整晚更安宁地休息。"
      },
      {
       "t": "p",
-      "x": "*   Waterproof",
-      "z": "* 防水"
+      "x": "See when snoring was detected and replay the moments that matter. Your phone’s microphone captures nighttime audio, and an AI model analyzes it locally on your phone. After analysis, only detected snoring clips are kept on your phone for review. Other captured audio is deleted. Your bedroom audio is not uploaded to cloud servers.",
+      "z": "查看何时检测到打鼾并重播重要时刻。您手机的麦克风会捕获夜间音频，人工智能模型会在您的手机上进行本地分析。经过分析后，仅检测到的打鼾片段会保留在您的手机上以供查看。其他捕获的音频将被删除。您的卧室音频未上传到云服务器。"
      },
      {
       "t": "p",
-      "x": "*   Automatic corrections (tone/vibration/static)",
-      "z": "* 自动校正（音调/振动/静态）"
+      "x": "Use For Me Buds 2 just like regular Bluetooth earbuds during the day. Enjoy YouTube, Spotify, podcasts, and your favorite music anytime - and take phone calls when you need to.",
+      "z": "白天使用 For Me Buds 2 就像使用普通蓝牙耳机一样。随时享受 YouTube、Spotify、播客和您喜爱的音乐 - 并在需要时接听电话。"
      },
      {
       "t": "p",
-      "x": "*   Fully adjustable based on dog’s weight and behavior",
-      "z": "* 根据狗的体重和行为完全调节"
+      "x": "Research on dynamic binaural beats behind our technology was published in SLEEP, a peer-reviewed journal by Oxford Academic. Early R&D studies also showed measurable differences in sleep onset, awake time, and total sleep duration under tested conditions. These findings helped shape the adaptive sound system in For Me Buds 2.",
+      "z": "我们技术背后的动态双耳节拍研究发表在牛津学术界同行评审期刊《SLEEP》上。早期研发研究还表明，在测试条件下，入睡时间、清醒时间和总睡眠持续时间存在可测量的差异。这些发现帮助塑造了 For Me Buds 2 中的自适应声音系统。"
      },
      {
       "t": "p",
-      "x": "*   Fully adjustable inside the app",
-      "z": "* 在应用程序内完全可调"
+      "x": "Watch how For Me Buds 2 connects with the app, reads your signals, adapts sound, and presents your sleep insights in real time.",
+      "z": "观看 For Me Buds 2 如何与应用程序连接、读取您的信号、调整声音并实时呈现您的睡眠见解。"
      },
      {
       "t": "p",
-      "x": "*   No remote needed",
-      "z": "* 无需遥控器"
+      "x": "See how For Me Buds 2 compares across sensing, privacy, noise control, sleep insights, and price - combining in-ear PPG, private on-device AI, and premium sleep features at a more accessible Kickstarter Special price.",
+      "z": "了解 For Me Buds 2 在传感、隐私、噪音控制、睡眠洞察和价格方面的比较 - 以更容易获得的 Kickstarter 特价将入耳式 PPG、私人设备端 AI 和高级睡眠功能结合在一起。"
      },
      {
       "t": "p",
-      "x": "*   Finally achieve loose-leash walks",
-      "z": "* 最终实现自由行走"
+      "x": "We offer free shipping worldwide for all For Me Buds 2 rewards. Applicable taxes, including VAT or sales tax, may be calculated and collected separately through Kickstarter’s Pledge Manager based on your shipping location. For regions where import handling is required, we plan to ship using a DDP-style process whenever possible, so backers will not be charged hidden shipping fees by us after the campaign.",
+      "z": "我们为所有 For Me Buds 2 奖励提供全球免费送货服务。适用的税费，包括增值税或销售税，可以根据您的送货地点通过 Kickstarter 的 Pledge Manager 单独计算和收取。对于需要进口处理的地区，我们计划尽可能使用 DDP 式的流程进行运输，因此活动结束后我们不会向支持者收取隐藏的运输费用。"
      },
      {
       "t": "p",
-      "x": "When you need to communicate with your dog from a distance, the remote reaches three-quarters of a mile for recall. You don't have to carry it every day, but it's there when the situation calls for it.",
-      "z": "当您需要与您的狗进行远距离交流时，遥控器可以到达四分之三英里进行调用。您不必每天都携带它，但当情况需要时它就在那里。"
+      "x": "No surprise shipping charges. No hidden handling fees. Just complete your pledge, confirm your details in the Pledge Manager, and get ready for For Me Buds 2.",
+      "z": "没有意外的运费。无隐藏手续费。只需完成您的承诺，在承诺管理器中确认您的详细信息，然后为 For Me Buds 2 做好准备。"
      },
      {
       "t": "p",
-      "x": "*   3/4 mile range for all controls",
-      "z": "* 所有控制范围为 3/4 英里"
+      "x": "In the unlikely event that you receive a defective product, we offer a free exchange or repair service within 1 year of purchase. *Please note that this policy does not apply to defects caused by user negligence.",
+      "z": "万一您收到有缺陷的产品，我们将在购买后 1 年内提供免费更换或维修服务。 *请注意，本政策不适用于因用户疏忽造成的缺陷。"
      },
      {
       "t": "p",
-      "x": "*   Enables Proximity Mode with 5-200’ range",
-      "z": "* 启用 5-200 英尺范围内的接近模式"
-     },
-     {
-      "t": "p",
-      "x": "*   Waterproof",
-      "z": "* 防水"
-     },
-     {
-      "t": "p",
-      "x": "*   2 week charge",
-      "z": "* 2周充电"
+      "x": "For Me Buds 2 is progressing through prototype refinement, design validation, production testing, and pilot production as we prepare for mass production. Each stage is focused on improving comfort, performance, reliability, and manufacturing quality before delivery to our backers.",
+      "z": "For Me Buds 2 正在经历原型完善、设计验证、生产测试和试生产，同时我们正在为批量生产做准备。每个阶段都专注于提高舒适度、性能、可靠性和制造质量，然后再交付给我们的支持者。"
      }
     ]
    }
