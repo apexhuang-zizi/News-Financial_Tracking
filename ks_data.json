@@ -1,5 +1,1504 @@
 [
  {
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T12:40:17+07:00",
+  "source": "Kickstarter discover/advanced API + 项目详情页",
+  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
+  "poolSize": 34,
+  "projects": [
+   {
+    "id": 894993500,
+    "name": "XGIMI AURA 3 Series: The Ultimate 4K RGB Laser TV",
+    "blurb": "5700 ISO Lumens | 8000:1 Native Contrast | Dual Intelligent Iris | 4K 120Hz Refresh Rate | 0.163:1 Ultra Short Throw Ratio",
+    "url": "https://www.kickstarter.com/projects/xgimititannoir/xgimi-aura-3-series-the-ultimate-laser-tv-for-every-moment",
+    "category": "Hardware",
+    "creator": "XGIMI Tech",
+    "location": "Rowland Heights, CA",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 100000.0,
+    "pledged": 16134536.0,
+    "usdPledged": "16134536.0",
+    "goalUsd": 100000.0,
+    "percentFunded": 16134.536,
+    "backers": 6248,
+    "deadline": 1796400007,
+    "launchedAt": 1792508407,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门"
+    ],
+    "kwHits": [],
+    "score": 0.7182,
+    "coverRemote": "https://i.kickstarter.com/assets/055/590/014/ce76daee966ec5dc3234f0ac44c4d15a_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792516143&width=1024&sig=cyTDRPWje8fBc4aJoVZV%2FNd6r5m0PfYAfHO%2BrRMOIMo%3D",
+    "videoMp4": "https://v2.kickstarter.com/1792635437-7UclIUqkLmJchMtF8Wj7lklc4aLUwxy1dtet4vq3%2Bjc%3D/projects/5398626/video-1468517-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792635437-7UclIUqkLmJchMtF8Wj7lklc4aLUwxy1dtet4vq3%2Bjc%3D/projects/5398626/video-1468517-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11486780,
+      "price": 2399.0,
+      "title": "AURA 3 Max - Launch Special",
+      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
+      "backers": 2410,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11459603,
+      "price": 2399.0,
+      "title": "AURA 3 Max - Launch Special",
+      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
+      "backers": 1688,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11486647,
+      "price": 2399.0,
+      "title": "AURA 3 Max - Launch Special",
+      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
+      "backers": 1536,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 9,
+    "tiersDate": "2026-10-22",
+    "tiersCarried": "",
+    "cues": [
+     [
+      1.3,
+      5.02,
+      "认识Aura 3 ，新一代激光"
+     ],
+     [
+      5.02,
+      8.3,
+      "专为将电影院带回家而设计的电视。"
+     ],
+     [
+      8.3,
+      14.12,
+      "从80到200英寸，带大"
+     ],
+     [
+      14.12,
+      19.78,
+      "屏幕回家，仅几英寸远。"
+     ],
+     [
+      19.78,
+      23.51,
+      "由鲜艳的RGB激光颜色提供动力，最高可达"
+     ],
+     [
+      23.51,
+      27.07,
+      "5700 ISO流明，每一个细节都"
+     ],
+     [
+      27.07,
+      27.78,
+      "被看见。"
+     ],
+     [
+      27.78,
+      30.4,
+      "彩虹显著减少"
+     ],
+     [
+      30.4,
+      32.78,
+      "效果，享受更清晰的视觉效果。"
+     ],
+     [
+      32.78,
+      35.53,
+      "Aura 3的核心是精准"
+     ],
+     [
+      35.53,
+      38.34,
+      "光控，双虹膜动态"
+     ],
+     [
+      38.34,
+      41.3,
+      "控制光线以显示更深的黑色，"
+     ],
+     [
+      41.3,
+      42.78,
+      "更丰富的阴影细节。"
+     ],
+     [
+      42.78,
+      45.58,
+      "我们的XVision AI图像处理器"
+     ],
+     [
+      45.58,
+      48.85,
+      "智能地增强每一帧，"
+     ],
+     [
+      48.85,
+      52.78,
+      "优化HDR以获得更精致的画面。"
+     ],
+     [
+      52.78,
+      56.18,
+      "在其中享受您最喜爱的内容"
+     ],
+     [
+      56.18,
+      57.78,
+      "原始格式"
+     ],
+     [
+      57.78,
+      61.62,
+      "4K 120 Hz刷新率，快速移动"
+     ],
+     [
+      61.62,
+      64.78,
+      "场景保持更清晰、更流畅。"
+     ],
+     [
+      64.78,
+      67.52,
+      "当画面变大时，"
+     ],
+     [
+      67.52,
+      68.78,
+      "声音也应该如此。"
+     ],
+     [
+      68.78,
+      73.91,
+      "体验反应灵敏、流畅且无撕裂"
+     ],
+     [
+      73.91,
+      76.47,
+      "低延迟游戏玩法。"
+     ],
+     [
+      76.47,
+      79.35,
+      "从游戏到观看，体验"
+     ],
+     [
+      79.35,
+      80.47,
+      "在一起的时刻。"
+     ],
+     [
+      80.47,
+      84.56,
+      "配备背光遥控器和Google TV ，"
+     ],
+     [
+      84.56,
+      88.65,
+      "你所爱的一切都在你的"
+     ],
+     [
+      88.65,
+      89.9,
+      "指尖"
+     ],
+     [
+      89.9,
+      93.93,
+      "与X Jimmy Ascent配对， Aura 3成为"
+     ],
+     [
+      93.93,
+      96.9,
+      "完整的激光电视体验。"
+     ],
+     [
+      96.9,
+      100.02,
+      "专为消失在你的生活中而设计"
+     ],
+     [
+      100.02,
+      103.14,
+      "空间，直到是时候带来大"
+     ],
+     [
+      103.14,
+      106.5,
+      "屏幕来点亮终极激光电视，"
+     ],
+     [
+      106.5,
+      107.57,
+      "每時每刻"
+     ],
+     [
+      108.88,
+      111.88,
+      "X Jimmy Aura 3系列。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/367/852e983589af2a91ae3458f022466ebc_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396674&width=680&sig=ktdKnwjoP3rDIKBF9Xrc0uJ0ghF1uZhcmHNI4%2F%2BH%2FsU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/538/252/a4d0f1c6c4b6e7f9a2650668e0edd430_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792136939&width=680&sig=8RyfAjdOkB%2BrArcl8mAOB3nt8NL71CvRwXnliCo1E88%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/368/c86e7e64e383ea306fe3e8ca54cf5e70_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396674&width=680&sig=G1KwtX63XTou3DspDvze9ugl3liS8%2B6QXVCwPKPAeBg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/354/3e73d49efaaf0db40372157246626917_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=77ww2LRY%2BD6FOXoMvdkoouO9QIyP5FfMdKpvsoFjsdo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/365/4ae05f2d0c2c7cc77d5e711f2ca5c1b4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396673&width=680&sig=QQEGbYOeO60QQTLMrYI4GM3r503d8fEL4k8bd43SQ3c%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/804/72e7fe0523c10db76f6705a1e7ff259b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792399396&width=680&sig=4arxSeE6HFi7HbzITqO4qH8c8hgdhK5nP%2FMj7ZfYyPI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/569/111/6d6c326a008a84701eb817d68e5553c8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792405725&width=680&sig=ZSJYfwX%2FDjzaaoe%2FcKXcb0sfryNG0jUa%2BaLmXnC1GEQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/366/4ac0f2dcfc9a4a2ee1534729159a6b45_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396673&width=680&sig=lMCYtBEgBBp3%2F4lRQPkEi1UIT5hYZh1vSv6kMJ0Ci0A%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/355/e1ea26ea2e6363ce2f2eb75e99cd7439_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=UuZB%2FzdY7jHf8v63OdZFHOqvb31%2F0mi8Y6YIA7XdBaY%3D"
+     },
+     {
+      "t": "p",
+      "x": "Powered by dual TI DLPC display controllers, AURA 3 Series delivers 4K UHD at 120Hz, keeping fast-moving scenes sharp and fluid with reduced motion blur and clearer moving detail. From sports and action scenes to gameplay, every frame stays crisp.",
+      "z": "AURA 3系列由双TI DLPC显示控制器提供支持，可提供120Hz的4K UHD ，保持快速移动的场景清晰流畅，减少运动模糊和更清晰的移动细节。从运动和动作场景到游戏玩法，每帧都保持清晰。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/370/3f90441346868d1005ab938b4198b607_original.gif?fit=scale-down&origin=ugc&q=92&v=1792396676&width=680&sig=1UlTVA410jLls1vK%2FWX7OMYcK421HXcSlHpO3Wkz1jk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/369/5d2323ca00b332dc9d140c88a0f67ee1_original.gif?fit=scale-down&origin=ugc&q=92&v=1792396675&width=680&sig=HFsh3J0YRGoJ2f8hzmgGsS0bWXQCXn1lJ77R%2B89PoTU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/362/68da4ad025d04bf4d98a9406c305a660_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396671&width=680&sig=IUHJ04hOmmVfsjigzB0MsffquTr1Dc4yFWDZRrFLxzk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/357/c493f77c5e7962a15f0102afd84ea36b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=vlcuxcWBwy%2Bi6QlKSOOHgg0PUpxYlQQwEg8nc51ac30%3D"
+     },
+     {
+      "t": "p",
+      "x": "With a higher 120Hz refresh rate, colors cycle faster to help reduce visible rainbow effects. Combined with AURA 3 Series’s Anti-RBE technology, it delivers cleaner, more natural visuals across both 2D and 3D content.",
+      "z": "通过更高的120Hz刷新率，颜色循环速度更快，有助于减少可见的彩虹效果。结合AURA 3系列的Anti-RBE技术，它可以在2D和3D内容中提供更清晰、更自然的视觉效果。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/363/dd322221ea6b5e53f4664f6fb65ab509_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396672&width=680&sig=JUOMffRSOl8prrnpTea8wlhUDqsq6Jcn6tUjkqXDS%2Bc%3D"
+     },
+     {
+      "t": "p",
+      "x": "4K 120Hz Global MEMC intelligently smooths motion across the entire screen, reducing judder and motion blur while preserving image detail. From fast-paced sports to action-packed scenes, every movement stays smooth and clear.",
+      "z": "4K 120Hz全局MEMC智能平滑整个屏幕的运动，减少抖动和运动模糊，同时保留图像细节。从快节奏的运动到动感十足的场景，每一个动作都保持流畅清晰。"
+     },
+     {
+      "t": "p",
+      "x": "Watch films exactly as intended—120Hz is an exact multiple of 24fps, displaying each cinematic frame five times in a consistent 5:5 cadence, without 3:2 pulldown judder.",
+      "z": "完全按照预期观看电影- 120Hz是24fps的精确倍数，以一致的5 ： 5节奏显示每个电影帧五次，没有3 ： 2的下拉抖动。"
+     },
+     {
+      "t": "p",
+      "x": "Up to 8,000:1 native contrast for deeper black perception in large-screen projection — enabled by precision light control at the source.",
+      "z": "高达8,000: 1的原生对比度，可在大屏幕投影中实现更深的黑色感知—通过光源处的精确光控实现。"
+     },
+     {
+      "t": "p",
+      "x": "Two irises work together to refine every beam of light.",
+      "z": "两个虹膜协同工作，细化每一束光。"
+     },
+     {
+      "t": "p",
+      "x": "Automatically adjusting the iris size based on scene brightness for optimal contrast and brightness.",
+      "z": "根据场景亮度自动调整虹膜大小，以获得最佳对比度和亮度。"
+     },
+     {
+      "t": "p",
+      "x": "Our advanced DBLE technology boosts dynamic contrast by up to 10× while preserving shadow detail and true-to-life color.",
+      "z": "我们先进的DBLE技术将动态对比度提高了10倍，同时保留了阴影细节和逼真的色彩。"
+     },
+     {
+      "t": "p",
+      "x": "RGB triple laser delivers a clear image in bright rooms for anytime viewing.",
+      "z": "RGB三重激光可在明亮的房间内提供清晰的图像，以便随时查看。"
+     },
+     {
+      "t": "p",
+      "x": "Natural dimensionality brings cinematic realism into your living space.",
+      "z": "自然维度将电影现实主义带入您的生活空间。"
+     },
+     {
+      "t": "p",
+      "x": "Deeper blacks, brighter highlights, and richer colors across all major HDR formats.",
+      "z": "所有主要HDR格式都具有更深的黑色、更亮的亮点和更丰富的色彩。"
+     },
+     {
+      "t": "p",
+      "x": "RGB Triple Laser maintains accurate, vivid color quality — even at peak brightness.",
+      "z": "RGB Triple Laser即使在峰值亮度下也能保持准确、生动的色彩质量。"
+     },
+     {
+      "t": "p",
+      "x": "Powered by XGIMI-developed X-VISION AI image processor, AURA 3 Series intelligently optimizes every frame in real time for sharper detail, richer contrast, and a more lifelike picture.",
+      "z": "AURA 3系列由XGIMI开发的X-VISION AI图像处理器提供支持，可实时智能优化每帧，实现更清晰的细节、更丰富的对比度和更逼真的画面。"
+     },
+     {
+      "t": "p",
+      "x": "X-VISION intelligently reconstructs every frame in real time, restoring texture, refining edges, and bringing hidden details back into view.",
+      "z": "X-VISION智能地实时重建每个帧，恢复纹理，细化边缘，并将隐藏的细节带回视野。"
+     },
+     {
+      "t": "p",
+      "x": "X-VISION analyzes every HDR scene in real time, dynamically optimizing brightness and contrast for brighter highlights, deeper shadows, and richer depth.",
+      "z": "X-VISION实时分析每个HDR场景，动态优化亮度和对比度，以获得更亮的高光、更深的阴影和更丰富的深度。"
+     },
+     {
+      "t": "p",
+      "x": "Enjoy instant access to Netflix, YouTube, Prime Video, and more — no extra devices needed. Control your content effortlessly with Google Home and voice commands.",
+      "z": "无需额外设备，即可即时访问Netflix、YouTube、Prime Video等。使用Google Home和语音命令轻松控制您的内容。"
+     },
+     {
+      "t": "p",
+      "x": "80W of room-filling sound with remarkable clarity and depth.",
+      "z": "80W的房间充满声音，具有非凡的清晰度和深度。"
+     },
+     {
+      "t": "p",
+      "x": "Hear the movie, not the machine. AURA 3 Series keeps fan noise low, so you can stay immersed in movies, games, and music without distraction.",
+      "z": "听电影，而不是听机器。AURA 3系列保持风扇噪音低，因此您可以沉浸在电影、游戏和音乐中而不会分心。"
+     },
+     {
+      "t": "p",
+      "x": "Everything you need for a more responsive, immersive big-screen gaming experience.",
+      "z": "更快响应、更身临其境的大屏幕游戏体验所需的一切。"
+     },
+     {
+      "t": "p",
+      "x": "Experience ultra-smooth 4K 120Hz gameplay with reduced motion blur, keeping fast action sharp and responsive.",
+      "z": "体验超流畅的4K 120Hz游戏，减少运动模糊，保持快速动作清晰和响应。"
+     },
+     {
+      "t": "p",
+      "x": "VRR & AMD FreeSync™ deliver smooth, tear-free gaming with fluid frames and ultra-low latency.",
+      "z": "VRR和AMD FreeSync™通过流畅的框架和超低延迟提供流畅、无撕裂的游戏。"
+     },
+     {
+      "t": "p",
+      "x": "Experience deeper contrast, lifelike colors, and enhanced shadow detail with Dolby Vision Gaming technology.",
+      "z": "使用杜比视觉游戏技术，体验更深的对比度、逼真的色彩和增强的阴影细节。"
+     },
+     {
+      "t": "p",
+      "x": "While other UST projectors lose image clarity at the edges, AURA 3 Series maintains full-frame sharpness and color consistency.",
+      "z": "当其他UST投影仪在边缘失去图像清晰度时， AURA 3系列保持全画幅清晰度和色彩一致性。"
+     },
+     {
+      "t": "p",
+      "x": "Minimizes chromatic distortion — even at extreme projection angles.",
+      "z": "即使在极端的投影角度，也能最大限度地减少色彩失真。"
+     },
+     {
+      "t": "p",
+      "x": "Maximizes light transmission while reducing reflection, providing higher brightness and improved image depth.",
+      "z": "最大限度地提高光传输，同时减少反射，提供更高的亮度和改进的图像深度。"
+     },
+     {
+      "t": "p",
+      "x": "A precision-engineered optical stack ensures uniform sharpness across the entire screen.",
+      "z": "精密设计的光学堆栈确保了整个屏幕的均匀清晰度。"
+     }
+    ]
+   },
+   {
+    "id": 2099488698,
+    "name": "Lucy AI Studio: A Dedicated Computer for Your AI Agents",
+    "blurb": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+    "url": "https://www.kickstarter.com/projects/744045479/cephalon-ondevice-ai-with-a-selfevolving-ecosystem",
+    "category": "Hardware",
+    "creator": "Cephalon AI",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 636109.0,
+    "usdPledged": "81057.10532196",
+    "goalUsd": 1274.26,
+    "percentFunded": 6361.09,
+    "backers": 24,
+    "deadline": 1795532381,
+    "launchedAt": 1792504781,
+    "staffPick": false,
+    "sources": [
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.6814,
+    "coverRemote": "https://i.kickstarter.com/assets/055/316/862/c1e2ae2108a2f8bdf8ed791053c2d96d_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790703149&width=1024&sig=O6sg6rYuZwQBMf6Zk%2BNkWr%2F3uKh4l%2FD1NKCudYEmNLk%3D",
+    "videoMp4": "https://v2.kickstarter.com/1792599577-HKQQeh%2FrZ3YJEVQqkQzoIqJgf3gb5T1SyARPbaI1go4%3D/projects/5343527/video-1466952-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792599577-HKQQeh%2FrZ3YJEVQqkQzoIqJgf3gb5T1SyARPbaI1go4%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11488028,
+      "price": 29816.0,
+      "title": "Super Early Bird | Ultra Version",
+      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 4,
+      "limit": 500,
+      "remaining": 496,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11486929,
+      "price": 29817.0,
+      "title": "Super Early Bird | Ultra Version",
+      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 4,
+      "limit": 500,
+      "remaining": 496,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11435574,
+      "price": 31367.0,
+      "title": "Super Early Bird | Ultra Version",
+      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 10,
+      "limit": 500,
+      "remaining": 490,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 11,
+    "tiersDate": "2026-10-22",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/316/862/c1e2ae2108a2f8bdf8ed791053c2d96d_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790703149&width=1024&sig=O6sg6rYuZwQBMf6Zk%2BNkWr%2F3uKh4l%2FD1NKCudYEmNLk%3D"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $1,274 pledged of $1,274 goal",
+      "z": "承诺的$ 1,274承诺的$ 1,274目标"
+     },
+     {
+      "t": "p",
+      "x": "33 days to go",
+      "z": "天数"
+     },
+     {
+      "t": "p",
+      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+      "z": "一个安静、始终在线的人工智能工作站，适用于Codex、Claude Code、Hermes和精选本地机型。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/060/319/67b15255a38b25916731383a3310333f_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1781101494&width=160&sig=MM%2FPbg87VKoqOC5VtkC6HMczx2KvRyft7m4b1wTAUhM%3D"
+     },
+     {
+      "t": "p",
+      "x": "First created•0 backed",
+      "z": "首次创建• 0支持"
+     },
+     {
+      "t": "p",
+      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+      "z": "一个安静、始终在线的人工智能工作站，适用于Codex、Claude Code、Hermes和精选本地机型。"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $1,274 pledged of $1,274 goal",
+      "z": "承诺的$ 1,274承诺的$ 1,274目标"
+     },
+     {
+      "t": "p",
+      "x": "33 days to go",
+      "z": "天数"
+     },
+     {
+      "t": "p",
+      "x": "Kickstarter connects creators with backers to fund projects.",
+      "z": "Kickstarter将创作者与支持者联系起来，为项目提供资金。"
+     },
+     {
+      "t": "p",
+      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
+      "z": "奖励无法保证，但创作者必须定期更新支持者。"
+     },
+     {
+      "t": "p",
+      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+      "z": "只有在项目在活动截止日期前达到其资金目标时，您才会被收取费用。"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Reviews**](h:Reviews)",
+      "z": "* [* *评价* *] (h:评价)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The Reason LUCY Exists**](h:The-Reason-LUCY-Exists)",
+      "z": "* [* *露西存在的原因* *] (h: The-Reason-LUCY-Exists)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**A Workspace that Stays Ready**](h:A-Workspace-that-Stays-Ready)",
+      "z": "* [* *随时待命的工作空间* *] (h: A-Workspace-that-Stays-Ready)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**From Request to Result**](h:From-Request-to-Result)",
+      "z": "* [* *从请求到结果* *] (h: From-Request-to-Result)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Why a Dedicated Computer**](h:Why-a-Dedicated-Computer)",
+      "z": "* [* *为什么选择专用计算机* *] (h: Why-a-Dedicated-Computer)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Real Work. Status Snapshot**](h:Real-Work-Status-Snapshot)",
+      "z": "* [* *实际工作状态快照* *] (h: Real-Work-Status-Snapshot)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Remote Workflows**](h:Remote-Workflows)",
+      "z": "* [* *远程工作流程* *] (h: Remote-Workflows)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Open by Design**](h:Open-by-Design)",
+      "z": "* [* *按设计开放* *] （ h ：按设计开放）"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Private Storage**](h:Private-Storage)",
+      "z": "* [* *私人存储* *] (h: Private-Storage)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Local Video Generation**](h:Local-Video-Generation)",
+      "z": "* [* *本地视频生成* *] （ h ：本地视频生成）"
+     },
+     {
+      "t": "p",
+      "x": "*   [**More Than An AI Workstation**](h:More-Than-An-AI-Workstation)",
+      "z": "* [* *不仅仅是人工智能工作站* *] (h: More-Than-An-AI-Workstation)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Designed to Stay On**](h:Designed-to-Stay-On)",
+      "z": "* [* * Designed to Stay On * *] (h: Designed-to-Stay-On)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Choose Your LUCY**](h:Choose-Your-LUCY)",
+      "z": "* [* *选择你的露西* *] (h: Choose-Your-LUCY)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**HOW TO USE**](h:HOW-TO-USE)",
+      "z": "* [* *如何使用* *] (h: HOW-TO-USE)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**REWARDS**](h:REWARDS)",
+      "z": "* [* *奖励* *] (h:奖励)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Specification**](h:Specification)",
+      "z": "* [* *规格* *] (h: Specification)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/316/829/6e168fa3d7ee6e0e5caee2e594ee801b_original.png?fit=scale-down&origin=ugc&q=100&v=1790702858&width=680&sig=3pm%2BpeI7vSycoDEt5rVx3eoEt6wc5tvjjQKOEVquI40%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/139/c8c104d6a5f6485b4f7d3fd291306895_original.png?fit=scale-down&origin=ugc&q=100&v=1790314954&width=680&sig=4KJu6Kg11W%2FKePoFiUrrgmxNlFfTAC3bPndeZd0365k%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/725/415c199d901eeb5d444a785d538b2e68_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319487&width=680&sig=QXTeTvgsF8xr2gQkWtTxsJnRcWdJkvDCdKncG0xW2rY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/604/809/38bf386f16d519e8eb6d3a28bba073e3_original.png?fit=scale-down&origin=ugc&q=100&v=1792599525&width=680&sig=cVRenq%2FaG8RTrFbHovbf%2FAI0thrX5msAFB70Uc41rR4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/585/305/7977e4798d86fd1baf4621f78606d89b_original.png?fit=scale-down&origin=ugc&q=100&v=1792495942&width=680&sig=CrFCgPZtKUPhITN2COxWy87x87ecyQ%2B2YN2uA%2Fv8ZGw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/162/98025fb70322db4a0a872845425cb9fa_original.png?fit=scale-down&origin=ugc&q=100&v=1790315126&width=680&sig=9Tzhlc%2FDpDahtLwPQKMPkCduDSnWXjgwKKVJf6L1dtk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/169/ab833cfc4bb27dd7a918822ca937af96_original.png?fit=scale-down&origin=ugc&q=100&v=1790315170&width=680&sig=3mF25kAPlzxyqz4MuKxWKa9KEm3Ds2wMAiFjCynId8c%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/752/23cb80f5bb030f459f2aa1546d84b9ad_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319854&width=680&sig=%2F%2F1%2FF97dUN6IHj2q4g1ttj2NQjKqIMd55hdJgJTUoAk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/173/582ed5763ef51c88abc008bcfc1e8243_original.png?fit=scale-down&origin=ugc&q=100&v=1790315184&width=680&sig=It%2FRUMet1QS52lyh4ocIkVpv6WaWSa4Q9G4P3iU65lA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/792/4dfe5b6a564b99a8cfc166c29f7a13c9_original.gif?fit=scale-down&origin=ugc&q=92&v=1790320183&width=680&sig=vDOOqAVnAir2NfFQqdaQRb%2BD9soY3vIZ0Q%2FewpOfwzM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/174/ed792e97c39a87ec2c6af0a0ade64f41_original.png?fit=scale-down&origin=ugc&q=100&v=1790315204&width=680&sig=ZnF%2Ff4prTWKg8a67Q7II2WdOL9h7Gg%2BZx8Gia%2FkN%2FYo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/175/5dfcd4234e02ac6c30c9da83e3d1d150_original.png?fit=scale-down&origin=ugc&q=100&v=1790315210&width=680&sig=kk6D4nMqfz%2Fs2%2FuqGZ9t7ODI%2BMOyxZGYJuWfpTNOylA%3D"
+     }
+    ]
+   },
+   {
+    "id": 1471279538,
+    "name": "VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER",
+    "blurb": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
+    "url": "https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer",
+    "category": "Hardware",
+    "creator": "Bvio Tech",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 78424.0,
+    "pledged": 21539596.0,
+    "usdPledged": "2746371.07843852",
+    "goalUsd": 9999.32,
+    "percentFunded": 27465.56666326635,
+    "backers": 4993,
+    "deadline": 1793376023,
+    "launchedAt": 1789488023,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.6337,
+    "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11254735,
+      "price": 3128.0,
+      "title": "Super Early Bird - Violoop",
+      "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 4304,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11414602,
+      "price": 5951.0,
+      "title": "Super Early Bird - Violoop Duo Pack",
+      "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 485,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11415618,
+      "price": 56432.0,
+      "title": "Super Early Bird - Violoop Team Pack",
+      "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 54,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 10,
+    "tiersDate": "2026-10-21",
+    "tiersCarried": "2026-10-21",
+    "cues": [
+     [
+      0.02,
+      2.71,
+      "每天我们都会经历十几个"
+     ],
+     [
+      2.71,
+      4.02,
+      "不同的工具。"
+     ],
+     [
+      4.02,
+      8.02,
+      "切换、复制、粘贴、重复。"
+     ],
+     [
+      8.02,
+      10.77,
+      "但这些工具中有多少是真正"
+     ],
+     [
+      10.77,
+      12.02,
+      "理解你吗？"
+     ],
+     [
+      12.02,
+      15.02,
+      "早上好！准备好接受董事会审查了吗？"
+     ],
+     [
+      15.02,
+      19.12,
+      "Violoupe 是您本地的 AI 代理，旨在"
+     ],
+     [
+      19.12,
+      20.02,
+      "认识你。"
+     ],
+     [
+      20.02,
+      24.02,
+      "因此，在您提出要求之前，您的工作就已准备就绪。"
+     ],
+     [
+      24.02,
+      26.02,
+      "Violoupe 与您协同行动，"
+     ],
+     [
+      26.02,
+      28.02,
+      "在后台安静地学习。"
+     ],
+     [
+      28.02,
+      31.64,
+      "我发现了一个类似的任务。我要完成吗"
+     ],
+     [
+      31.64,
+      34.26,
+      "和上次一样吗？"
+     ],
+     [
+      34.26,
+      37.28,
+      "Violoupe 找到您的流程并执行"
+     ],
+     [
+      37.28,
+      38.26,
+      "你的命令。"
+     ],
+     [
+      38.26,
+      41.26,
+      "批次准备就绪，下一步正在排队。"
+     ],
+     [
+      41.26,
+      44.19,
+      "它运行您的店面、您的内容以及"
+     ],
+     [
+      44.19,
+      46.98,
+      "您在每个平台上的客户"
+     ],
+     [
+      46.98,
+      47.26,
+      "使用。"
+     ],
+     [
+      47.26,
+      50.44,
+      "从产品到内容到库存"
+     ],
+     [
+      50.44,
+      51.26,
+      "客户，"
+     ],
+     [
+      51.26,
+      53.26,
+      "它使整个过程保持连接。"
+     ],
+     [
+      53.26,
+      56.36,
+      "无论您的目标、业务或"
+     ],
+     [
+      56.36,
+      57.26,
+      "你的任务，"
+     ],
+     [
+      57.26,
+      62.18,
+      "人工智能会围绕你进行自我建模。"
+     ],
+     [
+      62.18,
+      64.18,
+      "它在您的设备上运行。"
+     ],
+     [
+      64.18,
+      66.18,
+      "您的数据永远不会离开。"
+     ],
+     [
+      66.18,
+      76.04,
+      "你的环境改变了，工作也改变了"
+     ],
+     [
+      76.04,
+      78.94,
+      "继续。"
+     ],
+     [
+      78.94,
+      91.57,
+      "最好的系统学习如何工作"
+     ],
+     [
+      91.57,
+      92.86,
+      "你。"
+     ],
+     [
+      92.86,
+      95.97,
+      "当一切都一致时，你的想法，"
+     ],
+     [
+      95.97,
+      97.86,
+      "你的节奏，你的时间，"
+     ],
+     [
+      97.86,
+      101.86,
+      "你停止反应，你开始流动。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://www.kickstarter.com/favicon.ico"
+     },
+     {
+      "t": "p",
+      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "z": "该网站使用安全服务来防范恶意机器人。当网站验证您不是机器人时会显示此页面。"
+     }
+    ]
+   },
+   {
+    "id": 1407896055,
+    "name": "PixelMob: Portable-AI-Workstation-for-Creators",
+    "blurb": "NAS Capabilities| One-Tap Shooting & Compositing | 800MB/s Multi-Card Backup | Up to 24TB | AI Culling | Subscription-Free RAW Editing",
+    "url": "https://www.kickstarter.com/projects/pixelmob/pixelmob-portable-ai-workstation-for-creators",
+    "category": "Hardware",
+    "creator": "UnifyDrive",
+    "location": "Dover, DE",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 50000.0,
+    "pledged": 1124848.0,
+    "usdPledged": "1124848.0",
+    "goalUsd": 50000.0,
+    "percentFunded": 2249.696,
+    "backers": 1204,
+    "deadline": 1793029618,
+    "launchedAt": 1787845618,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门"
+    ],
+    "kwHits": [
+     "ai",
+     "nas"
+    ],
+    "score": 0.6296,
+    "coverRemote": "https://i.kickstarter.com/assets/055/596/333/96f60a95bc62692858df3850799d83c4_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792550800&width=1024&sig=E%2B1H1STsn3%2FRZKkp6vTz1yRokqjPWk8Vy0qv%2FK7Ijiw%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [],
+    "rewardsTotal": 0,
+    "tiersDate": "",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": []
+   },
+   {
+    "id": 1841814277,
+    "name": "BirdieSense: Your Golf's First AI Companion!",
+    "blurb": "Capture Every Swing丨Real-Time 3D Mapping丨Proactive AI Coach丨Dual 4K Vision & Edge AI丨6-Hour Runtime丨Portable Design",
+    "url": "https://www.kickstarter.com/projects/1054191270/birdiesense-your-golfs-first-ai-companion",
+    "category": "Robots",
+    "creator": "BirdieSense",
+    "location": "New York, NY",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 20000.0,
+    "pledged": 924321.0,
+    "usdPledged": "924321.0",
+    "goalUsd": 20000.0,
+    "percentFunded": 4621.6050000000005,
+    "backers": 916,
+    "deadline": 1794067204,
+    "launchedAt": 1788879604,
+    "staffPick": true,
+    "sources": [
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.6229,
+    "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
+    "videoMp4": "https://v2.kickstarter.com/1792582161-RMGMDBzFYt%2Bkd0LGT1hJdtGhi2maK%2Ff1TIDFtK0uMxw%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792582161-RMGMDBzFYt%2Bkd0LGT1hJdtGhi2maK%2Ff1TIDFtK0uMxw%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11398822,
+      "price": 35.0,
+      "title": "Charging Dock",
+      "desc": "Please note: This charging dock is NOT a wireless charger and does not have a built-in charging function. It serves as a stand only, featuring a precise cable cutout at the bottom for the charging cable.",
+      "backers": 104,
+      "limit": null,
+      "remaining": null,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11394490,
+      "price": 799.0,
+      "title": "BirdieSense - Super Early Bird",
+      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
+      "backers": 852,
+      "limit": null,
+      "remaining": null,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11394492,
+      "price": 1498.0,
+      "title": "BirdieSense X2 - Super Early Bird",
+      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️50% OFF $2998 MSRP (save $1500)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
+      "backers": 28,
+      "limit": null,
+      "remaining": null,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 7,
+    "tiersDate": "2026-10-22",
+    "tiersCarried": "",
+    "cues": [
+     [
+      1.55,
+      3.55,
+      "隆重推出Birdie Sense。"
+     ],
+     [
+      3.55,
+      6.55,
+      "Gulse第一个人工智能伙伴。"
+     ],
+     [
+      6.55,
+      9.43,
+      "时尚紧凑的设计，专为"
+     ],
+     [
+      9.43,
+      11.55,
+      "无论游戏带你去哪里。"
+     ],
+     [
+      11.55,
+      14.58,
+      "提升你的实践，重新定义"
+     ],
+     [
+      14.58,
+      16.55,
+      "游戏的界限。"
+     ],
+     [
+      16.55,
+      19.78,
+      "采用双摄像头镜头设计，"
+     ],
+     [
+      19.78,
+      21.55,
+      "签名AI处理器。"
+     ],
+     [
+      21.55,
+      25.55,
+      "将每个摇摆变成您可以跟踪的数据。"
+     ],
+     [
+      25.55,
+      34.94,
+      "依旧向后靠。"
+     ],
+     [
+      34.94,
+      36.94,
+      "让我们沿途步行接送。"
+     ],
+     [
+      46.17,
+      47.17,
+      "就 像 這樣 。"
+     ],
+     [
+      47.17,
+      50.52,
+      "如果您希望我严谨严谨"
+     ],
+     [
+      50.52,
+      51.96,
+      "我也可以这样做呀！"
+     ],
+     [
+      51.96,
+      55.39,
+      "不仅仅是为了驾驶而设计的"
+     ],
+     [
+      55.39,
+      55.96,
+      "区间。"
+     ],
+     [
+      55.96,
+      58.38,
+      "从绿色的微妙突破到"
+     ],
+     [
+      58.38,
+      59.96,
+      "碉堡的难度线。"
+     ],
+     [
+      59.96,
+      62.78,
+      "实时指导可帮助您到达"
+     ],
+     [
+      62.78,
+      65.6,
+      "充分发挥潜力并掌控您的"
+     ],
+     [
+      65.6,
+      65.96,
+      "牌局"
+     ],
+     [
+      65.96,
+      68.96,
+      "距离旗帜56码。"
+     ],
+     [
+      68.96,
+      71.76,
+      "根据您的历史数据，我建议我们"
+     ],
+     [
+      71.76,
+      72.96,
+      "使用50度。"
+     ],
+     [
+      72.96,
+      82.8,
+      "如果我们有计划的话。"
+     ],
+     [
+      82.8,
+      84.8,
+      "今天的第一只小鸟。"
+     ],
+     [
+      84.8,
+      87.65,
+      "不仅仅是精英数字教练的小鸟"
+     ],
+     [
+      87.65,
+      90.43,
+      "感官是你的智能声音"
+     ],
+     [
+      90.43,
+      90.8,
+      "然后在这边消失。"
+     ],
+     [
+      90.8,
+      92.8,
+      "我们今天在做什么？"
+     ],
+     [
+      92.8,
+      94.8,
+      "让我们切换一下。"
+     ],
+     [
+      94.8,
+      96.97,
+      "毕竟，别忘了提高准确性"
+     ],
+     [
+      96.97,
+      97.8,
+      "那种速度是有效的。"
+     ],
+     [
+      97.8,
+      104.24,
+      "您进度的完整历史记录"
+     ],
+     [
+      104.24,
+      109.58,
+      "触手可及。"
+     ],
+     [
+      109.58,
+      112.81,
+      "射击、手套和身体指标小鸟感"
+     ],
+     [
+      112.81,
+      115.58,
+      "了解你的优点和缺点。"
+     ],
+     [
+      115.58,
+      118.27,
+      "游戏化体验让高尔夫更有趣"
+     ],
+     [
+      118.27,
+      119.58,
+      "比已经存在的要多。"
+     ],
+     [
+      119.58,
+      123.07,
+      "通过将您的秋千视频与球整合"
+     ],
+     [
+      123.07,
+      126.55,
+      "来自其他设备的数据，您的实践将"
+     ],
+     [
+      126.55,
+      128.38,
+      "变得更有效。"
+     ],
+     [
+      128.38,
+      150.64,
+      "无需进行繁琐的编辑。"
+     ],
+     [
+      150.64,
+      153.47,
+      "我们的系统会创建您的个人亮点"
+     ],
+     [
+      153.47,
+      156.17,
+      "捕捉您的最佳时刻"
+     ],
+     [
+      156.17,
+      156.64,
+      "加固"
+     ],
+     [
+      156.64,
+      162.7,
+      "我们是小鸟般的感觉。"
+     ],
+     [
+      162.7,
+      165.7,
+      "查看您的进度。达到您的巅峰。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "p",
+      "x": "*   [**BirdieSense, At a glance**](h:BirdieSense-At-a-glance)",
+      "z": "* [* * BirdieSense ，概览* *] (h: BirdieSense-At-a-glance)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Share & Earn 10% Cash Back**](h:Share-Earn-10-Cash-Back)",
+      "z": "* [* *分享并赚取10%的现金返还* *] (h: Share-Earn-10-Cash-Back)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What Golf Experts Say**](h:What-Golf-Experts-Say)",
+      "z": "* [* *高尔夫专家怎么说* *] (h: What-Golf-Experts-Say)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Hear from Our Beta Users**](h:Hear-from-Our-Beta-Users)",
+      "z": "* [* *听取我们的测试版用户的意见* *] (h: Hear-from-Our-Beta-Users)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**BirdieSense Around the World**](h:BirdieSense-Around-the-World)",
+      "z": "* [* * BirdieSense Around the World * *] (h: BirdieSense-Around the World)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Featured On**](h:Featured-On)",
+      "z": "* [* *精选* *] (h: Featured-On)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Why BirdieSense?**](h:Why-BirdieSense-)",
+      "z": "* [* *为什么选择BirdieSense ？ * *] (h: Why-BirdieSense-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Capture Every Metric with Precision**](h:Capture-Every-Metric-with-Precision)",
+      "z": "* [* *使用精度捕获每个指标* *] (h:使用精度捕获每个指标)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**3D Motion Tracking**](h:3D-Motion-Tracking)",
+      "z": "* [* * 3D运动跟踪* *] (h: 3D-Motion-Tracking)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Your AI Companion, Like a Pro Coach**](h:Your-AI-Companion-Like-a-Pro-Coach)",
+      "z": "* [* *你的AI伴侣，像专业教练一样* *] (h: Your-AI-Companion-Like-a-Pro-Coach)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Practice Anywhere. Play Everywhere.**](h:Practice-Anywhere-Play-Everywhere-)",
+      "z": "* [* *随处练习。随处玩。* *] (h: Practice-Anywhere-Play-Everywhere-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Look Closer. See Further.**](h:Look-Closer-See-Further-)",
+      "z": "* [* *仔细观察。请参阅进一步。* *] (h: Look-Closer-See-F further-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Think Faster. Learn Smarter.**](h:Think-Faster-Learn-Smarter-)",
+      "z": "* [* * Think Faster. Learn Smarter. * *] (h: Think-Faster-Learn-Smarter-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Your Companion, Your Style**](h:Your-Companion-Your-Style)",
+      "z": "* [* *您的同伴，您的风格* *] (h: Your-Companion-Your-Style)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Designed for Everyone**](h:Designed-for-Everyone)",
+      "z": "* [* *为所有人设计* *] (h:为所有人设计)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Share Your Best Moments**](h:Share-Your-Best-Moments)",
+      "z": "* [* *分享您的最佳时刻* *] (h: Share-Your-Best-Moments)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Specifications**](h:Specifications)",
+      "z": "* [* *规格* *] （ h ：规格）"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What's in the Box?**](h:What-s-in-the-Box-)",
+      "z": "* [* *盒子里有什么？ * *] (h: What-s-in-the-Box-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Rewards**](h:Rewards)",
+      "z": "* [* *奖励* *] (h: Rewards)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Add-on**](h:Add-on)",
+      "z": "* [* *附加组件* *] (h: Add-on)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**How to Get Your BirdieSense**](h:How-to-Get-Your-BirdieSense)",
+      "z": "* [* *如何获取您的BirdieSense * *] (h: How-to-Get-Your-BirdieSense)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [* *时间轴* *] (h: Timeline)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Shipping & Taxes**](h:Shipping-Taxes)",
+      "z": "* [* *运费和税费* *] （ h ：运费-税费）"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Production Ready, Delivery Confident**](h:Production-Ready-Delivery-Confident)",
+      "z": "* [* *生产就绪，交货信心* *] (h:生产就绪-交货信心)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**About BirdieSense**](h:About-BirdieSense)",
+      "z": "* [* *关于BirdieSense * *] (h:关于BirdieSense)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Connect with BirdieSense**](h:Connect-with-BirdieSense)",
+      "z": "* [* *使用BirdieSense连接* *] (h: Connect-with-BirdieSense)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/040/831/8c0cdc30e9e064b1ad0ff7da5bdc8cab_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788855575&width=680&sig=F%2FTfOAR8xacpeZsx%2B0GjEM4JwKlHD6826dd6awQOduo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/042/416/6a1992fe857a0b199dd85b53a394a693_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788864267&width=680&sig=vpsrfuHswczj1yizJneCdJPjRq%2FGEa1ehOh5haC17pQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/988/478/61decf9f73e14efa6f0749cdb903069d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788432298&width=680&sig=7tc9aBOgi%2FXTe6xtFtAUvi61bXX2KwF7uCJzNtLtzcw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/988/484/87de4004eca6f63c240948474538bb9f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788432317&width=680&sig=WEu0dj5bk7H%2Fr8jKKuscQ0uXHtWLdO%2FSmdmN07gDqSI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/326/6b0e151a319a1a21e129761874871d0b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764397&width=680&sig=NpAMXWWPr9nly4ZfVivXpyzqSMF2GrY2UyShOBg8bjg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/338/e033b9fcb5cce33a053278dbf8e4637e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764468&width=680&sig=%2FNKz5rpJCHbeoLtRPJPMEAZWzLzt6%2F7lFfWlzqua180%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/340/7fca2a0516dbe06dd75458058d430aec_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764475&width=680&sig=5NO85dhQxviv0XwBVeWZAdiBG2VQMhv74sGtS1YiEPU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/345/d3d39349f04d15afbaf77888379c9b0d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764498&width=680&sig=TrZMrtmDY9OQqO5JkdvErTePRXlqnf0WSOItdGOZAFo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/192/cd4dd76b64c9444ba76432e1754adb2c_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776965&width=680&sig=imL2Zwd7BECA6kln0TgfIVQpxhUiA0f5DkdRge%2FuzY8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/190/8b564805c72291779ef8e7c456e7d152_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776944&width=680&sig=5xEoYiGDMCiu28K6Quhqeri%2Fq2%2FuYVQwxOvMOaNmkJ4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/191/e48aab5ac8da3b9495d6f1b34ffdcfcf_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776956&width=680&sig=jabHQa1hUSGr6BztLSCvu7eytHFNZZGA2WQVfHYfNoM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/352/bc04b9016e7aad4c0ea07cb866423d30_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764525&width=680&sig=7o2661SdffZtAUblVwQGHhGziW7TJO179S562XXYGIM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/354/e00247e15ea0b76780dfe2e6ff72dcef_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764526&width=680&sig=9ve5HSTv%2BdQ3JDLfngRFRGG3pA1EOVXnglLissGKbUA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/999/332/9dd1340ffbb0652cf282dc4c9d8503d4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788507473&width=680&sig=bPV7xT2pfc9WywwTaBPCd%2Bvj8JAOKQyxrXHlgiGZEi4%3D"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "date": "2026-10-21",
   "generatedAt": "2026-10-21T19:30:53+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
@@ -14659,2545 +16158,6 @@
       "t": "p",
       "x": "*   2 week charge",
       "z": "* 2周充电"
-     }
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-10-15",
-  "generatedAt": "2026-10-15T19:34:06+07:00",
-  "source": "Kickstarter discover/advanced API + 项目详情页",
-  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 42,
-  "projects": [
-   {
-    "id": 604978070,
-    "name": "StationPC DA400:Your Next-Gen AI NAS & Local AI Cloud",
-    "blurb": "AI NAS | AI Features with Local LLM | Up to 136TB | Dual 2.5GbE & USB3.2 Gen1 Ports | SD4.0 | 2.66-inch Display",
-    "url": "https://www.kickstarter.com/projects/stationpc/stationpc-da400-ai-nas",
-    "category": "Hardware",
-    "creator": "StationPC",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 30000.0,
-    "pledged": 398048.0,
-    "usdPledged": "50752.46142176",
-    "goalUsd": 3825.1,
-    "percentFunded": 1326.8266666666668,
-    "backers": 81,
-    "deadline": 1792069120,
-    "launchedAt": 1789477120,
-    "staffPick": false,
-    "sources": [
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai",
-     "llm",
-     "nas"
-    ],
-    "score": 0.9023,
-    "coverRemote": "https://i.kickstarter.com/assets/055/132/904/6095f4d8bbd8c2fda48671b3587db770_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789477392&width=1024&sig=CGrxhMLnEIhRlVHUE6FNPqf5RAwt%2B5ClHOAGg2ggwjM%3D",
-    "videoMp4": "https://v2.kickstarter.com/1792040654-Z%2BgIgdSm5PTbwNlMOpDgptmMyeEW8KovB9EhxLWk47w%3D/projects/5358743/video-1450939-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1792040654-Z%2BgIgdSm5PTbwNlMOpDgptmMyeEW8KovB9EhxLWk47w%3D/projects/5358743/video-1450939-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11393996,
-      "price": 3441.0,
-      "title": "StationPC AI NAS DA400 Air",
-      "desc": "*DA400 Air x 1\\n\\n*You will get a StationPC AI NAS DA400 Air and save 37% off the MSRP. \\nSeize this incredible offer before prices increase!\\n\\n*HDDs & SDDs are not included.\\n*Local LLM is not included\\n*2-Year warranty included.",
-      "backers": 17,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11394007,
-      "price": 5009.0,
-      "title": "StationPC AI NAS DA400",
-      "desc": "DA400 x 1\\n\\n- You will get a StationPC AI NAS DA400 and save 36% off the MSRP. \\nSeize this incredible offer before prices increase!\\n\\n*HDDs & SDDs are not included.\\n*2-Year warranty included.",
-      "backers": 43,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11417436,
-      "price": 7510.0,
-      "title": "StationPC AI NAS DA400 + Lexar 2TB SSD",
-      "desc": "DA400 × 1\\n2TB SSD × 1\\n\\n- You will get a StationPC AI NAS DA400 + 2TB SSD and save 31% off the MSRP.\\nSeize this incredible offer before prices increase!\\n\\n*HDDs are not included.\\n*DA400 2‑Year warranty included.\\n*SSD 3‑Year warranty included.",
-      "backers": 10,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 11,
-    "tiersDate": "2026-10-15",
-    "tiersCarried": "",
-    "cues": [
-     [
-      0.24,
-      3.44,
-      "你在哪里？"
-     ],
-     [
-      3.44,
-      5.12,
-      "你在哪里？"
-     ],
-     [
-      5.12,
-      6.96,
-      "找到你的文件感觉是不可能的。"
-     ],
-     [
-      6.96,
-      7.96,
-      "啊!"
-     ],
-     [
-      7.96,
-      8.96,
-      "啊!"
-     ],
-     [
-      10.16,
-      13.2,
-      "你需要的是聪明，而不是这种聪明。"
-     ],
-     [
-      13.2,
-      15.68,
-      "您需要一个聪明又时尚的助手。"
-     ],
-     [
-      15.68,
-      17.0,
-      "坚持住，坚持住。"
-     ],
-     [
-      17.0,
-      19.44,
-      "它看起来不错，但很有用。"
-     ],
-     [
-      19.44,
-      23.23,
-      "相信我，它比"
-     ],
-     [
-      23.23,
-      24.16,
-      "你认为。"
-     ],
-     [
-      24.16,
-      26.84,
-      "它可以容纳几代家庭成员。"
-     ],
-     [
-      26.84,
-      29.8,
-      "支持 8 TB M2 SSD。"
-     ],
-     [
-      29.8,
-      32.28,
-      "4 盘位设计，最多支持 32 个"
-     ],
-     [
-      32.28,
-      33.52,
-      "每个驱动器 TB，"
-     ],
-     [
-      33.52,
-      38.12,
-      "总共为您提供高达 136 TB"
-     ],
-     [
-      38.12,
-      39.06,
-      "存储。"
-     ],
-     [
-      39.06,
-      40.93,
-      "难道是找不到文件的问题"
-     ],
-     [
-      40.93,
-      41.26,
-      "解决了吗？"
-     ],
-     [
-      41.26,
-      43.93,
-      "说真的，只需输入一个关键字，a"
-     ],
-     [
-      43.93,
-      45.34,
-      "一个人，或者一个场景。"
-     ],
-     [
-      45.34,
-      47.19,
-      "借助人工智能驱动的全球搜索，"
-     ],
-     [
-      47.19,
-      47.7,
-      "立即"
-     ],
-     [
-      47.7,
-      50.14,
-      "准确找到您正在寻找的内容。"
-     ],
-     [
-      50.14,
-      51.1,
-      "这还不是全部。"
-     ],
-     [
-      51.1,
-      53.54,
-      "它提供极快的传输速度。"
-     ],
-     [
-      53.54,
-      55.76,
-      "这些双 2.5 Gb 以太网端口是"
-     ],
-     [
-      55.76,
-      56.3,
-      "绝对"
-     ],
-     [
-      56.3,
-      57.1,
-      "不是来这里玩的。"
-     ],
-     [
-      57.1,
-      57.86,
-      "哇！"
-     ],
-     [
-      57.86,
-      60.1,
-      "这么快啊！"
-     ],
-     [
-      60.1,
-      62.97,
-      "还支持本地4K超高清视频"
-     ],
-     [
-      62.97,
-      63.62,
-      "播放、"
-     ],
-     [
-      63.62,
-      70.23,
-      "带来水晶般清晰的视觉效果"
-     ],
-     [
-      70.23,
-      75.7,
-      "流畅、无延迟的性能。"
-     ],
-     [
-      75.7,
-      78.66,
-      "您捕捉到了无数珍贵的瞬间。"
-     ],
-     [
-      78.66,
-      81.3,
-      "D400自动AI智能相册"
-     ],
-     [
-      81.3,
-      83.58,
-      "整理你杂乱的照片库，"
-     ],
-     [
-      83.58,
-      85.22,
-      "对记忆进行排序和分类"
-     ],
-     [
-      85.22,
-      87.54,
-      "它们被创建的那一刻。"
-     ],
-     [
-      87.54,
-      89.9,
-      "双处理器，AI计算"
-     ],
-     [
-      89.9,
-      94.82,
-      "本地发生更快、更智能、更多"
-     ],
-     [
-      94.82,
-      96.02,
-      "高效。"
-     ],
-     [
-      96.02,
-      98.2,
-      "嘿，伙计们，我们有一个有趣的"
-     ],
-     [
-      98.2,
-      98.7,
-      "项目。"
-     ],
-     [
-      98.7,
-      101.14,
-      "我们需要合作。"
-     ],
-     [
-      101.14,
-      104.5,
-      "现在，让我将文件上传到俱乐部"
-     ],
-     [
-      104.5,
-      105.54,
-      "有一段时间了。"
-     ],
-     [
-      105.54,
-      107.37,
-      "创建包含详细信息的共享文件夹"
-     ],
-     [
-      107.37,
-      108.42,
-      "权限控制，"
-     ],
-     [
-      108.42,
-      112.18,
-      "确保您的团队合作安全、无缝。"
-     ],
-     [
-      112.18,
-      113.66,
-      "有复杂的文件吗？"
-     ],
-     [
-      113.66,
-      116.38,
-      "这个文档包含的内容太多了。"
-     ],
-     [
-      116.38,
-      124.75,
-      "AI立即总结，提取"
-     ],
-     [
-      124.75,
-      129.14,
-      "几秒钟内的关键点。"
-     ],
-     [
-      129.14,
-      131.26,
-      "通过本地存储，您的数据保持安全"
-     ],
-     [
-      131.26,
-      131.9,
-      "和私人的。"
-     ],
-     [
-      131.9,
-      135.38,
-      "它可以安全地锁定所有东西。"
-     ],
-     [
-      135.38,
-      139.06,
-      "Station PCDA400，桌面AI NAS。"
-     ],
-     [
-      139.06,
-      141.94,
-      "不仅仅是 NAS，更是本地 AI 系统。"
-     ],
-     [
-      141.94,
-      143.3,
-      "让搜索更智能。"
-     ],
-     [
-      143.3,
-      146.58,
-      "让效率回归本质。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/872/028/738947f697c5a2ac2c1a37fcb7d18f95_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787622659&width=680&sig=UwoXf%2F8d3Zcb6IwAxbIWiMyeuos4QdFSdB7kInCyilw%3D"
-     },
-     {
-      "t": "p",
-      "x": "Most NAS Are Made to Be Hidden. DA400 Is Made to Be Seen.For years, NAS devices have been built to do one thing well: store your data. But as our digital lives grow, simply storing files is no longer enough.",
-      "z": "大多数 NAS 都是为了隐藏而设计的。 DA400 是为了引人注目而设计的。多年来，NAS 设备一直致力于做好一件事：存储数据。但随着我们数字生活的发展，仅仅存储文件已经不够了。"
-     },
-     {
-      "t": "p",
-      "x": "Meet StationPC DA400 AI NAS — a next-generation private AI cloud designed to live on your desk, not disappear into a closet.",
-      "z": "认识一下 StationPC DA400 AI NAS — 下一代私有 AI 云，旨在存放在您的办公桌上，而不是消失在壁橱中。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/914/010/08104b9770039688763c9da239382583_original.gif?fit=scale-down&origin=ugc&q=92&v=1787898914&width=680&sig=BbJE5IuP3k3QMUHwnnDOydEuVsPv%2BWRI8pFAwlXPAgo%3D"
-     },
-     {
-      "t": "p",
-      "x": "With its distinctive transparent design and built-in 2.66\" display, DA400 looks different from the very first glance. And underneath that design is something even more different: a dual-chip AI architecture built to let everyday AI and local 8B LLM workloads work side by side.One NAS. Two AI engines. Built to keep up with you.",
-      "z": "凭借其独特的透明设计和内置 2.66 英寸显示屏，DA400 乍一看似乎有所不同。而在该设计的背后，则更加不同：双芯片 AI 架构，旨在让日常 AI 和本地 8B LLM 工作负载并行工作。一个 NAS。两个 AI 引擎。专为跟上您的步伐而打造。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/872/027/508acbe8f0d0d30ef67facb8dd089455_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787622658&width=680&sig=Vv1bsw0q7%2BgJJsWLPxmzcp99eKpp5uLTzBaxMkz2GSk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/872/025/f484702304bd1680d0cbd175d940c835_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787622658&width=680&sig=sRcBYSGxKUW018aohwPQY%2FBrH1n1Ruy2XSitfi3DrmU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/958/900/08c2d8bf9192979512923e3d76282414_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788253853&width=680&sig=1C5WGoVBzMaP1Kci6zUlLMHF2k%2FbTt6PoR5eE1gDCLE%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/958/907/072691991cf504348defb95e4eee9a91_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788253867&width=680&sig=tKgofvdK%2BRQKvsqWWVsvpTMyqpnV0Z%2Fr1xUI%2BrrK1So%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/079/321/ebb3e86ceba6bdd4e89226858042bbfe_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789089463&width=680&sig=dyHs1oP3msu5qMJHPBt3dMjE9nT4WFc0zF865pI2JPA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/872/035/b32e57ec43917390e9ed79136b20b8c6_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787622661&width=680&sig=j2eiI1%2BZyoTkutnSKBg6o1zrCeNklgLwp8u0VLG19Lg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/872/152/756f285642e05ce08edc29129a850bec_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787623447&width=680&sig=2HWZBDlcPUN0c1EqPeXd3s%2BTTpmWY75622td%2BuLjgLk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/904/101/eeb6168160a1f2e720baa35b866ef7b2_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787825099&width=680&sig=MXaM%2BDmHaZanm0BEIxqxDSQjye%2FS4%2BsP%2FWXoIuz9p2U%3D"
-     },
-     {
-      "t": "p",
-      "x": "Imagine uploading hundreds of photos while asking your NAS to summarize a document. On a single-chip system, AI workloads can compete for the same resources.",
-      "z": "想象一下上传数百张照片，同时要求 NAS 总结文档。在单芯片系统上，人工智能工作负载可以竞争相同的资源。"
-     },
-     {
-      "t": "p",
-      "x": "StationPC DA400 AI NAS uses two AI engines working side by side: one handles everyday tasks like face recognition and semantic search, while the other runs local LLMs for conversations, summaries, and knowledge tasks.",
-      "z": "StationPC DA400 AI NAS 使用两个并行工作的 AI 引擎：一个处理人脸识别和语义搜索等日常任务，另一个运行本地 LLM 来处理对话、摘要和知识任务。"
-     },
-     {
-      "t": "p",
-      "x": "DA400 only—Not available on DA400 Air",
-      "z": "仅限 DA400 — 不适用于 DA400 Air"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/037/967/4f562a659cd0cb16f6607d4c1c0fb763_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788836841&width=680&sig=DHIpVPhSe41SW2UG2n%2FC703j0HNtHj8Y7z6gaQQ0Cvg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/872/039/63e6b2f55bcb44319d3dba19ae4f59b3_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787622662&width=856&sig=mLwOXK74CRqr1tkzeuE6H1MbahrWO2%2FX0nSviQpf1do%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/872/136/cd732c736a02957109346511837c0940_original.gif?fit=scale-down&origin=ugc&q=92&v=1787623413&width=680&sig=XKsxlfF6%2Bv%2BYFgKB%2F%2BAgRPG7aiDyL955MI7CeHs2ynI%3D"
-     },
-     {
-      "t": "p",
-      "x": "Chat with AI on your StationPC DA400 AI NAS to pull up your pet photos, locate target files, summarize documents, translate content and answer questions. Everything runs locally on your NAS to keep your data fully private.",
-      "z": "在 StationPC DA400 AI NAS 上与 AI 聊天，调取您的宠物照片、定位目标文件、总结文档、翻译内容并回答问题。一切都在您的 NAS 本地运行，以确保您的数据完全私密。"
-     },
-     {
-      "t": "p",
-      "x": "DA400 only — Not available on DA400 Air",
-      "z": "仅限 DA400 — 不适用于 DA400 Air"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/872/163/c9dc81669477a419b7392ab0742da62f_original.gif?fit=scale-down&origin=ugc&q=92&v=1787623474&width=680&sig=sNvEuSKio9F7KroFLWt49vr%2Ff%2F0qfPuI7Vut23nKy%2B0%3D"
-     },
-     {
-      "t": "p",
-      "x": "Find documents, contracts, project files, and creative assets using keywords or natural language on your StationPC DA400 AI NAS — no file names or folders required.",
-      "z": "在 StationPC DA400 AI NAS 上使用关键字或自然语言查找文档、合同、项目文件和创意资产 — 无需文件名或文件夹。"
-     },
-     {
-      "t": "p",
-      "x": "Let StationPC DA400 AI NAS analyze your files directly on-device and generate instant summaries. Get the key information faster—without sending your data to the cloud.",
-      "z": "让 StationPC DA400 AI NAS 直接在设备上分析您的文件并生成即时摘要。更快地获取关键信息，无需将数据发送到云端。"
-     },
-     {
-      "t": "p",
-      "x": "DA400 only — Not available on DA400 Air",
-      "z": "仅限 DA400 — 不适用于 DA400 Air"
-     },
-     {
-      "t": "p",
-      "x": "Automatically recognize and categorize people, pets, travel moments, and everyday scenes, making your memories easier to organize, browse, and find.",
-      "z": "自动识别并分类人物、宠物、旅行瞬间和日常场景，让您的记忆更容易组织、浏览和查找。"
-     },
-     {
-      "t": "p",
-      "x": "Automatically recognize text in screenshots, receipts, contracts, and meeting photos, then find them instantly with keywords.",
-      "z": "自动识别屏幕截图、收据、合同和会议照片中的文本，然后通过关键字立即找到它们。"
-     },
-     {
-      "t": "p",
-      "x": "With four drive bays and high-speed SSD caching, StationPC DA400 AI NAS gives you the capacity and performance to store your photos, videos, projects, and backups—all in one place.",
-      "z": "StationPC DA400 AI NAS 具有四个驱动器托架和高速 SSD 缓存，为您提供将照片、视频、项目和备份存储在一处的容量和性能。"
-     },
-     {
-      "t": "p",
-      "x": "HDDs & SDDs are not included",
-      "z": "不包括 HDD 和 SDD"
-     },
-     {
-      "t": "p",
-      "x": "Insert your SD card and StationPC DA400 AI NAS automatically backs up your files—no app required. Clear your card after backup and get ready for your next capture.",
-      "z": "插入 SD 卡，StationPC DA400 AI NAS 会自动备份您的文件，无需应用程序。备份后清除您的卡并为下一次捕获做好准备。"
-     },
-     {
-      "t": "p",
-      "x": "Keep your data up to date across PCs, mobile devices, cloud storage, and NAS with automatic backup and sync. Your latest files are always right where you need them.",
-      "z": "通过自动备份和同步，让您的数据在 PC、移动设备、云存储和 NAS 上保持最新。您的最新文件始终位于您需要的位置。"
-     },
-     {
-      "t": "p",
-      "x": "DA400 comes with essential apps pre-installed and ready to use. One-click installation makes it easy to add popular third-party apps, with 100+ apps available today and more on the way.",
-      "z": "DA400 预装了基本应用程序，可供使用。一键安装可以轻松添加流行的第三方应用程序，目前已有 100 多个应用程序可供使用，而且还会有更多应用程序可供使用。"
-     },
-     {
-      "t": "p",
-      "x": "Deploy containers and custom applications to extend DA400’s capabilities and build a NAS that fits your workflow.",
-      "z": "部署容器和自定义应用程序以扩展 DA400 的功能并构建适合您工作流程的 NAS。"
-     },
-     {
-      "t": "p",
-      "x": "A flexible, high-performance storage management system built for reliability, scalability, and easy access. StationOS Pro makes it easy to manage drives, storage pools, and RAID configurations for a more secure and efficient storage experience.",
-      "z": "灵活、高性能的存储管理系统，专为可靠性、可扩展性和轻松访问而构建。 StationOS Pro 可以轻松管理驱动器、存储池和 RAID 配置，从而提供更安全、更高效的存储体验。"
-     },
-     {
-      "t": "p",
-      "x": "DA400 is built for advanced users who want to run local LLMs and manage massive media files with AI. Delivering powerful performance, expandable up to 136TB storage with no subscription fees. It supports LLMs with up to 8B parameters, compatible with Gemma, Qwen and other mainstream model series, along with AI image search, knowledge-base Q&A. If you plan to deploy large AI models locally while storing huge libraries of photos, videos and documents, DA400 can reliably run AI workloads, so you no longer spend hours manually searching through files.",
-      "z": "DA400 专为想要运行本地法学硕士并使用 AI 管理海量媒体文件的高级用户而构建。提供强大的性能，可扩展至 136TB 存储，无需订阅费用。支持高达8B参数的LLM，兼容Gemma、Qwen等主流车型系列，并具备AI图像搜索、知识库问答等功能。如果您计划在本地部署大型人工智能模型，同时存储大量照片、视频和文档库，DA400 可以可靠地运行人工智能工作负载，因此您不再需要花费数小时手动搜索文件。"
-     },
-     {
-      "t": "p",
-      "x": "DA400 Air is friendly for daily home storage and lightweight AI features. Expandable up to 136TB storage, with no subscription fees. It comes with AI image search, AI photo categorization, keyword image search. Ideal for backing up family photos, home videos and office documents. Not designed to run large local LLMs. If local LLM deployment is a priority, choose DA400.",
-      "z": "DA400 Air 适合日常家庭存储和轻量级 AI 功能。可扩展至 136TB 存储，无需订阅费。具备AI图片搜索、AI照片分类、关键词图片搜索等功能。非常适合备份家庭照片、家庭视频和办公文档。不适合运行大型本地法学硕士。如果优先考虑本地 LLM 部署，请选择 DA400。"
-     },
-     {
-      "t": "p",
-      "x": "Inside the box you will find everything you need to get started with your StationPC DA400 AI NAS experience. Please note that hard drives and SSD storage are not included and must be purchased separately.",
-      "z": "在包装盒内，您将找到开始体验 StationPC DA400 AI NAS 所需的一切。请注意，硬盘和 SSD 存储不包括在内，必须单独购买。"
-     },
-     {
-      "t": "p",
-      "x": "Choose the storage configuration that fits your needs and expand it as your data grows.With DA400,you can build your own intelligent private cloud and keep full control of your data.",
-      "z": "选择适合您需求的存储配置，并随着数据的增长而扩展。使用 DA400，您可以构建自己的智能私有云并完全掌控您的数据。"
-     },
-     {
-      "t": "p",
-      "x": "Identical package list for DA400 & DA400 Air",
-      "z": "DA400 和 DA400 Air 的相同包装清单"
-     },
-     {
-      "t": "p",
-      "x": "For over a decade, Firefly has led the way in hardware development, building a strong reputation with our open‑source core boards, embedded systems, cluster servers, and mini PCs.",
-      "z": "十多年来，Firefly 在硬件开发领域一直处于领先地位，凭借我们的开源核心板、嵌入式系统、集群服务器和迷你 PC 建立了良好的声誉。"
-     }
-    ]
-   },
-   {
-    "id": 647705462,
-    "name": "Amoeba One: Mini keychain-phone.",
-    "blurb": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of colors.",
-    "url": "https://www.kickstarter.com/projects/amoebaone/amoeba-one-mini-keychain-phone",
-    "category": "Gadgets",
-    "creator": "Amoeba One",
-    "location": "Troy, NY",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 25000.0,
-    "pledged": 123053.0,
-    "usdPledged": "123053.0",
-    "goalUsd": 25000.0,
-    "percentFunded": 492.212,
-    "backers": 1120,
-    "deadline": 1795791604,
-    "launchedAt": 1791900004,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.7574,
-    "coverRemote": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D",
-    "videoMp4": "https://v2.kickstarter.com/1791990317-yqXuAla%2FSNxXvHJhdGh3zBV7mX%2F0d2tHHZyIYlZEKbw%3D/projects/5347395/video-1464810-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1791990317-yqXuAla%2FSNxXvHJhdGh3zBV7mX%2F0d2tHHZyIYlZEKbw%3D/projects/5347395/video-1464810-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11313442,
-      "price": 94.0,
-      "title": "Random color",
-      "desc": "One Amoeba One device in a random color.",
-      "backers": 119,
-      "limit": null,
-      "remaining": null,
-      "eta": 1822348800,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11261115,
-      "price": 99.0,
-      "title": "Super Early Bird",
-      "desc": "One Amoeba One in your color. For our earliest backers.\\n\\nChoose your color after campaign via backer tools, all colors available.",
-      "backers": 730,
-      "limit": null,
-      "remaining": null,
-      "eta": 1822348800,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11471438,
-      "price": 109.0,
-      "title": "Spiky Amoeba - Super Early Bird",
-      "desc": "One Amoeba One in a spiked silicone shell.",
-      "backers": 134,
-      "limit": null,
-      "remaining": null,
-      "eta": 1822348800,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 13,
-    "tiersDate": "2026-10-15",
-    "tiersCarried": "",
-    "cues": [
-     [
-      35.38,
-      37.38,
-      "好吧，酷。再见。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/181/5f3bfd190e487e92007ce8850e14ea1a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869536&width=680&sig=kmTzi4s4hi20cARCFs6C3vrJHQNSnkhcY1ooC9zYcLA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/189/ade3d2dfe0a9533f383a98d4487f223e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869583&width=680&sig=0hyrbnPyyILrK%2BRWAka0z6WiUSA%2F3rAQx2uEsk%2BWelQ%3D"
-     },
-     {
-      "t": "p",
-      "x": "Amoeba One. A keychain dumb phone with a clip-on carabiner and rotating camera.",
-      "z": "阿米巴一号.一款带有夹式登山扣和旋转摄像头的钥匙扣哑手机。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/191/aefd6f8c670e56d458546a69e5266e5e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869622&width=680&sig=gyo3yk4o2BxEVjkqck4JTYwcpV%2BkKxxHCVMczKF8gg0%3D"
-     },
-     {
-      "t": "p",
-      "x": "A mini phone for calls, texts, maps, rides, music and banking. No social feeds.",
-      "z": "一款用于通话、短信、地图、乘车、音乐和银行业务的迷你手机。没有社交动态。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/196/0418cb87d9c51bf60f4e3c4771b466f2_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869657&width=680&sig=kJPW%2BZAVDyN1sC5Cj%2F9Untyl35rYKCVM5N%2BI4MWefCk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/194/ec09b8c7f11428e43b7da3bf056347c7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869631&width=680&sig=Lg%2FCpRsob6S98vBt41YTaKePNhjx%2FDDnSOR34ctKdEM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/198/c66c33e244138d09699a8b452df4c14f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869658&width=680&sig=16N6JvsF7R48QpFQyFAiuATkcJutX%2FHzDLZyGPOqL%2BA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/200/34562088b257f80945198a860810d46e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869663&width=680&sig=xHzrzPuCWuqM5%2BUP1m0JjpyFeCJCLTrQFY0GQjd2Xhs%3D"
-     },
-     {
-      "t": "p",
-      "x": "Y2K color. Silicone colorways, glass screen, stainless steel inner core.",
-      "z": "Y2K 颜色。硅胶配色，玻璃屏幕，不锈钢内芯。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/202/eee7b81b6aa803db6cf3bc3381debb0a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869668&width=680&sig=h7VfjlI5T3Bx%2FXIyuXXQ%2BUIB5nBkyc9jDZdXIor2YW0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/203/f57645d2817e8541796a4d9eae108275_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869672&width=680&sig=5HsUss9z3aLV5Ck92aB51u4KVd1FE63pfNVuxYalKqk%3D"
-     },
-     {
-      "t": "p",
-      "x": "Five swirls: Mango Orange, Berry Swirl, Cotton Candy, Lagoon Swirl, Lime Soda.",
-      "z": "五种漩涡：芒果橙、浆果漩涡、棉花糖、泻湖漩涡、青柠汽水。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/206/b84fec0e79aff1a9880dec8a7fdf1b62_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869677&width=680&sig=vgW5WrKoBvzGJKed%2F0UU4zaR9axmovcMiFtyyBr3X6k%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/212/af5d70c7745623389c02f46cff07e8c8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869702&width=680&sig=YajspE7xLR9u5df7109ntlu3hEg3aMPPz0shvChBO%2Fk%3D"
-     },
-     {
-      "t": "p",
-      "x": "360-degree swiveling pop-out camera for front and rear photos.",
-      "z": "360 度旋转弹出式摄像头，可拍摄前后照片。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/213/1bfdade06281d9950b55df757d5fdd99_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869706&width=680&sig=Gfl9TsXFbrcwSV%2FqrDR5rb1JqOBqeJxixJ5ageCKDL0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/214/3974ce3a93788fdb79f9ae4611d9ce1f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869710&width=680&sig=oTzzSJukeAlSzoxkJPDNKmwX5bNq7tRr2QnaOlqiS10%3D"
-     },
-     {
-      "t": "p",
-      "x": "Built-in carabiner. Clips to keys, bag or belt loop.",
-      "z": "内置登山扣。夹在钥匙、包或皮带环上。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/216/14584005fd3026ede137aaf54bccec5c_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869715&width=680&sig=0SolVMRn9PSofl0YJPBARI%2B5B%2BRw2vZ9%2Bs51P4fY0EI%3D"
-     },
-     {
-      "t": "p",
-      "x": "A first phone. Calls, texts, maps and practical tools, no social feed apps.",
-      "z": "第一个电话。通话、短信、地图和实用工具，没有社交源应用程序。"
-     },
-     {
-      "t": "p",
-      "x": "Bring your own SIM, 100+ carriers worldwide, or choose the low-cost Amoeba plan.",
-      "z": "带上您自己的 SIM 卡、全球 100 多家运营商，或选择低成本的阿米巴计划。"
-     },
-     {
-      "t": "p",
-      "x": "4+32GB, 1000 mAh battery, custom Android based OS, 4G physical SIM, Bluetooth, WiFi, USB-C.",
-      "z": "4+32GB、1000 mAh 电池、基于 Android 的定制操作系统、4G 物理 SIM、蓝牙、WiFi、USB-C。"
-     },
-     {
-      "t": "p",
-      "x": "Spiky Amoeba. The same mini phone in a spiked silicone shell.",
-      "z": "尖刺阿米巴原虫。同样的迷你手机，采用尖刺硅胶外壳。"
-     },
-     {
-      "t": "p",
-      "x": "Weirdoz. A surprise color with a chance at rare and unreleased Amoebas.",
-      "z": "怪异。令人惊喜的颜色，有机会获得稀有且未发布的变形虫。"
-     },
-     {
-      "t": "p",
-      "x": "Amoeba One: $99 Super Early Bird, $110 Early Bird, $119 campaign price.",
-      "z": "阿米巴一号：超级早鸟价 99 美元，早鸟价 110 美元，活动价 119 美元。"
-     },
-     {
-      "t": "p",
-      "x": "Silicone shell, stainless steel core, glass touchscreen, carabiner ring.",
-      "z": "硅胶外壳，不锈钢芯，玻璃触摸屏，登山扣环。"
-     },
-     {
-      "t": "p",
-      "x": "Campaign Oct 13 to Nov 13, 2026. Phones ship Oct 2027.",
-      "z": "活动时间为 2026 年 10 月 13 日至 11 月 13 日。手机将于 2027 年 10 月发货。"
-     },
-     {
-      "t": "p",
-      "x": "Early proof: $10,000 startup competition funding, New York Business Plan Competition finalist, design patent awarded.",
-      "z": "早期证据：10,000 美元创业竞赛资金、纽约商业计划竞赛决赛入围、获得设计专利。"
-     },
-     {
-      "t": "p",
-      "x": "Amoeba Tech, Inc. Upstate NY. Maker of Amoeba One, a keychain-sized minimalist smartphone.",
-      "z": "Amoeba Tech, Inc. 纽约州北部。 Amoeba One 的制造商，一款钥匙扣大小的简约智能手机。"
-     }
-    ]
-   },
-   {
-    "id": 1604811623,
-    "name": "Haven: A Social Platform Stopping AI Theft & Surveillance",
-    "blurb": "Social media that prevents Big Tech & AI from stealing your art, your biometrics, and your privacy. We're replacing Insta and YouTube.",
-    "url": "https://www.kickstarter.com/projects/havensocial/haven-a-social-platform-stopping-surveillance-and-ai-theft",
-    "category": "Software",
-    "creator": "William Lavelle",
-    "location": "Des Moines, IA",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 75088.0,
-    "usdPledged": "75088.0",
-    "goalUsd": 10000.0,
-    "percentFunded": 750.88,
-    "backers": 812,
-    "deadline": 1794505687,
-    "launchedAt": 1791910087,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门",
-     "软件/APP"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.7423,
-    "coverRemote": "https://i.kickstarter.com/assets/055/522/797/d6ae4644bd59573e799b19414c37e58b_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792040749&width=1024&sig=hzxRoaY6g5R7dDeYZhuT8eVxvebmGuAiIbdUcsKTYcY%3D",
-    "videoMp4": "https://v2.kickstarter.com/1792053906-zwQG5%2BtOQSFYaxdiUGkgos%2Bvouai0Au%2FD27qZmDgcRY%3D/projects/5346034/video-1468460-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1792053906-zwQG5%2BtOQSFYaxdiUGkgos%2Bvouai0Au%2FD27qZmDgcRY%3D/projects/5346034/video-1468460-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11328874,
-      "price": 1.0,
-      "title": "Jams Player",
-      "desc": "Get the playlist William listens to while programming. 400+ songs, all instrumental-only, built for staying focused without vocals getting in the way.\\n\\nSmall donations have a huge impact when we all lift together!",
-      "backers": 109,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11472480,
-      "price": 49.0,
-      "title": "Early Bird Reserved Username+Beta Tester",
-      "desc": "Claim your Haven username right now, today, before anyone else gets a chance.\\n\\nGrab a short highly-coveted username, your creator handle, whatever you want to lock down.\\n\\nYou’ll also join Haven’s beta testing phase! Break our stuff, give feedback on each iteration as we build, and get to use our features early. Your opinion influences how the final product turns out. \\n\\nFeeling extra generous? You can grab more accounts as an add-on. Includes all rewards from previous tiers.\\n\\nAfter you back this tier, please fill out this short form: \\nhttps://forms.gle/cHtW2brTyTGQZQkj7",
-      "backers": 108,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11472485,
-      "price": 99.0,
-      "title": "Early Bird Superhuman Supporter",
-      "desc": "Make your account ad-free *forever* and get custom HTML/CSS on your profile *forever*. We know, ads suck, and we would prefer to have none. Our ads will be far more pro-consumer than anywhere else, please watch our interview with Roxane Lapa, timestamp 49:50 to see what we mean! \\n\\nIncludes all previous tiers, and you can grab more accounts as an add-on. This tier is also eligible for Kickstarter’s “pay over 3 months” option.\\n\\nPlease also see the Reserved Username tier to see how to lock in your username!",
-      "backers": 210,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 23,
-    "tiersDate": "2026-10-15",
-    "tiersCarried": "",
-    "cues": [
-     [
-      0.0,
-      2.96,
-      "嘿，你是赛博朋克 Testopias 的粉丝吗？"
-     ],
-     [
-      2.96,
-      5.72,
-      "我希望如此，因为你就住在其中。"
-     ],
-     [
-      5.72,
-      7.7,
-      "当今所有大型社交媒体"
-     ],
-     [
-      7.7,
-      8.24,
-      "平台"
-     ],
-     [
-      8.24,
-      11.61,
-      "监视、利用和操纵他们的"
-     ],
-     [
-      11.61,
-      12.12,
-      "用户。"
-     ],
-     [
-      12.12,
-      14.56,
-      "TikTok 承认追踪位置"
-     ],
-     [
-      14.56,
-      16.72,
-      "以及几名记者的动向，"
-     ],
-     [
-      16.72,
-      19.0,
-      "包括通过他们的同事。"
-     ],
-     [
-      19.0,
-      21.4,
-      "所以即使只是认识一个感兴趣的人"
-     ],
-     [
-      21.4,
-      23.56,
-      "让你被政府跟踪。"
-     ],
-     [
-      23.56,
-      25.12,
-      "国内也有这样的情况"
-     ],
-     [
-      25.12,
-      27.24,
-      "即使你没有做错任何事。"
-     ],
-     [
-      27.32,
-      30.8,
-      "我们的生活条件已经更糟了"
-     ],
-     [
-      30.8,
-      32.84,
-      "与乔治·奥威尔的《1984》相比。"
-     ],
-     [
-      32.84,
-      34.96,
-      "完成新的说话，比如"
-     ],
-     [
-      34.96,
-      38.32,
-      "没有活力，皮尤皮尤去露营。"
-     ],
-     [
-      38.32,
-      41.2,
-      "太可怕了。这让我充满恐惧。"
-     ],
-     [
-      41.2,
-      43.16,
-      "我的硕士论文就是关于这个的"
-     ],
-     [
-      43.16,
-      44.32,
-      "这给了我一个想法。"
-     ],
-     [
-      44.32,
-      46.8,
-      "我知道这是个疯狂的想法，但请听我说完。"
-     ],
-     [
-      46.8,
-      49.37,
-      "如果我们创建一个不是这样的社交媒体怎么办？"
-     ],
-     [
-      49.37,
-      49.68,
-      "邪恶？"
-     ],
-     [
-      49.68,
-      51.64,
-      "这就是我们在避风港正在建设的。"
-     ],
-     [
-      51.64,
-      53.9,
-      "我们正在接受 YouTube 对长格式的支持"
-     ],
-     [
-      53.9,
-      54.76,
-      "风景视频，"
-     ],
-     [
-      54.76,
-      56.56,
-      "Instagram 对图像的支持，"
-     ],
-     [
-      56.56,
-      58.67,
-      "并将它们组合成一个平台"
-     ],
-     [
-      58.67,
-      59.48,
-      "保护人们"
-     ],
-     [
-      59.48,
-      62.01,
-      "来自猖獗的侵入性人工智能"
-     ],
-     [
-      62.01,
-      63.24,
-      "今天的互联网。"
-     ],
-     [
-      63.24,
-      65.85,
-      "是不是让你感到毛骨悚然？"
-     ],
-     [
-      65.85,
-      67.16,
-      "面部识别"
-     ],
-     [
-      67.16,
-      68.6,
-      "监视变成了？"
-     ],
-     [
-      68.6,
-      71.84,
-      "使用 Clearview AI 和 PymIs 等工具"
-     ],
-     [
-      71.84,
-      74.41,
-      "在线浏览你所有的自拍照"
-     ],
-     [
-      74.41,
-      75.2,
-      "跟踪你？"
-     ],
-     [
-      75.2,
-      77.99,
-      "你是一名艺术家，对人工智能的盗窃行为感到不满吗？"
-     ],
-     [
-      77.99,
-      78.6,
-      "你的艺术？"
-     ],
-     [
-      78.6,
-      80.04,
-      "我们找到你了。"
-     ],
-     [
-      80.04,
-      81.4,
-      "一切都上传到我们的网站"
-     ],
-     [
-      81.4,
-      83.8,
-      "将自动受到人工智能保护。"
-     ],
-     [
-      83.8,
-      86.4,
-      "它有毒，所以如果人工智能吞下，"
-     ],
-     [
-      86.4,
-      90.09,
-      "人工智能什么也学不到，甚至更糟的是，它也学不到"
-     ],
-     [
-      90.09,
-      90.64,
-      "错了。"
-     ],
-     [
-      90.64,
-      93.23,
-      "你是否厌倦了像一个人一样说话？"
-     ],
-     [
-      93.23,
-      94.52,
-      "卡通小丑，"
-     ],
-     [
-      94.52,
-      96.99,
-      "或者像个婴儿一样，为了讨论"
-     ],
-     [
-      96.99,
-      98.76,
-      "重要的严肃话题，"
-     ],
-     [
-      98.76,
-      100.84,
-      "就像你的家乡被烧毁一样，"
-     ],
-     [
-      100.84,
-      103.4,
-      "还是现代的黑死病？"
-     ],
-     [
-      103.4,
-      104.8,
-      "我们找到你了。"
-     ],
-     [
-      104.8,
-      106.82,
-      "与我们一起，您可以畅所欲言"
-     ],
-     [
-      106.82,
-      107.32,
-      "通常。"
-     ],
-     [
-      107.32,
-      110.23,
-      "这不应该是革命性的，但是"
-     ],
-     [
-      110.23,
-      111.44,
-      "如今确实如此。"
-     ],
-     [
-      111.44,
-      113.81,
-      "当你付出很多的时候你是否感到沮丧"
-     ],
-     [
-      113.81,
-      114.64,
-      "心与灵魂"
-     ],
-     [
-      114.64,
-      117.0,
-      "放入视频中，然后将其发布，但是因为"
-     ],
-     [
-      117.0,
-      117.56,
-      "你没有"
-     ],
-     [
-      117.56,
-      120.28,
-      "检查那些看不见的、不可知的盒子"
-     ],
-     [
-      120.28,
-      122.49,
-      "全能算法正在寻找"
-     ],
-     [
-      122.49,
-      122.72,
-      "对于，"
-     ],
-     [
-      122.72,
-      125.64,
-      "视频就这样被扔进了深渊。"
-     ],
-     [
-      125.64,
-      127.84,
-      "太糟糕了，对吧？"
-     ],
-     [
-      127.84,
-      130.32,
-      "完成所有所需的血脂分析"
-     ],
-     [
-      130.32,
-      132.32,
-      "确保您的视频不会失败"
-     ],
-     [
-      132.32,
-      134.95,
-      "本身就是一份全职工作"
-     ],
-     [
-      134.95,
-      135.76,
-      "所有的工作"
-     ],
-     [
-      135.76,
-      137.48,
-      "制作视频。"
-     ],
-     [
-      137.48,
-      138.88,
-      "我们找到你了。"
-     ],
-     [
-      138.88,
-      141.13,
-      "我们直接告诉你，"
-     ],
-     [
-      141.13,
-      142.12,
-      "透明地，"
-     ],
-     [
-      142.12,
-      144.54,
-      "算法如何决定播放哪些视频"
-     ],
-     [
-      144.54,
-      144.84,
-      "显示。"
-     ],
-     [
-      144.84,
-      146.48,
-      "救世主，工作量很大。"
-     ],
-     [
-      146.48,
-      149.46,
-      "您是否在社交媒体之间犹豫不决"
-     ],
-     [
-      149.46,
-      149.92,
-      "媒体"
-     ],
-     [
-      149.92,
-      152.19,
-      "因为你真的不想去"
-     ],
-     [
-      152.19,
-      152.64,
-      "通过"
-     ],
-     [
-      152.64,
-      156.0,
-      "并一张一张下载你的作品"
-     ],
-     [
-      156.0,
-      159.6,
-      "然后一一上传到别的地方？"
-     ],
-     [
-      159.6,
-      161.95,
-      "我们将为您做到这一点，以节省您的时间"
-     ],
-     [
-      161.95,
-      162.4,
-      "乏味。"
-     ],
-     [
-      162.4,
-      166.07,
-      "所以如果你厌倦了人工智能被推倒"
-     ],
-     [
-      166.07,
-      167.12,
-      "你的喉咙，"
-     ],
-     [
-      167.12,
-      169.6,
-      "无论您走到哪里，我们都可以为您提供位置"
-     ],
-     [
-      169.6,
-      170.72,
-      "摆脱它。"
-     ],
-     [
-      170.72,
-      173.06,
-      "如果你想反击AI"
-     ],
-     [
-      173.06,
-      173.52,
-      "艺术家"
-     ],
-     [
-      173.52,
-      176.32,
-      "和人工智能老大哥监控程序，"
-     ],
-     [
-      176.32,
-      178.94,
-      "但从来不知道如何做，这是你的机会"
-     ],
-     [
-      178.94,
-      180.28,
-      "有所作为。"
-     ],
-     [
-      180.28,
-      181.97,
-      "如果你想要一个不属于的社交媒体"
-     ],
-     [
-      181.97,
-      182.24,
-      "尝试"
-     ],
-     [
-      182.24,
-      185.36,
-      "偷偷地在幕后操纵"
-     ],
-     [
-      185.36,
-      187.28,
-      "并影响你的思想和信念"
-     ],
-     [
-      187.28,
-      189.4,
-      "更符合信仰"
-     ],
-     [
-      189.4,
-      192.25,
-      "该公司的首席执行官一起"
-     ],
-     [
-      192.25,
-      193.96,
-      "我们可以做到这一点。"
-     ],
-     [
-      193.96,
-      195.28,
-      "如果您有兴趣了解更多信息"
-     ],
-     [
-      195.28,
-      195.96,
-      "关于这些话题，"
-     ],
-     [
-      195.96,
-      197.92,
-      "你可以在这里查看我的论文。"
-     ],
-     [
-      197.92,
-      199.52,
-      "感谢您的观看和您的"
-     ],
-     [
-      199.52,
-      199.88,
-      "支持。"
-     ],
-     [
-      199.88,
-      201.84,
-      "我们要一起做伟大的事情。"
-     ],
-     [
-      201.84,
-      202.6,
-      "哇！"
-     ],
-     [
-      202.6,
-      205.01,
-      "好吧，我充满激情地颤抖着"
-     ],
-     [
-      205.01,
-      205.64,
-      "由此。"
-     ],
-     [
-      205.64,
-      207.72,
-      "我需要出去散散步，冷静一下。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/522/797/d6ae4644bd59573e799b19414c37e58b_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792040749&width=1024&sig=hzxRoaY6g5R7dDeYZhuT8eVxvebmGuAiIbdUcsKTYcY%3D"
-     },
-     {
-      "t": "p",
-      "x": "$75Delimiter088",
-      "z": "$75Delimiter088"
-     },
-     {
-      "t": "p",
-      "x": "Pledged Of Pledged Of Goal",
-      "z": "承诺的目标"
-     },
-     {
-      "t": "p",
-      "x": "28 Days Time To Go",
-      "z": "28 天出发时间"
-     },
-     {
-      "t": "p",
-      "x": "Social media that prevents Big Tech & AI from stealing your art, your biometrics, and your privacy. We're replacing Insta and YouTube.",
-      "z": "社交媒体可防止大型科技和人工智能窃取您的艺术品、生物特征识别和隐私。我们正在取代 Insta 和 YouTube。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/048/791/701/c780c9f7e207269c234cb7599e7a3d39_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1743823859&width=160&sig=H0HHMMA5I3JxEhZkJfwZc2RsTF%2FHW9IK6yL8xTyp%2F14%3D"
-     },
-     {
-      "t": "p",
-      "x": "William Lavelle",
-      "z": "威廉·拉维尔"
-     },
-     {
-      "t": "p",
-      "x": "Projects Created•Projects Backed",
-      "z": "创建的项目•支持的项目"
-     },
-     {
-      "t": "p",
-      "x": "Social media that prevents Big Tech & AI from stealing your art, your biometrics, and your privacy. We're replacing Insta and YouTube.",
-      "z": "社交媒体可防止大型科技和人工智能窃取您的艺术品、生物特征识别和隐私。我们正在取代 Insta 和 YouTube。"
-     },
-     {
-      "t": "p",
-      "x": "$75Delimiter088",
-      "z": "$75Delimiter088"
-     },
-     {
-      "t": "p",
-      "x": "Pledged Of Pledged Of Goal",
-      "z": "承诺的目标"
-     },
-     {
-      "t": "p",
-      "x": "28 Days Time To Go",
-      "z": "28 天出发时间"
-     },
-     {
-      "t": "p",
-      "x": "Kickstarter Connects Creators",
-      "z": "Kickstarter 连接创作者"
-     },
-     {
-      "t": "p",
-      "x": "Rewards Arent Guaranteed",
-      "z": "奖励不保证"
-     },
-     {
-      "t": "p",
-      "x": "Youre Only Charged",
-      "z": "您只需付费"
-     },
-     {
-      "t": "p",
-      "x": "*   [**THE QUICK VERSION**](h:THE-QUICK-VERSION)",
-      "z": "* [**快速版本**](h:快速版本)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**DEMO - SEE HAVEN IN ACTION**](h:DEMO-SEE-HAVEN-IN-ACTION)",
-      "z": "* [**演示 - 查看 HAVEN 的实际行动**](h:DEMO-SEE-HAVEN-IN-ACTION)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**WHY WE'RE BUILDING HAVEN**](h:WHY-WE-RE-BUILDING-HAVEN)",
-      "z": "* [**为什么我们要建造避风港**](h:为什么我们要重建避风港)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**WHO HAVEN IS FOR**](h:WHO-HAVEN-IS-FOR)",
-      "z": "* [**谁是避风港**](h:谁-避风港-是-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**EVERYTHING HAVEN IS BUILDING**](h:EVERYTHING-HAVEN-IS-BUILDING)",
-      "z": "* [**一切避风港都在建设**](h:一切避风港都在建设)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**ACHIEVEMENTS SO FAR**](h:ACHIEVEMENTS-SO-FAR)",
-      "z": "* [**迄今为止的成就**](h:迄今为止的成就)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**PEOPLE ARE ALREADY ASKING FOR THIS**](h:PEOPLE-ARE-ALREADY-ASKING-FOR-THIS)",
-      "z": "* [**人们已经在要求这个**](h:人们已经在要求这个)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**INTERVIEWS**](h:INTERVIEWS)",
-      "z": "* [**采访**](h:采访)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**REWARDS FOR BACKING**](h:REWARDS-FOR-BACKING)",
-      "z": "* [**支持奖励**](h:支持奖励)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**WHAT YOUR PLEDGE ACTUALLY FUNDS**](h:WHAT-YOUR-PLEDGE-ACTUALLY-FUNDS)",
-      "z": "* [**您的承诺实际资助金额**](h:您的承诺实际资助金额)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**ROADMAP**](h:ROADMAP)",
-      "z": "* [**路线图**](h:路线图)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**HOW WILL HAVEN FUND ITSELF WITHOUT ENSHITTIFYING?**](h:HOW-WILL-HAVEN-FUND-ITSELF-WITHOUT-ENSHITTIFYING-)",
-      "z": "* [**如何在没有 ENSHITTIFYING 的情况下筹集资金？**](h:HAVEN 如何在没有 ENSHITTIFING 的情况下筹集资金 -)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**WHO'S BUILDING THIS?**](h:WHO-S-BUILDING-THIS-)",
-      "z": "* [**谁在建造这个？**](h:谁-S-建造-这个-)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/485/764/69fd9a5f334d5ac439aca206a4292f72_original.png?fit=scale-down&origin=ugc&q=100&v=1791842360&width=680&sig=Xr8Jn8cd5xcbEJ%2BwMEhkxA28P0BeBk8LD7x3Ch5zH38%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/485/766/b8b9d107c4cc0e3cb6a1e60e87e5fac1_original.png?fit=scale-down&origin=ugc&q=100&v=1791842384&width=680&sig=DlxiG9NGdEeyW71TM%2F9wUhgKFQWntQI5TUa2Y8MorTw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/485/775/6fe9042ab1d08f0cff1d164efd744363_original.png?fit=scale-down&origin=ugc&q=100&v=1791842403&width=680&sig=PtWJT8j7XSvS5QrskvQyBTX4tE%2F75EJWrC4r4mecYZg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/485/788/d71b933bb29d978711abadda94f6cc21_original.png?fit=scale-down&origin=ugc&q=100&v=1791842455&width=680&sig=9w4Wyo1wI422u8ykYLR2Yvav3hY7fozJw9aB%2BQ9xK4Y%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/485/795/50c22fc7f208e03728c614ecb8526209_original.png?fit=scale-down&origin=ugc&q=100&v=1791842482&width=680&sig=vHWuyJCvXuS9Yh92v4fY1Z6kudVAeVI%2BUt7eu2g9Z%2Fo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/499/874/cbf8eb26c203d67601d4c337165923e2_original.gif?fit=scale-down&origin=ugc&q=92&v=1791911246&width=680&sig=ejxc72SN9Cxrr1NXWx%2BJXuVz5aOJaEyJWGMfja3OHb0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/485/914/1db58ea4412eb8453a05eb0bc5396172_original.png?fit=scale-down&origin=ugc&q=100&v=1791843048&width=680&sig=Cl787kI5QVYgT5LoTBXTVty7JZ2yHZelWXqHwRewT8U%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/485/919/b819977fa36cc82663882e79925fb115_original.png?fit=scale-down&origin=ugc&q=100&v=1791843066&width=680&sig=pxvzJbBTjN8IrsATq68Q2M8ZNOXnAFbmk%2FIgchf8A6M%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/485/921/df172db6e4bef1deabc5a2081c582aed_original.png?fit=scale-down&origin=ugc&q=100&v=1791843076&width=680&sig=B3Jwf01B%2FpyT7qRRssaS5YvrT96uZsvJUhKOqfaj%2FRM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/485/923/bdbdae69b9bbe0883285d5f15f145015_original.png?fit=scale-down&origin=ugc&q=100&v=1791843091&width=680&sig=hKOdmEb2ja4dXs%2B99uMWhqstc5n2Gq8AteUhcmQ%2FIHM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/485/934/3e02cc80a6edd27882e3e3778aad76bd_original.png?fit=scale-down&origin=ugc&q=100&v=1791843125&width=680&sig=CCJLpCqiJQ0Cj6i2EVhQXYSFlcwWhloN7SVfsNBOkt0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/501/629/1b9b14d54a0695c675afda50ed199350_original.png?fit=scale-down&origin=ugc&q=100&v=1791919178&width=680&sig=piKg4dxwBpTHYK0kWvsl7RTNWxiW2g%2BQZcXPydzXhKw%3D"
-     }
-    ]
-   },
-   {
-    "id": 1471279538,
-    "name": "VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER",
-    "blurb": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
-    "url": "https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer",
-    "category": "Hardware",
-    "creator": "Bvio Tech",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 78424.0,
-    "pledged": 19192177.0,
-    "usdPledged": "2447067.24513649",
-    "goalUsd": 9999.32,
-    "percentFunded": 24472.326073650922,
-    "backers": 4556,
-    "deadline": 1793376023,
-    "launchedAt": 1789488023,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门",
-     "Technology 热门",
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.7132,
-    "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": "https://v2.kickstarter.com/1792055314-67juBTht%2BTnEyZz%2BDUJiAvo0l4u971ajkPIxi2V4K%2Fw%3D/projects/5342600/video-1438224-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1792055314-67juBTht%2BTnEyZz%2BDUJiAvo0l4u971ajkPIxi2V4K%2Fw%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11254735,
-      "price": 3128.0,
-      "title": "Super Early Bird - Violoop",
-      "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 3973,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11414602,
-      "price": 5951.0,
-      "title": "Super Early Bird - Violoop Duo Pack",
-      "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 456,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11415618,
-      "price": 56432.0,
-      "title": "Super Early Bird - Violoop Team Pack",
-      "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 43,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 10,
-    "tiersDate": "2026-10-15",
-    "tiersCarried": "",
-    "cues": [
-     [
-      0.02,
-      2.71,
-      "每天我们都会经历十几个"
-     ],
-     [
-      2.71,
-      4.02,
-      "不同的工具。"
-     ],
-     [
-      4.02,
-      8.02,
-      "切换、复制、粘贴、重复。"
-     ],
-     [
-      8.02,
-      10.77,
-      "但这些工具中有多少是真正"
-     ],
-     [
-      10.77,
-      12.02,
-      "理解你吗？"
-     ],
-     [
-      12.02,
-      15.02,
-      "早上好！准备好接受董事会审查了吗？"
-     ],
-     [
-      15.02,
-      19.12,
-      "Violoupe 是您本地的 AI 代理，旨在"
-     ],
-     [
-      19.12,
-      20.02,
-      "认识你。"
-     ],
-     [
-      20.02,
-      24.02,
-      "因此，在您提出要求之前，您的工作就已准备就绪。"
-     ],
-     [
-      24.02,
-      26.02,
-      "Violoupe 与您协同行动，"
-     ],
-     [
-      26.02,
-      28.02,
-      "在后台安静地学习。"
-     ],
-     [
-      28.02,
-      31.64,
-      "我发现了一个类似的任务。我要完成吗"
-     ],
-     [
-      31.64,
-      34.26,
-      "和上次一样吗？"
-     ],
-     [
-      34.26,
-      37.28,
-      "Violoupe 找到您的流程并执行"
-     ],
-     [
-      37.28,
-      38.26,
-      "你的命令。"
-     ],
-     [
-      38.26,
-      41.26,
-      "批次准备就绪，下一步正在排队。"
-     ],
-     [
-      41.26,
-      44.19,
-      "它运行您的店面、您的内容以及"
-     ],
-     [
-      44.19,
-      46.98,
-      "您在每个平台上的客户"
-     ],
-     [
-      46.98,
-      47.26,
-      "使用。"
-     ],
-     [
-      47.26,
-      49.98,
-      "从产品到内容到库存"
-     ],
-     [
-      49.98,
-      52.56,
-      "客户，它保留了整个过程"
-     ],
-     [
-      52.56,
-      53.26,
-      "连接。"
-     ],
-     [
-      53.26,
-      55.98,
-      "无论您的目标、业务或"
-     ],
-     [
-      55.98,
-      58.49,
-      "你的任务，人工智能会自己建模"
-     ],
-     [
-      58.49,
-      59.26,
-      "你周围。"
-     ],
-     [
-      59.26,
-      64.38,
-      "它在您的设备上运行。您的数据"
-     ],
-     [
-      64.38,
-      66.18,
-      "永远不会离开。"
-     ],
-     [
-      66.18,
-      76.04,
-      "你的环境改变了，工作也改变了"
-     ],
-     [
-      76.04,
-      78.94,
-      "继续。"
-     ],
-     [
-      78.94,
-      91.57,
-      "最好的系统学习如何工作"
-     ],
-     [
-      91.57,
-      92.86,
-      "你。"
-     ],
-     [
-      92.86,
-      96.35,
-      "当一切都一致时，你的想法，"
-     ],
-     [
-      96.35,
-      100.21,
-      "你的节奏，你的时间，你停止反应，"
-     ],
-     [
-      100.21,
-      101.86,
-      "你开始流动。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/112/827/e3d7dc4edb30a39269986371a2223db7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789368177&width=680&sig=638gbidJMd%2B5wfEY6ZC738UrRxWZpJtrSbkcaVSiMFo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/025/5aa5a5cdb2d4caff5cb8c3ff3e8352d2_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883690&width=680&sig=DaYzBDNXiTUgvwjQn%2BEiUoHABJxon8Tcs5ingy4UxjY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/030/1f99c4f7e43e4ce4641b6c4b1949fe5a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883712&width=680&sig=WqmPovC%2BEfw%2FMKuo9H0xsQqnagD0eXyn%2BcRP9kqgSQw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/035/d3b7244996892cc69d498bd411332a2d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883734&width=680&sig=EomtSzfVvgT08p3oMw8WwO1xCTBh%2F7%2BNtijHIP8EtJU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/040/b9b849b6ec7a8fe79d629a8871505614_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=URrxiGNiYMI5Qg69woE3xtdFvE84X0sTJUwc2%2BThsrQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/041/eb2e613ee0c7f9f9601eb025732d1824_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=fz9SsozAZKMNNsepvYi%2BVW%2FLprxxf%2FHrJinbiW10vqA%3D"
-     },
-     {
-      "t": "p",
-      "x": "Extract customer, vehicle, and repair order data from the DMS and organize it into an Excel file.",
-      "z": "从 DMS 中提取客户、车辆和维修订单数据并将其组织到 Excel 文件中。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/046/95034dc50da375803bfaee565a971963_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883751&width=680&sig=ZFpERXuqiTWR0GTapmFX39bDG%2FuDmYdrz0ep8VEex4U%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/042/92aaafbe31cbdc0716be2a209853bf64_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=2gO1z1d0IUYi4JYxqZQ5FG7LmGJFoOyxKqcpg7qTfWc%3D"
-     },
-     {
-      "t": "p",
-      "x": "Locate the specific conversations in the WhatsApp chat list, extract the required information, and organize it into HubSpot CRM.",
-      "z": "在 WhatsApp 聊天列表中找到特定对话，提取所需信息，并将其组织到 HubSpot CRM 中。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/048/ef74c053efb4909aeffd7cb2b20398c0_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883752&width=680&sig=xtEunU4VmorulVL4JSUAcq0%2BHJNO9RDO4k2Fq5I4Xgg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/044/eb7da3af9ed34b128e1a3af80bf95075_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=5egcsVGfA1cLyYZ3j9ITwVqEoBHSd2OWFDrgxdYEIYg%3D"
-     },
-     {
-      "t": "p",
-      "x": "Read all unread emails. For each email that requires a reply, draft a response and save it to the Drafts folder. Archive every email that doesn't require a reply.",
-      "z": "阅读所有未读电子邮件。对于每封需要回复的电子邮件，起草回复并将其保存到草稿文件夹。归档每封不需要回复的电子邮件。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/045/76a9d3a488e7474f956e3b2817bfeffc_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883751&width=680&sig=%2BajHRPZfe51SliH9nues2LlSWT1NFH8YsifnqNVuVik%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/043/e390b7894ee7f2b9eec010f37cea13b9_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=UVGHy78n0QhdZpMf4p%2F3ND0pVcASRm%2FROTtVH%2FbGWfs%3D"
-     },
-     {
-      "t": "p",
-      "x": "Search online for the three hotels that best match the given criteria, select the best option, and fill the booking information, but stop right before payment.",
-      "z": "在线搜索最符合给定条件的三家酒店，选择最佳选项，然后填写预订信息，但在付款前停止。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/047/5d6d72dbe16d4f7312ba2ed2ef73a511_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883752&width=680&sig=SE5v%2BNea81dMRFvd57xJltd94ibSBbPcQ87ZwB5N%2B6I%3D"
-     },
-     {
-      "t": "p",
-      "x": "Visit Violoop’s official YouTube channel to discover more practical workflows: [Violoop Workflow Showcase - YouTube](https://www.youtube.com/playlist?list=PLEJ_9fI2IiTw)",
-      "z": "访问 Violoop 官方 YouTube 频道，了解更多实用工作流程：[Violoop 工作流程展示 - YouTube](https://www.youtube.com/playlist?list=PLEJ_9fI2IiTw)"
-     },
-     {
-      "t": "p",
-      "x": "The real workflows we demonstrate are starting points to help you discover what Violoop can do in your own daily work. Its capabilities extend far beyond these examples; we encourage you to experiment, try new ideas, and find ways to make Violoop work for you.",
-      "z": "我们演示的真实工作流程是帮助您发现 Violoop 在日常工作中可以做什么的起点。它的功能远远超出了这些例子；我们鼓励您尝试、尝试新想法并找到让 Violoop 为您服务的方法。"
-     },
-     {
-      "t": "p",
-      "x": "We look forward to seeing the workflows you create and learning from your experiences as we continue to improve Violoop together with our community.",
-      "z": "我们期待看到您创建的工作流程，并从您的经验中学习，我们将继续与社区一起改进 Violoop。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/246/e922bb26260d305320d8cef1ad2adb8e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791884412&width=680&sig=I21Dp5s5yWzkWqvu6SZx5IQOP8SodFB%2Bwv1sIOqRWgA%3D"
-     },
-     {
-      "t": "p",
-      "x": "Your personal on-device AI—with long-context memory that learns how you work. Violoop brings screen understanding and personal memory on-device, learning your habits, projects, and preferences entirely locally, with no cloud computing costs.",
-      "z": "您的个人设备上人工智能——具有长上下文记忆，可以了解您的工作方式。 Violoop 在设备上提供屏幕理解和个人记忆，完全在本地了解您的习惯、项目和偏好，无需云计算成本。"
-     },
-     {
-      "t": "p",
-      "x": "By combining OCR with a local model that understands long-form context, Violoop proactively moves your work forward—so you don’t have to write lengthy prompts for every task.",
-      "z": "通过将 OCR 与理解长格式上下文的本地模型相结合，Violoop 可以主动推动您的工作，因此您不必为每项任务编写冗长的提示。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop reads and understands the text, pages, and interactive elements on your screen in real time. It controls your computer through mouse and keyboard inputs, carrying out tasks across apps without relying on app-specific APIs.",
-      "z": "Violoop 实时读取并理解屏幕上的文本、页面和交互元素。它通过鼠标和键盘输入控制您的计算机，跨应用程序执行任务，而无需依赖应用程序特定的 API。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop separates AI processing from independent security control through its dual-chip architecture. The processing chip runs the local model, while the security chip enforces physical authorization for sensitive actions.",
-      "z": "Violoop 通过其双芯片架构将人工智能处理与独立的安全控制分开。处理芯片运行本地模型，而安全芯片则对敏感操作强制执行物理授权。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop connects your computer and phone so work can continue beyond your desk. As long as your computer remains on and connected, Violoop can run tasks around the clock. From your phone, you can remotely view your computer’s screen, check task progress, and give new instructions.",
-      "z": "Violoop 连接您的计算机和手机，以便您可以在办公桌外继续工作。只要您的计算机保持开启并连接，Violoop 就可以全天候运行任务。通过手机，您可以远程查看计算机屏幕、检查任务进度并给出新指示。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop can view and interact with two screens simultaneously, so you and Violoop can work on the same computer without getting in each other’s way.",
-      "z": "Violoop 可以同时查看两个屏幕并与之交互，因此您和 Violoop 可以在同一台计算机上工作，而不会互相妨碍。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop is for people who repeatedly extract information, copy and paste, fill out forms, organize files, and follow up on tasks. These activities have clear goals and repeatable steps, but are spread across different apps—taking time and interrupting focus.",
-      "z": "Violoop 适合那些反复提取信息、复制和粘贴、填写表格、组织文件和跟踪任务的人员。这些活动有明确的目标和可重复的步骤，但分布在不同的应用程序中，既耗时又分散注意力。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop handles the repetitive work across your apps, so you can focus on decisions, conversations, and creativity.",
-      "z": "Violoop 可以处理您应用程序中的重复性工作，因此您可以专注于决策、对话和创造力。"
-     },
-     {
-      "t": "p",
-      "x": "· Extract customer details and update your CRM.",
-      "z": "· 提取客户详细信息并更新您的 CRM。"
-     },
-     {
-      "t": "p",
-      "x": "· Draft personalized follow-up emails for your approval.",
-      "z": "· 起草个性化的后续电子邮件以供您批准。"
-     },
-     {
-      "t": "p",
-      "x": "· Organize product information and prepare listings for approval.",
-      "z": "· 整理产品信息并准备清单以供批准。"
-     },
-     {
-      "t": "p",
-      "x": "· Consolidate order, sales, and inventory data into spreadsheets.",
-      "z": "· 将订单、销售和库存数据合并到电子表格中。"
-     },
-     {
-      "t": "p",
-      "x": "· Sort, rename, and organize files by project or date.",
-      "z": "· 按项目或日期对文件进行排序、重命名和组织。"
-     },
-     {
-      "t": "p",
-      "x": "· Compare hotels and transportation prices for business trips.",
-      "z": "· 比较商务旅行的酒店和交通价格。"
-     },
-     {
-      "t": "p",
-      "x": "· Extract invoice and receipt details into financial records.",
-      "z": "· 将发票和收据详细信息提取到财务记录中。"
-     },
-     {
-      "t": "p",
-      "x": "· Compare statements and flag discrepancies for review.",
-      "z": "· 比较陈述并标记差异以供审查。"
-     },
-     {
-      "t": "p",
-      "x": "· Extract resume details and update candidate trackers.",
-      "z": "· 提取简历详细信息并更新候选人跟踪器。"
-     },
-     {
-      "t": "p",
-      "x": "· Compile availability and prepare interview schedules and invitations.",
-      "z": "· 收集可用情况并准备面试时间表和邀请。"
-     },
-     {
-      "t": "p",
-      "x": "· Gather research and links into a content library.",
-      "z": "· 将研究成果和链接收集到内容库中。"
-     }
-    ]
-   },
-   {
-    "id": 1841814277,
-    "name": "BirdieSense: Your Golf's First AI Companion!",
-    "blurb": "Capture Every Swing丨Real-Time 3D Mapping丨Proactive AI Coach丨Dual 4K Vision & Edge AI丨6-Hour Runtime丨Portable Design",
-    "url": "https://www.kickstarter.com/projects/1054191270/birdiesense-your-golfs-first-ai-companion",
-    "category": "Robots",
-    "creator": "BirdieSense",
-    "location": "New York, NY",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 20000.0,
-    "pledged": 862731.0,
-    "usdPledged": "862731.0",
-    "goalUsd": 20000.0,
-    "percentFunded": 4313.655,
-    "backers": 876,
-    "deadline": 1794067204,
-    "launchedAt": 1788879604,
-    "staffPick": true,
-    "sources": [
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.6625,
-    "coverRemote": "https://i.kickstarter.com/assets/054/834/757/a328f3b1d63fbc6b6c0e18381a46c388_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1787304106&width=1024&sig=ly5M7PsMmlSUBphWTVE1jVOU3s0dRolKvAMc6vbVtTo%3D",
-    "videoMp4": "https://v2.kickstarter.com/1792062098-ldQc8hMCZ%2BdCZjHPeWnYLWZzIFRmpN9NT6ENpk739uI%3D/projects/5342964/video-1456767-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1792062098-ldQc8hMCZ%2BdCZjHPeWnYLWZzIFRmpN9NT6ENpk739uI%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11398822,
-      "price": 35.0,
-      "title": "Charging Dock",
-      "desc": "Please note: This charging dock is NOT a wireless charger and does not have a built-in charging function. It serves as a stand only, featuring a precise cable cutout at the bottom for the charging cable.",
-      "backers": 104,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11394490,
-      "price": 799.0,
-      "title": "BirdieSense - Super Early Bird",
-      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 816,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11394492,
-      "price": 1498.0,
-      "title": "BirdieSense X2 - Super Early Bird",
-      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️50% OFF $2998 MSRP (save $1500)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 28,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 7,
-    "tiersDate": "2026-10-15",
-    "tiersCarried": "",
-    "cues": [
-     [
-      1.55,
-      3.55,
-      "介绍小鸟意识。"
-     ],
-     [
-      3.55,
-      6.55,
-      "Gulse 第一个人工智能伴侣。"
-     ],
-     [
-      6.55,
-      9.43,
-      "时尚紧凑的设计，方便携带"
-     ],
-     [
-      9.43,
-      11.55,
-      "无论游戏带您到哪里。"
-     ],
-     [
-      11.55,
-      14.58,
-      "提升您的实践以重新定义"
-     ],
-     [
-      14.58,
-      16.55,
-      "你的游戏的边界。"
-     ],
-     [
-      16.55,
-      19.78,
-      "采用双摄像头镜头和我们的"
-     ],
-     [
-      19.78,
-      21.55,
-      "签名人工智能处理器。"
-     ],
-     [
-      21.55,
-      25.55,
-      "将每次挥杆动作转化为可追踪的数据。"
-     ],
-     [
-      25.55,
-      34.94,
-      "仍然向后靠。"
-     ],
-     [
-      34.94,
-      36.94,
-      "让我们继续您的换乘之路吧。"
-     ],
-     [
-      36.94,
-      47.17,
-      "就在那里。"
-     ],
-     [
-      47.17,
-      50.3,
-      "如果你希望我严格并且"
-     ],
-     [
-      50.3,
-      52.96,
-      "严谨，我也能做到。"
-     ],
-     [
-      52.96,
-      55.53,
-      "不仅仅是为了驾驶而打造"
-     ],
-     [
-      55.53,
-      55.96,
-      "范围。"
-     ],
-     [
-      55.96,
-      58.38,
-      "从果岭的微妙断裂到"
-     ],
-     [
-      58.38,
-      59.96,
-      "沙坑线困难。"
-     ],
-     [
-      59.96,
-      62.78,
-      "实时指导帮助您达到目标"
-     ],
-     [
-      62.78,
-      65.6,
-      "充分发挥潜力并掌控你的"
-     ],
-     [
-      65.6,
-      65.96,
-      "游戏。"
-     ],
-     [
-      65.96,
-      68.96,
-      "距旗帜 56 码。"
-     ],
-     [
-      68.96,
-      71.58,
-      "根据您的历史数据，我建议"
-     ],
-     [
-      71.58,
-      72.96,
-      "我们使用50度。"
-     ],
-     [
-      72.96,
-      82.8,
-      "如果我们计划的话。"
-     ],
-     [
-      82.8,
-      84.8,
-      "今天第一只小鸟。"
-     ],
-     [
-      84.8,
-      87.69,
-      "小鸟不仅仅是一位精英数字教练"
-     ],
-     [
-      87.69,
-      90.44,
-      "感觉是你的智能声音"
-     ],
-     [
-      90.44,
-      90.8,
-      "边。"
-     ],
-     [
-      90.8,
-      92.8,
-      "我们今天在做什么？"
-     ],
-     [
-      92.8,
-      94.8,
-      "让我们切换一下。"
-     ],
-     [
-      94.8,
-      96.97,
-      "毕竟不能忘记提高准确性"
-     ],
-     [
-      96.97,
-      97.8,
-      "那速度工作。"
-     ],
-     [
-      97.8,
-      104.24,
-      "您的进步的完整历史记录"
-     ],
-     [
-      104.24,
-      109.58,
-      "触手可及。"
-     ],
-     [
-      109.58,
-      112.39,
-      "击球、手套和身体指标、小鸟"
-     ],
-     [
-      112.39,
-      115.58,
-      "理智知道你的优点和缺点。"
-     ],
-     [
-      115.58,
-      118.27,
-      "游戏化体验让高尔夫变得更有趣"
-     ],
-     [
-      118.27,
-      119.58,
-      "比现在已经是这样了。"
-     ],
-     [
-      119.58,
-      123.27,
-      "通过将您的挥杆视频与球相结合"
-     ],
-     [
-      123.27,
-      125.38,
-      "来自其他设备的数据，"
-     ],
-     [
-      125.38,
-      128.38,
-      "你的练习将会变得更加有效。"
-     ],
-     [
-      128.38,
-      150.64,
-      "无需繁琐的编辑。"
-     ],
-     [
-      150.64,
-      153.44,
-      "我们的系统打造您的个人亮点"
-     ],
-     [
-      153.44,
-      156.17,
-      "卷轴，捕捉您最美好的时刻"
-     ],
-     [
-      156.17,
-      156.64,
-      "课程。"
-     ],
-     [
-      156.64,
-      162.7,
-      "我们是小鸟的感觉。"
-     ],
-     [
-      162.7,
-      165.7,
-      "看看你的进步。达到你的巅峰。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "p",
-      "x": "*   [**BirdieSense, At a glance**](h:BirdieSense-At-a-glance)",
-      "z": "* [**BirdieSense，概览**](h:BirdieSense-概览)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Share & Earn 10% Cash Back**](h:Share-Earn-10-Cash-Back)",
-      "z": "* [**分享并赚取 10% 现金返还**](h:分享-赚取-10-现金返还)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**What Golf Experts Say**](h:What-Golf-Experts-Say)",
-      "z": "* [**高尔夫专家怎么说**](h:高尔夫专家怎么说)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Hear from Our Beta Users**](h:Hear-from-Our-Beta-Users)",
-      "z": "* [**听取我们的测试版用户的意见**](h:听取我们的测试版用户的意见)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**BirdieSense Around the World**](h:BirdieSense-Around-the-World)",
-      "z": "* [**BirdieSense 环游世界**](h:BirdieSense-环游世界)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Featured On**](h:Featured-On)",
-      "z": "* [**精选**](h:精选)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Why BirdieSense?**](h:Why-BirdieSense-)",
-      "z": "* [**为什么选择 BirdieSense？**](h:为什么-BirdieSense-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Capture Every Metric with Precision**](h:Capture-Every-Metric-with-Precision)",
-      "z": "* [**精确捕获每个指标**](h:精确捕获每个指标)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**3D Motion Tracking**](h:3D-Motion-Tracking)",
-      "z": "* [**3D 运动跟踪**](h:3D-运动跟踪)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Your AI Companion, Like a Pro Coach**](h:Your-AI-Companion-Like-a-Pro-Coach)",
-      "z": "* [**您的人工智能伴侣，就像专业教练一样**](h:Your-AI-Companion-Like-a-Pro-Coach)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Practice Anywhere. Play Everywhere.**](h:Practice-Anywhere-Play-Everywhere-)",
-      "z": "* [**随时随地练习。随处玩耍。**](h:练习-随处-玩耍-随处-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Look Closer. See Further.**](h:Look-Closer-See-Further-)",
-      "z": "* [**仔细观察。看得更远。**](h:仔细观察-看得更远-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Think Faster. Learn Smarter.**](h:Think-Faster-Learn-Smarter-)",
-      "z": "* [**思考得更快。更聪明地学习。**](h:思考更快-学习更聪明-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Your Companion, Your Style**](h:Your-Companion-Your-Style)",
-      "z": "* [**你的伴侣，你的风格**](h:你的伴侣你的风格)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Designed for Everyone**](h:Designed-for-Everyone)",
-      "z": "* [**为每个人设计**](h:为每个人设计)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Share Your Best Moments**](h:Share-Your-Best-Moments)",
-      "z": "* [**分享您的最佳时刻**](h:分享您的最佳时刻)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Specifications**](h:Specifications)",
-      "z": "* [**规格**](h:规格)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**What's in the Box?**](h:What-s-in-the-Box-)",
-      "z": "* [**盒子里有什么？**](h:盒子里有什么-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Rewards**](h:Rewards)",
-      "z": "* [**奖励**](h:奖励)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Add-on**](h:Add-on)",
-      "z": "* [**附加组件**](h:附加组件)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**How to Get Your BirdieSense**](h:How-to-Get-Your-BirdieSense)",
-      "z": "* [**如何获得您的 BirdieSense**](h:如何获得您的 BirdieSense)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Timeline**](h:Timeline)",
-      "z": "* [**时间线**](h:时间线)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Shipping & Taxes**](h:Shipping-Taxes)",
-      "z": "* [**运费和税金**](h:运费税)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Production Ready, Delivery Confident**](h:Production-Ready-Delivery-Confident)",
-      "z": "* [**生产就绪，交付自信**](h:生产就绪-交付-自信)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**About BirdieSense**](h:About-BirdieSense)",
-      "z": "* [**关于 BirdieSense**](h:关于-BirdieSense)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Connect with BirdieSense**](h:Connect-with-BirdieSense)",
-      "z": "* [**与 BirdieSense 连接**](h:Connect-with-BirdieSense)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/040/831/8c0cdc30e9e064b1ad0ff7da5bdc8cab_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788855575&width=680&sig=F%2FTfOAR8xacpeZsx%2B0GjEM4JwKlHD6826dd6awQOduo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/042/416/6a1992fe857a0b199dd85b53a394a693_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788864267&width=680&sig=vpsrfuHswczj1yizJneCdJPjRq%2FGEa1ehOh5haC17pQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/988/478/61decf9f73e14efa6f0749cdb903069d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788432298&width=680&sig=7tc9aBOgi%2FXTe6xtFtAUvi61bXX2KwF7uCJzNtLtzcw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/988/484/87de4004eca6f63c240948474538bb9f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788432317&width=680&sig=WEu0dj5bk7H%2Fr8jKKuscQ0uXHtWLdO%2FSmdmN07gDqSI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/326/6b0e151a319a1a21e129761874871d0b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764397&width=680&sig=NpAMXWWPr9nly4ZfVivXpyzqSMF2GrY2UyShOBg8bjg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/338/e033b9fcb5cce33a053278dbf8e4637e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764468&width=680&sig=%2FNKz5rpJCHbeoLtRPJPMEAZWzLzt6%2F7lFfWlzqua180%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/340/7fca2a0516dbe06dd75458058d430aec_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764475&width=680&sig=5NO85dhQxviv0XwBVeWZAdiBG2VQMhv74sGtS1YiEPU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/345/d3d39349f04d15afbaf77888379c9b0d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764498&width=680&sig=TrZMrtmDY9OQqO5JkdvErTePRXlqnf0WSOItdGOZAFo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/192/cd4dd76b64c9444ba76432e1754adb2c_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776965&width=680&sig=imL2Zwd7BECA6kln0TgfIVQpxhUiA0f5DkdRge%2FuzY8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/190/8b564805c72291779ef8e7c456e7d152_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776944&width=680&sig=5xEoYiGDMCiu28K6Quhqeri%2Fq2%2FuYVQwxOvMOaNmkJ4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/191/e48aab5ac8da3b9495d6f1b34ffdcfcf_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776956&width=680&sig=jabHQa1hUSGr6BztLSCvu7eytHFNZZGA2WQVfHYfNoM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/352/bc04b9016e7aad4c0ea07cb866423d30_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764525&width=680&sig=7o2661SdffZtAUblVwQGHhGziW7TJO179S562XXYGIM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/354/e00247e15ea0b76780dfe2e6ff72dcef_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764526&width=680&sig=9ve5HSTv%2BdQ3JDLfngRFRGG3pA1EOVXnglLissGKbUA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/999/332/9dd1340ffbb0652cf282dc4c9d8503d4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788507473&width=680&sig=bPV7xT2pfc9WywwTaBPCd%2Bvj8JAOKQyxrXHlgiGZEi4%3D"
      }
     ]
    }
