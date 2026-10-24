@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T12:16:43+07:00",
+  "generatedAt": "2026-10-24T19:30:25+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 42,
@@ -18,11 +18,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 35000.0,
-    "pledged": 800738.0,
-    "usdPledged": "102032.7184323",
+    "pledged": 827812.0,
+    "usdPledged": "105482.5782102",
     "goalUsd": 4459.82,
-    "percentFunded": 2287.822857142857,
-    "backers": 1561,
+    "percentFunded": 2365.177142857143,
+    "backers": 1614,
     "deadline": 1795266003,
     "launchedAt": 1792670403,
     "staffPick": true,
@@ -32,19 +32,19 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7604,
+    "score": 0.7617,
     "coverRemote": "https://i.kickstarter.com/assets/055/399/101/68e7942ab6362df387f9392fbeff59de_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791257434&width=1024&sig=Kiq9NMdRvwMX3keuVeG0AVY5raPyL0Zzc%2Bgm1e696w0%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792759152-ck3ijrQG882IDh%2BYSRvoen8to%2BQSrehmb9b6yxSMAKg%3D/projects/5393674/video-1469587-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792759152-ck3ijrQG882IDh%2BYSRvoen8to%2BQSrehmb9b6yxSMAKg%3D/projects/5393674/video-1469587-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11488290,
       "price": 235.0,
       "title": "Wuben G6 Standard x1",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 299,
+      "backers": 300,
       "limit": 300,
-      "remaining": 1,
+      "remaining": 0,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -53,9 +53,9 @@
       "price": 267.0,
       "title": "Wuben G6 Standard x1",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 435,
+      "backers": 532,
       "limit": 1000,
-      "remaining": 565,
+      "remaining": 468,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -64,16 +64,16 @@
       "price": 706.0,
       "title": "Wuben G6 Premium x1",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 260,
+      "backers": 300,
       "limit": 300,
-      "remaining": 40,
+      "remaining": 0,
       "eta": 1798761600,
       "shipping": "restricted"
      }
     ],
-    "rewardsTotal": 10,
-    "tiersDate": "2026-10-23",
-    "tiersCarried": "2026-10-23",
+    "rewardsTotal": 11,
+    "tiersDate": "2026-10-24",
+    "tiersCarried": "",
     "cues": [
      [
       6.99,
@@ -327,7 +327,7 @@
      {
       "t": "p",
       "x": "The Standard and Premium versions are identical in every way except for their materials. The Standard version is CNC-machined from 7075 aerospace-grade aluminum, while the Premium version is made from stonewashed titanium alloy.",
-      "z": "The Standard and Premium versions are identical in every way except for their materials. The Standard version is CNC-machined from 7075 aerospace-grade aluminum, while the Premium version is made from stonewashed titanium alloy."
+      "z": "标准版和高级版除了材质不同外，在各方面都相同。标准版由 7075 航空级铝材 CNC 加工而成，而高级版则由石磨钛合金制成。"
      },
      {
       "t": "p",
@@ -348,11 +348,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 100000.0,
-    "pledged": 18222097.0,
-    "usdPledged": "18222097.0",
+    "pledged": 18321526.0,
+    "usdPledged": "18321526.0",
     "goalUsd": 100000.0,
-    "percentFunded": 18222.096999999998,
-    "backers": 7063,
+    "percentFunded": 18321.526,
+    "backers": 7104,
     "deadline": 1796400007,
     "launchedAt": 1792508407,
     "staffPick": true,
@@ -361,17 +361,17 @@
      "Technology 热门"
     ],
     "kwHits": [],
-    "score": 0.7227,
+    "score": 0.7229,
     "coverRemote": "https://i.kickstarter.com/assets/055/590/014/ce76daee966ec5dc3234f0ac44c4d15a_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792516143&width=1024&sig=cyTDRPWje8fBc4aJoVZV%2FNd6r5m0PfYAfHO%2BrRMOIMo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792808246-lniUP6PLAu7hJr%2FWC%2FEQdQIltWy1YHWSXLy9GGRlz9g%3D/projects/5398626/video-1468517-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792808246-lniUP6PLAu7hJr%2FWC%2FEQdQIltWy1YHWSXLy9GGRlz9g%3D/projects/5398626/video-1468517-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11486780,
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 3055,
+      "backers": 3197,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -382,7 +382,7 @@
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1684,
+      "backers": 1678,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -393,7 +393,7 @@
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1531,
+      "backers": 1529,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -401,8 +401,8 @@
      }
     ],
     "rewardsTotal": 9,
-    "tiersDate": "2026-10-23",
-    "tiersCarried": "2026-10-23",
+    "tiersDate": "2026-10-24",
+    "tiersCarried": "",
     "cues": [
      [
       1.3,
@@ -787,11 +787,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 833067.0,
-    "usdPledged": "106154.76209148",
+    "pledged": 862882.0,
+    "usdPledged": "109953.98140008",
     "goalUsd": 1274.26,
-    "percentFunded": 8330.67,
-    "backers": 31,
+    "percentFunded": 8628.82,
+    "backers": 32,
     "deadline": 1795532381,
     "launchedAt": 1792504781,
     "staffPick": false,
@@ -801,10 +801,10 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6899,
+    "score": 0.691,
     "coverRemote": "https://i.kickstarter.com/assets/055/316/862/c1e2ae2108a2f8bdf8ed791053c2d96d_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790703149&width=1024&sig=O6sg6rYuZwQBMf6Zk%2BNkWr%2F3uKh4l%2FD1NKCudYEmNLk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792783918-EDTmqv62%2Ba%2BXphTJPMBlirfekhhm2%2BKPPCCvMM%2F4tZY%3D/projects/5343527/video-1466952-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792783918-EDTmqv62%2Ba%2BXphTJPMBlirfekhhm2%2BKPPCCvMM%2F4tZY%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11488028,
@@ -840,7 +840,7 @@
       "shipping": "unrestricted"
      }
     ],
-    "rewardsTotal": 11,
+    "rewardsTotal": 12,
     "tiersDate": "2026-10-24",
     "tiersCarried": "",
     "cues": [],
@@ -981,8 +981,8 @@
      },
      {
       "t": "p",
-      "x": "*   [**Specification**](h:Specification)",
-      "z": "* [**规格**](h:规格)"
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [**时间线**](h:时间线)"
      },
      {
       "t": "img",
@@ -1063,8 +1063,8 @@
     ],
     "score": 0.6687,
     "coverRemote": "https://i.kickstarter.com/assets/055/307/440/30b981e932e0df5c2ebbb9a1d6a02030_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790659285&width=1024&sig=siZgtxUVzHrwDxeocj%2B0PHVrBrtumLCUuvw6VMlmq%2BU%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792764237-U2qfi8y8nan%2B1bJJuMXf%2B%2FR80%2FzvfZmWRhB3H%2FY3Uhg%3D/projects/5369736/video-1466521-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792764237-U2qfi8y8nan%2B1bJJuMXf%2B%2FR80%2FzvfZmWRhB3H%2FY3Uhg%3D/projects/5369736/video-1466521-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 0,
@@ -1949,434 +1949,1073 @@
     ]
    },
    {
-    "id": 1471279538,
-    "name": "VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER",
-    "blurb": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
-    "url": "https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer",
+    "id": 1321991576,
+    "name": "DogVibe: The Smart Dog Training Collar for Off-Leash Freedom",
+    "blurb": "A smart training system that detects leash pulling, sets virtual proximity fences, and runs from an app on your phone. No subscription.",
+    "url": "https://www.kickstarter.com/projects/dogvibe/dogvibe",
     "category": "Hardware",
-    "creator": "Bvio Tech",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
+    "creator": "DogVibe",
+    "location": "Austin, TX",
+    "country": "the United States",
+    "currency": "USD",
     "currencySymbol": "$",
-    "goal": 78424.0,
-    "pledged": 22158029.0,
-    "usdPledged": "2825223.37005773",
-    "goalUsd": 9999.32,
-    "percentFunded": 28254.142864429257,
-    "backers": 5113,
-    "deadline": 1793376023,
-    "launchedAt": 1789488023,
+    "goal": 20000.0,
+    "pledged": 509003.0,
+    "usdPledged": "509003.0",
+    "goalUsd": 20000.0,
+    "percentFunded": 2545.015,
+    "backers": 1523,
+    "deadline": 1793343600,
+    "launchedAt": 1790685085,
     "staffPick": true,
     "sources": [
-     "Hardware 热门",
-     "Technology 热门",
-     "AI 关键词"
+     "Hardware 热门"
     ],
     "kwHits": [
-     "ai"
+     "ai",
+     "smart"
     ],
-    "score": 0.643,
-    "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "score": 0.6396,
+    "coverRemote": "https://i.kickstarter.com/assets/055/331/264/bbdcdc5a67384b4843a066e81b885c60_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790784223&width=1024&sig=BlgsHwEBuW9Qu4p%2BTD7oyzhYujYj1vzYj01dd%2BkuEvk%3D",
+    "videoMp4": "https://v2.kickstarter.com/1792773422-oHNZ1sb30osnO6JTit%2FvLwbLJIr4cDjKlJrcWj%2F%2F9PM%3D/projects/5358412/video-1462030-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792773422-oHNZ1sb30osnO6JTit%2FvLwbLJIr4cDjKlJrcWj%2F%2F9PM%3D/projects/5358412/video-1462030-hls_playlist.m3u8",
     "rewards": [
      {
-      "id": 11254735,
-      "price": 3128.0,
-      "title": "Super Early Bird - Violoop",
-      "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 4376,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
+      "id": 11303046,
+      "price": 250.0,
+      "title": "VIP - 1 Dog Bundle",
+      "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 32% OFF. $270 total with your $20 deposit, $130 off the $400 retail price\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
+      "backers": 393,
+      "limit": 425,
+      "remaining": 32,
+      "eta": 1806537600,
+      "shipping": "restricted"
      },
      {
-      "id": 11414602,
-      "price": 5951.0,
-      "title": "Super Early Bird - Violoop Duo Pack",
-      "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 496,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
+      "id": 11433279,
+      "price": 295.0,
+      "title": "Early Bird - 1 Dog Bundle",
+      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 26% OFF. $105 off the $400 retail price\\n⚡ Limited quantity. When these are gone the price goes to $330.\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
+      "backers": 714,
+      "limit": 750,
+      "remaining": 36,
+      "eta": 1806537600,
+      "shipping": "restricted"
      },
      {
-      "id": 11415618,
-      "price": 56432.0,
-      "title": "Super Early Bird - Violoop Team Pack",
-      "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 57,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
+      "id": 11433286,
+      "price": 475.0,
+      "title": "Early Bird - 2 Dog Bundle",
+      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 2x DogVibe\\n✅ 2x Static Module\\n✅ 2x Leash Module\\n✅ 1x Remote\\n\\n🚀 40% OFF. $325 off the $800 retail price\\n🐕 $238 per dog\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
+      "backers": 194,
+      "limit": 225,
+      "remaining": 31,
+      "eta": 1806537600,
+      "shipping": "restricted"
      }
     ],
-    "rewardsTotal": 10,
-    "tiersDate": "2026-10-22",
-    "tiersCarried": "2026-10-22",
+    "rewardsTotal": 12,
+    "tiersDate": "2026-10-24",
+    "tiersCarried": "",
     "cues": [
      [
-      0.02,
-      2.71,
-      "每天我们都会经历十几个"
+      19.31,
+      22.07,
+      "我是迈尔斯，这是我的狗巴鲁。"
      ],
      [
-      2.71,
-      4.02,
-      "不同的工具。"
+      22.07,
+      24.55,
+      "我们一起创造了这种狗的氛围，"
      ],
      [
-      4.02,
-      8.02,
-      "切换、复制、粘贴、重复。"
+      24.55,
+      27.27,
+      "首创的智能电子颜色停止"
      ],
      [
-      8.02,
-      10.77,
-      "但这些工具中有多少是真正"
+      27.27,
+      28.11,
+      "牵引绳"
      ],
      [
-      10.77,
-      12.02,
-      "理解你吗？"
+      28.11,
+      30.59,
+      "并建立真正的、不受约束的信任。"
      ],
      [
-      12.02,
-      15.02,
-      "早上好！准备好接受董事会审查了吗？"
+      30.59,
+      32.59,
+      "最好的部分是蓝牙控制，"
      ],
      [
-      15.02,
-      19.12,
-      "Violoupe 是您本地的 AI 代理，旨在"
+      32.59,
+      35.25,
+      "这意味着您的手机就像您的日常生活"
      ],
      [
-      19.12,
-      20.02,
-      "认识你。"
+      35.25,
+      35.71,
+      "远程。"
      ],
      [
-      20.02,
-      24.02,
-      "因此，在您提出要求之前，您的工作就已准备就绪。"
+      35.71,
+      37.31,
+      "拥有一只狗可以是令人难以置信的，"
      ],
      [
-      24.02,
-      26.02,
-      "Violoupe 与您协同行动，"
+      37.31,
+      39.47,
+      "一个冒险伙伴，一个最好的朋友。"
      ],
      [
-      26.02,
-      28.02,
-      "在后台安静地学习。"
+      39.47,
+      41.03,
+      "但现实是养狗"
      ],
      [
-      28.02,
-      31.64,
-      "我发现了一个类似的任务。我要完成吗"
+      41.03,
+      42.71,
+      "有时可能会很困难"
      ],
      [
-      31.64,
-      34.26,
-      "和上次一样吗？"
+      42.71,
+      44.71,
+      "训练他们可能会令人畏惧。"
      ],
      [
-      34.26,
-      37.28,
-      "Violoupe 找到您的流程并执行"
+      44.71,
+      48.83,
+      "拉扯，吠叫，不来"
      ],
      [
-      37.28,
-      38.26,
-      "你的命令。"
+      48.83,
+      49.99,
+      "当你打电话给他们时。"
      ],
      [
-      38.26,
-      41.26,
-      "批次准备就绪，下一步正在排队。"
+      49.99,
+      51.43,
+      "阿普索！"
      ],
      [
-      41.26,
-      44.19,
-      "它运行您的店面、您的内容以及"
+      51.43,
+      53.39,
+      "无法信任他们。"
      ],
      [
-      44.19,
-      46.98,
-      "您在每个平台上的客户"
+      53.39,
+      54.99,
+      "如果你经常感到压力很大，"
      ],
      [
-      46.98,
-      47.26,
-      "使用。"
+      54.99,
+      57.11,
+      "总是为你的狗的行为道歉"
      ],
      [
-      47.26,
-      49.98,
-      "从产品到内容到库存"
+      57.11,
+      58.99,
+      "感觉你就是不能相信他，我"
      ],
      [
-      49.98,
-      52.56,
-      "客户，它保留了整个过程"
+      58.99,
+      59.31,
+      "得到它，"
      ],
      [
-      52.56,
-      53.26,
-      "连接。"
+      59.31,
+      60.63,
+      "因为我也去过那里"
      ],
      [
-      53.26,
-      55.98,
-      "无论您的目标、业务或"
+      60.63,
+      63.02,
+      "这正是我养狗的原因"
      ],
      [
-      55.98,
-      58.49,
-      "你的任务，人工智能会自己建模"
+      63.02,
+      63.31,
+      "氛围。"
      ],
      [
-      58.49,
-      59.26,
-      "你周围。"
+      63.31,
+      65.11,
+      "我什至正在为其中之一进行营销"
      ],
      [
-      59.26,
-      64.38,
-      "它在您的设备上运行。您的数据"
+      65.11,
+      65.99,
+      "增长最快的"
      ],
      [
-      64.38,
-      66.18,
-      "永远不会离开。"
+      65.99,
+      67.78,
+      "世界上的宠物品牌"
      ],
      [
-      66.18,
-      76.04,
-      "你的环境改变了，工作也改变了"
+      67.78,
+      68.55,
+      "分散注意力的玩具"
      ],
      [
-      76.04,
-      78.94,
-      "继续。"
+      68.55,
+      70.43,
+      "为了帮助反应性的狗安定下来，"
      ],
      [
-      78.94,
-      91.57,
-      "最好的系统学习如何工作"
+      70.43,
+      72.48,
+      "但我仍然遇到问题"
      ],
      [
-      91.57,
-      92.86,
-      "你。"
+      72.48,
+      72.99,
+      "现实世界"
      ],
      [
-      92.86,
-      96.35,
-      "当一切都一致时，你的想法，"
+      72.99,
+      77.05,
+      "下面是我的狗。"
      ],
      [
-      96.35,
-      100.21,
-      "你的节奏，你的时间，你停止反应，"
+      77.05,
+      79.14,
+      "所以我建立了这个我希望存在的系统"
      ],
      [
-      100.21,
-      101.86,
-      "你开始流动。"
+      79.14,
+      79.89,
+      "当我开始的时候。"
+     ],
+     [
+      79.89,
+      82.02,
+      "一种一致的培训语言，您可以"
+     ],
+     [
+      82.02,
+      82.17,
+      "狗"
+     ],
+     [
+      82.17,
+      88.91,
+      "终于会明白。"
+     ],
+     [
+      88.91,
+      90.55,
+      "这就是狗的氛围系统。"
+     ],
+     [
+      90.55,
+      93.03,
+      "它由四块硬件组成，"
+     ],
+     [
+      93.03,
+      93.59,
+      "狗的气质，"
+     ],
+     [
+      93.59,
+      95.82,
+      "皮带模块，可选静态"
+     ],
+     [
+      95.82,
+      96.91,
+      "校正模块，"
+     ],
+     [
+      96.91,
+      98.23,
+      "和我们的远程遥控器。"
+     ],
+     [
+      98.23,
+      100.36,
+      "狗的氛围与你的颜色有关"
+     ],
+     [
+      100.36,
+      101.27,
+      "狗已经穿了"
+     ],
+     [
+      101.27,
+      103.66,
+      "它用超声波与他们交谈"
+     ],
+     [
+      103.66,
+      104.83,
+      "音调和振动。"
+     ],
+     [
+      104.83,
+      106.67,
+      "它有发声检测"
+     ],
+     [
+      106.67,
+      108.56,
+      "帮助平息过度吠叫"
+     ],
+     [
+      108.56,
+      109.35,
+      "自动地"
+     ],
+     [
+      109.35,
+      111.67,
+      "它适合 7 天 24 小时穿着"
+     ],
+     [
+      111.67,
+      114.11,
+      "这样规则就永远不会改变。"
+     ],
+     [
+      114.11,
+      115.95,
+      "借助 Dog Vivi 应用程序，您的手机"
+     ],
+     [
+      115.95,
+      117.35,
+      "充当您的日常遥控器。"
+     ],
+     [
+      117.35,
+      119.12,
+      "锁定屏幕上的小部件意味着您"
+     ],
+     [
+      119.12,
+      119.55,
+      "甚至不"
+     ],
+     [
+      119.55,
+      121.23,
+      "必须解锁您的手机才能使用"
+     ],
+     [
+      121.23,
+      121.51,
+      "颜色。"
+     ],
+     [
+      121.51,
+      123.51,
+      "每个设置都在应用程序中，"
+     ],
+     [
+      123.51,
+      125.59,
+      "射程约 200 英尺。"
+     ],
+     [
+      125.59,
+      127.83,
+      "一部手机最多可容纳四只狗"
+     ],
+     [
+      127.83,
+      130.4,
+      "和全家人的手机相比"
+     ],
+     [
+      130.4,
+      131.03,
+      "一种颜色。"
+     ],
+     [
+      131.03,
+      133.18,
+      "皮带模块夹在您的狗之间"
+     ],
+     [
+      133.18,
+      134.23,
+      "颜色和皮带。"
+     ],
+     [
+      134.23,
+      136.96,
+      "所以当你的狗拉动时，颜色会做出反应"
+     ],
+     [
+      136.96,
+      137.55,
+      "立即"
+     ],
+     [
+      137.55,
+      139.23,
+      "每一次。"
+     ],
+     [
+      139.23,
+      141.31,
+      "你的狗很快就会把这些点连起来，"
+     ],
+     [
+      141.31,
+      143.15,
+      "这意味着拉力停止"
+     ],
+     [
+      143.15,
+      145.8,
+      "你紧张的散步变得平静，"
+     ],
+     [
+      145.8,
+      146.99,
+      "宽松的散步。"
+     ],
+     [
+      146.99,
+      149.11,
+      "最好的部分是它是自动的，"
+     ],
+     [
+      149.11,
+      151.06,
+      "这意味着它适用于每一个"
+     ],
+     [
+      151.06,
+      151.27,
+      "时间"
+     ],
+     [
+      151.27,
+      153.43,
+      "与任何大小的狗。"
+     ],
+     [
+      153.43,
+      155.49,
+      "然后是远程遥控"
+     ],
+     [
+      155.49,
+      156.23,
+      "调用按钮。"
+     ],
+     [
+      156.23,
+      158.66,
+      "我们帮助您训练实际上的回忆能力"
+     ],
+     [
+      158.66,
+      159.03,
+      "成立。"
+     ],
+     [
+      159.03,
+      161.03,
+      "好的，让我向您展示一个召回演示。"
+     ],
+     [
+      161.03,
+      162.83,
+      "我这里有召回按钮"
+     ],
+     [
+      162.83,
+      163.23,
+      "我的手机，"
+     ],
+     [
+      163.23,
+      164.67,
+      "她衣领宽松。"
+     ],
+     [
+      164.67,
+      167.27,
+      "当我击中这个时，她知道要回来"
+     ],
+     [
+      167.27,
+      168.47,
+      "每一次。"
+     ],
+     [
+      168.47,
+      171.24,
+      "所以我打了它，她听到了，她继续前进"
+     ],
+     [
+      171.24,
+      171.59,
+      "回来。"
+     ],
+     [
+      171.59,
+      173.39,
+      "来吧，嘘。"
+     ],
+     [
+      173.39,
+      175.07,
+      "就这样，我训练了她"
+     ],
+     [
+      175.07,
+      175.15,
+      "向上"
+     ],
+     [
+      175.15,
+      176.87,
+      "每次都会回来。"
+     ],
+     [
+      176.87,
+      178.73,
+      "我们还包括内部培训"
+     ],
+     [
+      178.73,
+      178.87,
+      "应用程序"
+     ],
+     [
+      178.87,
+      181.07,
+      "帮助您训练您的狗做同样的事情。"
+     ],
+     [
+      181.07,
+      183.47,
+      "一旦记忆牢固，你就可以解锁它。"
+     ],
+     [
+      183.47,
+      186.21,
+      "接近模式，随移动的栅栏"
+     ],
+     [
+      186.21,
+      187.75,
+      "你无论走到哪里。"
+     ],
+     [
+      187.75,
+      190.59,
+      "将其设置在 5 到 200 英尺之间的任意位置。"
+     ],
+     [
+      190.59,
+      192.35,
+      "当你的狗接近边界时"
+     ],
+     [
+      192.35,
+      194.75,
+      "他们会自动听到召回音。"
+     ],
+     [
+      194.75,
+      197.65,
+      "所以当heipes在海滩跑步或者"
+     ],
+     [
+      197.65,
+      198.31,
+      "露营,"
+     ],
+     [
+      198.31,
+      200.23,
+      "你可以让你的狗摆脱束缚并信任"
+     ],
+     [
+      200.23,
+      202.03,
+      "他们会保持密切联系。"
+     ],
+     [
+      202.03,
+      204.01,
+      "所以技术很酷，但我们是这样的"
+     ],
+     [
+      204.01,
+      205.11,
+      "考虑培训。"
+     ],
+     [
+      205.11,
+      207.3,
+      "一切与狗的氛围都是建立在"
+     ],
+     [
+      207.3,
+      208.03,
+      "信任、玩耍、"
+     ],
+     [
+      208.03,
+      210.04,
+      "并在狗狗做事时给予奖励"
+     ],
+     [
+      210.04,
+      210.83,
+      "正确的事，"
+     ],
+     [
+      210.83,
+      212.19,
+      "这并不是很多人的想法"
+     ],
+     [
+      212.19,
+      212.91,
+      "关于当他们听到"
+     ],
+     [
+      212.91,
+      214.31,
+      "训练时打电话给她。"
+     ],
+     [
+      214.31,
+      216.27,
+      "所以我们还有可选的静态"
+     ],
+     [
+      216.27,
+      217.23,
+      "校正模块，"
+     ],
+     [
+      217.23,
+      219.11,
+      "总是被误解"
+     ],
+     [
+      219.11,
+      221.07,
+      "可能不是你想的那样。"
+     ],
+     [
+      221.07,
+      223.11,
+      "我在下面的视频中深入探讨了这一点。"
+     ],
+     [
+      223.11,
+      225.05,
+      "所以当你完成这里后，向下滚动，"
+     ],
+     [
+      225.05,
+      225.71,
+      "一探究竟。"
+     ],
+     [
+      225.71,
+      228.05,
+      "我会告诉你为什么它不是什么"
+     ],
+     [
+      228.05,
+      228.99,
+      "害怕。"
+     ],
+     [
+      228.99,
+      230.95,
+      "所以让我直接告诉你吧。"
+     ],
+     [
+      230.95,
+      232.95,
+      "狗的氛围并不是灵丹妙药。"
+     ],
+     [
+      232.95,
+      234.11,
+      "这不是魔法项圈。"
+     ],
+     [
+      234.11,
+      236.2,
+      "你拍你的狗一巴掌，它就解决了所有问题"
+     ],
+     [
+      236.2,
+      236.99,
+      "他们的问题。"
+     ],
+     [
+      236.99,
+      239.97,
+      "训练狗需要你付出真正的努力，"
+     ],
+     [
+      239.97,
+      240.71,
+      "业主。"
+     ],
+     [
+      240.71,
+      242.29,
+      "但狗的氛围提供的是"
+     ],
+     [
+      242.29,
+      243.67,
+      "令人难以置信的硬件"
+     ],
+     [
+      243.67,
+      245.61,
+      "搭配经过深思熟虑的培训"
+     ],
+     [
+      245.61,
+      245.91,
+      "系统"
+     ],
+     [
+      245.91,
+      248.07,
+      "由专业训狗师开发。"
+     ],
+     [
+      248.07,
+      249.67,
+      "我在狗的空间里度过了很多年"
+     ],
+     [
+      249.67,
+      251.77,
+      "我理解这些问题是因为"
+     ],
+     [
+      251.77,
+      252.63,
+      "我经历过它们。"
+     ],
+     [
+      252.63,
+      254.99,
+      "我为自己和我的人建立了这个系统"
+     ],
+     [
+      254.99,
+      255.23,
+      "狗,"
+     ],
+     [
+      255.23,
+      256.96,
+      "但现在我准备好与大家分享"
+     ],
+     [
+      256.96,
+      257.23,
+      "世界。"
+     ],
+     [
+      257.23,
+      259.54,
+      "我之前已经筹集了超过 200 万美元"
+     ],
+     [
+      259.54,
+      260.15,
+      "就在这里"
+     ],
+     [
+      260.15,
+      262.31,
+      "在 Kickstarter 上参与之前的项目"
+     ],
+     [
+      262.31,
+      264.18,
+      "我曾参加过《创智赢家》的其中一部"
+     ],
+     [
+      264.18,
+      264.43,
+      "他们。"
+     ],
+     [
+      264.43,
+      266.59,
+      "我去过我们海外的厂家"
+     ],
+     [
+      266.59,
+      269.18,
+      "为狗的量产做好准备"
+     ],
+     [
+      269.18,
+      269.51,
+      "氛围。"
+     ],
+     [
+      269.51,
+      271.4,
+      "已有上千人放下"
+     ],
+     [
+      271.4,
+      271.63,
+      "钱"
+     ],
+     [
+      271.63,
+      274.0,
+      "保留狗的氛围，我不能再多了"
+     ],
+     [
+      274.0,
+      274.39,
+      "兴奋"
+     ],
+     [
+      274.39,
+      275.83,
+      "推出该产品。"
+     ],
+     [
+      275.83,
+      277.9,
+      "今天支持我们，您将成为其中之一"
+     ],
+     [
+      277.9,
+      278.51,
+      "第一个人"
+     ],
+     [
+      278.51,
+      280.96,
+      "在世界上获得最好的狗氛围"
+     ],
+     [
+      280.96,
+      281.27,
+      "价格"
+     ],
+     [
+      281.27,
+      282.55,
+      "他们将永远是。"
+     ],
+     [
+      282.55,
+      284.39,
+      "是时候给你的狗更多的自由了。"
+     ],
+     [
+      284.39,
+      286.71,
+      "因为生活，摆脱束缚会更好。"
      ]
     ],
     "vttLang": "zh",
     "story": [
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/601/755/9e27f3040d7fa9a41ca8acf7c83f448e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792584195&width=680&sig=WkJPSaWQRDppwQXoLZtLuJ6gwP4wyiPHMw3%2B2iQH0DA%3D"
+      "u": "https://i.kickstarter.com/assets/055/346/760/4c12a19366b50f59805316173a7e0602_original.png?fit=scale-down&origin=ugc&q=100&v=1790874218&width=680&sig=6ELkjBFsJz9lSs1nwXfzZHKULXE9%2Bz%2F4SdrNBuLBGyI%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/112/827/e3d7dc4edb30a39269986371a2223db7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789368177&width=680&sig=638gbidJMd%2B5wfEY6ZC738UrRxWZpJtrSbkcaVSiMFo%3D"
+      "u": "https://i.kickstarter.com/assets/055/346/753/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790874140&width=680&sig=%2B2WlJ%2FbL1esU9MjMrTzGFlss8wi8d2C19Cs2DZItMO8%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/025/5aa5a5cdb2d4caff5cb8c3ff3e8352d2_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883690&width=680&sig=DaYzBDNXiTUgvwjQn%2BEiUoHABJxon8Tcs5ingy4UxjY%3D"
+      "u": "https://i.kickstarter.com/assets/055/258/947/2bb62fbdc7f6d341fc94378b8ade8489_original.png?fit=scale-down&origin=ugc&q=100&v=1790289022&width=680&sig=AJpcb2bcQ%2B3UdRHTibylJKrxs6GyoYLACVm%2FBMQKK8Y%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/030/1f99c4f7e43e4ce4641b6c4b1949fe5a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883712&width=680&sig=WqmPovC%2BEfw%2FMKuo9H0xsQqnagD0eXyn%2BcRP9kqgSQw%3D"
+      "u": "https://i.kickstarter.com/assets/055/349/683/7e77033f671a4f1217ab1192013a40cc_original.gif?fit=scale-down&origin=ugc&q=92&v=1790888644&width=680&sig=qCEmUCDLncOdFojVUSUgHVJEPevJOgA%2FRmhZxAFaVp4%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/035/d3b7244996892cc69d498bd411332a2d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883734&width=680&sig=EomtSzfVvgT08p3oMw8WwO1xCTBh%2F7%2BNtijHIP8EtJU%3D"
+      "u": "https://i.kickstarter.com/assets/055/258/938/9805a093ed105671ed56896ab3c62070_original.png?fit=scale-down&origin=ugc&q=100&v=1790288884&width=680&sig=WZA6J80Gy1HdxnVD01HBSUTpZ%2FDgGQoRWVPDVAlXXpY%3D"
+     },
+     {
+      "t": "p",
+      "x": "DogVibe brings smart training tools, guided training and everyday control together in one connected system.",
+      "z": "DogVibe 将智能训练工具、指导训练和日常控制整合到一个互联系统中。"
+     },
+     {
+      "t": "p",
+      "x": "From leash pulling and recall to off-leash boundaries and barking, DogVibe gives you one consistent way to communicate with your dog, so everyday training leads to something bigger: more trust, more confidence, and more freedom together.",
+      "z": "从牵引绳和回忆到脱离牵引绳的界限和吠叫，DogVibe 为您提供了一种与您的狗沟通的一致方式，因此日常训练会带来更大的收获：更多的信任、更多的信心和更多的自由。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/040/b9b849b6ec7a8fe79d629a8871505614_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=URrxiGNiYMI5Qg69woE3xtdFvE84X0sTJUwc2%2BThsrQ%3D"
+      "u": "https://i.kickstarter.com/assets/055/289/535/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790554466&width=680&sig=6ew6tl3AQlCkLwQ7aLcn%2FWCn58XOZD62GGL2g1xfqk8%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/041/eb2e613ee0c7f9f9601eb025732d1824_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=fz9SsozAZKMNNsepvYi%2BVW%2FLprxxf%2FHrJinbiW10vqA%3D"
-     },
-     {
-      "t": "p",
-      "x": "Extract customer, vehicle, and repair order data from the DMS and organize it into an Excel file.",
-      "z": "从 DMS 中提取客户、车辆和维修订单数据并将其组织到 Excel 文件中。"
+      "u": "https://i.kickstarter.com/assets/055/289/534/0b9ea946d273526f73a778aba69b4414_original.png?fit=scale-down&origin=ugc&q=100&v=1790554454&width=680&sig=FqnO%2FYkcx1QivrBYbxXdwhqKCA9gp1ZxkB2yav0Jyh0%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/046/95034dc50da375803bfaee565a971963_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883751&width=680&sig=ZFpERXuqiTWR0GTapmFX39bDG%2FuDmYdrz0ep8VEex4U%3D"
+      "u": "https://i.kickstarter.com/assets/055/260/916/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790305171&width=680&sig=ni7hnl%2BGVzJUxI5cbefZODphwfn7mRVOkQnSwNs53M0%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/042/92aaafbe31cbdc0716be2a209853bf64_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=2gO1z1d0IUYi4JYxqZQ5FG7LmGJFoOyxKqcpg7qTfWc%3D"
-     },
-     {
-      "t": "p",
-      "x": "Locate the specific conversations in the WhatsApp chat list, extract the required information, and organize it into HubSpot CRM.",
-      "z": "在 WhatsApp 聊天列表中找到特定对话，提取所需信息，并将其组织到 HubSpot CRM 中。"
+      "u": "https://i.kickstarter.com/assets/055/289/644/28e4f30928c4db7ab4b8db2a0ae57ece_original.png?fit=scale-down&origin=ugc&q=100&v=1790555345&width=680&sig=apGg%2F5pUR6DSBa7B8aQO7GErbCbZViCP3H%2BXbzZbkvk%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/048/ef74c053efb4909aeffd7cb2b20398c0_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883752&width=680&sig=xtEunU4VmorulVL4JSUAcq0%2BHJNO9RDO4k2Fq5I4Xgg%3D"
+      "u": "https://i.kickstarter.com/assets/055/261/457/f25f694664ea330ae7f4a17d6d4b31d8_original.gif?fit=scale-down&origin=ugc&q=92&v=1790309050&width=680&sig=tXtl%2FGspwkOOouCVln%2FhWcklwaSYQ2mwdlDAfgQWZgQ%3D"
+     },
+     {
+      "t": "p",
+      "x": "You may have watched the videos, tried different techniques, changed equipment, or worked with a trainer, but progress still feels inconsistent.",
+      "z": "您可能已经观看了视频、尝试了不同的技术、更换了设备或与培训师一起工作，但进步仍然感觉不一致。"
+     },
+     {
+      "t": "p",
+      "x": "One technique says one thing. Another says something different. Your timing changes, your signals change, and what worked yesterday stops working today.",
+      "z": "一种技术说明一件事。另一个说不同的话。你的时间改变了，你的信号改变了，昨天有效的方法今天就不再有效了。"
+     },
+     {
+      "t": "p",
+      "x": "To you, the changes seem inconsequential. To your dog, the rules keep changing.",
+      "z": "对你来说，这些变化似乎无关紧要。对于你的狗来说，规则不断变化。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/044/eb7da3af9ed34b128e1a3af80bf95075_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=5egcsVGfA1cLyYZ3j9ITwVqEoBHSd2OWFDrgxdYEIYg%3D"
-     },
-     {
-      "t": "p",
-      "x": "Read all unread emails. For each email that requires a reply, draft a response and save it to the Drafts folder. Archive every email that doesn't require a reply.",
-      "z": "阅读所有未读电子邮件。对于每封需要回复的电子邮件，起草回复并将其保存到草稿文件夹。归档每封不需要回复的电子邮件。"
+      "u": "https://i.kickstarter.com/assets/055/260/918/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790305181&width=680&sig=uYhfxBNDF28RKxl0xaHgG9CgYZ23%2FrpTxORipnFyE64%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/045/76a9d3a488e7474f956e3b2817bfeffc_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883751&width=680&sig=%2BajHRPZfe51SliH9nues2LlSWT1NFH8YsifnqNVuVik%3D"
+      "u": "https://i.kickstarter.com/assets/055/303/912/90ffa18743926421087c89566be357d9_original.png?fit=scale-down&origin=ugc&q=100&v=1790636563&width=680&sig=NAymglMbYftYf5Wu%2BAvNkV4ii0sNF6UGWVU%2FHwzC3ns%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/043/e390b7894ee7f2b9eec010f37cea13b9_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=UVGHy78n0QhdZpMf4p%2F3ND0pVcASRm%2FROTtVH%2FbGWfs%3D"
-     },
-     {
-      "t": "p",
-      "x": "Search online for the three hotels that best match the given criteria, select the best option, and fill the booking information, but stop right before payment.",
-      "z": "在线搜索最符合给定条件的三家酒店，选择最佳选项，然后填写预订信息，但在付款前停止。"
+      "u": "https://i.kickstarter.com/assets/055/289/457/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790553433&width=680&sig=uw770%2FRU57%2FgzUcxY%2F7F9ThA7HCY51EK4cQqz2RmB%2Bw%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/047/5d6d72dbe16d4f7312ba2ed2ef73a511_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883752&width=680&sig=SE5v%2BNea81dMRFvd57xJltd94ibSBbPcQ87ZwB5N%2B6I%3D"
+      "u": "https://i.kickstarter.com/assets/055/289/513/5669e2ee3f83f003b0555a8438136651_original.gif?fit=scale-down&origin=ugc&q=92&v=1790554078&width=680&sig=zODX4OvdQG4nJz8pCirq0pbXt%2B4eS6HrcXaLdEhLA8U%3D"
      },
      {
       "t": "p",
-      "x": "Visit Violoop’s official YouTube channel to discover more practical workflows: [Violoop Workflow Showcase - YouTube](https://www.youtube.com/playlist?list=PLEJ_9fI2IiTw)",
-      "z": "访问 Violoop 官方 YouTube 频道，了解更多实用工作流程：[Violoop 工作流程展示 - YouTube](https://www.youtube.com/playlist?list=PLEJ_9fI2IiTw)"
+      "x": "DogVibe is the center of the whole system and clips onto the collar your dog already wears. It talks to your pup with an ultrasonic tone and vibration. It has a dedicated recall tone, bark detection, and a night light. It connects wirelessly to your phone, the remote, and other all other modules.",
+      "z": "DogVibe 是整个系统的中心，可夹在您的狗已经佩戴的项圈上。它通过超声波和振动与您的小狗交谈。它具有专用的召回音、树皮检测和夜灯。它无线连接到您的手机、遥控器和其他所有模块。"
      },
      {
       "t": "p",
-      "x": "The real workflows we demonstrate are starting points to help you discover what Violoop can do in your own daily work. Its capabilities extend far beyond these examples; we encourage you to experiment, try new ideas, and find ways to make Violoop work for you.",
-      "z": "我们演示的真实工作流程是帮助您发现 Violoop 在您自己的日常工作中可以做什么的起点。它的功能远远超出了这些例子；我们鼓励您尝试、尝试新想法并找到让 Violoop 为您服务的方法。"
+      "x": "*   Attaches to the collar your dog already wears",
+      "z": "* 连接到您的狗已经佩戴的项圈上"
      },
      {
       "t": "p",
-      "x": "We look forward to seeing the workflows you create and learning from your experiences as we continue to improve Violoop together with our community.",
-      "z": "我们期待看到您创建的工作流程，并从您的经验中学习，我们将继续与社区一起改进 Violoop。"
+      "x": "*   Ultrasonic correction tone and vibration",
+      "z": "* 超声波修正音调和振动"
      },
      {
       "t": "p",
-      "x": "Your personal on-device AI—with long-context memory that learns how you work. Violoop brings screen understanding and personal memory on-device, learning your habits, projects, and preferences entirely locally, with no cloud computing costs.",
-      "z": "您的个人设备上人工智能——具有长上下文记忆，可以了解您的工作方式。 Violoop 在设备上提供屏幕理解和个人记忆，完全在本地了解您的习惯、项目和偏好，无需云计算成本。"
+      "x": "*   Dedicated recall tone",
+      "z": "* 专用回忆音"
      },
      {
       "t": "p",
-      "x": "By combining OCR with a local model that understands long-form context, Violoop proactively moves your work forward—so you don’t have to write lengthy prompts for every task.",
-      "z": "通过将 OCR 与理解长格式上下文的本地模型相结合，Violoop 可以主动推动您的工作，因此您不必为每项任务编写冗长的提示。"
+      "x": "*   Bark detection",
+      "z": "* 树皮检测"
      },
      {
       "t": "p",
-      "x": "Violoop reads and understands the text, pages, and interactive elements on your screen in real time. It controls your computer through mouse and keyboard inputs, carrying out tasks across apps without relying on app-specific APIs.",
-      "z": "Violoop 实时读取并理解屏幕上的文本、页面和交互元素。它通过鼠标和键盘输入控制您的计算机，跨应用程序执行任务，而无需依赖应用程序特定的 API。"
+      "x": "*   Night light",
+      "z": "* 夜灯"
      },
      {
       "t": "p",
-      "x": "Violoop separates AI processing from independent security control through its dual-chip architecture. The processing chip runs the local model, while the security chip enforces physical authorization for sensitive actions.",
-      "z": "Violoop 通过其双芯片架构将人工智能处理与独立的安全控制分开。处理芯片运行本地模型，而安全芯片则对敏感操作强制执行物理授权。"
+      "x": "*   Fully waterproof",
+      "z": "* 完全防水"
      },
      {
       "t": "p",
-      "x": "Violoop connects your computer and phone so work can continue beyond your desk. As long as your computer remains on and connected, Violoop can run tasks around the clock. From your phone, you can remotely view your computer’s screen, check task progress, and give new instructions.",
-      "z": "Violoop 连接您的计算机和手机，以便您可以在办公桌外继续工作。只要您的计算机保持开启并连接，Violoop 就可以全天候运行任务。通过手机，您可以远程查看计算机屏幕、检查任务进度并给出新指示。"
+      "x": "*   Two-week battery, USB-C charging",
+      "z": "* 两周电池，USB-C 充电"
      },
      {
       "t": "p",
-      "x": "Violoop can view and interact with two screens simultaneously, so you and Violoop can work on the same computer without getting in each other’s way.",
-      "z": "Violoop 可以同时查看两个屏幕并与之交互，因此您和 Violoop 可以在同一台计算机上工作，而不会互相妨碍。"
+      "x": "Clips between the collar and the leash. The moment your dog pulls, the collar responds. Automatically, on every walk, with perfect timing. You set how much pull triggers a correction and whether the correction builds gradually or fires immediately.",
+      "z": "夹在项圈和皮带之间。当你的狗拉动时，项圈就会做出反应。每次行走时都会自动完成，时机恰到好处。您可以设置触发修正的拉动程度以及修正是逐渐建立还是立即触发。"
      },
      {
       "t": "p",
-      "x": "Violoop is for people who repeatedly extract information, copy and paste, fill out forms, organize files, and follow up on tasks. These activities have clear goals and repeatable steps, but are spread across different apps—taking time and interrupting focus.",
-      "z": "Violoop 适合那些反复提取信息、复制和粘贴、填写表格、组织文件和跟踪任务的人员。这些活动有明确的目标和可重复的步骤，但分布在不同的应用程序中，既耗时又分散注意力。"
+      "x": "*   Works with any-size dog",
+      "z": "* 适用于任何体型的狗"
      },
      {
       "t": "p",
-      "x": "Violoop handles the repetitive work across your apps, so you can focus on decisions, conversations, and creativity.",
-      "z": "Violoop 可以处理您应用程序中的重复性工作，因此您可以专注于决策、对话和创造力。"
+      "x": "*   Waterproof",
+      "z": "* 防水"
      },
      {
       "t": "p",
-      "x": "· Extract customer details and update your CRM.",
-      "z": "· 提取客户详细信息并更新您的 CRM。"
+      "x": "*   Automatic corrections (tone/vibration/static)",
+      "z": "* 自动校正（音调/振动/静态）"
      },
      {
       "t": "p",
-      "x": "· Draft personalized follow-up emails for your approval.",
-      "z": "· 起草个性化的后续电子邮件以供您批准。"
+      "x": "*   Fully adjustable based on dog’s weight and behavior",
+      "z": "* 根据狗的体重和行为完全调节"
      },
      {
       "t": "p",
-      "x": "· Organize product information and prepare listings for approval.",
-      "z": "· 整理产品信息并准备清单以供批准。"
+      "x": "*   Fully adjustable inside the app",
+      "z": "* 在应用程序内完全可调"
      },
      {
       "t": "p",
-      "x": "· Consolidate order, sales, and inventory data into spreadsheets.",
-      "z": "· 将订单、销售和库存数据合并到电子表格中。"
+      "x": "*   No remote needed",
+      "z": "* 无需遥控器"
      },
      {
       "t": "p",
-      "x": "· Sort, rename, and organize files by project or date.",
-      "z": "· 按项目或日期对文件进行排序、重命名和组织。"
+      "x": "*   Finally achieve loose-leash walks",
+      "z": "* 最终实现自由行走"
      },
      {
       "t": "p",
-      "x": "· Compare hotels and transportation prices for business trips.",
-      "z": "· 比较商务旅行的酒店和交通价格。"
+      "x": "When you need to communicate with your dog from a distance, the remote reaches three-quarters of a mile for recall. You don't have to carry it every day, but it's there when the situation calls for it.",
+      "z": "当您需要与您的狗进行远距离交流时，遥控器可以到达四分之三英里进行调用。您不必每天都携带它，但当情况需要时它就在那里。"
      },
      {
       "t": "p",
-      "x": "· Extract invoice and receipt details into financial records.",
-      "z": "· 将发票和收据详细信息提取到财务记录中。"
+      "x": "*   3/4 mile range for all controls",
+      "z": "* 所有控制范围为 3/4 英里"
      },
      {
       "t": "p",
-      "x": "· Compare statements and flag discrepancies for review.",
-      "z": "· 比较陈述并标记差异以供审查。"
+      "x": "*   Enables Proximity Mode with 5-200’ range",
+      "z": "* 启用 5-200 英尺范围内的接近模式"
      },
      {
       "t": "p",
-      "x": "· Extract resume details and update candidate trackers.",
-      "z": "· 提取简历详细信息并更新候选人跟踪器。"
+      "x": "*   Waterproof",
+      "z": "* 防水"
      },
      {
       "t": "p",
-      "x": "· Compile availability and prepare interview schedules and invitations.",
-      "z": "· 收集可用情况并准备面试时间表和邀请。"
-     },
-     {
-      "t": "p",
-      "x": "· Gather research and links into a content library.",
-      "z": "· 将研究成果和链接收集到内容库中。"
+      "x": "*   2 week charge",
+      "z": "* 2周充电"
      }
     ]
    }
