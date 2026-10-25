@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T12:34:28+07:00",
+  "generatedAt": "2026-10-25T19:30:46+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 42,
@@ -18,11 +18,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 35000.0,
-    "pledged": 886644.0,
-    "usdPledged": "112979.1487374",
+    "pledged": 902821.0,
+    "usdPledged": "115040.47627035",
     "goalUsd": 4459.82,
-    "percentFunded": 2533.2685714285712,
-    "backers": 1735,
+    "percentFunded": 2579.4885714285715,
+    "backers": 1778,
     "deadline": 1795266003,
     "launchedAt": 1792670403,
     "staffPick": true,
@@ -32,10 +32,10 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7643,
+    "score": 0.7651,
     "coverRemote": "https://i.kickstarter.com/assets/055/399/101/68e7942ab6362df387f9392fbeff59de_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791257434&width=1024&sig=Kiq9NMdRvwMX3keuVeG0AVY5raPyL0Zzc%2Bgm1e696w0%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792897077-OgG%2FYq1NdVisLNRhgU4BcRvZMIGPFap1SswxM4bJdQo%3D/projects/5393674/video-1469587-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792897077-OgG%2FYq1NdVisLNRhgU4BcRvZMIGPFap1SswxM4bJdQo%3D/projects/5393674/video-1469587-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11488290,
@@ -53,9 +53,9 @@
       "price": 267.0,
       "title": "Wuben G6 Standard x1",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 532,
+      "backers": 642,
       "limit": 1000,
-      "remaining": 468,
+      "remaining": 358,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -72,8 +72,8 @@
      }
     ],
     "rewardsTotal": 11,
-    "tiersDate": "2026-10-24",
-    "tiersCarried": "2026-10-24",
+    "tiersDate": "2026-10-25",
+    "tiersCarried": "",
     "cues": [
      [
       6.99,
@@ -297,7 +297,7 @@
      {
       "t": "p",
       "x": "The WUBEN G6’s concealed, three-way rotating clip quickly became a standout feature for its versatility. For the G6, we’ve taken that idea further with a thicker, sturdier clip and a wider opening, making it easier to attach to your gear and designed for a more secure hold. Clip it on, adjust the angle, and keep your light right where you need it.",
-      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的功能。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将灯光保持在您需要的位置。"
+      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将灯光保持在您需要的位置。"
      },
      {
       "t": "p",
@@ -348,11 +348,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 100000.0,
-    "pledged": 18648965.0,
-    "usdPledged": "18648965.0",
+    "pledged": 18768407.0,
+    "usdPledged": "18768407.0",
     "goalUsd": 100000.0,
-    "percentFunded": 18648.965,
-    "backers": 7230,
+    "percentFunded": 18768.407,
+    "backers": 7273,
     "deadline": 1796400007,
     "launchedAt": 1792508407,
     "staffPick": true,
@@ -361,17 +361,17 @@
      "Technology 热门"
     ],
     "kwHits": [],
-    "score": 0.7236,
+    "score": 0.7238,
     "coverRemote": "https://i.kickstarter.com/assets/055/590/014/ce76daee966ec5dc3234f0ac44c4d15a_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792516143&width=1024&sig=cyTDRPWje8fBc4aJoVZV%2FNd6r5m0PfYAfHO%2BrRMOIMo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792894650-yj3PE%2FlCal7pHgdJew95XCGB77Tm3hwH83ba%2FL4CUkc%3D/projects/5398626/video-1468517-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792894650-yj3PE%2FlCal7pHgdJew95XCGB77Tm3hwH83ba%2FL4CUkc%3D/projects/5398626/video-1468517-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11486780,
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 3197,
+      "backers": 3354,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -382,7 +382,7 @@
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1678,
+      "backers": 1676,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -393,7 +393,7 @@
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1529,
+      "backers": 1525,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -401,8 +401,8 @@
      }
     ],
     "rewardsTotal": 9,
-    "tiersDate": "2026-10-24",
-    "tiersCarried": "2026-10-24",
+    "tiersDate": "2026-10-25",
+    "tiersCarried": "",
     "cues": [
      [
       1.3,
@@ -787,11 +787,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 902108.0,
-    "usdPledged": "114952.41093552",
+    "pledged": 908375.0,
+    "usdPledged": "115750.992435",
     "goalUsd": 1274.26,
-    "percentFunded": 9021.08,
-    "backers": 34,
+    "percentFunded": 9083.75,
+    "backers": 35,
     "deadline": 1795532381,
     "launchedAt": 1792504781,
     "staffPick": false,
@@ -801,11 +801,22 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6927,
+    "score": 0.6933,
     "coverRemote": "https://i.kickstarter.com/assets/055/316/862/c1e2ae2108a2f8bdf8ed791053c2d96d_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790703149&width=1024&sig=O6sg6rYuZwQBMf6Zk%2BNkWr%2F3uKh4l%2FD1NKCudYEmNLk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792870372-2mhPv21wUYbvE%2BTkzfOEQHpxYXKXQILS%2F3Lt38A8cbs%3D/projects/5343527/video-1466952-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792870372-2mhPv21wUYbvE%2BTkzfOEQHpxYXKXQILS%2F3Lt38A8cbs%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
     "rewards": [
+     {
+      "id": 11305322,
+      "price": 6267.0,
+      "title": "Super Early Bird | Pro Version",
+      "desc": "Lucy AI Studio Pro Version\\n\\n🔥 Super Early Bird — US$799 | Save $100, 11% Off MSRP $899\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 4,
+      "limit": 500,
+      "remaining": 496,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
      {
       "id": 11488028,
       "price": 29816.0,
@@ -815,17 +826,6 @@
       "limit": 500,
       "remaining": 490,
       "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11486929,
-      "price": 29817.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 4,
-      "limit": 500,
-      "remaining": 496,
-      "eta": 1796083200,
       "shipping": "unrestricted"
      },
      {
@@ -841,8 +841,8 @@
      }
     ],
     "rewardsTotal": 12,
-    "tiersDate": "2026-10-24",
-    "tiersCarried": "2026-10-24",
+    "tiersDate": "2026-10-25",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
@@ -857,8 +857,8 @@
      },
      {
       "t": "p",
-      "x": "31 days to go",
-      "z": "还剩 31 天"
+      "x": "30 days to go",
+      "z": "还剩 30 天"
      },
      {
       "t": "p",
@@ -886,8 +886,8 @@
      },
      {
       "t": "p",
-      "x": "31 days to go",
-      "z": "还剩 31 天"
+      "x": "30 days to go",
+      "z": "还剩 30 天"
      },
      {
       "t": "p",
@@ -1046,11 +1046,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 78424.0,
-    "pledged": 23424795.0,
-    "usdPledged": "2986740.30405915",
+    "pledged": 23593462.0,
+    "usdPledged": "3008245.91496694",
     "goalUsd": 9999.32,
-    "percentFunded": 29869.421350606957,
-    "backers": 5212,
+    "percentFunded": 30084.491992247273,
+    "backers": 5225,
     "deadline": 1793376023,
     "launchedAt": 1789488023,
     "staffPick": true,
@@ -1062,17 +1062,17 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6569,
+    "score": 0.6571,
     "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792929816-AUIvhsmFhVHBsSQkoxm3sZABkNAH98M%2FUXYd7rM54%2FM%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792929816-AUIvhsmFhVHBsSQkoxm3sZABkNAH98M%2FUXYd7rM54%2FM%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11254735,
       "price": 3128.0,
       "title": "Super Early Bird - Violoop",
       "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 4376,
+      "backers": 4549,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1083,7 +1083,7 @@
       "price": 5951.0,
       "title": "Super Early Bird - Violoop Duo Pack",
       "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 496,
+      "backers": 509,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1094,7 +1094,7 @@
       "price": 56432.0,
       "title": "Super Early Bird - Violoop Team Pack",
       "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 57,
+      "backers": 73,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1102,8 +1102,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-10-22",
-    "tiersCarried": "2026-10-22",
+    "tiersDate": "2026-10-25",
+    "tiersCarried": "",
     "cues": [
      [
       0.02,
@@ -1478,11 +1478,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 50000.0,
-    "pledged": 1261837.0,
-    "usdPledged": "1261837.0",
+    "pledged": 1267229.0,
+    "usdPledged": "1267229.0",
     "goalUsd": 50000.0,
-    "percentFunded": 2523.674,
-    "backers": 1340,
+    "percentFunded": 2534.458,
+    "backers": 1346,
     "deadline": 1793029618,
     "launchedAt": 1787845618,
     "staffPick": true,
@@ -1493,17 +1493,584 @@
      "ai",
      "nas"
     ],
-    "score": 0.6338,
+    "score": 0.6305,
     "coverRemote": "https://i.kickstarter.com/assets/055/637/139/4c89dbf189b26f3716d6ab173304a95b_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792808386&width=1024&sig=K4vXUP94BBiJejbU%2Bpcjlxlt5XUqYHqAKyG%2FhyIzi0c%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
+    "videoMp4": "https://v2.kickstarter.com/1792911344-Pf%2Btnpmx6J80fsx1vPWT8tvVm08D9djxa%2BWYvnDeHFA%3D/projects/5370547/video-1454426-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792911344-Pf%2Btnpmx6J80fsx1vPWT8tvVm08D9djxa%2BWYvnDeHFA%3D/projects/5370547/video-1454426-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11379951,
+      "price": 859.0,
+      "title": "Deposit Offer: PixelMob Pro",
+      "desc": "🎉 Deposit Backer Exclusive: Special VIP Price\\n💥 Save 33% OFF MSRP\\n🔒 This special price is reserved exclusively for Deposit Backers\\n⏱ Don’t miss out — secure your Special VIP Price now\\n\\nWant to add accessories?\\nPlease select your preferred Deposit Offer first, then proceed to the next step to choose and add accessories.\\n\\nDeposit Backer Benefits:\\n- Your $10 deposit is fully refundable — we'll return it to your original payment method within 7–14 business days after the campaign ends.\\n-  Free Shipping, Customs Fees & VAT Included for All Available Shipping Regions\\n- 3-year warranty on ",
+      "backers": 247,
+      "limit": 300,
+      "remaining": 53,
+      "eta": 1793491200,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11347182,
+      "price": 899.0,
+      "title": "PixelMob Pro Single Unit",
+      "desc": "🎉 Global Lowest Price — 30% OFF MSRP!\\n💥 Free Shipping, Customs Fees & VAT Included for All Available Shipping Regions\\n🛡️ 2-year warranty on the main unit\\n⏱ Don’t miss out — secure your Super Early Bird offer now\\n\\nKey Features:\\n- 7-inch 1100nit  AMOLED display, 99%sRGB\\n- Up to 24TB storage (3× M.2 2280 SSD slots)\\n- Powered for the long haul — 11,600mAh battery, NP-F battery compatible, and 6+ hours of screen-on standby.",
+      "backers": 528,
+      "limit": 560,
+      "remaining": 32,
+      "eta": 1793491200,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11379919,
+      "price": 1137.0,
+      "title": "PixelMob Pro All-in-One Combo",
+      "desc": "🎉 Global Lowest Price — 31% OFF MSRP!\\n💥 Free Shipping, Customs Fees & VAT Included for All Available Shipping Regions\\n🛡️ 2-year warranty on the main unit & SSD\\n🔋 1-year warranty on the NP-F Battery\\n\\nKey Features:\\n- 7-inch 1100nit  AMOLED display, 99%sRGB\\n- Up to 24TB storage (3× M.2 2280 SSD slots)\\n- Lexar NM610 PRO, 1TB, M.2 2280, NVMe — ready for backup right out of the box\\nUp to 9+ hrs total: \\n- 11,600mAh built-in battery: 6+ hrs screen-on standby. \\n- With an extra 3,500mAh NP-F battery for ~3 hrs more\\n\\nThe Ultimate PixelMob Pro Combo — Everything You Need, Right Out of the Box",
+      "backers": 226,
+      "limit": 260,
+      "remaining": 34,
+      "eta": 1793491200,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 15,
+    "tiersDate": "2026-10-25",
     "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
+    "cues": [
+     [
+      8.46,
+      11.96,
+      "是时候加强你的创意游戏了，"
+     ],
+     [
+      11.96,
+      15.46,
+      "推出全新 Pixel Mob。"
+     ],
+     [
+      15.46,
+      18.73,
+      "一款一体化移动创作中心"
+     ],
+     [
+      18.73,
+      21.46,
+      "重新定义您的创意工作流程，"
+     ],
+     [
+      21.46,
+      25.42,
+      "无论故事带你到哪里，"
+     ],
+     [
+      25.42,
+      28.46,
+      "几秒钟内即可将其打包到您的相机中。"
+     ],
+     [
+      28.46,
+      32.06,
+      "内置图像处理引擎，"
+     ],
+     [
+      32.06,
+      35.97,
+      "释放更多创意的可能性。"
+     ],
+     [
+      35.97,
+      47.61,
+      "全部在设备上处理，无需计算机，"
+     ],
+     [
+      47.61,
+      55.47,
+      "最终图像，就在那里。"
+     ],
+     [
+      55.47,
+      59.47,
+      "在片场，每一秒都很重要。"
+     ],
+     [
+      59.47,
+      61.47,
+      "将其安装到您的装备上。"
+     ],
+     [
+      61.47,
+      64.23,
+      "连接到您的相机和 Pixel Mob"
+     ],
+     [
+      64.23,
+      66.47,
+      "成为你的创意展示。"
+     ],
+     [
+      66.47,
+      69.09,
+      "日光下足够明亮，足够清晰"
+     ],
+     [
+      69.09,
+      70.47,
+      "跟随一举一动。"
+     ],
+     [
+      70.47,
+      73.83,
+      "这样您就可以继续进行操作，而无需"
+     ],
+     [
+      73.83,
+      75.47,
+      "错过了这一刻。"
+     ],
+     [
+      75.47,
+      78.47,
+      "点击即可连接，边拍摄边监控。"
+     ],
+     [
+      78.47,
+      81.07,
+      "即使越来越多的摄像机拍摄，您的主要"
+     ],
+     [
+      81.07,
+      83.75,
+      "相机视图保持在前面和中间"
+     ],
+     [
+      83.75,
+      84.47,
+      "像素暴民。"
+     ],
+     [
+      84.47,
+      86.47,
+      "它超出了监控的范围。"
+     ],
+     [
+      86.47,
+      89.19,
+      "Pixel Mob 成为您的无线捕捉"
+     ],
+     [
+      89.19,
+      89.47,
+      "枢纽。"
+     ],
+     [
+      89.47,
+      93.09,
+      "每张照片都会无线传输到 Pixel 中"
+     ],
+     [
+      93.09,
+      93.47,
+      "暴民。"
+     ],
+     [
+      93.47,
+      96.47,
+      "您的外观已应用。"
+     ],
+     [
+      96.47,
+      101.14,
+      "每张卡，一个地方，交付，插入"
+     ],
+     [
+      101.14,
+      101.47,
+      "在。"
+     ],
+     [
+      101.47,
+      105.47,
+      "Pixel Mob 会立即开始备份。"
+     ],
+     [
+      105.47,
+      108.47,
+      "SafeStack 保护每个文件。"
+     ],
+     [
+      108.47,
+      110.47,
+      "复习快。"
+     ],
+     [
+      110.47,
+      111.47,
+      "标记。"
+     ],
+     [
+      111.47,
+      112.47,
+      "清除。"
+     ],
+     [
+      112.47,
+      115.14,
+      "通过简单的扫描，最新的照片"
+     ],
+     [
+      115.14,
+      116.47,
+      "立即可用。"
+     ],
+     [
+      116.47,
+      117.47,
+      "没有电缆。"
+     ],
+     [
+      117.47,
+      119.47,
+      "无需等待。"
+     ],
+     [
+      119.47,
+      123.19,
+      "直接在您的设备上查看最终的外观"
+     ],
+     [
+      123.19,
+      123.78,
+      "电话。"
+     ],
+     [
+      123.78,
+      126.78,
+      "即时反馈。"
+     ],
+     [
+      126.78,
+      130.5,
+      "当您返回工作室时，只需插上电源即可"
+     ],
+     [
+      130.5,
+      130.78,
+      "在。"
+     ],
+     [
+      130.78,
+      133.38,
+      "Pixel Mob 成为您的高速本地"
+     ],
+     [
+      133.38,
+      133.78,
+      "驾驶。"
+     ],
+     [
+      133.78,
+      135.78,
+      "打开您的项目。"
+     ],
+     [
+      135.78,
+      137.78,
+      "继续您的编辑。"
+     ],
+     [
+      137.78,
+      140.78,
+      "以 8K 播放，速度丝毫不减。"
+     ],
+     [
+      140.78,
+      143.78,
+      "然后回到场上。"
+     ],
+     [
+      143.78,
+      147.38,
+      "只需几秒钟即可更换电池。"
+     ],
+     [
+      147.38,
+      150.63,
+      "凭借持久的动力，您可以停留"
+     ],
+     [
+      150.63,
+      152.38,
+      "专注于拍摄。"
+     ],
+     [
+      152.38,
+      155.73,
+      "拍摄结束后，是时候组织一下了"
+     ],
+     [
+      155.73,
+      156.38,
+      "那天。"
+     ],
+     [
+      156.38,
+      162.9,
+      "流畅浏览原始文件。"
+     ],
+     [
+      162.9,
+      165.9,
+      "然后根据你的声音进行调整。"
+     ],
+     [
+      165.9,
+      168.29,
+      "给它一张温暖怀旧的柯达肖像"
+     ],
+     [
+      168.29,
+      168.9,
+      "电影看。"
+     ],
+     [
+      168.9,
+      171.9,
+      "Pixel Mob 会立即更新图像。"
+     ],
+     [
+      171.9,
+      175.9,
+      "在整个集合中应用相同的外观。"
+     ],
+     [
+      175.9,
+      179.87,
+      "对您的视频进行审核、标记和评论"
+     ],
+     [
+      179.87,
+      181.9,
+      "就在屏幕上。"
+     ],
+     [
+      181.9,
+      185.67,
+      "然后随时随地远程分享结果"
+     ],
+     [
+      185.67,
+      186.9,
+      "你的团队是。"
+     ],
+     [
+      186.9,
+      193.13,
+      "拍摄、监控、备份、选择、编辑、"
+     ],
+     [
+      193.13,
+      194.14,
+      "分享。"
+     ],
+     [
+      194.14,
+      195.14,
+      "像素暴民。"
+     ],
+     [
+      195.14,
+      197.14,
+      "专为创作者打造。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/646/934/20ddbf64553267ae2eeee507fab19c92_original.png?fit=scale-down&origin=ugc&q=100&v=1792911334&width=680&sig=fctNWZ7QLJVVMrG50ttoa7C8o%2BHrqE5CfNt2MYVhgSk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/637/114/91ce31fcee14cd1a06e3e30b1ef70bc3_original.png?fit=scale-down&origin=ugc&q=100&v=1792808124&width=680&sig=Sc%2FYIUoNZ6oJFfxZzcGJ9aemx39gFS%2Fg1r88iRSotIg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/161/662/c5ec064d8f47d05502d77bf409092843_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789643644&width=680&sig=luoN%2FQptmOSmLJYFGI5n%2Fj2UIw2UmlzARH9yTsUrPjM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/161/464/f70f656e63ebeb87f45ccdd3d91e0304_original.png?fit=scale-down&origin=ugc&q=100&v=1789642303&width=680&sig=u5K2%2BL4o3E6n%2BP78G742ua3%2BPNeJe7oE58Y1RfZhofM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/903/913/611c5e9cc1e3ec95ec4347acc4a7fde6_original.jpeg?fit=scale-down&origin=ugc&q=92&v=1787824090&width=680&sig=AvhcF6tKUNfLi0zfEg7XdA7Bp0VC0qxQeN2DP1ASr40%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/906/921/4335d8d5656219c2bcbcad79932e7d1e_original.gif?fit=scale-down&origin=ugc&q=92&v=1787842908&width=680&sig=ckBFOAgwSlqH9U%2FjTtcuQmeAtRTIC3MBoCe0cAC2j6I%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/877/826/b90cedf6534dc3e7a699f5eff8f4802f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787660168&width=680&sig=%2FgeXPY0u0eOs8lrwwNWvu8yG%2Fyii2E0FqpuQPi0sLro%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/877/831/56b4cbfcfc1f5e40fa64a141b600b17c_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787660179&width=680&sig=WyblT1ADsD2WRppBP5bCwjGaZMUmH1I6OY6FrZ0xZ4w%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/877/837/c0494e52dbe70e4677dd8e8bca597354_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787660209&width=680&sig=bevPgHSpykQE8%2BHFM5zgvHNfcgMa4%2BPr8qKPuqCO4Z0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/877/841/aea8d5e2d5011e8687a05dd1b749459a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787660222&width=680&sig=f0KaLkY2Hao2islkRDQYZEMgry5yt44a%2FY5w4SxeUWE%3D"
+     },
+     {
+      "t": "p",
+      "x": "Whether you shoot for clients or for yourself, the friction shows up in the same three places. Offloading. Checking. Editing. Here is what changes when all three move into the field with you.",
+      "z": "无论您是为客户还是为自己拍摄，摩擦都会出现在相同的三个地方。卸载。检查。编辑。当这三个人都和你一起进入这个领域时，就会发生以下变化。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/891/883/99778b75984644c4443918dacf6f4543_original.gif?fit=scale-down&origin=ugc&q=92&v=1787746659&width=680&sig=unUTKgFTVcvxGX6CF8%2F9qQeBBq69X8riEOdPA9TR5G0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/877/874/10cc2c4d9b76f80cb75f9f2b2a53e1ad_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787660352&width=680&sig=yOC2XrtOJwO3WhLpAg7sxO1gPxMenadww5LTiYOWI9I%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/877/879/bd1f0563fea1e544882ec2fffc1b2d0f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1787660370&width=680&sig=Q6oP6uLVBMifXwqdINEbbzlxWufU5%2BLCqUDc83CEk%2Bc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/906/892/58e0acba18772a62254f10c79374f597_original.gif?fit=scale-down&origin=ugc&q=92&v=1787842751&width=680&sig=PB%2FVCspmQQJ3ZlVhos3aDhO1rTU5gg3WmKngCDH8dCA%3D"
+     },
+     {
+      "t": "p",
+      "x": "From professional color grading and batch processing to focus stacking, HDR, and panorama stitching, PixelMob brings post-processing into your workflow with no additional subscription required.",
+      "z": "从专业的颜色分级和批处理到焦点堆叠、HDR 和全景拼接，PixelMob 将后期处理带入您的工作流程，无需额外订阅。"
+     },
+     {
+      "t": "p",
+      "x": "Once your work is ready, you can download apps like Instagram and share it instantly, making it faster and easier to get your finished work out there.",
+      "z": "一旦您的工作准备就绪，您就可以下载 Instagram 等应用程序并立即分享，从而更快、更轻松地完成您的工作。"
+     },
+     {
+      "t": "p",
+      "x": "PixelMob is a creative sub-brand of UnifyDrive, backed by years of expertise in NAS, hardware, and intelligent data management.",
+      "z": "PixelMob 是 UnifyDrive 的创意子品牌，以 NAS、硬件和智能数据管理方面多年的专业知识为后盾。"
+     },
+     {
+      "t": "p",
+      "x": "Our previous product, UnifyDrive UT2, raised over $1 million on Kickstarter. Now, we're bringing that experience to PixelMob — built to help creators capture, manage, and create anywhere.",
+      "z": "我们之前的产品 UnifyDrive UT2 在 Kickstarter 上筹集了超过 100 万美元。现在，我们将这种体验引入 PixelMob，旨在帮助创作者随时随地捕捉、管理和创作。"
+     },
+     {
+      "t": "p",
+      "x": "Picture the shoot where nothing waits. Cards offload as you work. Clients approve from the set. The first grade happens before you pack the car. That means less hardware to invest in, fewer software subscriptions to carry, and hours returned to the work itself.",
+      "z": "想象一下没有什么等待的拍摄场景。当您工作时，卡片会被卸载。客户对此表示认可。第一年级发生在你装车之前。这意味着需要投资的硬件更少，需要携带的软件订阅更少，并且可以节省工作时间。"
+     },
+     {
+      "t": "p",
+      "x": "Traditional workflows make you stop shooting to offload. Every card transfer breaks your rhythm or waits until the shoot ends. PixelMob supports tethering via USB-C, Wi-Fi, or Ethernet, keeping your files backed up in the background without interrupting your workflow.",
+      "z": "传统的工作流程会让您停止拍摄以减轻负担。每次卡片传输都会打破您的节奏或等到拍摄结束。 PixelMob 支持通过 USB-C、Wi-Fi 或以太网进行网络共享，让您的文件在后台备份，而不会中断您的工作流程。"
+     },
+     {
+      "t": "p",
+      "x": "With preset color grades, every saved photo is automatically rendered with your intended look, ready for review right away.",
+      "z": "通过预设的颜色等级，每张保存的照片都会自动渲染成您想要的外观，可供立即查看。"
+     },
+     {
+      "t": "p",
+      "x": "Different cameras, different cards, different connections. PixelMob automatically recognizes CFexpress Type A, CFexpress Type B, SD UHS-II, and microSD cards, with USB-A and USB-C support for even more ways to bring your media together. Everything flows into a single backup workflow, ready to edit.",
+      "z": "不同的相机，不同的卡，不同的连接。 PixelMob 可自动识别 CFexpress Type A、CFexpress Type B、SD UHS-II 和 microSD 卡，并支持 USB-A 和 USB-C，以更多方式将您的媒体整合在一起。一切都流入一个备份工作流程中，随时可以编辑。"
+     },
+     {
+      "t": "p",
+      "x": "Importing from several cards matters only if the data moves fast. CFexpress backup runs up to 800 MB/s, backing up 1TB in as little as thirty minutes. Your files are ready for review, editing, or delivery while you are still on site.",
+      "z": "仅当数据快速移动时，从多张卡导入才有意义。 CFexpress 备份运行速度高达 800 MB/s，在短短 30 分钟内备份 1TB。当您仍在现场时，您的文件就可以进行审阅、编辑或交付。"
+     },
+     {
+      "t": "p",
+      "x": "See the difference in a real-world 27GB backup speed test: PixelMob finished in 3:50, compared with 5:55 on a MacBook Pro.",
+      "z": "查看真实 27GB 备份速度测试中的差异：PixelMob 以 3 分 50 秒完成，而 MacBook Pro 上为 5 分 55 秒。"
+     },
+     {
+      "t": "p",
+      "x": "You may already have data protection at the studio. Location work is where the gaps show. Accidental deletion, interrupted transfers, and storage failures all put footage at risk. PixelMob brings seven layers of protection into a portable workflow, wherever you shoot.",
+      "z": "您可能已经在工作室获得了数据保护。定位工作就是差距所在。意外删除、传输中断和存储故障都会使素材面临风险。无论您在何处拍摄，PixelMob 都能为便携式工作流程提供七层保护。"
+     },
+     {
+      "t": "p",
+      "x": "Beneath the interface, PixelMob is built with multiple layers of data protection engineered to safeguard your creative assets.",
+      "z": "在界面之下，PixelMob 构建了多层数据保护，旨在保护您的创意资产。"
+     },
+     {
+      "t": "p",
+      "x": "Long shoots drain everything. PixelMob carries up to 11,600mAh of built-in battery and accepts NP-F expansion, with intelligent power optimization and safety shielding for demanding outdoor production. It also reverse charges your cameras and devices.",
+      "z": "长芽会耗尽一切。 PixelMob 内置高达 11,600mAh 电池，并接受 NP-F 扩展，具有智能功耗优化和安全屏蔽功能，适合严苛的户外制作。它还可以为您的相机和设备反向充电。"
+     },
+     {
+      "t": "p",
+      "x": "*11,600mAh capacity and NP-F support on Pro. Standard features a 6,600mAh battery and does not support NP-F. NP-F batteries sold separately.",
+      "z": "*Pro 上有 11,600mAh 容量和 NP-F 支持。标准配备 6,600mAh 电池，不支持 NP-F。 NP-F 电池单独出售。"
+     },
+     {
+      "t": "p",
+      "x": "Reviewing 8K RAW on set demands real memory. PixelMob runs 12GB of high-speed RAM for smooth on-device preview, playback, and processing, so decisions happen on location instead of at home.",
+      "z": "在片场查看 8K RAW 需要实内存。 PixelMob 运行 12GB 高速 RAM，可实现流畅的设备上预览、播放和处理，因此决策可以在现场而不是在家中进行。"
+     },
+     {
+      "t": "p",
+      "x": "*The listed 12GB RAM is for the Pro. The Standard features 6GB RAM.",
+      "z": "*列出的 12GB RAM 适用于 Pro。标准配备 6GB RAM。"
+     },
+     {
+      "t": "p",
+      "x": "Reliable backup deserves real capacity. Dual M.2 2280 SSD slots and a mobile SSD expansion channel take PixelMob to 24TB, so large libraries stay protected and organized in one place.",
+      "z": "可靠的备份需要真正的容量。双 M.2 2280 SSD 插槽和移动 SSD 扩展通道将 PixelMob 提升至 24TB，因此大型库可以在一处得到保护和组织。"
+     },
+     {
+      "t": "p",
+      "x": "*The listed 3-bay design (up to 24TB) is for Pro. The Standard features a 2-bay design(up to 8TB), supporting M.2 2242/2230 SSDs.",
+      "z": "*列出的 3 盘位设计（高达 24TB）适用于 Pro。标准版采用 2 盘位设计（最高 8TB），支持 M.2 2242/2230 SSD。"
+     },
+     {
+      "t": "p",
+      "x": "See, check, and record your shots right on set. PixelMob combines a bright, color-rich display with built-in recording capabilities, giving you a professional monitoring and recording solution wherever you shoot.",
+      "z": "在现场查看、检查并记录您的镜头。 PixelMob 将明亮、色彩丰富的显示屏与内置录制功能相结合，无论您在何处拍摄，都能为您提供专业的监控和录制解决方案。"
+     },
+     {
+      "t": "p",
+      "x": "Preview every shot without being behind the camera. PixelMob lets directors, clients, and teammates view footage in real time, whether they are beside you or miles away, so feedback happens while you are still shooting.",
+      "z": "无需在镜头后面即可预览每个镜头。 PixelMob 可让导演、客户和团队成员实时查看镜头，无论他们在您身边还是在数英里之外，因此当您仍在拍摄时就会收到反馈。"
+     },
+     {
+      "t": "p",
+      "x": "Complete your first review and cull right on location. From massive RAW photo libraries to high-resolution 8K footage, PixelMob delivers smooth, responsive browsing and culling that shifts more of post-production into the field.",
+      "z": "完成您的第一次审查并在现场进行挑选。从海量 RAW 照片库到高分辨率 8K 素材，PixelMob 提供流畅、响应灵敏的浏览和筛选，将更多的后期制作工作转移到现场。"
+     },
+     {
+      "t": "p",
+      "x": "Thousands of similar frames, one pass. LightBox automatically groups bursts, time-lapses, similar images, and subjects, while recognizing people, birds, animals, and other visual content. It also flags blurry, overexposed, underexposed, blank, and abnormal shots. Swipe to keep or cull with instant RAW previews.",
+      "z": "数千个相似的帧，一次通过。 LightBox 自动对连拍、延时、相似图像和主题进行分组，同时识别人、鸟类、动物和其他视觉内容。它还标记模糊、曝光过度、曝光不足、空白和异常镜头。滑动即可保留或剔除即时 RAW 预览。"
+     },
+     {
+      "t": "p",
+      "x": "8K and Log footage slow down on-set review. FrameBox creates lightweight proxies with customizable settings while preserving timecode and audio. Add frame-accurate notes, voice memos, and markers to keep feedback organized.",
+      "z": "8K 和 Log 素材会减慢现场审查速度。 FrameBox 创建具有可自定义设置的轻量级代理，同时保留时间码和音频。添加帧精确注释、语音备忘录和标记，以保持反馈井井有条。"
+     },
+     {
+      "t": "p",
+      "x": "*For details on supported camera models and file formats, please refer to the SSD and Camera Compatibility section.",
+      "z": "*有关支持的相机型号和文件格式的详细信息，请参阅SSD和相机兼容性部分。"
+     },
+     {
+      "t": "p",
+      "x": "Work directly with your original RAW files on PixelMob. Organize assets with IPTC and EXIF metadata, run professional grading, use AI-powered tools, and batch process multiple photos, all without exporting to a laptop.",
+      "z": "直接在 PixelMob 上处理原始 RAW 文件。使用 IPTC 和 EXIF 元数据组织资产、运行专业分级、使用 AI 支持的工具以及批量处理多张照片，所有这些都无需导出到笔记本电脑。"
+     }
+    ]
    }
   ]
  },
