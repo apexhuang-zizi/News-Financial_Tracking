@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-10-26",
-  "generatedAt": "2026-10-26T12:39:56+07:00",
+  "generatedAt": "2026-10-26T19:30:46+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 42,
@@ -18,11 +18,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 35000.0,
-    "pledged": 971817.0,
-    "usdPledged": "123832.17772695",
+    "pledged": 992667.0,
+    "usdPledged": "126488.95457445",
     "goalUsd": 4459.82,
-    "percentFunded": 2776.6200000000003,
-    "backers": 1918,
+    "percentFunded": 2836.1914285714283,
+    "backers": 1967,
     "deadline": 1795266003,
     "launchedAt": 1792670403,
     "staffPick": true,
@@ -32,10 +32,10 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7679,
+    "score": 0.7688,
     "coverRemote": "https://i.kickstarter.com/assets/055/399/101/68e7942ab6362df387f9392fbeff59de_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791257434&width=1024&sig=Kiq9NMdRvwMX3keuVeG0AVY5raPyL0Zzc%2Bgm1e696w0%3D",
-    "videoMp4": "https://v2.kickstarter.com/1792982861-EMMW9mKER03S7s8wAGvT9UEMaPkoeyTFSlhspvjdGZo%3D/projects/5393674/video-1469587-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1792982861-EMMW9mKER03S7s8wAGvT9UEMaPkoeyTFSlhspvjdGZo%3D/projects/5393674/video-1469587-hls_playlist.m3u8",
+    "videoMp4": "https://v2.kickstarter.com/1793017606-DSvxhVt44RdpF0Tt7XOUhi1sPxw%2FGEEthq3kbrWjRGU%3D/projects/5393674/video-1469587-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793017606-DSvxhVt44RdpF0Tt7XOUhi1sPxw%2FGEEthq3kbrWjRGU%3D/projects/5393674/video-1469587-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11488290,
@@ -53,9 +53,9 @@
       "price": 267.0,
       "title": "Wuben G6 Standard x1",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 729,
+      "backers": 766,
       "limit": 1000,
-      "remaining": 271,
+      "remaining": 234,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -78,7 +78,7 @@
      [
       6.99,
       8.99,
-      "与Wubin G6会面。"
+      "认识一下乌班 G6。"
      ],
      [
       10.49,
@@ -93,27 +93,27 @@
      [
       15.23,
       15.99,
-      "实践性"
+      "实用性。"
      ],
      [
       16.99,
       19.33,
-      "由70-75级航空航天材料制成"
+      "由 70-75 航空航天级精制而成"
      ],
      [
       19.33,
       22.16,
-      "铝，它的构造既坚韧又"
+      "铝制，坚固耐用"
      ],
      [
       22.16,
       22.99,
-      "轻量级。"
+      "重量轻。"
      ],
      [
       26.34,
       29.07,
-      "主光源提供高达500流明"
+      "主灯可提供高达 500 流明的亮度"
      ],
      [
       29.07,
@@ -123,97 +123,97 @@
      [
       30.84,
       34.27,
-      "侧灯提供高达100流明"
+      "侧光提供高达 100 流明"
      ],
      [
       34.27,
       37.79,
-      "用于特写任务，而双流明红色"
+      "用于特写任务，而两流明红色"
      ],
      [
       37.79,
       40.88,
-      "信号灯已准备好发出警报和"
+      "信号灯已准备好发出警报并且"
      ],
      [
       40.88,
       41.91,
-      "紧急情况"
+      "紧急情况。"
      ],
      [
       43.41,
       45.92,
-      "触觉开关快速响应"
+      "轻触开关响应迅速"
      ],
      [
       45.92,
       47.41,
-      "您可以感受到清晰的点击。"
+      "您可以感觉到清晰的点击声。"
      ],
      [
       47.91,
       50.62,
-      "使用简单直观，即使"
+      "使用起来简单直观，即使在"
      ],
      [
       50.62,
       53.62,
-      "湿，夹子旋转90度以定向"
+      "潮湿时，夹子旋转 90 度以引导"
      ],
      [
       53.62,
       54.91,
-      "必要时照明。"
+      "需要浅灰色。"
      ],
      [
-      58.87,
-      61.93,
-      "调整角度，然后将G6连接到"
+      54.91,
+      60.18,
+      "调整角度，然后将 G6 安装到"
      ],
      [
-      61.93,
+      60.18,
       64.37,
-      "衣服、背包等。"
+      "衣服、背包等等。"
      ],
      [
-      64.87,
-      67.6,
-      "带盖的USB充电端口保持不动"
+      64.37,
+      67.1,
+      "被遮盖的 USB 充电端口保持隐藏状态"
      ],
      [
-      67.6,
-      69.87,
+      67.1,
+      69.37,
       "以获得干净、对称的外观。"
      ],
      [
-      72.16,
-      74.49,
-      "纤薄的刀片内置于"
+      69.37,
+      73.01,
+      "侧面内置有细长刀片"
      ],
      [
-      74.49,
-      76.83,
-      "身体，为日常生活添加实用工具"
+      73.01,
+      76.64,
+      "身体，为日常增添实用工具"
      ],
      [
-      76.83,
+      76.64,
       77.16,
-      "携带"
+      "携带。"
      ],
      [
-      77.66,
-      79.99,
-      "Wubin G6包装日常必需品"
+      77.16,
+      79.67,
+      "Wuban G6 包含日常必需品"
      ],
      [
-      79.99,
-      82.44,
-      "变成超薄、轻巧的设计，"
+      79.67,
+      82.31,
+      "融入超薄、轻量化设计，"
      ],
      [
-      82.44,
+      82.31,
       84.16,
-      "随时准备去任何地方。"
+      "准备好去任何你想去的地方。"
      ]
     ],
     "vttLang": "zh",
@@ -241,7 +241,7 @@
      {
       "t": "p",
       "x": "Unlike many lights designed for a single purpose, the WUBEN G6’s compact design opens up more ways to use it. Lightweight and easy to carry, it fits naturally into everyday life and on the go. Wherever life takes you, you can find a place for the G6.",
-      "z": "与许多专为单一用途设计的灯具不同， WUBEN G6的紧凑设计开辟了更多的使用方式。重量轻，便于携带，自然适合日常生活和旅行。无论生活带您去哪里，您都可以为G6找到一个地方。"
+      "z": "与许多专为单一用途设计的灯不同，WUBEN G6 的紧凑设计开辟了更多使用方式。它重量轻且易于携带，自然适合日常生活和旅途。无论生活带您去往何处，G6 都能为您找到一席之地。"
      },
      {
       "t": "img",
@@ -250,7 +250,7 @@
      {
       "t": "p",
       "x": "The slim, portable WUBEN G6 offers adjustable brightness from 1 to 500 lumens and a beam distance of up to 66 m. From evening walks and home repairs to outdoor adventures and unexpected power outages, it’s ready to light up everyday moments.",
-      "z": "纤薄、便携式的WUBEN G6提供1至500流明的可调亮度，光束距离可达66米。从夜间散步和房屋维修到户外探险和意外停电，它随时可以照亮日常时刻。"
+      "z": "纤薄便携的 WUBEN G6 提供 1 至 500 流明的可调亮度，光束距离可达 66 m。从晚间散步和房屋维修到户外探险和意外停电，它随时可以照亮日常生活。"
      },
      {
       "t": "img",
@@ -263,7 +263,7 @@
      {
       "t": "p",
       "x": "Beyond its main beam, the WUBEN G6 offers practical light right at the front. Two 1 W white LEDs deliver 100 lumens for close-up tasks, from checking your gear to making a quick repair. A compact red/blue indicator adds even more versatility: its 2-lumen red light can be used as a signal, and the indicator also shows the light’s power status.",
-      "z": "除了主梁外， WUBEN G6在前面还提供实用的光线。从检查装备到快速维修，两个1瓦白色LED可提供100流明，用于特写任务。紧凑的红色/蓝色指示灯增加了更多用途：其2流明红色灯可用作信号，指示灯还显示灯的电源状态。"
+      "z": "除了主光束之外，WUBEN G6 还在前方提供实用的光线。两个 1 W 白色 LED 可为近距离任务（从检查装备到快速维修）提供 100 流明的亮度。紧凑的红/蓝指示灯增加了更多的多功能性：其 2 流明红灯可用作信号，并且指示灯还显示灯的电源状态。"
      },
      {
       "t": "img",
@@ -280,7 +280,7 @@
      {
       "t": "p",
       "x": "Slim, easy-to-carry design has been at the heart of the WUBEN G6 from the start. Thinner, then thinner still: at its narrowest point, the G6 is nearly as thin as a USB connector. The result is a thoughtful balance of everyday functionality and effortless portability.",
-      "z": "纤薄、便于携带的设计从一开始就是WUBEN G6的核心。更薄，然后更薄：在最窄的点上， G6几乎与USB连接器一样薄。其结果是在日常功能和轻松便携之间取得了深思熟虑的平衡。"
+      "z": "纤薄、易于携带的设计从一开始就是 WUBEN G6 的核心。越来越薄：在最窄处，G6 几乎与 USB 连接器一样薄。结果是日常功能和轻松便携性之间的深思熟虑的平衡。"
      },
      {
       "t": "img",
@@ -297,42 +297,42 @@
      {
       "t": "p",
       "x": "The WUBEN G6’s concealed, three-way rotating clip quickly became a standout feature for its versatility. For the G6, we’ve taken that idea further with a thicker, sturdier clip and a wider opening, making it easier to attach to your gear and designed for a more secure hold. Clip it on, adjust the angle, and keep your light right where you need it.",
-      "z": "五本G6隐蔽的三向旋转夹子因其多功能性而迅速成为一个突出的功能。对于G6 ，我们通过更厚、更坚固的夹子和更宽的开口进一步实现了这一理念，使其更容易安装到您的装备上，并设计成更安全的保持。夹住它，调整角度，并将光线保持在需要的位置。"
+      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将灯光保持在您需要的位置。"
      },
      {
       "t": "p",
       "x": "On the side opposite the G6’s rotating clip, a compact folding blade is integrated for everyday tasks and outdoor needs. It’s handy for opening packages, cutting cord, or taking care of quick campsite tasks.",
-      "z": "在G6旋转夹对面的一侧，紧凑型折叠刀片集成在一起，可满足日常任务和户外需求。它非常适合打开包裹、剪线或处理快速的营地任务。"
+      "z": "在 G6 旋转夹的对面，集成了一个紧凑的折叠刀片，可满足日常任务和户外需求。它可以方便地打开包裹、剪断电源线或处理快速的露营地任务。"
      },
      {
       "t": "p",
       "x": "The mini knife detaches from the G6, so you can choose how you carry it. Keep it attached for an all-in-one setup, or remove and stow it separately when you want to carry the G6 on its own. We’re also exploring additional accessory-mounting options to give you more ways to customize your setup.",
-      "z": "迷你刀与G6分离，因此您可以选择携带方式。保持连接，以便进行一体化设置，或者在需要单独携带G6时将其拆卸并单独存放。我们还在探索其他配件安装选项，为您提供更多自定义设置的方法。"
+      "z": "迷你刀与 G6 分离，因此您可以选择携带方式。将其固定以实现一体化设置，或者当您想单独携带 G6 时将其取下并单独存放。我们还在探索其他配件安装选项，为您提供更多自定义设置的方法。"
      },
      {
       "t": "p",
       "x": "We took a different approach with the G6’s switch. It responds to a light press with clear, direct tactile feedback, making operation simple and intuitive. Water won’t interrupt its response. Even underwater, the switch remains usable. A breakthrough in switch design that makes everyday operation easier.",
-      "z": "我们对G6的开关采取了不同的方法。它通过清晰、直接的触觉反馈响应轻压，使操作简单直观。水不会中断其反应。即使在水下，开关仍然可用。开关设计的突破，使日常操作更轻松。"
+      "z": "我们对 G6 的开关采取了不同的方法。轻轻一按，它就会产生清晰、直接的触觉反馈，使操作变得简单直观。水不会中断其反应。即使在水下，开关仍然可用。开关设计的突破，让日常操作更加轻松。"
      },
      {
       "t": "p",
       "x": "The G6’s high-density 400 mAh battery is protected against overcharging, over-discharge, overcurrent, and short circuits. Electrical insulation adds another layer of protection. The G6 also supports use while charging, so you can keep using the light while it’s plugged in.",
-      "z": "G6的高密度400 mAh电池可防止过充、过放、过流和短路。电气绝缘增加了另一层保护。G6还支持在充电时使用，因此您可以在插入光源时继续使用。"
+      "z": "G6 的高密度 400 mAh 电池具有防过度充电、过度放电、过流和短路保护。电气绝缘增加了另一层保护。 G6 还支持边充电边使用，因此您可以在插入电源时继续使用灯。"
      },
      {
       "t": "p",
       "x": "Made for everyday carry and long-term use, the WUBEN G6 clips onto clothing, backpacks, or key rings with a light press and detaches just as easily. Tested through more than 100,000 press cycles, the sturdy spring clip can support a 5 kg load, providing a secure, dependable hold day after day.",
-      "z": "WUBEN G6专为日常携带和长期使用而设计，可轻轻按压并轻松拆卸到衣服、背包或钥匙圈上。坚固的弹簧夹经过10万次以上的冲压循环测试，可承受5公斤的负载，日复一日提供安全可靠的保持。"
+      "z": "WUBEN G6 专为日常携带和长期使用而设计，只需轻轻一按即可夹在衣服、背包或钥匙圈上，也可以轻松拆卸。经过超过 100,000 次按压循环测试，坚固的弹簧夹可支撑 5 公斤负载，日复一日地提供安全、可靠的固定。"
      },
      {
       "t": "p",
       "x": "The Standard and Premium versions are identical in every way except for their materials. The Standard version is CNC-machined from 7075 aerospace-grade aluminum, while the Premium version is made from stonewashed titanium alloy.",
-      "z": "除了材料外，标准版和高级版在各个方面都是相同的。标准版本由7075航空级铝CNC加工而成，而Premium版本则由石洗钛合金制成。"
+      "z": "标准版和高级版除了材质不同外，在各方面都相同。标准版由 7075 航空级铝材 CNC 加工而成，而高级版则由石磨钛合金制成。"
      },
      {
       "t": "p",
       "x": "This project is promoted by Jellop, the ad tech power behind the best Kickstarter launches with 6,000+ successful Kickstarter projects and over $1.4Bn raised in total.",
-      "z": "该项目由Jellop推广， Jellop是最好的Kickstarter发布背后的广告技术力量，拥有6,000多个成功的Kickstarter项目，总共筹集了超过14亿美元。"
+      "z": "This project is promoted by Jellop, the ad tech power behind the best Kickstarter launches with 6,000+ successful Kickstarter projects and over $1.4Bn raised in total."
      }
     ]
    },
@@ -348,11 +348,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 100000.0,
-    "pledged": 19064973.0,
-    "usdPledged": "19064973.0",
+    "pledged": 19171303.0,
+    "usdPledged": "19171303.0",
     "goalUsd": 100000.0,
-    "percentFunded": 19064.973,
-    "backers": 7381,
+    "percentFunded": 19171.303,
+    "backers": 7416,
     "deadline": 1796400007,
     "launchedAt": 1792508407,
     "staffPick": true,
@@ -361,17 +361,17 @@
      "Technology 热门"
     ],
     "kwHits": [],
-    "score": 0.7244,
+    "score": 0.7246,
     "coverRemote": "https://i.kickstarter.com/assets/055/590/014/ce76daee966ec5dc3234f0ac44c4d15a_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792516143&width=1024&sig=cyTDRPWje8fBc4aJoVZV%2FNd6r5m0PfYAfHO%2BrRMOIMo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792981052-nfrZ%2BypUtJGr8UXaV7G91VXyjT%2FzMPABYCccwtuNtkE%3D/projects/5398626/video-1468517-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792981052-nfrZ%2BypUtJGr8UXaV7G91VXyjT%2FzMPABYCccwtuNtkE%3D/projects/5398626/video-1468517-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11486780,
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 3354,
+      "backers": 3474,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -382,7 +382,7 @@
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1676,
+      "backers": 1673,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -393,7 +393,7 @@
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1525,
+      "backers": 1521,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -401,8 +401,8 @@
      }
     ],
     "rewardsTotal": 9,
-    "tiersDate": "2026-10-25",
-    "tiersCarried": "2026-10-25",
+    "tiersDate": "2026-10-26",
+    "tiersCarried": "",
     "cues": [
      [
       1.3,
@@ -487,7 +487,7 @@
      [
       52.78,
       56.18,
-      "在其中享受您最喜欢的内容"
+      "在其中享受您最喜爱的内容"
      ],
      [
       56.18,
@@ -647,7 +647,7 @@
      {
       "t": "p",
       "x": "With a higher 120Hz refresh rate, colors cycle faster to help reduce visible rainbow effects. Combined with AURA 3 Series’s Anti-RBE technology, it delivers cleaner, more natural visuals across both 2D and 3D content.",
-      "z": "凭借更高的 120Hz 刷新率，颜色循环更快，有助于减少可见的彩虹效应。与 AURA 3 系列的 Anti-RBE 技术相结合，它可以在 2D 和 3D 内容中提供更清晰、更自然的视觉效果。"
+      "z": "With a higher 120Hz refresh rate, colors cycle faster to help reduce visible rainbow effects.与 AURA 3 系列的 Anti-RBE 技术相结合，它可以在 2D 和 3D 内容中提供更清晰、更自然的视觉效果。"
      },
      {
       "t": "img",
@@ -656,7 +656,7 @@
      {
       "t": "p",
       "x": "4K 120Hz Global MEMC intelligently smooths motion across the entire screen, reducing judder and motion blur while preserving image detail. From fast-paced sports to action-packed scenes, every movement stays smooth and clear.",
-      "z": "4K 120Hz Global MEMC 智能地平滑整个屏幕上的运动，减少抖动和运动模糊，同时保留图像细节。从快节奏的运动到充满动感的场景，每个动作都保持流畅清晰。"
+      "z": "4K 120Hz Global MEMC intelligently smooths motion across the entire screen, reducing judder and motion blur while preserving image detail. From fast-paced sports to action-packed scenes, every movement stays smooth and clear."
      },
      {
       "t": "p",
@@ -666,27 +666,27 @@
      {
       "t": "p",
       "x": "Up to 8,000:1 native contrast for deeper black perception in large-screen projection — enabled by precision light control at the source.",
-      "z": "高达 8,000:1 的原生对比度可在大屏幕投影中实现更深的黑色感知 — 通过光源处的精确光控制实现。"
+      "z": "Up to 8,000:1 native contrast for deeper black perception in large-screen projection — enabled by precision light control at the source."
      },
      {
       "t": "p",
       "x": "Two irises work together to refine every beam of light.",
-      "z": "两个虹膜共同作用，细化每一束光线。"
+      "z": "Two irises work together to refine every beam of light."
      },
      {
       "t": "p",
       "x": "Automatically adjusting the iris size based on scene brightness for optimal contrast and brightness.",
-      "z": "根据场景亮度自动调整光圈大小，以获得最佳对比度和亮度。"
+      "z": "Automatically adjusting the iris size based on scene brightness for optimal contrast and brightness."
      },
      {
       "t": "p",
       "x": "Our advanced DBLE technology boosts dynamic contrast by up to 10× while preserving shadow detail and true-to-life color.",
-      "z": "我们先进的 DBLE 技术可将动态对比度提高高达 10 倍，同时保留阴影细节和逼真的色彩。"
+      "z": "Our advanced DBLE technology boosts dynamic contrast by up to 10× while preserving shadow detail and true-to-life color."
      },
      {
       "t": "p",
       "x": "RGB triple laser delivers a clear image in bright rooms for anytime viewing.",
-      "z": "RGB 三重激光可在明亮的房间中提供清晰的图像，以便随时查看。"
+      "z": "RGB 三重激光可在明亮的房间中提供清晰的图像，以便随时观看。"
      },
      {
       "t": "p",
@@ -701,7 +701,7 @@
      {
       "t": "p",
       "x": "RGB Triple Laser maintains accurate, vivid color quality — even at peak brightness.",
-      "z": "RGB 三重激光即使在峰值亮度下也能保持准确、鲜艳的色彩质量。"
+      "z": "RGB Triple Laser maintains accurate, vivid color quality — even at peak brightness."
      },
      {
       "t": "p",
@@ -711,7 +711,7 @@
      {
       "t": "p",
       "x": "X-VISION intelligently reconstructs every frame in real time, restoring texture, refining edges, and bringing hidden details back into view.",
-      "z": "X-VISION 实时智能重建每一帧，恢复纹理，细化边缘，并将隐藏的细节带回视野。"
+      "z": "X-VISION 实时智能地重建每一帧，恢复纹理，细化边缘，并将隐藏的细节带回视野。"
      },
      {
       "t": "p",
@@ -787,11 +787,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 908375.0,
-    "usdPledged": "115750.992435",
+    "pledged": 914642.0,
+    "usdPledged": "116549.57393448",
     "goalUsd": 1274.26,
-    "percentFunded": 9083.75,
-    "backers": 35,
+    "percentFunded": 9146.42,
+    "backers": 36,
     "deadline": 1795532381,
     "launchedAt": 1792504781,
     "staffPick": false,
@@ -801,19 +801,19 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6933,
+    "score": 0.6938,
     "coverRemote": "https://i.kickstarter.com/assets/055/316/862/c1e2ae2108a2f8bdf8ed791053c2d96d_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790703149&width=1024&sig=O6sg6rYuZwQBMf6Zk%2BNkWr%2F3uKh4l%2FD1NKCudYEmNLk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792956773-ov3GVtP0Wxn6Xh8un6hIURMzT2nP3R2m45P6tTwUWwA%3D/projects/5343527/video-1466952-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792956773-ov3GVtP0Wxn6Xh8un6hIURMzT2nP3R2m45P6tTwUWwA%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11305322,
       "price": 6267.0,
       "title": "Super Early Bird | Pro Version",
       "desc": "Lucy AI Studio Pro Version\\n\\n🔥 Super Early Bird — US$799 | Save $100, 11% Off MSRP $899\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 4,
+      "backers": 5,
       "limit": 500,
-      "remaining": 496,
+      "remaining": 495,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -841,8 +841,8 @@
      }
     ],
     "rewardsTotal": 12,
-    "tiersDate": "2026-10-25",
-    "tiersCarried": "2026-10-25",
+    "tiersDate": "2026-10-26",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
@@ -852,13 +852,13 @@
      },
      {
       "t": "p",
-      "x": "pledged of $1,275 pledged of $1,275 goal",
-      "z": "认捐 1,275 美元 认捐 1,275 美元 目标"
+      "x": "pledged of $1,274 pledged of $1,274 goal",
+      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
      },
      {
       "t": "p",
-      "x": "30 days to go",
-      "z": "还剩 30 天"
+      "x": "29 days to go",
+      "z": "倒计时 29 天"
      },
      {
       "t": "p",
@@ -881,13 +881,13 @@
      },
      {
       "t": "p",
-      "x": "pledged of $1,275 pledged of $1,275 goal",
-      "z": "认捐 1,275 美元 认捐 1,275 美元 目标"
+      "x": "pledged of $1,274 pledged of $1,274 goal",
+      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
      },
      {
       "t": "p",
-      "x": "30 days to go",
-      "z": "还剩 30 天"
+      "x": "29 days to go",
+      "z": "倒计时 29 天"
      },
      {
       "t": "p",
@@ -932,7 +932,7 @@
      {
       "t": "p",
       "x": "*   [**Real Work. Status Snapshot**](h:Real-Work-Status-Snapshot)",
-      "z": "* [**实际工作。状态快照**](h:实际工作状态快照)"
+      "z": "* [**实际工作。 Status Snapshot**](h:Real-Work-Status-Snapshot)"
      },
      {
       "t": "p",
@@ -942,12 +942,12 @@
      {
       "t": "p",
       "x": "*   [**Open by Design**](h:Open-by-Design)",
-      "z": "* [**按设计开放**](h：按设计开放)"
+      "z": "* [**Open by Design**](h:Open-by-Design)"
      },
      {
       "t": "p",
       "x": "*   [**Private Storage**](h:Private-Storage)",
-      "z": "* [**私有存储**](h:私有存储)"
+      "z": "* [**Private Storage**](h:Private-Storage)"
      },
      {
       "t": "p",
@@ -967,12 +967,12 @@
      {
       "t": "p",
       "x": "*   [**Choose Your LUCY**](h:Choose-Your-LUCY)",
-      "z": "* [**选择你的 LUCY**](h:选择你的 LUCY)"
+      "z": "* [**Choose Your LUCY**](h:Choose-Your-LUCY)"
      },
      {
       "t": "p",
       "x": "*   [**HOW TO USE**](h:HOW-TO-USE)",
-      "z": "* [**如何使用**](h:如何使用)"
+      "z": "* [**HOW TO USE**](h:HOW-TO-USE)"
      },
      {
       "t": "p",
@@ -1046,11 +1046,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 78424.0,
-    "pledged": 23841591.0,
-    "usdPledged": "3039883.19866167",
+    "pledged": 23931028.0,
+    "usdPledged": "3051286.71756436",
     "goalUsd": 9999.32,
-    "percentFunded": 30400.886208303582,
-    "backers": 5296,
+    "percentFunded": 30514.929103335715,
+    "backers": 5317,
     "deadline": 1793376023,
     "launchedAt": 1789488023,
     "staffPick": true,
@@ -1062,17 +1062,17 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6784,
+    "score": 0.6785,
     "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1793016219-cPeJPzO6SAbRyg%2BSmfpFUabQI9s%2Fi0YpluSSUmyedo0%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793016219-cPeJPzO6SAbRyg%2BSmfpFUabQI9s%2Fi0YpluSSUmyedo0%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11254735,
       "price": 3128.0,
       "title": "Super Early Bird - Violoop",
       "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 4549,
+      "backers": 4632,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1083,7 +1083,7 @@
       "price": 5951.0,
       "title": "Super Early Bird - Violoop Duo Pack",
       "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 509,
+      "backers": 516,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -1101,9 +1101,9 @@
       "shipping": "unrestricted"
      }
     ],
-    "rewardsTotal": 10,
-    "tiersDate": "2026-10-25",
-    "tiersCarried": "2026-10-25",
+    "rewardsTotal": 11,
+    "tiersDate": "2026-10-26",
+    "tiersCarried": "",
     "cues": [
      [
       0.02,
@@ -1495,8 +1495,8 @@
     ],
     "score": 0.6769,
     "coverRemote": "https://i.kickstarter.com/assets/055/307/440/30b981e932e0df5c2ebbb9a1d6a02030_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790659285&width=1024&sig=siZgtxUVzHrwDxeocj%2B0PHVrBrtumLCUuvw6VMlmq%2BU%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1792932620-nbT%2FkaipFXZouewcd%2BGAMWfiChfiMrddeWwtZu7GK%2BA%3D/projects/5369736/video-1466521-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1792932620-nbT%2FkaipFXZouewcd%2BGAMWfiChfiMrddeWwtZu7GK%2BA%3D/projects/5369736/video-1466521-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 0,
@@ -1525,7 +1525,7 @@
       "price": 25.0,
       "title": "Community Backer",
       "desc": "Ideal for home bakers who want early app access and a voice in product feedback.",
-      "backers": 1,
+      "backers": 3,
       "limit": null,
       "remaining": null,
       "eta": 1811808000,
@@ -1533,8 +1533,8 @@
      }
     ],
     "rewardsTotal": 5,
-    "tiersDate": "2026-10-24",
-    "tiersCarried": "2026-10-24",
+    "tiersDate": "2026-10-26",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -1674,7 +1674,7 @@
      [
       61.76,
       63.86,
-      "不再需要手动创建时间线，不需要"
+      "不再需要手动创建时间线，没有"
      ],
      [
       63.86,
