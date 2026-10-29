@@ -1,5 +1,2152 @@
 [
  {
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T13:42:07+07:00",
+  "source": "Kickstarter discover/advanced API + 项目详情页",
+  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
+  "poolSize": 43,
+  "projects": [
+   {
+    "id": 521399299,
+    "name": "AI WUKONG: Your First AI Humanoid Robot That Does It All",
+    "blurb": "14-DoF Bipedal Kinematics | AI Vision | AI Learning Companion | 50+ Dances, Actions & Fun | Visual/Python Coding | Remote Monitoring",
+    "url": "https://www.kickstarter.com/projects/aiwukong/ai-wukong-your-first-ai-humanoid-robot-that-does-it-all",
+    "category": "Robots",
+    "creator": "AI WUKONG",
+    "location": "Kowloon, Hong Kong",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 20000.0,
+    "pledged": 19357.0,
+    "usdPledged": "19357.0",
+    "goalUsd": 20000.0,
+    "percentFunded": 96.785,
+    "backers": 30,
+    "deadline": 1797089984,
+    "launchedAt": 1793198384,
+    "staffPick": true,
+    "sources": [
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai",
+     "robot"
+    ],
+    "score": 0.7989,
+    "coverRemote": "https://i.kickstarter.com/assets/055/693/256/9f891d0399ab7b38ea6ebb0b2957dcd5_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793199659&width=1024&sig=8pbK%2BU%2FmrdALzgsYyEj%2BC4yXiAPwU%2FWJV2l0Fmq9zD0%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [],
+    "rewardsTotal": 0,
+    "tiersDate": "",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": []
+   },
+   {
+    "id": 300815528,
+    "name": "Lemmo 3: Next-Gen Full-Suspension Longtail SUV E-Bike",
+    "blurb": "4D Suspension | Semi-Solid-State Battery | 960Wh | Total Security System | Rear Radar | Combined Braking | Auto Shifting | Cargo Bike",
+    "url": "https://www.kickstarter.com/projects/lemmothree/lemmo-three-an-intelligent-all-purpose-vehicle-for-life",
+    "category": "Hardware",
+    "creator": "Lemmo",
+    "location": "Berlin, Germany",
+    "country": "Germany",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "goal": 20000.0,
+    "pledged": 696785.0,
+    "usdPledged": "778487.2358957",
+    "goalUsd": 22345.12,
+    "percentFunded": 3483.925,
+    "backers": 320,
+    "deadline": 1796166000,
+    "launchedAt": 1793199548,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.7663,
+    "coverRemote": "https://i.kickstarter.com/assets/055/690/167/49b15de1a8de8b8964f4d6a24f018013_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793181462&width=1024&sig=R8OSw3Gqv4S1WHREb%2FUNLqy4QToxc4hLBoSHO4b0Baw%3D",
+    "videoMp4": "https://v2.kickstarter.com/1793207857-%2Fz2TbDLjKTCry%2B1EOVSJYm8gZlvlGKDrk76HnsEk%2BUg%3D/projects/5371017/video-1471935-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793207857-%2Fz2TbDLjKTCry%2B1EOVSJYm8gZlvlGKDrk76HnsEk%2BUg%3D/projects/5371017/video-1471935-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11492462,
+      "price": 1850.0,
+      "title": "Exclusive Reserve: Lemmo 3 White - Chain",
+      "desc": "Get your Lemmo 3 at our exclusive reserve price—limited quantities available.\\nMSRP €3,390\\n44% OFF\\n\\nSelect your add-ons in the next steps:\\n- Family & Passenger Bundle: +€199 (16% OFF)\\n- Outdoor Grand Tour Bundle: +€309 (16% OFF)\\n- More individual accessories available\\n\\n*Pledge price includes import duties and tariffs. VAT/GST/sales tax and shipping fees are excluded and vary by region.\\n*Shipping address, shipping fees, and any applicable VAT/GST will be collected through Pledge Manager when dispatch is closer in Spring 2027.\\n*Regional version auto-matched to your delivery address.",
+      "backers": 91,
+      "limit": null,
+      "remaining": null,
+      "eta": 1809129600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11492467,
+      "price": 1850.0,
+      "title": "Exclusive Reserve: Lemmo 3 Black - Chain",
+      "desc": "Get your Lemmo 3 at our exclusive reserve price—limited quantities available.\\nMSRP €3,390\\n44% OFF\\n\\nSelect your add-ons in the next steps:\\n- Family & Passenger Bundle: +€199 (16% OFF)\\n- Outdoor Grand Tour Bundle: +€309 (16% OFF)\\n- More individual accessories available\\n\\n*Pledge price includes import duties and tariffs. VAT/GST/sales tax and shipping fees are excluded and vary by region.\\n*Shipping address, shipping fees, and any applicable VAT/GST will be collected through Pledge Manager when dispatch is closer in Spring 2027.\\n*Regional version auto-matched to your delivery address.",
+      "backers": 74,
+      "limit": null,
+      "remaining": null,
+      "eta": 1809129600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11492204,
+      "price": 2019.0,
+      "title": "Exclusive Reserve: Lemmo 3 White - Belt",
+      "desc": "Get your Lemmo 3 at our exclusive reserve price—limited quantities available.\\nMSRP €3,559\\n42% OFF\\n\\nSelect your add-ons in the next steps:\\n- Family & Passenger Bundle: +€199 (16% OFF)\\n- Outdoor Grand Tour Bundle: +€309 (16% OFF)\\n- More individual accessories available\\n\\n*Pledge price includes import duties and tariffs. VAT/GST/sales tax and shipping fees are excluded and vary by region.\\n*Shipping address, shipping fees, and any applicable VAT/GST will be collected through Pledge Manager when dispatch is closer in Spring 2027.\\n*Regional version auto-matched to your delivery address.",
+      "backers": 72,
+      "limit": null,
+      "remaining": null,
+      "eta": 1809129600,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 26,
+    "tiersDate": "2026-10-29",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/690/167/49b15de1a8de8b8964f4d6a24f018013_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793181462&width=1024&sig=R8OSw3Gqv4S1WHREb%2FUNLqy4QToxc4hLBoSHO4b0Baw%3D"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $22,289 pledged of $22,289 goal",
+      "z": "认捐了$ 22,289认捐了$ 22,289的目标"
+     },
+     {
+      "t": "p",
+      "x": "33 days to go",
+      "z": "天数"
+     },
+     {
+      "t": "p",
+      "x": "4D Suspension | Semi-Solid-State Battery | 960Wh | Total Security System | Rear Radar | Combined Braking | Auto Shifting | Cargo Bike",
+      "z": "4D悬架|半固态电池| 960瓦时|总安全系统|后雷达|组合制动|自动换档|货运自行车"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/734/029/44b8c63c87e3e762b530092ab458b55e_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1786517441&width=160&sig=AcTVV7ZnlE4JqLh5Mt1nJHoIdeBbI%2BhfVFbVQF36Fvs%3D"
+     },
+     {
+      "t": "p",
+      "x": "First created•0 backed",
+      "z": "首次创建• 0支持"
+     },
+     {
+      "t": "p",
+      "x": "4D Suspension | Semi-Solid-State Battery | 960Wh | Total Security System | Rear Radar | Combined Braking | Auto Shifting | Cargo Bike",
+      "z": "4D悬架|半固态电池| 960瓦时|总安全系统|后雷达|组合制动|自动换档|货运自行车"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $22,289 pledged of $22,289 goal",
+      "z": "认捐了$ 22,289认捐了$ 22,289的目标"
+     },
+     {
+      "t": "p",
+      "x": "33 days to go",
+      "z": "天数"
+     },
+     {
+      "t": "p",
+      "x": "Kickstarter connects creators with backers to fund projects.",
+      "z": "Kickstarter将创作者与支持者联系起来，为项目提供资金。"
+     },
+     {
+      "t": "p",
+      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
+      "z": "奖励无法保证，但创作者必须定期更新支持者。"
+     },
+     {
+      "t": "p",
+      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+      "z": "只有在项目在活动截止日期前达到其资金目标时，您才会被收取费用。"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/lemmothree/risks-and-challenges)",
+      "z": "* [* *风险* *] (https://www.kickstarter.com/projects/lemmothree/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/lemmothree/use-of-ai)",
+      "z": "* [* *使用人工智能* *] (https://www.kickstarter.com/projects/lemmothree/use-of-ai)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/693/440/bde34844d2d9067ef5aced33bcb43c9b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793200575&width=680&sig=vYc8EXC1UWUjLuFLhDwtgPd0KXZP57Auo1IKfXbWyyA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/693/035/1d456af3d4050845eac786b4eacee3ac_original.png?fit=scale-down&origin=ugc&q=100&v=1793198421&width=680&sig=lHqd5a04SQGr231hR2SWSBa%2BKpY5bzVUrT4YuU%2BPrSM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/692/991/2755dc934bd258c366d04f33fe5b0434_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793198273&width=680&sig=vR0BzX6LIrHe8dm8PMdHJg%2B6ra8RIFq5jpipMn0qyZ0%3D"
+     },
+     {
+      "t": "p",
+      "x": "\"I Didn't Need a Cargo Bike. That Was a Lie.\" - by Everything's Been Done",
+      "z": "“我不需要货运自行车。那是个谎言。” -《Everything's Done》"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/542/da5ccea6d5f114dd1150b8242955b452_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793171824&width=680&sig=Sn%2BmCnpwEahbOGq4GhQSDP3B%2FRGXm9S3GbGrCiecQHA%3D"
+     },
+     {
+      "t": "p",
+      "x": "\"I didn’t get cargo bikes. Then I rode this one.\" - by Electroheads",
+      "z": "“我没有得到货运自行车。然后我骑了这个。” -由Electroheads"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/543/eca601a6a79171591dd0928577ec37a3_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793171835&width=680&sig=QxUa5Y0toEKJnXv5QBHNnfKxAfymLjrCccBdpUSnS1M%3D"
+     },
+     {
+      "t": "p",
+      "x": "\"DAS ist das neue LEMMO 3: Longtail im Test\" - by TommysTechReviews",
+      "z": "“DAS ist das neue LEMMO 3 ： Longtail im Test” -由TommysTechReviews提供"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/693/014/45f8b4b7c16763b47a7ebef3b719f06e_original.png?fit=scale-down&origin=ugc&q=100&v=1793198313&width=680&sig=NnZYUZZpzQfAR17O5j3VKAMT5LaHf8QZP9xf6JY6yhk%3D"
+     },
+     {
+      "t": "p",
+      "x": "\"Lemmo 3 Q&A: Episode 1, addressing the exact details you’re most curious about.\" - by Lemmo Future",
+      "z": "“Lemmo 3问答：第1集，讲述您最感兴趣的确切细节。” - Lemmo Future"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/693/017/816d733de518b749ad67c6294044398f_original.png?fit=scale-down&origin=ugc&q=100&v=1793198326&width=680&sig=aZzbgmm5p9xo1%2FC8FHPK3OAx3Uj588HUSAAWCpGqrUA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/300/287/452ca60dfed3fa371a0f48b1a6c4704b_original.gif?fit=scale-down&origin=ugc&q=92&v=1790616921&width=680&sig=weUTv68iyObVoQXWeUniP3iWyfxkTu6qx%2FrNR1zW2sg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/308/241/ac8fae962d7ea025a1926ef319c8c859_original.gif?fit=scale-down&origin=ugc&q=92&v=1790665370&width=680&sig=GUc2ofp8aw9JhgWSYDVfBdXBxEAePY4TvYPFqhMmbWI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/299/131/64ab5bd831413d01ccfcbe8556e0102a_original.gif?fit=scale-down&origin=ugc&q=92&v=1790611911&width=680&sig=2OObuVzEhx%2BUtNesUdQeRcywnbl2uveGHNL8C1QiXPA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/299/137/6dc3415038bf1161a572daad2c79a014_original.gif?fit=scale-down&origin=ugc&q=92&v=1790611928&width=680&sig=pEIh5vU0qM02XXNExQ0smUz8Bf29DSR%2Fo6SDoZ%2B%2F%2BhY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/308/329/2580af4214f6a63308dd777eff929f04_original.gif?fit=scale-down&origin=ugc&q=92&v=1790665902&width=680&sig=URefeStEfz%2Blqa3Ynoxb8ww5SOJwaMSs%2BjzHmMflT94%3D"
+     },
+     {
+      "t": "p",
+      "x": "Naturality Digital is the growth-driven marketing agency behind this campaing. We've supported campaigns that have collectively raised over $60M across major crowdfunding platforms. In 2026 alone, our average crowdfunding campaign performance exceeding $1.5M raised per project, reflecting our ability to turn strong products into globally validated market launches.",
+      "z": "Naturality Digital是这次露营背后的成长驱动型营销机构。我们支持在主要众筹平台上共同筹集超过6000万美元的活动。仅在2026年，我们每个项目的平均众筹活动绩效就超过150万美元，这反映出我们有能力将强大的产品转化为全球验证的市场发布。"
+     },
+     {
+      "t": "p",
+      "x": "Bringing a new e-bike platform to market is a complex process. APV has gone through multiple rounds of design, prototyping, and testing, but there are still risks involved as we move toward final production and delivery. The main challenges may include component lead times, final engineering validation, certification requirements, production scheduling, quality control, international shipping, customs clearance, and potential changes in duties or tariffs. Because APV is a full e-bike platform, some details may also be refined as we complete final testing and prepare for mass production. LEMMO is not starting from scratch. We have already built and delivered e-bikes across Europe and APAC, supported by 200+ sales partners, 100+ service points, and 24/7 professional online support. Our team is working closely with experienced manufacturing, supply chain, and logistics partners to reduce risk and keep the project on track. If timelines, specifications, shipping costs, or delivery plans change, we will communicate clearly with backers through regular Kickstarter updates. Our priority is to deliver APV responsibly, with the quality, safety, and real-world usability expected from LEMMO.",
+      "z": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+     },
+     {
+      "t": "p",
+      "x": "FEAVA is LEMMO’s proprietary commercial name for the vehicle’s overall electronic and electromechanical architecture. It is not a standalone AI technology, AI model, or individual AI product. The FEAVA architecture includes both conventional vehicle technologies and selected AI-assisted functions. LEMMO THREE uses AI technology in two specific product functions: Intelligent Auto-Shifting and the voiceprint-recognition module in SmartLink Helmet. Intelligent Auto-Shifting uses an on-device reinforcement-learning algorithm embedded in the vehicle firmware. The algorithm runs locally on the vehicle and does not connect to the internet or use a cloud-based AI model during normal operation. It uses real-time vehicle operating data, including torque, cadence, speed, and incline, to determine when to change the gear ratio automatically. The algorithm is separate from the motor power control and does not directly control motor power, braking, steering, or riding speed. The Intelligent Auto-Shifting model is developed using vehicle telemetry generated through LEMMO’s internal engineering testing and simulation, including drivetrain and riding-condition data. It does not rely on third-party copyrighted datasets or personal user content. Riders can intervene at any time using the physical shifting controls. Manual input has priority over the automatic shifting algorithm, and automatic shifting exits immediately when the rider takes manual control. SmartLink is the Bluetooth-based communication protocol used across LEMMO’s accessory ecosystem. The protocol itself does not use AI. SmartLink Helmet includes an onboard AI-assisted voiceprint-recognition hardware module. The module operates independently within the helmet and does not connect to the internet or use a cloud-based AI model. After voice registration, the module recognizes the registered voice and helps isolate it from surrounding environmental noise. The recognized voice is transmitted directly to the paired helmet to enable hands-free communication between the rider and passenger. The voiceprint-recognition function is used to authenticate the registered vehicle user and support communication. It does not issue riding commands or directly control steering, braking, motor output, or riding speed. The OTA update function is a conventional firmware update process and does not itself use AI.",
+      "z": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+     }
+    ]
+   },
+   {
+    "id": 246450649,
+    "name": "HALO-5: Pro 5-Needle Embroidery Machine with Auto-Digitizing",
+    "blurb": "5-Needle Auto Color Change | Embroider Anything | In-App Auto-Digitizing | Massive 10×16\" Area | Effortless Portability | Stability",
+    "url": "https://www.kickstarter.com/projects/haloemb/halo-5-embroidery-machine",
+    "category": "Fabrication Tools",
+    "creator": "HALO",
+    "location": "Carmel, IN",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 50000.0,
+    "pledged": 4126688.0,
+    "usdPledged": "4126688.0",
+    "goalUsd": 50000.0,
+    "percentFunded": 8253.376,
+    "backers": 1820,
+    "deadline": 1797000302,
+    "launchedAt": 1793108702,
+    "staffPick": true,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [],
+    "score": 0.6697,
+    "coverRemote": "https://i.kickstarter.com/assets/055/677/440/e584a997b6d5c677bd87a01ff91da0cd_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793108761&width=1024&sig=XCPuSU93AV9pvyO8vJwRdhfzI48IV3bFnSPgtUYskUk%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11483398,
+      "price": 2199.0,
+      "title": "Secret Perk: HALO-5 Ultimate",
+      "desc": "41% OFF | Save $1,500 vs. MSRP $3,699\\n\\nIncludes:\\nHALO-5 × 1\\nExtension Table x 1\\nGarment Frame 4-Pack × 1\\nBobbin Winder × 1\\nCap Frame x 1\\nShoes Frame x 1\\nSocks Frame x 1\\nPocket Frame x 1\\nMagnetic Frame x 1\\n24-Color Thread Set × 1\\n2-Year Warranty\\n\\nShipping fees & addresses will be collected after the campaign ends via our backer survey. Rates can be found below on this page.",
+      "backers": 1154,
+      "limit": null,
+      "remaining": null,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11483405,
+      "price": 2499.0,
+      "title": "Launch Day Special: HALO-5 Ultimate",
+      "desc": "32% OFF | Save $1,200 vs. MSRP $3,699\\n\\nIncludes:\\nHALO-5 × 1\\nExtension Table x 1\\nGarment Frame 4-Pack × 1\\nBobbin Winder × 1\\nCap Frame x 1\\nShoes Frame x 1\\nSocks Frame x 1\\nPocket Frame x 1\\nMagnetic Frame x 1\\n1-Year Warranty\\n\\nShipping fees & addresses will be collected after the campaign ends via our backer survey. Rates can be found below on this page.",
+      "backers": 256,
+      "limit": 500,
+      "remaining": 244,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11483411,
+      "price": 2599.0,
+      "title": "Kickstarter Only: HALO-5 Ultimate",
+      "desc": "30% OFF | Save $1,100 vs. MSRP $3,699\\n\\nIncludes:\\nHALO-5 × 1\\nExtension Table x 1\\nGarment Frame 4-Pack × 1\\nBobbin Winder × 1\\nCap Frame x 1\\nShoes Frame x 1\\nSocks Frame x 1\\nPocket Frame x 1\\nMagnetic Frame x 1\\n1-Year Warranty\\n\\nShipping fees & addresses will be collected after the campaign ends via our backer survey. Rates can be found below on this page.",
+      "backers": 60,
+      "limit": 200,
+      "remaining": 140,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 18,
+    "tiersDate": "2026-10-28",
+    "tiersCarried": "2026-10-28",
+    "cues": [
+     [
+      0.08,
+      2.79,
+      "服装刺绣充满挑战，"
+     ],
+     [
+      2.79,
+      5.1,
+      "复杂的数字化，恒定的线程"
+     ],
+     [
+      5.1,
+      7.08,
+      "更改，耗时的设置。"
+     ],
+     [
+      7.08,
+      10.65,
+      "欢迎来到刺绣的新时代。见面"
+     ],
+     [
+      10.65,
+      14.13,
+      "Halo 5，专业 5 级针绣"
+     ],
+     [
+      14.13,
+      17.08,
+      "为创作者重新构想的机器。"
+     ],
+     [
+      17.08,
+      20.12,
+      "比以往更快、更智能、更轻松。让"
+     ],
+     [
+      20.12,
+      23.08,
+      "顾客挑选他们喜欢的设计。"
+     ],
+     [
+      23.08,
+      25.64,
+      "Halo 5 将艺术品转换为可缝合的"
+     ],
+     [
+      25.64,
+      27.08,
+      "文件就在应用程序中。"
+     ],
+     [
+      27.08,
+      29.78,
+      "光环 5 已加载并准备好五种颜色"
+     ],
+     [
+      29.78,
+      32.49,
+      "它们之间自动切换"
+     ],
+     [
+      32.49,
+      33.08,
+      "缝针。"
+     ],
+     [
+      33.08,
+      36.14,
+      "从设计到完成只需几分钟。什么"
+     ],
+     [
+      36.14,
+      38.08,
+      "他们所见即所得。"
+     ],
+     [
+      38.08,
+      41.08,
+      "提供现场定制并把每"
+     ],
+     [
+      41.08,
+      43.29,
+      "访问一个令人难忘的个人"
+     ],
+     [
+      43.29,
+      44.08,
+      "经验。"
+     ],
+     [
+      44.08,
+      46.86,
+      "从服装到日常配饰。"
+     ],
+     [
+      46.86,
+      49.57,
+      "将大胆的想法带入生活，"
+     ],
+     [
+      49.57,
+      51.08,
+      "详细的刺绣。"
+     ],
+     [
+      51.08,
+      54.08,
+      "无论您的业务需要您，Halo"
+     ],
+     [
+      54.08,
+      56.08,
+      "5就是为了与您见面而建造的。"
+     ],
+     [
+      56.08,
+      58.57,
+      "具有多功能的篮圈和广阔的"
+     ],
+     [
+      58.57,
+      61.05,
+      "刺绣区域，Halo 5 为您提供"
+     ],
+     [
+      61.05,
+      63.67,
+      "自由地创造更多产品，"
+     ],
+     [
+      63.67,
+      65.08,
+      "形状和材料。"
+     ],
+     [
+      65.08,
+      67.74,
+      "借助光环 5 的智能，该过程变得"
+     ],
+     [
+      67.74,
+      70.08,
+      "在缝合开始之前就变得更加智能。"
+     ],
+     [
+      70.08,
+      73.19,
+      "其智能数字化引擎有助于优化"
+     ],
+     [
+      73.19,
+      76.3,
+      "之前的缝合垫、密度和颜色"
+     ],
+     [
+      76.3,
+      78.08,
+      "第一根针落下。"
+     ],
+     [
+      78.08,
+      80.81,
+      "每一针都精准落地。甚至"
+     ],
+     [
+      80.81,
+      83.61,
+      "复杂的艺术作品非常真实"
+     ],
+     [
+      83.61,
+      85.08,
+      "你的原创设计。"
+     ],
+     [
+      85.08,
+      87.54,
+      "无论您是在打造独一无二的"
+     ],
+     [
+      87.54,
+      89.87,
+      "定制件或放大更大"
+     ],
+     [
+      89.87,
+      92.08,
+      "订单。 Halo 5 可以轻松适应，"
+     ],
+     [
+      92.08,
+      95.2,
+      "将您从单一想法变为批量生产"
+     ],
+     [
+      95.2,
+      96.08,
+      "生产。"
+     ],
+     [
+      96.08,
+      99.1,
+      "出色的刺绣引人注目。转"
+     ],
+     [
+      99.1,
+      101.83,
+      "将杰出的设计融入到产品中"
+     ],
+     [
+      101.83,
+      104.56,
+      "想要，并将注意力转化为成长"
+     ],
+     [
+      104.56,
+      105.08,
+      "订单。"
+     ],
+     [
+      105.08,
+      107.96,
+      "您不需要多年的专业知识即可获得"
+     ],
+     [
+      107.96,
+      110.76,
+      "开始了。上传您的设计，点击开始，"
+     ],
+     [
+      110.76,
+      113.79,
+      "让 Halo 5 处理复杂的工作"
+     ],
+     [
+      113.79,
+      115.08,
+      "在幕后。"
+     ],
+     [
+      115.08,
+      118.1,
+      "设置时间更少，时间更多"
+     ],
+     [
+      118.1,
+      120.08,
+      "创造你所爱的东西。"
+     ],
+     [
+      120.08,
+      122.94,
+      "因为伟大的想法永远不应该被保留"
+     ],
+     [
+      122.94,
+      125.08,
+      "经过复杂的流程回来。"
+     ],
+     [
+      125.08,
+      127.56,
+      "在《光环 5》中，之间的距离"
+     ],
+     [
+      127.56,
+      130.48,
+      "想象和创造从未有过"
+     ],
+     [
+      130.48,
+      131.08,
+      "更短。"
+     ],
+     [
+      131.08,
+      134.12,
+      "欢迎来到刺绣的未来。"
+     ],
+     [
+      134.12,
+      137.32,
+      "欢迎来到光环 5。从想象到"
+     ],
+     [
+      137.32,
+      138.08,
+      "创造。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/673/815/597cced43303e174525b153b7c41f455_original.png?fit=scale-down&origin=ugc&q=100&v=1793091521&width=680&sig=P7HUd8NYMlXn3OQauRAGfzN6ygITiNCDdLZboN80Vec%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/657/225/963842c3cd687fc80de7107c309df172_original.png?fit=scale-down&origin=ugc&q=100&v=1793002052&width=680&sig=gBecIk4yX8obTi%2BHdL4LswOOGjoloLYuPnuav%2BB8dQc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/824/ec0c4d0ccd2673306128efdd6a61b51e_original.png?fit=scale-down&origin=ugc&q=100&v=1792058345&width=680&sig=Kl3FChvpd1TqV9%2Bh04DyzJuJpU24ty9JjIRO6o170Mk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/524/31dcbd481c5542658e168d63bb944d25_original.png?fit=scale-down&origin=ugc&q=100&v=1792056743&width=680&sig=3RmO2c8qapf%2F2pWodWTYGk%2FJqk3uH5eEglzPV5dNoPE%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/530/6cdbccd4da0591cb3a0ba8f45f8c6426_original.png?fit=scale-down&origin=ugc&q=100&v=1792056763&width=680&sig=azLyqcqKaOgNWFjBfwKS51sM2d0YVTfqq0Klo6fmiMM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/804/e20e6d87d7dff836f6f59e5031cd0a7c_original.png?fit=scale-down&origin=ugc&q=100&v=1792058301&width=680&sig=loNn4dqU32Sayp9Knz%2Bx0nnVW%2BY5D%2BsUHe%2Bv8%2FEGl%2B4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/858/f3d56774d87347dd4379851e358c824f_original.png?fit=scale-down&origin=ugc&q=100&v=1792058414&width=680&sig=xZbhQYcZBknQmJCpAqXJA%2BieJAL8UwdNsB0oaaEt4lg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/829/54333374e5920616acb208b2c9070c7f_original.png?fit=scale-down&origin=ugc&q=100&v=1792058366&width=680&sig=jFzLZb5Vnhzpf6U7LNwUFCLkToZ3lu681gI1eZh0r14%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/551/63efda3be11ca829480aa5a0d7fcb7a8_original.png?fit=scale-down&origin=ugc&q=100&v=1792056868&width=680&sig=UQXVQLzFGOHQABf9RzCv8G9eoClKQ1M6cdwHox0zHFQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/552/afce8e9d547e1539e5466e919f709f91_original.png?fit=scale-down&origin=ugc&q=100&v=1792056873&width=680&sig=9EUFaOIYyZXi4fI8Ag65WeyzHfDVAUfAhcoVPG2Pw50%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/553/0e2022a40cde995472671df7352495ba_original.png?fit=scale-down&origin=ugc&q=100&v=1792056878&width=680&sig=MCyrYdyob6mj72EtdG6lIZB2p0Cvii78NE0u26kEZAQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/555/e88430ae38fa3152ab112987dd7f9d87_original.png?fit=scale-down&origin=ugc&q=100&v=1792056886&width=680&sig=tzPjS4m305UL%2B4BTj6ggd1aqtMqUOWRBh%2FjVJdBOVwo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/832/fedd69b86f1bd9ac02caf32339255adf_original.png?fit=scale-down&origin=ugc&q=100&v=1792058379&width=680&sig=6Rl0%2F3Am3n7sAkEVZ556piZmhExNkzppf4z2ZPJPMW8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/525/564/a9c23d441bee7ff9a0a1c4b86883378c_original.png?fit=scale-down&origin=ugc&q=100&v=1792056910&width=680&sig=2hP%2FP8AylX8CWw6TtXrFVV3poerkXVm9XSpV%2Bpl95xk%3D"
+     },
+     {
+      "t": "p",
+      "x": "What if one intelligent machine could solve all of that - multiplying your creative power into serious productivity? You don't need workarounds - you need a breakthrough. Meet HALO-5.",
+      "z": "如果一台智能机器可以解决所有这些问题 - 将您的创造力转化为高生产力，会怎样？你不需要变通办法——你需要突破。认识光环 5。"
+     },
+     {
+      "t": "p",
+      "x": "Say goodbye to tedious, error-prone manual thread swaps. With its 5-needle automatic color-change system, HALO-5 runs up to 5 colors continuously in a single, uninterrupted pass - drastically boosting your productivity.",
+      "z": "告别繁琐且容易出错的手动线程交换。凭借其 5 针自动换色系统，HALO-5 可在一次不间断的运行中连续运行多达 5 种颜色 - 极大地提高您的生产效率。"
+     },
+     {
+      "t": "p",
+      "x": "From smooth transitions to crisp, layer-by-layer precision, HALO-5 translates your most complex vision into striking, professional-grade embroidery.",
+      "z": "从平滑过渡到清晰的逐层精度，HALO-5 将您最复杂的视觉转化为引人注目的专业级刺绣。"
+     },
+     {
+      "t": "p",
+      "x": "Clothes, caps, shoes, socks, or pockets - if you can frame it, you can profit from it. HALO-5 delivers the industrial-grade versatility your custom business needs to create anything your customers demand.",
+      "z": "衣服、帽子、鞋子、袜子或口袋——如果你能把它们装起来，你就可以从中获利。 HALO-5 提供您的定制业务所需的工业级多功能性，以创建客户所需的任何产品。"
+     },
+     {
+      "t": "p",
+      "x": "Say goodbye to risky cap embroidery. Our dedicated cap frame locks in placement and perfectly flattens curved cap surfaces. Optimized needle clearance ensures bold designs on any cap style without needle breakage.",
+      "z": "告别危险的帽子刺绣。我们专用的帽框可锁定位置并完美平整弯曲的帽表面。优化的针间隙可确保在任何瓶盖样式上进行大胆设计，而不会出现针断裂的情况。"
+     },
+     {
+      "t": "p",
+      "x": "With specialty frames designed for tight, awkward spaces, HALO-5 lets you easily customize socks, pant legs, and tricky pockets that standard machines can't touch.",
+      "z": "HALO-5 具有专为狭窄、尴尬空间设计的特殊框架，可让您轻松定制标准机器无法触及的袜子、裤腿和棘手的口袋。"
+     },
+     {
+      "t": "p",
+      "x": "Stop wasting hours wrestling with complex digitizing programs. From your screen straight to the needle, our mobile auto-digitizing app processes your artwork into production-ready stitches with a single tap.",
+      "z": "停止浪费时间与复杂的数字化程序搏斗。从您的屏幕直接到针，我们的移动自动数字化应用程序只需轻轻一点即可将您的艺术品处理成可立即生产的针迹。"
+     },
+     {
+      "t": "p",
+      "x": "No PC required. From image to stitch, our mobile app converts your artwork into ready-to-embroider paths and beams it straight to HALO-5 in seconds.",
+      "z": "无需电脑。从图像到针迹，我们的移动应用程序可将您的图稿转换为准备刺绣的路径，并在几秒钟内将其直接发送到 HALO-5。"
+     },
+     {
+      "t": "p",
+      "x": "See the final results before the needle even drops. Preview the fully simulated thread paths on screen before pressing start.",
+      "z": "在针落下之前查看最终结果。在按开始之前，在屏幕上预览完全模拟的线程路径。"
+     },
+     {
+      "t": "p",
+      "x": "HALO-5's onboard library offers diverse categories to match any customer demand. Pick a style, tap the screen, and start creating.",
+      "z": "HALO-5 的机载库提供多种类别，以满足任何客户的需求。选择一种风格，点击屏幕，然后开始创作。"
+     },
+     {
+      "t": "p",
+      "x": "Engineered to surpass basic digitizing tools, HALO-5 delivers crisp details, balanced density, and smooth, professional-grade stitch paths every time.",
+      "z": "HALO-5 的设计超越了基本的数字化工具，每次都能提供清晰的细节、平衡的密度以及平滑的专业级缝合路径。"
+     },
+     {
+      "t": "p",
+      "x": "For intricate designs needing a human touch, request expert manual digitizing right in the HALO App. Available on demand for a modest fee, unlocking ultra-fine details and flawless embroidery precision.",
+      "z": "对于需要人性化的复杂设计，请在 HALO 应用程序中请求专家手动数字化。只需支付适当的费用即可按需提供，解锁超精细的细节和完美的刺绣精度。"
+     },
+     {
+      "t": "p",
+      "x": "Experience how intuitive the HALO App really is! Our auto-digitizing workflow transforms your artwork into stitch-ready files with just a few taps.",
+      "z": "体验 HALO 应用程序的直观程度！只需点击几下，我们的自动数字化工作流程即可将您的艺术品转换为可缝合的文件。"
+     },
+     {
+      "t": "p",
+      "x": "Development of the HALO App is fully complete, and we are now dedicating the next two months to rigorous fine-tuning, bug fixing, and performance optimization. Rest assured, by the time your HALO-5 lands on your doorstep, the app will be thoroughly perfected and available on both iOS and Android.",
+      "z": "HALO 应用程序的开发已完全完成，我们现在将在接下来的两个月内进行严格的微调、错误修复和性能优化。请放心，当您的 HALO-5 到达您家门口时，该应用程序将得到彻底完善并可在 iOS 和 Android 上使用。"
+     },
+     {
+      "t": "p",
+      "x": "Stitch bigger with a massive 10×16\" area and a 100M total stitch capacity (30M per design), allowing you to complete hyper-detailed, large-scale masterpieces in one go without splitting.",
+      "z": "更大的拼接面积，10×16英寸的大面积和100M的总拼接容量（每个设计30M），让您一次完成超详细的大型杰作，无需分割。"
+     },
+     {
+      "t": "p",
+      "x": "Professional embroidery has never been this agile. Weighing just 66 lbs, HALO-5 packs industrial-grade power into a lightweight, ultra-compact frame, letting you shift locations and set up your workspace effortlessly.",
+      "z": "专业刺绣从未如此敏捷。 HALO-5 重量仅为 66 磅，将工业级电源集成到轻巧、超紧凑的框架中，让您可以轻松移动位置并设置工作空间。"
+     },
+     {
+      "t": "p",
+      "x": "Traditional commercial machines require a dedicated room and heavy machinery transport. HALO-5 breaks the mold. It combines industrial-grade output into a compact, space-saving design that fits seamlessly onto any studio desk or workspace - without sacrificing stitching precision.",
+      "z": "传统的商用机器需要专用的房间和重型机械运输。 HALO-5 打破了常规。它将工业级输出融入紧凑、节省空间的设计中，可以无缝地安装在任何工作室办公桌或工作空间上，而不会牺牲拼接精度。"
+     },
+     {
+      "t": "p",
+      "x": "We've added dedicated side handles to HALO-5. Now you have a secure, comfortable grip to move your machine effortlessly, wherever and whenever you need it.",
+      "z": "我们为 HALO-5 添加了专用侧手柄。现在，您拥有安全、舒适的握把，可以随时随地轻松移动您的机器。"
+     },
+     {
+      "t": "p",
+      "x": "We've redesigned our cap frame for quick installation. Easily snap your hat into place - maximizing your efficiency on every run.",
+      "z": "我们重新设计了帽框，以便快速安装。轻松将帽子扣到位 - 最大限度地提高每次跑步的效率。"
+     },
+     {
+      "t": "p",
+      "x": "Powered by a heavy-duty brushless motor, HALO-5 delivers non-stop 24/7 operation with high-speed precision. Tackle back-to-back orders with zero overheating and industrial stability.",
+      "z": "HALO-5 由重型无刷电机提供动力，可实现 24/7 不间断的高速精度运行。以零过热和工业稳定的方式应对连续订单。"
+     },
+     {
+      "t": "p",
+      "x": "HALO-5's commercial-grade DC brushless main-shaft motor ensures cool, stable, and relentless performance for your longest production days.",
+      "z": "HALO-5 的商业级直流无刷主轴电机可确保您最长的生产天数内保持凉爽、稳定和持久的性能。"
+     },
+     {
+      "t": "p",
+      "x": "Hit up to 1,000 SPM on garments and 800 SPM on caps. Cut production times in half while keeping every detail factory-crisp.",
+      "z": "服装最高可达 1,000 SPM，帽子最高可达 800 SPM。将生产时间缩短一半，同时保持每个细节在工厂中清晰可见。"
+     },
+     {
+      "t": "p",
+      "x": "Watch the video below to see how HALO-5 captures every tiny detail with crisp, ultra-precise stitching.",
+      "z": "观看下面的视频，了解 HALO-5 如何通过清晰、超精确的拼接捕捉每一个微小的细节。"
+     },
+     {
+      "t": "p",
+      "x": "At HALO, we know HALO-5 isn't just an embroidery machine; It's a revenue generator for your business. Launch your embroidered merch shop on Etsy, Shopify, Amazon, or eBay - HALO-5 can pay for itself in just under 3 months.",
+      "z": "在 HALO，我们知道 HALO-5 不仅仅是一台绣花机；它还是一台绣花机。它是您企业的收入来源。在 Etsy、Shopify、Amazon 或 eBay 上开设您的刺绣商品店 - HALO-5 可以在不到 3 个月的时间内收回成本。"
+     },
+     {
+      "t": "p",
+      "x": "Every week, we let our Facebook community vote on custom designs and stitch the winning patterns on video. Take a look at the real reviews from our members - see why backers trust HALO-5 long before launch!",
+      "z": "每周，我们都会让 Facebook 社区对定制设计进行投票，并将获胜的图案拼接到视频中。看看我们会员的真实评论 - 了解为什么支持者在发布之前就信任 HALO-5！"
+     },
+     {
+      "t": "p",
+      "x": "Unlock More For Free! When we hit these funding milestones, the corresponding gifts will be automatically added to every backer’s order - at no extra cost!",
+      "z": "免费解锁更多！当我们达到这些融资里程碑时，相应的礼物将自动添加到每个支持者的订单中 - 无需额外费用！"
+     }
+    ]
+   },
+   {
+    "id": 1321991576,
+    "name": "DogVibe: The Smart Dog Training Collar for Off-Leash Freedom",
+    "blurb": "A smart training system that detects leash pulling, sets virtual proximity fences, and runs from an app on your phone. No subscription.",
+    "url": "https://www.kickstarter.com/projects/dogvibe/dogvibe",
+    "category": "Hardware",
+    "creator": "DogVibe",
+    "location": "Austin, TX",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 20000.0,
+    "pledged": 588947.0,
+    "usdPledged": "588947.0",
+    "goalUsd": 20000.0,
+    "percentFunded": 2944.735,
+    "backers": 1748,
+    "deadline": 1793343600,
+    "launchedAt": 1790685085,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门"
+    ],
+    "kwHits": [
+     "ai",
+     "smart"
+    ],
+    "score": 0.6598,
+    "coverRemote": "https://i.kickstarter.com/assets/055/701/487/8eb3c5f32786682528f0db36f2dade77_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793248965&width=1024&sig=K00wJwRWH1gW%2BwdUw%2BxDm68Qu%2F7kxBupj3CYSW8qOt8%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11303046,
+      "price": 250.0,
+      "title": "VIP - 1 Dog Bundle",
+      "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 32% OFF. $270 total with your $20 deposit, $130 off the $400 retail price\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
+      "backers": 414,
+      "limit": 450,
+      "remaining": 36,
+      "eta": 1806537600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11433279,
+      "price": 295.0,
+      "title": "Early Bird - 1 Dog Bundle",
+      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 26% OFF. $105 off the $400 retail price\\n⚡ Limited quantity. When these are gone the price goes to $330.\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
+      "backers": 804,
+      "limit": 825,
+      "remaining": 21,
+      "eta": 1806537600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11433286,
+      "price": 475.0,
+      "title": "Early Bird - 2 Dog Bundle",
+      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 2x DogVibe\\n✅ 2x Static Module\\n✅ 2x Leash Module\\n✅ 1x Remote\\n\\n🚀 40% OFF. $325 off the $800 retail price\\n🐕 $238 per dog\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
+      "backers": 226,
+      "limit": 250,
+      "remaining": 24,
+      "eta": 1806537600,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 12,
+    "tiersDate": "2026-10-28",
+    "tiersCarried": "2026-10-28",
+    "cues": [
+     [
+      19.31,
+      22.07,
+      "我是迈尔斯，这是我的狗巴鲁。"
+     ],
+     [
+      22.07,
+      24.55,
+      "我们一起创造了这种狗的氛围，"
+     ],
+     [
+      24.55,
+      27.27,
+      "首创的智能电子颜色停止"
+     ],
+     [
+      27.27,
+      28.11,
+      "牵引绳"
+     ],
+     [
+      28.11,
+      30.59,
+      "并建立真正的、不受约束的信任。"
+     ],
+     [
+      30.59,
+      32.59,
+      "最好的部分是蓝牙控制，"
+     ],
+     [
+      32.59,
+      35.25,
+      "这意味着您的手机就像您的日常生活"
+     ],
+     [
+      35.25,
+      35.71,
+      "远程。"
+     ],
+     [
+      35.71,
+      37.31,
+      "拥有一只狗可以是令人难以置信的，"
+     ],
+     [
+      37.31,
+      39.47,
+      "一个冒险伙伴，一个最好的朋友。"
+     ],
+     [
+      39.47,
+      41.03,
+      "但现实是养狗"
+     ],
+     [
+      41.03,
+      42.71,
+      "有时可能会很困难"
+     ],
+     [
+      42.71,
+      44.71,
+      "训练他们可能会令人畏惧。"
+     ],
+     [
+      44.71,
+      48.83,
+      "拉扯，吠叫，不来"
+     ],
+     [
+      48.83,
+      49.99,
+      "当你打电话给他们时。"
+     ],
+     [
+      49.99,
+      51.43,
+      "阿普索！"
+     ],
+     [
+      51.43,
+      53.39,
+      "无法信任他们。"
+     ],
+     [
+      53.39,
+      54.99,
+      "如果你经常感到压力很大，"
+     ],
+     [
+      54.99,
+      57.11,
+      "总是为你的狗的行为道歉"
+     ],
+     [
+      57.11,
+      58.99,
+      "感觉你就是不能相信他，我"
+     ],
+     [
+      58.99,
+      59.31,
+      "得到它，"
+     ],
+     [
+      59.31,
+      60.63,
+      "因为我也去过那里"
+     ],
+     [
+      60.63,
+      63.02,
+      "这正是我养狗的原因"
+     ],
+     [
+      63.02,
+      63.31,
+      "氛围。"
+     ],
+     [
+      63.31,
+      65.11,
+      "我什至正在为其中之一进行营销"
+     ],
+     [
+      65.11,
+      65.99,
+      "增长最快的"
+     ],
+     [
+      65.99,
+      67.78,
+      "世界上的宠物品牌"
+     ],
+     [
+      67.78,
+      68.55,
+      "分散注意力的玩具"
+     ],
+     [
+      68.55,
+      70.43,
+      "为了帮助反应性的狗安定下来，"
+     ],
+     [
+      70.43,
+      72.48,
+      "但我仍然遇到问题"
+     ],
+     [
+      72.48,
+      72.99,
+      "现实世界"
+     ],
+     [
+      72.99,
+      77.05,
+      "下面是我的狗。"
+     ],
+     [
+      77.05,
+      79.14,
+      "所以我建立了这个我希望存在的系统"
+     ],
+     [
+      79.14,
+      79.89,
+      "当我开始的时候。"
+     ],
+     [
+      79.89,
+      82.02,
+      "一种一致的培训语言，您可以"
+     ],
+     [
+      82.02,
+      82.17,
+      "狗"
+     ],
+     [
+      82.17,
+      88.91,
+      "终于会明白。"
+     ],
+     [
+      88.91,
+      90.55,
+      "这就是狗的氛围系统。"
+     ],
+     [
+      90.55,
+      93.03,
+      "它由四块硬件组成，"
+     ],
+     [
+      93.03,
+      93.59,
+      "狗的气质，"
+     ],
+     [
+      93.59,
+      95.82,
+      "皮带模块，可选静态"
+     ],
+     [
+      95.82,
+      96.91,
+      "校正模块，"
+     ],
+     [
+      96.91,
+      98.23,
+      "和我们的远程遥控器。"
+     ],
+     [
+      98.23,
+      100.36,
+      "狗的氛围与你的颜色有关"
+     ],
+     [
+      100.36,
+      101.27,
+      "狗已经穿了"
+     ],
+     [
+      101.27,
+      103.66,
+      "它用超声波与他们交谈"
+     ],
+     [
+      103.66,
+      104.83,
+      "音调和振动。"
+     ],
+     [
+      104.83,
+      106.67,
+      "它有发声检测"
+     ],
+     [
+      106.67,
+      108.56,
+      "帮助平息过度吠叫"
+     ],
+     [
+      108.56,
+      109.35,
+      "自动地"
+     ],
+     [
+      109.35,
+      111.67,
+      "它适合 7 天 24 小时穿着"
+     ],
+     [
+      111.67,
+      114.11,
+      "这样规则就永远不会改变。"
+     ],
+     [
+      114.11,
+      115.95,
+      "借助 Dog Vivi 应用程序，您的手机"
+     ],
+     [
+      115.95,
+      117.35,
+      "充当您的日常遥控器。"
+     ],
+     [
+      117.35,
+      119.12,
+      "锁定屏幕上的小部件意味着您"
+     ],
+     [
+      119.12,
+      119.55,
+      "甚至不"
+     ],
+     [
+      119.55,
+      121.23,
+      "必须解锁您的手机才能使用"
+     ],
+     [
+      121.23,
+      121.51,
+      "颜色。"
+     ],
+     [
+      121.51,
+      123.51,
+      "每个设置都在应用程序中，"
+     ],
+     [
+      123.51,
+      125.59,
+      "射程约 200 英尺。"
+     ],
+     [
+      125.59,
+      127.83,
+      "一部手机最多可容纳四只狗"
+     ],
+     [
+      127.83,
+      130.4,
+      "和全家人的手机相比"
+     ],
+     [
+      130.4,
+      131.03,
+      "一种颜色。"
+     ],
+     [
+      131.03,
+      133.18,
+      "皮带模块夹在您的狗之间"
+     ],
+     [
+      133.18,
+      134.23,
+      "颜色和皮带。"
+     ],
+     [
+      134.23,
+      136.96,
+      "所以当你的狗拉动时，颜色会做出反应"
+     ],
+     [
+      136.96,
+      137.55,
+      "立即"
+     ],
+     [
+      137.55,
+      139.23,
+      "每一次。"
+     ],
+     [
+      139.23,
+      141.31,
+      "你的狗很快就会把这些点连起来，"
+     ],
+     [
+      141.31,
+      143.15,
+      "这意味着拉力停止"
+     ],
+     [
+      143.15,
+      145.8,
+      "你紧张的散步变得平静，"
+     ],
+     [
+      145.8,
+      146.99,
+      "宽松的散步。"
+     ],
+     [
+      146.99,
+      149.11,
+      "最好的部分是它是自动的，"
+     ],
+     [
+      149.11,
+      151.06,
+      "这意味着它适用于每一个"
+     ],
+     [
+      151.06,
+      151.27,
+      "时间"
+     ],
+     [
+      151.27,
+      153.43,
+      "与任何大小的狗。"
+     ],
+     [
+      153.43,
+      155.49,
+      "然后是远程遥控"
+     ],
+     [
+      155.49,
+      156.23,
+      "调用按钮。"
+     ],
+     [
+      156.23,
+      158.66,
+      "我们帮助您训练实际上的回忆能力"
+     ],
+     [
+      158.66,
+      159.03,
+      "成立。"
+     ],
+     [
+      159.03,
+      161.03,
+      "好的，让我向您展示一个召回演示。"
+     ],
+     [
+      161.03,
+      162.83,
+      "我这里有召回按钮"
+     ],
+     [
+      162.83,
+      163.23,
+      "我的手机，"
+     ],
+     [
+      163.23,
+      164.67,
+      "她衣领宽松。"
+     ],
+     [
+      164.67,
+      167.27,
+      "当我击中这个时，她知道要回来"
+     ],
+     [
+      167.27,
+      168.47,
+      "每一次。"
+     ],
+     [
+      168.47,
+      171.24,
+      "所以我打了它，她听到了，她继续前进"
+     ],
+     [
+      171.24,
+      171.59,
+      "回来。"
+     ],
+     [
+      171.59,
+      173.39,
+      "来吧，嘘。"
+     ],
+     [
+      173.39,
+      175.07,
+      "就这样，我训练了她"
+     ],
+     [
+      175.07,
+      175.15,
+      "向上"
+     ],
+     [
+      175.15,
+      176.87,
+      "每次都会回来。"
+     ],
+     [
+      176.87,
+      178.73,
+      "我们还包括内部培训"
+     ],
+     [
+      178.73,
+      178.87,
+      "应用程序"
+     ],
+     [
+      178.87,
+      181.07,
+      "帮助您训练您的狗做同样的事情。"
+     ],
+     [
+      181.07,
+      183.47,
+      "一旦记忆牢固，你就可以解锁它。"
+     ],
+     [
+      183.47,
+      186.21,
+      "接近模式，随移动的栅栏"
+     ],
+     [
+      186.21,
+      187.75,
+      "你无论走到哪里。"
+     ],
+     [
+      187.75,
+      190.59,
+      "将其设置在 5 到 200 英尺之间的任意位置。"
+     ],
+     [
+      190.59,
+      192.35,
+      "当你的狗接近边界时"
+     ],
+     [
+      192.35,
+      194.75,
+      "他们会自动听到召回音。"
+     ],
+     [
+      194.75,
+      197.65,
+      "所以当heipes在海滩跑步或者"
+     ],
+     [
+      197.65,
+      198.31,
+      "露营,"
+     ],
+     [
+      198.31,
+      200.23,
+      "你可以让你的狗摆脱束缚并信任"
+     ],
+     [
+      200.23,
+      202.03,
+      "他们会保持密切联系。"
+     ],
+     [
+      202.03,
+      204.01,
+      "所以技术很酷，但我们是这样的"
+     ],
+     [
+      204.01,
+      205.11,
+      "考虑培训。"
+     ],
+     [
+      205.11,
+      207.3,
+      "一切与狗的氛围都是建立在"
+     ],
+     [
+      207.3,
+      208.03,
+      "信任、玩耍、"
+     ],
+     [
+      208.03,
+      210.04,
+      "并在狗狗做事时给予奖励"
+     ],
+     [
+      210.04,
+      210.83,
+      "正确的事，"
+     ],
+     [
+      210.83,
+      212.19,
+      "这并不是很多人的想法"
+     ],
+     [
+      212.19,
+      212.91,
+      "关于当他们听到"
+     ],
+     [
+      212.91,
+      214.31,
+      "训练时打电话给她。"
+     ],
+     [
+      214.31,
+      216.27,
+      "所以我们还有可选的静态"
+     ],
+     [
+      216.27,
+      217.23,
+      "校正模块，"
+     ],
+     [
+      217.23,
+      219.11,
+      "总是被误解"
+     ],
+     [
+      219.11,
+      221.07,
+      "可能不是你想的那样。"
+     ],
+     [
+      221.07,
+      223.11,
+      "我在下面的视频中深入探讨了这一点。"
+     ],
+     [
+      223.11,
+      225.05,
+      "所以当你完成这里后，向下滚动，"
+     ],
+     [
+      225.05,
+      225.71,
+      "一探究竟。"
+     ],
+     [
+      225.71,
+      228.05,
+      "我会告诉你为什么它不是什么"
+     ],
+     [
+      228.05,
+      228.99,
+      "害怕。"
+     ],
+     [
+      228.99,
+      230.95,
+      "所以让我直接告诉你吧。"
+     ],
+     [
+      230.95,
+      232.95,
+      "狗的氛围并不是灵丹妙药。"
+     ],
+     [
+      232.95,
+      234.11,
+      "这不是魔法项圈。"
+     ],
+     [
+      234.11,
+      236.2,
+      "你拍你的狗一巴掌，它就解决了所有问题"
+     ],
+     [
+      236.2,
+      236.99,
+      "他们的问题。"
+     ],
+     [
+      236.99,
+      239.97,
+      "训练狗需要你付出真正的努力，"
+     ],
+     [
+      239.97,
+      240.71,
+      "业主。"
+     ],
+     [
+      240.71,
+      242.29,
+      "但狗的氛围提供的是"
+     ],
+     [
+      242.29,
+      243.67,
+      "令人难以置信的硬件"
+     ],
+     [
+      243.67,
+      245.61,
+      "搭配经过深思熟虑的培训"
+     ],
+     [
+      245.61,
+      245.91,
+      "系统"
+     ],
+     [
+      245.91,
+      248.07,
+      "由专业训狗师开发。"
+     ],
+     [
+      248.07,
+      249.67,
+      "我在狗的空间里度过了很多年"
+     ],
+     [
+      249.67,
+      251.77,
+      "我理解这些问题是因为"
+     ],
+     [
+      251.77,
+      252.63,
+      "我经历过它们。"
+     ],
+     [
+      252.63,
+      254.99,
+      "我为自己和我的人建立了这个系统"
+     ],
+     [
+      254.99,
+      255.23,
+      "狗,"
+     ],
+     [
+      255.23,
+      256.96,
+      "但现在我准备好与大家分享"
+     ],
+     [
+      256.96,
+      257.23,
+      "世界。"
+     ],
+     [
+      257.23,
+      259.54,
+      "我之前已经筹集了超过 200 万美元"
+     ],
+     [
+      259.54,
+      260.15,
+      "就在这里"
+     ],
+     [
+      260.15,
+      262.31,
+      "在 Kickstarter 上参与之前的项目"
+     ],
+     [
+      262.31,
+      264.18,
+      "我曾参加过《创智赢家》的其中一部"
+     ],
+     [
+      264.18,
+      264.43,
+      "他们。"
+     ],
+     [
+      264.43,
+      266.59,
+      "我去过我们海外的厂家"
+     ],
+     [
+      266.59,
+      269.18,
+      "为狗的量产做好准备"
+     ],
+     [
+      269.18,
+      269.51,
+      "氛围。"
+     ],
+     [
+      269.51,
+      271.4,
+      "已有上千人放下"
+     ],
+     [
+      271.4,
+      271.63,
+      "钱"
+     ],
+     [
+      271.63,
+      274.0,
+      "保留狗的氛围，我不能再多了"
+     ],
+     [
+      274.0,
+      274.39,
+      "兴奋"
+     ],
+     [
+      274.39,
+      275.83,
+      "推出该产品。"
+     ],
+     [
+      275.83,
+      277.9,
+      "今天支持我们，您将成为其中之一"
+     ],
+     [
+      277.9,
+      278.51,
+      "第一个人"
+     ],
+     [
+      278.51,
+      280.96,
+      "在世界上获得最好的狗氛围"
+     ],
+     [
+      280.96,
+      281.27,
+      "价格"
+     ],
+     [
+      281.27,
+      282.55,
+      "他们将永远是。"
+     ],
+     [
+      282.55,
+      284.39,
+      "是时候给你的狗更多的自由了。"
+     ],
+     [
+      284.39,
+      286.71,
+      "因为生活，摆脱束缚会更好。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/346/760/4c12a19366b50f59805316173a7e0602_original.png?fit=scale-down&origin=ugc&q=100&v=1790874218&width=680&sig=6ELkjBFsJz9lSs1nwXfzZHKULXE9%2Bz%2F4SdrNBuLBGyI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/346/753/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790874140&width=680&sig=%2B2WlJ%2FbL1esU9MjMrTzGFlss8wi8d2C19Cs2DZItMO8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/258/947/2bb62fbdc7f6d341fc94378b8ade8489_original.png?fit=scale-down&origin=ugc&q=100&v=1790289022&width=680&sig=AJpcb2bcQ%2B3UdRHTibylJKrxs6GyoYLACVm%2FBMQKK8Y%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/349/683/7e77033f671a4f1217ab1192013a40cc_original.gif?fit=scale-down&origin=ugc&q=92&v=1790888644&width=680&sig=qCEmUCDLncOdFojVUSUgHVJEPevJOgA%2FRmhZxAFaVp4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/258/938/9805a093ed105671ed56896ab3c62070_original.png?fit=scale-down&origin=ugc&q=100&v=1790288884&width=680&sig=WZA6J80Gy1HdxnVD01HBSUTpZ%2FDgGQoRWVPDVAlXXpY%3D"
+     },
+     {
+      "t": "p",
+      "x": "DogVibe brings smart training tools, guided training and everyday control together in one connected system.",
+      "z": "DogVibe 将智能训练工具、指导训练和日常控制整合到一个互联系统中。"
+     },
+     {
+      "t": "p",
+      "x": "From leash pulling and recall to off-leash boundaries and barking, DogVibe gives you one consistent way to communicate with your dog, so everyday training leads to something bigger: more trust, more confidence, and more freedom together.",
+      "z": "从牵引绳和回忆到脱离牵引绳的界限和吠叫，DogVibe 为您提供了一种与您的狗沟通的一致方式，因此日常训练会带来更大的收获：更多的信任、更多的信心和更多的自由。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/289/535/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790554466&width=680&sig=6ew6tl3AQlCkLwQ7aLcn%2FWCn58XOZD62GGL2g1xfqk8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/289/534/0b9ea946d273526f73a778aba69b4414_original.png?fit=scale-down&origin=ugc&q=100&v=1790554454&width=680&sig=FqnO%2FYkcx1QivrBYbxXdwhqKCA9gp1ZxkB2yav0Jyh0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/260/916/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790305171&width=680&sig=ni7hnl%2BGVzJUxI5cbefZODphwfn7mRVOkQnSwNs53M0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/289/644/28e4f30928c4db7ab4b8db2a0ae57ece_original.png?fit=scale-down&origin=ugc&q=100&v=1790555345&width=680&sig=apGg%2F5pUR6DSBa7B8aQO7GErbCbZViCP3H%2BXbzZbkvk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/261/457/f25f694664ea330ae7f4a17d6d4b31d8_original.gif?fit=scale-down&origin=ugc&q=92&v=1790309050&width=680&sig=tXtl%2FGspwkOOouCVln%2FhWcklwaSYQ2mwdlDAfgQWZgQ%3D"
+     },
+     {
+      "t": "p",
+      "x": "You may have watched the videos, tried different techniques, changed equipment, or worked with a trainer, but progress still feels inconsistent.",
+      "z": "您可能已经观看了视频、尝试了不同的技术、更换了设备或与培训师一起工作，但进步仍然感觉不一致。"
+     },
+     {
+      "t": "p",
+      "x": "One technique says one thing. Another says something different. Your timing changes, your signals change, and what worked yesterday stops working today.",
+      "z": "一种技术说明一件事。另一个说不同的话。你的时间改变了，你的信号改变了，昨天有效的方法今天就不再有效了。"
+     },
+     {
+      "t": "p",
+      "x": "To you, the changes seem inconsequential. To your dog, the rules keep changing.",
+      "z": "对你来说，这些变化似乎无关紧要。对于你的狗来说，规则不断变化。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/260/918/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790305181&width=680&sig=uYhfxBNDF28RKxl0xaHgG9CgYZ23%2FrpTxORipnFyE64%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/303/912/90ffa18743926421087c89566be357d9_original.png?fit=scale-down&origin=ugc&q=100&v=1790636563&width=680&sig=NAymglMbYftYf5Wu%2BAvNkV4ii0sNF6UGWVU%2FHwzC3ns%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/289/457/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790553433&width=680&sig=uw770%2FRU57%2FgzUcxY%2F7F9ThA7HCY51EK4cQqz2RmB%2Bw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/289/513/5669e2ee3f83f003b0555a8438136651_original.gif?fit=scale-down&origin=ugc&q=92&v=1790554078&width=680&sig=zODX4OvdQG4nJz8pCirq0pbXt%2B4eS6HrcXaLdEhLA8U%3D"
+     },
+     {
+      "t": "p",
+      "x": "DogVibe is the center of the whole system and clips onto the collar your dog already wears. It talks to your pup with an ultrasonic tone and vibration. It has a dedicated recall tone, bark detection, and a night light. It connects wirelessly to your phone, the remote, and other all other modules.",
+      "z": "DogVibe 是整个系统的中心，可夹在您的狗已经佩戴的项圈上。它通过超声波和振动与您的小狗交谈。它具有专用的召回音、树皮检测和夜灯。它无线连接到您的手机、遥控器和其他所有模块。"
+     },
+     {
+      "t": "p",
+      "x": "*   Attaches to the collar your dog already wears",
+      "z": "* 连接到您的狗已经佩戴的项圈上"
+     },
+     {
+      "t": "p",
+      "x": "*   Ultrasonic correction tone and vibration",
+      "z": "* 超声波修正音调和振动"
+     },
+     {
+      "t": "p",
+      "x": "*   Dedicated recall tone",
+      "z": "* 专用回忆音"
+     },
+     {
+      "t": "p",
+      "x": "*   Bark detection",
+      "z": "* 树皮检测"
+     },
+     {
+      "t": "p",
+      "x": "*   Night light",
+      "z": "* 夜灯"
+     },
+     {
+      "t": "p",
+      "x": "*   Fully waterproof",
+      "z": "* 完全防水"
+     },
+     {
+      "t": "p",
+      "x": "*   Two-week battery, USB-C charging",
+      "z": "* 两周电池，USB-C 充电"
+     },
+     {
+      "t": "p",
+      "x": "Clips between the collar and the leash. The moment your dog pulls, the collar responds. Automatically, on every walk, with perfect timing. You set how much pull triggers a correction and whether the correction builds gradually or fires immediately.",
+      "z": "夹在项圈和皮带之间。当你的狗拉动时，项圈就会做出反应。每次行走时都会自动完成，时机恰到好处。您可以设置触发修正的拉动程度以及修正是逐渐建立还是立即触发。"
+     },
+     {
+      "t": "p",
+      "x": "*   Works with any-size dog",
+      "z": "* 适用于任何体型的狗"
+     },
+     {
+      "t": "p",
+      "x": "*   Waterproof",
+      "z": "* 防水"
+     },
+     {
+      "t": "p",
+      "x": "*   Automatic corrections (tone/vibration/static)",
+      "z": "* 自动校正（音调/振动/静态）"
+     },
+     {
+      "t": "p",
+      "x": "*   Fully adjustable based on dog’s weight and behavior",
+      "z": "* 根据狗的体重和行为完全调节"
+     },
+     {
+      "t": "p",
+      "x": "*   Fully adjustable inside the app",
+      "z": "* 在应用程序内完全可调"
+     },
+     {
+      "t": "p",
+      "x": "*   No remote needed",
+      "z": "* 无需遥控器"
+     },
+     {
+      "t": "p",
+      "x": "*   Finally achieve loose-leash walks",
+      "z": "* 最终实现自由行走"
+     },
+     {
+      "t": "p",
+      "x": "When you need to communicate with your dog from a distance, the remote reaches three-quarters of a mile for recall. You don't have to carry it every day, but it's there when the situation calls for it.",
+      "z": "当您需要与您的狗进行远距离交流时，遥控器可以到达四分之三英里进行调用。您不必每天都携带它，但当情况需要时它就在那里。"
+     },
+     {
+      "t": "p",
+      "x": "*   3/4 mile range for all controls",
+      "z": "* 所有控制范围为 3/4 英里"
+     },
+     {
+      "t": "p",
+      "x": "*   Enables Proximity Mode with 5-200’ range",
+      "z": "* 启用 5-200 英尺范围内的接近模式"
+     },
+     {
+      "t": "p",
+      "x": "*   Waterproof",
+      "z": "* 防水"
+     },
+     {
+      "t": "p",
+      "x": "*   2 week charge",
+      "z": "* 2周充电"
+     }
+    ]
+   },
+   {
+    "id": 1471279538,
+    "name": "VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER",
+    "blurb": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
+    "url": "https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer",
+    "category": "Hardware",
+    "creator": "Bvio Tech",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 78424.0,
+    "pledged": 25001578.0,
+    "usdPledged": "3187785.45031786",
+    "goalUsd": 9999.32,
+    "percentFunded": 31880.008670815056,
+    "backers": 5545,
+    "deadline": 1793376023,
+    "launchedAt": 1789488023,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门",
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.6593,
+    "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11254735,
+      "price": 3128.0,
+      "title": "Super Early Bird - Violoop",
+      "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 4766,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11414602,
+      "price": 5951.0,
+      "title": "Super Early Bird - Violoop Duo Pack",
+      "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 539,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11415618,
+      "price": 56432.0,
+      "title": "Super Early Bird - Violoop Team Pack",
+      "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
+      "backers": 76,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 11,
+    "tiersDate": "2026-10-28",
+    "tiersCarried": "2026-10-28",
+    "cues": [
+     [
+      0.02,
+      2.71,
+      "每天我们都会经历十几个"
+     ],
+     [
+      2.71,
+      4.02,
+      "不同的工具。"
+     ],
+     [
+      4.02,
+      8.02,
+      "切换、复制、粘贴、重复。"
+     ],
+     [
+      8.02,
+      10.77,
+      "但这些工具中有多少是真正"
+     ],
+     [
+      10.77,
+      12.02,
+      "理解你吗？"
+     ],
+     [
+      12.02,
+      15.02,
+      "早上好！准备好接受董事会审查了吗？"
+     ],
+     [
+      15.02,
+      19.12,
+      "Violoupe 是您本地的 AI 代理，旨在"
+     ],
+     [
+      19.12,
+      20.02,
+      "认识你。"
+     ],
+     [
+      20.02,
+      24.02,
+      "因此，在您提出要求之前，您的工作就已准备就绪。"
+     ],
+     [
+      24.02,
+      26.02,
+      "Violoupe 与您协同行动，"
+     ],
+     [
+      26.02,
+      28.02,
+      "在后台安静地学习。"
+     ],
+     [
+      28.02,
+      31.64,
+      "我发现了一个类似的任务。我要完成吗"
+     ],
+     [
+      31.64,
+      34.26,
+      "和上次一样吗？"
+     ],
+     [
+      34.26,
+      37.28,
+      "Violoupe 找到您的流程并执行"
+     ],
+     [
+      37.28,
+      38.26,
+      "你的命令。"
+     ],
+     [
+      38.26,
+      41.26,
+      "批次准备就绪，下一步正在排队。"
+     ],
+     [
+      41.26,
+      44.19,
+      "它运行您的店面、您的内容以及"
+     ],
+     [
+      44.19,
+      46.98,
+      "您在每个平台上的客户"
+     ],
+     [
+      46.98,
+      47.26,
+      "使用。"
+     ],
+     [
+      47.26,
+      49.98,
+      "从产品到内容到库存"
+     ],
+     [
+      49.98,
+      52.56,
+      "客户，它保留了整个过程"
+     ],
+     [
+      52.56,
+      53.26,
+      "连接。"
+     ],
+     [
+      53.26,
+      55.98,
+      "无论您的目标、业务或"
+     ],
+     [
+      55.98,
+      58.49,
+      "你的任务，人工智能会自己建模"
+     ],
+     [
+      58.49,
+      59.26,
+      "你周围。"
+     ],
+     [
+      59.26,
+      64.38,
+      "它在您的设备上运行。您的数据"
+     ],
+     [
+      64.38,
+      66.18,
+      "永远不会离开。"
+     ],
+     [
+      66.18,
+      76.04,
+      "你的环境改变了，工作也改变了"
+     ],
+     [
+      76.04,
+      78.94,
+      "继续。"
+     ],
+     [
+      78.94,
+      91.57,
+      "最好的系统学习如何工作"
+     ],
+     [
+      91.57,
+      92.86,
+      "你。"
+     ],
+     [
+      92.86,
+      96.35,
+      "当一切都一致时，你的想法，"
+     ],
+     [
+      96.35,
+      100.21,
+      "你的节奏，你的时间，你停止反应，"
+     ],
+     [
+      100.21,
+      101.86,
+      "你开始流动。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://www.kickstarter.com/favicon.ico"
+     },
+     {
+      "t": "p",
+      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "z": "该网站使用安全服务来防范恶意机器人。当网站验证您不是机器人时会显示此页面。"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "date": "2026-10-28",
   "generatedAt": "2026-10-28T20:15:14+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
@@ -15195,1724 +17342,6 @@
       "t": "p",
       "x": "*   2 week charge",
       "z": "* 2周充电"
-     }
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T23:02:43+07:00",
-  "source": "Kickstarter discover/advanced API + 项目详情页",
-  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 43,
-  "projects": [
-   {
-    "id": 2002315965,
-    "name": "WUBEN G6 | Ultra Slim Multi-Use Keychain Light",
-    "blurb": "500 lm Main Light | 100 lm Side Light |Low-Force Switch | Detachable Blade | Adjustable Clip | Hidden USB Port",
-    "url": "https://www.kickstarter.com/projects/wubenlight/wuben-g6-ultra-slim-multi-use-keychain-light",
-    "category": "Gadgets",
-    "creator": "WUBEN",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 35000.0,
-    "pledged": 440964.0,
-    "usdPledged": "56189.1101094",
-    "goalUsd": 4459.82,
-    "percentFunded": 1259.8971428571429,
-    "backers": 907,
-    "deadline": 1795266003,
-    "launchedAt": 1792670403,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.7392,
-    "coverRemote": "https://i.kickstarter.com/assets/055/399/101/68e7942ab6362df387f9392fbeff59de_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791257434&width=1024&sig=Kiq9NMdRvwMX3keuVeG0AVY5raPyL0Zzc%2Bgm1e696w0%3D",
-    "videoMp4": "https://v2.kickstarter.com/1792684963-Y00a%2BNBpxd56z4%2F7vgCiy0DBqVGivG%2FszgYX9cJzu%2Fc%3D/projects/5393674/video-1469587-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1792684963-Y00a%2BNBpxd56z4%2F7vgCiy0DBqVGivG%2FszgYX9cJzu%2Fc%3D/projects/5393674/video-1469587-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11488290,
-      "price": 235.0,
-      "title": "Wuben G6 Standard x1",
-      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 300,
-      "limit": 300,
-      "remaining": 0,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11490139,
-      "price": 267.0,
-      "title": "Wuben G6 Standard x1",
-      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 189,
-      "limit": 1000,
-      "remaining": 811,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11490091,
-      "price": 470.0,
-      "title": "Wuben G6 Standard x2",
-      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 200,
-      "limit": 200,
-      "remaining": 0,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 10,
-    "tiersDate": "2026-10-22",
-    "tiersCarried": "",
-    "cues": [
-     [
-      6.99,
-      8.99,
-      "认识一下乌班 G6。"
-     ],
-     [
-      10.49,
-      12.77,
-      "超薄钥匙扣手电筒，"
-     ],
-     [
-      12.77,
-      15.23,
-      "将可靠的照明与日常生活相结合"
-     ],
-     [
-      15.23,
-      15.99,
-      "实用性。"
-     ],
-     [
-      16.99,
-      19.33,
-      "由 70-75 航空航天级精制而成"
-     ],
-     [
-      19.33,
-      22.16,
-      "铝制，坚固耐用"
-     ],
-     [
-      22.16,
-      22.99,
-      "重量轻。"
-     ],
-     [
-      26.34,
-      29.07,
-      "主灯可提供高达 500 流明的亮度"
-     ],
-     [
-      29.07,
-      30.84,
-      "用于日常照明。"
-     ],
-     [
-      30.84,
-      34.27,
-      "侧光提供高达 100 流明"
-     ],
-     [
-      34.27,
-      37.79,
-      "用于特写任务，而两流明红色"
-     ],
-     [
-      37.79,
-      40.88,
-      "信号灯已准备好发出警报并且"
-     ],
-     [
-      40.88,
-      41.91,
-      "紧急情况。"
-     ],
-     [
-      43.41,
-      45.92,
-      "轻触开关响应迅速"
-     ],
-     [
-      45.92,
-      47.41,
-      "您可以感觉到清晰的点击声。"
-     ],
-     [
-      47.91,
-      50.62,
-      "使用起来简单直观，即使在"
-     ],
-     [
-      50.62,
-      53.62,
-      "潮湿时，夹子旋转 90 度以引导"
-     ],
-     [
-      53.62,
-      54.91,
-      "需要浅灰色。"
-     ],
-     [
-      54.91,
-      60.18,
-      "调整角度，然后将 G6 安装到"
-     ],
-     [
-      60.18,
-      64.37,
-      "衣服、背包等等。"
-     ],
-     [
-      64.37,
-      67.1,
-      "被遮盖的 USB 充电端口保持隐藏状态"
-     ],
-     [
-      67.1,
-      69.37,
-      "以获得干净、对称的外观。"
-     ],
-     [
-      69.37,
-      73.01,
-      "侧面内置有细长刀片"
-     ],
-     [
-      73.01,
-      76.64,
-      "身体，为日常增添实用工具"
-     ],
-     [
-      76.64,
-      77.16,
-      "携带。"
-     ],
-     [
-      77.16,
-      79.67,
-      "Wuban G6 包含日常必需品"
-     ],
-     [
-      79.67,
-      82.31,
-      "融入超薄、轻量化设计，"
-     ],
-     [
-      82.31,
-      84.16,
-      "准备好去任何你想去的地方。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/600/240/9854501d3a7f6e9550f347c494bcdb13_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792576301&width=680&sig=QxbSggHbzuoyqHJiwvM3M4ybSPDVGXe6NQh5HXjobd0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/560/345/6f81742461d5c9540eb14d9f745d07c2_original.gif?fit=scale-down&origin=ugc&q=92&v=1792336905&width=680&sig=0ERq9P807o4IORl3aGttjkvyaoba40HEqeh09g6ozHU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/477/046/c457f2b9ab29f49149b4cad659954ec5_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791797052&width=680&sig=HHa5HlaJAyXlJ32FGH8NVs%2BofBebDCedNuweGucD5iI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/477/051/57ef1fba30b2b10f0fdb2f52dcf7c788_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791797114&width=680&sig=Y8y86%2B%2BYX7cNEK7xLyISFaDI%2BGZ8vy1N5NG1ZX6BW1Y%3D"
-     },
-     {
-      "t": "p",
-      "x": "Unlike many lights designed for a single purpose, the WUBEN G6’s compact design opens up more ways to use it. Lightweight and easy to carry, it fits naturally into everyday life and on the go. Wherever life takes you, you can find a place for the G6.",
-      "z": "与许多专为单一用途设计的灯不同，WUBEN G6 的紧凑设计开辟了更多使用方式。它重量轻且易于携带，自然适合日常生活和旅途。无论生活带您去往何处，G6 都能为您找到一席之地。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/559/231/598ba0a0048d4af999199c00a47e0821_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792325378&width=680&sig=%2BO2zeZFL5jcDzCiDedF6tEDDeR%2FDY%2FwptR8%2BsVTgAck%3D"
-     },
-     {
-      "t": "p",
-      "x": "The slim, portable WUBEN G6 offers adjustable brightness from 1 to 500 lumens and a beam distance of up to 66 m. From evening walks and home repairs to outdoor adventures and unexpected power outages, it’s ready to light up everyday moments.",
-      "z": "纤薄便携的 WUBEN G6 提供 1 至 500 流明的可调亮度，光束距离可达 66 m。从晚间散步和房屋维修到户外探险和意外停电，它随时可以照亮日常生活。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/558/256/a22160bb752e402f92cb373020ed19e1_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792312235&width=680&sig=Jr3%2Bwap3GH%2BkvXAnnvWxDhBFDqz%2BkThsO1pxGjxlcRQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/558/513/d25a5d178f71a0127fec9c4dad1fa315_original.gif?fit=scale-down&origin=ugc&q=92&v=1792315173&width=680&sig=3r3iM3xS4xRakwJVf2BZrzsyHEtsg2HyofjqIj3c4oE%3D"
-     },
-     {
-      "t": "p",
-      "x": "Beyond its main beam, the WUBEN G6 offers practical light right at the front. Two 1 W white LEDs deliver 100 lumens for close-up tasks, from checking your gear to making a quick repair. A compact red/blue indicator adds even more versatility: its 2-lumen red light can be used as a signal, and the indicator also shows the light’s power status.",
-      "z": "除了主光束之外，WUBEN G6 还在前方提供实用的光线。两个 1 W 白色 LED 可为近距离任务（从检查装备到快速维修）提供 100 流明的亮度。紧凑的红/蓝指示灯增加了更多的多功能性：其 2 流明红灯可用作信号，并且指示灯还显示灯的电源状态。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/600/927/4c83efac4beebc7d6b39ba7e9dbe76e5_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792578839&width=680&sig=yaiv4ZJ79iV4q1Nf%2BEpFUj%2Fzb5Y7q5DjxboKNeDoMFM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/478/223/0c203b1a0dc459c92c3240d79a19c2e7_original.gif?fit=scale-down&origin=ugc&q=92&v=1791804673&width=680&sig=QwYSspaBXUHmQkDfItsFwANYXFs7yo%2Frb30YX62u4cw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/568/537/cdcec6d897370d311ed3ab30eadc2f21_original.gif?fit=scale-down&origin=ugc&q=92&v=1792402867&width=680&sig=MSJ%2BUkgbEo9QyRWjZdWO67Fs4vupiUpkvLGEOy2Vkww%3D"
-     },
-     {
-      "t": "p",
-      "x": "Slim, easy-to-carry design has been at the heart of the WUBEN G6 from the start. Thinner, then thinner still: at its narrowest point, the G6 is nearly as thin as a USB connector. The result is a thoughtful balance of everyday functionality and effortless portability.",
-      "z": "纤薄、易于携带的设计从一开始就是 WUBEN G6 的核心。越来越薄：在最窄处，G6 几乎与 USB 连接器一样薄。结果是日常功能和轻松便携性之间的深思熟虑的平衡。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/558/518/ec3cfce29f18e2cf7966207791908a94_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792315268&width=680&sig=mIhGGsZPVnBLhYAS3Ke1%2BUsljva8AQHUotuCWG%2BHvEc%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/559/227/5e403b5518d983b837cb601e7b091d7e_original.png?fit=scale-down&origin=ugc&q=100&v=1792325297&width=680&sig=RvuC2u3ibnvA5eZHgbhOEsFvBrY2kYQDTCJIm2NsBag%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/443/686/a2710fc9fe47e9163fda0fc76e2018af_original.gif?fit=scale-down&origin=ugc&q=92&v=1791523847&width=680&sig=NkT3QycvkRDt80Xa1WDuZsqhKYvTyGJjHOI%2FHKZQDU0%3D"
-     },
-     {
-      "t": "p",
-      "x": "The WUBEN G6’s concealed, three-way rotating clip quickly became a standout feature for its versatility. For the G6, we’ve taken that idea further with a thicker, sturdier clip and a wider opening, making it easier to attach to your gear and designed for a more secure hold. Clip it on, adjust the angle, and keep your light right where you need it.",
-      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的功能。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将灯光保持在您需要的位置。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/558/517/6638c10a8a928b7f256d60ee860b9ed4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792315259&width=680&sig=nIWaoRGJ%2F1zVieeIMDAiTl4FJPtdLpAA0IJA1SnueZw%3D"
-     },
-     {
-      "t": "p",
-      "x": "On the side opposite the G6’s rotating clip, a compact folding blade is integrated for everyday tasks and outdoor needs. It’s handy for opening packages, cutting cord, or taking care of quick campsite tasks.",
-      "z": "在 G6 旋转夹的对面，集成了一个紧凑的折叠刀片，可满足日常任务和户外需求。它可以方便地打开包裹、剪断电源线或处理快速的露营地任务。"
-     },
-     {
-      "t": "p",
-      "x": "The mini knife detaches from the G6, so you can choose how you carry it. Keep it attached for an all-in-one setup, or remove and stow it separately when you want to carry the G6 on its own. We’re also exploring additional accessory-mounting options to give you more ways to customize your setup.",
-      "z": "迷你刀与 G6 分离，因此您可以选择携带方式。将其固定以实现一体化设置，或者当您想单独携带 G6 时将其取下并单独存放。我们还在探索其他配件安装选项，为您提供更多自定义设置的方法。"
-     },
-     {
-      "t": "p",
-      "x": "We took a different approach with the G6’s switch. It responds to a light press with clear, direct tactile feedback, making operation simple and intuitive. Water won’t interrupt its response. Even underwater, the switch remains usable. A breakthrough in switch design that makes everyday operation easier.",
-      "z": "我们对 G6 的开关采取了不同的方法。轻轻一按，它就会产生清晰、直接的触觉反馈，使操作变得简单直观。水不会中断其反应。即使在水下，开关仍然可用。开关设计的突破，让日常操作更加轻松。"
-     },
-     {
-      "t": "p",
-      "x": "The G6’s high-density 400 mAh battery is protected against overcharging, over-discharge, overcurrent, and short circuits. Electrical insulation adds another layer of protection. The G6 also supports use while charging, so you can keep using the light while it’s plugged in.",
-      "z": "G6 的高密度 400 mAh 电池具有防过度充电、过度放电、过流和短路保护。电气绝缘增加了另一层保护。 G6 还支持边充电边使用，因此您可以在插入电源时继续使用灯。"
-     },
-     {
-      "t": "p",
-      "x": "Made for everyday carry and long-term use, the WUBEN G6 clips onto clothing, backpacks, or key rings with a light press and detaches just as easily. Tested through more than 100,000 press cycles, the sturdy spring clip can support a 5 kg load, providing a secure, dependable hold day after day.",
-      "z": "WUBEN G6 专为日常携带和长期使用而设计，只需轻轻一按即可夹在衣服、背包或钥匙圈上，也可以轻松拆卸。经过超过 100,000 次按压循环测试，坚固的弹簧夹可支撑 5 公斤负载，日复一日地提供安全、可靠的固定。"
-     }
-    ]
-   },
-   {
-    "id": 894993500,
-    "name": "XGIMI AURA 3 Series: The Ultimate 4K RGB Laser TV",
-    "blurb": "5700 ISO Lumens | 8000:1 Native Contrast | Dual Intelligent Iris | 4K 120Hz Refresh Rate | 0.163:1 Ultra Short Throw Ratio",
-    "url": "https://www.kickstarter.com/projects/xgimititannoir/xgimi-aura-3-series-the-ultimate-laser-tv-for-every-moment",
-    "category": "Hardware",
-    "creator": "XGIMI Tech",
-    "location": "Rowland Heights, CA",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 100000.0,
-    "pledged": 16599572.0,
-    "usdPledged": "16599572.0",
-    "goalUsd": 100000.0,
-    "percentFunded": 16599.572,
-    "backers": 6429,
-    "deadline": 1796400007,
-    "launchedAt": 1792508407,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门",
-     "Technology 热门"
-    ],
-    "kwHits": [],
-    "score": 0.7192,
-    "coverRemote": "https://i.kickstarter.com/assets/055/590/014/ce76daee966ec5dc3234f0ac44c4d15a_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792516143&width=1024&sig=cyTDRPWje8fBc4aJoVZV%2FNd6r5m0PfYAfHO%2BrRMOIMo%3D",
-    "videoMp4": "https://v2.kickstarter.com/1792635437-7UclIUqkLmJchMtF8Wj7lklc4aLUwxy1dtet4vq3%2Bjc%3D/projects/5398626/video-1468517-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1792635437-7UclIUqkLmJchMtF8Wj7lklc4aLUwxy1dtet4vq3%2Bjc%3D/projects/5398626/video-1468517-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11486780,
-      "price": 2399.0,
-      "title": "AURA 3 Max - Launch Special",
-      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 2584,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11459603,
-      "price": 2399.0,
-      "title": "AURA 3 Max - Launch Special",
-      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1686,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11486647,
-      "price": 2399.0,
-      "title": "AURA 3 Max - Launch Special",
-      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1534,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 9,
-    "tiersDate": "2026-10-22",
-    "tiersCarried": "",
-    "cues": [
-     [
-      1.3,
-      5.02,
-      "认识一下新一代激光 Aura 3"
-     ],
-     [
-      5.02,
-      8.3,
-      "旨在将电影院带回家的电视。"
-     ],
-     [
-      8.3,
-      14.12,
-      "从80英寸到200英寸，带大的"
-     ],
-     [
-      14.12,
-      19.78,
-      "屏幕主页，距离仅几英寸。"
-     ],
-     [
-      19.78,
-      23.51,
-      "由生动的 RGB 激光颜色和高达"
-     ],
-     [
-      23.51,
-      27.07,
-      "5700 ISO流明，每一个细节都精雕细琢"
-     ],
-     [
-      27.07,
-      27.78,
-      "被看到。"
-     ],
-     [
-      27.78,
-      30.4,
-      "彩虹明显减少"
-     ],
-     [
-      30.4,
-      32.78,
-      "效果，享受更清晰的视觉效果。"
-     ],
-     [
-      32.78,
-      35.53,
-      "Aura 3 的核心是精准"
-     ],
-     [
-      35.53,
-      38.34,
-      "光控、双光圈动态"
-     ],
-     [
-      38.34,
-      41.3,
-      "控制光线以显示更深的黑色"
-     ],
-     [
-      41.3,
-      42.78,
-      "更丰富的阴影细节。"
-     ],
-     [
-      42.78,
-      45.58,
-      "我们的 XVision AI 图像处理器"
-     ],
-     [
-      45.58,
-      48.85,
-      "智能增强每一帧，"
-     ],
-     [
-      48.85,
-      52.78,
-      "优化 HDR 以获得更精致的图像。"
-     ],
-     [
-      52.78,
-      56.18,
-      "在其中享受您最喜欢的内容"
-     ],
-     [
-      56.18,
-      57.78,
-      "原始格式。"
-     ],
-     [
-      57.78,
-      61.62,
-      "4K 120Hz刷新率，快速移动"
-     ],
-     [
-      61.62,
-      64.78,
-      "场景保持更清晰、更流畅。"
-     ],
-     [
-      64.78,
-      67.52,
-      "当图片变大时，"
-     ],
-     [
-      67.52,
-      68.78,
-      "声音也应该如此。"
-     ],
-     [
-      68.78,
-      73.91,
-      "体验响应灵敏、流畅且无撕裂"
-     ],
-     [
-      73.91,
-      76.47,
-      "低延迟游戏。"
-     ],
-     [
-      76.47,
-      79.35,
-      "从游戏到观看，体验每一个"
-     ],
-     [
-      79.35,
-      80.47,
-      "在一起的时刻。"
-     ],
-     [
-      80.47,
-      84.56,
-      "配备背光遥控器和 Google TV，"
-     ],
-     [
-      84.56,
-      88.65,
-      "你所爱的一切都在你身边"
-     ],
-     [
-      88.65,
-      89.9,
-      "指尖。"
-     ],
-     [
-      89.9,
-      93.93,
-      "与 X Jimmy Ascent 搭配，Aura 3 成为"
-     ],
-     [
-      93.93,
-      96.9,
-      "完整的激光电视体验。"
-     ],
-     [
-      96.9,
-      100.02,
-      "旨在消失在您的生活中"
-     ],
-     [
-      100.02,
-      103.14,
-      "空间，直到需要带来大的"
-     ],
-     [
-      103.14,
-      106.5,
-      "屏幕点亮终极激光电视"
-     ],
-     [
-      106.5,
-      107.57,
-      "每一刻。"
-     ],
-     [
-      108.88,
-      111.88,
-      "X 吉米 Aura 3 系列。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/367/852e983589af2a91ae3458f022466ebc_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396674&width=680&sig=ktdKnwjoP3rDIKBF9Xrc0uJ0ghF1uZhcmHNI4%2F%2BH%2FsU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/538/252/a4d0f1c6c4b6e7f9a2650668e0edd430_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792136939&width=680&sig=8RyfAjdOkB%2BrArcl8mAOB3nt8NL71CvRwXnliCo1E88%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/368/c86e7e64e383ea306fe3e8ca54cf5e70_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396674&width=680&sig=G1KwtX63XTou3DspDvze9ugl3liS8%2B6QXVCwPKPAeBg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/354/3e73d49efaaf0db40372157246626917_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=77ww2LRY%2BD6FOXoMvdkoouO9QIyP5FfMdKpvsoFjsdo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/365/4ae05f2d0c2c7cc77d5e711f2ca5c1b4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396673&width=680&sig=QQEGbYOeO60QQTLMrYI4GM3r503d8fEL4k8bd43SQ3c%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/804/72e7fe0523c10db76f6705a1e7ff259b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792399396&width=680&sig=4arxSeE6HFi7HbzITqO4qH8c8hgdhK5nP%2FMj7ZfYyPI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/569/111/6d6c326a008a84701eb817d68e5553c8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792405725&width=680&sig=ZSJYfwX%2FDjzaaoe%2FcKXcb0sfryNG0jUa%2BaLmXnC1GEQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/366/4ac0f2dcfc9a4a2ee1534729159a6b45_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396673&width=680&sig=lMCYtBEgBBp3%2F4lRQPkEi1UIT5hYZh1vSv6kMJ0Ci0A%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/355/e1ea26ea2e6363ce2f2eb75e99cd7439_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=UuZB%2FzdY7jHf8v63OdZFHOqvb31%2F0mi8Y6YIA7XdBaY%3D"
-     },
-     {
-      "t": "p",
-      "x": "Powered by dual TI DLPC display controllers, AURA 3 Series delivers 4K UHD at 120Hz, keeping fast-moving scenes sharp and fluid with reduced motion blur and clearer moving detail. From sports and action scenes to gameplay, every frame stays crisp.",
-      "z": "AURA 3 系列由双 TI DLPC 显示控制器提供支持，可提供 120Hz 的 4K UHD，使快速移动的场景保持清晰流畅，减少运动模糊并提供更清晰的移动细节。从体育和动作场景到游戏玩法，每一帧都保持清晰。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/370/3f90441346868d1005ab938b4198b607_original.gif?fit=scale-down&origin=ugc&q=92&v=1792396676&width=680&sig=1UlTVA410jLls1vK%2FWX7OMYcK421HXcSlHpO3Wkz1jk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/369/5d2323ca00b332dc9d140c88a0f67ee1_original.gif?fit=scale-down&origin=ugc&q=92&v=1792396675&width=680&sig=HFsh3J0YRGoJ2f8hzmgGsS0bWXQCXn1lJ77R%2B89PoTU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/362/68da4ad025d04bf4d98a9406c305a660_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396671&width=680&sig=IUHJ04hOmmVfsjigzB0MsffquTr1Dc4yFWDZRrFLxzk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/357/c493f77c5e7962a15f0102afd84ea36b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=vlcuxcWBwy%2Bi6QlKSOOHgg0PUpxYlQQwEg8nc51ac30%3D"
-     },
-     {
-      "t": "p",
-      "x": "With a higher 120Hz refresh rate, colors cycle faster to help reduce visible rainbow effects. Combined with AURA 3 Series’s Anti-RBE technology, it delivers cleaner, more natural visuals across both 2D and 3D content.",
-      "z": "凭借更高的 120Hz 刷新率，颜色循环更快，有助于减少可见的彩虹效应。与 AURA 3 系列的 Anti-RBE 技术相结合，它可以在 2D 和 3D 内容中提供更清晰、更自然的视觉效果。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/363/dd322221ea6b5e53f4664f6fb65ab509_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396672&width=680&sig=JUOMffRSOl8prrnpTea8wlhUDqsq6Jcn6tUjkqXDS%2Bc%3D"
-     },
-     {
-      "t": "p",
-      "x": "4K 120Hz Global MEMC intelligently smooths motion across the entire screen, reducing judder and motion blur while preserving image detail. From fast-paced sports to action-packed scenes, every movement stays smooth and clear.",
-      "z": "4K 120Hz Global MEMC 智能地平滑整个屏幕上的运动，减少抖动和运动模糊，同时保留图像细节。从快节奏的运动到充满动感的场景，每个动作都保持流畅清晰。"
-     },
-     {
-      "t": "p",
-      "x": "Watch films exactly as intended—120Hz is an exact multiple of 24fps, displaying each cinematic frame five times in a consistent 5:5 cadence, without 3:2 pulldown judder.",
-      "z": "完全按照预期观看电影 - 120Hz 是 24fps 的精确倍数，以一致的 5:5 节奏显示每个电影帧五次，没有 3:2 下拉抖动。"
-     },
-     {
-      "t": "p",
-      "x": "Up to 8,000:1 native contrast for deeper black perception in large-screen projection — enabled by precision light control at the source.",
-      "z": "高达 8,000:1 的原生对比度，可在大屏幕投影中实现更深的黑色感知 — 通过光源处的精确光控制实现。"
-     },
-     {
-      "t": "p",
-      "x": "Two irises work together to refine every beam of light.",
-      "z": "两个虹膜共同作用，细化每一束光线。"
-     },
-     {
-      "t": "p",
-      "x": "Automatically adjusting the iris size based on scene brightness for optimal contrast and brightness.",
-      "z": "根据场景亮度自动调整光圈大小，以获得最佳对比度和亮度。"
-     },
-     {
-      "t": "p",
-      "x": "Our advanced DBLE technology boosts dynamic contrast by up to 10× while preserving shadow detail and true-to-life color.",
-      "z": "我们先进的 DBLE 技术可将动态对比度提高高达 10 倍，同时保留阴影细节和逼真的色彩。"
-     },
-     {
-      "t": "p",
-      "x": "RGB triple laser delivers a clear image in bright rooms for anytime viewing.",
-      "z": "RGB 三重激光可在明亮的房间中提供清晰的图像，以便随时观看。"
-     },
-     {
-      "t": "p",
-      "x": "Natural dimensionality brings cinematic realism into your living space.",
-      "z": "自然维度将电影般的真实感带入您的生活空间。"
-     },
-     {
-      "t": "p",
-      "x": "Deeper blacks, brighter highlights, and richer colors across all major HDR formats.",
-      "z": "所有主要 HDR 格式都具有更深的黑色、更明亮的高光和更丰富的色彩。"
-     },
-     {
-      "t": "p",
-      "x": "RGB Triple Laser maintains accurate, vivid color quality — even at peak brightness.",
-      "z": "RGB 三重激光即使在峰值亮度下也能保持准确、鲜艳的色彩质量。"
-     },
-     {
-      "t": "p",
-      "x": "Powered by XGIMI-developed X-VISION AI image processor, AURA 3 Series intelligently optimizes every frame in real time for sharper detail, richer contrast, and a more lifelike picture.",
-      "z": "AURA 3系列搭载极米自主研发的X-VISION AI图像处理器，实时智能优化每一帧画面，细节更清晰、对比度更丰富、画面更逼真。"
-     },
-     {
-      "t": "p",
-      "x": "X-VISION intelligently reconstructs every frame in real time, restoring texture, refining edges, and bringing hidden details back into view.",
-      "z": "X-VISION 实时智能地重建每一帧，恢复纹理，细化边缘，并将隐藏的细节带回视野。"
-     },
-     {
-      "t": "p",
-      "x": "X-VISION analyzes every HDR scene in real time, dynamically optimizing brightness and contrast for brighter highlights, deeper shadows, and richer depth.",
-      "z": "X-VISION 实时分析每个 HDR 场景，动态优化亮度和对比度，以获得更亮的高光、更深的阴影和更丰富的深度。"
-     },
-     {
-      "t": "p",
-      "x": "Enjoy instant access to Netflix, YouTube, Prime Video, and more — no extra devices needed. Control your content effortlessly with Google Home and voice commands.",
-      "z": "享受即时访问 Netflix、YouTube、Prime Video 等内容 — 无需额外设备。使用 Google Home 和语音命令轻松控制您的内容。"
-     },
-     {
-      "t": "p",
-      "x": "80W of room-filling sound with remarkable clarity and depth.",
-      "z": "80W 的声音充满整个房间，具有非凡的清晰度和深度。"
-     },
-     {
-      "t": "p",
-      "x": "Hear the movie, not the machine. AURA 3 Series keeps fan noise low, so you can stay immersed in movies, games, and music without distraction.",
-      "z": "听电影，而不是机器。 AURA 3 系列可保持较低的风扇噪音，让您可以专心沉浸在电影、游戏和音乐中。"
-     },
-     {
-      "t": "p",
-      "x": "Everything you need for a more responsive, immersive big-screen gaming experience.",
-      "z": "提供响应更快、身临其境的大屏幕游戏体验所需的一切。"
-     },
-     {
-      "t": "p",
-      "x": "Experience ultra-smooth 4K 120Hz gameplay with reduced motion blur, keeping fast action sharp and responsive.",
-      "z": "体验超流畅的 4K 120Hz 游戏体验，减少运动模糊，保持快速动作的锐利和响应。"
-     },
-     {
-      "t": "p",
-      "x": "VRR & AMD FreeSync™ deliver smooth, tear-free gaming with fluid frames and ultra-low latency.",
-      "z": "VRR 和 AMD FreeSync™ 通过流畅的帧和超低延迟提供流畅、无撕裂的游戏体验。"
-     },
-     {
-      "t": "p",
-      "x": "Experience deeper contrast, lifelike colors, and enhanced shadow detail with Dolby Vision Gaming technology.",
-      "z": "通过杜比视界游戏技术体验更深的对比度、逼真的色彩和增强的阴影细节。"
-     },
-     {
-      "t": "p",
-      "x": "While other UST projectors lose image clarity at the edges, AURA 3 Series maintains full-frame sharpness and color consistency.",
-      "z": "虽然其他 UST 投影机在边缘失去图像清晰度，但 AURA 3 系列保持了全帧清晰度和色彩一致性。"
-     },
-     {
-      "t": "p",
-      "x": "Minimizes chromatic distortion — even at extreme projection angles.",
-      "z": "即使在极端的投影角度下，也能最大限度地减少色彩失真。"
-     },
-     {
-      "t": "p",
-      "x": "Maximizes light transmission while reducing reflection, providing higher brightness and improved image depth.",
-      "z": "最大限度地提高透光率，同时减少反射，提供更高的亮度并改善图像深度。"
-     },
-     {
-      "t": "p",
-      "x": "A precision-engineered optical stack ensures uniform sharpness across the entire screen.",
-      "z": "精密设计的光学堆栈可确保整个屏幕的清晰度一致。"
-     }
-    ]
-   },
-   {
-    "id": 2099488698,
-    "name": "Lucy AI Studio: A Dedicated Computer for Your AI Agents",
-    "blurb": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-    "url": "https://www.kickstarter.com/projects/744045479/cephalon-ondevice-ai-with-a-selfevolving-ecosystem",
-    "category": "Hardware",
-    "creator": "Cephalon AI",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 755373.0,
-    "usdPledged": "96254.49226212",
-    "goalUsd": 1274.26,
-    "percentFunded": 7553.7300000000005,
-    "backers": 28,
-    "deadline": 1795532381,
-    "launchedAt": 1792504781,
-    "staffPick": false,
-    "sources": [
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.6867,
-    "coverRemote": "https://i.kickstarter.com/assets/055/316/862/c1e2ae2108a2f8bdf8ed791053c2d96d_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790703149&width=1024&sig=O6sg6rYuZwQBMf6Zk%2BNkWr%2F3uKh4l%2FD1NKCudYEmNLk%3D",
-    "videoMp4": "https://v2.kickstarter.com/1792599577-HKQQeh%2FrZ3YJEVQqkQzoIqJgf3gb5T1SyARPbaI1go4%3D/projects/5343527/video-1466952-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1792599577-HKQQeh%2FrZ3YJEVQqkQzoIqJgf3gb5T1SyARPbaI1go4%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11488028,
-      "price": 29816.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 8,
-      "limit": 500,
-      "remaining": 492,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11486929,
-      "price": 29817.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 4,
-      "limit": 500,
-      "remaining": 496,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11435574,
-      "price": 31367.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 10,
-      "limit": 500,
-      "remaining": 490,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 11,
-    "tiersDate": "2026-10-22",
-    "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/316/862/c1e2ae2108a2f8bdf8ed791053c2d96d_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790703149&width=1024&sig=O6sg6rYuZwQBMf6Zk%2BNkWr%2F3uKh4l%2FD1NKCudYEmNLk%3D"
-     },
-     {
-      "t": "p",
-      "x": "pledged of $1,274 pledged of $1,274 goal",
-      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
-     },
-     {
-      "t": "p",
-      "x": "32 days to go",
-      "z": "还剩 32 天"
-     },
-     {
-      "t": "p",
-      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/060/319/67b15255a38b25916731383a3310333f_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1781101494&width=160&sig=MM%2FPbg87VKoqOC5VtkC6HMczx2KvRyft7m4b1wTAUhM%3D"
-     },
-     {
-      "t": "p",
-      "x": "First created•0 backed",
-      "z": "首次创建•0 支持"
-     },
-     {
-      "t": "p",
-      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
-     },
-     {
-      "t": "p",
-      "x": "pledged of $1,274 pledged of $1,274 goal",
-      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
-     },
-     {
-      "t": "p",
-      "x": "32 days to go",
-      "z": "还剩 32 天"
-     },
-     {
-      "t": "p",
-      "x": "Kickstarter connects creators with backers to fund projects.",
-      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
-     },
-     {
-      "t": "p",
-      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
-      "z": "奖励无法保证，但创作者必须定期更新支持者。"
-     },
-     {
-      "t": "p",
-      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
-      "z": "仅当项目在活动截止日期前达到其融资目标时，您才需要付费。"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Reviews**](h:Reviews)",
-      "z": "* [**评论**](h:评论)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**The Reason LUCY Exists**](h:The-Reason-LUCY-Exists)",
-      "z": "* [**LUCY 存在的原因**](h:LUCY 存在的原因)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**A Workspace that Stays Ready**](h:A-Workspace-that-Stays-Ready)",
-      "z": "* [**保持就绪的工作空间**](h:保持就绪的工作空间)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**From Request to Result**](h:From-Request-to-Result)",
-      "z": "* [**从请求到结果**](h:从请求到结果)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Why a Dedicated Computer**](h:Why-a-Dedicated-Computer)",
-      "z": "* [**为什么选择专用计算机**](h:为什么选择专用计算机)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Real Work. Status Snapshot**](h:Real-Work-Status-Snapshot)",
-      "z": "* [**实际工作。状态快照**](h:实际工作状态快照)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Remote Workflows**](h:Remote-Workflows)",
-      "z": "* [**远程工作流程**](h:远程工作流程)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Open by Design**](h:Open-by-Design)",
-      "z": "* [**按设计开放**](h：按设计开放)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Private Storage**](h:Private-Storage)",
-      "z": "* [**私有存储**](h:私有存储)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Local Video Generation**](h:Local-Video-Generation)",
-      "z": "* [**本地视频生成**](h:本地视频生成)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**More Than An AI Workstation**](h:More-Than-An-AI-Workstation)",
-      "z": "* [**不仅仅是人工智能工作站**](h:不仅仅是人工智能工作站)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Designed to Stay On**](h:Designed-to-Stay-On)",
-      "z": "* [**设计为保持运行**](h：设计为保持运行)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Choose Your LUCY**](h:Choose-Your-LUCY)",
-      "z": "* [**选择你的 LUCY**](h:选择你的 LUCY)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**HOW TO USE**](h:HOW-TO-USE)",
-      "z": "* [**如何使用**](h:如何使用)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**REWARDS**](h:REWARDS)",
-      "z": "* [**奖励**](h:奖励)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Specification**](h:Specification)",
-      "z": "* [**规格**](h:规格)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/316/829/6e168fa3d7ee6e0e5caee2e594ee801b_original.png?fit=scale-down&origin=ugc&q=100&v=1790702858&width=680&sig=3pm%2BpeI7vSycoDEt5rVx3eoEt6wc5tvjjQKOEVquI40%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/139/c8c104d6a5f6485b4f7d3fd291306895_original.png?fit=scale-down&origin=ugc&q=100&v=1790314954&width=680&sig=4KJu6Kg11W%2FKePoFiUrrgmxNlFfTAC3bPndeZd0365k%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/725/415c199d901eeb5d444a785d538b2e68_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319487&width=680&sig=QXTeTvgsF8xr2gQkWtTxsJnRcWdJkvDCdKncG0xW2rY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/604/809/38bf386f16d519e8eb6d3a28bba073e3_original.png?fit=scale-down&origin=ugc&q=100&v=1792599525&width=680&sig=cVRenq%2FaG8RTrFbHovbf%2FAI0thrX5msAFB70Uc41rR4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/585/305/7977e4798d86fd1baf4621f78606d89b_original.png?fit=scale-down&origin=ugc&q=100&v=1792495942&width=680&sig=CrFCgPZtKUPhITN2COxWy87x87ecyQ%2B2YN2uA%2Fv8ZGw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/162/98025fb70322db4a0a872845425cb9fa_original.png?fit=scale-down&origin=ugc&q=100&v=1790315126&width=680&sig=9Tzhlc%2FDpDahtLwPQKMPkCduDSnWXjgwKKVJf6L1dtk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/169/ab833cfc4bb27dd7a918822ca937af96_original.png?fit=scale-down&origin=ugc&q=100&v=1790315170&width=680&sig=3mF25kAPlzxyqz4MuKxWKa9KEm3Ds2wMAiFjCynId8c%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/752/23cb80f5bb030f459f2aa1546d84b9ad_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319854&width=680&sig=%2F%2F1%2FF97dUN6IHj2q4g1ttj2NQjKqIMd55hdJgJTUoAk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/173/582ed5763ef51c88abc008bcfc1e8243_original.png?fit=scale-down&origin=ugc&q=100&v=1790315184&width=680&sig=It%2FRUMet1QS52lyh4ocIkVpv6WaWSa4Q9G4P3iU65lA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/792/4dfe5b6a564b99a8cfc166c29f7a13c9_original.gif?fit=scale-down&origin=ugc&q=92&v=1790320183&width=680&sig=vDOOqAVnAir2NfFQqdaQRb%2BD9soY3vIZ0Q%2FewpOfwzM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/174/ed792e97c39a87ec2c6af0a0ade64f41_original.png?fit=scale-down&origin=ugc&q=100&v=1790315204&width=680&sig=ZnF%2Ff4prTWKg8a67Q7II2WdOL9h7Gg%2BZx8Gia%2FkN%2FYo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/175/5dfcd4234e02ac6c30c9da83e3d1d150_original.png?fit=scale-down&origin=ugc&q=100&v=1790315210&width=680&sig=kk6D4nMqfz%2Fs2%2FuqGZ9t7ODI%2BMOyxZGYJuWfpTNOylA%3D"
-     }
-    ]
-   },
-   {
-    "id": 1162759019,
-    "name": "iMicro XL15 - A pocket-sized micro exploration studio.",
-    "blurb": "A complete smartphone microscope kit with a removable light module, improved focus stand, and everything to reveal hidden details.",
-    "url": "https://www.kickstarter.com/projects/uchart/imicro-xl15-a-pocket-sized-micro-exploration-studio",
-    "category": "Gadgets",
-    "creator": "QingYing E&T LLC",
-    "location": "Shanghai, China",
-    "country": "Canada",
-    "currency": "CAD",
-    "currencySymbol": "$",
-    "goal": 14125.0,
-    "pledged": 55975.0,
-    "usdPledged": "39641.50899375",
-    "goalUsd": 10003.33,
-    "percentFunded": 396.283185840708,
-    "backers": 517,
-    "deadline": 1797692281,
-    "launchedAt": 1792504681,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "smart"
-    ],
-    "score": 0.6355,
-    "coverRemote": "https://i.kickstarter.com/assets/054/694/967/8f35ddcac12e48b0e4f384b0383681bc_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1786198720&width=1024&sig=B%2BXnc9ndlPSD%2BXJxKzRCyHlXZhIX5FHz6Z5XQqvXbeQ%3D",
-    "videoMp4": "https://v2.kickstarter.com/1792602914-1YqUsF1iEHeD9f9Ij%2Fi4OybUywqJAxSfN%2FObvZcHcZs%3D/projects/5369845/video-1462690-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1792602914-1YqUsF1iEHeD9f9Ij%2Fi4OybUywqJAxSfN%2FObvZcHcZs%3D/projects/5369845/video-1462690-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11345543,
-      "price": 84.0,
-      "title": "iMicro XL15 - Super Early Bird",
-      "desc": "Congrats, you get the iMicro XL15 as Super Early Bird, which includes:\\niMicro XL15 lens, Lighting module, Focusing stand, μRuler M, App i-Seeing, and instruction sheet in a thin PP case also as lighting box",
-      "backers": 475,
-      "limit": 500,
-      "remaining": 25,
-      "eta": 1806537600,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11345545,
-      "price": 89.0,
-      "title": "iMicro XL15 - Early Bird",
-      "desc": "Congrats, you get the iMicro XL15 as Early Bird, which includes:\\niMicro XL15 lens, Lighting module, Focusing stand, μRuler M, App i-Seeing, and instruction sheet in a thin PP case also as lighting box",
-      "backers": 34,
-      "limit": 100,
-      "remaining": 66,
-      "eta": 1806537600,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11345547,
-      "price": 95.0,
-      "title": "Copy of iMicro XL15 - KS Offer",
-      "desc": "Congrats, you get the iMicro XL15 as Kickstarter Special Offer, which includes:\\niMicro XL15 lens, Lighting module, Focusing stand, μRuler M, App i-Seeing, and instruction sheet in a thin PP case also as lighting box",
-      "backers": 6,
-      "limit": null,
-      "remaining": null,
-      "eta": 1806537600,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 11,
-    "tiersDate": "2026-10-22",
-    "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/581/486/173ad0085d05e6fded7def354e38e46c_original.png?fit=scale-down&origin=ugc&q=100&v=1792477943&width=680&sig=nFImjApJG%2F0iV3m%2Bm2%2BtDblG9meLF%2BO7T3wj2z4I%2FY0%3D"
-     },
-     {
-      "t": "p",
-      "x": "Designed for Curiosity",
-      "z": "专为好奇心而设计"
-     },
-     {
-      "t": "p",
-      "x": "Whether you are a student discovering science, a creator exploring textures, an engineer inspecting details, or simply someone curious about the world around you, iMicro XL15 makes microscopic exploration more accessible than ever.",
-      "z": "无论您是探索科学的学生、探索纹理的创造者、检查细节的工程师，还是只是对周围世界感到好奇的人，iMicro XL15 都能让微观探索变得比以往更容易。"
-     },
-     {
-      "t": "p",
-      "x": "The microscopic world is not far away. It is already around us. All we need is a better way to see it.",
-      "z": "微观世界并不遥远。它已经在我们身边了。我们所需要的只是一种更好的方式来看待它。"
-     },
-     {
-      "t": "p",
-      "x": "Here are some example micrographs taken with iMicro XL15 (on iPhone 14 Pro):",
-      "z": "以下是使用 iMicro XL15（在 iPhone 14 Pro 上）拍摄的一些显微照片示例："
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/129/192a4c4a33322eafc9e43fcd39efcdf6_original.png?fit=scale-down&origin=ugc&q=92&v=1786258310&width=692&sig=0YVA892RnBAGCTOHZMbH4oVCmjHQ%2BKlTpmFLzgOJRkw%3D"
-     },
-     {
-      "t": "p",
-      "x": "Since 2018, we have been developing smartphone microscopes through our iMicro Fingertip Microscope series, including iMicro Q, iMicro C, iMicro Q2, iMicro Q2p, iMicro Q3, and iMicro Q3p.",
-      "z": "自 2018 年以来，我们一直通过 iMicro 指尖显微镜系列开发智能手机显微镜，包括 iMicro Q、iMicro C、iMicro Q2、iMicro Q2p、iMicro Q3 和 iMicro Q3p。"
-     },
-     {
-      "t": "p",
-      "x": "With the support of our Kickstarter community, we have received more than 40,000 pledges and delivered over 70,000 iMicros to users in 75 countries.",
-      "z": "在 Kickstarter 社区的支持下，我们已收到超过 40,000 份承诺，并向 75 个国家/地区的用户交付了超过 70,000 个 iMicro。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/109/ab9395ba95725bc61b37e39c3b3248d2_original.png?fit=scale-down&origin=ugc&q=92&v=1786258298&width=692&sig=clwySgvSOGiw3pS4gcGzbiHZP2nhXMt6zJzjCiQnh7g%3D"
-     },
-     {
-      "t": "p",
-      "x": "After years of development and continuous refinement, we created the next generation of the Fingertip Microscope — iMicro XL15.",
-      "z": "经过多年的开发和不断完善，我们创造了下一代指尖显微镜——iMicro XL15。"
-     },
-     {
-      "t": "p",
-      "x": "Unlike our high-magnification models, such as the iMicro Q3 and Q3p, the new iMicro XL15 is designed to make microscopic exploration easier, more enjoyable, and more creative.",
-      "z": "与 iMicro Q3 和 Q3p 等高放大倍率型号不同，新款 iMicro XL15 旨在让微观探索变得更轻松、更愉快、更具创意。"
-     },
-     {
-      "t": "p",
-      "x": "With its large field of view, long working distance, stable focusing system, and newly designed removable lighting module, XL15 offers a new and more flexible way to explore the tiny details all around you.",
-      "z": "凭借大视野、长工作距离、稳定的对焦系统以及全新设计的可拆卸照明模块，XL15 提供了一种新的、更灵活的方式来探索您周围的微小细节。"
-     },
-     {
-      "t": "p",
-      "x": "It’s more than just a microscope lens.",
-      "z": "它不仅仅是一个显微镜镜头。"
-     },
-     {
-      "t": "p",
-      "x": "It’s a complete micro exploration studio that fits in your pocket.",
-      "z": "这是一个完整的微型探索工作室，可以装在你的口袋里。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/128/7fd5c1de2289b4d1e83960fa059e88f1_original.png?fit=scale-down&origin=ugc&q=92&v=1786258309&width=692&sig=USmwMX9j3FkZGRUFgb%2B39uRktTbaVGyGYk88q7oSGIA%3D"
-     },
-     {
-      "t": "p",
-      "x": "*   Extended 21 mm Working Distance",
-      "z": "* 延长 21 毫米工作距离"
-     },
-     {
-      "t": "p",
-      "x": "*   Wide 10 mm Field of View",
-      "z": "* 10 毫米宽视野"
-     },
-     {
-      "t": "p",
-      "x": "*   Newly designed dedicated Lighting Module",
-      "z": "* 全新设计的专用照明模块"
-     },
-     {
-      "t": "p",
-      "x": "*   Stable, Precise Focusing with the Improved FS-5 Stand",
-      "z": "* 使用改进的 FS-5 支架实现稳定、精确的对焦"
-     },
-     {
-      "t": "p",
-      "x": "*   Dedicated App and μRuler M included",
-      "z": "* 包含专用应用程序和 μRuler M"
-     },
-     {
-      "t": "p",
-      "x": "*   Easy attach with Nano-Suction Lens Mount",
-      "z": "* 使用纳米吸力镜头座轻松安装"
-     },
-     {
-      "t": "p",
-      "x": "*   Pocket-Ready Design, Complete Kit in one small Box",
-      "z": "* 袖珍设计，完整套件装在一个小盒子里"
-     },
-     {
-      "t": "p",
-      "x": "Many microscopes have a very short working distance, making it difficult to observe three-dimensional objects or reach areas with limited access.",
-      "z": "许多显微镜的工作距离很短，因此很难观察三维物体或到达访问受限的区域。"
-     },
-     {
-      "t": "p",
-      "x": "The iMicro XL15 lens features an extended 21 mm working distance, providing more space between the lens and the subject. This allows you to capture details that are difficult or impossible to observe with conventional smartphone microscopes, while also making positioning, focusing, and lighting adjustments much easier.",
-      "z": "iMicro XL15 镜头具有 21 毫米的扩展工作距离，在镜头和拍摄对象之间提供了更大的空间。这使您能够捕捉传统智能手机显微镜难以或无法观察的细节，同时也使定位、聚焦和照明调整变得更加容易。"
-     },
-     {
-      "t": "p",
-      "x": "The following image shows an earbud charging case and a microscopic view of the charging contacts hidden deep inside a narrow hole — a detail that becomes accessible thanks to the long working distance of iMicro XL15.",
-      "z": "下图显示了耳机充电盒和隐藏在窄孔深处的充电触点的显微视图 - 由于 iMicro XL15 的长工作距离，这一细节变得易于观察。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/117/68a25d9399b1fb84e5d90cc190f15fb8_original.png?fit=scale-down&origin=ugc&q=92&v=1786258304&width=692&sig=TpUV0vOZQsiLvYAZRcvrm4pGeagKBuXrWmRvCmHzGzw%3D"
-     },
-     {
-      "t": "p",
-      "x": "The iMicro XL15 features an impressive 10 mm field of view, allowing you to observe a much larger area while still capturing fine details.",
-      "z": "iMicro XL15 具有令人印象深刻的 10 毫米视野，使您能够观察更大的区域，同时仍然捕捉精细细节。"
-     },
-     {
-      "t": "p",
-      "x": "Instead of only seeing a small section of an object, XL15 helps you understand the complete structure and overall context.",
-      "z": "XL15 不是只看到对象的一小部分，而是帮助您了解完整的结构和整体背景。"
-     },
-     {
-      "t": "p",
-      "x": "As shown in the following image, the Apple Lightning charging connector can be viewed as a whole, while the fine details of the contacts remain clearly visible.",
-      "z": "如下图所示，Apple Lightning充电连接器可以作为整体查看，而触点的精细细节仍然清晰可见。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/256/79dfc4a11cc8fc2c6505692de10011f8_original.png?fit=scale-down&origin=ugc&q=100&v=1786260222&width=680&sig=L95SzaruPCyl596bXJGbj2uEIyWyt05JGY3hOKXCbG8%3D"
-     },
-     {
-      "t": "p",
-      "x": "The iMicro XL15 is not only designed for a large field of view and long working distance — it also delivers impressive optical resolution.",
-      "z": "iMicro XL15 不仅设计用于大视野和长工作距离，还提供令人印象深刻的光学分辨率。"
-     },
-     {
-      "t": "p",
-      "x": "With a wide-angle camera, XL15 can resolve details down to 8 μm, while the telephoto camera mode can achieve resolution as fine as 3 μm, revealing intricate structures that are invisible to the naked eye.",
-      "z": "使用广角摄像头时，XL15 可以解析低至 8 μm 的细节，而长焦摄像头模式可以实现精细至 3 μm 的分辨率，揭示肉眼不可见的复杂结构。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/121/36ede099b659db3652aae1890657d843_original.png?fit=scale-down&origin=ugc&q=92&v=1786258306&width=692&sig=0v04HN%2F96Hym38PAMJPyoFduz%2BYvJPuENn0cJzQ%2Bp3Y%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/114/34b0e4392bf108c781e31fb67cf493ef_original.png?fit=scale-down&origin=ugc&q=92&v=1786258301&width=636&sig=EwVk6XoJGYrlJ%2FaS4Ox%2FtfuR40no77ASxEAuiZhZI5s%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/836/904/642204ce2bba7637cadf2f18f04a047d_original.png?fit=scale-down&origin=ugc&q=100&v=1787320430&width=680&sig=H5n2ffFO6fBY39NnlljOAk032AWMdg9bzZbRaswJipI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/124/880a91cf49415529cc83744767f19870_original.png?fit=scale-down&origin=ugc&q=92&v=1786258307&width=692&sig=%2BDb5JKjUEU%2BVOZBZ69OnxbLxsslZheN6QpJJTPzysN4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/873/313/6b40f0ea8be11e5c61be5d520d8bb19a_original.gif?fit=scale-down&origin=ugc&q=92&v=1787631576&width=680&sig=sYm8trnvaDGYSD327MYo%2BsF6oIUW2e6GtDGX%2BftjUTc%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/127/8ffb88737ac981aef467463d0e6e9313_original.png?fit=scale-down&origin=ugc&q=92&v=1786258309&width=692&sig=KvBhPBHoy3X3tEFJrNjH2LMCBlfMbFmecIkcy3cOmXI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/110/1668458fe6ff4f9200733418dfdebd66_original.png?fit=scale-down&origin=ugc&q=92&v=1786258298&width=692&sig=XJNzhGrV5MJHf2R1zaHyfI2YyguKaNMobJSj1zuV5nI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/700/119/70987b13c61b4d088ad4983544bbab2c_original.png?fit=scale-down&origin=ugc&q=92&v=1786258305&width=692&sig=xOeDdRfl%2B1w9fCX38gDDzC5wbljxMBItmcc9dh8XiFo%3D"
-     }
-    ]
-   },
-   {
-    "id": 1471279538,
-    "name": "VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER",
-    "blurb": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
-    "url": "https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer",
-    "category": "Hardware",
-    "creator": "Bvio Tech",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 78424.0,
-    "pledged": 21754765.0,
-    "usdPledged": "2773805.85105805",
-    "goalUsd": 9999.32,
-    "percentFunded": 27739.9329286953,
-    "backers": 5018,
-    "deadline": 1793376023,
-    "launchedAt": 1789488023,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门",
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.634,
-    "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": "https://v2.kickstarter.com/1792670609-D1xE1wxHFbyU6mAXhkihNI6WwfHGSdgDqkaORhQODzA%3D/projects/5342600/video-1438224-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1792670609-D1xE1wxHFbyU6mAXhkihNI6WwfHGSdgDqkaORhQODzA%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11254735,
-      "price": 3128.0,
-      "title": "Super Early Bird - Violoop",
-      "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 4376,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11414602,
-      "price": 5951.0,
-      "title": "Super Early Bird - Violoop Duo Pack",
-      "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 496,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11415618,
-      "price": 56432.0,
-      "title": "Super Early Bird - Violoop Team Pack",
-      "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 57,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 10,
-    "tiersDate": "2026-10-22",
-    "tiersCarried": "",
-    "cues": [
-     [
-      0.02,
-      2.71,
-      "每天我们都会经历十几个"
-     ],
-     [
-      2.71,
-      4.02,
-      "不同的工具。"
-     ],
-     [
-      4.02,
-      8.02,
-      "切换、复制、粘贴、重复。"
-     ],
-     [
-      8.02,
-      10.77,
-      "但这些工具中有多少是真正"
-     ],
-     [
-      10.77,
-      12.02,
-      "理解你吗？"
-     ],
-     [
-      12.02,
-      15.02,
-      "早上好！准备好接受董事会审查了吗？"
-     ],
-     [
-      15.02,
-      19.12,
-      "Violoupe 是您本地的 AI 代理，旨在"
-     ],
-     [
-      19.12,
-      20.02,
-      "认识你。"
-     ],
-     [
-      20.02,
-      24.02,
-      "因此，在您提出要求之前，您的工作就已准备就绪。"
-     ],
-     [
-      24.02,
-      26.02,
-      "Violoupe 与您协同行动，"
-     ],
-     [
-      26.02,
-      28.02,
-      "在后台安静地学习。"
-     ],
-     [
-      28.02,
-      31.64,
-      "我发现了一个类似的任务。我要完成吗"
-     ],
-     [
-      31.64,
-      34.26,
-      "和上次一样吗？"
-     ],
-     [
-      34.26,
-      37.28,
-      "Violoupe 找到您的流程并执行"
-     ],
-     [
-      37.28,
-      38.26,
-      "你的命令。"
-     ],
-     [
-      38.26,
-      41.26,
-      "批次准备就绪，下一步正在排队。"
-     ],
-     [
-      41.26,
-      44.19,
-      "它运行您的店面、您的内容以及"
-     ],
-     [
-      44.19,
-      46.98,
-      "您在每个平台上的客户"
-     ],
-     [
-      46.98,
-      47.26,
-      "使用。"
-     ],
-     [
-      47.26,
-      49.98,
-      "从产品到内容到库存"
-     ],
-     [
-      49.98,
-      52.56,
-      "客户，它保留了整个过程"
-     ],
-     [
-      52.56,
-      53.26,
-      "连接。"
-     ],
-     [
-      53.26,
-      55.98,
-      "无论您的目标、业务或"
-     ],
-     [
-      55.98,
-      58.49,
-      "你的任务，人工智能会自己建模"
-     ],
-     [
-      58.49,
-      59.26,
-      "你周围。"
-     ],
-     [
-      59.26,
-      64.38,
-      "它在您的设备上运行。您的数据"
-     ],
-     [
-      64.38,
-      66.18,
-      "永远不会离开。"
-     ],
-     [
-      66.18,
-      76.04,
-      "你的环境改变了，工作也改变了"
-     ],
-     [
-      76.04,
-      78.94,
-      "继续。"
-     ],
-     [
-      78.94,
-      91.57,
-      "最好的系统学习如何工作"
-     ],
-     [
-      91.57,
-      92.86,
-      "你。"
-     ],
-     [
-      92.86,
-      96.35,
-      "当一切都一致时，你的想法，"
-     ],
-     [
-      96.35,
-      100.21,
-      "你的节奏，你的时间，你停止反应，"
-     ],
-     [
-      100.21,
-      101.86,
-      "你开始流动。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/601/755/9e27f3040d7fa9a41ca8acf7c83f448e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792584195&width=680&sig=WkJPSaWQRDppwQXoLZtLuJ6gwP4wyiPHMw3%2B2iQH0DA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/112/827/e3d7dc4edb30a39269986371a2223db7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789368177&width=680&sig=638gbidJMd%2B5wfEY6ZC738UrRxWZpJtrSbkcaVSiMFo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/025/5aa5a5cdb2d4caff5cb8c3ff3e8352d2_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883690&width=680&sig=DaYzBDNXiTUgvwjQn%2BEiUoHABJxon8Tcs5ingy4UxjY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/030/1f99c4f7e43e4ce4641b6c4b1949fe5a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883712&width=680&sig=WqmPovC%2BEfw%2FMKuo9H0xsQqnagD0eXyn%2BcRP9kqgSQw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/035/d3b7244996892cc69d498bd411332a2d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883734&width=680&sig=EomtSzfVvgT08p3oMw8WwO1xCTBh%2F7%2BNtijHIP8EtJU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/040/b9b849b6ec7a8fe79d629a8871505614_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=URrxiGNiYMI5Qg69woE3xtdFvE84X0sTJUwc2%2BThsrQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/041/eb2e613ee0c7f9f9601eb025732d1824_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=fz9SsozAZKMNNsepvYi%2BVW%2FLprxxf%2FHrJinbiW10vqA%3D"
-     },
-     {
-      "t": "p",
-      "x": "Extract customer, vehicle, and repair order data from the DMS and organize it into an Excel file.",
-      "z": "从 DMS 中提取客户、车辆和维修订单数据并将其组织到 Excel 文件中。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/046/95034dc50da375803bfaee565a971963_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883751&width=680&sig=ZFpERXuqiTWR0GTapmFX39bDG%2FuDmYdrz0ep8VEex4U%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/042/92aaafbe31cbdc0716be2a209853bf64_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=2gO1z1d0IUYi4JYxqZQ5FG7LmGJFoOyxKqcpg7qTfWc%3D"
-     },
-     {
-      "t": "p",
-      "x": "Locate the specific conversations in the WhatsApp chat list, extract the required information, and organize it into HubSpot CRM.",
-      "z": "在 WhatsApp 聊天列表中找到特定对话，提取所需信息，并将其组织到 HubSpot CRM 中。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/048/ef74c053efb4909aeffd7cb2b20398c0_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883752&width=680&sig=xtEunU4VmorulVL4JSUAcq0%2BHJNO9RDO4k2Fq5I4Xgg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/044/eb7da3af9ed34b128e1a3af80bf95075_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=5egcsVGfA1cLyYZ3j9ITwVqEoBHSd2OWFDrgxdYEIYg%3D"
-     },
-     {
-      "t": "p",
-      "x": "Read all unread emails. For each email that requires a reply, draft a response and save it to the Drafts folder. Archive every email that doesn't require a reply.",
-      "z": "阅读所有未读电子邮件。对于每封需要回复的电子邮件，起草回复并将其保存到草稿文件夹。归档每封不需要回复的电子邮件。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/045/76a9d3a488e7474f956e3b2817bfeffc_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883751&width=680&sig=%2BajHRPZfe51SliH9nues2LlSWT1NFH8YsifnqNVuVik%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/043/e390b7894ee7f2b9eec010f37cea13b9_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791883750&width=680&sig=UVGHy78n0QhdZpMf4p%2F3ND0pVcASRm%2FROTtVH%2FbGWfs%3D"
-     },
-     {
-      "t": "p",
-      "x": "Search online for the three hotels that best match the given criteria, select the best option, and fill the booking information, but stop right before payment.",
-      "z": "在线搜索最符合给定条件的三家酒店，选择最佳选项，然后填写预订信息，但在付款前停止。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/493/047/5d6d72dbe16d4f7312ba2ed2ef73a511_original.gif?fit=scale-down&origin=ugc&q=92&v=1791883752&width=680&sig=SE5v%2BNea81dMRFvd57xJltd94ibSBbPcQ87ZwB5N%2B6I%3D"
-     },
-     {
-      "t": "p",
-      "x": "Visit Violoop’s official YouTube channel to discover more practical workflows: [Violoop Workflow Showcase - YouTube](https://www.youtube.com/playlist?list=PLEJ_9fI2IiTw)",
-      "z": "访问 Violoop 官方 YouTube 频道，了解更多实用工作流程：[Violoop 工作流程展示 - YouTube](https://www.youtube.com/playlist?list=PLEJ_9fI2IiTw)"
-     },
-     {
-      "t": "p",
-      "x": "The real workflows we demonstrate are starting points to help you discover what Violoop can do in your own daily work. Its capabilities extend far beyond these examples; we encourage you to experiment, try new ideas, and find ways to make Violoop work for you.",
-      "z": "我们演示的真实工作流程是帮助您发现 Violoop 在您自己的日常工作中可以做什么的起点。它的功能远远超出了这些例子；我们鼓励您尝试、尝试新想法并找到让 Violoop 为您服务的方法。"
-     },
-     {
-      "t": "p",
-      "x": "We look forward to seeing the workflows you create and learning from your experiences as we continue to improve Violoop together with our community.",
-      "z": "我们期待看到您创建的工作流程，并从您的经验中学习，我们将继续与社区一起改进 Violoop。"
-     },
-     {
-      "t": "p",
-      "x": "Your personal on-device AI—with long-context memory that learns how you work. Violoop brings screen understanding and personal memory on-device, learning your habits, projects, and preferences entirely locally, with no cloud computing costs.",
-      "z": "您的个人设备上人工智能——具有长上下文记忆，可以了解您的工作方式。 Violoop 在设备上提供屏幕理解和个人记忆，完全在本地了解您的习惯、项目和偏好，无需云计算成本。"
-     },
-     {
-      "t": "p",
-      "x": "By combining OCR with a local model that understands long-form context, Violoop proactively moves your work forward—so you don’t have to write lengthy prompts for every task.",
-      "z": "通过将 OCR 与理解长格式上下文的本地模型相结合，Violoop 可以主动推动您的工作，因此您不必为每项任务编写冗长的提示。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop reads and understands the text, pages, and interactive elements on your screen in real time. It controls your computer through mouse and keyboard inputs, carrying out tasks across apps without relying on app-specific APIs.",
-      "z": "Violoop 实时读取并理解屏幕上的文本、页面和交互元素。它通过鼠标和键盘输入控制您的计算机，跨应用程序执行任务，而无需依赖应用程序特定的 API。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop separates AI processing from independent security control through its dual-chip architecture. The processing chip runs the local model, while the security chip enforces physical authorization for sensitive actions.",
-      "z": "Violoop 通过其双芯片架构将人工智能处理与独立的安全控制分开。处理芯片运行本地模型，而安全芯片则对敏感操作强制执行物理授权。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop connects your computer and phone so work can continue beyond your desk. As long as your computer remains on and connected, Violoop can run tasks around the clock. From your phone, you can remotely view your computer’s screen, check task progress, and give new instructions.",
-      "z": "Violoop 连接您的计算机和手机，以便您可以在办公桌外继续工作。只要您的计算机保持开启并连接，Violoop 就可以全天候运行任务。通过手机，您可以远程查看计算机屏幕、检查任务进度并给出新指示。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop can view and interact with two screens simultaneously, so you and Violoop can work on the same computer without getting in each other’s way.",
-      "z": "Violoop 可以同时查看两个屏幕并与之交互，因此您和 Violoop 可以在同一台计算机上工作，而不会互相妨碍。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop is for people who repeatedly extract information, copy and paste, fill out forms, organize files, and follow up on tasks. These activities have clear goals and repeatable steps, but are spread across different apps—taking time and interrupting focus.",
-      "z": "Violoop 适合那些反复提取信息、复制和粘贴、填写表格、组织文件和跟踪任务的人员。这些活动有明确的目标和可重复的步骤，但分布在不同的应用程序中，既耗时又分散注意力。"
-     },
-     {
-      "t": "p",
-      "x": "Violoop handles the repetitive work across your apps, so you can focus on decisions, conversations, and creativity.",
-      "z": "Violoop 可以处理您应用程序中的重复性工作，因此您可以专注于决策、对话和创造力。"
-     },
-     {
-      "t": "p",
-      "x": "· Extract customer details and update your CRM.",
-      "z": "· 提取客户详细信息并更新您的 CRM。"
-     },
-     {
-      "t": "p",
-      "x": "· Draft personalized follow-up emails for your approval.",
-      "z": "· 起草个性化的后续电子邮件以供您批准。"
-     },
-     {
-      "t": "p",
-      "x": "· Organize product information and prepare listings for approval.",
-      "z": "· 整理产品信息并准备清单以供批准。"
-     },
-     {
-      "t": "p",
-      "x": "· Consolidate order, sales, and inventory data into spreadsheets.",
-      "z": "· 将订单、销售和库存数据合并到电子表格中。"
-     },
-     {
-      "t": "p",
-      "x": "· Sort, rename, and organize files by project or date.",
-      "z": "· 按项目或日期对文件进行排序、重命名和组织。"
-     },
-     {
-      "t": "p",
-      "x": "· Compare hotels and transportation prices for business trips.",
-      "z": "· 比较商务旅行的酒店和交通价格。"
-     },
-     {
-      "t": "p",
-      "x": "· Extract invoice and receipt details into financial records.",
-      "z": "· 将发票和收据详细信息提取到财务记录中。"
-     },
-     {
-      "t": "p",
-      "x": "· Compare statements and flag discrepancies for review.",
-      "z": "· 比较陈述并标记差异以供审查。"
-     },
-     {
-      "t": "p",
-      "x": "· Extract resume details and update candidate trackers.",
-      "z": "· 提取简历详细信息并更新候选人跟踪器。"
-     },
-     {
-      "t": "p",
-      "x": "· Compile availability and prepare interview schedules and invitations.",
-      "z": "· 收集可用情况并准备面试时间表和邀请。"
-     },
-     {
-      "t": "p",
-      "x": "· Gather research and links into a content library.",
-      "z": "· 将研究成果和链接收集到内容库中。"
      }
     ]
    }
