@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T13:42:02+07:00",
+  "generatedAt": "2026-10-30T21:19:39+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 42,
+  "poolSize": 43,
   "projects": [
    {
     "id": 1471279538,
@@ -18,11 +18,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 78424.0,
-    "pledged": 25830046.0,
-    "usdPledged": "3293417.91225502",
+    "pledged": 26509851.0,
+    "usdPledged": "3380095.34069787",
     "goalUsd": 9999.32,
-    "percentFunded": 32936.40467203917,
-    "backers": 5699,
+    "percentFunded": 33803.23752932776,
+    "backers": 5761,
     "deadline": 1793376023,
     "launchedAt": 1789488023,
     "staffPick": true,
@@ -34,17 +34,17 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.8479,
+    "score": 0.8486,
     "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1793351014-426DR%2Fc9lOpJcYj93YZ0jXwbY0HCDRZNG5ByTOay7fI%3D/projects/5342600/video-1438224-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793351014-426DR%2Fc9lOpJcYj93YZ0jXwbY0HCDRZNG5ByTOay7fI%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11254735,
       "price": 3128.0,
       "title": "Super Early Bird - Violoop",
       "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 4849,
+      "backers": 4996,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -55,7 +55,7 @@
       "price": 5951.0,
       "title": "Super Early Bird - Violoop Duo Pack",
       "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 553,
+      "backers": 568,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
@@ -66,16 +66,16 @@
       "price": 56432.0,
       "title": "Super Early Bird - Violoop Team Pack",
       "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 76,
+      "backers": 87,
       "limit": null,
       "remaining": null,
       "eta": 1793491200,
       "shipping": "unrestricted"
      }
     ],
-    "rewardsTotal": 11,
-    "tiersDate": "2026-10-29",
-    "tiersCarried": "2026-10-29",
+    "rewardsTotal": 15,
+    "tiersDate": "2026-10-30",
+    "tiersCarried": "",
     "cues": [
      [
       0.02,
@@ -174,43 +174,43 @@
      ],
      [
       47.26,
-      50.44,
+      49.98,
       "从产品到内容到库存"
      ],
      [
-      50.44,
-      51.26,
-      "客户，"
+      49.98,
+      52.56,
+      "客户，它保留了整个过程"
      ],
      [
-      51.26,
+      52.56,
       53.26,
-      "它使整个过程保持连接。"
+      "连接。"
      ],
      [
       53.26,
-      56.36,
+      55.98,
       "无论您的目标、业务或"
      ],
      [
-      56.36,
-      57.26,
-      "你的任务，"
+      55.98,
+      58.49,
+      "你的任务，人工智能会自己建模"
      ],
      [
-      57.26,
-      62.18,
-      "人工智能会围绕你进行自我建模。"
+      58.49,
+      59.26,
+      "你周围。"
      ],
      [
-      62.18,
-      64.18,
-      "它在您的设备上运行。"
+      59.26,
+      64.38,
+      "它在您的设备上运行。您的数据"
      ],
      [
-      64.18,
+      64.38,
       66.18,
-      "您的数据永远不会离开。"
+      "永远不会离开。"
      ],
      [
       66.18,
@@ -234,18 +234,18 @@
      ],
      [
       92.86,
-      95.97,
+      96.35,
       "当一切都一致时，你的想法，"
      ],
      [
-      95.97,
-      97.86,
-      "你的节奏，你的时间，"
+      96.35,
+      100.21,
+      "你的节奏，你的时间，你停止反应，"
      ],
      [
-      97.86,
+      100.21,
       101.86,
-      "你停止反应，你开始流动。"
+      "你开始流动。"
      ]
     ],
     "vttLang": "zh",
@@ -450,14 +450,14 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 24316.0,
-    "usdPledged": "24316.0",
+    "pledged": 24987.0,
+    "usdPledged": "24987.0",
     "goalUsd": 20000.0,
-    "percentFunded": 121.58,
-    "backers": 36,
+    "percentFunded": 124.935,
+    "backers": 39,
     "deadline": 1797089984,
     "launchedAt": 1793198384,
-    "staffPick": true,
+    "staffPick": false,
     "sources": [
      "AI 关键词"
     ],
@@ -465,19 +465,19 @@
      "ai",
      "robot"
     ],
-    "score": 0.8057,
+    "score": 0.8075,
     "coverRemote": "https://i.kickstarter.com/assets/055/704/493/c69c1614a5012ec480935e03ba6da221_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793268352&width=1024&sig=I5%2F59rVqTBLAirNMPQvivDR8Y90Cf0I9AqvjLV0oFt0%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1793364067-z6BQQeu2oe49WjcXFocCzCh%2BaNmic8KPEcqifKS6hpY%3D/projects/5381627/video-1456430-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793364067-z6BQQeu2oe49WjcXFocCzCh%2BaNmic8KPEcqifKS6hpY%3D/projects/5381627/video-1456430-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11502142,
       "price": 489.0,
       "title": "Secret Reward - Single Pack",
       "desc": "🔐Exclusively unlocked for our deposit backers. Thank you for being with us from the start!\\n\\n🤖 Get the AI WUKONG Single Pack at $489, saving 51% off the MSRP of $999! Exclusively unlocked for our deposit backers.\\n\\nYou will receive:\\n· AI WUKONG × 1\\n\\nNote:\\n📍 Shipping addresses will be collected in the upcoming survey.\\n🚚 For detailed shipping fees, please refer to the bottom of our campaign page.",
-      "backers": 11,
+      "backers": 12,
       "limit": 300,
-      "remaining": 289,
+      "remaining": 288,
       "eta": 1801440000,
       "shipping": "unrestricted"
      },
@@ -497,260 +497,250 @@
       "price": 659.0,
       "title": "Super Early Bird — All-in-One Pack",
       "desc": "🤖 Get the AI WUKONG All-in-One Pack at $659, saving 42% off the combined MSRP of $1,137!\\n\\nYou will receive:\\n· AI WUKONG × 1\\n· Suspender Shorts × 1\\n· Cloud Stand × 1\\n\\nNote:\\n📍 Shipping addresses will be collected in the upcoming survey.\\n🎨 You can also select your preferred Suspender Shorts color in the survey.\\n🚚 For detailed shipping fees, please refer to the bottom of our campaign page.",
-      "backers": 11,
+      "backers": 16,
       "limit": 100,
-      "remaining": 89,
+      "remaining": 84,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 15,
-    "tiersDate": "2026-10-29",
-    "tiersCarried": "2026-10-29",
+    "tiersDate": "2026-10-30",
+    "tiersCarried": "",
     "cues": [
      [
       2.38,
-      6.6,
+      6.48,
       "早上好。是时候起床了。"
      ],
      [
-      6.6,
-      8.69,
+      6.48,
+      8.54,
       "新的一天从熟悉的开始"
      ],
      [
-      8.69,
-      9.34,
+      8.54,
+      9.18,
       "同伴。"
      ],
      [
-      9.34,
-      12.32,
+      9.18,
+      11.48,
       "醒来后会收到令人高兴的回应。"
      ],
      [
-      12.32,
-      14.28,
+      11.48,
+      13.98,
       "认识一下这个家族的最新成员。"
      ],
      [
-      14.28,
-      16.97,
+      13.98,
+      16.84,
       "您的孩子一直在等待的那个人，"
      ],
      [
-      16.97,
-      18.52,
+      16.84,
+      18.48,
       "向他们介绍人工智能。"
      ],
      [
-      18.52,
-      22.88,
-      "你好！我是一名警察。你是个男孩，威廉。"
+      18.48,
+      22.6,
+      "你好！我是一名警察，你的孩子，威廉。"
      ],
      [
-      22.88,
-      25.46,
+      22.6,
+      25.06,
       "它像朋友一样聊天并陪伴在您身边"
      ],
      [
-      25.46,
-      26.56,
+      25.06,
+      26.1,
       "身边就像家人一样。"
      ],
      [
-      26.56,
-      42.28,
+      26.1,
+      41.74,
       "Kong不只是听，它还记得。"
      ],
      [
-      42.28,
-      47.37,
-      "谁站在我这边？"
+      41.74,
+      47.33,
+      "谁是我的摇滚乐？"
      ],
      [
-      47.37,
-      50.14,
-      "有了长期记忆，孔还记得谁"
+      47.33,
+      49.92,
+      "香港有长期记忆"
      ],
      [
-      50.14,
-      52.77,
+      49.92,
+      52.33,
       "孩子生活中的小事。"
      ],
      [
-      52.77,
-      57.12,
+      52.33,
+      55.37,
       "块式可视化编程转变思想"
      ],
      [
-      57.12,
-      58.5,
+      55.37,
+      56.33,
       "付诸行动。"
      ],
      [
-      58.5,
-      61.67,
+      56.33,
+      67.33,
       "每一步都很容易遵循。每一个想法"
      ],
      [
-      61.67,
-      62.78,
+      67.33,
+      71.18,
       "变得栩栩如生。"
      ],
      [
-      62.78,
-      72.82,
-      "14个伺服电机。"
+      71.18,
+      74.18,
+      "14个伺服电机。香港是一个充满活力的"
      ],
      [
-      72.82,
-      75.84,
-      "悟空是一个充满活力的活动生命。"
+      74.18,
+      75.18,
+      "活动寿命。"
      ],
      [
-      75.84,
-      81.29,
-      "一个悟空，所以一家人"
+      75.18,
+      79.83,
+      "一个香港，无处不在"
      ],
      [
-      81.29,
-      81.94,
-      "生活。"
+      79.83,
+      81.3,
+      "家庭生活。"
      ],
      [
-      81.94,
-      86.56,
-      "爸爸正盯着它。"
+      81.3,
+      85.96,
+      "爸爸，爸爸正在盯着它呢！"
      ],
      [
-      86.56,
-      92.46,
-      "嗨，悟空。马库斯今天更新了什么？"
+      85.96,
+      88.96,
+      "你好，香港。马库斯，今天是什么日子？"
      ],
      [
-      92.46,
-      97.36,
+      88.96,
+      97.38,
       "焕然一新的面貌让每一天都焕然一新。"
      ],
      [
-      97.36,
-      100.0,
-      "它移动了。它表达了自己。"
+      97.38,
+      100.38,
+      "它移动，它表达自己。"
      ],
      [
-      100.0,
-      108.28,
+      100.38,
+      108.58,
       "这就是让它感觉真实的原因"
      ],
      [
-      108.28,
-      109.85,
+      108.58,
+      110.13,
       "朋友。"
      ],
      [
-      109.85,
-      112.85,
+      110.13,
+      114.98,
       "远程签到，随时通话。"
      ],
      [
-      112.85,
-      117.0,
+      114.98,
+      116.98,
       "射线绘图。"
      ],
      [
-      117.0,
-      119.1,
-      "悟空，这是什么？"
+      116.98,
+      118.98,
+      "香港，是什么？"
      ],
      [
-      119.1,
-      124.52,
-      "我不能说我有治愈方法。"
+      118.98,
+      127.42,
+      "我不能告诉我这里是什么。"
      ],
      [
-      124.52,
-      128.92,
-      "而且你甚至无法练习。"
+      127.42,
+      130.42,
+      "而接受练习就是这样的信心。"
      ],
      [
-      128.92,
-      130.18,
-      "这不是信心。"
-     ],
-     [
-      130.18,
-      132.1,
+      130.42,
+      132.42,
       "一次一句话。"
      ],
      [
-      132.1,
-      133.1,
+      132.42,
+      133.42,
       "一个玩伴。"
      ],
      [
-      133.1,
-      135.46,
-      "还有一支随时准备提供帮助的团队。"
+      133.42,
+      135.42,
+      "另外两个人，他随时准备提供帮助。"
      ],
      [
-      135.46,
-      136.58,
-      "好工作！"
+      135.42,
+      138.42,
+      "为什么要画画？为什么要画高级代表？"
      ],
      [
-      136.58,
-      144.65,
-      "我为什么要看你的包裹？"
+      138.42,
+      146.89,
+      "一本适合全家人的百科全书。"
      ],
      [
-      144.65,
-      147.17,
-      "并在全家人的百科全书中。"
-     ],
-     [
-      147.17,
-      150.06,
+      146.89,
+      149.71,
       "涵盖财经、科普、故事、"
      ],
      [
-      150.06,
-      152.29,
+      149.71,
+      151.89,
       "天气、历史等等。"
      ],
      [
-      152.29,
-      162.54,
-      "过了很长一段时间，也在家里。"
+      151.89,
+      161.54,
+      "还有，久别重逢的家人。"
      ],
      [
-      162.54,
-      165.11,
-      "悟空清楚地记得在哪里"
+      161.54,
+      164.44,
+      "香港清楚地记得在哪里"
      ],
      [
-      165.11,
-      167.14,
+      164.44,
+      166.54,
       "未完成的故事就此结束。"
      ],
      [
-      167.14,
-      169.61,
+      166.54,
+      169.25,
       "不仅仅是一个机器人，更是一个成长的伙伴"
      ],
      [
-      169.61,
-      170.78,
+      169.25,
+      170.54,
       "和你的孩子在一起。"
      ],
      [
-      170.78,
-      173.22,
+      170.54,
+      173.01,
       "今天为您的孩子准备好了"
      ],
      [
-      173.22,
-      173.74,
+      173.01,
+      173.54,
       "明天。"
      ]
     ],
@@ -956,11 +946,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 35000.0,
-    "pledged": 1320425.0,
-    "usdPledged": "168252.97692375",
+    "pledged": 1338715.0,
+    "usdPledged": "170583.54999525",
     "goalUsd": 4459.82,
-    "percentFunded": 3772.642857142857,
-    "backers": 2658,
+    "percentFunded": 3824.9,
+    "backers": 2698,
     "deadline": 1795266003,
     "launchedAt": 1792670403,
     "staffPick": true,
@@ -970,10 +960,10 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7798,
-    "coverRemote": "https://i.kickstarter.com/assets/055/399/101/68e7942ab6362df387f9392fbeff59de_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791257434&width=1024&sig=Kiq9NMdRvwMX3keuVeG0AVY5raPyL0Zzc%2Bgm1e696w0%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "score": 0.7803,
+    "coverRemote": "https://i.kickstarter.com/assets/055/719/992/86443f9d4a1008a821617ad5c36f944d_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793369139&width=1024&sig=1pacSCOQNAeuzV9AwUzbSA%2F%2Bx%2BgJYKjPo858HDVcG%2BQ%3D",
+    "videoMp4": "https://v2.kickstarter.com/1793369695-8kMfdetgvT4rAsm4b4mWrqzukF6aKoLEMUWWORFHrLs%3D/projects/5393674/video-1469587-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793369695-8kMfdetgvT4rAsm4b4mWrqzukF6aKoLEMUWWORFHrLs%3D/projects/5393674/video-1469587-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11488290,
@@ -991,9 +981,9 @@
       "price": 267.0,
       "title": "Wuben G6 Standard x1",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 1152,
-      "limit": 1400,
-      "remaining": 248,
+      "backers": 1225,
+      "limit": 1500,
+      "remaining": 275,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -1002,21 +992,21 @@
       "price": 515.0,
       "title": "Wuben G6 Standard x2",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 328,
+      "backers": 357,
       "limit": 500,
-      "remaining": 172,
+      "remaining": 143,
       "eta": 1798761600,
       "shipping": "restricted"
      }
     ],
     "rewardsTotal": 11,
-    "tiersDate": "2026-10-29",
-    "tiersCarried": "2026-10-29",
+    "tiersDate": "2026-10-30",
+    "tiersCarried": "",
     "cues": [
      [
       6.99,
       8.99,
-      "来认识一下武彬 G6。"
+      "认识一下乌班 G6。"
      ],
      [
       10.49,
@@ -1101,7 +1091,7 @@
      [
       53.62,
       54.91,
-      "需要时点亮。"
+      "需要浅灰色。"
      ],
      [
       54.91,
@@ -1141,7 +1131,7 @@
      [
       77.16,
       79.67,
-      "Wubin G6 包含日常必需品"
+      "Wuban G6 包含日常必需品"
      ],
      [
       79.67,
@@ -1162,15 +1152,11 @@
      },
      {
       "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/720/017/289cdf26f5d50e2c3f8864e24940bfa4_original.png?fit=scale-down&origin=ugc&q=100&v=1793369284&width=680&sig=LO83sxS5jz1QFeBzdLCHu0DUN4Nu57icE5blfTO4bD4%3D"
+     },
+     {
+      "t": "img",
       "u": "https://i.kickstarter.com/assets/055/560/345/6f81742461d5c9540eb14d9f745d07c2_original.gif?fit=scale-down&origin=ugc&q=92&v=1792336905&width=680&sig=0ERq9P807o4IORl3aGttjkvyaoba40HEqeh09g6ozHU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/477/046/c457f2b9ab29f49149b4cad659954ec5_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791797052&width=680&sig=HHa5HlaJAyXlJ32FGH8NVs%2BofBebDCedNuweGucD5iI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/629/317/1f64b44b0f336bb7349f38dcb96c4423_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792759127&width=680&sig=L47MYOEJMjCWKnm0Gxsfgru5nB0s1j6IBr%2BpUri4x2s%3D"
      },
      {
       "t": "img",
@@ -1238,6 +1224,10 @@
       "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将灯光保持在您需要的位置。"
      },
      {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/558/517/6638c10a8a928b7f256d60ee860b9ed4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792315259&width=680&sig=nIWaoRGJ%2F1zVieeIMDAiTl4FJPtdLpAA0IJA1SnueZw%3D"
+     },
+     {
       "t": "p",
       "x": "On the side opposite the G6’s rotating clip, a compact folding blade is integrated for everyday tasks and outdoor needs. It’s handy for opening packages, cutting cord, or taking care of quick campsite tasks.",
       "z": "在 G6 旋转夹的对面，集成了一个紧凑的折叠刀片，可满足日常任务和户外需求。它可以方便地打开包裹、剪断电源线或处理快速的露营地任务。"
@@ -1275,1078 +1265,6 @@
     ]
    },
    {
-    "id": 1321991576,
-    "name": "DogVibe: The Smart Dog Training Collar for Off-Leash Freedom",
-    "blurb": "A smart training system that detects leash pulling, sets virtual proximity fences, and runs from an app on your phone. No subscription.",
-    "url": "https://www.kickstarter.com/projects/dogvibe/dogvibe",
-    "category": "Hardware",
-    "creator": "DogVibe",
-    "location": "Austin, TX",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 20000.0,
-    "pledged": 629403.0,
-    "usdPledged": "629403.0",
-    "goalUsd": 20000.0,
-    "percentFunded": 3147.015,
-    "backers": 1866,
-    "deadline": 1793343600,
-    "launchedAt": 1790685085,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门",
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "smart"
-    ],
-    "score": 0.689,
-    "coverRemote": "https://i.kickstarter.com/assets/055/715/496/d692dbcd6a4da7f1059f5e0d66230f77_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793341845&width=1024&sig=96QgC1PEwJx5JP79dlS8%2FA5927VqNoDJm5%2BzhD6TJIY%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11303046,
-      "price": 250.0,
-      "title": "VIP - 1 Dog Bundle",
-      "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 32% OFF. $270 total with your $20 deposit, $130 off the $400 retail price\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 432,
-      "limit": 450,
-      "remaining": 18,
-      "eta": 1806537600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11433279,
-      "price": 295.0,
-      "title": "Early Bird - 1 Dog Bundle",
-      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 26% OFF. $105 off the $400 retail price\\n⚡ Limited quantity. When these are gone the price goes to $330.\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 844,
-      "limit": 900,
-      "remaining": 56,
-      "eta": 1806537600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11433286,
-      "price": 475.0,
-      "title": "Early Bird - 2 Dog Bundle",
-      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 2x DogVibe\\n✅ 2x Static Module\\n✅ 2x Leash Module\\n✅ 1x Remote\\n\\n🚀 40% OFF. $325 off the $800 retail price\\n🐕 $238 per dog\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 247,
-      "limit": 260,
-      "remaining": 13,
-      "eta": 1806537600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 13,
-    "tiersDate": "2026-10-29",
-    "tiersCarried": "2026-10-29",
-    "cues": [
-     [
-      19.31,
-      22.07,
-      "我是迈尔斯，这是我的狗巴鲁。"
-     ],
-     [
-      22.07,
-      24.55,
-      "我们一起创造了这种狗的氛围，"
-     ],
-     [
-      24.55,
-      27.27,
-      "首创的智能电子颜色停止"
-     ],
-     [
-      27.27,
-      28.11,
-      "牵引绳"
-     ],
-     [
-      28.11,
-      30.59,
-      "并建立真正的不受束缚的信任。"
-     ],
-     [
-      30.59,
-      32.59,
-      "最好的部分是蓝牙控制，"
-     ],
-     [
-      32.59,
-      35.25,
-      "这意味着您的手机就像您的日常生活"
-     ],
-     [
-      35.25,
-      35.71,
-      "远程。"
-     ],
-     [
-      35.71,
-      37.31,
-      "拥有一只狗可以是令人难以置信的，"
-     ],
-     [
-      37.31,
-      39.47,
-      "一个冒险伙伴，一个最好的朋友。"
-     ],
-     [
-      39.47,
-      41.03,
-      "但现实是养狗"
-     ],
-     [
-      41.03,
-      42.71,
-      "有时可能会很困难"
-     ],
-     [
-      42.71,
-      44.71,
-      "训练他们可能会令人畏惧。"
-     ],
-     [
-      44.71,
-      48.83,
-      "拉扯，吠叫，不来"
-     ],
-     [
-      48.83,
-      49.99,
-      "当你打电话给他们时。"
-     ],
-     [
-      49.99,
-      51.43,
-      "阿普索斯！"
-     ],
-     [
-      51.43,
-      53.39,
-      "无法信任他们。"
-     ],
-     [
-      53.39,
-      54.99,
-      "如果你经常感到压力很大，"
-     ],
-     [
-      54.99,
-      57.11,
-      "总是为你的狗的行为道歉"
-     ],
-     [
-      57.11,
-      58.99,
-      "感觉你就是不能相信他，我"
-     ],
-     [
-      58.99,
-      59.31,
-      "得到它，"
-     ],
-     [
-      59.31,
-      60.63,
-      "因为我也去过那里"
-     ],
-     [
-      60.63,
-      63.02,
-      "这正是我养狗的原因"
-     ],
-     [
-      63.02,
-      63.31,
-      "氛围。"
-     ],
-     [
-      63.31,
-      64.67,
-      "我什至在进行营销"
-     ],
-     [
-      64.67,
-      66.71,
-      "发展最快的宠物品牌之一"
-     ],
-     [
-      66.71,
-      67.31,
-      "在世界上"
-     ],
-     [
-      67.31,
-      68.55,
-      "做了一个分散注意力的玩具"
-     ],
-     [
-      68.55,
-      70.43,
-      "为了帮助反应性的狗安定下来，"
-     ],
-     [
-      70.43,
-      72.48,
-      "但我仍然遇到问题"
-     ],
-     [
-      72.48,
-      72.99,
-      "现实世界"
-     ],
-     [
-      72.99,
-      77.01,
-      "下面是我的狗。"
-     ],
-     [
-      77.01,
-      79.1,
-      "所以我建立了这个我希望存在的系统"
-     ],
-     [
-      79.1,
-      79.85,
-      "当我开始的时候。"
-     ],
-     [
-      79.85,
-      81.57,
-      "一种一致的培训语言"
-     ],
-     [
-      81.57,
-      88.91,
-      "你的狗最终会理解的。"
-     ],
-     [
-      88.91,
-      90.55,
-      "这就是狗的氛围系统。"
-     ],
-     [
-      90.55,
-      92.59,
-      "它由四块硬件组成。"
-     ],
-     [
-      92.59,
-      94.87,
-      "狗的氛围，皮带模块，"
-     ],
-     [
-      94.87,
-      96.91,
-      "可选的静态校正模块，"
-     ],
-     [
-      96.91,
-      98.23,
-      "和我们的远程遥控器。"
-     ],
-     [
-      98.23,
-      99.79,
-      "狗的氛围与颜色有关"
-     ],
-     [
-      99.79,
-      101.27,
-      "你的狗已经穿了"
-     ],
-     [
-      101.27,
-      103.66,
-      "它用超声波与他们交谈"
-     ],
-     [
-      103.66,
-      104.83,
-      "音调和振动。"
-     ],
-     [
-      104.83,
-      106.67,
-      "它有发声检测"
-     ],
-     [
-      106.67,
-      108.56,
-      "帮助平息过度吠叫"
-     ],
-     [
-      108.56,
-      109.35,
-      "自动地"
-     ],
-     [
-      109.35,
-      111.67,
-      "它适合 7 天 24 小时穿着"
-     ],
-     [
-      111.67,
-      114.11,
-      "这样规则就永远不会改变。"
-     ],
-     [
-      114.11,
-      115.27,
-      "有了狗的氛围应用程序，"
-     ],
-     [
-      115.27,
-      117.31,
-      "您的手机充当您的日常遥控器。"
-     ],
-     [
-      117.31,
-      118.67,
-      "锁定屏幕上的小部件"
-     ],
-     [
-      118.67,
-      120.23,
-      "意味着你甚至不需要解锁"
-     ],
-     [
-      120.23,
-      120.63,
-      "你的手机"
-     ],
-     [
-      120.63,
-      121.51,
-      "使用颜色。"
-     ],
-     [
-      121.51,
-      123.47,
-      "每个设置都在应用程序中"
-     ],
-     [
-      123.47,
-      125.59,
-      "射程约 200 英尺。"
-     ],
-     [
-      125.59,
-      127.79,
-      "一部手机最多可容纳四只狗"
-     ],
-     [
-      127.79,
-      130.36,
-      "和全家人的手机相比"
-     ],
-     [
-      130.36,
-      130.99,
-      "一种颜色。"
-     ],
-     [
-      130.99,
-      132.88,
-      "皮带模块夹在您的狗之间"
-     ],
-     [
-      132.88,
-      133.11,
-      "颜色"
-     ],
-     [
-      133.11,
-      134.19,
-      "和皮带。"
-     ],
-     [
-      134.19,
-      135.75,
-      "所以当你的狗拉扯时，"
-     ],
-     [
-      135.75,
-      138.82,
-      "每一个颜色都会立即响应"
-     ],
-     [
-      138.82,
-      139.19,
-      "时间。"
-     ],
-     [
-      139.19,
-      141.27,
-      "你的狗很快就能把这些点连起来"
-     ],
-     [
-      141.27,
-      143.07,
-      "这意味着拉力停止"
-     ],
-     [
-      143.07,
-      145.75,
-      "你紧张的散步变得平静，"
-     ],
-     [
-      145.75,
-      146.95,
-      "松散的皮带行走。"
-     ],
-     [
-      146.95,
-      149.07,
-      "最好的部分是它是自动的"
-     ],
-     [
-      149.07,
-      151.02,
-      "这意味着它适用于每一个"
-     ],
-     [
-      151.02,
-      151.23,
-      "时间"
-     ],
-     [
-      151.23,
-      152.43,
-      "与任何大小的狗。"
-     ],
-     [
-      153.35,
-      155.44,
-      "然后是远程遥控"
-     ],
-     [
-      155.44,
-      156.19,
-      "调用按钮。"
-     ],
-     [
-      156.19,
-      158.62,
-      "我们帮助您训练实际上的回忆能力"
-     ],
-     [
-      158.62,
-      158.99,
-      "成立。"
-     ],
-     [
-      158.99,
-      160.99,
-      "好的，让我向您展示一个召回演示。"
-     ],
-     [
-      160.99,
-      162.79,
-      "我这里有召回按钮"
-     ],
-     [
-      162.79,
-      163.19,
-      "我的手机，"
-     ],
-     [
-      163.19,
-      164.63,
-      "宽松的衣领。"
-     ],
-     [
-      164.63,
-      166.55,
-      "当我击中这个时，她知道要回来"
-     ],
-     [
-      166.55,
-      167.43,
-      "每一次。"
-     ],
-     [
-      168.43,
-      171.16,
-      "所以我打了它，她听到了，她继续前进"
-     ],
-     [
-      171.16,
-      171.51,
-      "回来。"
-     ],
-     [
-      171.51,
-      172.35,
-      "来吧，嘘。"
-     ],
-     [
-      173.35,
-      175.03,
-      "就这样，我训练了她"
-     ],
-     [
-      175.03,
-      175.11,
-      "向上"
-     ],
-     [
-      175.11,
-      176.83,
-      "每次都会回来。"
-     ],
-     [
-      176.83,
-      178.72,
-      "我们还包括内部培训"
-     ],
-     [
-      178.72,
-      178.87,
-      "应用程序"
-     ],
-     [
-      178.87,
-      181.03,
-      "帮助您训练您的狗做同样的事情。"
-     ],
-     [
-      181.03,
-      183.47,
-      "一旦记忆牢固，你就可以解锁它。"
-     ],
-     [
-      183.47,
-      186.15,
-      "接近模式，随移动的栅栏"
-     ],
-     [
-      186.15,
-      186.43,
-      "你。"
-     ],
-     [
-      186.43,
-      187.75,
-      "无论你走到哪里。"
-     ],
-     [
-      187.75,
-      190.59,
-      "将其设置在 5 到 200 英尺之间的任意位置。"
-     ],
-     [
-      190.59,
-      192.35,
-      "当你的狗接近边界时"
-     ],
-     [
-      192.35,
-      194.71,
-      "他们会自动听到召回音。"
-     ],
-     [
-      194.71,
-      197.61,
-      "所以当heipes在海滩跑步或者"
-     ],
-     [
-      197.61,
-      198.27,
-      "露营,"
-     ],
-     [
-      198.27,
-      199.59,
-      "你可以让你的狗摆脱束缚"
-     ],
-     [
-      199.59,
-      201.99,
-      "并相信他们会保持密切联系。"
-     ],
-     [
-      201.99,
-      204.0,
-      "所以技术很酷，但我们是这样的"
-     ],
-     [
-      204.0,
-      205.11,
-      "考虑培训。"
-     ],
-     [
-      205.11,
-      207.3,
-      "一切与狗的氛围都是建立在"
-     ],
-     [
-      207.3,
-      208.03,
-      "信任、玩耍、"
-     ],
-     [
-      208.03,
-      210.04,
-      "并在狗狗做事时给予奖励"
-     ],
-     [
-      210.04,
-      210.83,
-      "正确的事情。"
-     ],
-     [
-      210.83,
-      212.31,
-      "这并不是很多人的想法"
-     ],
-     [
-      212.31,
-      212.51,
-      "关于"
-     ],
-     [
-      212.51,
-      214.27,
-      "当他们听到训练呼唤她时。"
-     ],
-     [
-      214.27,
-      216.23,
-      "所以我们还有可选的静态"
-     ],
-     [
-      216.23,
-      217.19,
-      "校正模块，"
-     ],
-     [
-      217.19,
-      219.11,
-      "总是被误解"
-     ],
-     [
-      219.11,
-      221.07,
-      "可能不是你想的那样。"
-     ],
-     [
-      221.07,
-      223.11,
-      "我在下面的视频中深入探讨了这一点。"
-     ],
-     [
-      223.11,
-      225.02,
-      "所以当你完成这里后，向下滚动，"
-     ],
-     [
-      225.02,
-      225.67,
-      "一探究竟。"
-     ],
-     [
-      225.67,
-      228.01,
-      "我会告诉你为什么它不是什么"
-     ],
-     [
-      228.01,
-      228.95,
-      "害怕。"
-     ],
-     [
-      228.95,
-      230.95,
-      "所以让我直接告诉你吧。"
-     ],
-     [
-      230.95,
-      232.95,
-      "狗的氛围并不是灵丹妙药。"
-     ],
-     [
-      232.95,
-      234.11,
-      "这不是魔法项圈。"
-     ],
-     [
-      234.11,
-      236.18,
-      "你拍你的狗一巴掌，它就解决了所有问题"
-     ],
-     [
-      236.18,
-      236.95,
-      "他们的问题。"
-     ],
-     [
-      236.95,
-      239.91,
-      "训练狗需要你付出真正的努力"
-     ],
-     [
-      239.91,
-      240.67,
-      "业主。"
-     ],
-     [
-      240.67,
-      242.25,
-      "但狗的氛围提供的是"
-     ],
-     [
-      242.25,
-      243.63,
-      "令人难以置信的硬件"
-     ],
-     [
-      243.63,
-      245.61,
-      "搭配经过深思熟虑的培训"
-     ],
-     [
-      245.61,
-      245.91,
-      "系统"
-     ],
-     [
-      245.91,
-      248.03,
-      "由专业训狗师开发。"
-     ],
-     [
-      248.03,
-      249.63,
-      "我在狗的空间里度过了很多年"
-     ],
-     [
-      249.63,
-      251.73,
-      "我理解这些问题是因为"
-     ],
-     [
-      251.73,
-      252.59,
-      "我经历过它们。"
-     ],
-     [
-      252.59,
-      254.95,
-      "我为自己和我的人建立了这个系统"
-     ],
-     [
-      254.95,
-      255.19,
-      "狗,"
-     ],
-     [
-      255.19,
-      256.92,
-      "但现在我准备好与大家分享"
-     ],
-     [
-      256.92,
-      257.19,
-      "世界。"
-     ],
-     [
-      257.19,
-      259.71,
-      "我之前已经筹集了超过 200 万美元"
-     ],
-     [
-      259.71,
-      261.78,
-      "就在 Kickstarter 上，以获取之前的信息"
-     ],
-     [
-      261.78,
-      262.31,
-      "项目。"
-     ],
-     [
-      262.31,
-      264.18,
-      "我曾参加过《创智赢家》的其中一部"
-     ],
-     [
-      264.18,
-      264.43,
-      "他们。"
-     ],
-     [
-      264.43,
-      266.63,
-      "我去过我们海外的厂家"
-     ],
-     [
-      266.63,
-      269.22,
-      "为狗的量产做好准备"
-     ],
-     [
-      269.22,
-      269.55,
-      "氛围。"
-     ],
-     [
-      269.55,
-      271.4,
-      "已有上千人放下"
-     ],
-     [
-      271.4,
-      271.63,
-      "钱"
-     ],
-     [
-      271.63,
-      274.0,
-      "保留狗的氛围，我不能再多了"
-     ],
-     [
-      274.0,
-      274.39,
-      "兴奋"
-     ],
-     [
-      274.39,
-      275.87,
-      "推出该产品。"
-     ],
-     [
-      275.87,
-      277.94,
-      "今天支持我们，您将成为其中之一"
-     ],
-     [
-      277.94,
-      278.55,
-      "第一个人"
-     ],
-     [
-      278.55,
-      281.0,
-      "在世界上获得最好的狗氛围"
-     ],
-     [
-      281.0,
-      281.31,
-      "价格"
-     ],
-     [
-      281.31,
-      282.55,
-      "他们将永远是。"
-     ],
-     [
-      282.55,
-      284.39,
-      "是时候给你的狗更多的自由了。"
-     ],
-     [
-      284.39,
-      286.75,
-      "因为生活，摆脱束缚会更好。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/346/760/4c12a19366b50f59805316173a7e0602_original.png?fit=scale-down&origin=ugc&q=100&v=1790874218&width=680&sig=6ELkjBFsJz9lSs1nwXfzZHKULXE9%2Bz%2F4SdrNBuLBGyI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/346/753/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790874140&width=680&sig=%2B2WlJ%2FbL1esU9MjMrTzGFlss8wi8d2C19Cs2DZItMO8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/258/947/2bb62fbdc7f6d341fc94378b8ade8489_original.png?fit=scale-down&origin=ugc&q=100&v=1790289022&width=680&sig=AJpcb2bcQ%2B3UdRHTibylJKrxs6GyoYLACVm%2FBMQKK8Y%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/349/683/7e77033f671a4f1217ab1192013a40cc_original.gif?fit=scale-down&origin=ugc&q=92&v=1790888644&width=680&sig=qCEmUCDLncOdFojVUSUgHVJEPevJOgA%2FRmhZxAFaVp4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/258/938/9805a093ed105671ed56896ab3c62070_original.png?fit=scale-down&origin=ugc&q=100&v=1790288884&width=680&sig=WZA6J80Gy1HdxnVD01HBSUTpZ%2FDgGQoRWVPDVAlXXpY%3D"
-     },
-     {
-      "t": "p",
-      "x": "DogVibe brings smart training tools, guided training and everyday control together in one connected system.",
-      "z": "DogVibe 将智能训练工具、指导训练和日常控制整合到一个互联系统中。"
-     },
-     {
-      "t": "p",
-      "x": "From leash pulling and recall to off-leash boundaries and barking, DogVibe gives you one consistent way to communicate with your dog, so everyday training leads to something bigger: more trust, more confidence, and more freedom together.",
-      "z": "从牵引绳和回忆到脱离牵引绳的界限和吠叫，DogVibe 为您提供了一种与您的狗沟通的一致方式，因此日常训练会带来更大的收获：更多的信任、更多的信心和更多的自由。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/535/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790554466&width=680&sig=6ew6tl3AQlCkLwQ7aLcn%2FWCn58XOZD62GGL2g1xfqk8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/534/0b9ea946d273526f73a778aba69b4414_original.png?fit=scale-down&origin=ugc&q=100&v=1790554454&width=680&sig=FqnO%2FYkcx1QivrBYbxXdwhqKCA9gp1ZxkB2yav0Jyh0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/260/916/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790305171&width=680&sig=ni7hnl%2BGVzJUxI5cbefZODphwfn7mRVOkQnSwNs53M0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/644/28e4f30928c4db7ab4b8db2a0ae57ece_original.png?fit=scale-down&origin=ugc&q=100&v=1790555345&width=680&sig=apGg%2F5pUR6DSBa7B8aQO7GErbCbZViCP3H%2BXbzZbkvk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/261/457/f25f694664ea330ae7f4a17d6d4b31d8_original.gif?fit=scale-down&origin=ugc&q=92&v=1790309050&width=680&sig=tXtl%2FGspwkOOouCVln%2FhWcklwaSYQ2mwdlDAfgQWZgQ%3D"
-     },
-     {
-      "t": "p",
-      "x": "You may have watched the videos, tried different techniques, changed equipment, or worked with a trainer, but progress still feels inconsistent.",
-      "z": "您可能已经观看了视频、尝试了不同的技术、更换了设备或与培训师一起工作，但进步仍然感觉不一致。"
-     },
-     {
-      "t": "p",
-      "x": "One technique says one thing. Another says something different. Your timing changes, your signals change, and what worked yesterday stops working today.",
-      "z": "一种技术说明一件事。另一个说不同的话。你的时间改变了，你的信号改变了，昨天有效的方法今天就不再有效了。"
-     },
-     {
-      "t": "p",
-      "x": "To you, the changes seem inconsequential. To your dog, the rules keep changing.",
-      "z": "对你来说，这些变化似乎无关紧要。对于你的狗来说，规则不断变化。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/260/918/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790305181&width=680&sig=uYhfxBNDF28RKxl0xaHgG9CgYZ23%2FrpTxORipnFyE64%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/303/912/90ffa18743926421087c89566be357d9_original.png?fit=scale-down&origin=ugc&q=100&v=1790636563&width=680&sig=NAymglMbYftYf5Wu%2BAvNkV4ii0sNF6UGWVU%2FHwzC3ns%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/457/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790553433&width=680&sig=uw770%2FRU57%2FgzUcxY%2F7F9ThA7HCY51EK4cQqz2RmB%2Bw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/513/5669e2ee3f83f003b0555a8438136651_original.gif?fit=scale-down&origin=ugc&q=92&v=1790554078&width=680&sig=zODX4OvdQG4nJz8pCirq0pbXt%2B4eS6HrcXaLdEhLA8U%3D"
-     },
-     {
-      "t": "p",
-      "x": "DogVibe is the center of the whole system and clips onto the collar your dog already wears. It talks to your pup with an ultrasonic tone and vibration. It has a dedicated recall tone, bark detection, and a night light. It connects wirelessly to your phone, the remote, and other all other modules.",
-      "z": "DogVibe 是整个系统的中心，可夹在您的狗已经佩戴的项圈上。它通过超声波和振动与您的小狗交谈。它具有专用的召回音、树皮检测和夜灯。它无线连接到您的手机、遥控器和其他所有模块。"
-     },
-     {
-      "t": "p",
-      "x": "*   Attaches to the collar your dog already wears",
-      "z": "* 连接到您的狗已经佩戴的项圈上"
-     },
-     {
-      "t": "p",
-      "x": "*   Ultrasonic correction tone and vibration",
-      "z": "* 超声波修正音调和振动"
-     },
-     {
-      "t": "p",
-      "x": "*   Dedicated recall tone",
-      "z": "* 专用回忆音"
-     },
-     {
-      "t": "p",
-      "x": "*   Bark detection",
-      "z": "* 树皮检测"
-     },
-     {
-      "t": "p",
-      "x": "*   Night light",
-      "z": "* 夜灯"
-     },
-     {
-      "t": "p",
-      "x": "*   Fully waterproof",
-      "z": "* 完全防水"
-     },
-     {
-      "t": "p",
-      "x": "*   Two-week battery, USB-C charging",
-      "z": "* 两周电池，USB-C 充电"
-     },
-     {
-      "t": "p",
-      "x": "Clips between the collar and the leash. The moment your dog pulls, the collar responds. Automatically, on every walk, with perfect timing. You set how much pull triggers a correction and whether the correction builds gradually or fires immediately.",
-      "z": "夹在项圈和皮带之间。当你的狗拉动时，项圈就会做出反应。每次行走时都会自动完成，时机恰到好处。您可以设置触发修正的拉动量以及修正是逐渐建立还是立即触发。"
-     },
-     {
-      "t": "p",
-      "x": "*   Works with any-size dog",
-      "z": "* 适用于任何体型的狗"
-     },
-     {
-      "t": "p",
-      "x": "*   Waterproof",
-      "z": "* 防水"
-     },
-     {
-      "t": "p",
-      "x": "*   Automatic corrections (tone/vibration/static)",
-      "z": "* 自动校正（音调/振动/静态）"
-     },
-     {
-      "t": "p",
-      "x": "*   Fully adjustable based on dog’s weight and behavior",
-      "z": "* 根据狗的体重和行为完全调节"
-     },
-     {
-      "t": "p",
-      "x": "*   Fully adjustable inside the app",
-      "z": "* 在应用程序内完全可调"
-     },
-     {
-      "t": "p",
-      "x": "*   No remote needed",
-      "z": "* 无需遥控器"
-     },
-     {
-      "t": "p",
-      "x": "*   Finally achieve loose-leash walks",
-      "z": "* 最终实现自由行走"
-     },
-     {
-      "t": "p",
-      "x": "When you need to communicate with your dog from a distance, the remote reaches three-quarters of a mile for recall. You don't have to carry it every day, but it's there when the situation calls for it.",
-      "z": "当您需要与您的狗进行远距离交流时，遥控器可以到达四分之三英里进行调用。您不必每天都携带它，但当情况需要时它就在那里。"
-     },
-     {
-      "t": "p",
-      "x": "*   3/4 mile range for all controls",
-      "z": "* 所有控制范围为 3/4 英里"
-     },
-     {
-      "t": "p",
-      "x": "*   Enables Proximity Mode with 5-200’ range",
-      "z": "* 启用 5-200 英尺范围内的接近模式"
-     },
-     {
-      "t": "p",
-      "x": "*   Waterproof",
-      "z": "* 防水"
-     },
-     {
-      "t": "p",
-      "x": "*   2 week charge",
-      "z": "* 2周充电"
-     }
-    ]
-   },
-   {
     "id": 1162759019,
     "name": "iMicro XL15 - A pocket-sized micro exploration studio.",
     "blurb": "A complete smartphone microscope kit with a removable light module, improved focus stand, and everything to reveal hidden details.",
@@ -2358,11 +1276,11 @@
     "currency": "CAD",
     "currencySymbol": "$",
     "goal": 14125.0,
-    "pledged": 96417.0,
-    "usdPledged": "68282.54350425",
+    "pledged": 97296.0,
+    "usdPledged": "68905.051524",
     "goalUsd": 10003.33,
-    "percentFunded": 682.5982300884956,
-    "backers": 886,
+    "percentFunded": 688.821238938053,
+    "backers": 895,
     "deadline": 1797692281,
     "launchedAt": 1792504681,
     "staffPick": true,
@@ -2373,17 +1291,371 @@
      "ai",
      "smart"
     ],
-    "score": 0.6,
+    "score": 0.6039,
     "coverRemote": "https://i.kickstarter.com/assets/054/694/967/8f35ddcac12e48b0e4f384b0383681bc_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1786198720&width=1024&sig=B%2BXnc9ndlPSD%2BXJxKzRCyHlXZhIX5FHz6Z5XQqvXbeQ%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
+    "videoMp4": "https://v2.kickstarter.com/1793365946-Zw2bY6lwuB0zK27u9ZU%2FxCfl6Nh1eNe%2BcERmK4GUv0E%3D/projects/5369845/video-1462690-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793365946-Zw2bY6lwuB0zK27u9ZU%2FxCfl6Nh1eNe%2BcERmK4GUv0E%3D/projects/5369845/video-1462690-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11345543,
+      "price": 84.0,
+      "title": "iMicro XL15 - Super Early Bird",
+      "desc": "Congrats, you get the iMicro XL15 as Super Early Bird, which includes:\\niMicro XL15 lens, Lighting module, Focusing stand, μRuler M, App i-Seeing, and instruction sheet in a thin PP case also as lighting box",
+      "backers": 725,
+      "limit": 725,
+      "remaining": 0,
+      "eta": 1806537600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11345545,
+      "price": 89.0,
+      "title": "iMicro XL15 - Early Bird",
+      "desc": "Congrats, you get the iMicro XL15 as Early Bird, which includes:\\niMicro XL15 lens, Lighting module, Focusing stand, μRuler M, App i-Seeing, and instruction sheet in a thin PP case also as lighting box",
+      "backers": 152,
+      "limit": 180,
+      "remaining": 28,
+      "eta": 1806537600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11345547,
+      "price": 95.0,
+      "title": "Copy of iMicro XL15 - KS Offer",
+      "desc": "Congrats, you get the iMicro XL15 as Kickstarter Special Offer, which includes:\\niMicro XL15 lens, Lighting module, Focusing stand, μRuler M, App i-Seeing, and instruction sheet in a thin PP case also as lighting box",
+      "backers": 13,
+      "limit": null,
+      "remaining": null,
+      "eta": 1806537600,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 11,
+    "tiersDate": "2026-10-30",
     "tiersCarried": "",
     "cues": [],
     "vttLang": "",
-    "story": []
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/701/991/9c20d043ae997389bcd110b5ad6798ac_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1786286742&width=160&sig=UIqYXGOP1GhX9%2Bx7SQZrnNIy12i3UJpa3WWfbiEfj8I%3D"
+     },
+     {
+      "t": "p",
+      "x": "QingYing E&T LLC",
+      "z": "清盈经济技术有限公司"
+     },
+     {
+      "t": "p",
+      "x": "14 created•0 backed",
+      "z": "14 个创建•0 个支持"
+     },
+     {
+      "t": "p",
+      "x": "We are a team of microscopy enthusiasts and experts dedicated to creating innovative microscope tools that help you enjoy microscopic...",
+      "z": "我们是一支由显微镜爱好者和专家组成的团队，致力于创造创新的显微镜工具，帮助您享受显微镜......"
+     },
+     {
+      "t": "p",
+      "x": "*   [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Dice Throne Nexus](https://www.kickstarter.com/projects/dicethrone/dice-throne-nexus?ref=recommendation-projectpage-footer-1&category_id=Q2F0ZWdvcnktMzQ=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Dice Throne](https://www.kickstarter.com/profile/dicethrone)",
+      "z": "* [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[骰子王座Nexus](https://www.kickstarter.com/projects/dicethrone/dice-throne-nexus?ref=recommendation-projectpage-footer-1&category_id=Q2F0ZWdvcnktMzQ=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[骰子王座](https://www.kickstarter.com/profile/dicethrone)"
+     },
+     {
+      "t": "p",
+      "x": "4 days left • 3693% funded    [![Image 7: Project video for Dice Throne Nexus](https://i.kickstarter.com/assets/055/495/958/c2437663df93edd55de5f89cbee27c6b_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1791895791&width=560&sig=PENeqeLgR4CvGRf%2Buxx8qrpEUi5jlwagE5q1Xho4zi0%3D)[Video 5](https://v2.kickstarter.com/1793370151-zoGrKNirqSNgvxpfKVAuxzM1InSk6f07Gpd7Aq5myxM%3D/projects/5369479/video-1467869-hls_playlist.m3u8)](https://www.kickstarter.com/projects/dicethrone/dice-throne-nexus?ref=recommendation-projectpage-footer-1&category_id=Q2F0ZWdvcnktMzQ=)    [![Image 8: user avatar](https://i.kickstarter.com/assets/025/715/662/f062f2292e2c96c18cd94740ff83f6ba_original.jpg?anim=false&fit=cover&height=80&origin=ugc&q=92&v=1562367091&width=80&sig=PVjxgXEiPYnX3XYQKM8O5p0wx4AmHkfL%2F61R33r3W0Q%3D)](https://www.kickstarter.com/profile/dicethrone)      Four fully charged Heroes and an electric co-op experience for the collectible tabletop game.",
+      "z": "还剩 4 天 • 3693% 资金到位 [![图片 7：Dice Throne 的项目视频Nexus](https://i.kickstarter.com/assets/055/495/958/c2437663df93edd55de5f89cbee27c6b_original.png?anim=false&fit=cover&g ravity=auto&height=315&origin=ugc&q=92&v=1791895791&width=560&sig=PENeqeLgR4CvGRf%2Buxx8qrpEUi5jlwagE5q1Xho4zi0%3D)[视频5](https://v2.kickstarter.com/1793370151-zoGrKNirqSNgvxpfKVAuxzM1InSk6f07Gpd7Aq5myxM%3D/projects/5369479/video-1467869-hls_playlist.m3u8) ](https://www.kickstarter.com/projects/dicethrone/dice-throne-nexus?ref=recommendation-projectpage-footer-1&category_id=Q2F0ZWdvcnktMzQ=) [！[图片8：用户头像](https://i.kickstarter.com/assets/025/715/662/f062f2292e2c96c18cd94740ff83f6ba_original.jpg?anim=false&fit=cover&height=80&origi n=ugc&q=92&v=1562367091&width=80&sig=PVjxgXEiPYnX3XYQKM8O5p0wx4AmHkfL%2F61R33r3W0Q%3D)](https://www.kickstarter.com/profile/dicethrone)四个充满电的英雄和电动合作体验的收藏桌面游戏。"
+     },
+     {
+      "t": "p",
+      "x": "*   [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Rainbow Blvd. - A Colorful and Clever Board Game](https://www.kickstarter.com/projects/steelwinggames/rainbow-blvd?ref=recommendation-projectpage-footer-2&category_id=Q2F0ZWdvcnktMzQ=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Steelwing Games](https://www.kickstarter.com/profile/steelwinggames)",
+      "z": "* [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[彩虹大道。 - 丰富多彩、聪明的棋盘游戏](https://www.kickstarter.com/projects/steelwinggames/rainbow-blvd?ref=recommendation-projectpage-footer-2&category_id=Q2F0ZWdvcnktMzQ=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Steelwing游戏](https://www.kickstarter.com/profile/steelwinggames)"
+     },
+     {
+      "t": "p",
+      "x": "13 days left • 327% funded    [![Image 9: Project video for Rainbow Blvd. - A Colorful and Clever Board Game](https://i.kickstarter.com/assets/055/533/440/a9a7727c3ad81533966c3e5ef4913847_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1792100060&width=560&sig=UsCJKPOaV%2B4jcwfIva6nr87s4jWhYMBCexUoSAOiESg%3D)[Video 6](https://v2.kickstarter.com/1793370151-EMbNM6S6O0i1w%2B5KXAU3A73uNSit58UOA4aMcIbvaZ0%3D/projects/5270115/video-1465874-hls_playlist.m3u8)](https://www.kickstarter.com/projects/steelwinggames/rainbow-blvd?ref=recommendation-projectpage-footer-2&category_id=Q2F0ZWdvcnktMzQ=)    [![Image 10: user avatar](https://i.kickstarter.com/assets/052/122/290/57108c923ee3f93f1f3a56ecd4db0ed0_original.png?anim=false&fit=cover&height=80&origin=ugc&q=92&v=1767633636&width=80&sig=ZjXRBphU3YVh3q4IEP%2FhV9PnWsfq5v7TK3OOD1Eozm0%3D)](https://www.kickstarter.com/profile/steelwinggames)      Build beautiful translucent 3D rainbows & score on any player's turn in a vibrant strategy board game for 1–4 players (5 w/expansion).",
+      "z": "还剩 13 天 • 327% 资金到位 [![图片 9：Rainbow Blvd. 的项目视频。 - 色彩缤纷、巧妙的棋盘游戏](https://i.kickstarter.com/assets/055/533/440/a9a7727c3ad81533966c3e5ef4913847_original.png?anim=false&fit=cover&gr avity=自动&高度=315&原点=ugc&q=92&v=1792100060&宽度=560&sig=UsCJKPOaV%2B4jcwfIva6nr87s4jWhYMBCexUoSAOiESg%3D)[视频6](https://v2.kickstarter.com/1793370151-EMbNM6S6O0i1w%2B5KXAU3A73uNSit58UOA4aMcIbvaZ0%3D/projects/5270115/video-1465874-hls_playlist.m3u 8)](https://www.kickstarter.com/projects/steelwinggames/rainbow-blvd?ref=recommendation-projectpage-footer-2&category_id=Q2F0ZWdvcnktMzQ=) [！[图片10：用户头像](https://i.kickstarter.com/assets/052/122/290/57108c923ee3f93f1f3a56ecd4db0ed0_original.png?anim=false&fit=cover&height=80&origin= ugc&q=92&v=1767633636&width=80&sig=ZjXRBphU3YVh3q4IEP%2FhV9PnWsfq5v7TK3OOD1Eozm0%3D)](https://www.kickstarter.com/profile/steelwinggames)在这款适合 1-4 名玩家（5 人/扩展）的充满活力的策略棋盘游戏中，构建美丽的半透明 3D 彩虹并在任何玩家的回合中得分。"
+     },
+     {
+      "t": "p",
+      "x": "*   [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[AirCannon GPX: UNLEASH 118MPH POWER. THE MONSTER BLOWER](https://www.kickstarter.com/projects/magpietech/aircannon-gpx-unleash-118mph-power-the-monster-blower?ref=recommendation-projectpage-footer-3&category_id=Q2F0ZWdvcnktNTI=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Magpie Tech](https://www.kickstarter.com/profile/magpietech)",
+      "z": "* [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[AirCannon GPX：释放 118MPH 的力量。怪物鼓风机](https://www.kickstarter.com/projects/magpietech/aircannon-gpx-unleash-118mph-power-the-monster-blower?ref=recommendati on-projectpage-footer-3&category_id=Q2F0ZWdvcnktNTI=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Magpie技术](https://www.kickstarter.com/profile/magpietech)"
+     },
+     {
+      "t": "p",
+      "x": "7 days left • 10287% funded    [![Image 11: Project video for AirCannon GPX: UNLEASH 118MPH POWER. THE MONSTER BLOWER](https://i.kickstarter.com/assets/055/028/205/a7d8a80c5d44d3891cfc5695358d01d6_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1788770799&width=560&sig=A2GOvi37c7buC%2BjwoMRCXWXtbS%2FjcFZ492AWId1d4Pk%3D)[Video 7](https://v2.kickstarter.com/1793370151-iGxSgL%2Fm79prIZ6sHGiDZpe7gYFk6losfND1NxN3F%2Bk%3D/projects/5361281/video-1458010-hls_playlist.m3u8)](https://www.kickstarter.com/projects/magpietech/aircannon-gpx-unleash-118mph-power-the-monster-blower?ref=recommendation-projectpage-footer-3&category_id=Q2F0ZWdvcnktNTI=)    [![Image 12: user avatar](https://i.kickstarter.com/assets/046/867/196/c4314dff43621d8eecf0a65aa5d0ba32_original.png?anim=false&fit=cover&height=80&origin=ugc&q=92&v=1728887525&width=80&sig=QxZP%2BnEMxZBnsil22SJ4VH3OPczcOrBXxRcjhp3JqJg%3D)](https://www.kickstarter.com/profile/magpietech)      118MPH(190km/h) | 0.77lb Handy Size | 16.8V BL Motor | Jet Engine Blades | Heat-Resistant Design | 3 Nozzles with vacuum | 140,000RPM",
+      "z": "还剩 7 天 • 10287% 已获资助 [![图片 11：AirCannon GPX 项目视频：释放 118MPH 的力量。怪物鼓风机](https://i.kickstarter.com/assets/055/028/205/a7d8a80c5d44d3891cfc5695358d01d6_original.jpg?anim=false&fit=cover&gr avity=自动&高度=315&原点=ugc&q=92&v=1788770799&宽度=560&sig=A2GOvi37c7buC%2BjwoMRCXWXtbS%2FjcFZ492AWId1d4Pk%3D)[视频7](https://v2.kickstarter.com/1793370151-iGxSgL%2Fm79prIZ6sHGiDZpe7gYFk6losfND1NxN3F%2Bk%3D/projects/5361281/video-1458010-hls_playlist.m3u8)](https://www.ki ckstarter.com/projects/magpietech/aircannon-gpx-unleash-118mph-power-the-monster-blower?ref=recommendation-projectpage-footer-3&category_id=Q2F0ZWdvcnktNTI=) [！[图12：用户头像](https://i.kickstarter.com/assets/046/867/196/c4314dff43621d8eecf0a65aa5d0ba32_original.png?anim=false&fit=cover&height=80&origi n=ugc&q=92&v=1728887525&width=80&sig=QxZP%2BnEMxZBnsil22SJ4VH3OPczcOrBXxRcjhp3JqJg%3D)](https://www.kickstarter.com/profile/magpietech) 118 英里/小时（190 公里/小时）| 0.77 磅 方便尺寸 | 16.8V 无刷电机 |喷气发动机叶片|耐热设计| 3 个真空喷嘴 | 140,000转/分钟"
+     },
+     {
+      "t": "p",
+      "x": "*   [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Frost Titan Core Plate: Elevate Your Outdoor Experience.](https://www.kickstarter.com/projects/storagellc-japan/frost-titan-core-plate-10mm-titanium-cooling-plate?ref=recommendation-projectpage-footer-4&category_id=Q2F0ZWdvcnktMzM3)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[storagellc-japan](https://www.kickstarter.com/profile/storagellc-japan)",
+      "z": "* [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[冰霜泰坦核心板：提升您的户外体验经验。](https://www.kickstarter.com/projects/storagellc-japan/frost-titan-core-plate-10mm-titanium-cooling-plate?ref=recommendation-projectpage-footer-4&cate gory_id=Q2F0ZWdvcnktMzM3)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[storagellc-japan](https://www.kickstarter.com/profile/storagellc-japan)"
+     },
+     {
+      "t": "p",
+      "x": "2 days left • 13795% funded    [![Image 13: Project video for Frost Titan Core Plate: Elevate Your Outdoor Experience.](https://i.kickstarter.com/assets/054/974/348/47d0c1f5d29deda7e5d352d439b33d7f_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1788347325&width=560&sig=gvrUTniI79%2F0lpHMfhAZ2zhQwU3rssPDqeXThKNnOKQ%3D)[Video 8](https://v2.kickstarter.com/1793370151-OFCD1wslZsH6BcuugAHZWu3bKos8vsrFWNX8wdgah08%3D/projects/5344310/video-1456201-hls_playlist.m3u8)](https://www.kickstarter.com/projects/storagellc-japan/frost-titan-core-plate-10mm-titanium-cooling-plate?ref=recommendation-projectpage-footer-4&category_id=Q2F0ZWdvcnktMzM3)    [![Image 14: user avatar](https://i.kickstarter.com/assets/054/356/774/6ccb9c5a14e00647fe211c76d88b21fe_original.png?anim=false&fit=cover&height=80&origin=ugc&q=92&v=1783405669&width=80&sig=h%2BNyySd2MGBcZb3NhuWmlhUiBHx%2BF627PciJGF%2F3aLM%3D)](https://www.kickstarter.com/profile/storagellc-japan)      A 10mm Ultra-Slim Titanium Cooling Plate That Reaches 14°F (-10°C)—More Cold, Less Bulk.",
+      "z": "还剩 2 天 • 13795% 资金到位 [![图片 13：Frost Titan 核心板项目视频：提升您的户外体验经验。](https://i.kickstarter.com/assets/054/974/348/47d0c1f5d29deda7e5d352d439b33d7f_original.png?anim=false&fit=cove r&gravity=auto&height=315&origin=ugc&q=92&v=1788347325&width=560&sig=gvrUTniI79%2F0lpHMfhAZ2zhQwU3rssPDqeXThKNnOKQ%3D)[视频8](https://v2.kickstarter.com/1793370151-OFCD1wslZsH6BcuugAHZWu3bKos8vsrFWNX8wdgah08%3D/projects/5344310/video-1456201-hls_playlist.m3u8)](https://www.kicks tarter.com/projects/storagellc-japan/frost-titan-core-plate-10mm-titanium-cooling-plate?ref=recommendation-projectpage-footer-4&category_id=Q2F0ZWdvcnktMzM3) [！[图片14：用户头像](https://i.kickstarter.com/assets/054/356/774/6ccb9c5a14e00647fe211c76d88b21fe_original.png?anim=false&fit=cover&height=80&origin=ugc &q=92&v=1783405669&width=80&sig=h%2BNyySd2MGBcZb3NhuWmlhUiBHx%2BF627PciJGF%2F3aLM%3D)](https://www.kickstarter.com/profile/storagellc-japan) 10 毫米超薄钛冷却板，温度可达 14°F (-10°C) — 温度更低，体积更小。"
+     }
+    ]
+   },
+   {
+    "id": 300815528,
+    "name": "Lemmo 3: Next-Gen Full-Suspension Longtail SUV E-Bike",
+    "blurb": "4D Suspension | Semi-Solid-State Battery | 960Wh | Total Security System | Rear Radar | Combined Braking | Auto Shifting | Cargo Bike",
+    "url": "https://www.kickstarter.com/projects/lemmothree/lemmo-three-an-intelligent-all-purpose-vehicle-for-life",
+    "category": "Hardware",
+    "creator": "Lemmo",
+    "location": "Berlin, Germany",
+    "country": "Germany",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "goal": 20000.0,
+    "pledged": 936226.0,
+    "usdPledged": "1046004.13458052",
+    "goalUsd": 22345.12,
+    "percentFunded": 4681.13,
+    "backers": 425,
+    "deadline": 1796166000,
+    "launchedAt": 1793199548,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.5895,
+    "coverRemote": "https://i.kickstarter.com/assets/055/690/167/49b15de1a8de8b8964f4d6a24f018013_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793181462&width=1024&sig=R8OSw3Gqv4S1WHREb%2FUNLqy4QToxc4hLBoSHO4b0Baw%3D",
+    "videoMp4": "https://v2.kickstarter.com/1793348909-i3st0yBGxUc%2BvEovTNRjnwHRnzy1sL4fLdpxbImHZ1Y%3D/projects/5371017/video-1471935-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793348909-i3st0yBGxUc%2BvEovTNRjnwHRnzy1sL4fLdpxbImHZ1Y%3D/projects/5371017/video-1471935-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11492462,
+      "price": 1850.0,
+      "title": "Exclusive Reserve: Lemmo 3 White - Chain",
+      "desc": "Get your Lemmo 3 at our exclusive reserve price—limited quantities available.\\nMSRP €3,390\\n44% OFF\\n\\nSelect your add-ons in the next steps:\\n- Family & Passenger Bundle: +€199 (16% OFF)\\n- Outdoor Grand Tour Bundle: +€309 (16% OFF)\\n- More individual accessories available\\n\\n*Pledge price includes import duties and tariffs. VAT/GST/sales tax and shipping fees are excluded and vary by region.\\n*Shipping address, shipping fees, and any applicable VAT/GST will be collected through Pledge Manager when dispatch is closer in Spring 2027.\\n*Regional version auto-matched to your delivery address.",
+      "backers": 115,
+      "limit": null,
+      "remaining": null,
+      "eta": 1809129600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11492467,
+      "price": 1850.0,
+      "title": "Exclusive Reserve: Lemmo 3 Black - Chain",
+      "desc": "Get your Lemmo 3 at our exclusive reserve price—limited quantities available.\\nMSRP €3,390\\n44% OFF\\n\\nSelect your add-ons in the next steps:\\n- Family & Passenger Bundle: +€199 (16% OFF)\\n- Outdoor Grand Tour Bundle: +€309 (16% OFF)\\n- More individual accessories available\\n\\n*Pledge price includes import duties and tariffs. VAT/GST/sales tax and shipping fees are excluded and vary by region.\\n*Shipping address, shipping fees, and any applicable VAT/GST will be collected through Pledge Manager when dispatch is closer in Spring 2027.\\n*Regional version auto-matched to your delivery address.",
+      "backers": 94,
+      "limit": null,
+      "remaining": null,
+      "eta": 1809129600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11492204,
+      "price": 2019.0,
+      "title": "Exclusive Reserve: Lemmo 3 White - Belt",
+      "desc": "Get your Lemmo 3 at our exclusive reserve price—limited quantities available.\\nMSRP €3,559\\n42% OFF\\n\\nSelect your add-ons in the next steps:\\n- Family & Passenger Bundle: +€199 (16% OFF)\\n- Outdoor Grand Tour Bundle: +€309 (16% OFF)\\n- More individual accessories available\\n\\n*Pledge price includes import duties and tariffs. VAT/GST/sales tax and shipping fees are excluded and vary by region.\\n*Shipping address, shipping fees, and any applicable VAT/GST will be collected through Pledge Manager when dispatch is closer in Spring 2027.\\n*Regional version auto-matched to your delivery address.",
+      "backers": 93,
+      "limit": null,
+      "remaining": null,
+      "eta": 1809129600,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 26,
+    "tiersDate": "2026-10-30",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": [
+     {
+      "t": "p",
+      "x": "*   [**Media & Reviews**](h:Media-Reviews)",
+      "z": "* [**媒体与评论**](h:媒体评论)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Lemmo Q&A Ep**](h:Lemmo-Q-A-Ep)",
+      "z": "* [**Lemmo Q&A Ep**](h:Lemmo-Q-A-Ep)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Introducing Lemmo 3**](h:Introducing-Lemmo-3)",
+      "z": "* [**Lemmo 3 简介**](h:Lemmo-3 简介)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**P1. Comfort**](h:P1-Comfort)",
+      "z": "* [**P1。舒适度**](h:P1-舒适度)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**P2. Maneuver**](h:P2-Maneuver)",
+      "z": "* [**P2。机动**](h:P2-机动)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**P3. Versatility**](h:P3-Versatility)",
+      "z": "* [**P3。多功能性**](h:P3-多功能性)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**P4. Safety**](h:P4-Safety)",
+      "z": "* [**P4。安全**](h:P4-安全)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**P5. Intelligence**](h:P5-Intelligence)",
+      "z": "* [**P5。智力**](h:P5-智力)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**P6. Performance**](h:P6-Performance)",
+      "z": "* [**P6。性能**](h:P6-性能)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Lemmo VS.**](h:Lemmo-VS-)",
+      "z": "* [**Lemmo VS.**](h:Lemmo-VS-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Add-ons**](h:Add-ons)",
+      "z": "* [**附加组件**](h:附加组件)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Specs**](h:Specs)",
+      "z": "* [**规格**](h:规格)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Rewards & Bundles**](h:Rewards-Bundles)",
+      "z": "* [**奖励和捆绑包**](h:奖励捆绑包)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Tax & Shipping**](h:Tax-Shipping)",
+      "z": "* [**税费和运费**](h:税费-运费)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [**时间线**](h:时间线)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What After?**](h:What-After-)",
+      "z": "* [**之后做什么？**](h:之后做什么-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**About Lemmo**](h:About-Lemmo)",
+      "z": "* [**关于 Lemmo**](h:关于-Lemmo)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/lemmothree/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/lemmo Three/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/lemmothree/use-of-ai)",
+      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/lemmothird/use-of-ai)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/693/440/bde34844d2d9067ef5aced33bcb43c9b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793200575&width=680&sig=vYc8EXC1UWUjLuFLhDwtgPd0KXZP57Auo1IKfXbWyyA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/693/035/1d456af3d4050845eac786b4eacee3ac_original.png?fit=scale-down&origin=ugc&q=100&v=1793198421&width=680&sig=lHqd5a04SQGr231hR2SWSBa%2BKpY5bzVUrT4YuU%2BPrSM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/692/991/2755dc934bd258c366d04f33fe5b0434_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793198273&width=680&sig=vR0BzX6LIrHe8dm8PMdHJg%2B6ra8RIFq5jpipMn0qyZ0%3D"
+     },
+     {
+      "t": "p",
+      "x": "\"I Didn't Need a Cargo Bike. That Was a Lie.\" - by Everything's Been Done",
+      "z": "“我不需要货运自行车。那是个谎言。” ——一切都已完成"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/542/da5ccea6d5f114dd1150b8242955b452_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793171824&width=680&sig=Sn%2BmCnpwEahbOGq4GhQSDP3B%2FRGXm9S3GbGrCiecQHA%3D"
+     },
+     {
+      "t": "p",
+      "x": "\"I didn’t get cargo bikes. Then I rode this one.\" - by Electroheads",
+      "z": "“我没有货运自行车。然后我骑了这辆。” - 作者：Electroheads"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/543/eca601a6a79171591dd0928577ec37a3_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793171835&width=680&sig=QxUa5Y0toEKJnXv5QBHNnfKxAfymLjrCccBdpUSnS1M%3D"
+     },
+     {
+      "t": "p",
+      "x": "\"DAS ist das neue LEMMO 3: Longtail im Test\" - by TommysTechReviews",
+      "z": "“DAS ist das neue LEMMO 3：长尾测试”- TommysTechReviews"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/693/014/45f8b4b7c16763b47a7ebef3b719f06e_original.png?fit=scale-down&origin=ugc&q=100&v=1793198313&width=680&sig=NnZYUZZpzQfAR17O5j3VKAMT5LaHf8QZP9xf6JY6yhk%3D"
+     },
+     {
+      "t": "p",
+      "x": "\"Lemmo 3 Q&A: Episode 1, addressing the exact details you’re most curious about.\" - by Lemmo Future",
+      "z": "“Lemmo 3 问答：第 1 集，解决您最好奇的具体细节。” ——Lemmo 未来"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/693/017/816d733de518b749ad67c6294044398f_original.png?fit=scale-down&origin=ugc&q=100&v=1793198326&width=680&sig=aZzbgmm5p9xo1%2FC8FHPK3OAx3Uj588HUSAAWCpGqrUA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/300/287/452ca60dfed3fa371a0f48b1a6c4704b_original.gif?fit=scale-down&origin=ugc&q=92&v=1790616921&width=680&sig=weUTv68iyObVoQXWeUniP3iWyfxkTu6qx%2FrNR1zW2sg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/308/241/ac8fae962d7ea025a1926ef319c8c859_original.gif?fit=scale-down&origin=ugc&q=92&v=1790665370&width=680&sig=GUc2ofp8aw9JhgWSYDVfBdXBxEAePY4TvYPFqhMmbWI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/299/131/64ab5bd831413d01ccfcbe8556e0102a_original.gif?fit=scale-down&origin=ugc&q=92&v=1790611911&width=680&sig=2OObuVzEhx%2BUtNesUdQeRcywnbl2uveGHNL8C1QiXPA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/299/137/6dc3415038bf1161a572daad2c79a014_original.gif?fit=scale-down&origin=ugc&q=92&v=1790611928&width=680&sig=pEIh5vU0qM02XXNExQ0smUz8Bf29DSR%2Fo6SDoZ%2B%2F%2BhY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/308/329/2580af4214f6a63308dd777eff929f04_original.gif?fit=scale-down&origin=ugc&q=92&v=1790665902&width=680&sig=URefeStEfz%2Blqa3Ynoxb8ww5SOJwaMSs%2BjzHmMflT94%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/919/114e968bc474ecf71a2172b8311c3330_original.gif?fit=scale-down&origin=ugc&q=92&v=1793174769&width=680&sig=%2BsUvi%2F3yUk2cC9yLSL%2F19AZssxsQQuGmfqPgHKMg8do%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/299/158/6451ee2018e3907b68f322c1dee05f34_original.gif?fit=scale-down&origin=ugc&q=92&v=1790611995&width=680&sig=nn0WRx2yHBPWG2SWP0h2KD5jmvienfeBveXIpTxlPDA%3D"
+     },
+     {
+      "t": "p",
+      "x": "Naturality Digital is the growth-driven marketing agency behind this campaing. We've supported campaigns that have collectively raised over $60M across major crowdfunding platforms. In 2026 alone, our average crowdfunding campaign performance exceeding $1.5M raised per project, reflecting our ability to turn strong products into globally validated market launches.",
+      "z": "Naturality Digital 是本次活动背后的增长驱动型营销机构。我们支持的活动在主要众筹平台上筹集的资金总计超过 6000 万美元。仅 2026 年，我们的众筹活动平均每个项目筹集的资金就超过 150 万美元，这反映出我们有能力将强大的产品转化为经过全球验证的市场发布。"
+     },
+     {
+      "t": "p",
+      "x": "Technical Specifications & Project Details",
+      "z": "技术规格和项目详情"
+     },
+     {
+      "t": "p",
+      "x": "Lemmo 3 APV – Next-Generation Longtail Cargo E-Bike",
+      "z": "Lemmo 3 APV – 下一代长尾货运电动自行车"
+     }
+    ]
    }
   ]
  },
