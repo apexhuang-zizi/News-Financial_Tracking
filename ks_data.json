@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T14:27:37+07:00",
+  "generatedAt": "2026-11-03T19:30:46+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 44,
@@ -35,8 +35,8 @@
     ],
     "score": 0.8166,
     "coverRemote": "https://i.kickstarter.com/assets/055/704/493/c69c1614a5012ec480935e03ba6da221_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793268352&width=1024&sig=I5%2F59rVqTBLAirNMPQvivDR8Y90Cf0I9AqvjLV0oFt0%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1793691967-Abhaz7LvLI9vPKj8eoAwHvN8tE4I1A%2FYQrPG3NnlAfA%3D/projects/5381627/video-1473031-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793691967-Abhaz7LvLI9vPKj8eoAwHvN8tE4I1A%2FYQrPG3NnlAfA%3D/projects/5381627/video-1473031-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11502142,
@@ -65,16 +65,16 @@
       "price": 659.0,
       "title": "Super Early Bird — All-in-One Pack",
       "desc": "🤖 Get the AI WUKONG All-in-One Pack at $659, saving 42% off the combined MSRP of $1,137!\\n\\nYou will receive:\\n· AI WUKONG × 1\\n· Suspender Shorts × 1\\n· Cloud Stand × 1\\n\\nNote:\\n📍 Shipping addresses will be collected in the upcoming survey.\\n🎨 You can also select your preferred Suspender Shorts color in the survey.\\n🚚 For detailed shipping fees, please refer to the bottom of our campaign page.",
-      "backers": 22,
+      "backers": 23,
       "limit": 100,
-      "remaining": 78,
+      "remaining": 77,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 15,
-    "tiersDate": "2026-11-02",
-    "tiersCarried": "2026-11-02",
+    "tiersDate": "2026-11-03",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -278,6 +278,445 @@
     ]
    },
    {
+    "id": 894993500,
+    "name": "XGIMI AURA 3 Series: The Ultimate 4K RGB Laser TV",
+    "blurb": "5700 ISO Lumens | 8000:1 Native Contrast | Dual Intelligent Iris | 4K 120Hz Refresh Rate | 0.163:1 Ultra Short Throw Ratio",
+    "url": "https://www.kickstarter.com/projects/xgimititannoir/xgimi-aura-3-series-the-ultimate-laser-tv-for-every-moment",
+    "category": "Hardware",
+    "creator": "XGIMI Tech",
+    "location": "Rowland Heights, CA",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 100000.0,
+    "pledged": 21612053.0,
+    "usdPledged": "21612053.0",
+    "goalUsd": 100000.0,
+    "percentFunded": 21612.053,
+    "backers": 8346,
+    "deadline": 1796400007,
+    "launchedAt": 1792508407,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [],
+    "score": 0.729,
+    "coverRemote": "https://i.kickstarter.com/assets/055/590/014/ce76daee966ec5dc3234f0ac44c4d15a_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792516143&width=1024&sig=cyTDRPWje8fBc4aJoVZV%2FNd6r5m0PfYAfHO%2BrRMOIMo%3D",
+    "videoMp4": "https://v2.kickstarter.com/1793692902-PbGrkBEFFU%2BPIIWLqh%2BhG0txWw2NEQXxIz2oWTk%2FZ2U%3D/projects/5398626/video-1468517-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793692902-PbGrkBEFFU%2BPIIWLqh%2BhG0txWw2NEQXxIz2oWTk%2FZ2U%3D/projects/5398626/video-1468517-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11486780,
+      "price": 2399.0,
+      "title": "AURA 3 Max - Launch Special",
+      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
+      "backers": 4344,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11459603,
+      "price": 2399.0,
+      "title": "AURA 3 Max - Launch Special",
+      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
+      "backers": 1654,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11486647,
+      "price": 2399.0,
+      "title": "AURA 3 Max - Launch Special",
+      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
+      "backers": 1501,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 9,
+    "tiersDate": "2026-11-03",
+    "tiersCarried": "",
+    "cues": [
+     [
+      1.3,
+      5.02,
+      "认识一下新一代激光 Aura 3"
+     ],
+     [
+      5.02,
+      8.3,
+      "旨在将电影院带回家的电视。"
+     ],
+     [
+      8.3,
+      14.12,
+      "从80英寸到200英寸，带大的"
+     ],
+     [
+      14.12,
+      19.78,
+      "屏幕主页，距离仅几英寸。"
+     ],
+     [
+      19.78,
+      23.51,
+      "由生动的 RGB 激光颜色和高达"
+     ],
+     [
+      23.51,
+      27.07,
+      "5700 ISO流明，每一个细节都精雕细琢"
+     ],
+     [
+      27.07,
+      27.78,
+      "被看到。"
+     ],
+     [
+      27.78,
+      30.4,
+      "彩虹明显减少"
+     ],
+     [
+      30.4,
+      32.78,
+      "效果，享受更清晰的视觉效果。"
+     ],
+     [
+      32.78,
+      35.53,
+      "Aura 3 的核心是精准"
+     ],
+     [
+      35.53,
+      38.34,
+      "光控、双光圈动态"
+     ],
+     [
+      38.34,
+      41.3,
+      "控制光线以显示更深的黑色"
+     ],
+     [
+      41.3,
+      42.78,
+      "更丰富的阴影细节。"
+     ],
+     [
+      42.78,
+      45.58,
+      "我们的 XVision AI 图像处理器"
+     ],
+     [
+      45.58,
+      48.85,
+      "智能增强每一帧，"
+     ],
+     [
+      48.85,
+      52.78,
+      "优化 HDR 以获得更精致的图像。"
+     ],
+     [
+      52.78,
+      56.18,
+      "在其中享受您最喜爱的内容"
+     ],
+     [
+      56.18,
+      57.78,
+      "原始格式。"
+     ],
+     [
+      57.78,
+      61.62,
+      "4K 120Hz刷新率，快速移动"
+     ],
+     [
+      61.62,
+      64.78,
+      "场景保持更清晰、更流畅。"
+     ],
+     [
+      64.78,
+      67.52,
+      "当图片变大时，"
+     ],
+     [
+      67.52,
+      68.78,
+      "声音也应该如此。"
+     ],
+     [
+      68.78,
+      73.91,
+      "体验响应灵敏、流畅、无泪"
+     ],
+     [
+      73.91,
+      76.47,
+      "低延迟游戏。"
+     ],
+     [
+      76.47,
+      79.35,
+      "从游戏到观看，体验每一个"
+     ],
+     [
+      79.35,
+      80.47,
+      "在一起的时刻。"
+     ],
+     [
+      80.47,
+      84.56,
+      "配备背光遥控器和 Google TV，"
+     ],
+     [
+      84.56,
+      88.65,
+      "你所爱的一切都在你身边"
+     ],
+     [
+      88.65,
+      89.9,
+      "指尖。"
+     ],
+     [
+      89.9,
+      93.93,
+      "与 X Jimmy Ascent 搭配，Aura 3 成为"
+     ],
+     [
+      93.93,
+      96.9,
+      "完整的激光电视体验。"
+     ],
+     [
+      96.9,
+      100.02,
+      "旨在消失在您的生活中"
+     ],
+     [
+      100.02,
+      103.14,
+      "空间，直到需要带来大的"
+     ],
+     [
+      103.14,
+      106.5,
+      "屏幕点亮终极激光电视"
+     ],
+     [
+      106.5,
+      107.57,
+      "每一刻。"
+     ],
+     [
+      108.88,
+      111.88,
+      "X 吉米 Aura 3 系列。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/367/852e983589af2a91ae3458f022466ebc_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396674&width=680&sig=ktdKnwjoP3rDIKBF9Xrc0uJ0ghF1uZhcmHNI4%2F%2BH%2FsU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/538/252/a4d0f1c6c4b6e7f9a2650668e0edd430_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792136939&width=680&sig=8RyfAjdOkB%2BrArcl8mAOB3nt8NL71CvRwXnliCo1E88%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/368/c86e7e64e383ea306fe3e8ca54cf5e70_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396674&width=680&sig=G1KwtX63XTou3DspDvze9ugl3liS8%2B6QXVCwPKPAeBg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/354/3e73d49efaaf0db40372157246626917_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=77ww2LRY%2BD6FOXoMvdkoouO9QIyP5FfMdKpvsoFjsdo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/365/4ae05f2d0c2c7cc77d5e711f2ca5c1b4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396673&width=680&sig=QQEGbYOeO60QQTLMrYI4GM3r503d8fEL4k8bd43SQ3c%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/804/72e7fe0523c10db76f6705a1e7ff259b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792399396&width=680&sig=4arxSeE6HFi7HbzITqO4qH8c8hgdhK5nP%2FMj7ZfYyPI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/569/111/6d6c326a008a84701eb817d68e5553c8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792405725&width=680&sig=ZSJYfwX%2FDjzaaoe%2FcKXcb0sfryNG0jUa%2BaLmXnC1GEQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/366/4ac0f2dcfc9a4a2ee1534729159a6b45_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396673&width=680&sig=lMCYtBEgBBp3%2F4lRQPkEi1UIT5hYZh1vSv6kMJ0Ci0A%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/355/e1ea26ea2e6363ce2f2eb75e99cd7439_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=UuZB%2FzdY7jHf8v63OdZFHOqvb31%2F0mi8Y6YIA7XdBaY%3D"
+     },
+     {
+      "t": "p",
+      "x": "Powered by dual TI DLPC display controllers, AURA 3 Series delivers 4K UHD at 120Hz, keeping fast-moving scenes sharp and fluid with reduced motion blur and clearer moving detail. From sports and action scenes to gameplay, every frame stays crisp.",
+      "z": "AURA 3 系列由双 TI DLPC 显示控制器提供支持，可提供 120Hz 的 4K UHD，使快速移动的场景保持清晰流畅，减少运动模糊并提供更清晰的移动细节。从体育和动作场景到游戏玩法，每一帧都保持清晰。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/370/3f90441346868d1005ab938b4198b607_original.gif?fit=scale-down&origin=ugc&q=92&v=1792396676&width=680&sig=1UlTVA410jLls1vK%2FWX7OMYcK421HXcSlHpO3Wkz1jk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/369/5d2323ca00b332dc9d140c88a0f67ee1_original.gif?fit=scale-down&origin=ugc&q=92&v=1792396675&width=680&sig=HFsh3J0YRGoJ2f8hzmgGsS0bWXQCXn1lJ77R%2B89PoTU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/362/68da4ad025d04bf4d98a9406c305a660_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396671&width=680&sig=IUHJ04hOmmVfsjigzB0MsffquTr1Dc4yFWDZRrFLxzk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/357/c493f77c5e7962a15f0102afd84ea36b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=vlcuxcWBwy%2Bi6QlKSOOHgg0PUpxYlQQwEg8nc51ac30%3D"
+     },
+     {
+      "t": "p",
+      "x": "With a higher 120Hz refresh rate, colors cycle faster to help reduce visible rainbow effects. Combined with AURA 3 Series’s Anti-RBE technology, it delivers cleaner, more natural visuals across both 2D and 3D content.",
+      "z": "凭借更高的 120Hz 刷新率，颜色循环更快，有助于减少可见的彩虹效应。与 AURA 3 系列的 Anti-RBE 技术相结合，它可以在 2D 和 3D 内容中提供更清晰、更自然的视觉效果。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/567/363/dd322221ea6b5e53f4664f6fb65ab509_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396672&width=680&sig=JUOMffRSOl8prrnpTea8wlhUDqsq6Jcn6tUjkqXDS%2Bc%3D"
+     },
+     {
+      "t": "p",
+      "x": "4K 120Hz Global MEMC intelligently smooths motion across the entire screen, reducing judder and motion blur while preserving image detail. From fast-paced sports to action-packed scenes, every movement stays smooth and clear.",
+      "z": "4K 120Hz Global MEMC 智能地平滑整个屏幕上的运动，减少抖动和运动模糊，同时保留图像细节。从快节奏的运动到充满动感的场景，每个动作都保持流畅清晰。"
+     },
+     {
+      "t": "p",
+      "x": "Watch films exactly as intended—120Hz is an exact multiple of 24fps, displaying each cinematic frame five times in a consistent 5:5 cadence, without 3:2 pulldown judder.",
+      "z": "完全按照预期观看电影 - 120Hz 是 24fps 的精确倍数，以一致的 5:5 节奏显示每个电影帧五次，没有 3:2 下拉抖动。"
+     },
+     {
+      "t": "p",
+      "x": "Up to 8,000:1 native contrast for deeper black perception in large-screen projection — enabled by precision light control at the source.",
+      "z": "高达 8,000:1 的原生对比度可在大屏幕投影中实现更深的黑色感知 — 通过光源处的精确光控制实现。"
+     },
+     {
+      "t": "p",
+      "x": "Two irises work together to refine every beam of light.",
+      "z": "两个虹膜共同作用，细化每一束光线。"
+     },
+     {
+      "t": "p",
+      "x": "Automatically adjusting the iris size based on scene brightness for optimal contrast and brightness.",
+      "z": "根据场景亮度自动调整光圈大小，以获得最佳对比度和亮度。"
+     },
+     {
+      "t": "p",
+      "x": "Our advanced DBLE technology boosts dynamic contrast by up to 10× while preserving shadow detail and true-to-life color.",
+      "z": "我们先进的 DBLE 技术可将动态对比度提高高达 10 倍，同时保留阴影细节和逼真的色彩。"
+     },
+     {
+      "t": "p",
+      "x": "RGB triple laser delivers a clear image in bright rooms for anytime viewing.",
+      "z": "RGB 三重激光可在明亮的房间中提供清晰的图像，以便随时查看。"
+     },
+     {
+      "t": "p",
+      "x": "Natural dimensionality brings cinematic realism into your living space.",
+      "z": "自然维度将电影般的真实感带入您的生活空间。"
+     },
+     {
+      "t": "p",
+      "x": "Deeper blacks, brighter highlights, and richer colors across all major HDR formats.",
+      "z": "所有主要 HDR 格式都具有更深的黑色、更明亮的高光和更丰富的色彩。"
+     },
+     {
+      "t": "p",
+      "x": "RGB Triple Laser maintains accurate, vivid color quality — even at peak brightness.",
+      "z": "RGB 三重激光即使在峰值亮度下也能保持准确、鲜艳的色彩质量。"
+     },
+     {
+      "t": "p",
+      "x": "Powered by XGIMI-developed X-VISION AI image processor, AURA 3 Series intelligently optimizes every frame in real time for sharper detail, richer contrast, and a more lifelike picture.",
+      "z": "AURA 3系列搭载极米自主研发的X-VISION AI图像处理器，实时智能优化每一帧画面，细节更清晰、对比度更丰富、画面更逼真。"
+     },
+     {
+      "t": "p",
+      "x": "X-VISION intelligently reconstructs every frame in real time, restoring texture, refining edges, and bringing hidden details back into view.",
+      "z": "X-VISION 实时智能重建每一帧，恢复纹理，细化边缘，并将隐藏的细节带回视野。"
+     },
+     {
+      "t": "p",
+      "x": "X-VISION analyzes every HDR scene in real time, dynamically optimizing brightness and contrast for brighter highlights, deeper shadows, and richer depth.",
+      "z": "X-VISION 实时分析每个 HDR 场景，动态优化亮度和对比度，以获得更亮的高光、更深的阴影和更丰富的深度。"
+     },
+     {
+      "t": "p",
+      "x": "Enjoy instant access to Netflix, YouTube, Prime Video, and more — no extra devices needed. Control your content effortlessly with Google Home and voice commands.",
+      "z": "享受即时访问 Netflix、YouTube、Prime Video 等内容 — 无需额外设备。使用 Google Home 和语音命令轻松控制您的内容。"
+     },
+     {
+      "t": "p",
+      "x": "80W of room-filling sound with remarkable clarity and depth.",
+      "z": "80W 的声音充满整个房间，具有非凡的清晰度和深度。"
+     },
+     {
+      "t": "p",
+      "x": "Hear the movie, not the machine. AURA 3 Series keeps fan noise low, so you can stay immersed in movies, games, and music without distraction.",
+      "z": "听电影，而不是机器。 AURA 3 系列可保持较低的风扇噪音，让您可以专心沉浸在电影、游戏和音乐中。"
+     },
+     {
+      "t": "p",
+      "x": "Everything you need for a more responsive, immersive big-screen gaming experience.",
+      "z": "提供响应更快、身临其境的大屏幕游戏体验所需的一切。"
+     },
+     {
+      "t": "p",
+      "x": "Experience ultra-smooth 4K 120Hz gameplay with reduced motion blur, keeping fast action sharp and responsive.",
+      "z": "体验超流畅的 4K 120Hz 游戏体验，减少运动模糊，保持快速动作的锐利和响应。"
+     },
+     {
+      "t": "p",
+      "x": "VRR & AMD FreeSync™ deliver smooth, tear-free gaming with fluid frames and ultra-low latency.",
+      "z": "VRR 和 AMD FreeSync™ 通过流畅的帧和超低延迟提供流畅、无撕裂的游戏体验。"
+     },
+     {
+      "t": "p",
+      "x": "Experience deeper contrast, lifelike colors, and enhanced shadow detail with Dolby Vision Gaming technology.",
+      "z": "通过杜比视界游戏技术体验更深的对比度、逼真的色彩和增强的阴影细节。"
+     },
+     {
+      "t": "p",
+      "x": "While other UST projectors lose image clarity at the edges, AURA 3 Series maintains full-frame sharpness and color consistency.",
+      "z": "虽然其他 UST 投影机在边缘失去图像清晰度，但 AURA 3 系列保持了全帧清晰度和色彩一致性。"
+     },
+     {
+      "t": "p",
+      "x": "Minimizes chromatic distortion — even at extreme projection angles.",
+      "z": "即使在极端的投影角度下，也能最大限度地减少色彩失真。"
+     },
+     {
+      "t": "p",
+      "x": "Maximizes light transmission while reducing reflection, providing higher brightness and improved image depth.",
+      "z": "最大限度地提高透光率，同时减少反射，提供更高的亮度并改善图像深度。"
+     },
+     {
+      "t": "p",
+      "x": "A precision-engineered optical stack ensures uniform sharpness across the entire screen.",
+      "z": "精密设计的光学堆栈可确保整个屏幕的清晰度一致。"
+     }
+    ]
+   },
+   {
     "id": 1256938972,
     "name": "AirCannon GPX: UNLEASH 118MPH POWER. THE MONSTER BLOWER",
     "blurb": "118MPH(190km/h) | 0.77lb Handy Size | 16.8V BL Motor | Jet Engine Blades | Heat-Resistant Design | 3 Nozzles with vacuum | 140,000RPM",
@@ -289,10 +728,10 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 5000.0,
-    "pledged": 537037.0,
-    "usdPledged": "537037.0",
+    "pledged": 536940.0,
+    "usdPledged": "536940.0",
     "goalUsd": 5000.0,
-    "percentFunded": 10740.74,
+    "percentFunded": 10738.800000000001,
     "backers": 2990,
     "deadline": 1793980994,
     "launchedAt": 1788793394,
@@ -304,17 +743,384 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.8028,
+    "score": 0.6778,
     "coverRemote": "https://i.kickstarter.com/assets/055/028/205/a7d8a80c5d44d3891cfc5695358d01d6_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788770799&width=1024&sig=fI5BTeubMjGZljGtr%2Bpdk0NhQeDQiaCEKrRVP0uvny8%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
+    "videoMp4": "https://v2.kickstarter.com/1793635203-l6mHSZ%2BDF1Nhq65Rd5Jrp7wQwHwzc8yntg7Z6wy1Lfc%3D/projects/5361281/video-1458010-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793635203-l6mHSZ%2BDF1Nhq65Rd5Jrp7wQwHwzc8yntg7Z6wy1Lfc%3D/projects/5361281/video-1458010-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11312715,
+      "price": 129.0,
+      "title": "Standard Single: Limited Quantity Deal",
+      "desc": "[ONLY 300 LIMITED]\\nEverything you need is already here. The most affordable way to start your GPX journey. Don't be the 301st. \\n\\n▷ Save $95(Retail Price = $224)\\n▷ 42% Off exclusively during the Kickstarter project.\\n\\n*30A Battery Included.",
+      "backers": 698,
+      "limit": 700,
+      "remaining": 2,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11398853,
+      "price": 149.0,
+      "title": "Pro Single: Limited Quantity Deal",
+      "desc": "[ONLY 300 LIMITED]\\nFor those who need more runtime. 2 hours of power with the 60A battery set. No more waiting by the charger. \\n\\n▷ Save $105(Retail Price = $254)\\n▷ 41% Off exclusively during the Kickstarter project.\\n\\n*60A Battery Included.",
+      "backers": 500,
+      "limit": 500,
+      "remaining": 0,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11313078,
+      "price": 159.0,
+      "title": "Standard Double: Limited Quantity Deal",
+      "desc": "[ONLY 200 LIMITED]\\nComes with 2x 30A batteries. Use one while the other charges. Never stop. Never wait. Save up to $20 per battery vs. buying separately. \\n\\n▷ Save $120(Retail Price = $279)\\n▷ 43% Off exclusively during the Kickstarter project.",
+      "backers": 249,
+      "limit": 250,
+      "remaining": 1,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 39,
+    "tiersDate": "2026-11-03",
     "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
+    "cues": [
+     [
+      0.0,
+      2.0,
+      "有些是为了给人留下深刻印象而建造的。"
+     ],
+     [
+      2.0,
+      5.0,
+      "我们的设计目标是超越市场。"
+     ],
+     [
+      5.0,
+      9.17,
+      "每一次迭代，每一次突破，让"
+     ],
+     [
+      9.17,
+      10.0,
+      "我们听到了。"
+     ],
+     [
+      10.0,
+      14.0,
+      "介绍空气炮 GPX，"
+     ],
+     [
+      14.0,
+      17.0,
+      "每小时 118 英里，"
+     ],
+     [
+      17.0,
+      19.0,
+      "140,000转/分钟，"
+     ],
+     [
+      19.0,
+      21.0,
+      "工程力，"
+     ],
+     [
+      21.0,
+      23.0,
+      "校准精度，"
+     ],
+     [
+      23.0,
+      25.0,
+      "当系统反转时，"
+     ],
+     [
+      25.0,
+      27.0,
+      "它不只是移动空气，"
+     ],
+     [
+      27.0,
+      29.0,
+      "它命令它。"
+     ],
+     [
+      29.0,
+      33.63,
+      "体积缩小 30%，重量减轻 20%，"
+     ],
+     [
+      33.63,
+      35.63,
+      "零妥协，"
+     ],
+     [
+      35.63,
+      39.63,
+      "相同的力作用在一半的足迹上。"
+     ],
+     [
+      39.63,
+      43.63,
+      "一块电池，两个小时不间断。"
+     ],
+     [
+      43.63,
+      47.63,
+      "航空涡轮机，逆向工程，"
+     ],
+     [
+      47.63,
+      49.63,
+      "效率优化，"
+     ],
+     [
+      49.63,
+      51.63,
+      "专为耐力而打造，"
+     ],
+     [
+      51.63,
+      56.78,
+      "经久耐用。"
+     ],
+     [
+      56.78,
+      58.78,
+      "内部有三静脉系统，"
+     ],
+     [
+      58.78,
+      61.78,
+      "气流架构的三个阶段，"
+     ],
+     [
+      61.78,
+      63.78,
+      "空气动力学精度，"
+     ],
+     [
+      63.78,
+      65.78,
+      "纯粹的性能，"
+     ],
+     [
+      65.78,
+      66.78,
+      "无论你在哪里创作，"
+     ],
+     [
+      66.78,
+      68.78,
+      "无论你在哪里建造，"
+     ],
+     [
+      68.78,
+      70.78,
+      "无论权力多么重要。"
+     ],
+     [
+      70.78,
+      72.78,
+      "空气炮 GPX,"
+     ],
+     [
+      72.78,
+      75.78,
+      "下一代电源。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/685/652/0d625e5375ed515b7ebcf9d2f1dcc25d_original.gif?fit=scale-down&origin=ugc&q=92&v=1793153808&width=680&sig=zVjdZhP7ci4se6XDs1CmKoJsLpudz08absZ7zYzUluk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/068/538/35d9297c0a4b5227e5a1540dfdaa437d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789023577&width=680&sig=mQjBtsQ7BUW5kKYjsOP5ozOL0hTirRabTNptp2SIl4s%3D"
+     },
+     {
+      "t": "p",
+      "x": "As standard, a Safety Net comes fitted on every GPX, one per tool.Now that we've reached the stretch goal, we're adding one spare Safety Net for every backer as a thank-you.",
+      "z": "作为标准配置，每台 GPX 上都安装了一个安全网，每个工具一个。既然我们已经达到了延伸目标，我们将为每位支持者添加一个备用安全网以表谢意。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/814/f3e5dec1cba21ecc30419a3c0271b934_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788782702&width=680&sig=BZ4vmqZVs28wJXdfo1UMY06aZHD6nwYaEYt%2FxNZbl2w%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/576/590/280d8451ead587d7a5cab8167b5cb85d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1785219893&width=680&sig=x%2BjpbEVa3NERHQxjRZqsG0jp3sltCULMdVfzb9K6%2Fcc%3D"
+     },
+     {
+      "t": "p",
+      "x": "Introducing AirCannon GPX: a handheld blower that hits 118mph(190km/h), squeezed into the most compact body in its class. Maximum power, minimum size: one hand is all it takes to clear your path. Gale-Force Power, Times X. The AirCannon is back, now as the GPX series.",
+      "z": "AirCannon GPX 隆重登场：一款时速可达 118 英里/小时（190 公里/小时）的手持式吹风机，采用同类产品中最紧凑的机身。最大功率，最小尺寸：一只手即可清理道路。 Gale-Force Power，Times X。AirCannon 回来了，现在是 GPX 系列。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/500/653/726627e872f88811b33cbded124ea892_original.jpg?fit=scale-down&origin=ugc&q=92&v=1784599827&width=680&sig=LPgELJX15db%2FdnKMGQ%2F%2F%2F4RXd1vawwcRiHVdYZSIclI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/818/fd46f4afb661f5ba9c1c304e132966c2_original.webp?fit=scale-down&origin=ugc&q=92&v=1788782716&width=680&sig=%2BMSfvItYgudODEvUD4DBbCoh6ESfftOUlbueANZf1qE%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/030/300/aac4f00ebbb33d2a69e0120e8eba8567_original.webp?fit=scale-down&origin=ugc&q=92&v=1788786304&width=680&sig=l8zSkKDY%2Fytgu0Ilffn5cBpWYy%2B34mp9DHKfv3vGPjA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/669/938/57b426218ee68b7df936b7b32355a5c9_original.jpg?fit=scale-down&origin=ugc&q=92&v=1785980248&width=680&sig=74mL%2BIc2SeX9VtMpRP2qIdbfSHmLVc8upBpy3QTOSgI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/822/4e378859cc8aba70c109565ac6296be5_original.png?fit=scale-down&origin=ugc&q=100&v=1788782730&width=680&sig=Da8RZeHAvnlbY5MM4k8LPC8Fru2Q3XtDUTsa4Rk5ecM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/940/380/3d59e3aa767af2a95df7c5ed0b06aa29_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788139101&width=680&sig=fLkHoVewrH%2FVu5%2F40c4diUJyxAv7mwiyo%2BBTNvGsRRc%3D"
+     },
+     {
+      "t": "p",
+      "x": "A legend didn’t just burst onto the scene, it practically blew the doors off Kickstarter. The original AirCannon became #1 because it was the powerful, portable beast you knew you needed, but could never find. The legend has hit the gym. Hard.",
+      "z": "一位传奇人物不仅突然出现，而且几乎在 Kickstarter 上掀起了一股热潮。最初的 AirCannon 之所以成为第一，是因为它是一种强大的便携式野兽，您知道自己需要，但永远找不到。这位传奇人物已经来到了健身房。难的。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/824/2183e271c122c2e40e8e428691a79a40_original.webp?fit=scale-down&origin=ugc&q=92&v=1788782735&width=680&sig=L3Y15ehRq1JCp30qqlXxvi03ingBkEc0u7ydZ595SqA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/827/060ad93f35014b0d56a5d967ae506575_original.webp?fit=scale-down&origin=ugc&q=92&v=1788782740&width=680&sig=Yi7o3Els9ufo9Gm83Y%2BbyfDNWgUUdOHW78wH%2BkEm4xU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/611/155/8f2b0e0b30d215afc69797a538c9e305_original.webp?fit=scale-down&origin=ugc&q=92&v=1785475335&width=680&sig=pw9ZRHvx%2Bw3B7a0SGUjpw1E1hEqUAlCnxML3iwtQoYQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/611/156/0b7ab5d45bff3616b9300d48ca29f1e2_original.webp?fit=scale-down&origin=ugc&q=92&v=1785475338&width=680&sig=aODf3qbNgXWxcHHoAEHjJFYnJoOoBYDbQk2%2FBXn3dFE%3D"
+     },
+     {
+      "t": "p",
+      "x": "How do you hold a Category 3 hurricane in the your hand? Simple: 140,000 RPM. This isn’t a marketing puff piece; it’s raw physics... We’re not exaggerating; we're just engineered better.",
+      "z": "如何将三级飓风握在手中？简单：140,000 RPM。这不是一个营销宣传片；而是一个宣传片。这是原始物理学……我们并没有夸大其词；这是真实的。我们只是设计得更好。"
+     },
+     {
+      "t": "p",
+      "x": "GPX pushes with 2.4lb(1.1kg) of force. That is a dumbbell's worth of weight, lifted by nothing but air. Point it at a full tank of water. Gone in an instant.",
+      "z": "GPX 以 2.4 磅（1.1 公斤）的力量推动。这是一个哑铃的重量，仅靠空气举起。将其指向装满水的水箱。转眼间就消失了。"
+     },
+     {
+      "t": "p",
+      "x": "You love comparing CFM, right? Let’s play. Your average, clunky backyard leaf blower kicks out around 230–250 CFM. Now, The GPX. At just 7.8 inches (198mm) long, it generates a comparable 237 CFM. We ditched the bulk but kept the grunt.",
+      "z": "您喜欢比较 CFM，对吧？让我们玩。一般笨重的后院吹叶机的吹叶速度约为 230-250 CFM。现在，GPX。它的长度仅为 7.8 英寸（198 毫米），可产生相当的 237 CFM。我们抛弃了大部分，但保留了咕噜声。"
+     },
+     {
+      "t": "p",
+      "x": "For stronger, more precise airflow, GPX is built on aviation motor technology: high output for liftoff, sustained efficiency for long flights, and bulletproof durability in extreme conditions. All three, now packed into one tool with Jet-Force Wind.",
+      "z": "为了实现更强劲、更精确的气流，GPX 采用航空电机技术：起飞时的高输出、长途飞行时的持续效率以及极端条件下的防弹耐用性。现在，Jet-Force Wind 将这三者合二为一。"
+     },
+     {
+      "t": "p",
+      "x": "GPX's blade is forged from zinc-aluminum alloy, hard enough to slice through the air instead of pushing it. That is where the sharp, focused airflow comes from. Corrosion-resistant, heat-resistant, high-strength: it won't bend, and it won't break.",
+      "z": "GPX 的刀片由锌铝合金锻造而成，其硬度足以切开空气而不是推动空气。这就是尖锐、集中的气流的来源。耐腐蚀、耐热、高强度：不弯曲、不断裂。"
+     },
+     {
+      "t": "p",
+      "x": "Unwavering Power. Power that fades in seconds is strictly for amateurs. GPX uses high-thermal-conductivity alloy to dissipate heat the moment it builds, keeping temperature stable throughout.",
+      "z": "坚定不移的力量。几秒钟内消失的力量仅限于业余爱好者。 GPX采用高导热合金，在成型时立即散发热量，始终保持温度稳定。"
+     },
+     {
+      "t": "p",
+      "x": "The ESC (Electronic Speed Controller) regulates high voltage and current with precision, preventing overload during extended use. Max power for a full 30 seconds is not a lucky streak. It is engineered.",
+      "z": "ESC（电子速度控制器）精确调节高电压和电流，防止长时间使用时过载。整整 30 秒的最大功率并不是一个幸运的连续。它是经过精心设计的。"
+     },
+     {
+      "t": "p",
+      "x": "The science behind the storm: the Triple Vane System. Three layers work as one. A 6-vane stator and a 5-vane stator flank the blade on both sides, and their staggered vanes converge incoming air into a single, focused Dual-Helix stream with no dispersion and no waste. The blade then drives that stream forward with force: over 2x the output of a single-rotor design, enough to clear leaves and standing water in one pass.",
+      "z": "风暴背后的科学：三风向标系统。三层合而为一。 6 叶片定子和 5 叶片定子位于叶片两侧，它们交错的叶片将进入的空气汇聚成单一、集中的双螺旋流，不会分散，也不会浪费。然后，叶片强力驱动水流向前：超过单转子设计输出功率的 2 倍，足以一次清除树叶和积水。"
+     },
+     {
+      "t": "p",
+      "x": "Lighter than comparable blowers",
+      "z": "比同类鼓风机更轻"
+     },
+     {
+      "t": "p",
+      "x": "Weighing in at a 0.77lbs (0.35kg), GPX is 43% lighter than the bulky alternatives. Carry it all day, clean the whole yard, and your arm won't even notice. Zero wrist drag.",
+      "z": "GPX 的重量为 0.77 磅（0.35 千克），比笨重的替代品轻 43%。带着它一整天，清洁整个院子，你的手臂甚至都不会注意到。零手腕阻力。"
+     },
+     {
+      "t": "p",
+      "x": "Blast it. Pinpoint it. Vacuum it.",
+      "z": "炸掉它。查明它。将其吸尘。"
+     },
+     {
+      "t": "p",
+      "x": "Three nozzles, three jobs, all included. Each one reshapes GPX's airflow with serious aerodynamics, squeezing even more power out of that 118mph engine.",
+      "z": "三个喷嘴，三个作业，全部包括在内。每一款都以严格的空气动力学原理重塑了 GPX 的气流，从时速 118 英里的发动机中榨取更多动力。"
+     },
+     {
+      "t": "p",
+      "x": "With the Boost Nozzle on, you get 25% more power, enough to leave your pickup spotless and blow off every drop in seconds, scratch-free. Tired of towel-drying by hand because your old blower can't keep up? GPX has the muscle to keep your ride looking flawless.",
+      "z": "打开增压喷嘴后，您可以获得 25% 的额外功率，足以让您的皮卡一尘不染，并在几秒钟内吹掉每一滴水，无划痕。厌倦了因为你的旧吹风机无​​法跟上而用手擦干毛巾吗？ GPX 有能力让您的骑行看起来完美无瑕。"
+     },
+     {
+      "t": "p",
+      "x": "The Detail Nozzle hides a secret: a bullet-shaped centerbody narrows the airflow channel, accelerating the air and creating a pressure differential that pulls it toward the center. Cross-section narrowed by 66%. Fired like an arrow. Hits like a critical hit.",
+      "z": "细节喷嘴隐藏着一个秘密：子弹形中心体缩小了气流通道，加速空气并产生压差，将其拉向中心。横截面缩小了66%。像箭一样射出。命中就像致命一击。"
+     },
+     {
+      "t": "p",
+      "x": "Your PC works hard under a layer of dust while you're hunting for a new AI model. Give your workhorse the cleanup it's earned. The Detail Nozzle's pinpoint airflow reaches every corner, bringing your rig back to factory-fresh. Aim. Fire.",
+      "z": "当您寻找新的人工智能模型时，您的电脑在灰尘下努力工作。为您的主力提供应有的清理工作。细节喷嘴的精确气流到达每个角落，让您的设备恢复出厂状态。目的。火。"
+     },
+     {
+      "t": "p",
+      "x": "GPX doesn't just push air. It pulls it in, and like a real hurricane, it pulls you in when you get too close. The Vacuum Nozzle draws in dust at up to 12,000Pa of suction pressure.",
+      "z": "GPX 不只是推动空气。它会把它拉进去，就像真正的飓风一样，当你靠得太近时，它会把你拉进去。真空吸嘴以高达 12,000Pa 的吸入压力吸入灰尘。"
+     },
+     {
+      "t": "p",
+      "x": "Inside the Vacuum Nozzle: a HEPA filter that traps 99.97% of particles down to 0.3 microns. From large debris to fine dust, it's sucked in and locked in. Keep your space spotless.",
+      "z": "真空喷嘴内部：HEPA 过滤器，可捕获 99.97% 小至 0.3 微米的颗粒。从大碎片到细灰尘，它都会被吸入并锁定。保持您的空间一尘不染。"
+     },
+     {
+      "t": "p",
+      "x": "Most blowers make you flip the entire unit around, grip and all, just to switch to suction. GPX solves it with instant reverse rotation: one button reverses the motor and you're in suction mode.",
+      "z": "大多数鼓风机都需要你翻转整个装置，握紧所有东西，只是为了切换到吸力。 GPX 通过即时反向旋转解决了这个问题：一键反转电机，您就进入抽吸模式。"
+     },
+     {
+      "t": "p",
+      "x": "Switch from Suction Mode to Blower Mode in 1 second. Blast out everything trapped inside.",
+      "z": "1 秒内从吸风模式切换到鼓​​风模式。炸掉困在里面的所有东西。"
+     },
+     {
+      "t": "p",
+      "x": "Use it to clean dust inside your car. Need to empty it? Open the lid, flip to Blower Mode, and fire. The hurricane clears itself out. No removing the dust cup, no shaking it out.",
+      "z": "用它来清洁车内的灰尘。需要清空吗？打开盖子，翻转到鼓风机模式，然后点火。飓风会自行消失。无需取下集尘杯，也无需将其抖落。"
+     },
+     {
+      "t": "p",
+      "x": "To maximize runtime, GPX runs on a battery rated up to 5,000 mAh, a full 120 minutes of nonstop power. Drying a full-size SUV takes about 20 minutes. One charge, six cars.",
+      "z": "为了最大限度地延长运行时间，GPX 使用额定容量高达 5,000 mAh 的电池，可不间断供电 120 分钟。干燥一辆全尺寸SUV大约需要20分钟。一次充电，六辆车。"
+     },
+     {
+      "t": "p",
+      "x": "※The 5,000 mAh battery is included in the Pro Rewards only.",
+      "z": "※5,000mAh电池仅包含在Pro Rewards中。"
+     },
+     {
+      "t": "p",
+      "x": "Pick Your Pace: Two Battery Options. Grab the 30A (2,500 mAh) battery for ultra-lightweight tasks, the ultimate compact choice for quick jobs and effortless portability.",
+      "z": "选择您的节奏：两种电池选项。配备 30A (2,500 mAh) 电池来执行超轻型任务，这是快速工作和轻松便携的终极紧凑选择。"
+     }
+    ]
    },
    {
     "id": 2024324941,
@@ -389,32 +1195,32 @@
      [
       0.0,
       6.89,
-      "您是否喜欢烘焙酸面团，但生病了"
+      "你喜欢烘焙酸面团但生病了吗"
      ],
      [
       6.89,
       13.45,
-      "尝试将其纳入您的日程安排？"
+      "试图将其纳入您的日程安排？"
      ],
      [
       13.45,
       14.61,
-      "我明白你们的顾虑。"
+      "我得到它。"
      ],
      [
       14.61,
       17.7,
-      "烘焙酸面团是一个复杂的过程，"
+      "烘焙酸面团是一个复杂的过程"
      ],
      [
       17.7,
       20.49,
-      "需要规划和精确度才能获得"
+      "需要计划和精确度才能获得"
      ],
      [
       20.49,
       20.93,
-      "是"
+      "对。"
      ],
      [
       20.93,
@@ -424,12 +1230,12 @@
      [
       23.41,
       26.02,
-      "只是觉得不可能制定计划"
+      "仅仅制定计划就感觉不可能"
      ],
      [
       26.02,
       26.21,
-      "讓 让 [rang4]"
+      "让"
      ],
      [
       26.21,
@@ -438,68 +1244,73 @@
      ],
      [
       28.21,
-      30.49,
-      "我也是一个充满激情的家庭面包师"
+      30.53,
+      "作为一名充满热情的家庭面包师，我自己也是如此"
      ],
      [
-      30.49,
-      32.5,
-      "作为用户体验研究， 13"
+      30.53,
+      32.57,
+      "作为一项用户体验研究，13"
      ],
      [
-      32.5,
-      32.93,
-      "多年"
+      32.57,
+      32.85,
+      "年"
      ],
      [
-      32.93,
+      32.85,
+      35.46,
+      "根据经验，我决定建立一个"
+     ],
+     [
+      35.46,
       36.13,
-      "的经验，我决定建立一个解决方案。"
+      "解决方案。"
      ],
      [
       36.13,
       39.31,
-      "面包师计划应用程序和我需要您的帮助"
+      "面包师计划应用程序和我需要你的帮助"
      ],
      [
       39.31,
       40.45,
-      "想办法做成。"
+      "让它发生。"
      ],
      [
       40.45,
       42.53,
-      "面包师计划将是现代烘焙"
+      "贝克计划将是现代烘焙"
      ],
      [
       42.53,
       44.55,
-      "同伴，您需要规划您的"
+      "你需要的同伴来计划你的"
      ],
      [
       44.55,
       45.53,
-      "酸面团烘焙。"
+      "酸面团烘烤。"
      ],
      [
       45.53,
       47.66,
-      "你已经建立了自己的技能和激情，"
+      "您已经建立了自己的技能和热情，并且"
      ],
      [
       47.66,
       49.84,
-      "现在，您将有一个工具来使其工作"
+      "现在你将拥有一个工具来实现它"
      ],
      [
       49.84,
       50.05,
-      "成"
+      "进入"
      ],
      [
       50.05,
       52.21,
-      "您的日程安排很简单。"
+      "你的日程安排很简单。"
      ],
      [
       52.21,
@@ -509,82 +1320,82 @@
      [
       54.48,
       56.53,
-      "您将体验到分享"
+      "你体验到分享的快乐"
      ],
      [
       56.53,
       57.05,
-      "adv.绝对的命令"
+      "完美地"
      ],
      [
       57.05,
-      61.72,
-      "熟成酸面包"
+      61.76,
+      "执行酵母面包。"
      ],
      [
-      61.72,
-      64.21,
-      "无需再手动创建时间表，无需"
+      61.76,
+      63.86,
+      "不再需要手动创建时间线，没有"
      ],
      [
-      64.21,
-      66.76,
-      "更多的忘记喂你的起动机和"
+      63.86,
+      66.01,
+      "更忘记喂你的开胃菜和"
      ],
      [
-      66.76,
-      67.4,
-      "最重要的是，"
+      66.01,
+      66.28,
+      "上面"
      ],
      [
-      67.4,
+      66.28,
       69.76,
-      "没有更多不可预测的结果。"
+      "一切，没有更多不可预测的结果。"
      ],
      [
       69.76,
-      72.47,
+      72.46,
       "贝克计划的方法将很简单"
      ],
      [
-      72.47,
+      72.46,
       73.08,
-      "强大"
+      "强大。"
      ],
      [
       73.08,
       74.92,
-      "它将向后工作以构建"
+      "它将向后构建一个"
      ],
      [
       74.92,
       76.81,
-      "全面的步骤计划，以"
+      "全面的步骤时间表"
      ],
      [
       76.81,
       78.2,
-      "完成以获得成功"
+      "完成一个成功的"
      ],
      [
       78.2,
-      80.68,
-      "烘焙取决于您想在什么时候"
+      80.7,
+      "根据您想要拉动的时间进行烘烤"
      ],
      [
-      80.68,
-      82.04,
-      "把面包从烤箱里拿出来。"
+      80.7,
+      82.08,
+      "面包从烤箱里出来。"
      ],
      [
-      82.04,
+      82.08,
       84.0,
-      "首先，您需要设定目标。"
+      "首先，您将设定目标。"
      ],
      [
       84.0,
       86.53,
-      "只需在需要时告诉Baker Plan"
+      "当您需要时，只需告诉贝克计划即可"
      ],
      [
       86.53,
@@ -593,33 +1404,33 @@
      ],
      [
       88.6,
-      90.3,
-      "然后Baker计划将自动"
+      90.46,
+      "然后贝克计划将自动"
      ],
      [
-      90.3,
-      92.24,
+      90.46,
+      92.6,
       "在几秒钟内生成完整的时间表。"
      ],
      [
-      92.24,
-      94.19,
-      "它会告诉您何时开始喂食，"
+      92.6,
+      94.04,
+      "它会告诉您何时喂食"
      ],
      [
-      94.19,
-      96.05,
-      "何时进行折叠，何时进行折叠"
+      94.04,
+      95.77,
+      "初学者，什么时候折叠，什么时候折叠"
      ],
      [
-      96.05,
+      95.77,
       96.24,
-      "上升"
+      "让它升起"
      ],
      [
       96.24,
       98.87,
-      "以及多长时间，最后什么时候"
+      "以及需要多长时间以及最终何时获得"
      ],
      [
       98.87,
@@ -629,132 +1440,132 @@
      [
       100.12,
       102.49,
-      "无需再手动创建时间轴，"
+      "不再需要手动创建时间线，"
      ],
      [
       102.49,
       104.8,
-      "应用为您完成所有艰苦的工作。"
+      "该应用程序会为您完成所有艰苦的工作。"
      ],
      [
       104.8,
-      107.0,
-      "Baker计划的一个强大方面是"
+      107.02,
+      "贝克计划的一个重要方面是"
      ],
      [
-      107.0,
-      109.27,
-      "能够根据"
+      107.02,
+      109.3,
+      "能够根据情况调整时间线"
      ],
      [
-      109.27,
-      110.08,
-      "您的日程安排。"
+      109.3,
+      110.12,
+      "你的日程安排。"
      ],
      [
-      110.08,
+      110.12,
       111.96,
-      "我明白了，生活会发生。"
+      "我明白了，生活发生了。"
      ],
      [
       111.96,
-      114.15,
-      "这时， Baker计划将允许您"
+      114.11,
+      "那时贝克计划将允许你"
      ],
      [
-      114.15,
-      116.22,
-      "动态调整时间轴以适应"
+      114.11,
+      116.16,
+      "动态调整时间线以适应"
      ],
      [
-      116.22,
-      117.48,
-      "您不断变化的日程安排，"
+      116.16,
+      117.4,
+      "你改变的日程安排，"
      ],
      [
-      117.48,
-      120.19,
-      "为您提供一些急需的灵活性，"
+      117.4,
+      120.16,
+      "为您提供一些急需的灵活性"
      ],
      [
-      120.19,
+      120.16,
       121.48,
-      "您的烘焙程序。"
+      "你的烘焙程序。"
      ],
      [
       121.48,
       123.96,
-      "面包师计划不仅仅是面包"
+      "贝克计划不仅仅适用于面包"
      ],
      [
       123.96,
       124.4,
-      "矛盾"
+      "不过。"
      ],
      [
       124.4,
       126.23,
-      "您可以手动添加任何食谱"
+      "您将能够手动添加任何食谱"
      ],
      [
       126.23,
       128.11,
-      "你想要的食材和说明"
+      "你想要的成分和说明"
      ],
      [
       128.11,
       128.24,
-      "for"
+      "为了"
      ],
      [
       128.24,
       131.36,
-      "完美的饼干、快速面包、馅饼和"
+      "完美的饼干、速食面包、馅饼和"
      ],
      [
       131.36,
       131.76,
-      "更多"
+      "更多。"
      ],
      [
       131.76,
-      133.56,
-      "面包师计划将自动生成"
+      133.62,
+      "贝克计划将自动生成"
      ],
      [
-      133.56,
-      135.42,
-      "您的购物清单，基于"
+      133.62,
+      135.54,
+      "您的购物清单基于"
      ],
      [
-      135.42,
-      136.08,
-      "您拥有的食谱"
+      135.54,
+      135.88,
+      "食谱"
      ],
      [
-      136.08,
+      135.88,
       137.48,
-      "已添加到您的日程安排中。"
+      "您已添加到您的日程安排中。"
      ],
      [
       137.48,
       139.72,
-      "因此，如果没有钥匙，您永远不会被抓到"
+      "所以你永远不会因为没有钥匙而被抓到"
      ],
      [
       139.72,
       140.44,
-      "的选择。"
+      "成分。"
      ],
      [
       140.44,
       142.0,
-      "您还可以组织"
+      "您还可以组织您的"
      ],
      [
       142.0,
       143.78,
-      "购物清单部分的食材，"
+      "购物清单部分的成分，"
      ],
      [
       143.78,
@@ -764,32 +1575,47 @@
      [
       144.52,
       147.45,
-      "始终拥有烘焙所需的一切"
+      "总有您烘焙所需的东西"
      ],
      [
       147.45,
       148.96,
-      "您想要执行。"
+      "你想要执行。"
      ],
      [
       148.96,
-      152.62,
-      "很容易感到不知所措，"
+      151.15,
+      "一个人应该有机会跟随"
      ],
      [
-      152.62,
-      157.06,
-      "当感觉像是整体时不受支持"
+      151.15,
+      153.52,
+      "他们的热情并为他们所做的事情感到自豪"
      ],
      [
-      157.06,
+      153.52,
+      153.92,
+      "创建。"
+     ],
+     [
+      153.92,
+      155.72,
+      "很容易感到不知所措并且"
+     ],
+     [
+      155.72,
+      157.9,
+      "当感觉像整体时不受支撑"
+     ],
+     [
+      157.9,
       158.72,
-      "world is set on"
+      "世界已开启"
      ],
      [
       158.72,
       166.19,
-      "说服你，你缺乏技能或"
+      "使您相信您缺乏技能或"
      ],
      [
       166.19,
@@ -799,12 +1625,12 @@
      [
       170.9,
       173.04,
-      "我对现代风格最大的挫折之一"
+      "我对现代最大的挫败之一"
      ],
      [
       173.04,
       175.13,
-      "烘焙是大公司的方式，"
+      "烘焙是大公司的方式"
      ],
      [
       175.13,
@@ -814,12 +1640,12 @@
      [
       175.38,
       177.6,
-      "让我们相信烘焙也是"
+      "让我们相信烘焙也是如此"
      ],
      [
       177.6,
       179.77,
-      "很复杂，所以他们可以向我们出售他们的"
+      "复杂所以他们可以卖给我们他们的"
      ],
      [
       179.77,
@@ -828,43 +1654,43 @@
      ],
      [
       180.94,
-      184.09,
-      "我们都知道，商店酒吧的面包"
+      183.73,
+      "但我们都知道商店里买的面包"
      ],
      [
-      184.09,
+      183.73,
       186.38,
-      "与家常烤面包相比。"
+      "无法与家庭烘焙的面包相比。"
      ],
      [
-      186.38,
-      188.2,
-      "借助Baker计划，智能调度和"
+      186.42,
+      188.24,
+      "通过贝克计划智能调度和"
      ],
      [
-      188.2,
-      190.28,
+      188.24,
+      190.32,
       "购物清单功能，您将能够"
      ],
      [
-      190.28,
-      191.14,
+      190.32,
+      191.18,
       "收回控制权"
      ],
      [
-      191.14,
-      193.92,
-      "你的时间和激情，并继续做"
+      191.18,
+      193.94,
+      "投入你的时间和热情并继续做"
      ],
      [
-      193.92,
+      193.94,
       196.69,
-      "你喜欢的东西，没有所有的压力"
+      "你所爱的，没有任何压力"
      ],
      [
       196.69,
       197.26,
-      "进行规划"
+      "规划"
      ],
      [
       197.26,
@@ -873,178 +1699,178 @@
      ],
      [
       199.3,
-      202.28,
-      "自给自足和独立，"
+      202.46,
+      "自给自足和独立"
      ],
      [
-      202.28,
-      205.26,
-      "来自家庭烘焙的任何人都可以实现"
+      202.46,
+      205.32,
+      "在家烘焙可以通过以下方式实现"
      ],
      [
-      205.26,
-      205.54,
-      "方式"
+      205.32,
+      205.62,
+      "任何。"
      ],
      [
-      205.54,
-      208.27,
+      205.62,
+      208.28,
       "贝克计划是我帮助实现这一目标的方式"
      ],
      [
-      208.27,
+      208.28,
       208.74,
-      "發生"
+      "发生。"
      ],
      [
       208.74,
-      210.8,
-      "Baker计划将消除"
+      210.78,
+      "贝克计划将消除压力"
      ],
      [
-      210.8,
-      212.92,
-      "所有计划，以便您可以回到"
+      210.78,
+      212.88,
+      "所有计划，以便您可以回到原来的状态"
      ],
      [
-      212.92,
-      213.34,
-      "每一刻"
+      212.88,
+      213.3,
+      "你爱"
      ],
      [
-      213.34,
-      215.67,
-      "关于烘焙，面团的感觉，"
+      213.3,
+      215.61,
+      "关于烘焙，面团的触感，"
      ],
      [
-      215.67,
-      218.0,
-      "面包的味道，以及面包的外观"
+      215.61,
+      217.93,
+      "面包的气味和面包的外观"
      ],
      [
-      218.0,
-      218.82,
+      217.93,
+      218.74,
       "那些人的面孔"
      ],
      [
-      218.82,
-      220.42,
-      "您正在与共享它。"
+      218.74,
+      220.3,
+      "你正在与之分享它。"
      ],
      [
-      220.42,
-      222.81,
-      "Baker计划将简化流程，"
+      220.3,
+      222.72,
+      "贝克计划将简化流程，以便"
      ],
      [
-      222.81,
-      225.19,
-      "您无需手动创建"
+      222.72,
+      225.15,
+      "你永远不需要手动创建你的"
      ],
      [
-      225.19,
-      225.66,
-      "时区"
+      225.15,
+      225.62,
+      "时间线"
      ],
      [
-      225.66,
-      233.95,
-      "婚礼。"
+      225.62,
+      233.91,
+      "再次。"
      ],
      [
-      233.95,
-      236.68,
-      "我有愿景和路线图"
+      233.91,
+      236.64,
+      "我有愿景和路线图要制定"
      ],
      [
-      236.68,
-      239.42,
-      "这项服务会发生，但我仍然需要你的"
+      236.64,
+      239.38,
+      "这项服务发生了，但我仍然需要你"
      ],
      [
-      239.42,
-      239.95,
-      "支持部门"
+      239.38,
+      239.91,
+      "支持。"
      ],
      [
-      239.95,
-      242.23,
-      "如果Baker计划听起来像是你想要的工具"
+      239.91,
+      242.19,
+      "如果贝克计划听起来像您想要的工具"
      ],
      [
-      242.23,
-      244.4,
+      242.19,
+      244.36,
       "在你的生活中，帮助我实现它"
      ],
      [
-      244.4,
-      244.79,
-      "背书,发行钞票的资金,发行证券准备"
+      244.36,
+      244.75,
+      "支持"
      ],
      [
-      244.79,
+      244.75,
       246.47,
       "我今天的竞选活动。"
      ],
      [
       246.47,
       248.65,
-      "我有各种各样的福利，具体取决于"
+      "我有多种福利，具体取决于"
      ],
      [
       248.65,
       250.94,
-      "您的捐赠等级，其值为"
+      "您的捐赠等级与价值"
      ],
      [
       250.94,
       251.23,
-      "福利待遇"
+      "福利"
      ],
      [
       251.23,
       253.31,
-      "随着您的支持水平而增加。"
+      "随着您的支持级别的增加而增加。"
      ],
      [
       253.31,
-      256.0,
+      255.96,
       "最重要的是，你会帮助我"
      ],
      [
-      256.0,
-      258.55,
-      "把烘焙的乐趣带给人们，"
+      255.96,
+      258.47,
+      "给人们带来烘焙的乐趣"
      ],
      [
-      258.55,
-      259.15,
-      "像你"
+      258.47,
+      259.07,
+      "像你一样。"
      ],
      [
-      259.15,
-      261.43,
-      "请查看以下描述，了解更多信息"
+      259.07,
+      261.39,
+      "查看下面的描述以了解更多信息"
      ],
      [
-      261.43,
+      261.39,
       263.59,
-      "支持者可享受的福利详情。"
+      "有关支持者可获得的福利的详细信息。"
      ],
      [
       263.59,
-      265.99,
-      "让我们把快乐放回烘焙中。"
+      266.03,
+      "让我们把快乐重新带回到烘焙中。"
      ],
      [
-      265.99,
-      268.7,
-      "精简、简化和品味每一个"
+      266.03,
+      268.84,
+      "精简、简化并节省她的一切"
      ],
      [
-      268.7,
-      269.07,
-      "步骤。"
+      268.84,
+      269.19,
+      "步。"
      ]
     ],
     "vttLang": "zh",
@@ -1052,37 +1878,37 @@
      {
       "t": "p",
       "x": "Manual sourdough math is a stressful chore. Bake a Plan will automate your baking timeline so you never have to again.",
-      "z": "手工酵母数学是一项压力很大的工作。烘焙计划将使您的烘焙时间表自动化，因此您再也不必这样做了。"
+      "z": "手工酵母数学是一项压力很大的苦差事。烘焙计划将使您的烘焙时间表自动化，这样您就不必再这样做了。"
      },
      {
       "t": "p",
       "x": "Sourdough baking is a beautiful craft but too often, the logistical planning of a bake feels like a stressful, mathematical chore. Between scheduling starter feeding intervals, anticipating peak ripeness, and manually working backward from your target oven time, it's easy to feel lost. Sourdough has a mind of its own, and managing it can feel like a full-time job.",
-      "z": "酸面包烘焙是一种美丽的工艺，但烘焙的后勤规划往往让人感觉像是一种紧张的数学琐事。在安排起动器喂食间隔、预测峰值成熟度以及从目标烤箱时间向后手动操作之间，很容易感到失落。酸面包有自己的想法，管理它可以感觉像是一份全职工作。"
+      "z": "酸面团烘焙是一门美丽的手艺，但很多时候，烘焙的后勤规划感觉像是一项压力很大的数学苦差事。在安排发酵剂饲喂间隔、预测成熟度高峰以及从目标烤箱时间手动向后工作之间，很容易感到迷失。酸面团有自己的想法，管理它感觉就像是一份全职工作。"
      },
      {
       "t": "p",
       "x": "I want to build Bake a Plan to change that. With your support, I want to create a dynamic baking companion that automates your timeline and fits baking seamlessly into your active schedule. The primary purpose of this Kickstarter campaign is to fund the development of a functional prototype, paving the way for a stress-free baking experience where you can say goodbye to complicated math, tedious spreadsheets, and the anxiety that often comes with planning.",
-      "z": "我想建立一个烘焙计划来改变这一点。在您的支持下，我想创建一个动态的烘焙伴侣，使您的时间表自动化，并将烘焙无缝地融入您的活动时间表。此次Kickstarter活动的主要目的是为功能原型的开发提供资金，为无压力的烘焙体验铺平道路，让您可以告别复杂的数学、乏味的电子表格以及计划中经常出现的焦虑。"
+      "z": "我想制定一个烘焙计划来改变这一点。在您的支持下，我想创建一个动态烘焙伴侣，使您的时间线自动化，并将烘焙无缝地融入您的活动日程中。此次 Kickstarter 活动的主要目的是资助功能原型的开发，为无压力的烘焙体验铺平道路，让您可以告别复杂的数学、繁琐的电子表格以及规划时经常带来的焦虑。"
      },
      {
       "t": "p",
       "x": "Every sourdough baker knows the struggle of planning timelines by hand. You sit down with a notebook and a calculator, mapping out every step of your bake:",
-      "z": "每个酸面包师都知道手工规划时间表的挣扎。你拿着笔记本和计算器坐下来，绘制出烘焙的每一步："
+      "z": "每个酵母面包师都知道手工规划时间表的难度。你坐下来，拿着笔记本和计算器，规划出烘焙的每一步："
      },
      {
       "t": "p",
       "x": "*   When do I feed my starter so it peaks on time?",
-      "z": "*我什么时候喂起动机，以便它按时达到峰值？"
+      "z": "* 我什么时候喂开胃菜才能按时达到峰值？"
      },
      {
       "t": "p",
       "x": "*   What time do I need to start mixing?",
-      "z": "*我需要什么时候开始搅拌？"
+      "z": "* 我需要什么时间开始混合？"
      },
      {
       "t": "p",
       "x": "*   If I want fresh bread for Sunday family dinner, when must I start the bulk fermentation?",
-      "z": "*如果我想要周日家庭晚餐的新鲜面包，我什么时候必须开始散装发酵？"
+      "z": "* 如果我想要周日家庭晚餐的新鲜面包，我什么时候必须开始批量发酵？"
      },
      {
       "t": "p",
@@ -1092,12 +1918,12 @@
      {
       "t": "p",
       "x": "A meeting runs late, the kids need to be picked up, or an unexpected chore pops up. Suddenly, your meticulously designed timeline is ruined. Now, you're left with a choice: rewrite the whole timeline or don't make the sourdough.",
-      "z": "会议迟到了，孩子们需要被接走，或者突然出现意想不到的烦恼。突然间，你精心设计的时间表被毁了。现在，您可以选择：重写整个时间线或不制作酸面团。"
+      "z": "会议迟到，需要接孩子，或者出现意外的杂务。突然间，你精心设计的时间表被毁了。现在，你面临一个选择：重写整个时间线，或者不做酸面团。"
      },
      {
       "t": "p",
       "x": "Traditional meal-planning apps completely lack the specific, time-sensitive planning tools that bakers need. I believe calculation chaos shouldn't stand in the way of your baking success.",
-      "z": "传统的膳食计划应用程序完全缺乏面包师所需的具体、时间敏感的规划工具。我相信计算混乱不应该阻碍你的烘焙成功。"
+      "z": "传统的膳食计划应用程序完全缺乏面包师所需的具体的、时间敏感的计划工具。我相信计算混乱不应该妨碍您烘焙的成功。"
      },
      {
       "t": "img",
@@ -1106,17 +1932,17 @@
      {
       "t": "p",
       "x": "I want to build a modern digital companion that removes the logistical friction of baking so you can focus on the craft. I want to turn sourdough baking from an overwhelming chore into a confident, joyful experience.",
-      "z": "我想建立一个现代的数字伴侣，消除烘焙的后勤摩擦，这样你就可以专注于工艺。我想把酸面包烘焙从压倒性的苦差事变成一种自信、快乐的体验。"
+      "z": "我想建立一个现代的数字伴侣，消除烘焙的后勤摩擦，这样你就可以专注于工艺。我想把酵母烘焙从繁重的苦差事变成一种自信、快乐的体验。"
      },
      {
       "t": "p",
       "x": "Here is the simple, powerful workflow I want to develop:",
-      "z": "以下是我想要开发的简单而强大的工作流程："
+      "z": "这是我想要开发的简单而强大的工作流程："
      },
      {
       "t": "p",
       "x": "Tell the app exactly when, down to the minute, you want to pull your bread out of the oven.",
-      "z": "告诉应用程序您想在什么时候将面包从烤箱中拿出来。"
+      "z": "准确地告诉应用程序您想要将面包从烤箱中取出的时间，精确到分钟。"
      },
      {
       "t": "img",
@@ -1125,7 +1951,7 @@
      {
       "t": "p",
       "x": "In seconds, Bake a Plan generates a complete, tailored schedule. It outlines when to feed your starter for peak ripeness, when to mix your dough, when to perform stretch-and-folds, and when to bake.",
-      "z": "在几秒钟内，烘焙计划会生成一个完整的、量身定制的计划。它概述了何时喂食发酵剂以达到最高成熟度，何时混合面团，何时进行拉伸和折叠以及何时烘焙。"
+      "z": "只需几秒钟，“制定计划”就会生成完整的、量身定制的时间表。它概述了何时喂发酵剂以达到最佳成熟度、何时混合面团、何时进行拉伸和折叠以及何时烘烤。"
      },
      {
       "t": "img",
@@ -1134,7 +1960,7 @@
      {
       "t": "p",
       "x": "Pull warm, golden sourdough out of the oven right on schedule—free from calculation stress, guesswork, and ruined timelines, ready to share with your family and friends.",
-      "z": "按时将温暖的金色酸面团从烤箱中取出，免受计算压力、猜测和毁坏的时间表，随时与家人和朋友分享。"
+      "z": "按时将温暖、金黄的酸面团从烤箱中取出——没有计算压力、猜测和时间线的破坏，准备好与家人和朋友分享。"
      },
      {
       "t": "img",
@@ -1143,17 +1969,17 @@
      {
       "t": "p",
       "x": "I want Bake a Plan to be the ultimate companion for your entire kitchen adventure:",
-      "z": "我希望Bake a Plan成为您整个厨房之旅的终极伴侣："
+      "z": "我希望《烘焙计划》成为您整个厨房冒险的终极伴侣："
      },
      {
       "t": "p",
       "x": "*   Your Recipe Vault: Easily add your own custom recipes—whether they are sourdough, yeasted sandwich breads, artisan pastries, quick breads, pies, or cookies.",
-      "z": "*您的食谱库：轻松添加您自己的定制食谱，无论是酸面包、酵母三明治面包、手工糕点、速食面包、馅饼还是饼干。"
+      "z": "* 您的食谱库：轻松添加您自己的自定义食谱 - 无论是酸面团、发酵三明治面包、手工糕点、速食面包、馅饼还是饼干。"
      },
      {
       "t": "p",
       "x": "*   Automated Shopping Lists: Once you schedule a bake, the app will be designed to compile your ingredients into an organized shopping list so you are never caught without a key ingredient.",
-      "z": "*自动购物清单：安排烘焙后，该应用程序将把您的食材整理成一个有组织的购物清单，这样您就不会因为没有关键食材而被发现。"
+      "z": "* 自动购物清单：一旦您安排了烘焙，该应用程序将把您的原料编译成一个有组织的购物清单，这样您就永远不会缺少关键原料。"
      },
      {
       "t": "img",
@@ -1162,42 +1988,42 @@
      {
       "t": "p",
       "x": "It’s easy to feel overwhelmed and unsupported when it feels like the whole world is set on convincing you that you lack the skills or time to be a home baker.",
-      "z": "当整个世界都在努力说服您缺乏成为家庭面包师的技能或时间时，您很容易感到不知所措和无助。"
+      "z": "当感觉整个世界都在说服你你缺乏成为家庭面包师的技能或时间时，你很容易感到不知所措和不受支持。"
      },
      {
       "t": "p",
       "x": "One of my biggest frustrations with modern baking is the way large food corporations try to convince us that baking is just too complicated, solely so they can sell us their ready-made, mass-produced products. But we all know that store-bought bread doesn't compare to a home-baked loaf.",
-      "z": "我对现代烘焙最大的挫折之一是大型食品公司试图说服我们烘焙太复杂，只是为了向我们出售他们现成的批量生产的产品。但我们都知道，商店购买的面包不能与自制面包相提并论。"
+      "z": "我对现代烘焙最大的挫败感之一是大型食品公司试图让我们相信烘焙太复杂了，只是为了向我们出售现成的、批量生产的产品。但我们都知道商店买的面包无法与家庭烘焙的面包相比。"
      },
      {
       "t": "p",
       "x": "By developing Bake a Plan, I want to help you take back control of your time, build self-sufficiency, and experience the pure pride of baking handmade bread for those you love.",
-      "z": "通过制定烘焙计划，我想帮助您收回对时间的控制，建立自给自足，并体验为您所爱的人烘焙手工面包的纯粹自豪感。"
+      "z": "通过制定“烘焙计划”，我想帮助您重新掌控自己的时间，建立自给自足的能力，并体验为您所爱的人烘焙手工面包的纯粹自豪感。"
      },
      {
       "t": "p",
       "x": "Hi, I'm Jamiahus! Sourdough baking is my passion, but I'm also a User Experience (UX) Researcher with 13 years of experience uncovering friction in everyday activities and building digital experiences that people actually love.",
-      "z": "嗨，我是Jamiahus ！烘焙酸面包是我的热情所在，但我也是一名用户体验（ UX ）研究员，拥有13年的经验，可以发现日常活动中的摩擦，打造人们真正喜爱的数字体验。"
+      "z": "嗨，我是贾米亚胡斯！酸面团烘焙是我的热情所在，但我也是一名用户体验 (UX) 研究员，拥有 13 年发现日常活动中的摩擦和构建人们真正喜欢的数字体验的经验。"
      },
      {
       "t": "p",
       "x": "When I started sourdough baking during the pandemic, I experienced the exact same \"calculation chaos\" and scheduling stress that you do. I noticed that traditional meal-planning apps completely ignored the precision bakers needed, so I decided to use my professional research and design background to map out a solution.",
-      "z": "当我在疫情期间开始烘焙酸面包时，我经历了与您完全相同的“计算混乱”和时间安排压力。我注意到传统的膳食计划应用程序完全忽略了面包师所需的精确度，所以我决定利用我的专业研究和设计背景来制定解决方案。"
+      "z": "当我在大流行期间开始发酵酵母烘焙时，我经历了与你完全相同的“计算混乱”和日程安排压力。我注意到传统的膳食计划应用程序完全忽略了烘焙师所需的精准度，因此我决定利用我的专业研究和设计背景来制定解决方案。"
      },
      {
       "t": "p",
       "x": "I have the vision, the roadmap, and the passion to make Bake a Plan a reality. But to transition this project from a prototype design into a fully functional application, I need your help.",
-      "z": "我有实现烘焙计划的愿景、路线图和热情。但是，为了将这个项目从原型设计转变为功能齐全的应用程序，我需要您的帮助。"
+      "z": "我有愿景、路线图和热情，让制定计划成为现实。但为了将该项目从原型设计转变为功能齐全的应用程序，我需要您的帮助。"
      },
      {
       "t": "p",
       "x": "The primary goal of this campaign is to raise funds to move Bake a Plan from an initial concept into a fully working prototype. The majority of the budget will go directly into prototype engineering.",
-      "z": "此活动的主要目标是筹集资金，将烘焙计划从最初的概念转变为完全正常工作的原型。大部分预算将直接用于原型工程。"
+      "z": "该活动的主要目标是筹集资金，将“烘焙计划”从最初的概念转变为完全可行的原型。大部分预算将直接用于原型工程。"
      },
      {
       "t": "p",
       "x": "Here is the exact breakdown of how the budget will be allocated:",
-      "z": "以下是预算分配方式的确切明细："
+      "z": "以下是预算分配方式的具体细目："
      },
      {
       "t": "img",
@@ -1217,11 +2043,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 35000.0,
-    "pledged": 1498366.0,
-    "usdPledged": "190926.8152461",
+    "pledged": 1502047.0,
+    "usdPledged": "191395.86059745",
     "goalUsd": 4459.82,
-    "percentFunded": 4281.045714285715,
-    "backers": 3022,
+    "percentFunded": 4291.562857142857,
+    "backers": 3029,
     "deadline": 1795266003,
     "launchedAt": 1792670403,
     "staffPick": true,
@@ -1231,7 +2057,7 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6595,
+    "score": 0.6596,
     "coverRemote": "https://i.kickstarter.com/assets/055/719/992/86443f9d4a1008a821617ad5c36f944d_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793369139&width=1024&sig=1pacSCOQNAeuzV9AwUzbSA%2F%2Bx%2BgJYKjPo858HDVcG%2BQ%3D",
     "videoMp4": "https://v2.kickstarter.com/1793628896-j3pGiTQnDP62%2Bwv3hzk51DEEU2syTJsg4ox2hHxwU%2Bg%3D/projects/5393674/video-1469587-h264_high.mp4",
     "videoHls": "https://v2.kickstarter.com/1793628896-j3pGiTQnDP62%2Bwv3hzk51DEEU2syTJsg4ox2hHxwU%2Bg%3D/projects/5393674/video-1469587-hls_playlist.m3u8",
@@ -1252,9 +2078,9 @@
       "price": 267.0,
       "title": "Wuben G6 Standard x1",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 1424,
+      "backers": 1429,
       "limit": 1500,
-      "remaining": 76,
+      "remaining": 71,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -1263,9 +2089,9 @@
       "price": 515.0,
       "title": "Wuben G6 Standard x2",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 410,
+      "backers": 411,
       "limit": 500,
-      "remaining": 90,
+      "remaining": 89,
       "eta": 1798761600,
       "shipping": "restricted"
      }
@@ -1277,7 +2103,7 @@
      [
       6.99,
       8.99,
-      "与Wubin G6会面。"
+      "来认识一下武彬 G6。"
      ],
      [
       10.49,
@@ -1292,27 +2118,27 @@
      [
       15.23,
       15.99,
-      "实践性"
+      "实用性。"
      ],
      [
       16.99,
       19.33,
-      "由70-75级航空航天材料制成"
+      "由 70-75 航空航天级精制而成"
      ],
      [
       19.33,
       22.16,
-      "铝，它的构造既坚韧又"
+      "铝制，坚固耐用"
      ],
      [
       22.16,
       22.99,
-      "轻量级。"
+      "重量轻。"
      ],
      [
       26.34,
       29.07,
-      "主光源提供高达500流明"
+      "主灯可提供高达 500 流明的亮度"
      ],
      [
       29.07,
@@ -1322,97 +2148,97 @@
      [
       30.84,
       34.27,
-      "侧灯提供高达100流明"
+      "侧光提供高达 100 流明"
      ],
      [
       34.27,
       37.79,
-      "用于特写任务，而双流明红色"
+      "用于特写任务，而两流明红色"
      ],
      [
       37.79,
       40.88,
-      "信号灯已准备好发出警报和"
+      "信号灯已准备好发出警报并且"
      ],
      [
       40.88,
       41.91,
-      "紧急情况"
+      "紧急情况。"
      ],
      [
       43.41,
       45.92,
-      "触觉开关快速响应"
+      "轻触开关响应迅速"
      ],
      [
       45.92,
       47.41,
-      "您可以感受到清晰的点击。"
+      "您可以感觉到清晰的点击声。"
      ],
      [
       47.91,
       50.62,
-      "使用简单直观，即使"
+      "使用起来简单直观，即使在"
      ],
      [
       50.62,
       53.62,
-      "湿，夹子旋转90度以定向"
+      "潮湿时，夹子旋转 90 度以引导"
      ],
      [
       53.62,
       54.91,
-      "必要时照明。"
+      "需要时点亮。"
      ],
      [
-      58.87,
-      61.93,
-      "调整角度，然后将G6连接到"
+      54.91,
+      60.18,
+      "调整角度，然后将 G6 安装到"
      ],
      [
-      61.93,
+      60.18,
       64.37,
-      "衣服、背包等。"
+      "衣服、背包等等。"
      ],
      [
-      64.87,
-      67.6,
-      "带盖的USB充电端口保持不动"
+      64.37,
+      67.1,
+      "被遮盖的 USB 充电端口保持隐藏状态"
      ],
      [
-      67.6,
-      69.87,
+      67.1,
+      69.37,
       "以获得干净、对称的外观。"
      ],
      [
-      72.16,
-      74.49,
-      "纤薄的刀片内置于"
+      69.37,
+      73.01,
+      "侧面内置有细长刀片"
      ],
      [
-      74.49,
-      76.83,
-      "身体，为日常生活添加实用工具"
+      73.01,
+      76.64,
+      "身体，为日常增添实用工具"
      ],
      [
-      76.83,
+      76.64,
       77.16,
-      "携带"
+      "携带。"
      ],
      [
-      77.66,
-      79.99,
-      "Wubin G6包装日常必需品"
+      77.16,
+      79.67,
+      "Wubin G6 包含日常必需品"
      ],
      [
-      79.99,
-      82.44,
-      "变成超薄、轻巧的设计，"
+      79.67,
+      82.31,
+      "融入超薄、轻量化设计，"
      ],
      [
-      82.44,
+      82.31,
       84.16,
-      "随时准备去任何地方。"
+      "准备好去任何你想去的地方。"
      ]
     ],
     "vttLang": "zh",
@@ -1436,7 +2262,7 @@
      {
       "t": "p",
       "x": "Unlike many lights designed for a single purpose, the WUBEN G6’s compact design opens up more ways to use it. Lightweight and easy to carry, it fits naturally into everyday life and on the go. Wherever life takes you, you can find a place for the G6.",
-      "z": "与许多专为单一用途设计的灯具不同， WUBEN G6的紧凑设计开辟了更多的使用方式。重量轻，便于携带，自然适合日常生活和旅行。无论生活带您去哪里，您都可以为G6找到一个地方。"
+      "z": "与许多专为单一用途设计的灯不同，WUBEN G6 的紧凑设计开辟了更多使用方式。它重量轻且易于携带，自然适合日常生活和旅途。无论生活带您去往何处，G6 都能为您找到一席之地。"
      },
      {
       "t": "img",
@@ -1445,7 +2271,7 @@
      {
       "t": "p",
       "x": "The slim, portable WUBEN G6 offers adjustable brightness from 1 to 500 lumens and a beam distance of up to 66 m. From evening walks and home repairs to outdoor adventures and unexpected power outages, it’s ready to light up everyday moments.",
-      "z": "纤薄、便携式的WUBEN G6提供1至500流明的可调亮度，光束距离可达66米。从夜间散步和房屋维修到户外探险和意外停电，它随时可以照亮日常时刻。"
+      "z": "纤薄便携的 WUBEN G6 提供 1 至 500 流明的可调亮度，光束距离可达 66 m。从晚间散步和房屋维修到户外探险和意外停电，它随时可以照亮日常生活。"
      },
      {
       "t": "img",
@@ -1458,7 +2284,7 @@
      {
       "t": "p",
       "x": "Beyond its main beam, the WUBEN G6 offers practical light right at the front. Two 1 W white LEDs deliver 100 lumens for close-up tasks, from checking your gear to making a quick repair. A compact red/blue indicator adds even more versatility: its 2-lumen red light can be used as a signal, and the indicator also shows the light’s power status.",
-      "z": "除了主梁外， WUBEN G6在前面还提供实用的光线。从检查装备到快速维修，两个1瓦白色LED可提供100流明，用于特写任务。紧凑的红色/蓝色指示灯增加了更多用途：其2流明红色灯可用作信号，指示灯还显示灯的电源状态。"
+      "z": "除了主光束之外，WUBEN G6 还在前方提供实用的光线。两个 1 W 白色 LED 可为近距离任务（从检查装备到快速维修）提供 100 流明的亮度。紧凑的红/蓝指示灯增加了更多的多功能性：其 2 流明红灯可用作信号，并且指示灯还显示灯的电源状态。"
      },
      {
       "t": "img",
@@ -1475,7 +2301,7 @@
      {
       "t": "p",
       "x": "Slim, easy-to-carry design has been at the heart of the WUBEN G6 from the start. Thinner, then thinner still: at its narrowest point, the G6 is nearly as thin as a USB connector. The result is a thoughtful balance of everyday functionality and effortless portability.",
-      "z": "纤薄、便于携带的设计从一开始就是WUBEN G6的核心。更薄，然后更薄：在最窄的点上， G6几乎与USB连接器一样薄。其结果是在日常功能和轻松便携之间取得了深思熟虑的平衡。"
+      "z": "纤薄、易于携带的设计从一开始就是 WUBEN G6 的核心。越来越薄：在最窄处，G6 几乎与 USB 连接器一样薄。结果是日常功能和轻松便携性之间的深思熟虑的平衡。"
      },
      {
       "t": "img",
@@ -1492,7 +2318,7 @@
      {
       "t": "p",
       "x": "The WUBEN G6’s concealed, three-way rotating clip quickly became a standout feature for its versatility. For the G6, we’ve taken that idea further with a thicker, sturdier clip and a wider opening, making it easier to attach to your gear and designed for a more secure hold. Clip it on, adjust the angle, and keep your light right where you need it.",
-      "z": "五本G6隐蔽的三向旋转夹子因其多功能性而迅速成为一个突出的功能。对于G6 ，我们通过更厚、更坚固的夹子和更宽的开口进一步实现了这一理念，使其更容易安装到您的装备上，并设计成更安全的保持。夹住它，调整角度，并将光线保持在需要的位置。"
+      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将灯光保持在您需要的位置。"
      },
      {
       "t": "img",
@@ -1501,302 +2327,37 @@
      {
       "t": "p",
       "x": "On the side opposite the G6’s rotating clip, a compact folding blade is integrated for everyday tasks and outdoor needs. It’s handy for opening packages, cutting cord, or taking care of quick campsite tasks.",
-      "z": "在G6旋转夹对面的一侧，紧凑型折叠刀片集成在一起，可满足日常任务和户外需求。它非常适合打开包裹、剪线或处理快速的营地任务。"
+      "z": "在 G6 旋转夹的对面，集成了一个紧凑的折叠刀片，可满足日常任务和户外需求。它可以方便地打开包裹、剪断电源线或处理快速的露营地任务。"
      },
      {
       "t": "p",
       "x": "The mini knife detaches from the G6, so you can choose how you carry it. Keep it attached for an all-in-one setup, or remove and stow it separately when you want to carry the G6 on its own. We’re also exploring additional accessory-mounting options to give you more ways to customize your setup.",
-      "z": "迷你刀与G6分离，因此您可以选择携带方式。保持连接，以便进行一体化设置，或者在需要单独携带G6时将其拆卸并单独存放。我们还在探索其他配件安装选项，为您提供更多自定义设置的方法。"
+      "z": "迷你刀与 G6 分离，因此您可以选择携带方式。将其固定以实现一体化设置，或者当您想单独携带 G6 时将其取下并单独存放。我们还在探索其他配件安装选项，为您提供更多自定义设置的方法。"
      },
      {
       "t": "p",
       "x": "We took a different approach with the G6’s switch. It responds to a light press with clear, direct tactile feedback, making operation simple and intuitive. Water won’t interrupt its response. Even underwater, the switch remains usable. A breakthrough in switch design that makes everyday operation easier.",
-      "z": "我们对G6的开关采取了不同的方法。它通过清晰、直接的触觉反馈响应轻压，使操作简单直观。水不会中断其反应。即使在水下，开关仍然可用。开关设计的突破，使日常操作更轻松。"
+      "z": "我们对 G6 的开关采取了不同的方法。轻轻一按，它就会产生清晰、直接的触觉反馈，使操作变得简单直观。水不会中断其反应。即使在水下，开关仍然可用。开关设计的突破，让日常操作更加轻松。"
      },
      {
       "t": "p",
       "x": "The G6’s high-density 400 mAh battery is protected against overcharging, over-discharge, overcurrent, and short circuits. Electrical insulation adds another layer of protection. The G6 also supports use while charging, so you can keep using the light while it’s plugged in.",
-      "z": "G6的高密度400 mAh电池可防止过充、过放、过流和短路。电气绝缘增加了另一层保护。G6还支持在充电时使用，因此您可以在插入光源时继续使用。"
+      "z": "G6 的高密度 400 mAh 电池具有防过度充电、过度放电、过流和短路保护。电气绝缘增加了另一层保护。 G6 还支持边充电边使用，因此您可以在插入电源时继续使用灯。"
      },
      {
       "t": "p",
       "x": "Made for everyday carry and long-term use, the WUBEN G6 clips onto clothing, backpacks, or key rings with a light press and detaches just as easily. Tested through more than 100,000 press cycles, the sturdy spring clip can support a 5 kg load, providing a secure, dependable hold day after day.",
-      "z": "WUBEN G6专为日常携带和长期使用而设计，可轻轻按压并轻松拆卸到衣服、背包或钥匙圈上。坚固的弹簧夹经过10万次以上的冲压循环测试，可承受5公斤的负载，日复一日提供安全可靠的保持。"
+      "z": "WUBEN G6 专为日常携带和长期使用而设计，只需轻轻一按即可夹在衣服、背包或钥匙圈上，也可以轻松拆卸。经过超过 100,000 次按压循环测试，坚固的弹簧夹可支撑 5 公斤负载，日复一日地提供安全、可靠的固定。"
      },
      {
       "t": "p",
       "x": "The Standard and Premium versions are identical in every way except for their materials. The Standard version is CNC-machined from 7075 aerospace-grade aluminum, while the Premium version is made from stonewashed titanium alloy.",
-      "z": "除了材料外，标准版和高级版在各个方面都是相同的。标准版本由7075航空级铝CNC加工而成，而Premium版本则由石洗钛合金制成。"
+      "z": "标准版和高级版除了材质不同外，在各方面都相同。标准版由 7075 航空级铝材 CNC 加工而成，而高级版则由石磨钛合金制成。"
      },
      {
       "t": "p",
       "x": "This project is promoted by Jellop, the ad tech power behind the best Kickstarter launches with 6,000+ successful Kickstarter projects and over $1.4Bn raised in total.",
-      "z": "该项目由Jellop推广， Jellop是最好的Kickstarter发布背后的广告技术力量，拥有6,000多个成功的Kickstarter项目，总共筹集了超过14亿美元。"
-     }
-    ]
-   },
-   {
-    "id": 647705462,
-    "name": "Amoeba One: Mini keychain-phone.",
-    "blurb": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
-    "url": "https://www.kickstarter.com/projects/amoebaone/amoeba-one-mini-keychain-phone",
-    "category": "Gadgets",
-    "creator": "Amoeba One",
-    "location": "Troy, NY",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 25000.0,
-    "pledged": 360410.0,
-    "usdPledged": "360410.0",
-    "goalUsd": 25000.0,
-    "percentFunded": 1441.6399999999999,
-    "backers": 3109,
-    "deadline": 1795791604,
-    "launchedAt": 1791900004,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.6089,
-    "coverRemote": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11313442,
-      "price": 94.0,
-      "title": "Random color",
-      "desc": "One Amoeba One device in a random color.",
-      "backers": 539,
-      "limit": null,
-      "remaining": null,
-      "eta": 1822348800,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11261115,
-      "price": 99.0,
-      "title": "Super Early Bird",
-      "desc": "One Amoeba One in your color. For our earliest backers.\\n\\nChoose your color after campaign via backer tools, all colors available.",
-      "backers": 1255,
-      "limit": null,
-      "remaining": null,
-      "eta": 1822348800,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11261139,
-      "price": 110.0,
-      "title": "Early Bird",
-      "desc": "One Amoeba One in your color. Early bird price.\\n\\nChoose your color after campaign via backer tools, all colors available.",
-      "backers": 423,
-      "limit": null,
-      "remaining": null,
-      "eta": 1822348800,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 15,
-    "tiersDate": "2026-11-02",
-    "tiersCarried": "2026-11-02",
-    "cues": [
-     [
-      35.38,
-      37.38,
-      "好吧，酷。再见。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D"
-     },
-     {
-      "t": "p",
-      "x": "pledged of $25,000 pledged of $25,000 goal",
-      "z": "承诺 25,000 美元 承诺 25,000 美元目标"
-     },
-     {
-      "t": "p",
-      "x": "25 days to go",
-      "z": "还剩 25 天"
-     },
-     {
-      "t": "p",
-      "x": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
-      "z": "Amoeba 拥有波浪形屏幕、内置登山扣，并有多种有趣的颜色可供选择。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/488/418/4feddc14715d0fa2d7deca711aa7a126_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1784510340&width=160&sig=td9wUZlWIBoKtrsO%2FnSJhNcATfsUjWPkeRYh3Xz5kH8%3D"
-     },
-     {
-      "t": "p",
-      "x": "First created•0 backed",
-      "z": "首次创建•0 支持"
-     },
-     {
-      "t": "p",
-      "x": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
-      "z": "Amoeba 拥有波浪形屏幕、内置登山扣，并有多种有趣的颜色可供选择。"
-     },
-     {
-      "t": "p",
-      "x": "pledged of $25,000 pledged of $25,000 goal",
-      "z": "承诺 25,000 美元 承诺 25,000 美元目标"
-     },
-     {
-      "t": "p",
-      "x": "25 days to go",
-      "z": "还剩 25 天"
-     },
-     {
-      "t": "p",
-      "x": "Kickstarter connects creators with backers to fund projects.",
-      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
-     },
-     {
-      "t": "p",
-      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
-      "z": "奖励无法保证，但创作者必须定期更新支持者。"
-     },
-     {
-      "t": "p",
-      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
-      "z": "仅当项目在活动截止日期前达到其融资目标时，您才需要付费。"
-     },
-     {
-      "t": "p",
-      "x": "*   [**The phone**](h:The-phone)",
-      "z": "* [**电话**](h:电话)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Colors**](h:Colors)",
-      "z": "* [**颜色**](h:颜色)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Features**](h:Features)",
-      "z": "* [**特性**](h:特性)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Everyday**](h:Everyday)",
-      "z": "* [**每天**](h:每天)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Under the hood**](h:Under-the-hood)",
-      "z": "* [**在引擎盖下**](h:在引擎盖下)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Spiky and Weirdoz**](h:Spiky-and-Weirdoz)",
-      "z": "* [**Spiky 和 Weirdoz**](h:Spiky-and-Weirdoz)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Prices**](h:Prices)",
-      "z": "* [**价格**](h:价格)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Development**](h:Development)",
-      "z": "* [**开发**](h:开发)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Schedule and funding**](h:Schedule-and-funding)",
-      "z": "* [**日程和资金**](h:日程和资金)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Amoeba Tech**](h:Amoeba-Tech)",
-      "z": "* [**阿米巴科技**](h:阿米巴科技)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Risks**](https://www.kickstarter.com/projects/amoebaone/risks-and-challenges)",
-      "z": "* [**风险**](https://www.kickstarter.com/projects/amoebaone/risks-and-challenges)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Environmental commitments**](https://www.kickstarter.com/projects/amoebaone/environmental-commitments)",
-      "z": "* [**环境承诺**](https://www.kickstarter.com/projects/amoebaone/environmental-commitments)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/181/5f3bfd190e487e92007ce8850e14ea1a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869536&width=680&sig=kmTzi4s4hi20cARCFs6C3vrJHQNSnkhcY1ooC9zYcLA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/189/ade3d2dfe0a9533f383a98d4487f223e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869583&width=680&sig=0hyrbnPyyILrK%2BRWAka0z6WiUSA%2F3rAQx2uEsk%2BWelQ%3D"
-     },
-     {
-      "t": "p",
-      "x": "Amoeba One. A keychain dumb phone with a clip-on carabiner and rotating camera.",
-      "z": "阿米巴一号.一款带有夹式登山扣和旋转摄像头的钥匙扣哑手机。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/191/aefd6f8c670e56d458546a69e5266e5e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869622&width=680&sig=gyo3yk4o2BxEVjkqck4JTYwcpV%2BkKxxHCVMczKF8gg0%3D"
-     },
-     {
-      "t": "p",
-      "x": "A mini phone for calls, texts, maps, rides, music and banking. No social feeds.",
-      "z": "一款用于通话、短信、地图、乘车、音乐和银行业务的迷你手机。没有社交动态。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/196/0418cb87d9c51bf60f4e3c4771b466f2_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869657&width=680&sig=kJPW%2BZAVDyN1sC5Cj%2F9Untyl35rYKCVM5N%2BI4MWefCk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/194/ec09b8c7f11428e43b7da3bf056347c7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869631&width=680&sig=Lg%2FCpRsob6S98vBt41YTaKePNhjx%2FDDnSOR34ctKdEM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/198/c66c33e244138d09699a8b452df4c14f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869658&width=680&sig=16N6JvsF7R48QpFQyFAiuATkcJutX%2FHzDLZyGPOqL%2BA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/200/34562088b257f80945198a860810d46e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869663&width=680&sig=xHzrzPuCWuqM5%2BUP1m0JjpyFeCJCLTrQFY0GQjd2Xhs%3D"
-     },
-     {
-      "t": "p",
-      "x": "Y2K color. Silicone colorways, glass screen, stainless steel inner core.",
-      "z": "Y2K 颜色。硅胶配色，玻璃屏幕，不锈钢内芯。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/202/eee7b81b6aa803db6cf3bc3381debb0a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869668&width=680&sig=h7VfjlI5T3Bx%2FXIyuXXQ%2BUIB5nBkyc9jDZdXIor2YW0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/203/f57645d2817e8541796a4d9eae108275_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869672&width=680&sig=5HsUss9z3aLV5Ck92aB51u4KVd1FE63pfNVuxYalKqk%3D"
-     },
-     {
-      "t": "p",
-      "x": "Five swirls: Mango Orange, Berry Swirl, Cotton Candy, Lagoon Swirl, Lime Soda.",
-      "z": "五种漩涡：芒果橙、浆果漩涡、棉花糖、泻湖漩涡、青柠汽水。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/206/b84fec0e79aff1a9880dec8a7fdf1b62_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869677&width=680&sig=vgW5WrKoBvzGJKed%2F0UU4zaR9axmovcMiFtyyBr3X6k%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/212/af5d70c7745623389c02f46cff07e8c8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869702&width=680&sig=YajspE7xLR9u5df7109ntlu3hEg3aMPPz0shvChBO%2Fk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/213/1bfdade06281d9950b55df757d5fdd99_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869706&width=680&sig=Gfl9TsXFbrcwSV%2FqrDR5rb1JqOBqeJxixJ5ageCKDL0%3D"
+      "z": "该项目由 Jellop 推广，Jellop 是最佳 Kickstarter 发布背后的广告技术力量，拥有 6,000 多个成功的 Kickstarter 项目，筹集资金总额超过 14 亿美元。"
      }
     ]
    }
