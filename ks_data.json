@@ -1,11 +1,287 @@
 [
  {
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T14:09:52+07:00",
+  "generatedAt": "2026-11-04T23:56:33+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 32,
+  "poolSize": 42,
   "projects": [
+   {
+    "id": 521399299,
+    "name": "AI WUKONG: Your First AI Humanoid Robot That Does It All",
+    "blurb": "14-DoF Bipedal Kinematics | AI Vision | AI Learning Companion | 50+ Dances, Actions & Fun | Visual/Python Coding | Remote Monitoring",
+    "url": "https://www.kickstarter.com/projects/aiwukong/ai-wukong-your-first-ai-humanoid-robot-that-does-it-all",
+    "category": "Robots",
+    "creator": "AI WUKONG",
+    "location": "Kowloon, Hong Kong",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 20000.0,
+    "pledged": 35975.0,
+    "usdPledged": "35975.0",
+    "goalUsd": 20000.0,
+    "percentFunded": 179.875,
+    "backers": 50,
+    "deadline": 1797089984,
+    "launchedAt": 1793198384,
+    "staffPick": false,
+    "sources": [
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai",
+     "robot"
+    ],
+    "score": 0.818,
+    "coverRemote": "https://i.kickstarter.com/assets/055/704/493/c69c1614a5012ec480935e03ba6da221_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793268352&width=1024&sig=I5%2F59rVqTBLAirNMPQvivDR8Y90Cf0I9AqvjLV0oFt0%3D",
+    "videoMp4": "https://v2.kickstarter.com/1793777668-%2B%2FJQx4fkQG30R%2BnsHVAGZ%2B2RjdO0eY7sQvaKqu%2F0rys%3D/projects/5381627/video-1474129-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793777668-%2B%2FJQx4fkQG30R%2BnsHVAGZ%2B2RjdO0eY7sQvaKqu%2F0rys%3D/projects/5381627/video-1474129-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11502142,
+      "price": 489.0,
+      "title": "Secret Reward - Single Pack",
+      "desc": "🔐Exclusively unlocked for our deposit backers. Thank you for being with us from the start!\\n\\n🤖 Get the AI WUKONG Single Pack at $489, saving 51% off the MSRP of $999! Exclusively unlocked for our deposit backers.\\n\\nYou will receive:\\n· AI WUKONG × 1\\n\\nNote:\\n📍 Shipping addresses will be collected in the upcoming survey.\\n🚚 For detailed shipping fees, please refer to the bottom of our campaign page.",
+      "backers": 12,
+      "limit": 300,
+      "remaining": 288,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11502178,
+      "price": 559.0,
+      "title": "Secret Reward — All-in-One Pack",
+      "desc": "🔐Exclusively unlocked for our deposit backers. Thank you for being with us from the start!\\n\\n🤖 Get the AI WUKONG All-in-One Pack at $559, saving 51% off the combined MSRP of $1,137! Exclusively unlocked for our deposit backers.\\n\\nYou will receive:\\n· AI WUKONG × 1\\n· Suspender Shorts × 1\\n· Cloud Stand × 1\\n\\nNote:\\n📍 Shipping addresses will be collected in the upcoming survey.\\n🎨 You can also select your preferred Suspender Shorts color in the survey.\\n🚚 For detailed shipping fees, please refer to the bottom of our campaign page.",
+      "backers": 5,
+      "limit": 100,
+      "remaining": 95,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11502211,
+      "price": 659.0,
+      "title": "Super Early Bird — All-in-One Pack",
+      "desc": "🤖 Get the AI WUKONG All-in-One Pack at $659, saving 42% off the combined MSRP of $1,137!\\n\\nYou will receive:\\n· AI WUKONG × 1\\n· Suspender Shorts × 1\\n· Cloud Stand × 1\\n\\nNote:\\n📍 Shipping addresses will be collected in the upcoming survey.\\n🎨 You can also select your preferred Suspender Shorts color in the survey.\\n🚚 For detailed shipping fees, please refer to the bottom of our campaign page.",
+      "backers": 25,
+      "limit": 100,
+      "remaining": 75,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 15,
+    "tiersDate": "2026-11-04",
+    "tiersCarried": "",
+    "cues": [
+     [
+      0.0,
+      2.0,
+      "你好！"
+     ],
+     [
+      2.0,
+      3.0,
+      "你好！"
+     ],
+     [
+      3.0,
+      4.0,
+      "你好吗？"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "p",
+      "x": "*   [**🤖 | Meet AI WUKONG**](h:-Meet-AI-WUKONG)",
+      "z": "* [**🤖 |认识人工智能悟空**](h:-认识-人工智能-悟空)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**✨ | What Makes WUKONG So Fun?**](h:-What-Makes-WUKONG-So-Fun-)",
+      "z": "* [**✨ |是什么让 WUKONG 如此有趣？**](h:-是什么让 WUKONG 如此有趣-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**🎬 | See AI WUKONG in Action**](h:-See-AI-WUKONG-in-Action)",
+      "z": "* [**🎬 |查看 AI WUKONG 的实际行动**](h:-See-AI-WUKONG-in-Action)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**🕺 | Little Robot. Big Moves.**](h:-Little-Robot-Big-Moves-)",
+      "z": "* [**🕺 |小机器人。大动作。**](h:-小机器人-大动作-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**😊 | A Little Character, Head to Toe**](h:-A-Little-Character-Head-to-Toe)",
+      "z": "* [**😊 |从头到脚的一个小角色**](h:-从头到脚的一个小角色)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**💬 | Talk with WUKONG**](h:-Talk-with-WUKONG)",
+      "z": "* [**💬 |与 WUKONG 交谈**](h:-与 WUKONG 交谈)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**👀 | See the World with WUKONG**](h:-See-the-World-with-WUKONG)",
+      "z": "* [**👀 |和悟空一起看世界**](h:-和悟空一起看世界)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**🏠 | Stay Connected from Anywhere**](h:-Stay-Connected-from-Anywhere)",
+      "z": "* [**🏠 |随时随地保持联系**](h:-随时随地保持联系)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**💻 | Learn to Code with WUKONG**](h:-Learn-to-Code-with-WUKONG)",
+      "z": "* [**💻 |与 WUKONG 一起学习编码**](h:-与 WUKONG 一起学习编码)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**🎵 | Create Your Own Moves**](h:-Create-Your-Own-Moves)",
+      "z": "* [**🎵 |创建您自己的动作**](h:-创建您自己的动作)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**☁️ | Meet the Cloud Stand**](h:-Meet-the-Cloud-Stand)",
+      "z": "* [**☁️ |认识云台**](h:-认识云台)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**🧠 | Key Upgrades**](h:-Key-Upgrades)",
+      "z": "* [**🧠 |关键升级**](h:-关键升级)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What's in the box**](h:What-s-in-the-box)",
+      "z": "* [**盒子里有什么**](h:盒子里有什么)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Rewards**](h:Rewards)",
+      "z": "* [**奖励**](h:奖励)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Add On**](h:Add-On)",
+      "z": "* [**附加组件**](h:附加组件)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Demo Video**](h:Demo-Video)",
+      "z": "* [**演示视频**](h:演示视频)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Design Journey**](h:Design-Journey)",
+      "z": "* [**设计之旅**](h:设计之旅)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Specification**](h:Specification)",
+      "z": "* [**规格**](h:规格)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [**时间线**](h:时间线)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**About Us**](h:About-Us)",
+      "z": "* [**关于我们**](h:关于我们)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/aiwukong/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/aiwukong/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/aiwukong/use-of-ai)",
+      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/aiwukong/use-of-ai)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/691/582/156b0ff465cdda4881b37721fea14969_original.gif?fit=scale-down&origin=ugc&q=92&v=1793190758&width=680&sig=st%2BV%2BhlcOgFiIGqP%2BTL6v0w%2BdATG3ca3K9P%2BMbJMkWQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/177/c3ab457ff66295e361a75d5584b87eaf_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793169036&width=680&sig=IVofo4oVMGbmkBWONzi8NVe%2BJV5XEriXddDzU4wCWMc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/692/511/a03650ab86d328ac7cfa1252c9e0807c_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793195754&width=680&sig=d0R4NWm9BohJVgxlEV9rIbfuKbDzpZHaFVExLxG8ej8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/690/475/0790efec218a075fd308172b7a24e213_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793183188&width=680&sig=xOZ3NGboeGZla4sLRZZkuATIPGUY3uRiZzv6U%2B1fcHc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/249/1f2a2616c2d945808fcbd1090bcbcb1f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793169604&width=680&sig=NvxuR8B3G%2ByC27HZnhmWFJE8nnq0W7v%2BmaszD%2BDklqA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/274/b7ad031731ec45b8c84e61490593307b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793169726&width=680&sig=pi8f7UTGUxALcLBjM8rE%2Bc4ASGb75teu6Ime77Vtmj8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/986/545/f0d3f3d5b26cb570bb0d6442a0bf9882_original.gif?fit=scale-down&origin=ugc&q=92&v=1788421010&width=790&sig=0REuuQ0Wjsrj1GJM9avEutMKMhzDi6S2g6c9ZogMJqA%3D"
+     },
+     {
+      "t": "p",
+      "x": "Driven by 14 high-precision servo actuators across its head, arms, waist, and legs, Wukong 2 performs complex bipedal locomotion, dynamic balance adjustments, and flexible acrobatic motions.",
+      "z": "悟空2由遍布头部、手臂、腰部和腿部的14个高精度伺服执行器驱动，可以执行复杂的双足运动、动态平衡调整和灵活的杂技动作。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/986/654/7735cf21c9716a0a8cc77b792f1299d7_original.gif?fit=scale-down&origin=ugc&q=92&v=1788421934&width=680&sig=vN%2FUiIiKzZSVvhGnz%2BycWAB1a%2Fvast9m5k6zeBqHrxM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/692/614/990459393e9cec7b4278f4f689a17707_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793196171&width=680&sig=dS2LMEF1lYDtR%2F5Mx9JcUFxTlj5l4Q1ZpqHsx%2B7HIn8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/341/717e4ec69a9f4fe28c068539e030eb31_original.gif?fit=scale-down&origin=ugc&q=92&v=1793170483&width=680&sig=t1VZHLEKtuxmcItWmE2SeJDjmAegw%2BVGnZspRFk9IEU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/692/620/1fe87b9e731d38b259310418c8ebddf7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793196187&width=680&sig=b8pxng0qpibQ5C42DYB0t7Pmr0Ok6kpLoqQ7KfyoQqI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/251/d2a4d91b6d727612121778d7d833d373_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793169626&width=680&sig=FBYAJpoEGTRkGI7dxuWrJAk1JH3%2FqCP9hXz3TKk2SFw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/688/278/049ff7fadbd605ea2aeeb8d979fb41e1_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793169742&width=680&sig=2%2B%2FhG4hc%2F4vtUP6w%2BEp%2B3y4AA90Ll8U6QreHNKx9q5o%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/986/704/d6f20a243031aa232a3b3f0cee9c30da_original.gif?fit=scale-down&origin=ugc&q=92&v=1788422260&width=680&sig=YUJ2ACleNoBmc5A85qbCFbHqjKeBxoNirhiNJYQI4%2FE%3D"
+     },
+     {
+      "t": "p",
+      "x": "Combining vision recognition and audio output, Wukong 2 scans physical educational storybooks page-by-page, functioning as an interactive reading helper and dual-language learning tool.",
+      "z": "悟空2结合视觉识别和音频输出，逐页扫描体育故事书，充当互动阅读助手和双语学习工具。"
+     },
+     {
+      "t": "p",
+      "x": "Built-in HD camera and remote mobility controls enable seamless video calls. Users can remotely check in on home activities, navigate the robot around the room, and stay connected with family members anytime.",
+      "z": "内置高清摄像头和远程移动控制可实现无缝视频通话。用户可以远程查看家庭活动、在房间内导航机器人并随时与家人保持联系。"
+     },
+     {
+      "t": "p",
+      "x": "Offers a comprehensive STEM programming path supporting both graphical drag-and-drop Blockly coding and advanced MicroPython scripting, helping users master robotic movement logic and text-based coding.",
+      "z": "提供全面的 STEM 编程路径，支持图形拖放 Blockly 编码和高级 MicroPython 脚本编写，帮助用户掌握机器人运动逻辑和基于文本的编码。"
+     }
+    ]
+   },
    {
     "id": 1256938972,
     "name": "AirCannon GPX: UNLEASH 118MPH POWER. THE MONSTER BLOWER",
@@ -18,11 +294,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 5000.0,
-    "pledged": 543615.0,
-    "usdPledged": "543615.0",
+    "pledged": 544711.0,
+    "usdPledged": "544711.0",
     "goalUsd": 5000.0,
-    "percentFunded": 10872.3,
-    "backers": 3021,
+    "percentFunded": 10894.22,
+    "backers": 3029,
     "deadline": 1793980994,
     "launchedAt": 1788793394,
     "staffPick": true,
@@ -33,19 +309,19 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.6783,
+    "score": 0.6367,
     "coverRemote": "https://i.kickstarter.com/assets/055/028/205/a7d8a80c5d44d3891cfc5695358d01d6_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788770799&width=1024&sig=fI5BTeubMjGZljGtr%2Bpdk0NhQeDQiaCEKrRVP0uvny8%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1793808005-HTIYA2vcPwKnn8Jw2lYaZAU5didxqIDB48uqX0Q6oGk%3D/projects/5361281/video-1458010-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793808005-HTIYA2vcPwKnn8Jw2lYaZAU5didxqIDB48uqX0Q6oGk%3D/projects/5361281/video-1458010-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11312715,
       "price": 129.0,
       "title": "Standard Single: Limited Quantity Deal",
       "desc": "[ONLY 300 LIMITED]\\nEverything you need is already here. The most affordable way to start your GPX journey. Don't be the 301st. \\n\\n▷ Save $95(Retail Price = $224)\\n▷ 42% Off exclusively during the Kickstarter project.\\n\\n*30A Battery Included.",
-      "backers": 698,
+      "backers": 700,
       "limit": 700,
-      "remaining": 2,
+      "remaining": 0,
       "eta": 1798761600,
       "shipping": "unrestricted"
      },
@@ -65,16 +341,16 @@
       "price": 159.0,
       "title": "Standard Double: Limited Quantity Deal",
       "desc": "[ONLY 200 LIMITED]\\nComes with 2x 30A batteries. Use one while the other charges. Never stop. Never wait. Save up to $20 per battery vs. buying separately. \\n\\n▷ Save $120(Retail Price = $279)\\n▷ 43% Off exclusively during the Kickstarter project.",
-      "backers": 249,
+      "backers": 250,
       "limit": 250,
-      "remaining": 1,
+      "remaining": 0,
       "eta": 1798761600,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 39,
-    "tiersDate": "2026-11-03",
-    "tiersCarried": "2026-11-03",
+    "tiersDate": "2026-11-04",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -328,7 +604,7 @@
      {
       "t": "p",
       "x": "The ESC (Electronic Speed Controller) regulates high voltage and current with precision, preventing overload during extended use. Max power for a full 30 seconds is not a lucky streak. It is engineered.",
-      "z": "ESC（电子速度控制器）精确调节高电压和电流，防止长时间使用时过载。整整 30 秒的最大功率并不是一个幸运的连续。它是经过精心设计的。"
+      "z": "ESC（电子速度控制器）精确调节高电压和电流，防止长时间使用时过载。整整 30 秒的最大功率并不是一个幸运的连续。它是经过设计的。"
      },
      {
       "t": "p",
@@ -413,6 +689,195 @@
     ]
    },
    {
+    "id": 1267463884,
+    "name": "CableScape",
+    "blurb": "3D Printable Cable Management System",
+    "url": "https://www.kickstarter.com/projects/tabletopterrain/cablescape",
+    "category": "3D Printing",
+    "creator": "TabletopTerrain",
+    "location": "New York, NY",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 3000.0,
+    "pledged": 56253.0,
+    "usdPledged": "56253.0",
+    "goalUsd": 3000.0,
+    "percentFunded": 1875.1000000000001,
+    "backers": 1261,
+    "deadline": 1795632065,
+    "launchedAt": 1793036465,
+    "staffPick": false,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "3d print"
+    ],
+    "score": 0.6256,
+    "coverRemote": "https://i.kickstarter.com/assets/055/534/642/a87f3ff1baeac2a6fef0ef9663068563_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792109135&width=1024&sig=bGw8W%2B338WpTcr%2Bvh5ZSj0f3dlUkNKwkBOzwh%2F8mriM%3D",
+    "videoMp4": "https://v2.kickstarter.com/1793725189-5UQjx3YEKgDz6pafH1EqoW9mGeueyo%2BZm7tOk2YygdI%3D/projects/5403260/video-1468733-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793725189-5UQjx3YEKgDz6pafH1EqoW9mGeueyo%2BZm7tOk2YygdI%3D/projects/5403260/video-1468733-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11487344,
+      "price": 38.0,
+      "title": "Early Bird - All In",
+      "desc": "This reward tier includes all core STL files for CableScape + All Stretch Goals. Unlimited use of CableScape Software is included!",
+      "backers": 1216,
+      "limit": 1219,
+      "remaining": 3,
+      "eta": 1793491200,
+      "shipping": null
+     },
+     {
+      "id": 11487346,
+      "price": 59.0,
+      "title": "All In",
+      "desc": "This reward tier includes all core STL files for CableScape + All Stretch Goals. Unlimited use of CableScape Software is included!",
+      "backers": 6,
+      "limit": null,
+      "remaining": null,
+      "eta": 1793491200,
+      "shipping": null
+     },
+     {
+      "id": 11487355,
+      "price": 239.0,
+      "title": "Early Bird - Commercial License",
+      "desc": "This reward tier includes all core STL files for CableScape + All Stretch Goals. Unlimited use of CableScape Software is included! This reward tier also includes a LIFETIME commercial license to sell 3D prints of the .STL files.",
+      "backers": 37,
+      "limit": 38,
+      "remaining": 1,
+      "eta": 1793491200,
+      "shipping": null
+     }
+    ],
+    "rewardsTotal": 7,
+    "tiersDate": "2026-11-04",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/534/413/d3afbb04454793322c228e77ccf1cbfb_original.png?fit=scale-down&origin=ugc&q=100&v=1792107364&width=680&sig=ZnLWYJzScZN5xLwbraXjNmgUY2vqVk7l2wSMxfgxElg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/619/975/a6ad4563493cc897607b0c3550e9fd32_original.gif?fit=scale-down&origin=ugc&q=92&v=1792695314&width=680&sig=rvK500OAMr0ohcEbhhnvWZvcubRNTV3%2Frd3kvHAxUCQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/620/354/cb28f9e30793e56937481381578598b5_original.png?fit=scale-down&origin=ugc&q=100&v=1792697403&width=680&sig=w4DB83QkG3t2W0Vm6UMMFu29mrg8CsEAVnNXqLJyfm4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/620/041/f5532c690d801eec1a90a30799907640_original.png?fit=scale-down&origin=ugc&q=100&v=1792695781&width=680&sig=o59YxX9efF3JyGBffDelG784%2FPnrqYURa8LaogToqrQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/620/891/ff5792b469ce70d30fb358b6d700141b_original.png?fit=scale-down&origin=ugc&q=100&v=1792698386&width=680&sig=T%2FUxywt05ArVw5pXhXNy2YrbCnm6N35inZaBZnIkx6Y%3D"
+     },
+     {
+      "t": "p",
+      "x": "We set out to make 3D-printable cable management easier from start to finish. Along the way, we realized that planning the perfect setup was one of the biggest challenges. Sorting through folders of STL files, choosing the right sizes and turns, and finding matching themes made getting started far more complicated than it needed to be.",
+      "z": "我们致力于让 3D 打印电缆管理从始至终变得更加轻松。一路上，我们意识到规划完美的设置是最大的挑战之一。对 STL 文件的文件夹进行排序、选择正确的大小和转弯以及查找匹配的主题，使得入门变得比实际需要的复杂得多。"
+     },
+     {
+      "t": "p",
+      "x": "So we brought everything together in the CableScape software. Now you can design your layout virtually, customize your sizes and themes, and see how everything comes together before you print. Once you’re happy with your setup, simply export the exact files you need and get printing!",
+      "z": "因此，我们将所有内容整合到 CableScape 软件中。现在，您可以虚拟地设计布局，自定义尺寸和主题，并在打印之前查看所有内容如何组合在一起。一旦您对设置感到满意，只需导出您需要的确切文件并进行打印即可！"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/620/895/bd034e9c046ce9c8b13204cfce02db82_original.png?fit=scale-down&origin=ugc&q=100&v=1792698404&width=680&sig=1EDXOrHlF3%2BymKhLEw5dCTep%2F3YVM%2B3IpEQIH9I7IBY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/621/304/2e2b99dd1f80248647d04727cdbbaafe_original.gif?fit=scale-down&origin=ugc&q=92&v=1792700582&width=680&sig=WzppRg%2BRxgXRUExr0YrRKaxZMI0bKHNg97i1orkVzxQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/621/646/471fbc9c9a3c9c9bd39a6e3e41fdb706_original.gif?fit=scale-down&origin=ugc&q=92&v=1792702321&width=680&sig=wziOnCKskM5HHTHX27sknXNo5t%2F0bw608LzdUBTjk%2Bs%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/621/654/60fb8cff22104a19a87c4e61fa9e31a3_original.gif?fit=scale-down&origin=ugc&q=92&v=1792702358&width=680&sig=Nc2%2BWEI8K%2Fbg%2BQ8fQ2V8%2B%2BTSNCbMg5c7E6pVUqwA%2BVw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/622/755/be991b5ee0d987ebe6d48389bb37f42a_original.gif?fit=scale-down&origin=ugc&q=92&v=1792709387&width=680&sig=AFiYc1H4%2BXynFpx11Jod71z34dvCtdA395iptgrXeyw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/622/093/ea265dd07e3dd25a1c37705a761c5996_original.gif?fit=scale-down&origin=ugc&q=92&v=1792705420&width=680&sig=I%2F7OHbdBgPR2LjMZc8f5KUZDkBqP3qQuc6NQQ30VxCk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/622/146/153ee68b125002169d0d75135a39e20c_original.png?fit=scale-down&origin=ugc&q=100&v=1792705785&width=680&sig=5ljOpQJSMp1vCKXbj51R%2Fvinnhj5zxGJ0d0Pe2Tm0KM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/622/232/ff9ba583b43c4cbe360dbe1357b7f042_original.png?fit=scale-down&origin=ugc&q=100&v=1792706425&width=680&sig=g3ZkjX%2BJ7PUrxA0dyn%2FVwP8Rvr6yns%2BKe3pkXvo7hCQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/622/362/c4db3d7a102b28596e7dd2ad526911f3_original.png?fit=scale-down&origin=ugc&q=100&v=1792707244&width=680&sig=3GWsX%2ByAf1bhHV7j%2BBDdM6qGfC%2BdhgWbeaq8NW9VbrA%3D"
+     },
+     {
+      "t": "p",
+      "x": "All commercial licenses are lifetime licenses. There are no renewal fees. The commercial licenses are designed such that they pay for themselves with your first one or two sales. The commercial licenses are to sell 3D prints of the digital files. Commercial license holders are not permitted to distribute the digital files or use them for mass production injection molding or any other type of mass production. The commercial license is only for selling 3D prints of the digital files.",
+      "z": "所有商业许可证都是终身许可证。没有续订费。商业许可证的设计使得您可以通过您的第一笔或第二笔销售来收回成本。商业许可证用于销售数字文件的 3D 打印。商业许可证持有者不得分发数字文件或将其用于批量生产注塑或任何其他类型的批量生产。商业许可证仅用于销售数字文件的 3D 打印。"
+     },
+     {
+      "t": "p",
+      "x": "You are welcome to sell CableScape set ups at convensions, make fairs and any other in person event, please just note your commercial license at all times and have the number available.",
+      "z": "欢迎您在大会、制作展览会和任何其他现场活动中销售 CableScape 装置，请随时注明您的商业许可证并提供可用的号码。"
+     },
+     {
+      "t": "p",
+      "x": "All commercial license holders will receive an individual registered commercial license that they must display wherever they sell their products (this is typically done in the listing).",
+      "z": "所有商业许可证持有者都将收到单独的注册商业许可证，他们必须在任何销售产品的地方展示该许可证（通常在列表中完成）。"
+     },
+     {
+      "t": "p",
+      "x": "All commercial license holders will also be provided with a media folder that contains all the professional photos, videos, renders and illustrations! Our goal is to make it as easy as possible for our commercial backers.",
+      "z": "所有商业许可证持有者还将获得一个媒体文件夹，其中包含所有专业照片、视频、渲染和插图！我们的目标是让我们的商业支持者尽可能轻松地做到这一点。"
+     },
+     {
+      "t": "p",
+      "x": "When will the files be delivered?",
+      "z": "文件什么时候送达？"
+     },
+     {
+      "t": "p",
+      "x": "The files will be delivered within 30 days from the campaign end. Please note that if we unlock a lot of stretch goals, the stretch goal files may take an additional 1-2 weeks for us to sculpt, print, test and make perfect for you! Files will be delivered through Spoolara, you simply make a free account and we will sync it up on the back end so you get lifetime access. All your files will also be 100% downloadble, your files are yours. Forever.",
+      "z": "文件将在活动结束后 30 天内交付。请注意，如果我们解锁大量拉伸目标，拉伸目标文件可能需要额外 1-2 周的时间让我们为您雕刻、打印、测试和制作完美！文件将通过 Spoolara 传送，您只需创建一个免费帐户，我们将在后端同步它，以便您获得终身访问权限。您的所有文件也将 100% 可下载，您的文件是您的。永远。"
+     },
+     {
+      "t": "p",
+      "x": "*   This is a digital file campaign - there are no physical products being sold.",
+      "z": "* 这是一个数字文件活动 - 没有出售任何实体产品。"
+     },
+     {
+      "t": "p",
+      "x": "*   The files will be available for purchase after the campaign at a much higher price. We reward our backer community with the biggest discount available!",
+      "z": "* 活动结束后，这些文件将以更高的价格购买。我们以最大的折扣奖励我们的支持者社区！"
+     },
+     {
+      "t": "p",
+      "x": "*   It is the backer's responsibility to know how to use a 3D printer to print the files. We have made the process very beginner friendly!",
+      "z": "* 资助者有责任了解如何使用 3D 打印机打印文件。我们使这个过程非常适合初学者！"
+     },
+     {
+      "t": "p",
+      "x": "*   You have the entire duration of the campaign to cancel your pledge. There are no refunds once the campaign is over. This is strictly enforced as our team spends the entire duration of the campaign sculpting away at the stretch goals that are unlocked as a result of your pledge!",
+      "z": "* 您可以在整个活动期间取消您的承诺。活动结束后，恕不退款。这是严格执行的，因为我们的团队在整个活动期间都在努力实现因您的承诺而解锁的延伸目标！"
+     }
+    ]
+   },
+   {
     "id": 2002315965,
     "name": "WUBEN G6 | Ultra Slim Multi-Use Keychain Light",
     "blurb": "500 lm Main Light | 100 lm Side Light | Low-Force Switch | Detachable Blade | Adjustable Clip | Hidden USB Port",
@@ -424,11 +889,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 35000.0,
-    "pledged": 1522239.0,
-    "usdPledged": "193968.79288065",
+    "pledged": 1522963.0,
+    "usdPledged": "194061.04738605",
     "goalUsd": 4459.82,
-    "percentFunded": 4349.254285714286,
-    "backers": 3073,
+    "percentFunded": 4351.322857142857,
+    "backers": 3080,
     "deadline": 1795266003,
     "launchedAt": 1792670403,
     "staffPick": true,
@@ -440,8 +905,8 @@
     ],
     "score": 0.6185,
     "coverRemote": "https://i.kickstarter.com/assets/055/719/992/86443f9d4a1008a821617ad5c36f944d_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793369139&width=1024&sig=1pacSCOQNAeuzV9AwUzbSA%2F%2Bx%2BgJYKjPo858HDVcG%2BQ%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1793801700-RkysN7D0a%2BBrLK43XWmKi3ui%2Fo5gUJ3I8gocPPH8PDU%3D/projects/5393674/video-1469587-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793801700-RkysN7D0a%2BBrLK43XWmKi3ui%2Fo5gUJ3I8gocPPH8PDU%3D/projects/5393674/video-1469587-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11488290,
@@ -459,9 +924,9 @@
       "price": 267.0,
       "title": "Wuben G6 Standard x1",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 1429,
+      "backers": 1466,
       "limit": 1500,
-      "remaining": 71,
+      "remaining": 34,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -470,21 +935,21 @@
       "price": 515.0,
       "title": "Wuben G6 Standard x2",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 411,
+      "backers": 421,
       "limit": 500,
-      "remaining": 89,
+      "remaining": 79,
       "eta": 1798761600,
       "shipping": "restricted"
      }
     ],
     "rewardsTotal": 11,
-    "tiersDate": "2026-11-03",
-    "tiersCarried": "2026-11-03",
+    "tiersDate": "2026-11-04",
+    "tiersCarried": "",
     "cues": [
      [
       6.99,
       8.99,
-      "来认识一下武彬 G6。"
+      "认识一下乌班 G6。"
      ],
      [
       10.49,
@@ -569,7 +1034,7 @@
      [
       53.62,
       54.91,
-      "需要时点亮。"
+      "需要浅灰色。"
      ],
      [
       54.91,
@@ -609,7 +1074,7 @@
      [
       77.16,
       79.67,
-      "Wubin G6 包含日常必需品"
+      "Wuban G6 包含日常必需品"
      ],
      [
       79.67,
@@ -699,7 +1164,7 @@
      {
       "t": "p",
       "x": "The WUBEN G6’s concealed, three-way rotating clip quickly became a standout feature for its versatility. For the G6, we’ve taken that idea further with a thicker, sturdier clip and a wider opening, making it easier to attach to your gear and designed for a more secure hold. Clip it on, adjust the angle, and keep your light right where you need it.",
-      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将灯光保持在您需要的位置。"
+      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将光线保持在您需要的位置。"
      },
      {
       "t": "img",
@@ -743,44 +1208,6 @@
     ]
    },
    {
-    "id": 1051597763,
-    "name": "EEW Maker Kit: The Community-Built Electric Spinning Wheel",
-    "blurb": "3D print the open-source parts in your favorite colors, add this hardware kit, and build a custom eSpinner for making beautiful yarn.",
-    "url": "https://www.kickstarter.com/projects/dreamingrobots/eew-maker-kit",
-    "category": "3D Printing",
-    "creator": "Maurice Ribble",
-    "location": "Lancaster, MA",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 20000.0,
-    "pledged": 56858.0,
-    "usdPledged": "56858.0",
-    "goalUsd": 20000.0,
-    "percentFunded": 284.29,
-    "backers": 467,
-    "deadline": 1796252400,
-    "launchedAt": 1793627965,
-    "staffPick": false,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "3d print"
-    ],
-    "score": 0.6067,
-    "coverRemote": "https://i.kickstarter.com/assets/055/480/876/2d4ac5eaf0b35556f0d458283c5bd8a1_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791819013&width=1024&sig=DWdBFnmRpUj3NA%2FQEdvy24RC7Yyoqmg%2FZdeGmXbUxUo%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
-    "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
-   },
-   {
     "id": 62000572,
     "name": "Chizha Mount Ling 2 Pro-The World’s 1st Smart Creator Dock",
     "blurb": "Docking, Capture, and Expandable SSD Storage—Unified in One Smarter Creator Workflow",
@@ -792,11 +1219,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 5000.0,
-    "pledged": 20911.0,
-    "usdPledged": "20911.0",
+    "pledged": 21955.0,
+    "usdPledged": "21955.0",
     "goalUsd": 5000.0,
-    "percentFunded": 418.21999999999997,
-    "backers": 120,
+    "percentFunded": 439.1,
+    "backers": 128,
     "deadline": 1796306422,
     "launchedAt": 1793714422,
     "staffPick": false,
@@ -807,280 +1234,387 @@
     "kwHits": [
      "smart"
     ],
-    "score": 0.6034,
+    "score": 0.6054,
     "coverRemote": "https://i.kickstarter.com/assets/055/202/212/8889b0b18d80f5c0c444ea8a8269abee_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789959563&width=1024&sig=E6BTtXQ492xMecj3jM9DW1FJhbmdnWAfhD5oZOvhsJs%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
-    "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
-   },
-   {
-    "id": 647705462,
-    "name": "Amoeba One: Mini keychain-phone.",
-    "blurb": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
-    "url": "https://www.kickstarter.com/projects/amoebaone/amoeba-one-mini-keychain-phone",
-    "category": "Gadgets",
-    "creator": "Amoeba One",
-    "location": "Troy, NY",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 25000.0,
-    "pledged": 377143.0,
-    "usdPledged": "377143.0",
-    "goalUsd": 25000.0,
-    "percentFunded": 1508.5720000000001,
-    "backers": 3238,
-    "deadline": 1795791604,
-    "launchedAt": 1791900004,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.5981,
-    "coverRemote": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1793809790-0q%2FfiXzQ3m1Leamq1zLzMMWtLVst0ExKwQD4P6ztOwU%3D/projects/5355541/video-1462159-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793809790-0q%2FfiXzQ3m1Leamq1zLzMMWtLVst0ExKwQD4P6ztOwU%3D/projects/5355541/video-1462159-hls_playlist.m3u8",
     "rewards": [
      {
-      "id": 11313442,
-      "price": 94.0,
-      "title": "Random color",
-      "desc": "One Amoeba One device in a random color.",
-      "backers": 539,
-      "limit": null,
-      "remaining": null,
-      "eta": 1822348800,
-      "shipping": "unrestricted"
+      "id": 11506457,
+      "price": 109.0,
+      "title": "SEB-Mount Ling Dock 2",
+      "desc": "45% OFF | Save $90 from $199 MSRP\\n\\nKey Features:\\n-No Built-in Capture\\n-4K60 HDR HDMI Output\\n-Optical Audio\\n-Real-Time Touchscreen Monitoring\\n-Up to 4TB SSD Expansion\\n-100W PD + Gigabit Ethernet\\n-Upgradeable Firmware",
+      "backers": 32,
+      "limit": 300,
+      "remaining": 268,
+      "eta": 1801440000,
+      "shipping": "restricted"
      },
      {
-      "id": 11261115,
-      "price": 99.0,
-      "title": "Super Early Bird",
-      "desc": "One Amoeba One in your color. For our earliest backers.\\n\\nChoose your color after campaign via backer tools, all colors available.",
-      "backers": 1255,
-      "limit": null,
-      "remaining": null,
-      "eta": 1822348800,
-      "shipping": "unrestricted"
+      "id": 11506728,
+      "price": 149.0,
+      "title": "SEB-Mount Ling Dock 2 Pro",
+      "desc": "40% OFF | Save $100 from $249 MSRP\\n\\nKey Features:\\n-4K60 Capture with Auto HDR Tone-Mapping\\n-4K60 HDR HDMI Output\\n-Optical Audio\\n-Real-Time Touchscreen Monitoring\\n-Up to 4TB SSD Expansion\\n-100W PD + Gigabit Ethernet\\n-Upgradeable Firmware",
+      "backers": 93,
+      "limit": 300,
+      "remaining": 207,
+      "eta": 1801440000,
+      "shipping": "restricted"
      },
      {
-      "id": 11261139,
-      "price": 110.0,
-      "title": "Early Bird",
-      "desc": "One Amoeba One in your color. Early bird price.\\n\\nChoose your color after campaign via backer tools, all colors available.",
-      "backers": 423,
-      "limit": null,
-      "remaining": null,
-      "eta": 1822348800,
-      "shipping": "unrestricted"
+      "id": 11506730,
+      "price": 179.0,
+      "title": "EB-Mount Ling Dock 2 Pro",
+      "desc": "28% OFF | Save $70 from $249 MSRP\\n\\nKey Features:\\n-4K60 Capture with Auto HDR Tone-Mapping\\n-4K60 HDR HDMI Output\\n-Optical Audio\\n-Real-Time Touchscreen Monitoring\\n-Up to 4TB SSD Expansion\\n-100W PD + Gigabit Ethernet\\n-Upgradeable Firmware",
+      "backers": 3,
+      "limit": 1000,
+      "remaining": 997,
+      "eta": 1801440000,
+      "shipping": "restricted"
      }
     ],
-    "rewardsTotal": 15,
-    "tiersDate": "2026-11-02",
-    "tiersCarried": "2026-11-02",
+    "rewardsTotal": 12,
+    "tiersDate": "2026-11-04",
+    "tiersCarried": "",
     "cues": [
      [
-      35.38,
-      37.38,
-      "好吧，酷。再见。"
+      6.48,
+      9.05,
+      "你刚刚完成了一场令人难以置信的比赛"
+     ],
+     [
+      9.05,
+      11.36,
+      "捕获 8 应该同样容易。"
+     ],
+     [
+      11.36,
+      14.09,
+      "但共享 8 可以得到更多装备、更多"
+     ],
+     [
+      14.09,
+      17.19,
+      "粗磨，还有更多事情需要处理"
+     ],
+     [
+      17.19,
+      18.48,
+      "甚至讨厌记录。"
+     ],
+     [
+      18.48,
+      21.17,
+      "认识 Monteling 2 Pro，智能创造者"
+     ],
+     [
+      21.17,
+      23.86,
+      "狗把你的整个设置带入"
+     ],
+     [
+      23.86,
+      24.96,
+      "单一工作流程。"
+     ],
+     [
+      24.96,
+      27.91,
+      "在你讨厌之前就知道一切正常"
+     ],
+     [
+      27.91,
+      28.4,
+      "记录。"
+     ],
+     [
+      28.4,
+      32.74,
+      "信号、HDR、拍摄状态、工作好友、"
+     ],
+     [
+      32.74,
+      34.64,
+      "存储和电力。"
+     ],
+     [
+      34.8,
+      36.32,
+      "总是实时购买。"
+     ],
+     [
+      37.36,
+      38.72,
+      "右手和她的手指胶带。"
+     ],
+     [
+      45.63,
+      48.11,
+      "连接到您的 PC 进行流式传输和录制。"
+     ],
+     [
+      48.11,
+      51.37,
+      "Monteling 2 Pro 统一跟踪、捕捉、"
+     ],
+     [
+      51.37,
+      53.31,
+      "存储和连接。"
+     ],
+     [
+      53.31,
+      57.23,
+      "在一个简化的创作者工作流程中，"
+     ],
+     [
+      57.23,
+      60.83,
+      "改变手持设备，而不是你的设置。"
+     ],
+     [
+      62.11,
+      64.19,
+      "粗磨游戏看起来是最好的。"
+     ],
+     [
+      64.19,
+      66.43,
+      "毫不妥协地创造。"
+     ],
+     [
+      66.43,
+      73.67,
+      "有声电影有 16 部成功"
+     ],
+     [
+      73.67,
+      78.1,
+      "Kickstarter 众筹活动。"
+     ],
+     [
+      78.66,
+      81.03,
+      "加上固件更新，可帮助您保持"
+     ],
+     [
+      81.03,
+      82.34,
+      "为接下来的事情做好准备。"
+     ],
+     [
+      82.98,
+      86.18,
+      "垃圾、捕获车、进入外壳。"
+     ],
+     [
+      86.18,
+      89.44,
+      "多合一，10009 美元起"
+     ],
+     [
+      89.44,
+      90.66,
+      "众筹。"
+     ],
+     [
+      90.66,
+      93.14,
+      "停止管理你的开始创作。"
+     ],
+     [
+      93.7,
+      95.94,
+      "今天回到 Monteling 2 Pro。"
      ]
     ],
     "vttLang": "zh",
     "story": [
      {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D"
+      "t": "p",
+      "x": "*   [**Playing Is Easy. Sharing Isn't.**](h:Playing-Is-Easy-Sharing-Isn-t-)",
+      "z": "* [**玩起来很简单。共享不是。**](h:Playing-Is-Easy-Sharing-Isn-t-)"
      },
      {
       "t": "p",
-      "x": "pledged of $25,000 pledged of $25,000 goal",
-      "z": "承诺 25,000 美元 承诺 25,000 美元目标"
+      "x": "*   [**Meet Chizha Mount Ling 2 Pro**](h:Meet-Chizha-Mount-Ling-2-Pro)",
+      "z": "* [**认识Chizha Mount Ling 2 Pro**](h:Meet-Chizha-Mount-Ling-2-Pro)"
      },
      {
       "t": "p",
-      "x": "25 days to go",
-      "z": "还剩 25 天"
+      "x": "*   [**Simplify Your Content Workflow**](h:Simplify-Your-Content-Workflow)",
+      "z": "* [**简化您的内容工作流程**](h:简化您的内容工作流程)"
      },
      {
       "t": "p",
-      "x": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
-      "z": "Amoeba 拥有波浪形屏幕、内置登山扣，并有多种有趣的颜色可供选择。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/488/418/4feddc14715d0fa2d7deca711aa7a126_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1784510340&width=160&sig=td9wUZlWIBoKtrsO%2FnSJhNcATfsUjWPkeRYh3Xz5kH8%3D"
+      "x": "*   [**One Dock. Two Simple Ways to Play & Create.**](h:One-Dock-Two-Simple-Ways-to-Play-Create-)",
+      "z": "* [**一个码头。两种简单的播放和创建方式。**](h:One-Dock-两种简单的播放-创建方式-)"
      },
      {
       "t": "p",
-      "x": "First created•0 backed",
-      "z": "首次创建•0 支持"
+      "x": "*   [**Vivid Color. Sharper 4K60 Capture**](h:Vivid-Color-Sharper-4K60-Capture)",
+      "z": "* [**色彩鲜艳。更清晰的 4K60 捕捉**](h:Vivid-Color-Sharper-4K60-Capture)"
      },
      {
       "t": "p",
-      "x": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
-      "z": "Amoeba 拥有波浪形屏幕、内置登山扣，并有多种有趣的颜色可供选择。"
+      "x": "*   [**See Everthing. Stay in Control.**](h:See-Everthing-Stay-in-Control-)",
+      "z": "* [**看到一切。保持控制。**](h:查看一切-保持控制-)"
      },
      {
       "t": "p",
-      "x": "pledged of $25,000 pledged of $25,000 goal",
-      "z": "承诺 25,000 美元 承诺 25,000 美元目标"
+      "x": "*   [**One Dock. More Ways to Play.**](h:One-Dock-More-Ways-to-Play-)",
+      "z": "* [**一个码头。更多玩法。**](h:One-Dock-更多玩法-)"
      },
      {
       "t": "p",
-      "x": "25 days to go",
-      "z": "还剩 25 天"
+      "x": "*   [**See More. Hear More. Feel More.**](h:See-More-Hear-More-Feel-More-)",
+      "z": "* [**查看更多。听到更多。感受更多。**](h:看到更多-听到更多-感受更多-)"
      },
      {
       "t": "p",
-      "x": "Kickstarter connects creators with backers to fund projects.",
-      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
+      "x": "*   [**More Space. More to Play.**](h:More-Space-More-to-Play-)",
+      "z": "* [**更多空间。更多可玩。**](h:更多-空间-更多-可玩-)"
      },
      {
       "t": "p",
-      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
-      "z": "奖励无法保证，但创作者必须定期更新支持者。"
+      "x": "*   [**Stay Cool. Stay Powered. Keep Playing.**](h:Stay-Cool-Stay-Powered-Keep-Playing-)",
+      "z": "* [**保持冷静。保持供电。继续玩。**](h:保持冷静-保持动力-继续玩-)"
      },
      {
       "t": "p",
-      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
-      "z": "仅当项目在活动截止日期前达到其融资目标时，您才需要付费。"
+      "x": "*   [**Built to Evolve. Ready for What's Next.**](h:Built-to-Evolve-Ready-for-What-s-Next-)",
+      "z": "* [**为进化而生。为下一步做好准备。**](h:Built-to-Evolve-Ready for-What-s-Next-)"
      },
      {
       "t": "p",
-      "x": "*   [**The phone**](h:The-phone)",
-      "z": "* [**电话**](h:电话)"
+      "x": "*   [**Built Around Switch 2. Stable by Design.**](h:Built-Around-Switch-2-Stable-by-Design-)",
+      "z": "* [**内置 Switch 2。设计稳定。**](h:Built-Around-Switch-2-稳定设计-)"
      },
      {
       "t": "p",
-      "x": "*   [**Colors**](h:Colors)",
-      "z": "* [**颜色**](h:颜色)"
+      "x": "*   [**Made For Every Creator**](h:Made-For-Every-Creator)",
+      "z": "* [**为每位创作者打造**](h:为每位创作者打造)"
      },
      {
       "t": "p",
-      "x": "*   [**Features**](h:Features)",
-      "z": "* [**特性**](h:特性)"
+      "x": "*   [**Specification**](h:Specification)",
+      "z": "* [**规格**](h:规格)"
      },
      {
       "t": "p",
-      "x": "*   [**Everyday**](h:Everyday)",
-      "z": "* [**每天**](h:每天)"
+      "x": "*   [**Rewards**](h:Rewards)",
+      "z": "* [**奖励**](h:奖励)"
      },
      {
       "t": "p",
-      "x": "*   [**Under the hood**](h:Under-the-hood)",
-      "z": "* [**在引擎盖下**](h:在引擎盖下)"
+      "x": "*   [**Add-ons**](h:Add-ons)",
+      "z": "* [**附加组件**](h:附加组件)"
      },
      {
       "t": "p",
-      "x": "*   [**Spiky and Weirdoz**](h:Spiky-and-Weirdoz)",
-      "z": "* [**Spiky 和 Weirdoz**](h:Spiky-and-Weirdoz)"
+      "x": "*   [**Package Details**](h:Package-Details)",
+      "z": "* [**包详细信息**](h:包详细信息)"
      },
      {
       "t": "p",
-      "x": "*   [**Prices**](h:Prices)",
-      "z": "* [**价格**](h:价格)"
+      "x": "*   [**About Shipping**](h:About-Shipping)",
+      "z": "* [**关于运输**](h:关于运输)"
      },
      {
       "t": "p",
-      "x": "*   [**Development**](h:Development)",
-      "z": "* [**开发**](h:开发)"
+      "x": "*   [**TimeLine**](h:TimeLine)",
+      "z": "* [**时间线**](h:时间线)"
      },
      {
       "t": "p",
-      "x": "*   [**Schedule and funding**](h:Schedule-and-funding)",
-      "z": "* [**日程和资金**](h:日程和资金)"
+      "x": "*   [**Protyping Process**](h:Protyping-Process)",
+      "z": "* [**原型制作过程**](h:原型制作过程)"
      },
      {
       "t": "p",
-      "x": "*   [**Amoeba Tech**](h:Amoeba-Tech)",
-      "z": "* [**阿米巴科技**](h:阿米巴科技)"
+      "x": "*   [**Usage Demostration**](h:Usage-Demostration)",
+      "z": "* [**使用演示**](h:使用演示)"
      },
      {
       "t": "p",
-      "x": "*   [**Risks**](https://www.kickstarter.com/projects/amoebaone/risks-and-challenges)",
-      "z": "* [**风险**](https://www.kickstarter.com/projects/amoebaone/risks-and-challenges)"
+      "x": "*   [**Built By Dockcase**](h:Built-By-Dockcase)",
+      "z": "* [**由 Dockcase 构建**](h:由 Dockcase 构建)"
      },
      {
       "t": "p",
-      "x": "*   [**Environmental commitments**](https://www.kickstarter.com/projects/amoebaone/environmental-commitments)",
-      "z": "* [**环境承诺**](https://www.kickstarter.com/projects/amoebaone/environmental-commitments)"
+      "x": "*   [**Our Team**](h:Our-Team)",
+      "z": "* [**我们的团队**](h:我们的团队)"
      },
      {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/181/5f3bfd190e487e92007ce8850e14ea1a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869536&width=680&sig=kmTzi4s4hi20cARCFs6C3vrJHQNSnkhcY1ooC9zYcLA%3D"
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/dockcaseexplorerepro/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/dockcaseexplorerepro/risks-and-challenges)"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/189/ade3d2dfe0a9533f383a98d4487f223e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869583&width=680&sig=0hyrbnPyyILrK%2BRWAka0z6WiUSA%2F3rAQx2uEsk%2BWelQ%3D"
+      "u": "https://i.kickstarter.com/assets/055/175/210/6578ad9fe1fce9c4d2defec7ad3e8f67_original.gif?fit=scale-down&origin=ugc&q=92&v=1789726516&width=680&sig=TSgfMnq8vHfGUs14MQTOjIifxQ55nRfqMJ8jWVyDZAI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/219/806/9e29f19850cd4b9d58cd71d6e606bbe5_original.jpg?fit=scale-down&origin=ugc&q=92&v=1790067099&width=680&sig=10iCh5mMjRQcHosLeWcuK4kfrNKcyOFzrRWTyNeg5sk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/219/810/fbaff868be5c1738324ea60271cf1a3e_original.gif?fit=scale-down&origin=ugc&q=92&v=1790067132&width=680&sig=PuJjFj6%2FfLILHVb9eXw6zYedqAr%2BUyWovwcqk%2FQsMsw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/193/594/d5f300731455299742fca374ba38a82a_original.gif?fit=scale-down&origin=ugc&q=92&v=1789891446&width=680&sig=5ELDXR%2BHTce8cj4EZwHkQ0%2F1vvVNWNAYMvUAUtF7tFM%3D"
      },
      {
       "t": "p",
-      "x": "Amoeba One. A keychain dumb phone with a clip-on carabiner and rotating camera.",
-      "z": "阿米巴一号.一款带有夹式登山扣和旋转摄像头的钥匙扣哑手机。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/191/aefd6f8c670e56d458546a69e5266e5e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869622&width=680&sig=gyo3yk4o2BxEVjkqck4JTYwcpV%2BkKxxHCVMczKF8gg0%3D"
+      "x": "Great moments happen fast. Capturing them shouldn't take a whole desk of gear.",
+      "z": "伟大的时刻发生得很快。捕获它们不应该花费一整桌的装备。"
      },
      {
       "t": "p",
-      "x": "A mini phone for calls, texts, maps, rides, music and banking. No social feeds.",
-      "z": "一款用于通话、短信、地图、乘车、音乐和银行业务的迷你手机。没有社交动态。"
+      "x": "Dock. Capture Card. SSD. PC. Cables.",
+      "z": "码头。采集卡。固态硬盘。个人电脑。电缆。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/196/0418cb87d9c51bf60f4e3c4771b466f2_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869657&width=680&sig=kJPW%2BZAVDyN1sC5Cj%2F9Untyl35rYKCVM5N%2BI4MWefCk%3D"
+      "u": "https://i.kickstarter.com/assets/055/219/855/d962678d0ffc81938ab660275ba5aca6_original.gif?fit=scale-down&origin=ugc&q=92&v=1790067271&width=680&sig=XsidJumNw7teACVI0yatV0QET1Wo8KJn3J7zL4kIK84%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/194/ec09b8c7f11428e43b7da3bf056347c7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869631&width=680&sig=Lg%2FCpRsob6S98vBt41YTaKePNhjx%2FDDnSOR34ctKdEM%3D"
+      "u": "https://i.kickstarter.com/assets/055/219/932/d525a8a064aff02010477143f856471d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1790067567&width=680&sig=JjmHpRlAwvKOIw5Vd2GFO8646lWA0RXHkwbEnlJBxio%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/198/c66c33e244138d09699a8b452df4c14f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869658&width=680&sig=16N6JvsF7R48QpFQyFAiuATkcJutX%2FHzDLZyGPOqL%2BA%3D"
+      "u": "https://i.kickstarter.com/assets/055/219/864/5b5181b6c23f35c906aa26b0c9771151_original.gif?fit=scale-down&origin=ugc&q=92&v=1790067319&width=680&sig=Oi8bVuilFM9Q9%2BblvPNALbVRTylPtFZxMQCdlZMwmls%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/200/34562088b257f80945198a860810d46e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869663&width=680&sig=xHzrzPuCWuqM5%2BUP1m0JjpyFeCJCLTrQFY0GQjd2Xhs%3D"
-     },
-     {
-      "t": "p",
-      "x": "Y2K color. Silicone colorways, glass screen, stainless steel inner core.",
-      "z": "Y2K 颜色。硅胶配色，玻璃屏幕，不锈钢内芯。"
+      "u": "https://i.kickstarter.com/assets/055/193/605/8271d8350ccc7d9edf71b7cd869f5659_original.gif?fit=scale-down&origin=ugc&q=92&v=1789891488&width=680&sig=zaHgd0VJai5%2FrB8Cykz9GZtm2X%2Bw5rh1srFMkDiSvbY%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/202/eee7b81b6aa803db6cf3bc3381debb0a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869668&width=680&sig=h7VfjlI5T3Bx%2FXIyuXXQ%2BUIB5nBkyc9jDZdXIor2YW0%3D"
+      "u": "https://i.kickstarter.com/assets/055/219/891/cfa934f7d2c9539b056461797d4a189a_original.gif?fit=scale-down&origin=ugc&q=92&v=1790067473&width=680&sig=QTJfHHNJPt0Sl7NHF9OqWHv5ZnoYqjKRzsFQdSQ6zGk%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/203/f57645d2817e8541796a4d9eae108275_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869672&width=680&sig=5HsUss9z3aLV5Ck92aB51u4KVd1FE63pfNVuxYalKqk%3D"
-     },
-     {
-      "t": "p",
-      "x": "Five swirls: Mango Orange, Berry Swirl, Cotton Candy, Lagoon Swirl, Lime Soda.",
-      "z": "五种漩涡：芒果橙、浆果漩涡、棉花糖、泻湖漩涡、青柠汽水。"
+      "u": "https://i.kickstarter.com/assets/055/219/873/1041d14cf87b7d78857c4522b3def9b4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1790067372&width=680&sig=xcbPdOhRkdRSK3De1viDw%2B7%2FuOISyLLpJw4VxqRRQok%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/206/b84fec0e79aff1a9880dec8a7fdf1b62_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869677&width=680&sig=vgW5WrKoBvzGJKed%2F0UU4zaR9axmovcMiFtyyBr3X6k%3D"
+      "u": "https://i.kickstarter.com/assets/055/219/905/15cdca1f925a79b377682746a386f3d4_original.gif?fit=scale-down&origin=ugc&q=92&v=1790067499&width=680&sig=jPiMEx209SNC3ifoK20MLIILTSrptYcz5us6umS4LBc%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/212/af5d70c7745623389c02f46cff07e8c8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869702&width=680&sig=YajspE7xLR9u5df7109ntlu3hEg3aMPPz0shvChBO%2Fk%3D"
+      "u": "https://i.kickstarter.com/assets/055/193/598/f582b324978cbb32594bcfe27c4cf5c6_original.gif?fit=scale-down&origin=ugc&q=92&v=1789891467&width=680&sig=gcyrgTOD55T%2BeSVrqheyMUh4rKatgosg4eprTrQ6IzE%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/490/213/1bfdade06281d9950b55df757d5fdd99_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869706&width=680&sig=Gfl9TsXFbrcwSV%2FqrDR5rb1JqOBqeJxixJ5ageCKDL0%3D"
+      "u": "https://i.kickstarter.com/assets/055/219/922/f004514dd786f06d6a5bd91e220442fa_original.gif?fit=scale-down&origin=ugc&q=92&v=1790067548&width=680&sig=CT8dTUH2%2F8QWcHz1kPK%2BEOE%2BhHBZwRmg7Tia5Lu%2F95U%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/193/610/d8e213c5ae99cc2fc2afc4c85ec8f07c_original.gif?fit=scale-down&origin=ugc&q=92&v=1789891504&width=680&sig=mFzvgC%2Bx433DweUzxgN1fjLX4qgH9Gnd24dFnJ0uUzk%3D"
      }
     ]
    }
