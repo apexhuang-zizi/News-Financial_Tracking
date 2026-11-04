@@ -1,5 +1,1092 @@
 [
  {
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T14:09:52+07:00",
+  "source": "Kickstarter discover/advanced API + 项目详情页",
+  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
+  "poolSize": 32,
+  "projects": [
+   {
+    "id": 1256938972,
+    "name": "AirCannon GPX: UNLEASH 118MPH POWER. THE MONSTER BLOWER",
+    "blurb": "118MPH(190km/h) | 0.77lb Handy Size | 16.8V BL Motor | Jet Engine Blades | Heat-Resistant Design | 3 Nozzles with vacuum | 140,000RPM",
+    "url": "https://www.kickstarter.com/projects/magpietech/aircannon-gpx-unleash-118mph-power-the-monster-blower",
+    "category": "Hardware",
+    "creator": "Magpie Tech",
+    "location": "Wilmington, DE",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 5000.0,
+    "pledged": 543615.0,
+    "usdPledged": "543615.0",
+    "goalUsd": 5000.0,
+    "percentFunded": 10872.3,
+    "backers": 3021,
+    "deadline": 1793980994,
+    "launchedAt": 1788793394,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.6783,
+    "coverRemote": "https://i.kickstarter.com/assets/055/028/205/a7d8a80c5d44d3891cfc5695358d01d6_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788770799&width=1024&sig=fI5BTeubMjGZljGtr%2Bpdk0NhQeDQiaCEKrRVP0uvny8%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11312715,
+      "price": 129.0,
+      "title": "Standard Single: Limited Quantity Deal",
+      "desc": "[ONLY 300 LIMITED]\\nEverything you need is already here. The most affordable way to start your GPX journey. Don't be the 301st. \\n\\n▷ Save $95(Retail Price = $224)\\n▷ 42% Off exclusively during the Kickstarter project.\\n\\n*30A Battery Included.",
+      "backers": 698,
+      "limit": 700,
+      "remaining": 2,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11398853,
+      "price": 149.0,
+      "title": "Pro Single: Limited Quantity Deal",
+      "desc": "[ONLY 300 LIMITED]\\nFor those who need more runtime. 2 hours of power with the 60A battery set. No more waiting by the charger. \\n\\n▷ Save $105(Retail Price = $254)\\n▷ 41% Off exclusively during the Kickstarter project.\\n\\n*60A Battery Included.",
+      "backers": 500,
+      "limit": 500,
+      "remaining": 0,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11313078,
+      "price": 159.0,
+      "title": "Standard Double: Limited Quantity Deal",
+      "desc": "[ONLY 200 LIMITED]\\nComes with 2x 30A batteries. Use one while the other charges. Never stop. Never wait. Save up to $20 per battery vs. buying separately. \\n\\n▷ Save $120(Retail Price = $279)\\n▷ 43% Off exclusively during the Kickstarter project.",
+      "backers": 249,
+      "limit": 250,
+      "remaining": 1,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 39,
+    "tiersDate": "2026-11-03",
+    "tiersCarried": "2026-11-03",
+    "cues": [
+     [
+      0.0,
+      2.0,
+      "有些是为了给人留下深刻印象而建造的。"
+     ],
+     [
+      2.0,
+      5.0,
+      "我们的设计目标是超越市场。"
+     ],
+     [
+      5.0,
+      9.17,
+      "每一次迭代，每一次突破，让"
+     ],
+     [
+      9.17,
+      10.0,
+      "我们听到了。"
+     ],
+     [
+      10.0,
+      14.0,
+      "介绍空气炮 GPX，"
+     ],
+     [
+      14.0,
+      17.0,
+      "每小时 118 英里，"
+     ],
+     [
+      17.0,
+      19.0,
+      "140,000转/分钟，"
+     ],
+     [
+      19.0,
+      21.0,
+      "工程力，"
+     ],
+     [
+      21.0,
+      23.0,
+      "校准精度，"
+     ],
+     [
+      23.0,
+      25.0,
+      "当系统反转时，"
+     ],
+     [
+      25.0,
+      27.0,
+      "它不只是移动空气，"
+     ],
+     [
+      27.0,
+      29.0,
+      "它命令它。"
+     ],
+     [
+      29.0,
+      33.63,
+      "体积缩小 30%，重量减轻 20%，"
+     ],
+     [
+      33.63,
+      35.63,
+      "零妥协，"
+     ],
+     [
+      35.63,
+      39.63,
+      "相同的力作用在一半的足迹上。"
+     ],
+     [
+      39.63,
+      43.63,
+      "一块电池，两个小时不间断。"
+     ],
+     [
+      43.63,
+      47.63,
+      "航空涡轮机，逆向工程，"
+     ],
+     [
+      47.63,
+      49.63,
+      "效率优化，"
+     ],
+     [
+      49.63,
+      51.63,
+      "专为耐力而打造，"
+     ],
+     [
+      51.63,
+      56.78,
+      "经久耐用。"
+     ],
+     [
+      56.78,
+      58.78,
+      "内部有三静脉系统，"
+     ],
+     [
+      58.78,
+      61.78,
+      "气流架构的三个阶段，"
+     ],
+     [
+      61.78,
+      63.78,
+      "空气动力学精度，"
+     ],
+     [
+      63.78,
+      65.78,
+      "纯粹的性能，"
+     ],
+     [
+      65.78,
+      66.78,
+      "无论你在哪里创作，"
+     ],
+     [
+      66.78,
+      68.78,
+      "无论你在哪里建造，"
+     ],
+     [
+      68.78,
+      70.78,
+      "无论权力多么重要。"
+     ],
+     [
+      70.78,
+      72.78,
+      "空气炮 GPX,"
+     ],
+     [
+      72.78,
+      75.78,
+      "下一代电源。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/685/652/0d625e5375ed515b7ebcf9d2f1dcc25d_original.gif?fit=scale-down&origin=ugc&q=92&v=1793153808&width=680&sig=zVjdZhP7ci4se6XDs1CmKoJsLpudz08absZ7zYzUluk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/068/538/35d9297c0a4b5227e5a1540dfdaa437d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789023577&width=680&sig=mQjBtsQ7BUW5kKYjsOP5ozOL0hTirRabTNptp2SIl4s%3D"
+     },
+     {
+      "t": "p",
+      "x": "As standard, a Safety Net comes fitted on every GPX, one per tool.Now that we've reached the stretch goal, we're adding one spare Safety Net for every backer as a thank-you.",
+      "z": "作为标准配置，每台 GPX 上都安装了一个安全网，每个工具一个。既然我们已经达到了延伸目标，我们将为每位支持者添加一个备用安全网以表谢意。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/814/f3e5dec1cba21ecc30419a3c0271b934_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788782702&width=680&sig=BZ4vmqZVs28wJXdfo1UMY06aZHD6nwYaEYt%2FxNZbl2w%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/576/590/280d8451ead587d7a5cab8167b5cb85d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1785219893&width=680&sig=x%2BjpbEVa3NERHQxjRZqsG0jp3sltCULMdVfzb9K6%2Fcc%3D"
+     },
+     {
+      "t": "p",
+      "x": "Introducing AirCannon GPX: a handheld blower that hits 118mph(190km/h), squeezed into the most compact body in its class. Maximum power, minimum size: one hand is all it takes to clear your path. Gale-Force Power, Times X. The AirCannon is back, now as the GPX series.",
+      "z": "AirCannon GPX 隆重登场：一款时速可达 118 英里/小时（190 公里/小时）的手持式吹风机，采用同类产品中最紧凑的机身。最大功率，最小尺寸：一只手即可清理道路。 Gale-Force Power，Times X。AirCannon 回来了，现在是 GPX 系列。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/500/653/726627e872f88811b33cbded124ea892_original.jpg?fit=scale-down&origin=ugc&q=92&v=1784599827&width=680&sig=LPgELJX15db%2FdnKMGQ%2F%2F%2F4RXd1vawwcRiHVdYZSIclI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/818/fd46f4afb661f5ba9c1c304e132966c2_original.webp?fit=scale-down&origin=ugc&q=92&v=1788782716&width=680&sig=%2BMSfvItYgudODEvUD4DBbCoh6ESfftOUlbueANZf1qE%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/030/300/aac4f00ebbb33d2a69e0120e8eba8567_original.webp?fit=scale-down&origin=ugc&q=92&v=1788786304&width=680&sig=l8zSkKDY%2Fytgu0Ilffn5cBpWYy%2B34mp9DHKfv3vGPjA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/669/938/57b426218ee68b7df936b7b32355a5c9_original.jpg?fit=scale-down&origin=ugc&q=92&v=1785980248&width=680&sig=74mL%2BIc2SeX9VtMpRP2qIdbfSHmLVc8upBpy3QTOSgI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/822/4e378859cc8aba70c109565ac6296be5_original.png?fit=scale-down&origin=ugc&q=100&v=1788782730&width=680&sig=Da8RZeHAvnlbY5MM4k8LPC8Fru2Q3XtDUTsa4Rk5ecM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/940/380/3d59e3aa767af2a95df7c5ed0b06aa29_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788139101&width=680&sig=fLkHoVewrH%2FVu5%2F40c4diUJyxAv7mwiyo%2BBTNvGsRRc%3D"
+     },
+     {
+      "t": "p",
+      "x": "A legend didn’t just burst onto the scene, it practically blew the doors off Kickstarter. The original AirCannon became #1 because it was the powerful, portable beast you knew you needed, but could never find. The legend has hit the gym. Hard.",
+      "z": "一位传奇人物不仅突然出现，而且几乎在 Kickstarter 上掀起了一股热潮。最初的 AirCannon 之所以成为第一，是因为它是一种强大的便携式野兽，您知道自己需要，但永远找不到。这位传奇人物已经来到了健身房。难的。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/824/2183e271c122c2e40e8e428691a79a40_original.webp?fit=scale-down&origin=ugc&q=92&v=1788782735&width=680&sig=L3Y15ehRq1JCp30qqlXxvi03ingBkEc0u7ydZ595SqA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/827/060ad93f35014b0d56a5d967ae506575_original.webp?fit=scale-down&origin=ugc&q=92&v=1788782740&width=680&sig=Yi7o3Els9ufo9Gm83Y%2BbyfDNWgUUdOHW78wH%2BkEm4xU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/611/155/8f2b0e0b30d215afc69797a538c9e305_original.webp?fit=scale-down&origin=ugc&q=92&v=1785475335&width=680&sig=pw9ZRHvx%2Bw3B7a0SGUjpw1E1hEqUAlCnxML3iwtQoYQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/611/156/0b7ab5d45bff3616b9300d48ca29f1e2_original.webp?fit=scale-down&origin=ugc&q=92&v=1785475338&width=680&sig=aODf3qbNgXWxcHHoAEHjJFYnJoOoBYDbQk2%2FBXn3dFE%3D"
+     },
+     {
+      "t": "p",
+      "x": "How do you hold a Category 3 hurricane in the your hand? Simple: 140,000 RPM. This isn’t a marketing puff piece; it’s raw physics... We’re not exaggerating; we're just engineered better.",
+      "z": "如何将三级飓风握在手中？简单：140,000 RPM。这不是一个营销宣传片；而是一个宣传片。这是原始物理学……我们并没有夸大其词；这是真实的。我们只是设计得更好。"
+     },
+     {
+      "t": "p",
+      "x": "GPX pushes with 2.4lb(1.1kg) of force. That is a dumbbell's worth of weight, lifted by nothing but air. Point it at a full tank of water. Gone in an instant.",
+      "z": "GPX 以 2.4 磅（1.1 公斤）的力量推动。这是一个哑铃的重量，仅靠空气举起。将其指向装满水的水箱。转眼间就消失了。"
+     },
+     {
+      "t": "p",
+      "x": "You love comparing CFM, right? Let’s play. Your average, clunky backyard leaf blower kicks out around 230–250 CFM. Now, The GPX. At just 7.8 inches (198mm) long, it generates a comparable 237 CFM. We ditched the bulk but kept the grunt.",
+      "z": "您喜欢比较 CFM，对吧？让我们玩。一般笨重的后院吹叶机的吹叶速度约为 230-250 CFM。现在，GPX。它的长度仅为 7.8 英寸（198 毫米），可产生相当的 237 CFM。我们抛弃了大部分，但保留了咕噜声。"
+     },
+     {
+      "t": "p",
+      "x": "For stronger, more precise airflow, GPX is built on aviation motor technology: high output for liftoff, sustained efficiency for long flights, and bulletproof durability in extreme conditions. All three, now packed into one tool with Jet-Force Wind.",
+      "z": "为了实现更强劲、更精确的气流，GPX 采用航空电机技术：起飞时的高输出、长途飞行时的持续效率以及极端条件下的防弹耐用性。现在，Jet-Force Wind 将这三者合二为一。"
+     },
+     {
+      "t": "p",
+      "x": "GPX's blade is forged from zinc-aluminum alloy, hard enough to slice through the air instead of pushing it. That is where the sharp, focused airflow comes from. Corrosion-resistant, heat-resistant, high-strength: it won't bend, and it won't break.",
+      "z": "GPX 的刀片由锌铝合金锻造而成，其硬度足以切开空气而不是推动空气。这就是尖锐、集中的气流的来源。耐腐蚀、耐热、高强度：不弯曲、不断裂。"
+     },
+     {
+      "t": "p",
+      "x": "Unwavering Power. Power that fades in seconds is strictly for amateurs. GPX uses high-thermal-conductivity alloy to dissipate heat the moment it builds, keeping temperature stable throughout.",
+      "z": "坚定不移的力量。几秒钟内消失的力量仅限于业余爱好者。 GPX采用高导热合金，在成型时立即散发热量，始终保持温度稳定。"
+     },
+     {
+      "t": "p",
+      "x": "The ESC (Electronic Speed Controller) regulates high voltage and current with precision, preventing overload during extended use. Max power for a full 30 seconds is not a lucky streak. It is engineered.",
+      "z": "ESC（电子速度控制器）精确调节高电压和电流，防止长时间使用时过载。整整 30 秒的最大功率并不是一个幸运的连续。它是经过精心设计的。"
+     },
+     {
+      "t": "p",
+      "x": "The science behind the storm: the Triple Vane System. Three layers work as one. A 6-vane stator and a 5-vane stator flank the blade on both sides, and their staggered vanes converge incoming air into a single, focused Dual-Helix stream with no dispersion and no waste. The blade then drives that stream forward with force: over 2x the output of a single-rotor design, enough to clear leaves and standing water in one pass.",
+      "z": "风暴背后的科学：三风向标系统。三层合而为一。 6 叶片定子和 5 叶片定子位于叶片两侧，它们交错的叶片将进入的空气汇聚成单一、集中的双螺旋流，不会分散，也不会浪费。然后，叶片强力驱动水流向前：超过单转子设计输出功率的 2 倍，足以一次清除树叶和积水。"
+     },
+     {
+      "t": "p",
+      "x": "Lighter than comparable blowers",
+      "z": "比同类鼓风机更轻"
+     },
+     {
+      "t": "p",
+      "x": "Weighing in at a 0.77lbs (0.35kg), GPX is 43% lighter than the bulky alternatives. Carry it all day, clean the whole yard, and your arm won't even notice. Zero wrist drag.",
+      "z": "GPX 的重量为 0.77 磅（0.35 千克），比笨重的替代品轻 43%。带着它一整天，清洁整个院子，你的手臂甚至都不会注意到。零手腕阻力。"
+     },
+     {
+      "t": "p",
+      "x": "Blast it. Pinpoint it. Vacuum it.",
+      "z": "炸掉它。查明它。将其吸尘。"
+     },
+     {
+      "t": "p",
+      "x": "Three nozzles, three jobs, all included. Each one reshapes GPX's airflow with serious aerodynamics, squeezing even more power out of that 118mph engine.",
+      "z": "三个喷嘴，三个作业，全部包括在内。每一款都以严格的空气动力学原理重塑了 GPX 的气流，从时速 118 英里的发动机中榨取更多动力。"
+     },
+     {
+      "t": "p",
+      "x": "With the Boost Nozzle on, you get 25% more power, enough to leave your pickup spotless and blow off every drop in seconds, scratch-free. Tired of towel-drying by hand because your old blower can't keep up? GPX has the muscle to keep your ride looking flawless.",
+      "z": "打开增压喷嘴后，您可以获得 25% 的额外功率，足以让您的皮卡一尘不染，并在几秒钟内吹掉每一滴水，无划痕。厌倦了因为你的旧吹风机无​​法跟上而用手擦干毛巾吗？ GPX 有能力让您的骑行看起来完美无瑕。"
+     },
+     {
+      "t": "p",
+      "x": "The Detail Nozzle hides a secret: a bullet-shaped centerbody narrows the airflow channel, accelerating the air and creating a pressure differential that pulls it toward the center. Cross-section narrowed by 66%. Fired like an arrow. Hits like a critical hit.",
+      "z": "细节喷嘴隐藏着一个秘密：子弹形中心体缩小了气流通道，加速空气并产生压差，将其拉向中心。横截面缩小了66%。像箭一样射出。命中就像致命一击。"
+     },
+     {
+      "t": "p",
+      "x": "Your PC works hard under a layer of dust while you're hunting for a new AI model. Give your workhorse the cleanup it's earned. The Detail Nozzle's pinpoint airflow reaches every corner, bringing your rig back to factory-fresh. Aim. Fire.",
+      "z": "当您寻找新的人工智能模型时，您的电脑在灰尘下努力工作。为您的主力提供应有的清理工作。细节喷嘴的精确气流到达每个角落，让您的设备恢复出厂状态。目的。火。"
+     },
+     {
+      "t": "p",
+      "x": "GPX doesn't just push air. It pulls it in, and like a real hurricane, it pulls you in when you get too close. The Vacuum Nozzle draws in dust at up to 12,000Pa of suction pressure.",
+      "z": "GPX 不只是推动空气。它会把它拉进去，就像真正的飓风一样，当你靠得太近时，它会把你拉进去。真空吸嘴以高达 12,000Pa 的吸入压力吸入灰尘。"
+     },
+     {
+      "t": "p",
+      "x": "Inside the Vacuum Nozzle: a HEPA filter that traps 99.97% of particles down to 0.3 microns. From large debris to fine dust, it's sucked in and locked in. Keep your space spotless.",
+      "z": "真空喷嘴内部：HEPA 过滤器，可捕获 99.97% 小至 0.3 微米的颗粒。从大碎片到细灰尘，它都会被吸入并锁定。保持您的空间一尘不染。"
+     },
+     {
+      "t": "p",
+      "x": "Most blowers make you flip the entire unit around, grip and all, just to switch to suction. GPX solves it with instant reverse rotation: one button reverses the motor and you're in suction mode.",
+      "z": "大多数鼓风机都需要你翻转整个装置，握紧所有东西，只是为了切换到吸力。 GPX 通过即时反向旋转解决了这个问题：一键反转电机，您就进入抽吸模式。"
+     },
+     {
+      "t": "p",
+      "x": "Switch from Suction Mode to Blower Mode in 1 second. Blast out everything trapped inside.",
+      "z": "1 秒内从吸风模式切换到鼓​​风模式。炸掉困在里面的所有东西。"
+     },
+     {
+      "t": "p",
+      "x": "Use it to clean dust inside your car. Need to empty it? Open the lid, flip to Blower Mode, and fire. The hurricane clears itself out. No removing the dust cup, no shaking it out.",
+      "z": "用它来清洁车内的灰尘。需要清空吗？打开盖子，翻转到鼓风机模式，然后点火。飓风会自行消失。无需取下集尘杯，也无需将其抖落。"
+     },
+     {
+      "t": "p",
+      "x": "To maximize runtime, GPX runs on a battery rated up to 5,000 mAh, a full 120 minutes of nonstop power. Drying a full-size SUV takes about 20 minutes. One charge, six cars.",
+      "z": "为了最大限度地延长运行时间，GPX 使用额定容量高达 5,000 mAh 的电池，可不间断供电 120 分钟。干燥一辆全尺寸SUV大约需要20分钟。一次充电，六辆车。"
+     },
+     {
+      "t": "p",
+      "x": "※The 5,000 mAh battery is included in the Pro Rewards only.",
+      "z": "※5,000mAh电池仅包含在Pro Rewards中。"
+     },
+     {
+      "t": "p",
+      "x": "Pick Your Pace: Two Battery Options. Grab the 30A (2,500 mAh) battery for ultra-lightweight tasks, the ultimate compact choice for quick jobs and effortless portability.",
+      "z": "选择您的节奏：两种电池选项。配备 30A (2,500 mAh) 电池来执行超轻型任务，这是快速工作和轻松便携的终极紧凑选择。"
+     }
+    ]
+   },
+   {
+    "id": 2002315965,
+    "name": "WUBEN G6 | Ultra Slim Multi-Use Keychain Light",
+    "blurb": "500 lm Main Light | 100 lm Side Light | Low-Force Switch | Detachable Blade | Adjustable Clip | Hidden USB Port",
+    "url": "https://www.kickstarter.com/projects/wubenlight/wuben-g6-ultra-slim-multi-use-keychain-light",
+    "category": "Gadgets",
+    "creator": "WUBEN",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 35000.0,
+    "pledged": 1522239.0,
+    "usdPledged": "193968.79288065",
+    "goalUsd": 4459.82,
+    "percentFunded": 4349.254285714286,
+    "backers": 3073,
+    "deadline": 1795266003,
+    "launchedAt": 1792670403,
+    "staffPick": true,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.6185,
+    "coverRemote": "https://i.kickstarter.com/assets/055/719/992/86443f9d4a1008a821617ad5c36f944d_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793369139&width=1024&sig=1pacSCOQNAeuzV9AwUzbSA%2F%2Bx%2BgJYKjPo858HDVcG%2BQ%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11488290,
+      "price": 235.0,
+      "title": "Wuben G6 Standard x1",
+      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
+      "backers": 300,
+      "limit": 300,
+      "remaining": 0,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11490139,
+      "price": 267.0,
+      "title": "Wuben G6 Standard x1",
+      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
+      "backers": 1429,
+      "limit": 1500,
+      "remaining": 71,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11490144,
+      "price": 515.0,
+      "title": "Wuben G6 Standard x2",
+      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
+      "backers": 411,
+      "limit": 500,
+      "remaining": 89,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 11,
+    "tiersDate": "2026-11-03",
+    "tiersCarried": "2026-11-03",
+    "cues": [
+     [
+      6.99,
+      8.99,
+      "来认识一下武彬 G6。"
+     ],
+     [
+      10.49,
+      12.77,
+      "超薄钥匙扣手电筒，"
+     ],
+     [
+      12.77,
+      15.23,
+      "将可靠的照明与日常生活相结合"
+     ],
+     [
+      15.23,
+      15.99,
+      "实用性。"
+     ],
+     [
+      16.99,
+      19.33,
+      "由 70-75 航空航天级精制而成"
+     ],
+     [
+      19.33,
+      22.16,
+      "铝制，坚固耐用"
+     ],
+     [
+      22.16,
+      22.99,
+      "重量轻。"
+     ],
+     [
+      26.34,
+      29.07,
+      "主灯可提供高达 500 流明的亮度"
+     ],
+     [
+      29.07,
+      30.84,
+      "用于日常照明。"
+     ],
+     [
+      30.84,
+      34.27,
+      "侧光提供高达 100 流明"
+     ],
+     [
+      34.27,
+      37.79,
+      "用于特写任务，而两流明红色"
+     ],
+     [
+      37.79,
+      40.88,
+      "信号灯已准备好发出警报并且"
+     ],
+     [
+      40.88,
+      41.91,
+      "紧急情况。"
+     ],
+     [
+      43.41,
+      45.92,
+      "轻触开关响应迅速"
+     ],
+     [
+      45.92,
+      47.41,
+      "您可以感觉到清晰的点击声。"
+     ],
+     [
+      47.91,
+      50.62,
+      "使用起来简单直观，即使在"
+     ],
+     [
+      50.62,
+      53.62,
+      "潮湿时，夹子旋转 90 度以引导"
+     ],
+     [
+      53.62,
+      54.91,
+      "需要时点亮。"
+     ],
+     [
+      54.91,
+      60.18,
+      "调整角度，然后将 G6 安装到"
+     ],
+     [
+      60.18,
+      64.37,
+      "衣服、背包等等。"
+     ],
+     [
+      64.37,
+      67.1,
+      "被遮盖的 USB 充电端口保持隐藏状态"
+     ],
+     [
+      67.1,
+      69.37,
+      "以获得干净、对称的外观。"
+     ],
+     [
+      69.37,
+      73.01,
+      "侧面内置有细长刀片"
+     ],
+     [
+      73.01,
+      76.64,
+      "身体，为日常增添实用工具"
+     ],
+     [
+      76.64,
+      77.16,
+      "携带。"
+     ],
+     [
+      77.16,
+      79.67,
+      "Wubin G6 包含日常必需品"
+     ],
+     [
+      79.67,
+      82.31,
+      "融入超薄、轻量化设计，"
+     ],
+     [
+      82.31,
+      84.16,
+      "准备好去任何你想去的地方。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/600/240/9854501d3a7f6e9550f347c494bcdb13_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792576301&width=680&sig=QxbSggHbzuoyqHJiwvM3M4ybSPDVGXe6NQh5HXjobd0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/720/017/289cdf26f5d50e2c3f8864e24940bfa4_original.png?fit=scale-down&origin=ugc&q=100&v=1793369284&width=680&sig=LO83sxS5jz1QFeBzdLCHu0DUN4Nu57icE5blfTO4bD4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/560/345/6f81742461d5c9540eb14d9f745d07c2_original.gif?fit=scale-down&origin=ugc&q=92&v=1792336905&width=680&sig=0ERq9P807o4IORl3aGttjkvyaoba40HEqeh09g6ozHU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/477/051/57ef1fba30b2b10f0fdb2f52dcf7c788_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791797114&width=680&sig=Y8y86%2B%2BYX7cNEK7xLyISFaDI%2BGZ8vy1N5NG1ZX6BW1Y%3D"
+     },
+     {
+      "t": "p",
+      "x": "Unlike many lights designed for a single purpose, the WUBEN G6’s compact design opens up more ways to use it. Lightweight and easy to carry, it fits naturally into everyday life and on the go. Wherever life takes you, you can find a place for the G6.",
+      "z": "与许多专为单一用途设计的灯不同，WUBEN G6 的紧凑设计开辟了更多使用方式。它重量轻且易于携带，自然适合日常生活和旅途。无论生活带您去往何处，G6 都能为您找到一席之地。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/559/231/598ba0a0048d4af999199c00a47e0821_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792325378&width=680&sig=%2BO2zeZFL5jcDzCiDedF6tEDDeR%2FDY%2FwptR8%2BsVTgAck%3D"
+     },
+     {
+      "t": "p",
+      "x": "The slim, portable WUBEN G6 offers adjustable brightness from 1 to 500 lumens and a beam distance of up to 66 m. From evening walks and home repairs to outdoor adventures and unexpected power outages, it’s ready to light up everyday moments.",
+      "z": "纤薄便携的 WUBEN G6 提供 1 至 500 流明的可调亮度，光束距离可达 66 m。从晚间散步和房屋维修到户外探险和意外停电，它随时可以照亮日常生活。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/558/256/a22160bb752e402f92cb373020ed19e1_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792312235&width=680&sig=Jr3%2Bwap3GH%2BkvXAnnvWxDhBFDqz%2BkThsO1pxGjxlcRQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/558/513/d25a5d178f71a0127fec9c4dad1fa315_original.gif?fit=scale-down&origin=ugc&q=92&v=1792315173&width=680&sig=3r3iM3xS4xRakwJVf2BZrzsyHEtsg2HyofjqIj3c4oE%3D"
+     },
+     {
+      "t": "p",
+      "x": "Beyond its main beam, the WUBEN G6 offers practical light right at the front. Two 1 W white LEDs deliver 100 lumens for close-up tasks, from checking your gear to making a quick repair. A compact red/blue indicator adds even more versatility: its 2-lumen red light can be used as a signal, and the indicator also shows the light’s power status.",
+      "z": "除了主光束之外，WUBEN G6 还在前方提供实用的光线。两个 1 W 白色 LED 可为近距离任务（从检查装备到快速维修）提供 100 流明的亮度。紧凑的红/蓝指示灯增加了更多的多功能性：其 2 流明红灯可用作信号，并且指示灯还显示灯的电源状态。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/600/927/4c83efac4beebc7d6b39ba7e9dbe76e5_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792578839&width=680&sig=yaiv4ZJ79iV4q1Nf%2BEpFUj%2Fzb5Y7q5DjxboKNeDoMFM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/478/223/0c203b1a0dc459c92c3240d79a19c2e7_original.gif?fit=scale-down&origin=ugc&q=92&v=1791804673&width=680&sig=QwYSspaBXUHmQkDfItsFwANYXFs7yo%2Frb30YX62u4cw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/568/537/cdcec6d897370d311ed3ab30eadc2f21_original.gif?fit=scale-down&origin=ugc&q=92&v=1792402867&width=680&sig=MSJ%2BUkgbEo9QyRWjZdWO67Fs4vupiUpkvLGEOy2Vkww%3D"
+     },
+     {
+      "t": "p",
+      "x": "Slim, easy-to-carry design has been at the heart of the WUBEN G6 from the start. Thinner, then thinner still: at its narrowest point, the G6 is nearly as thin as a USB connector. The result is a thoughtful balance of everyday functionality and effortless portability.",
+      "z": "纤薄、易于携带的设计从一开始就是 WUBEN G6 的核心。越来越薄：在最窄处，G6 几乎与 USB 连接器一样薄。结果是日常功能和轻松便携性之间的深思熟虑的平衡。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/558/518/ec3cfce29f18e2cf7966207791908a94_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792315268&width=680&sig=mIhGGsZPVnBLhYAS3Ke1%2BUsljva8AQHUotuCWG%2BHvEc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/559/227/5e403b5518d983b837cb601e7b091d7e_original.png?fit=scale-down&origin=ugc&q=100&v=1792325297&width=680&sig=RvuC2u3ibnvA5eZHgbhOEsFvBrY2kYQDTCJIm2NsBag%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/443/686/a2710fc9fe47e9163fda0fc76e2018af_original.gif?fit=scale-down&origin=ugc&q=92&v=1791523847&width=680&sig=NkT3QycvkRDt80Xa1WDuZsqhKYvTyGJjHOI%2FHKZQDU0%3D"
+     },
+     {
+      "t": "p",
+      "x": "The WUBEN G6’s concealed, three-way rotating clip quickly became a standout feature for its versatility. For the G6, we’ve taken that idea further with a thicker, sturdier clip and a wider opening, making it easier to attach to your gear and designed for a more secure hold. Clip it on, adjust the angle, and keep your light right where you need it.",
+      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将灯光保持在您需要的位置。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/558/517/6638c10a8a928b7f256d60ee860b9ed4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792315259&width=680&sig=nIWaoRGJ%2F1zVieeIMDAiTl4FJPtdLpAA0IJA1SnueZw%3D"
+     },
+     {
+      "t": "p",
+      "x": "On the side opposite the G6’s rotating clip, a compact folding blade is integrated for everyday tasks and outdoor needs. It’s handy for opening packages, cutting cord, or taking care of quick campsite tasks.",
+      "z": "在 G6 旋转夹的对面，集成了一个紧凑的折叠刀片，可满足日常任务和户外需求。它可以方便地打开包裹、剪断电源线或处理快速的露营地任务。"
+     },
+     {
+      "t": "p",
+      "x": "The mini knife detaches from the G6, so you can choose how you carry it. Keep it attached for an all-in-one setup, or remove and stow it separately when you want to carry the G6 on its own. We’re also exploring additional accessory-mounting options to give you more ways to customize your setup.",
+      "z": "迷你刀与 G6 分离，因此您可以选择携带方式。将其固定以实现一体化设置，或者当您想单独携带 G6 时将其取下并单独存放。我们还在探索其他配件安装选项，为您提供更多自定义设置的方法。"
+     },
+     {
+      "t": "p",
+      "x": "We took a different approach with the G6’s switch. It responds to a light press with clear, direct tactile feedback, making operation simple and intuitive. Water won’t interrupt its response. Even underwater, the switch remains usable. A breakthrough in switch design that makes everyday operation easier.",
+      "z": "我们对 G6 的开关采取了不同的方法。轻轻一按，它就会产生清晰、直接的触觉反馈，使操作变得简单直观。水不会中断其反应。即使在水下，开关仍然可用。开关设计的突破，让日常操作更加轻松。"
+     },
+     {
+      "t": "p",
+      "x": "The G6’s high-density 400 mAh battery is protected against overcharging, over-discharge, overcurrent, and short circuits. Electrical insulation adds another layer of protection. The G6 also supports use while charging, so you can keep using the light while it’s plugged in.",
+      "z": "G6 的高密度 400 mAh 电池具有防过度充电、过度放电、过流和短路保护。电气绝缘增加了另一层保护。 G6 还支持边充电边使用，因此您可以在插入电源时继续使用灯。"
+     },
+     {
+      "t": "p",
+      "x": "Made for everyday carry and long-term use, the WUBEN G6 clips onto clothing, backpacks, or key rings with a light press and detaches just as easily. Tested through more than 100,000 press cycles, the sturdy spring clip can support a 5 kg load, providing a secure, dependable hold day after day.",
+      "z": "WUBEN G6 专为日常携带和长期使用而设计，只需轻轻一按即可夹在衣服、背包或钥匙圈上，也可以轻松拆卸。经过超过 100,000 次按压循环测试，坚固的弹簧夹可支撑 5 公斤负载，日复一日地提供安全、可靠的固定。"
+     },
+     {
+      "t": "p",
+      "x": "The Standard and Premium versions are identical in every way except for their materials. The Standard version is CNC-machined from 7075 aerospace-grade aluminum, while the Premium version is made from stonewashed titanium alloy.",
+      "z": "标准版和高级版除了材质不同外，在各方面都相同。标准版由 7075 航空级铝材 CNC 加工而成，而高级版则由石磨钛合金制成。"
+     },
+     {
+      "t": "p",
+      "x": "This project is promoted by Jellop, the ad tech power behind the best Kickstarter launches with 6,000+ successful Kickstarter projects and over $1.4Bn raised in total.",
+      "z": "该项目由 Jellop 推广，Jellop 是最佳 Kickstarter 发布背后的广告技术力量，拥有 6,000 多个成功的 Kickstarter 项目，筹集资金总额超过 14 亿美元。"
+     }
+    ]
+   },
+   {
+    "id": 1051597763,
+    "name": "EEW Maker Kit: The Community-Built Electric Spinning Wheel",
+    "blurb": "3D print the open-source parts in your favorite colors, add this hardware kit, and build a custom eSpinner for making beautiful yarn.",
+    "url": "https://www.kickstarter.com/projects/dreamingrobots/eew-maker-kit",
+    "category": "3D Printing",
+    "creator": "Maurice Ribble",
+    "location": "Lancaster, MA",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 20000.0,
+    "pledged": 56858.0,
+    "usdPledged": "56858.0",
+    "goalUsd": 20000.0,
+    "percentFunded": 284.29,
+    "backers": 467,
+    "deadline": 1796252400,
+    "launchedAt": 1793627965,
+    "staffPick": false,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "3d print"
+    ],
+    "score": 0.6067,
+    "coverRemote": "https://i.kickstarter.com/assets/055/480/876/2d4ac5eaf0b35556f0d458283c5bd8a1_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791819013&width=1024&sig=DWdBFnmRpUj3NA%2FQEdvy24RC7Yyoqmg%2FZdeGmXbUxUo%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [],
+    "rewardsTotal": 0,
+    "tiersDate": "",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": []
+   },
+   {
+    "id": 62000572,
+    "name": "Chizha Mount Ling 2 Pro-The World’s 1st Smart Creator Dock",
+    "blurb": "Docking, Capture, and Expandable SSD Storage—Unified in One Smarter Creator Workflow",
+    "url": "https://www.kickstarter.com/projects/dockcaseexplorerepro/chizha-mount-ling-2-pro-the-worlds-1st-smart-creator-dock",
+    "category": "Hardware",
+    "creator": "Seesaw",
+    "location": "Duluth, GA",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 5000.0,
+    "pledged": 20911.0,
+    "usdPledged": "20911.0",
+    "goalUsd": 5000.0,
+    "percentFunded": 418.21999999999997,
+    "backers": 120,
+    "deadline": 1796306422,
+    "launchedAt": 1793714422,
+    "staffPick": false,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "smart"
+    ],
+    "score": 0.6034,
+    "coverRemote": "https://i.kickstarter.com/assets/055/202/212/8889b0b18d80f5c0c444ea8a8269abee_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789959563&width=1024&sig=E6BTtXQ492xMecj3jM9DW1FJhbmdnWAfhD5oZOvhsJs%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [],
+    "rewardsTotal": 0,
+    "tiersDate": "",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": []
+   },
+   {
+    "id": 647705462,
+    "name": "Amoeba One: Mini keychain-phone.",
+    "blurb": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
+    "url": "https://www.kickstarter.com/projects/amoebaone/amoeba-one-mini-keychain-phone",
+    "category": "Gadgets",
+    "creator": "Amoeba One",
+    "location": "Troy, NY",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 25000.0,
+    "pledged": 377143.0,
+    "usdPledged": "377143.0",
+    "goalUsd": 25000.0,
+    "percentFunded": 1508.5720000000001,
+    "backers": 3238,
+    "deadline": 1795791604,
+    "launchedAt": 1791900004,
+    "staffPick": true,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.5981,
+    "coverRemote": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11313442,
+      "price": 94.0,
+      "title": "Random color",
+      "desc": "One Amoeba One device in a random color.",
+      "backers": 539,
+      "limit": null,
+      "remaining": null,
+      "eta": 1822348800,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11261115,
+      "price": 99.0,
+      "title": "Super Early Bird",
+      "desc": "One Amoeba One in your color. For our earliest backers.\\n\\nChoose your color after campaign via backer tools, all colors available.",
+      "backers": 1255,
+      "limit": null,
+      "remaining": null,
+      "eta": 1822348800,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11261139,
+      "price": 110.0,
+      "title": "Early Bird",
+      "desc": "One Amoeba One in your color. Early bird price.\\n\\nChoose your color after campaign via backer tools, all colors available.",
+      "backers": 423,
+      "limit": null,
+      "remaining": null,
+      "eta": 1822348800,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 15,
+    "tiersDate": "2026-11-02",
+    "tiersCarried": "2026-11-02",
+    "cues": [
+     [
+      35.38,
+      37.38,
+      "好吧，酷。再见。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $25,000 pledged of $25,000 goal",
+      "z": "承诺 25,000 美元 承诺 25,000 美元目标"
+     },
+     {
+      "t": "p",
+      "x": "25 days to go",
+      "z": "还剩 25 天"
+     },
+     {
+      "t": "p",
+      "x": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
+      "z": "Amoeba 拥有波浪形屏幕、内置登山扣，并有多种有趣的颜色可供选择。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/488/418/4feddc14715d0fa2d7deca711aa7a126_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1784510340&width=160&sig=td9wUZlWIBoKtrsO%2FnSJhNcATfsUjWPkeRYh3Xz5kH8%3D"
+     },
+     {
+      "t": "p",
+      "x": "First created•0 backed",
+      "z": "首次创建•0 支持"
+     },
+     {
+      "t": "p",
+      "x": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
+      "z": "Amoeba 拥有波浪形屏幕、内置登山扣，并有多种有趣的颜色可供选择。"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $25,000 pledged of $25,000 goal",
+      "z": "承诺 25,000 美元 承诺 25,000 美元目标"
+     },
+     {
+      "t": "p",
+      "x": "25 days to go",
+      "z": "还剩 25 天"
+     },
+     {
+      "t": "p",
+      "x": "Kickstarter connects creators with backers to fund projects.",
+      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
+     },
+     {
+      "t": "p",
+      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
+      "z": "奖励无法保证，但创作者必须定期更新支持者。"
+     },
+     {
+      "t": "p",
+      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+      "z": "仅当项目在活动截止日期前达到其融资目标时，您才需要付费。"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The phone**](h:The-phone)",
+      "z": "* [**电话**](h:电话)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Colors**](h:Colors)",
+      "z": "* [**颜色**](h:颜色)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Features**](h:Features)",
+      "z": "* [**特性**](h:特性)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Everyday**](h:Everyday)",
+      "z": "* [**每天**](h:每天)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Under the hood**](h:Under-the-hood)",
+      "z": "* [**在引擎盖下**](h:在引擎盖下)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Spiky and Weirdoz**](h:Spiky-and-Weirdoz)",
+      "z": "* [**Spiky 和 Weirdoz**](h:Spiky-and-Weirdoz)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Prices**](h:Prices)",
+      "z": "* [**价格**](h:价格)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Development**](h:Development)",
+      "z": "* [**开发**](h:开发)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Schedule and funding**](h:Schedule-and-funding)",
+      "z": "* [**日程和资金**](h:日程和资金)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Amoeba Tech**](h:Amoeba-Tech)",
+      "z": "* [**阿米巴科技**](h:阿米巴科技)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/amoebaone/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/amoebaone/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Environmental commitments**](https://www.kickstarter.com/projects/amoebaone/environmental-commitments)",
+      "z": "* [**环境承诺**](https://www.kickstarter.com/projects/amoebaone/environmental-commitments)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/181/5f3bfd190e487e92007ce8850e14ea1a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869536&width=680&sig=kmTzi4s4hi20cARCFs6C3vrJHQNSnkhcY1ooC9zYcLA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/189/ade3d2dfe0a9533f383a98d4487f223e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869583&width=680&sig=0hyrbnPyyILrK%2BRWAka0z6WiUSA%2F3rAQx2uEsk%2BWelQ%3D"
+     },
+     {
+      "t": "p",
+      "x": "Amoeba One. A keychain dumb phone with a clip-on carabiner and rotating camera.",
+      "z": "阿米巴一号.一款带有夹式登山扣和旋转摄像头的钥匙扣哑手机。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/191/aefd6f8c670e56d458546a69e5266e5e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869622&width=680&sig=gyo3yk4o2BxEVjkqck4JTYwcpV%2BkKxxHCVMczKF8gg0%3D"
+     },
+     {
+      "t": "p",
+      "x": "A mini phone for calls, texts, maps, rides, music and banking. No social feeds.",
+      "z": "一款用于通话、短信、地图、乘车、音乐和银行业务的迷你手机。没有社交动态。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/196/0418cb87d9c51bf60f4e3c4771b466f2_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869657&width=680&sig=kJPW%2BZAVDyN1sC5Cj%2F9Untyl35rYKCVM5N%2BI4MWefCk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/194/ec09b8c7f11428e43b7da3bf056347c7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869631&width=680&sig=Lg%2FCpRsob6S98vBt41YTaKePNhjx%2FDDnSOR34ctKdEM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/198/c66c33e244138d09699a8b452df4c14f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869658&width=680&sig=16N6JvsF7R48QpFQyFAiuATkcJutX%2FHzDLZyGPOqL%2BA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/200/34562088b257f80945198a860810d46e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869663&width=680&sig=xHzrzPuCWuqM5%2BUP1m0JjpyFeCJCLTrQFY0GQjd2Xhs%3D"
+     },
+     {
+      "t": "p",
+      "x": "Y2K color. Silicone colorways, glass screen, stainless steel inner core.",
+      "z": "Y2K 颜色。硅胶配色，玻璃屏幕，不锈钢内芯。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/202/eee7b81b6aa803db6cf3bc3381debb0a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869668&width=680&sig=h7VfjlI5T3Bx%2FXIyuXXQ%2BUIB5nBkyc9jDZdXIor2YW0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/203/f57645d2817e8541796a4d9eae108275_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869672&width=680&sig=5HsUss9z3aLV5Ck92aB51u4KVd1FE63pfNVuxYalKqk%3D"
+     },
+     {
+      "t": "p",
+      "x": "Five swirls: Mango Orange, Berry Swirl, Cotton Candy, Lagoon Swirl, Lime Soda.",
+      "z": "五种漩涡：芒果橙、浆果漩涡、棉花糖、泻湖漩涡、青柠汽水。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/206/b84fec0e79aff1a9880dec8a7fdf1b62_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869677&width=680&sig=vgW5WrKoBvzGJKed%2F0UU4zaR9axmovcMiFtyyBr3X6k%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/212/af5d70c7745623389c02f46cff07e8c8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869702&width=680&sig=YajspE7xLR9u5df7109ntlu3hEg3aMPPz0shvChBO%2Fk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/213/1bfdade06281d9950b55df757d5fdd99_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869706&width=680&sig=Gfl9TsXFbrcwSV%2FqrDR5rb1JqOBqeJxixJ5ageCKDL0%3D"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "date": "2026-11-03",
   "generatedAt": "2026-11-03T19:30:46+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
@@ -12565,2219 +13652,6 @@
       "t": "p",
       "x": "This project is promoted by Jellop, the ad tech power behind the best Kickstarter launches with 6,000+ successful Kickstarter projects and over $1.4Bn raised in total.",
       "z": "该项目由 Jellop 推广，Jellop 是最佳 Kickstarter 发布背后的广告技术力量，拥有 6,000 多个成功的 Kickstarter 项目，筹集资金总额超过 14 亿美元。"
-     }
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-10-28",
-  "generatedAt": "2026-10-28T20:15:14+07:00",
-  "source": "Kickstarter discover/advanced API + 项目详情页",
-  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 43,
-  "projects": [
-   {
-    "id": 2099488698,
-    "name": "Lucy AI Studio: A Dedicated Computer for Your AI Agents",
-    "blurb": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-    "url": "https://www.kickstarter.com/projects/744045479/cephalon-ondevice-ai-with-a-selfevolving-ecosystem",
-    "category": "Hardware",
-    "creator": "Cephalon AI",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 1218271.0,
-    "usdPledged": "155239.93648524",
-    "goalUsd": 1274.26,
-    "percentFunded": 12182.710000000001,
-    "backers": 48,
-    "deadline": 1795532381,
-    "launchedAt": 1792504781,
-    "staffPick": false,
-    "sources": [
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.7035,
-    "coverRemote": "https://i.kickstarter.com/assets/055/316/862/c1e2ae2108a2f8bdf8ed791053c2d96d_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790703149&width=1024&sig=O6sg6rYuZwQBMf6Zk%2BNkWr%2F3uKh4l%2FD1NKCudYEmNLk%3D",
-    "videoMp4": "https://v2.kickstarter.com/1793129601-x1F9YE64%2FiHl1Gkdf%2B4%2FNf%2BkOVdgy0lO2mJeRDaQmko%3D/projects/5343527/video-1466952-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1793129601-x1F9YE64%2FiHl1Gkdf%2B4%2FNf%2BkOVdgy0lO2mJeRDaQmko%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11493190,
-      "price": 29815.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 11,
-      "limit": 500,
-      "remaining": 489,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11488028,
-      "price": 29816.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 10,
-      "limit": 500,
-      "remaining": 490,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11435574,
-      "price": 31367.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 9,
-      "limit": 500,
-      "remaining": 491,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 12,
-    "tiersDate": "2026-10-28",
-    "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://www.kickstarter.com/favicon.ico"
-     },
-     {
-      "t": "p",
-      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
-      "z": "该网站使用安全服务来防范恶意机器人。当网站验证您不是机器人时会显示此页面。"
-     }
-    ]
-   },
-   {
-    "id": 1471279538,
-    "name": "VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER",
-    "blurb": "Turn every PC agent-ready with plug-in AI that reads your screen, prepares tasks, and waits for your approval.",
-    "url": "https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer",
-    "category": "Hardware",
-    "creator": "Bvio Tech",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 78424.0,
-    "pledged": 24765335.0,
-    "usdPledged": "3157663.67167895",
-    "goalUsd": 9999.32,
-    "percentFunded": 31578.770529429767,
-    "backers": 5486,
-    "deadline": 1793376023,
-    "launchedAt": 1789488023,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门",
-     "Technology 热门",
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.6797,
-    "coverRemote": "https://i.kickstarter.com/assets/055/177/242/c19eebf7e77c63ea008d9df3022984c7_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1789740217&width=1024&sig=DE1k5Z2vb3o848%2F%2Bz92SGxZcqZyb%2Fplp78muwjShO8o%3D",
-    "videoMp4": "https://v2.kickstarter.com/1793113100-xha%2BcRn1zpMNSnJd%2F8fvyI5P3e%2B1inxSzUw6d4b9Ph0%3D/projects/5342600/video-1438224-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1793113100-xha%2BcRn1zpMNSnJd%2F8fvyI5P3e%2B1inxSzUw6d4b9Ph0%3D/projects/5342600/video-1438224-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11254735,
-      "price": 3128.0,
-      "title": "Super Early Bird - Violoop",
-      "desc": "Violoop is the first plug-in AI operator for any computer. It sees your screen, understands your workflow, and gets tasks done across apps—powered by on-device AI, local memory, and a physical confirmation key that keeps you in control.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 4766,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11414602,
-      "price": 5951.0,
-      "title": "Super Early Bird - Violoop Duo Pack",
-      "desc": "Get two Violoop devices at a better Kickstarter price. Perfect for using Violoop across multiple workstations, sharing with a partner, or setting up both home and office computers with plug-in AI that works across your everyday apps.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 539,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11415618,
-      "price": 56432.0,
-      "title": "Super Early Bird - Violoop Team Pack",
-      "desc": "Equip your team with 20 Violoop devices at our best multi-unit Kickstarter offer. Designed for small teams and businesses, this pack helps more users turn their existing computers agent-ready while keeping workflows local, secure, and user-approved.\\n\\n🚚 Shipping & Taxes Included\\n🛡️ Guaranteed Delivery by Violoop\\n🌍 Shipping to Most Countries & Regions",
-      "backers": 76,
-      "limit": null,
-      "remaining": null,
-      "eta": 1793491200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 11,
-    "tiersDate": "2026-10-28",
-    "tiersCarried": "",
-    "cues": [
-     [
-      0.02,
-      2.71,
-      "每天我们都会经历十几个"
-     ],
-     [
-      2.71,
-      4.02,
-      "不同的工具。"
-     ],
-     [
-      4.02,
-      8.02,
-      "切换、复制、粘贴、重复。"
-     ],
-     [
-      8.02,
-      10.77,
-      "但这些工具中有多少是真正"
-     ],
-     [
-      10.77,
-      12.02,
-      "理解你吗？"
-     ],
-     [
-      12.02,
-      15.02,
-      "早上好！准备好接受董事会审查了吗？"
-     ],
-     [
-      15.02,
-      19.12,
-      "Violoupe 是您本地的 AI 代理，旨在"
-     ],
-     [
-      19.12,
-      20.02,
-      "认识你。"
-     ],
-     [
-      20.02,
-      24.02,
-      "因此，在您提出要求之前，您的工作就已准备就绪。"
-     ],
-     [
-      24.02,
-      26.02,
-      "Violoupe 与您协同行动，"
-     ],
-     [
-      26.02,
-      28.02,
-      "在后台安静地学习。"
-     ],
-     [
-      28.02,
-      31.64,
-      "我发现了一个类似的任务。我要完成吗"
-     ],
-     [
-      31.64,
-      34.26,
-      "和上次一样吗？"
-     ],
-     [
-      34.26,
-      37.28,
-      "Violoupe 找到您的流程并执行"
-     ],
-     [
-      37.28,
-      38.26,
-      "你的命令。"
-     ],
-     [
-      38.26,
-      41.26,
-      "批次准备就绪，下一步正在排队。"
-     ],
-     [
-      41.26,
-      44.19,
-      "它运行您的店面、您的内容以及"
-     ],
-     [
-      44.19,
-      46.98,
-      "您在每个平台上的客户"
-     ],
-     [
-      46.98,
-      47.26,
-      "使用。"
-     ],
-     [
-      47.26,
-      49.98,
-      "从产品到内容到库存"
-     ],
-     [
-      49.98,
-      52.56,
-      "客户，它保留了整个过程"
-     ],
-     [
-      52.56,
-      53.26,
-      "连接。"
-     ],
-     [
-      53.26,
-      55.98,
-      "无论您的目标、业务或"
-     ],
-     [
-      55.98,
-      58.49,
-      "你的任务，人工智能会自己建模"
-     ],
-     [
-      58.49,
-      59.26,
-      "你周围。"
-     ],
-     [
-      59.26,
-      64.38,
-      "它在您的设备上运行。您的数据"
-     ],
-     [
-      64.38,
-      66.18,
-      "永远不会离开。"
-     ],
-     [
-      66.18,
-      76.04,
-      "你的环境改变了，工作也改变了"
-     ],
-     [
-      76.04,
-      78.94,
-      "继续。"
-     ],
-     [
-      78.94,
-      91.57,
-      "最好的系统学习如何工作"
-     ],
-     [
-      91.57,
-      92.86,
-      "你。"
-     ],
-     [
-      92.86,
-      96.35,
-      "当一切都一致时，你的想法，"
-     ],
-     [
-      96.35,
-      100.21,
-      "你的节奏，你的时间，你停止反应，"
-     ],
-     [
-      100.21,
-      101.86,
-      "你开始流动。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://www.kickstarter.com/favicon.ico"
-     },
-     {
-      "t": "p",
-      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
-      "z": "该网站使用安全服务来防范恶意机器人。当网站验证您不是机器人时会显示此页面。"
-     }
-    ]
-   },
-   {
-    "id": 246450649,
-    "name": "HALO-5: Pro 5-Needle Embroidery Machine with Auto-Digitizing",
-    "blurb": "5-Needle Auto Color Change | Embroider Anything | In-App Auto-Digitizing | Massive 10×16\" Area | Effortless Portability | Stability",
-    "url": "https://www.kickstarter.com/projects/haloemb/halo-5-embroidery-machine",
-    "category": "Fabrication Tools",
-    "creator": "HALO",
-    "location": "Carmel, IN",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 50000.0,
-    "pledged": 3628549.0,
-    "usdPledged": "3628549.0",
-    "goalUsd": 50000.0,
-    "percentFunded": 7257.098000000001,
-    "backers": 1600,
-    "deadline": 1797000302,
-    "launchedAt": 1793108702,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [],
-    "score": 0.6649,
-    "coverRemote": "https://i.kickstarter.com/assets/055/677/440/e584a997b6d5c677bd87a01ff91da0cd_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793108761&width=1024&sig=XCPuSU93AV9pvyO8vJwRdhfzI48IV3bFnSPgtUYskUk%3D",
-    "videoMp4": "https://v2.kickstarter.com/1793180073-5sBO4mD%2FOTpK1NwAyXmGw6Yq8936MvEdLOcnaj%2FsJig%3D/projects/5378763/video-1472233-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1793180073-5sBO4mD%2FOTpK1NwAyXmGw6Yq8936MvEdLOcnaj%2FsJig%3D/projects/5378763/video-1472233-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11483398,
-      "price": 2199.0,
-      "title": "Secret Perk: HALO-5 Ultimate",
-      "desc": "41% OFF | Save $1,500 vs. MSRP $3,699\\n\\nIncludes:\\nHALO-5 × 1\\nExtension Table x 1\\nGarment Frame 4-Pack × 1\\nBobbin Winder × 1\\nCap Frame x 1\\nShoes Frame x 1\\nSocks Frame x 1\\nPocket Frame x 1\\nMagnetic Frame x 1\\n24-Color Thread Set × 1\\n2-Year Warranty\\n\\nShipping fees & addresses will be collected after the campaign ends via our backer survey. Rates can be found below on this page.",
-      "backers": 1154,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11483405,
-      "price": 2499.0,
-      "title": "Launch Day Special: HALO-5 Ultimate",
-      "desc": "32% OFF | Save $1,200 vs. MSRP $3,699\\n\\nIncludes:\\nHALO-5 × 1\\nExtension Table x 1\\nGarment Frame 4-Pack × 1\\nBobbin Winder × 1\\nCap Frame x 1\\nShoes Frame x 1\\nSocks Frame x 1\\nPocket Frame x 1\\nMagnetic Frame x 1\\n1-Year Warranty\\n\\nShipping fees & addresses will be collected after the campaign ends via our backer survey. Rates can be found below on this page.",
-      "backers": 256,
-      "limit": 500,
-      "remaining": 244,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11483411,
-      "price": 2599.0,
-      "title": "Kickstarter Only: HALO-5 Ultimate",
-      "desc": "30% OFF | Save $1,100 vs. MSRP $3,699\\n\\nIncludes:\\nHALO-5 × 1\\nExtension Table x 1\\nGarment Frame 4-Pack × 1\\nBobbin Winder × 1\\nCap Frame x 1\\nShoes Frame x 1\\nSocks Frame x 1\\nPocket Frame x 1\\nMagnetic Frame x 1\\n1-Year Warranty\\n\\nShipping fees & addresses will be collected after the campaign ends via our backer survey. Rates can be found below on this page.",
-      "backers": 60,
-      "limit": 200,
-      "remaining": 140,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 18,
-    "tiersDate": "2026-10-28",
-    "tiersCarried": "",
-    "cues": [
-     [
-      0.08,
-      2.79,
-      "服装刺绣充满挑战，"
-     ],
-     [
-      2.79,
-      5.1,
-      "复杂的数字化，恒定的线程"
-     ],
-     [
-      5.1,
-      7.08,
-      "更改，耗时的设置。"
-     ],
-     [
-      7.08,
-      10.65,
-      "欢迎来到刺绣的新时代。见面"
-     ],
-     [
-      10.65,
-      14.13,
-      "Halo 5，专业 5 级针绣"
-     ],
-     [
-      14.13,
-      17.08,
-      "为创作者重新构想的机器。"
-     ],
-     [
-      17.08,
-      20.12,
-      "比以往更快、更智能、更轻松。让"
-     ],
-     [
-      20.12,
-      23.08,
-      "顾客挑选他们喜欢的设计。"
-     ],
-     [
-      23.08,
-      25.64,
-      "Halo 5 将艺术品转换为可缝合的"
-     ],
-     [
-      25.64,
-      27.08,
-      "文件就在应用程序中。"
-     ],
-     [
-      27.08,
-      29.78,
-      "光环 5 已加载并准备好五种颜色"
-     ],
-     [
-      29.78,
-      32.49,
-      "它们之间自动切换"
-     ],
-     [
-      32.49,
-      33.08,
-      "缝针。"
-     ],
-     [
-      33.08,
-      36.14,
-      "从设计到完成只需几分钟。什么"
-     ],
-     [
-      36.14,
-      38.08,
-      "他们所见即所得。"
-     ],
-     [
-      38.08,
-      41.08,
-      "提供现场定制并把每"
-     ],
-     [
-      41.08,
-      43.29,
-      "访问一个令人难忘的个人"
-     ],
-     [
-      43.29,
-      44.08,
-      "经验。"
-     ],
-     [
-      44.08,
-      46.86,
-      "从服装到日常配饰。"
-     ],
-     [
-      46.86,
-      49.57,
-      "将大胆的想法带入生活，"
-     ],
-     [
-      49.57,
-      51.08,
-      "详细的刺绣。"
-     ],
-     [
-      51.08,
-      54.08,
-      "无论您的业务需要您，Halo"
-     ],
-     [
-      54.08,
-      56.08,
-      "5就是为了与您见面而建造的。"
-     ],
-     [
-      56.08,
-      58.57,
-      "具有多功能的篮圈和广阔的"
-     ],
-     [
-      58.57,
-      61.05,
-      "刺绣区域，Halo 5 为您提供"
-     ],
-     [
-      61.05,
-      63.67,
-      "自由地创造更多产品，"
-     ],
-     [
-      63.67,
-      65.08,
-      "形状和材料。"
-     ],
-     [
-      65.08,
-      67.74,
-      "借助光环 5 的智能，该过程变得"
-     ],
-     [
-      67.74,
-      70.08,
-      "在缝合开始之前就变得更加智能。"
-     ],
-     [
-      70.08,
-      73.19,
-      "其智能数字化引擎有助于优化"
-     ],
-     [
-      73.19,
-      76.3,
-      "之前的缝合垫、密度和颜色"
-     ],
-     [
-      76.3,
-      78.08,
-      "第一根针落下。"
-     ],
-     [
-      78.08,
-      80.81,
-      "每一针都精准落地。甚至"
-     ],
-     [
-      80.81,
-      83.61,
-      "复杂的艺术作品非常真实"
-     ],
-     [
-      83.61,
-      85.08,
-      "你的原创设计。"
-     ],
-     [
-      85.08,
-      87.54,
-      "无论您是在打造独一无二的"
-     ],
-     [
-      87.54,
-      89.87,
-      "定制件或放大更大"
-     ],
-     [
-      89.87,
-      92.08,
-      "订单。 Halo 5 可以轻松适应，"
-     ],
-     [
-      92.08,
-      95.2,
-      "将您从单一想法变为批量生产"
-     ],
-     [
-      95.2,
-      96.08,
-      "生产。"
-     ],
-     [
-      96.08,
-      99.1,
-      "出色的刺绣引人注目。转"
-     ],
-     [
-      99.1,
-      101.83,
-      "将杰出的设计融入到产品中"
-     ],
-     [
-      101.83,
-      104.56,
-      "想要，并将注意力转化为成长"
-     ],
-     [
-      104.56,
-      105.08,
-      "订单。"
-     ],
-     [
-      105.08,
-      107.96,
-      "您不需要多年的专业知识即可获得"
-     ],
-     [
-      107.96,
-      110.76,
-      "开始了。上传您的设计，点击开始，"
-     ],
-     [
-      110.76,
-      113.79,
-      "让 Halo 5 处理复杂的工作"
-     ],
-     [
-      113.79,
-      115.08,
-      "在幕后。"
-     ],
-     [
-      115.08,
-      118.1,
-      "设置时间更少，时间更多"
-     ],
-     [
-      118.1,
-      120.08,
-      "创造你所爱的东西。"
-     ],
-     [
-      120.08,
-      122.94,
-      "因为伟大的想法永远不应该被保留"
-     ],
-     [
-      122.94,
-      125.08,
-      "经过复杂的流程回来。"
-     ],
-     [
-      125.08,
-      127.56,
-      "在《光环 5》中，之间的距离"
-     ],
-     [
-      127.56,
-      130.48,
-      "想象和创造从未有过"
-     ],
-     [
-      130.48,
-      131.08,
-      "更短。"
-     ],
-     [
-      131.08,
-      134.12,
-      "欢迎来到刺绣的未来。"
-     ],
-     [
-      134.12,
-      137.32,
-      "欢迎来到光环 5。从想象到"
-     ],
-     [
-      137.32,
-      138.08,
-      "创造。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/673/815/597cced43303e174525b153b7c41f455_original.png?fit=scale-down&origin=ugc&q=100&v=1793091521&width=680&sig=P7HUd8NYMlXn3OQauRAGfzN6ygITiNCDdLZboN80Vec%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/657/225/963842c3cd687fc80de7107c309df172_original.png?fit=scale-down&origin=ugc&q=100&v=1793002052&width=680&sig=gBecIk4yX8obTi%2BHdL4LswOOGjoloLYuPnuav%2BB8dQc%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/824/ec0c4d0ccd2673306128efdd6a61b51e_original.png?fit=scale-down&origin=ugc&q=100&v=1792058345&width=680&sig=Kl3FChvpd1TqV9%2Bh04DyzJuJpU24ty9JjIRO6o170Mk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/524/31dcbd481c5542658e168d63bb944d25_original.png?fit=scale-down&origin=ugc&q=100&v=1792056743&width=680&sig=3RmO2c8qapf%2F2pWodWTYGk%2FJqk3uH5eEglzPV5dNoPE%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/530/6cdbccd4da0591cb3a0ba8f45f8c6426_original.png?fit=scale-down&origin=ugc&q=100&v=1792056763&width=680&sig=azLyqcqKaOgNWFjBfwKS51sM2d0YVTfqq0Klo6fmiMM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/804/e20e6d87d7dff836f6f59e5031cd0a7c_original.png?fit=scale-down&origin=ugc&q=100&v=1792058301&width=680&sig=loNn4dqU32Sayp9Knz%2Bx0nnVW%2BY5D%2BsUHe%2Bv8%2FEGl%2B4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/858/f3d56774d87347dd4379851e358c824f_original.png?fit=scale-down&origin=ugc&q=100&v=1792058414&width=680&sig=xZbhQYcZBknQmJCpAqXJA%2BieJAL8UwdNsB0oaaEt4lg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/829/54333374e5920616acb208b2c9070c7f_original.png?fit=scale-down&origin=ugc&q=100&v=1792058366&width=680&sig=jFzLZb5Vnhzpf6U7LNwUFCLkToZ3lu681gI1eZh0r14%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/551/63efda3be11ca829480aa5a0d7fcb7a8_original.png?fit=scale-down&origin=ugc&q=100&v=1792056868&width=680&sig=UQXVQLzFGOHQABf9RzCv8G9eoClKQ1M6cdwHox0zHFQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/552/afce8e9d547e1539e5466e919f709f91_original.png?fit=scale-down&origin=ugc&q=100&v=1792056873&width=680&sig=9EUFaOIYyZXi4fI8Ag65WeyzHfDVAUfAhcoVPG2Pw50%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/553/0e2022a40cde995472671df7352495ba_original.png?fit=scale-down&origin=ugc&q=100&v=1792056878&width=680&sig=MCyrYdyob6mj72EtdG6lIZB2p0Cvii78NE0u26kEZAQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/555/e88430ae38fa3152ab112987dd7f9d87_original.png?fit=scale-down&origin=ugc&q=100&v=1792056886&width=680&sig=tzPjS4m305UL%2B4BTj6ggd1aqtMqUOWRBh%2FjVJdBOVwo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/832/fedd69b86f1bd9ac02caf32339255adf_original.png?fit=scale-down&origin=ugc&q=100&v=1792058379&width=680&sig=6Rl0%2F3Am3n7sAkEVZ556piZmhExNkzppf4z2ZPJPMW8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/525/564/a9c23d441bee7ff9a0a1c4b86883378c_original.png?fit=scale-down&origin=ugc&q=100&v=1792056910&width=680&sig=2hP%2FP8AylX8CWw6TtXrFVV3poerkXVm9XSpV%2Bpl95xk%3D"
-     },
-     {
-      "t": "p",
-      "x": "What if one intelligent machine could solve all of that - multiplying your creative power into serious productivity? You don't need workarounds - you need a breakthrough. Meet HALO-5.",
-      "z": "如果一台智能机器可以解决所有这些问题 - 将您的创造力转化为高生产力，会怎样？你不需要变通办法——你需要突破。认识光环 5。"
-     },
-     {
-      "t": "p",
-      "x": "Say goodbye to tedious, error-prone manual thread swaps. With its 5-needle automatic color-change system, HALO-5 runs up to 5 colors continuously in a single, uninterrupted pass - drastically boosting your productivity.",
-      "z": "告别繁琐且容易出错的手动线程交换。凭借其 5 针自动换色系统，HALO-5 可在一次不间断的运行中连续运行多达 5 种颜色 - 极大地提高您的生产效率。"
-     },
-     {
-      "t": "p",
-      "x": "From smooth transitions to crisp, layer-by-layer precision, HALO-5 translates your most complex vision into striking, professional-grade embroidery.",
-      "z": "从平滑过渡到清晰的逐层精度，HALO-5 将您最复杂的视觉转化为引人注目的专业级刺绣。"
-     },
-     {
-      "t": "p",
-      "x": "Clothes, caps, shoes, socks, or pockets - if you can frame it, you can profit from it. HALO-5 delivers the industrial-grade versatility your custom business needs to create anything your customers demand.",
-      "z": "衣服、帽子、鞋子、袜子或口袋——如果你能把它们装起来，你就可以从中获利。 HALO-5 提供您的定制业务所需的工业级多功能性，以创建客户所需的任何产品。"
-     },
-     {
-      "t": "p",
-      "x": "Say goodbye to risky cap embroidery. Our dedicated cap frame locks in placement and perfectly flattens curved cap surfaces. Optimized needle clearance ensures bold designs on any cap style without needle breakage.",
-      "z": "告别危险的帽子刺绣。我们专用的帽框可锁定位置并完美平整弯曲的帽表面。优化的针间隙可确保在任何瓶盖样式上进行大胆设计，而不会出现针断裂的情况。"
-     },
-     {
-      "t": "p",
-      "x": "With specialty frames designed for tight, awkward spaces, HALO-5 lets you easily customize socks, pant legs, and tricky pockets that standard machines can't touch.",
-      "z": "HALO-5 具有专为狭窄、尴尬空间设计的特殊框架，可让您轻松定制标准机器无法触及的袜子、裤腿和棘手的口袋。"
-     },
-     {
-      "t": "p",
-      "x": "Stop wasting hours wrestling with complex digitizing programs. From your screen straight to the needle, our mobile auto-digitizing app processes your artwork into production-ready stitches with a single tap.",
-      "z": "停止浪费时间与复杂的数字化程序搏斗。从您的屏幕直接到针，我们的移动自动数字化应用程序只需轻轻一点即可将您的艺术品处理成可立即生产的针迹。"
-     },
-     {
-      "t": "p",
-      "x": "No PC required. From image to stitch, our mobile app converts your artwork into ready-to-embroider paths and beams it straight to HALO-5 in seconds.",
-      "z": "无需电脑。从图像到针迹，我们的移动应用程序可将您的图稿转换为准备刺绣的路径，并在几秒钟内将其直接发送到 HALO-5。"
-     },
-     {
-      "t": "p",
-      "x": "See the final results before the needle even drops. Preview the fully simulated thread paths on screen before pressing start.",
-      "z": "在针落下之前查看最终结果。在按开始之前，在屏幕上预览完全模拟的线程路径。"
-     },
-     {
-      "t": "p",
-      "x": "HALO-5's onboard library offers diverse categories to match any customer demand. Pick a style, tap the screen, and start creating.",
-      "z": "HALO-5 的机载库提供多种类别，以满足任何客户的需求。选择一种风格，点击屏幕，然后开始创作。"
-     },
-     {
-      "t": "p",
-      "x": "Engineered to surpass basic digitizing tools, HALO-5 delivers crisp details, balanced density, and smooth, professional-grade stitch paths every time.",
-      "z": "HALO-5 的设计超越了基本的数字化工具，每次都能提供清晰的细节、平衡的密度以及平滑的专业级缝合路径。"
-     },
-     {
-      "t": "p",
-      "x": "For intricate designs needing a human touch, request expert manual digitizing right in the HALO App. Available on demand for a modest fee, unlocking ultra-fine details and flawless embroidery precision.",
-      "z": "对于需要人性化的复杂设计，请在 HALO 应用程序中请求专家手动数字化。只需支付适当的费用即可按需提供，解锁超精细的细节和完美的刺绣精度。"
-     },
-     {
-      "t": "p",
-      "x": "Experience how intuitive the HALO App really is! Our auto-digitizing workflow transforms your artwork into stitch-ready files with just a few taps.",
-      "z": "体验 HALO 应用程序的直观程度！只需点击几下，我们的自动数字化工作流程即可将您的艺术品转换为可缝合的文件。"
-     },
-     {
-      "t": "p",
-      "x": "Development of the HALO App is fully complete, and we are now dedicating the next two months to rigorous fine-tuning, bug fixing, and performance optimization. Rest assured, by the time your HALO-5 lands on your doorstep, the app will be thoroughly perfected and available on both iOS and Android.",
-      "z": "HALO 应用程序的开发已完全完成，我们现在将在接下来的两个月内进行严格的微调、错误修复和性能优化。请放心，当您的 HALO-5 到达您家门口时，该应用程序将得到彻底完善并可在 iOS 和 Android 上使用。"
-     },
-     {
-      "t": "p",
-      "x": "Stitch bigger with a massive 10×16\" area and a 100M total stitch capacity (30M per design), allowing you to complete hyper-detailed, large-scale masterpieces in one go without splitting.",
-      "z": "更大的拼接面积，10×16英寸的大面积和100M的总拼接容量（每个设计30M），让您一次完成超详细的大型杰作，无需分割。"
-     },
-     {
-      "t": "p",
-      "x": "Professional embroidery has never been this agile. Weighing just 66 lbs, HALO-5 packs industrial-grade power into a lightweight, ultra-compact frame, letting you shift locations and set up your workspace effortlessly.",
-      "z": "专业刺绣从未如此敏捷。 HALO-5 重量仅为 66 磅，将工业级电源集成到轻巧、超紧凑的框架中，让您可以轻松移动位置并设置工作空间。"
-     },
-     {
-      "t": "p",
-      "x": "Traditional commercial machines require a dedicated room and heavy machinery transport. HALO-5 breaks the mold. It combines industrial-grade output into a compact, space-saving design that fits seamlessly onto any studio desk or workspace - without sacrificing stitching precision.",
-      "z": "传统的商用机器需要专用的房间和重型机械运输。 HALO-5 打破了常规。它将工业级输出融入紧凑、节省空间的设计中，可以无缝地安装在任何工作室办公桌或工作空间上，而不会牺牲拼接精度。"
-     },
-     {
-      "t": "p",
-      "x": "We've added dedicated side handles to HALO-5. Now you have a secure, comfortable grip to move your machine effortlessly, wherever and whenever you need it.",
-      "z": "我们为 HALO-5 添加了专用侧手柄。现在，您拥有安全、舒适的握把，可以随时随地轻松移动您的机器。"
-     },
-     {
-      "t": "p",
-      "x": "We've redesigned our cap frame for quick installation. Easily snap your hat into place - maximizing your efficiency on every run.",
-      "z": "我们重新设计了帽框，以便快速安装。轻松将帽子扣到位 - 最大限度地提高每次跑步的效率。"
-     },
-     {
-      "t": "p",
-      "x": "Powered by a heavy-duty brushless motor, HALO-5 delivers non-stop 24/7 operation with high-speed precision. Tackle back-to-back orders with zero overheating and industrial stability.",
-      "z": "HALO-5 由重型无刷电机提供动力，可实现 24/7 不间断的高速精度运行。以零过热和工业稳定的方式应对连续订单。"
-     },
-     {
-      "t": "p",
-      "x": "HALO-5's commercial-grade DC brushless main-shaft motor ensures cool, stable, and relentless performance for your longest production days.",
-      "z": "HALO-5 的商业级直流无刷主轴电机可确保您最长的生产天数内保持凉爽、稳定和持久的性能。"
-     },
-     {
-      "t": "p",
-      "x": "Hit up to 1,000 SPM on garments and 800 SPM on caps. Cut production times in half while keeping every detail factory-crisp.",
-      "z": "服装最高可达 1,000 SPM，帽子最高可达 800 SPM。将生产时间缩短一半，同时保持每个细节在工厂中清晰可见。"
-     },
-     {
-      "t": "p",
-      "x": "Watch the video below to see how HALO-5 captures every tiny detail with crisp, ultra-precise stitching.",
-      "z": "观看下面的视频，了解 HALO-5 如何通过清晰、超精确的拼接捕捉每一个微小的细节。"
-     },
-     {
-      "t": "p",
-      "x": "At HALO, we know HALO-5 isn't just an embroidery machine; It's a revenue generator for your business. Launch your embroidered merch shop on Etsy, Shopify, Amazon, or eBay - HALO-5 can pay for itself in just under 3 months.",
-      "z": "在 HALO，我们知道 HALO-5 不仅仅是一台绣花机；它还是一台绣花机。它是您企业的收入来源。在 Etsy、Shopify、Amazon 或 eBay 上开设您的刺绣商品店 - HALO-5 可以在不到 3 个月的时间内收回成本。"
-     },
-     {
-      "t": "p",
-      "x": "Every week, we let our Facebook community vote on custom designs and stitch the winning patterns on video. Take a look at the real reviews from our members - see why backers trust HALO-5 long before launch!",
-      "z": "每周，我们都会让 Facebook 社区对定制设计进行投票，并将获胜的图案拼接到视频中。看看我们会员的真实评论 - 了解为什么支持者在发布之前就信任 HALO-5！"
-     },
-     {
-      "t": "p",
-      "x": "Unlock More For Free! When we hit these funding milestones, the corresponding gifts will be automatically added to every backer’s order - at no extra cost!",
-      "z": "免费解锁更多！当我们达到这些融资里程碑时，相应的礼物将自动添加到每个支持者的订单中 - 无需额外费用！"
-     }
-    ]
-   },
-   {
-    "id": 1321991576,
-    "name": "DogVibe: The Smart Dog Training Collar for Off-Leash Freedom",
-    "blurb": "A smart training system that detects leash pulling, sets virtual proximity fences, and runs from an app on your phone. No subscription.",
-    "url": "https://www.kickstarter.com/projects/dogvibe/dogvibe",
-    "category": "Hardware",
-    "creator": "DogVibe",
-    "location": "Austin, TX",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 20000.0,
-    "pledged": 566885.0,
-    "usdPledged": "566885.0",
-    "goalUsd": 20000.0,
-    "percentFunded": 2834.4249999999997,
-    "backers": 1687,
-    "deadline": 1793343600,
-    "launchedAt": 1790685085,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "smart"
-    ],
-    "score": 0.6504,
-    "coverRemote": "https://i.kickstarter.com/assets/055/331/264/bbdcdc5a67384b4843a066e81b885c60_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1790784223&width=1024&sig=BlgsHwEBuW9Qu4p%2BTD7oyzhYujYj1vzYj01dd%2BkuEvk%3D",
-    "videoMp4": "https://v2.kickstarter.com/1793171138-%2FImM%2FKzlQKt%2FzxD5hzeOg86tFQxzWOasKhXVh04Z8X0%3D/projects/5358412/video-1462030-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1793171138-%2FImM%2FKzlQKt%2FzxD5hzeOg86tFQxzWOasKhXVh04Z8X0%3D/projects/5358412/video-1462030-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11303046,
-      "price": 250.0,
-      "title": "VIP - 1 Dog Bundle",
-      "desc": "🔒 VIP EXCLUSIVE PRICE\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 32% OFF. $270 total with your $20 deposit, $130 off the $400 retail price\\n🎁 FREE treat pouch ($15 value)\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 414,
-      "limit": 450,
-      "remaining": 36,
-      "eta": 1806537600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11433279,
-      "price": 295.0,
-      "title": "Early Bird - 1 Dog Bundle",
-      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 1x DogVibe\\n✅ 1x Static Module\\n✅ 1x Leash Module\\n✅ 1x Remote\\n\\n🚀 26% OFF. $105 off the $400 retail price\\n⚡ Limited quantity. When these are gone the price goes to $330.\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 804,
-      "limit": 825,
-      "remaining": 21,
-      "eta": 1806537600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11433286,
-      "price": 475.0,
-      "title": "Early Bird - 2 Dog Bundle",
-      "desc": "⏰ LIMITED EARLY BIRD PRICING\\n\\n✅ 2x DogVibe\\n✅ 2x Static Module\\n✅ 2x Leash Module\\n✅ 1x Remote\\n\\n🚀 40% OFF. $325 off the $800 retail price\\n🐕 $238 per dog\\n\\nShips to the US and Canada only. Shipping is not included in the pledge and is added after the campaign in the pledge manager.",
-      "backers": 226,
-      "limit": 250,
-      "remaining": 24,
-      "eta": 1806537600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 12,
-    "tiersDate": "2026-10-28",
-    "tiersCarried": "",
-    "cues": [
-     [
-      19.31,
-      22.07,
-      "我是迈尔斯，这是我的狗巴鲁。"
-     ],
-     [
-      22.07,
-      24.55,
-      "我们一起创造了这种狗的氛围，"
-     ],
-     [
-      24.55,
-      27.27,
-      "首创的智能电子颜色停止"
-     ],
-     [
-      27.27,
-      28.11,
-      "牵引绳"
-     ],
-     [
-      28.11,
-      30.59,
-      "并建立真正的、不受约束的信任。"
-     ],
-     [
-      30.59,
-      32.59,
-      "最好的部分是蓝牙控制，"
-     ],
-     [
-      32.59,
-      35.25,
-      "这意味着您的手机就像您的日常生活"
-     ],
-     [
-      35.25,
-      35.71,
-      "远程。"
-     ],
-     [
-      35.71,
-      37.31,
-      "拥有一只狗可以是令人难以置信的，"
-     ],
-     [
-      37.31,
-      39.47,
-      "一个冒险伙伴，一个最好的朋友。"
-     ],
-     [
-      39.47,
-      41.03,
-      "但现实是养狗"
-     ],
-     [
-      41.03,
-      42.71,
-      "有时可能会很困难"
-     ],
-     [
-      42.71,
-      44.71,
-      "训练他们可能会令人畏惧。"
-     ],
-     [
-      44.71,
-      48.83,
-      "拉扯，吠叫，不来"
-     ],
-     [
-      48.83,
-      49.99,
-      "当你打电话给他们时。"
-     ],
-     [
-      49.99,
-      51.43,
-      "阿普索！"
-     ],
-     [
-      51.43,
-      53.39,
-      "无法信任他们。"
-     ],
-     [
-      53.39,
-      54.99,
-      "如果你经常感到压力很大，"
-     ],
-     [
-      54.99,
-      57.11,
-      "总是为你的狗的行为道歉"
-     ],
-     [
-      57.11,
-      58.99,
-      "感觉你就是不能相信他，我"
-     ],
-     [
-      58.99,
-      59.31,
-      "得到它，"
-     ],
-     [
-      59.31,
-      60.63,
-      "因为我也去过那里"
-     ],
-     [
-      60.63,
-      63.02,
-      "这正是我养狗的原因"
-     ],
-     [
-      63.02,
-      63.31,
-      "氛围。"
-     ],
-     [
-      63.31,
-      65.11,
-      "我什至正在为其中之一进行营销"
-     ],
-     [
-      65.11,
-      65.99,
-      "增长最快的"
-     ],
-     [
-      65.99,
-      67.78,
-      "世界上的宠物品牌"
-     ],
-     [
-      67.78,
-      68.55,
-      "分散注意力的玩具"
-     ],
-     [
-      68.55,
-      70.43,
-      "为了帮助反应性的狗安定下来，"
-     ],
-     [
-      70.43,
-      72.48,
-      "但我仍然遇到问题"
-     ],
-     [
-      72.48,
-      72.99,
-      "现实世界"
-     ],
-     [
-      72.99,
-      77.05,
-      "下面是我的狗。"
-     ],
-     [
-      77.05,
-      79.14,
-      "所以我建立了这个我希望存在的系统"
-     ],
-     [
-      79.14,
-      79.89,
-      "当我开始的时候。"
-     ],
-     [
-      79.89,
-      82.02,
-      "一种一致的培训语言，您可以"
-     ],
-     [
-      82.02,
-      82.17,
-      "狗"
-     ],
-     [
-      82.17,
-      88.91,
-      "终于会明白。"
-     ],
-     [
-      88.91,
-      90.55,
-      "这就是狗的氛围系统。"
-     ],
-     [
-      90.55,
-      93.03,
-      "它由四块硬件组成，"
-     ],
-     [
-      93.03,
-      93.59,
-      "狗的气质，"
-     ],
-     [
-      93.59,
-      95.82,
-      "皮带模块，可选静态"
-     ],
-     [
-      95.82,
-      96.91,
-      "校正模块，"
-     ],
-     [
-      96.91,
-      98.23,
-      "和我们的远程遥控器。"
-     ],
-     [
-      98.23,
-      100.36,
-      "狗的氛围与你的颜色有关"
-     ],
-     [
-      100.36,
-      101.27,
-      "狗已经穿了"
-     ],
-     [
-      101.27,
-      103.66,
-      "它用超声波与他们交谈"
-     ],
-     [
-      103.66,
-      104.83,
-      "音调和振动。"
-     ],
-     [
-      104.83,
-      106.67,
-      "它有发声检测"
-     ],
-     [
-      106.67,
-      108.56,
-      "帮助平息过度吠叫"
-     ],
-     [
-      108.56,
-      109.35,
-      "自动地"
-     ],
-     [
-      109.35,
-      111.67,
-      "它适合 7 天 24 小时穿着"
-     ],
-     [
-      111.67,
-      114.11,
-      "这样规则就永远不会改变。"
-     ],
-     [
-      114.11,
-      115.95,
-      "借助 Dog Vivi 应用程序，您的手机"
-     ],
-     [
-      115.95,
-      117.35,
-      "充当您的日常遥控器。"
-     ],
-     [
-      117.35,
-      119.12,
-      "锁定屏幕上的小部件意味着您"
-     ],
-     [
-      119.12,
-      119.55,
-      "甚至不"
-     ],
-     [
-      119.55,
-      121.23,
-      "必须解锁您的手机才能使用"
-     ],
-     [
-      121.23,
-      121.51,
-      "颜色。"
-     ],
-     [
-      121.51,
-      123.51,
-      "每个设置都在应用程序中，"
-     ],
-     [
-      123.51,
-      125.59,
-      "射程约 200 英尺。"
-     ],
-     [
-      125.59,
-      127.83,
-      "一部手机最多可容纳四只狗"
-     ],
-     [
-      127.83,
-      130.4,
-      "和全家人的手机相比"
-     ],
-     [
-      130.4,
-      131.03,
-      "一种颜色。"
-     ],
-     [
-      131.03,
-      133.18,
-      "皮带模块夹在您的狗之间"
-     ],
-     [
-      133.18,
-      134.23,
-      "颜色和皮带。"
-     ],
-     [
-      134.23,
-      136.96,
-      "所以当你的狗拉动时，颜色会做出反应"
-     ],
-     [
-      136.96,
-      137.55,
-      "立即"
-     ],
-     [
-      137.55,
-      139.23,
-      "每一次。"
-     ],
-     [
-      139.23,
-      141.31,
-      "你的狗很快就会把这些点连起来，"
-     ],
-     [
-      141.31,
-      143.15,
-      "这意味着拉力停止"
-     ],
-     [
-      143.15,
-      145.8,
-      "你紧张的散步变得平静，"
-     ],
-     [
-      145.8,
-      146.99,
-      "宽松的散步。"
-     ],
-     [
-      146.99,
-      149.11,
-      "最好的部分是它是自动的，"
-     ],
-     [
-      149.11,
-      151.06,
-      "这意味着它适用于每一个"
-     ],
-     [
-      151.06,
-      151.27,
-      "时间"
-     ],
-     [
-      151.27,
-      153.43,
-      "与任何大小的狗。"
-     ],
-     [
-      153.43,
-      155.49,
-      "然后是远程遥控"
-     ],
-     [
-      155.49,
-      156.23,
-      "调用按钮。"
-     ],
-     [
-      156.23,
-      158.66,
-      "我们帮助您训练实际上的回忆能力"
-     ],
-     [
-      158.66,
-      159.03,
-      "成立。"
-     ],
-     [
-      159.03,
-      161.03,
-      "好的，让我向您展示一个召回演示。"
-     ],
-     [
-      161.03,
-      162.83,
-      "我这里有召回按钮"
-     ],
-     [
-      162.83,
-      163.23,
-      "我的手机，"
-     ],
-     [
-      163.23,
-      164.67,
-      "她衣领宽松。"
-     ],
-     [
-      164.67,
-      167.27,
-      "当我击中这个时，她知道要回来"
-     ],
-     [
-      167.27,
-      168.47,
-      "每一次。"
-     ],
-     [
-      168.47,
-      171.24,
-      "所以我打了它，她听到了，她继续前进"
-     ],
-     [
-      171.24,
-      171.59,
-      "回来。"
-     ],
-     [
-      171.59,
-      173.39,
-      "来吧，嘘。"
-     ],
-     [
-      173.39,
-      175.07,
-      "就这样，我训练了她"
-     ],
-     [
-      175.07,
-      175.15,
-      "向上"
-     ],
-     [
-      175.15,
-      176.87,
-      "每次都会回来。"
-     ],
-     [
-      176.87,
-      178.73,
-      "我们还包括内部培训"
-     ],
-     [
-      178.73,
-      178.87,
-      "应用程序"
-     ],
-     [
-      178.87,
-      181.07,
-      "帮助您训练您的狗做同样的事情。"
-     ],
-     [
-      181.07,
-      183.47,
-      "一旦记忆牢固，你就可以解锁它。"
-     ],
-     [
-      183.47,
-      186.21,
-      "接近模式，随移动的栅栏"
-     ],
-     [
-      186.21,
-      187.75,
-      "你无论走到哪里。"
-     ],
-     [
-      187.75,
-      190.59,
-      "将其设置在 5 到 200 英尺之间的任意位置。"
-     ],
-     [
-      190.59,
-      192.35,
-      "当你的狗接近边界时"
-     ],
-     [
-      192.35,
-      194.75,
-      "他们会自动听到召回音。"
-     ],
-     [
-      194.75,
-      197.65,
-      "所以当heipes在海滩跑步或者"
-     ],
-     [
-      197.65,
-      198.31,
-      "露营,"
-     ],
-     [
-      198.31,
-      200.23,
-      "你可以让你的狗摆脱束缚并信任"
-     ],
-     [
-      200.23,
-      202.03,
-      "他们会保持密切联系。"
-     ],
-     [
-      202.03,
-      204.01,
-      "所以技术很酷，但我们是这样的"
-     ],
-     [
-      204.01,
-      205.11,
-      "考虑培训。"
-     ],
-     [
-      205.11,
-      207.3,
-      "一切与狗的氛围都是建立在"
-     ],
-     [
-      207.3,
-      208.03,
-      "信任、玩耍、"
-     ],
-     [
-      208.03,
-      210.04,
-      "并在狗狗做事时给予奖励"
-     ],
-     [
-      210.04,
-      210.83,
-      "正确的事，"
-     ],
-     [
-      210.83,
-      212.19,
-      "这并不是很多人的想法"
-     ],
-     [
-      212.19,
-      212.91,
-      "关于当他们听到"
-     ],
-     [
-      212.91,
-      214.31,
-      "训练时打电话给她。"
-     ],
-     [
-      214.31,
-      216.27,
-      "所以我们还有可选的静态"
-     ],
-     [
-      216.27,
-      217.23,
-      "校正模块，"
-     ],
-     [
-      217.23,
-      219.11,
-      "总是被误解"
-     ],
-     [
-      219.11,
-      221.07,
-      "可能不是你想的那样。"
-     ],
-     [
-      221.07,
-      223.11,
-      "我在下面的视频中深入探讨了这一点。"
-     ],
-     [
-      223.11,
-      225.05,
-      "所以当你完成这里后，向下滚动，"
-     ],
-     [
-      225.05,
-      225.71,
-      "一探究竟。"
-     ],
-     [
-      225.71,
-      228.05,
-      "我会告诉你为什么它不是什么"
-     ],
-     [
-      228.05,
-      228.99,
-      "害怕。"
-     ],
-     [
-      228.99,
-      230.95,
-      "所以让我直接告诉你吧。"
-     ],
-     [
-      230.95,
-      232.95,
-      "狗的氛围并不是灵丹妙药。"
-     ],
-     [
-      232.95,
-      234.11,
-      "这不是魔法项圈。"
-     ],
-     [
-      234.11,
-      236.2,
-      "你拍你的狗一巴掌，它就解决了所有问题"
-     ],
-     [
-      236.2,
-      236.99,
-      "他们的问题。"
-     ],
-     [
-      236.99,
-      239.97,
-      "训练狗需要你付出真正的努力，"
-     ],
-     [
-      239.97,
-      240.71,
-      "业主。"
-     ],
-     [
-      240.71,
-      242.29,
-      "但狗的氛围提供的是"
-     ],
-     [
-      242.29,
-      243.67,
-      "令人难以置信的硬件"
-     ],
-     [
-      243.67,
-      245.61,
-      "搭配经过深思熟虑的培训"
-     ],
-     [
-      245.61,
-      245.91,
-      "系统"
-     ],
-     [
-      245.91,
-      248.07,
-      "由专业训狗师开发。"
-     ],
-     [
-      248.07,
-      249.67,
-      "我在狗的空间里度过了很多年"
-     ],
-     [
-      249.67,
-      251.77,
-      "我理解这些问题是因为"
-     ],
-     [
-      251.77,
-      252.63,
-      "我经历过它们。"
-     ],
-     [
-      252.63,
-      254.99,
-      "我为自己和我的人建立了这个系统"
-     ],
-     [
-      254.99,
-      255.23,
-      "狗,"
-     ],
-     [
-      255.23,
-      256.96,
-      "但现在我准备好与大家分享"
-     ],
-     [
-      256.96,
-      257.23,
-      "世界。"
-     ],
-     [
-      257.23,
-      259.54,
-      "我之前已经筹集了超过 200 万美元"
-     ],
-     [
-      259.54,
-      260.15,
-      "就在这里"
-     ],
-     [
-      260.15,
-      262.31,
-      "在 Kickstarter 上参与之前的项目"
-     ],
-     [
-      262.31,
-      264.18,
-      "我曾参加过《创智赢家》的其中一部"
-     ],
-     [
-      264.18,
-      264.43,
-      "他们。"
-     ],
-     [
-      264.43,
-      266.59,
-      "我去过我们海外的厂家"
-     ],
-     [
-      266.59,
-      269.18,
-      "为狗的量产做好准备"
-     ],
-     [
-      269.18,
-      269.51,
-      "氛围。"
-     ],
-     [
-      269.51,
-      271.4,
-      "已有上千人放下"
-     ],
-     [
-      271.4,
-      271.63,
-      "钱"
-     ],
-     [
-      271.63,
-      274.0,
-      "保留狗的氛围，我不能再多了"
-     ],
-     [
-      274.0,
-      274.39,
-      "兴奋"
-     ],
-     [
-      274.39,
-      275.83,
-      "推出该产品。"
-     ],
-     [
-      275.83,
-      277.9,
-      "今天支持我们，您将成为其中之一"
-     ],
-     [
-      277.9,
-      278.51,
-      "第一个人"
-     ],
-     [
-      278.51,
-      280.96,
-      "在世界上获得最好的狗氛围"
-     ],
-     [
-      280.96,
-      281.27,
-      "价格"
-     ],
-     [
-      281.27,
-      282.55,
-      "他们将永远是。"
-     ],
-     [
-      282.55,
-      284.39,
-      "是时候给你的狗更多的自由了。"
-     ],
-     [
-      284.39,
-      286.71,
-      "因为生活，摆脱束缚会更好。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/346/760/4c12a19366b50f59805316173a7e0602_original.png?fit=scale-down&origin=ugc&q=100&v=1790874218&width=680&sig=6ELkjBFsJz9lSs1nwXfzZHKULXE9%2Bz%2F4SdrNBuLBGyI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/346/753/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790874140&width=680&sig=%2B2WlJ%2FbL1esU9MjMrTzGFlss8wi8d2C19Cs2DZItMO8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/258/947/2bb62fbdc7f6d341fc94378b8ade8489_original.png?fit=scale-down&origin=ugc&q=100&v=1790289022&width=680&sig=AJpcb2bcQ%2B3UdRHTibylJKrxs6GyoYLACVm%2FBMQKK8Y%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/349/683/7e77033f671a4f1217ab1192013a40cc_original.gif?fit=scale-down&origin=ugc&q=92&v=1790888644&width=680&sig=qCEmUCDLncOdFojVUSUgHVJEPevJOgA%2FRmhZxAFaVp4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/258/938/9805a093ed105671ed56896ab3c62070_original.png?fit=scale-down&origin=ugc&q=100&v=1790288884&width=680&sig=WZA6J80Gy1HdxnVD01HBSUTpZ%2FDgGQoRWVPDVAlXXpY%3D"
-     },
-     {
-      "t": "p",
-      "x": "DogVibe brings smart training tools, guided training and everyday control together in one connected system.",
-      "z": "DogVibe 将智能训练工具、指导训练和日常控制整合到一个互联系统中。"
-     },
-     {
-      "t": "p",
-      "x": "From leash pulling and recall to off-leash boundaries and barking, DogVibe gives you one consistent way to communicate with your dog, so everyday training leads to something bigger: more trust, more confidence, and more freedom together.",
-      "z": "从牵引绳和回忆到脱离牵引绳的界限和吠叫，DogVibe 为您提供了一种与您的狗沟通的一致方式，因此日常训练会带来更大的收获：更多的信任、更多的信心和更多的自由。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/535/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790554466&width=680&sig=6ew6tl3AQlCkLwQ7aLcn%2FWCn58XOZD62GGL2g1xfqk8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/534/0b9ea946d273526f73a778aba69b4414_original.png?fit=scale-down&origin=ugc&q=100&v=1790554454&width=680&sig=FqnO%2FYkcx1QivrBYbxXdwhqKCA9gp1ZxkB2yav0Jyh0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/260/916/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790305171&width=680&sig=ni7hnl%2BGVzJUxI5cbefZODphwfn7mRVOkQnSwNs53M0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/644/28e4f30928c4db7ab4b8db2a0ae57ece_original.png?fit=scale-down&origin=ugc&q=100&v=1790555345&width=680&sig=apGg%2F5pUR6DSBa7B8aQO7GErbCbZViCP3H%2BXbzZbkvk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/261/457/f25f694664ea330ae7f4a17d6d4b31d8_original.gif?fit=scale-down&origin=ugc&q=92&v=1790309050&width=680&sig=tXtl%2FGspwkOOouCVln%2FhWcklwaSYQ2mwdlDAfgQWZgQ%3D"
-     },
-     {
-      "t": "p",
-      "x": "You may have watched the videos, tried different techniques, changed equipment, or worked with a trainer, but progress still feels inconsistent.",
-      "z": "您可能已经观看了视频、尝试了不同的技术、更换了设备或与培训师一起工作，但进步仍然感觉不一致。"
-     },
-     {
-      "t": "p",
-      "x": "One technique says one thing. Another says something different. Your timing changes, your signals change, and what worked yesterday stops working today.",
-      "z": "一种技术说明一件事。另一个说不同的话。你的时间改变了，你的信号改变了，昨天有效的方法今天就不再有效了。"
-     },
-     {
-      "t": "p",
-      "x": "To you, the changes seem inconsequential. To your dog, the rules keep changing.",
-      "z": "对你来说，这些变化似乎无关紧要。对于你的狗来说，规则不断变化。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/260/918/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790305181&width=680&sig=uYhfxBNDF28RKxl0xaHgG9CgYZ23%2FrpTxORipnFyE64%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/303/912/90ffa18743926421087c89566be357d9_original.png?fit=scale-down&origin=ugc&q=100&v=1790636563&width=680&sig=NAymglMbYftYf5Wu%2BAvNkV4ii0sNF6UGWVU%2FHwzC3ns%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/457/ce6da79be5ecadd7902269940d79434d_original.png?fit=scale-down&origin=ugc&q=100&v=1790553433&width=680&sig=uw770%2FRU57%2FgzUcxY%2F7F9ThA7HCY51EK4cQqz2RmB%2Bw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/289/513/5669e2ee3f83f003b0555a8438136651_original.gif?fit=scale-down&origin=ugc&q=92&v=1790554078&width=680&sig=zODX4OvdQG4nJz8pCirq0pbXt%2B4eS6HrcXaLdEhLA8U%3D"
-     },
-     {
-      "t": "p",
-      "x": "DogVibe is the center of the whole system and clips onto the collar your dog already wears. It talks to your pup with an ultrasonic tone and vibration. It has a dedicated recall tone, bark detection, and a night light. It connects wirelessly to your phone, the remote, and other all other modules.",
-      "z": "DogVibe 是整个系统的中心，可夹在您的狗已经佩戴的项圈上。它通过超声波和振动与您的小狗交谈。它具有专用的召回音、树皮检测和夜灯。它无线连接到您的手机、遥控器和其他所有模块。"
-     },
-     {
-      "t": "p",
-      "x": "*   Attaches to the collar your dog already wears",
-      "z": "* 连接到您的狗已经佩戴的项圈上"
-     },
-     {
-      "t": "p",
-      "x": "*   Ultrasonic correction tone and vibration",
-      "z": "* 超声波修正音调和振动"
-     },
-     {
-      "t": "p",
-      "x": "*   Dedicated recall tone",
-      "z": "* 专用回忆音"
-     },
-     {
-      "t": "p",
-      "x": "*   Bark detection",
-      "z": "* 树皮检测"
-     },
-     {
-      "t": "p",
-      "x": "*   Night light",
-      "z": "* 夜灯"
-     },
-     {
-      "t": "p",
-      "x": "*   Fully waterproof",
-      "z": "* 完全防水"
-     },
-     {
-      "t": "p",
-      "x": "*   Two-week battery, USB-C charging",
-      "z": "* 两周电池，USB-C 充电"
-     },
-     {
-      "t": "p",
-      "x": "Clips between the collar and the leash. The moment your dog pulls, the collar responds. Automatically, on every walk, with perfect timing. You set how much pull triggers a correction and whether the correction builds gradually or fires immediately.",
-      "z": "夹在项圈和皮带之间。当你的狗拉动时，项圈就会做出反应。每次行走时都会自动完成，时机恰到好处。您可以设置触发修正的拉动程度以及修正是逐渐建立还是立即触发。"
-     },
-     {
-      "t": "p",
-      "x": "*   Works with any-size dog",
-      "z": "* 适用于任何体型的狗"
-     },
-     {
-      "t": "p",
-      "x": "*   Waterproof",
-      "z": "* 防水"
-     },
-     {
-      "t": "p",
-      "x": "*   Automatic corrections (tone/vibration/static)",
-      "z": "* 自动校正（音调/振动/静态）"
-     },
-     {
-      "t": "p",
-      "x": "*   Fully adjustable based on dog’s weight and behavior",
-      "z": "* 根据狗的体重和行为完全调节"
-     },
-     {
-      "t": "p",
-      "x": "*   Fully adjustable inside the app",
-      "z": "* 在应用程序内完全可调"
-     },
-     {
-      "t": "p",
-      "x": "*   No remote needed",
-      "z": "* 无需遥控器"
-     },
-     {
-      "t": "p",
-      "x": "*   Finally achieve loose-leash walks",
-      "z": "* 最终实现自由行走"
-     },
-     {
-      "t": "p",
-      "x": "When you need to communicate with your dog from a distance, the remote reaches three-quarters of a mile for recall. You don't have to carry it every day, but it's there when the situation calls for it.",
-      "z": "当您需要与您的狗进行远距离交流时，遥控器可以到达四分之三英里进行调用。您不必每天都携带它，但当情况需要时它就在那里。"
-     },
-     {
-      "t": "p",
-      "x": "*   3/4 mile range for all controls",
-      "z": "* 所有控制范围为 3/4 英里"
-     },
-     {
-      "t": "p",
-      "x": "*   Enables Proximity Mode with 5-200’ range",
-      "z": "* 启用 5-200 英尺范围内的接近模式"
-     },
-     {
-      "t": "p",
-      "x": "*   Waterproof",
-      "z": "* 防水"
-     },
-     {
-      "t": "p",
-      "x": "*   2 week charge",
-      "z": "* 2周充电"
-     }
-    ]
-   },
-   {
-    "id": 287348926,
-    "name": "MindBridge — The AI Assistant That Lives on Your Computer",
-    "blurb": "No cloud. No subscriptions. No data leaks. A fully local AI for macOS and Windows.",
-    "url": "https://www.kickstarter.com/projects/ungameproductor/mindbridge-the-ai-assistant-that-lives-on-your-computer",
-    "category": "Software",
-    "creator": "Ungame Productor",
-    "location": "Brindisi, Italy",
-    "country": "Italy",
-    "currency": "EUR",
-    "currencySymbol": "€",
-    "goal": 7100.0,
-    "pledged": 1992.0,
-    "usdPledged": "2268.17012304",
-    "goalUsd": 8084.34,
-    "percentFunded": 28.056338028169016,
-    "backers": 26,
-    "deadline": 1793280389,
-    "launchedAt": 1790688389,
-    "staffPick": false,
-    "sources": [
-     "软件/APP"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.6185,
-    "coverRemote": "https://i.kickstarter.com/assets/053/544/188/c620cd237a17c2ba8ff3cab8aeb1fd84_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1777539210&width=1024&sig=qUbR73moSWeLUdDKq7%2B%2B%2BK9e31vZaCQPAQazsnd96qg%3D",
-    "videoMp4": "https://v2.kickstarter.com/1793109707-Lag8%2BImFxLA3kkIgftHBSl96A2Ru5danraGcnbklf90%3D/projects/5322272/video-1429361-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1793109707-Lag8%2BImFxLA3kkIgftHBSl96A2Ru5danraGcnbklf90%3D/projects/5322272/video-1429361-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11184192,
-      "price": 59.0,
-      "title": "🔥 Lifetime License",
-      "desc": "Own MindBridge Forever",
-      "backers": 11,
-      "limit": null,
-      "remaining": null,
-      "eta": 1790812800,
-      "shipping": null
-     },
-     {
-      "id": 11184202,
-      "price": 99.0,
-      "title": "👑 Founder Edition",
-      "desc": "Become a Founding Supporter",
-      "backers": 2,
-      "limit": null,
-      "remaining": null,
-      "eta": 1790812800,
-      "shipping": null
-     },
-     {
-      "id": 11184207,
-      "price": 199.0,
-      "title": "🏢 Studio Pack",
-      "desc": "For Teams, Studios & Creators",
-      "backers": 5,
-      "limit": null,
-      "remaining": null,
-      "eta": 1790812800,
-      "shipping": null
-     }
-    ],
-    "rewardsTotal": 7,
-    "tiersDate": "2026-10-28",
-    "tiersCarried": "",
-    "cues": [
-     [
-      0.0,
-      2.89,
-      "世界上的人工智能工具已经饱和，但"
-     ],
-     [
-      2.89,
-      5.65,
-      "生产力感觉比"
-     ],
-     [
-      5.65,
-      6.0,
-      "曾经。"
-     ],
-     [
-      6.4,
-      9.36,
-      "MindBridge 简介，该解决方案"
-     ],
-     [
-      9.36,
-      11.75,
-      "弥合了混乱与混乱之间的差距"
-     ],
-     [
-      11.75,
-      12.4,
-      "创造。"
-     ],
-     [
-      12.8,
-      15.24,
-      "在中创建生产就绪文件"
-     ],
-     [
-      15.24,
-      15.8,
-      "瞬间。"
-     ],
-     [
-      16.0,
-      18.15,
-      "同时将想法转化为"
-     ],
-     [
-      18.15,
-      19.6,
-      "专业的结果。"
-     ],
-     [
-      19.6,
-      22.2,
-      "停止寻找，开始寻找。"
-     ],
-     [
-      22.4,
-      24.9,
-      "找到系统中的每个文件"
-     ],
-     [
-      24.9,
-      25.6,
-      "立即。"
-     ],
-     [
-      26.0,
-      28.0,
-      "想象你的想象力。"
-     ],
-     [
-      28.0,
-      31.15,
-      "使用单次生成高质量图像"
-     ],
-     [
-      31.15,
-      31.6,
-      "点击。"
-     ],
-     [
-      31.6,
-      34.6,
-      "体验零压力组织。"
-     ],
-     [
-      34.6,
-      37.01,
-      "MindBridge 整理您的数字生活"
-     ],
-     [
-      37.01,
-      38.0,
-      "自动。"
-     ],
-     [
-      38.0,
-      41.0,
-      "使用您的声音更快地完成工作。"
-     ],
-     [
-      41.0,
-      43.09,
-      "免提方式实现全面"
-     ],
-     [
-      43.09,
-      44.0,
-      "生产力。"
-     ],
-     [
-      44.0,
-      46.0,
-      "始终可访问。"
-     ],
-     [
-      46.0,
-      48.96,
-      "您的私人助理看起来很时尚"
-     ],
-     [
-      48.96,
-      51.0,
-      "当你需要的时候就可以覆盖。"
-     ],
-     [
-      51.0,
-      52.8,
-      "您的数据是神圣的。"
-     ],
-     [
-      52.8,
-      54.87,
-      "您的隐私受到保护"
-     ],
-     [
-      54.87,
-      56.8,
-      "业界领先的加密。"
-     ],
-     [
-      56.8,
-      59.43,
-      "我们的愿景是加快您的工作流程"
-     ],
-     [
-      59.43,
-      62.0,
-      "安全地跨您拥有的每台设备。"
-     ],
-     [
-      62.0,
-      64.0,
-      "在 Kickstarter 上支持我们。"
-     ],
-     [
-      64.0,
-      66.43,
-      "让我们共同打造生产力的未来"
-     ],
-     [
-      66.43,
-      67.0,
-      "在一起。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://www.kickstarter.com/favicon.ico"
-     },
-     {
-      "t": "p",
-      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
-      "z": "该网站使用安全服务来防范恶意机器人。当网站验证您不是机器人时会显示此页面。"
      }
     ]
    }
