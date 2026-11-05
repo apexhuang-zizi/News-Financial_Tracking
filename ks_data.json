@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T14:37:29+07:00",
+  "generatedAt": "2026-11-05T19:30:34+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 41,
+  "poolSize": 42,
   "projects": [
    {
     "id": 2099488698,
@@ -18,11 +18,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 1518754.0,
-    "usdPledged": "193529.41545576",
+    "pledged": 1617613.0,
+    "usdPledged": "206126.66588772",
     "goalUsd": 1274.26,
-    "percentFunded": 15187.54,
-    "backers": 60,
+    "percentFunded": 16176.130000000001,
+    "backers": 64,
     "deadline": 1795532381,
     "launchedAt": 1792504781,
     "staffPick": true,
@@ -32,19 +32,30 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7111,
+    "score": 0.7133,
     "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
-    "videoMp4": "https://v2.kickstarter.com/1793784715-N%2BW6zy1xe7zzhPbBeptzeImDs7uF%2B2qmSrFULFZ5ZCo%3D/projects/5343527/video-1466952-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1793784715-N%2BW6zy1xe7zzhPbBeptzeImDs7uF%2B2qmSrFULFZ5ZCo%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
+    "videoMp4": "https://v2.kickstarter.com/1793871127-Od07rl8kFJykEIDHbWH%2FDfjKRDoEYP4NBBYclXzLbJo%3D/projects/5343527/video-1466952-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793871127-Od07rl8kFJykEIDHbWH%2FDfjKRDoEYP4NBBYclXzLbJo%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
     "rewards": [
+     {
+      "id": 11488032,
+      "price": 19614.0,
+      "title": "Super Early Bird | Max Version",
+      "desc": "Lucy AI Studio Max Version\\n\\n🔥 Super Early Bird — US$2,499 | Save $1500, 38% Off MSRP $3,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 10,
+      "limit": 500,
+      "remaining": 490,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
      {
       "id": 11493190,
       "price": 29815.0,
       "title": "Super Early Bird | Ultra Version",
       "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 20,
+      "backers": 22,
       "limit": 500,
-      "remaining": 480,
+      "remaining": 478,
       "eta": 1801440000,
       "shipping": "unrestricted"
      },
@@ -57,17 +68,6 @@
       "limit": 500,
       "remaining": 490,
       "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11435574,
-      "price": 31367.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 9,
-      "limit": 500,
-      "remaining": 491,
-      "eta": 1796083200,
       "shipping": "unrestricted"
      }
     ],
@@ -84,17 +84,17 @@
      {
       "t": "p",
       "x": "pledged of $1,274 pledged of $1,274 goal",
-      "z": "承诺的$ 1,274承诺的$ 1,274目标"
+      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
      },
      {
       "t": "p",
       "x": "19 days to go",
-      "z": "天数"
+      "z": "还剩 19 天"
      },
      {
       "t": "p",
       "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-      "z": "一个安静、始终在线的人工智能工作站，适用于Codex、Claude Code、Hermes和精选本地机型。"
+      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
      },
      {
       "t": "img",
@@ -103,27 +103,27 @@
      {
       "t": "p",
       "x": "First created•0 backed",
-      "z": "首次创建• 0支持"
+      "z": "首次创建•0 支持"
      },
      {
       "t": "p",
       "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-      "z": "一个安静、始终在线的人工智能工作站，适用于Codex、Claude Code、Hermes和精选本地机型。"
+      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
      },
      {
       "t": "p",
       "x": "pledged of $1,274 pledged of $1,274 goal",
-      "z": "承诺的$ 1,274承诺的$ 1,274目标"
+      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
      },
      {
       "t": "p",
       "x": "19 days to go",
-      "z": "天数"
+      "z": "还剩 19 天"
      },
      {
       "t": "p",
       "x": "Kickstarter connects creators with backers to fund projects.",
-      "z": "Kickstarter将创作者与支持者联系起来，为项目提供资金。"
+      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
      },
      {
       "t": "p",
@@ -133,87 +133,87 @@
      {
       "t": "p",
       "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
-      "z": "只有在项目在活动截止日期前达到其资金目标时，您才会被收取费用。"
+      "z": "仅当项目在活动截止日期前达到其融资目标时，您才需要付费。"
      },
      {
       "t": "p",
       "x": "*   [**Reviews**](h:Reviews)",
-      "z": "* [* *评价* *] (h:评价)"
+      "z": "* [**评论**](h:评论)"
      },
      {
       "t": "p",
       "x": "*   [**The Reason LUCY Exists**](h:The-Reason-LUCY-Exists)",
-      "z": "* [* *露西存在的原因* *] (h: The-Reason-LUCY-Exists)"
+      "z": "* [**LUCY 存在的原因**](h:LUCY 存在的原因)"
      },
      {
       "t": "p",
       "x": "*   [**A Workspace that Stays Ready**](h:A-Workspace-that-Stays-Ready)",
-      "z": "* [* *随时待命的工作空间* *] (h: A-Workspace-that-Stays-Ready)"
+      "z": "* [**保持就绪的工作空间**](h:保持就绪的工作空间)"
      },
      {
       "t": "p",
       "x": "*   [**From Request to Result**](h:From-Request-to-Result)",
-      "z": "* [* *从请求到结果* *] (h: From-Request-to-Result)"
+      "z": "* [**从请求到结果**](h:从请求到结果)"
      },
      {
       "t": "p",
       "x": "*   [**Why a Dedicated Computer**](h:Why-a-Dedicated-Computer)",
-      "z": "* [* *为什么选择专用计算机* *] (h: Why-a-Dedicated-Computer)"
+      "z": "* [**为什么选择专用计算机**](h:为什么选择专用计算机)"
      },
      {
       "t": "p",
       "x": "*   [**Real Work. Status Snapshot**](h:Real-Work-Status-Snapshot)",
-      "z": "* [* *实际工作状态快照* *] (h: Real-Work-Status-Snapshot)"
+      "z": "* [**实际工作。状态快照**](h:实际工作状态快照)"
      },
      {
       "t": "p",
       "x": "*   [**Remote Workflows**](h:Remote-Workflows)",
-      "z": "* [* *远程工作流程* *] (h: Remote-Workflows)"
+      "z": "* [**远程工作流程**](h:远程工作流程)"
      },
      {
       "t": "p",
       "x": "*   [**Open by Design**](h:Open-by-Design)",
-      "z": "* [* *按设计开放* *] （ h ：按设计开放）"
+      "z": "* [**按设计开放**](h：按设计开放)"
      },
      {
       "t": "p",
       "x": "*   [**Private Storage**](h:Private-Storage)",
-      "z": "* [* *私人存储* *] (h: Private-Storage)"
+      "z": "* [**私有存储**](h:私有存储)"
      },
      {
       "t": "p",
       "x": "*   [**Local Video Generation**](h:Local-Video-Generation)",
-      "z": "* [* *本地视频生成* *] （ h ：本地视频生成）"
+      "z": "* [**本地视频生成**](h:本地视频生成)"
      },
      {
       "t": "p",
       "x": "*   [**More Than An AI Workstation**](h:More-Than-An-AI-Workstation)",
-      "z": "* [* *不仅仅是人工智能工作站* *] (h: More-Than-An-AI-Workstation)"
+      "z": "* [**不仅仅是人工智能工作站**](h:不仅仅是人工智能工作站)"
      },
      {
       "t": "p",
       "x": "*   [**Designed to Stay On**](h:Designed-to-Stay-On)",
-      "z": "* [* * Designed to Stay On * *] (h: Designed-to-Stay-On)"
+      "z": "* [**设计为保持运行**](h：设计为保持运行)"
      },
      {
       "t": "p",
       "x": "*   [**Choose Your LUCY**](h:Choose-Your-LUCY)",
-      "z": "* [* *选择你的露西* *] (h: Choose-Your-LUCY)"
+      "z": "* [**选择你的 LUCY**](h:选择你的 LUCY)"
      },
      {
       "t": "p",
       "x": "*   [**HOW TO USE**](h:HOW-TO-USE)",
-      "z": "* [* *如何使用* *] (h: HOW-TO-USE)"
+      "z": "* [**如何使用**](h:如何使用)"
      },
      {
       "t": "p",
       "x": "*   [**REWARDS**](h:REWARDS)",
-      "z": "* [* *奖励* *] (h:奖励)"
+      "z": "* [**奖励**](h:奖励)"
      },
      {
       "t": "p",
       "x": "*   [**Timeline**](h:Timeline)",
-      "z": "* [* *时间轴* *] (h: Timeline)"
+      "z": "* [**时间线**](h:时间线)"
      },
      {
       "t": "img",
@@ -277,11 +277,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 250000.0,
-    "pledged": 116370.0,
-    "usdPledged": "116370.0",
+    "pledged": 118630.0,
+    "usdPledged": "118630.0",
     "goalUsd": 250000.0,
-    "percentFunded": 46.548,
-    "backers": 289,
+    "percentFunded": 47.452,
+    "backers": 294,
     "deadline": 1796407222,
     "launchedAt": 1793815222,
     "staffPick": false,
@@ -292,17 +292,775 @@
     "kwHits": [
      "smart"
     ],
-    "score": 0.6504,
+    "score": 0.651,
     "coverRemote": "https://i.kickstarter.com/assets/055/716/648/d05c9a90b4f33c3c956f78137ca2e444_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793348707&width=1024&sig=VAoa1g0S3yLVGOL8c4N4p8Pp2tL%2BVJjMAqAHcxdLp10%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
+    "videoMp4": "https://v2.kickstarter.com/1793818062-zuk2ZeT0nKaQD%2Fxd7ixqyujllLR%2BeTaj8ZbchKOdnKc%3D/projects/5322769/video-1474277-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793818062-zuk2ZeT0nKaQD%2Fxd7ixqyujllLR%2BeTaj8ZbchKOdnKc%3D/projects/5322769/video-1474277-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11499130,
+      "price": 399.0,
+      "title": "Super Early Bird",
+      "desc": "One enough phone from the first production batch, with a glass screen protector pre-installed. Also includes a protective case, USB-C charging cable, USB-C to 3.5mm headphone adapter, hex screwdriver and green Founders' Edition backplate screws. Retail price after the campaign: $599.",
+      "backers": 250,
+      "limit": 250,
+      "remaining": 0,
+      "eta": 1809129600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11499136,
+      "price": 449.0,
+      "title": "Early Bird",
+      "desc": "One enough phone with a glass screen protector pre-installed. Also includes a protective case, USB-C charging cable, USB-C to 3.5mm headphone adapter, hex screwdriver and green Founders' Edition backplate screws. Retail price after the campaign: $599.",
+      "backers": 38,
+      "limit": 500,
+      "remaining": 462,
+      "eta": 1809129600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11499141,
+      "price": 499.0,
+      "title": "Kickstarter Special",
+      "desc": "One enough phone with a glass screen protector pre-installed. Also includes a protective case, USB-C charging cable, USB-C to 3.5mm headphone adapter, hex screwdriver and green Founders' Edition backplate screws. Retail price after the campaign: $599.",
+      "backers": 1,
+      "limit": null,
+      "remaining": null,
+      "eta": 1809129600,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 5,
+    "tiersDate": "2026-11-05",
     "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
+    "cues": [
+     [
+      0.82,
+      2.69,
+      "对不起，先生。您对此有何看法"
+     ],
+     [
+      2.69,
+      4.42,
+      "当今智能手机行业的状况如何？"
+     ],
+     [
+      5.14,
+      7.14,
+      "这还不够挖掘。"
+     ],
+     [
+      7.14,
+      8.42,
+      "这还不够挖掘。"
+     ],
+     [
+      8.42,
+      10.01,
+      "您认为尺寸如何"
+     ],
+     [
+      10.01,
+      11.06,
+      "现在有智能手机吗？"
+     ],
+     [
+      11.06,
+      12.58,
+      "我们那里有卷轴。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "p",
+      "x": "*   [**Phones have only gotten bigger... until now!**](h:Phones-have-only-gotten-bigger-until-now-)",
+      "z": "* [**手机只会变得更大......直到现在！**](h:手机直到现在才变得更大-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**See the prototype**](h:See-the-prototype)",
+      "z": "* [**查看原型**](h:查看原型)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Did our pockets shrink or did our phones get bigger?**](h:Did-our-pockets-shrink-or-did-our-phones-get-bigger-)",
+      "z": "* [**我们的口袋缩小了还是我们的手机变大了？**](h:我们的口袋缩小了还是我们的手机变大了-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**\"Smart\" optional**](h:-Smart-optional)",
+      "z": "* [**“智能”可选**](h:-智能-可选)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Built to last**](h:Built-to-last)",
+      "z": "* [**经久耐用**](h:经久耐用)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Small, not skinny**](h:Small-not-skinny)",
+      "z": "* [**小，不瘦**](h:小，不瘦)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Music to your ears**](h:Music-to-your-ears)",
+      "z": "* [**音乐传到你的耳朵**](h:音乐传到你的耳朵)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Why \"enough\"?**](h:Why-enough-)",
+      "z": "* [**为什么“足够”？**](h:为什么-足够-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Pricing**](h:Pricing)",
+      "z": "* [**定价**](h:定价)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Where your money goes**](h:Where-your-money-goes)",
+      "z": "* [**你的钱去了哪里**](h:你的钱去了哪里)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Our factory**](h:Our-factory)",
+      "z": "* [**我们的工厂**](h:我们的工厂)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Roadmap - Where we are now**](h:Roadmap-Where-we-are-now)",
+      "z": "* [**路线图 - 我们现在在哪里**](h:路线图-我们现在在哪里)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Who we are**](h:Who-we-are)",
+      "z": "* [**我们是谁**](h:我们是谁)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**It only gets built together**](h:It-only-gets-built-together)",
+      "z": "* [**它只能一起构建**](h:It-only-gets-built-together)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/theenoughphone/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/theenoughphone/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/theenoughphone/use-of-ai)",
+      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/theenoughphone/use-of-ai)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Environmental commitments**](https://www.kickstarter.com/projects/theenoughphone/environmental-commitments)",
+      "z": "* [**环境承诺**](https://www.kickstarter.com/projects/theenoughphone/environmental-commitments)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/767/503/a352403363e736c0a1b5e410b3413acf_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793743784&width=680&sig=E9BP7fTcSftUE%2FsJcyqPEwhFw0DsABydAzqPwWj0Nvk%3D"
+     },
+     {
+      "t": "p",
+      "x": "enough phone dummy prototype in-hand",
+      "z": "手中有足够的手机虚拟原型"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/716/233/b5f354c0e0735a52919570b50423f439_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793346441&width=680&sig=yD58x8DIJVmtMU1%2FmoEkcGSuuUFL2WJQJaf5Wb%2Bh6mA%3D"
+     },
+     {
+      "t": "p",
+      "x": "From left to right: Google Pixel 9, iPhone 6, enough phone, iPhone 12 Mini",
+      "z": "从左到右：Google Pixel 9、iPhone 6、足够的手机、iPhone 12 Mini"
+     },
+     {
+      "t": "p",
+      "x": "This video shows our hardware prototype: its size, buttons, ports and screw-down back plate. This prototype is non-working. It shows the real size, shape and feel, and its screen is a static placeholder image.",
+      "z": "该视频展示了我们的硬件原型：其尺寸、按钮、端口和旋紧式背板。该原型无法正常工作。它显示真实的尺寸、形状和感觉，其屏幕是静态占位符图像。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/742/622/ccd3098bf42265aafc3210e59cbda7c7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793602481&width=680&sig=CMfdqN0AOOLsLtM%2BVCXKU%2FJ6NLIlyvaTdgnO5sOI68c%3D"
+     },
+     {
+      "t": "p",
+      "x": "Non-working prototype: back plate, screws and enough logo up close",
+      "z": "非工作原型：背板、螺丝和足够的徽标近距离"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/743/259/479b186346b5079edc75d470f97e796e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793607461&width=680&sig=1Hc0rQ9Ytvz8e1KPPn%2Bkz7cUWGgni9F5iXZYyo7H6io%3D"
+     },
+     {
+      "t": "p",
+      "x": "Non-working prototype: sim tray",
+      "z": "非工作原型：SIM 卡托盘"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/743/260/bf48319e23d8df2eeb330d226bb05db7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793607466&width=680&sig=D6KUr0Bi06eGerq6fiAiB9kjvf6YfyPDcsjFg67xaQU%3D"
+     },
+     {
+      "t": "p",
+      "x": "Non-working prototype: USB-C port and speaker grilles",
+      "z": "非工作原型：USB-C 端口和扬声器格栅"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/743/261/45ed303a4da1deb5b5e5645cd5f59cac_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793607471&width=680&sig=jeSm9eKvs2RZtxcvSS2pzXi9pKt1aUje9Y4SFRVlM3o%3D"
+     },
+     {
+      "t": "p",
+      "x": "Non-working prototype: front. The screen is a static placeholder image, not a working display.",
+      "z": "非工作原型：正面。屏幕是静态占位符图像，而不是工作显示。"
+     },
+     {
+      "t": "p",
+      "x": "You shouldn't have to make fashion decisions just to accommodate your phone.",
+      "z": "您不必仅仅为了适应您的手机而做出时尚决定。"
+     },
+     {
+      "t": "p",
+      "x": "We designed the enough phone to fit easily into the smallest of pockets (except for that tiny pocket in jeans... still not sure what that's for).",
+      "z": "我们设计了足够多的手机，可以轻松放入最小的口袋中（除了牛仔裤上的那个小口袋......仍然不确定它的用途）。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/716/236/7d96c346608bdcb9fab1076d3a1d4992_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793346473&width=680&sig=FkNH8AgAnx%2FWl7eWaPmdR0c6pEwZBU%2Bwptwf6ne%2Bkgw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/772/785/04c31b90c21ac09d8b09ba526d124331_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793783650&width=680&sig=rNJNNcx7oUU41YxMS9QdXLjaxoxOjFD91X%2B4TRYOhb4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/716/634/afec9788b8b78e0496f0ce0daf7fb266_original.png?fit=scale-down&origin=ugc&q=100&v=1793348638&width=680&sig=nmUCMRhrTwrnUo7zdps8meVUjw5MwvaB%2BJfi4yRRU%2BI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/716/246/28a198e0fa98e7c5cce9334415f58a0f_original.gif?fit=scale-down&origin=ugc&q=92&v=1793346557&width=680&sig=nQ3Wsc3cR8Wha7ill6WYhiV0oTmpjWq1k8USImw3pms%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/716/635/01905ebe4f3387850ab673b72da144df_original.png?fit=scale-down&origin=ugc&q=100&v=1793348642&width=680&sig=OmflvvIRj%2FPDkKO8kOn1Yhg%2F3ovE0UGm9dCXzA7iguE%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/743/596/e83955f337fea457c8f2e6f9d9098dd0_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793609566&width=680&sig=wCe%2FLnin4iYQ1CQYKx0N9nmLGuHVi9Gfld1xVCyVxl8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/716/636/3a8f33151ed992f61afe681b33dbdb6d_original.png?fit=scale-down&origin=ugc&q=100&v=1793348646&width=680&sig=Hnit0xZhO6ssWAxh9lnBKefOsV%2BqH4UpdxsTlQGIg4E%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/669/058/90ae58ee1c18560d4e4ac39742e94ceb_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793063382&width=680&sig=OYveRAceg0XckxhxHs31bc3A9xmRxPP5PJCKUJnFxU0%3D"
+     }
+    ]
+   },
+   {
+    "id": 1051597763,
+    "name": "EEW Maker Kit: The Community-Built Electric Spinning Wheel",
+    "blurb": "3D print the open-source parts in your favorite colors, add this hardware kit, and build a custom eSpinner for making beautiful yarn.",
+    "url": "https://www.kickstarter.com/projects/dreamingrobots/eew-maker-kit",
+    "category": "3D Printing",
+    "creator": "Maurice Ribble",
+    "location": "Lancaster, MA",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 20000.0,
+    "pledged": 59524.0,
+    "usdPledged": "59524.0",
+    "goalUsd": 20000.0,
+    "percentFunded": 297.62,
+    "backers": 489,
+    "deadline": 1796252400,
+    "launchedAt": 1793627965,
+    "staffPick": false,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "3d print"
+    ],
+    "score": 0.6084,
+    "coverRemote": "https://i.kickstarter.com/assets/055/480/876/2d4ac5eaf0b35556f0d458283c5bd8a1_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791819013&width=1024&sig=DWdBFnmRpUj3NA%2FQEdvy24RC7Yyoqmg%2FZdeGmXbUxUo%3D",
+    "videoMp4": "https://v2.kickstarter.com/1793806082-RO5y0ZsDk5%2FlCbNy1qesRhF%2FG5H84ByXrn%2BumO0ndpE%3D/projects/5392174/video-1467513-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793806082-RO5y0ZsDk5%2FlCbNy1qesRhF%2FG5H84ByXrn%2BumO0ndpE%3D/projects/5392174/video-1467513-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 0,
+      "price": 1.0,
+      "title": "No Reward",
+      "desc": "No Reward",
+      "backers": null,
+      "limit": null,
+      "remaining": null,
+      "eta": null,
+      "shipping": null
+     },
+     {
+      "id": 11432845,
+      "price": 99.0,
+      "title": "EEW Maker Kit",
+      "desc": "Get the complete EEW Maker Kit hardware package. You provide the 3D-printed plastic parts (print your own with the free open-source files, or order them from my Authorized Printer Network), and I supply the motor, stainless steel spindle, circuit board, ceramic guides, and all assembly hardware.",
+      "backers": 442,
+      "limit": null,
+      "remaining": null,
+      "eta": 1817078400,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11432849,
+      "price": 139.0,
+      "title": "Early Access -  EEW Maker Kit",
+      "desc": "Want to start building as soon as possible and help pioneer the release? This tier reserves a kit from a small, expedited batch flown via air freight instead of traveling by sea.\\n\\nYou receive your hardware roughly two months ahead of standard fulfillment. Along with testing print designs and mods early, you'll be among the first to build from the assembly guide, helping test and refine the documentation before the main batch arrives. It is the exact same hardware kit, just delivered early.",
+      "backers": 40,
+      "limit": 40,
+      "remaining": 0,
+      "eta": 1811808000,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 4,
+    "tiersDate": "2026-11-05",
+    "tiersCarried": "",
+    "cues": [
+     [
+      3.41,
+      5.76,
+      "它像高端纺车一样旋转"
+     ],
+     [
+      5.76,
+      6.85,
+      "因为它是一个。"
+     ],
+     [
+      6.85,
+      8.11,
+      "区别？"
+     ],
+     [
+      8.11,
+      9.75,
+      "你自己构建它。"
+     ],
+     [
+      9.75,
+      12.04,
+      "作为工匠，我们知道随之而来的自豪感"
+     ],
+     [
+      12.04,
+      14.21,
+      "自己亲手制作东西。"
+     ],
+     [
+      14.21,
+      16.92,
+      "电动电子威尔制造套件带来了"
+     ],
+     [
+      16.92,
+      18.95,
+      "工具本身具有同样的魔力。"
+     ],
+     [
+      18.95,
+      22.14,
+      "我供应电机、电子产品、钢铁"
+     ],
+     [
+      22.14,
+      24.75,
+      "主轴和装配硬件。"
+     ],
+     [
+      24.75,
+      27.51,
+      "您可以通过 3D 打印来提供身体"
+     ],
+     [
+      27.51,
+      29.69,
+      "部件采用您最喜欢的颜色。"
+     ],
+     [
+      29.69,
+      32.48,
+      "如果你没有 3D 打印机"
+     ],
+     [
+      32.48,
+      34.92,
+      "授权打印机网络有你"
+     ],
+     [
+      34.92,
+      35.49,
+      "覆盖。"
+     ],
+     [
+      35.49,
+      37.09,
+      "将它们放在一起很简单。"
+     ],
+     [
+      37.09,
+      39.57,
+      "我与数十名 Beta 测试人员合作"
+     ],
+     [
+      39.57,
+      42.17,
+      "确保构建过程可访问"
+     ],
+     [
+      42.17,
+      42.93,
+      "给大家。"
+     ],
+     [
+      42.93,
+      46.39,
+      "没有焊接，没有接线图，"
+     ],
+     [
+      46.39,
+      47.57,
+      "并且没有编码。"
+     ],
+     [
+      47.57,
+      50.39,
+      "每个组件只需插入、卡扣或"
+     ],
+     [
+      50.39,
+      51.69,
+      "拧入到位。"
+     ],
+     [
+      51.69,
+      54.87,
+      "你自己造的轮子只有在以下情况下才有意义"
+     ],
+     [
+      54.87,
+      55.93,
+      "它旋转得很好。"
+     ],
+     [
+      55.93,
+      58.78,
+      "该套件配备了我最先进的电机"
+     ],
+     [
+      58.78,
+      59.85,
+      "控制器还没有。"
+     ],
+     [
+      59.85,
+      62.48,
+      "它主动监控电机以保持"
+     ],
+     [
+      62.48,
+      65.24,
+      "速度稳定，无论旋转是否良好"
+     ],
+     [
+      65.24,
+      65.57,
+      "蕾丝，"
+     ],
+     [
+      65.57,
+      68.65,
+      "或使用出色的新型陶瓷导轨"
+     ],
+     [
+      68.65,
+      69.97,
+      "在膨松的艺术纱线。"
+     ],
+     [
+      69.97,
+      72.5,
+      "您可以拨入自定义开始和停止"
+     ],
+     [
+      72.5,
+      75.31,
+      "坡道和新的缠结检测功能"
+     ],
+     [
+      75.31,
+      75.93,
+      "立即"
+     ],
+     [
+      75.93,
+      79.21,
+      "如果纱线被钩住，传单就会停止。"
+     ],
+     [
+      79.21,
+      81.6,
+      "由于这些文件是开源的，"
+     ],
+     [
+      81.6,
+      83.05,
+      "轮子与你一起进化。"
+     ],
+     [
+      83.05,
+      86.03,
+      "我提供原始的 CAD 模型，以便您"
+     ],
+     [
+      86.03,
+      87.45,
+      "可以调整任何部分。"
+     ],
+     [
+      87.45,
+      90.08,
+      "想要巨型传单或定制纱线"
+     ],
+     [
+      90.08,
+      90.61,
+      "守门员？"
+     ],
+     [
+      90.61,
+      93.23,
+      "设计、打印并与他人分享"
+     ],
+     [
+      93.23,
+      93.85,
+      "社区。"
+     ],
+     [
+      93.85,
+      95.49,
+      "硬件已经完成。"
+     ],
+     [
+      95.49,
+      97.76,
+      "3D 文件已准备好，您的承诺"
+     ],
+     [
+      97.76,
+      100.08,
+      "为初始生产运行提供资金以保持"
+     ],
+     [
+      100.08,
+      100.37,
+      "成本"
+     ],
+     [
+      100.37,
+      101.77,
+      "慢。"
+     ],
+     [
+      101.77,
+      104.18,
+      "支持这个项目，启动你的打印机，"
+     ],
+     [
+      104.18,
+      105.09,
+      "让我们旋转吧。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "p",
+      "x": "The EEW Maker Kit spins like a high-end spinning wheel because it is one. But this one, you build yourself. As crafters, I know you understand the special pride that comes from making things with your own hands, and this kit brings that same magic to the tool itself.",
+      "z": "EEW Maker 套件就像高端纺车一样旋转，因为它本身就是一个。但这是你自己建造的。作为工匠，我知道您了解用自己的双手制作东西所带来的特殊自豪感，而该套件为工具本身带来了同样的魔力。"
+     },
+     {
+      "t": "p",
+      "x": "Pair your own 3D-printed parts with this hardware kit to build an amazing eSpinner. I supply the high-quality core components, including the custom motor, steel spindle, circuit board, hardware, and open-source project files. By printing the chassis in your favorite colors and assembling it yourself, you create a professional-grade fiber tool that is uniquely yours.",
+      "z": "将您自己的 3D 打印零件与此硬件套件配对，构建令人惊叹的 eSpinner。我提供高质量的核心组件，包括定制电机、钢主轴、电路板、硬件和开源项目文件。通过用您最喜欢的颜色打印底盘并自行组装，您可以创建一个独一无二的专业级光纤工具。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/388/133/ec5840afa291095e4d919387666f8cf1_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791204108&width=680&sig=k9p7cYETvHuLcIoohTHMifkWo1L2NjAO5a283EbsnnI%3D"
+     },
+     {
+      "t": "p",
+      "x": "More than just building a tool, backing this project means joining the journey. While the hardware foundation is solid, running this campaign gives us the chance to build a community together, share modifications, and watch the ecosystem grow. Whether you want to design new accessories, suggest refinements, or follow along as the story of this wheel develops, your input helps make the final product better for everyone.",
+      "z": "支持这个项目不仅仅是构建一个工具，还意味着加入这个旅程。虽然硬件基础很坚实，但运行此活动使我们有机会共同构建社区、共享修改并观察生态系统的发展。无论您是想设计新配件、提出改进建议，还是跟随车轮故事的发展，您的意见都有助于使最终产品更好地适合每个人。"
+     },
+     {
+      "t": "p",
+      "x": "If you don't have a 3D printer, I have you covered. I am setting up an Authorized Printer Network to connect you with a small group of trusted makers in the community who can print the parts for you.",
+      "z": "如果您没有 3D 打印机，我可以为您提供帮助。我正在建立一个授权打印机网络，以便将您与社区中一小群值得信赖的制造商联系起来，他们可以为您打印零件。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/332/935/88402f53f63b6512afbdab28f3d6aa1b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1790790779&width=680&sig=TiDs7wfB4DvfipYHT99O9Bo4yvApyQsgUYX6KLjlg%2F4%3D"
+     },
+     {
+      "t": "p",
+      "x": "Photo by Craftmehappy",
+      "z": "摄影：Craftmehappy"
+     },
+     {
+      "t": "p",
+      "x": "Every hardware kit comes packed with all the non-printable components required to bring your eSpinner to life.",
+      "z": "每个硬件套件都包含使您的 eSpinner 栩栩如生所需的所有不可打印组件。"
+     },
+     {
+      "t": "p",
+      "x": "*   Electronics: A fully assembled main circuit board, brushless motor, display, speed controller, toggle switches, foot switch, and all necessary wiring harnesses.",
+      "z": "* 电子设备：完全组装的主电路板、无刷电机、显示器、速度控制器、拨动开关、脚踏开关和所有必要的线束。"
+     },
+     {
+      "t": "p",
+      "x": "*   Mechanics: A precision-machined stainless steel spindle, front and back spindle bearings, and 10 bobbin bearings (enough for 5 bobbins).",
+      "z": "* 机械结构：精密加工的不锈钢​​主轴、前后主轴轴承和10个线轴轴承（足够5个线轴）。"
+     },
+     {
+      "t": "p",
+      "x": "*   Hardware & Fasteners: Ceramic yarn guides, drive belts, tension string, springs, rubber feet, O-rings, and every screw needed to assemble your 3D-printed eSpinner.![Image 3: Main Circuit Board [B0] Motor [B1] Motor Wire [B1] Foot Switch [B2] Stainless Steel Spindle [B3] Anti-static Wire [B4] Display [B4] Display Wire [B4] (2x) Toggle Switch [B4] Speed Controller [B4] Speed Dial  [B4] Tension String [B5] Drive Belt [B5] (3x) Front Bearing O-Ring [B5] (2x) Back Bearing O-Ring [B5] Small Ceramic Ring [B5] (4x) Large Ceramic Ring [B5] (4x) Rubber Feet [B5] Tension Spring [B6] Tension Dial Spring [B6] (2x) Motor Screw [B6] (2x) PCB Screw [B6] Tension Screw [B6] (11x) Flat Head Screw [B6] Front Spindle Bearing [B7] Back Spindle Bearing [B7] (10x) Bobbin Bearing [B7] Spinner Card [B7]](https://i.kickstarter.com/assets/055/319/775/95c65f7a8be17c2f5e726526819c98ce_original.png?fit=scale-down&origin=ugc&q=92&v=1790717852&width=756&sig=8FHq00bXI4e4kIbCWBqKERUB6O1G6iewmxFaNFj2RQE%3D)",
+      "z": "* 硬件和紧固件：陶瓷导纱器、传动带、张力绳、弹簧、橡胶脚、O 形圈以及组装 3D 打印 eSpinner 所需的每个螺钉。！[图 3：主电路板 [B0] 电机 [B1] 电机线 [B1] 脚踏开关 [B2] 不锈钢主轴 [B3] 防静电线 [B4] 显示屏 [B4] 显示线 [B4] (2x) 拨动开关[B4] 速度控制器 [B4] 速度旋钮 [B4] 张力线 [B5] 传动带 [B5] (3x) 前轴承 O 形圈 [B5] (2x) 后轴承 O 形圈 [B5] 小陶瓷环 [B5] (4x) 大陶瓷环 [B5] (4x) 橡胶脚 [B5] 张力弹簧 [B6] 张力拨盘弹簧 [B6] (2x) 电机螺钉 [B6] (2x) PCB 螺钉 [B6] 张力螺钉 [B6] (11x) 平头螺钉 [B6] 前主轴轴承 [B7] 后主轴轴承 [B7] (10x) 梭芯轴承 [B7] 转轮卡[B7]](https://i.kickstarter.com/assets/055/319/775/95c65f7a8be17c2f5e726526819c98ce_original.png?fit=缩小&原点=ugc&q=92&v=1790717852&宽度=756&sig=8FHq00bXI4e4kIbCWBqKERUB6O1G6iewmxFaNFj2RQE%3D)"
+     },
+     {
+      "t": "p",
+      "x": "A custom-built wheel is only great if it actually performs. This kit features my most advanced eSpinner controller yet, a big step above even the EEW Fold. It actively monitors your motor, keeping your speed smooth whether you are spinning fine lace or bulky art yarn. In fact, art yarn now spins better than on any of my previous eSpinners thanks to the new ceramic guides and a completely redesigned flyer.",
+      "z": "定制的车轮只有真正发挥作用才算出色。该套件配备了我迄今为止最先进的 eSpinner 控制器，甚至比 EEW Fold 还要高出一大步。它会主动监控您的电机，无论您纺的是细花边还是粗纱艺术纱线，都能保持平稳的速度。事实上，由于采用了新的陶瓷导纱器和完全重新设计的传单，艺术纱线现在比我以前的任何 eSpinner 旋转得更好。"
+     },
+     {
+      "t": "p",
+      "x": "I want you to have complete control over how this machine feels so I added more software controls. You can adjust the soft start and soft stop ramps to your exact preference. I also built in a new tangle-detection feature that quickly stops the flyer if your yarn snags or something hits it.",
+      "z": "我希望您能够完全控制这台机器的感觉，因此我添加了更多软件控制。您可以根据自己的喜好调整软启动和软停止斜坡。我还内置了一个新的缠结检测功能，如果您的纱线被钩住或有东西撞到传单，该功能可以快速停止传单。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/334/477/95cb8b37aa03d04ed497bdd38e75422f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1790798363&width=680&sig=5nVGXuMIiHkOxy3hkKaKkFUyL1J%2F5dAc0hdL%2FimUkVk%3D"
+     },
+     {
+      "t": "p",
+      "x": "Photo by Theresa Ehlers",
+      "z": "特里萨·埃勒斯摄"
+     },
+     {
+      "t": "p",
+      "x": "Since the chassis is 3D printed, the final weight and footprint will depend on the design and plastic you choose. Based on my standard open-source files, here is what you can expect:",
+      "z": "由于底盘是 3D 打印的，因此最终的重量和占地面积将取决于您选择的设计和塑料。根据我的标准开源文件，您可以期待以下内容："
+     },
+     {
+      "t": "p",
+      "x": "*   Bobbin Capacity: 8 oz (Bobbins are about the same size as the EEW 6.1)",
+      "z": "* 线轴容量：8 盎司（线轴尺寸与 EEW 6.1 大致相同）"
+     },
+     {
+      "t": "p",
+      "x": "*   Speed Range: 200 to 1600 RPM at the flyer",
+      "z": "* 速度范围：飞行器上 200 至 1600 RPM"
+     },
+     {
+      "t": "p",
+      "x": "*   Assembled Weight: Approximately 3 lbs",
+      "z": "* 组装重量：约 3 磅"
+     },
+     {
+      "t": "p",
+      "x": "*   Dimensions: 4.7\" W x 8.1\" L x 7.7\" H (120mm x 205mm x 195mm)",
+      "z": "* 尺寸：4.7 英寸宽 x 8.1 英寸长 x 7.7 英寸高（120 毫米 x 205 毫米 x 195 毫米）"
+     },
+     {
+      "t": "p",
+      "x": "*   Motor: Custom-wound TEC 3650 brushless motor",
+      "z": "* 电机：定制绕线 TEC 3650 无刷电机"
+     },
+     {
+      "t": "p",
+      "x": "*   Power: 12V 3A power supply (You must supply this - see the next section)",
+      "z": "* 电源：12V 3A 电源（您必须提供此电源 - 请参阅下一节）"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/334/468/096f3e85f6895686c126367f875f9f33_original.jpg?fit=scale-down&origin=ugc&q=92&v=1790798294&width=680&sig=9UUVB729FMLZme0qEz%2BP4YybcvKGPHtS8yKT3ZEIfxo%3D"
+     },
+     {
+      "t": "p",
+      "x": "Photo by Vampy",
+      "z": "吸血鬼的照片"
+     },
+     {
+      "t": "p",
+      "x": "To keep the base kit affordable, a power supply is not included by default. This gives you the freedom to choose the power solution that best fits your spinning setup:",
+      "z": "为了使基础套件价格实惠，默认情况下不包含电源。这使您可以自由选择最适合您的纺纱设置的电源解决方案："
+     },
+     {
+      "t": "p",
+      "x": "Standard Wall Power: You can add a US-style wall adapter to your pledge as an add-on, or simply use your own [standard 12V 3A power supply](https://www.amazon.com/dp/B073WSWT34).",
+      "z": "标准壁式电源：您可以将美式壁式适配器作为附加组件添加到您的承诺中，或者仅使用您自己的[标准 12V 3A 电源](https://www.amazon.com/dp/B073WSWT34)。"
+     },
+     {
+      "t": "p",
+      "x": "12V Battery: For a completely portable setup, the [TalentCell 12V 6000mAh (USB-A) battery](https://www.amazon.com/dp/B00ME3ZH7C) provides over 8 hours of typical spinning. I have already designed a free 3D-printable holder specifically for it. Any 12V battery outputting at least 2A with a 5.5x2.1mm (or 5.5x2.5mm) barrel connector will also work.",
+      "z": "12V 电池：对于完全便携式设置，[TalentCell 12V 6000mAh (USB-A) 电池](https://www.amazon.com/dp/B00ME3ZH7C) 可提供超过 8 小时的典型旋转时间。我已经专门为其设计了一个免费的可 3D 打印支架。任何输出至少 2A 且具有 5.5x2.1mm（或 5.5x2.5mm）筒连接器的 12V 电池也可以使用。"
+     },
+     {
+      "t": "p",
+      "x": "USB-C Power Banks: If you prefer using a more modern power bank, you just need one that supports USB-C with Power Delivery (PD) of 45W or more with a 12V output, like the [INIU Power Bank Mini](https://www.amazon.com/dp/B0DB86W481) (which also has a free 3D-printable holder available). You will need to pair it with a standard [USB-C to 12V 3A PD cable](https://www.amazon.com/dp/B0BJFKND59) to connect it to the wheel.",
+      "z": "USB-C 移动电源：如果您更喜欢使用更现代的移动电源，您只需要一款支持 USB-C、功率输出 (PD) 为 45W 或更高、输出为 12V 的移动电源，例如 [INIU 迷你移动电源](https://www.amazon.com/dp/B0DB86W481)（还提供免费的 3D 打印支架）。您需要将其与标准 [USB-C 转 12V 3A PD 电缆](https://www.amazon.com/dp/B0BJFKND59) 配对才能将其连接到方向盘。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/480/579/72c57bbee973de3ba51fcf3129714287_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791817383&width=680&sig=iE2AgSzJgGTGCcY2uabgA4L8HMLlkew55RU%2FZXZla%2Fo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/480/984/724844b557c0bccd29cda0003664a990_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791819543&width=3674&sig=qM2hEpGjJGnUIFv54V0xRuB49j%2Bura46%2BmWoK9w3a4E%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/574/551/53c398b1120f42a665e9cccd11f9c488_original.jpeg?fit=scale-down&origin=ugc&q=92&v=1792435948&width=680&sig=SrWk%2FF9vk1n2pIyW0LA%2BnzHWK2%2Bigak3Bbcxmi1jdEM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/681/059/87d1304105d9c77aea96fb796aa37212_original.png?fit=scale-down&origin=ugc&q=100&v=1793122534&width=680&sig=soebanZRLxjk2Wq9T6fGb5ffVnWDnhWpaNFZkAg8St0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/333/033/bf9ead34bfa555495fd87301bef90f89_original.jpg?fit=scale-down&origin=ugc&q=92&v=1790791245&width=680&sig=4cTG47r4fz1Ekz2KCXEbij6uwUl3QuZN2UroOLih8tQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/480/959/3db82d286a0f90ba15c43236666d04ab_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791819459&width=680&sig=qUejybC4WgXinp3ugAC59wWBcvvU%2BE%2FXBRx2undpNGo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/480/932/d557b178e76871c15d3a813cca350542_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791819334&width=680&sig=uMD7D2n0b2WRRDbNVXZJMDyMtyYh%2BTsDu%2FZRCCfHFmk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/480/907/a40e3e4dfbe1e8f3fcc3d7b6e2ca1471_original.png?fit=scale-down&origin=ugc&q=100&v=1791819182&width=680&sig=Rs2NCsTNmWzfEXYJxNG8UWGL5LpieJMK94a341M24hc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/332/921/55f7ba02f01559c9839cd183a5193c85_original.jpg?fit=scale-down&origin=ugc&q=92&v=1790790711&width=680&sig=s9WFXQNLW3BOdWJ%2BJBYDS4CEOvd5w5NXWBlQIJT75dY%3D"
+     }
+    ]
    },
    {
     "id": 1256938972,
@@ -316,10 +1074,10 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 5000.0,
-    "pledged": 547587.0,
-    "usdPledged": "547587.0",
+    "pledged": 547563.0,
+    "usdPledged": "547563.0",
     "goalUsd": 5000.0,
-    "percentFunded": 10951.74,
+    "percentFunded": 10951.26,
     "backers": 3046,
     "deadline": 1793980994,
     "launchedAt": 1788793394,
@@ -333,8 +1091,8 @@
     ],
     "score": 0.6035,
     "coverRemote": "https://i.kickstarter.com/assets/055/028/205/a7d8a80c5d44d3891cfc5695358d01d6_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788770799&width=1024&sig=fI5BTeubMjGZljGtr%2Bpdk0NhQeDQiaCEKrRVP0uvny8%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1793811749-anmfez%2BDllmNsB9VfCM58l%2FauCeizfU3%2FB%2Fn0y66X4s%3D/projects/5361281/video-1458010-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793811749-anmfez%2BDllmNsB9VfCM58l%2FauCeizfU3%2FB%2Fn0y66X4s%3D/projects/5361281/video-1458010-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11312715,
@@ -363,16 +1121,16 @@
       "price": 159.0,
       "title": "Standard Double: Limited Quantity Deal",
       "desc": "[ONLY 200 LIMITED]\\nComes with 2x 30A batteries. Use one while the other charges. Never stop. Never wait. Save up to $20 per battery vs. buying separately. \\n\\n▷ Save $120(Retail Price = $279)\\n▷ 43% Off exclusively during the Kickstarter project.",
-      "backers": 250,
+      "backers": 249,
       "limit": 250,
-      "remaining": 0,
+      "remaining": 1,
       "eta": 1798761600,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 39,
-    "tiersDate": "2026-11-04",
-    "tiersCarried": "2026-11-04",
+    "tiersDate": "2026-11-05",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -606,7 +1364,7 @@
      {
       "t": "p",
       "x": "You love comparing CFM, right? Let’s play. Your average, clunky backyard leaf blower kicks out around 230–250 CFM. Now, The GPX. At just 7.8 inches (198mm) long, it generates a comparable 237 CFM. We ditched the bulk but kept the grunt.",
-      "z": "您喜欢比较 CFM，对吧？让我们玩。一般笨重的后院吹叶机的吹叶速度约为 230-250 CFM。现在，GPX。它的长度仅为 7.8 英寸（198 毫米），可产生相当的 237 CFM。我们抛弃了大部分，但保留了咕噜声。"
+      "z": "您喜欢比较 CFM，对吗？让我们玩。一般笨重的后院吹叶机的吹叶速度约为 230-250 CFM。现在，GPX。它的长度仅为 7.8 英寸（198 毫米），可产生相当的 237 CFM。我们抛弃了大部分，但保留了咕噜声。"
      },
      {
       "t": "p",
@@ -722,11 +1480,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 1048223.0,
-    "usdPledged": "1048223.0",
+    "pledged": 1050700.0,
+    "usdPledged": "1050700.0",
     "goalUsd": 20000.0,
-    "percentFunded": 5241.115,
-    "backers": 1017,
+    "percentFunded": 5253.5,
+    "backers": 1020,
     "deadline": 1794067204,
     "launchedAt": 1788879604,
     "staffPick": true,
@@ -736,56 +1494,479 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.5939,
+    "score": 0.594,
     "coverRemote": "https://i.kickstarter.com/assets/055/744/986/c1545a3addf403be863e5c85b10d8680_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793617610&width=1024&sig=wEB5rimE%2FVA4undD2AhdCUyfVTuZmkkk44ypWbdZNy8%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
-    "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
-   },
-   {
-    "id": 455517590,
-    "name": "SpeedMind – Your Brain Has Better Things To Do.",
-    "blurb": "Turn thoughts into action, organise life's chaos and never lose track of what matters. One smart space that thinks with you.",
-    "url": "https://www.kickstarter.com/projects/speedieverse/speedmind-your-brain-has-better-things-to-do",
-    "category": "Apps",
-    "creator": "Speedieverse",
-    "location": "St. Gallen, Switzerland",
-    "country": "Switzerland",
-    "currency": "CHF",
-    "currencySymbol": "Fr ",
-    "goal": 3200.0,
-    "pledged": 5.0,
-    "usdPledged": "6.0683441",
-    "goalUsd": 3883.74,
-    "percentFunded": 0.15625,
-    "backers": 1,
-    "deadline": 1798491600,
-    "launchedAt": 1793712469,
-    "staffPick": false,
-    "sources": [
-     "软件/APP"
+    "videoMp4": "https://v2.kickstarter.com/1793876920-dGU8xZq9HPiiMlvYPkNQyKYSYMr6tlGPFCU3wPDrO4Q%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793876920-dGU8xZq9HPiiMlvYPkNQyKYSYMr6tlGPFCU3wPDrO4Q%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11398822,
+      "price": 35.0,
+      "title": "Charging Dock",
+      "desc": "Please note: This charging dock is NOT a wireless charger and does not have a built-in charging function. It serves as a stand only, featuring a precise cable cutout at the bottom for the charging cable.",
+      "backers": 104,
+      "limit": null,
+      "remaining": null,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11394490,
+      "price": 799.0,
+      "title": "BirdieSense - Super Early Bird",
+      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
+      "backers": 950,
+      "limit": null,
+      "remaining": null,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11394492,
+      "price": 1498.0,
+      "title": "BirdieSense X2 - Super Early Bird",
+      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️50% OFF $2998 MSRP (save $1500)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
+      "backers": 31,
+      "limit": null,
+      "remaining": null,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     }
     ],
-    "kwHits": [
-     "ai",
-     "smart"
-    ],
-    "score": 0.5866,
-    "coverRemote": "https://i.kickstarter.com/assets/055/706/523/08c27fcc8b65ae6b3332049d7a1aff93_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793281494&width=1024&sig=thx7gp7fXQcBr7dep9H%2BT4SXntf1cOKiwF%2F6dQNidL4%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
+    "rewardsTotal": 12,
+    "tiersDate": "2026-11-05",
     "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
+    "cues": [
+     [
+      1.55,
+      3.55,
+      "介绍小鸟意识。"
+     ],
+     [
+      3.55,
+      6.55,
+      "Gulse 第一个人工智能伴侣。"
+     ],
+     [
+      6.55,
+      9.43,
+      "时尚紧凑的设计，方便携带"
+     ],
+     [
+      9.43,
+      11.55,
+      "无论游戏带您到哪里。"
+     ],
+     [
+      11.55,
+      14.58,
+      "提升您的实践以重新定义"
+     ],
+     [
+      14.58,
+      16.55,
+      "你的游戏的边界。"
+     ],
+     [
+      16.55,
+      19.78,
+      "采用双摄像头镜头和我们的"
+     ],
+     [
+      19.78,
+      21.55,
+      "签名人工智能处理器。"
+     ],
+     [
+      21.55,
+      25.55,
+      "将每次挥杆动作转化为可追踪的数据。"
+     ],
+     [
+      25.55,
+      34.94,
+      "仍然向后靠。"
+     ],
+     [
+      34.94,
+      36.94,
+      "让我们继续您的换乘之路吧。"
+     ],
+     [
+      36.94,
+      47.17,
+      "就在那里。"
+     ],
+     [
+      47.17,
+      50.3,
+      "如果你希望我严格并且"
+     ],
+     [
+      50.3,
+      52.96,
+      "严谨，我也能做到。"
+     ],
+     [
+      52.96,
+      55.53,
+      "不仅仅是为了驾驶而打造"
+     ],
+     [
+      55.53,
+      55.96,
+      "范围。"
+     ],
+     [
+      55.96,
+      58.38,
+      "从果岭的微妙断裂到"
+     ],
+     [
+      58.38,
+      59.96,
+      "沙坑线困难。"
+     ],
+     [
+      59.96,
+      62.78,
+      "实时指导帮助您达到目标"
+     ],
+     [
+      62.78,
+      65.6,
+      "充分发挥潜力并掌控你的"
+     ],
+     [
+      65.6,
+      65.96,
+      "游戏。"
+     ],
+     [
+      65.96,
+      68.96,
+      "距旗帜 56 码。"
+     ],
+     [
+      68.96,
+      71.58,
+      "根据您的历史数据，我建议"
+     ],
+     [
+      71.58,
+      72.96,
+      "我们使用50度。"
+     ],
+     [
+      72.96,
+      82.8,
+      "如果我们计划的话。"
+     ],
+     [
+      82.8,
+      84.8,
+      "今天第一只小鸟。"
+     ],
+     [
+      84.8,
+      87.69,
+      "小鸟不仅仅是一位精英数字教练"
+     ],
+     [
+      87.69,
+      90.44,
+      "感觉是你的智能声音"
+     ],
+     [
+      90.44,
+      90.8,
+      "边。"
+     ],
+     [
+      90.8,
+      92.8,
+      "我们今天在做什么？"
+     ],
+     [
+      92.8,
+      94.8,
+      "让我们切换一下。"
+     ],
+     [
+      94.8,
+      96.97,
+      "毕竟不能忘记提高准确性"
+     ],
+     [
+      96.97,
+      97.8,
+      "那速度工作。"
+     ],
+     [
+      97.8,
+      104.24,
+      "您的进步的完整历史记录"
+     ],
+     [
+      104.24,
+      109.58,
+      "触手可及。"
+     ],
+     [
+      109.58,
+      112.39,
+      "击球、手套和身体指标、小鸟"
+     ],
+     [
+      112.39,
+      115.58,
+      "理智知道你的优点和缺点。"
+     ],
+     [
+      115.58,
+      118.27,
+      "游戏化体验让高尔夫变得更有趣"
+     ],
+     [
+      118.27,
+      119.58,
+      "比现在已经是这样了。"
+     ],
+     [
+      119.58,
+      123.27,
+      "通过将您的挥杆视频与球相结合"
+     ],
+     [
+      123.27,
+      125.38,
+      "来自其他设备的数据，"
+     ],
+     [
+      125.38,
+      128.38,
+      "你的练习将会变得更加有效。"
+     ],
+     [
+      128.38,
+      150.64,
+      "无需繁琐的编辑。"
+     ],
+     [
+      150.64,
+      153.44,
+      "我们的系统打造您的个人亮点"
+     ],
+     [
+      153.44,
+      156.17,
+      "卷轴，捕捉您最美好的时刻"
+     ],
+     [
+      156.17,
+      156.64,
+      "课程。"
+     ],
+     [
+      156.64,
+      162.7,
+      "我们是小鸟的感觉。"
+     ],
+     [
+      162.7,
+      165.7,
+      "看看你的进步。达到你的巅峰。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "p",
+      "x": "*   [**BirdieSense, At a glance**](h:BirdieSense-At-a-glance)",
+      "z": "* [**BirdieSense，概览**](h:BirdieSense-概览)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Share & Earn 10% Cash Back**](h:Share-Earn-10-Cash-Back)",
+      "z": "* [**分享并赚取 10% 现金返还**](h:分享-赚取-10-现金返还)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What Golf Experts Say**](h:What-Golf-Experts-Say)",
+      "z": "* [**高尔夫专家怎么说**](h:高尔夫专家怎么说)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Hear from Our Beta Users**](h:Hear-from-Our-Beta-Users)",
+      "z": "* [**听取我们的测试版用户的意见**](h:听取我们的测试版用户的意见)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**BirdieSense Around the World**](h:BirdieSense-Around-the-World)",
+      "z": "* [**BirdieSense 环游世界**](h:BirdieSense-环游世界)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Featured On**](h:Featured-On)",
+      "z": "* [**精选**](h:精选)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Why BirdieSense?**](h:Why-BirdieSense-)",
+      "z": "* [**为什么选择 BirdieSense？**](h:为什么-BirdieSense-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Capture Every Metric with Precision**](h:Capture-Every-Metric-with-Precision)",
+      "z": "* [**精确捕获每个指标**](h:精确捕获每个指标)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**3D Motion Tracking**](h:3D-Motion-Tracking)",
+      "z": "* [**3D 运动跟踪**](h:3D-运动跟踪)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Your AI Companion, Like a Pro Coach**](h:Your-AI-Companion-Like-a-Pro-Coach)",
+      "z": "* [**您的人工智能伴侣，就像专业教练一样**](h:Your-AI-Companion-Like-a-Pro-Coach)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Practice Anywhere. Play Everywhere.**](h:Practice-Anywhere-Play-Everywhere-)",
+      "z": "* [**随时随地练习。随处玩耍。**](h:练习-随处-玩耍-随处-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Look Closer. See Further.**](h:Look-Closer-See-Further-)",
+      "z": "* [**仔细观察。看得更远。**](h:仔细观察-看得更远-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Think Faster. Learn Smarter.**](h:Think-Faster-Learn-Smarter-)",
+      "z": "* [**思考得更快。更聪明地学习。**](h:思考更快-学习更聪明-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Your Companion, Your Style**](h:Your-Companion-Your-Style)",
+      "z": "* [**你的伴侣，你的风格**](h:你的伴侣你的风格)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Designed for Everyone**](h:Designed-for-Everyone)",
+      "z": "* [**为每个人设计**](h:为每个人设计)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Share Your Best Moments**](h:Share-Your-Best-Moments)",
+      "z": "* [**分享您的最佳时刻**](h:分享您的最佳时刻)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Specifications**](h:Specifications)",
+      "z": "* [**规格**](h:规格)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What's in the Box?**](h:What-s-in-the-Box-)",
+      "z": "* [**盒子里有什么？**](h:盒子里有什么-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Rewards**](h:Rewards)",
+      "z": "* [**奖励**](h:奖励)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Add-on**](h:Add-on)",
+      "z": "* [**附加组件**](h:附加组件)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**How to Get Your BirdieSense**](h:How-to-Get-Your-BirdieSense)",
+      "z": "* [**如何获得您的 BirdieSense**](h:如何获得您的 BirdieSense)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [**时间线**](h:时间线)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Shipping & Taxes**](h:Shipping-Taxes)",
+      "z": "* [**运费和税金**](h:运费税)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Production Ready, Delivery Confident**](h:Production-Ready-Delivery-Confident)",
+      "z": "* [**生产就绪，交付有信心**](h：生产就绪-交付-有信心)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**About BirdieSense**](h:About-BirdieSense)",
+      "z": "* [**关于 BirdieSense**](h:关于-BirdieSense)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Connect with BirdieSense**](h:Connect-with-BirdieSense)",
+      "z": "* [**与 BirdieSense 连接**](h:Connect-with-BirdieSense)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/744/295/a9b034a9ae04e2149bc86d1bbfac3f76_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793613929&width=680&sig=lZ5hMcslIe7cIi1HaIKWFvN2sL9PQj9WJqB9cWZshEU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/040/831/8c0cdc30e9e064b1ad0ff7da5bdc8cab_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788855575&width=680&sig=F%2FTfOAR8xacpeZsx%2B0GjEM4JwKlHD6826dd6awQOduo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/042/416/6a1992fe857a0b199dd85b53a394a693_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788864267&width=680&sig=vpsrfuHswczj1yizJneCdJPjRq%2FGEa1ehOh5haC17pQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/988/478/61decf9f73e14efa6f0749cdb903069d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788432298&width=680&sig=7tc9aBOgi%2FXTe6xtFtAUvi61bXX2KwF7uCJzNtLtzcw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/988/484/87de4004eca6f63c240948474538bb9f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788432317&width=680&sig=WEu0dj5bk7H%2Fr8jKKuscQ0uXHtWLdO%2FSmdmN07gDqSI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/326/6b0e151a319a1a21e129761874871d0b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764397&width=680&sig=NpAMXWWPr9nly4ZfVivXpyzqSMF2GrY2UyShOBg8bjg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/338/e033b9fcb5cce33a053278dbf8e4637e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764468&width=680&sig=%2FNKz5rpJCHbeoLtRPJPMEAZWzLzt6%2F7lFfWlzqua180%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/340/7fca2a0516dbe06dd75458058d430aec_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764475&width=680&sig=5NO85dhQxviv0XwBVeWZAdiBG2VQMhv74sGtS1YiEPU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/345/d3d39349f04d15afbaf77888379c9b0d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764498&width=680&sig=TrZMrtmDY9OQqO5JkdvErTePRXlqnf0WSOItdGOZAFo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/192/cd4dd76b64c9444ba76432e1754adb2c_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776965&width=680&sig=imL2Zwd7BECA6kln0TgfIVQpxhUiA0f5DkdRge%2FuzY8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/190/8b564805c72291779ef8e7c456e7d152_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776944&width=680&sig=5xEoYiGDMCiu28K6Quhqeri%2Fq2%2FuYVQwxOvMOaNmkJ4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/191/e48aab5ac8da3b9495d6f1b34ffdcfcf_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776956&width=680&sig=jabHQa1hUSGr6BztLSCvu7eytHFNZZGA2WQVfHYfNoM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/352/bc04b9016e7aad4c0ea07cb866423d30_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764525&width=680&sig=7o2661SdffZtAUblVwQGHhGziW7TJO179S562XXYGIM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/354/e00247e15ea0b76780dfe2e6ff72dcef_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764526&width=680&sig=9ve5HSTv%2BdQ3JDLfngRFRGG3pA1EOVXnglLissGKbUA%3D"
+     }
+    ]
    }
   ]
  },
