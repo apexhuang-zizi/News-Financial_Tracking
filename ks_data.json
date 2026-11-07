@@ -1,11 +1,272 @@
 [
  {
   "date": "2026-11-07",
-  "generatedAt": "2026-11-07T13:46:57+07:00",
+  "generatedAt": "2026-11-07T19:17:36+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 24,
+  "poolSize": 45,
   "projects": [
+   {
+    "id": 1773680302,
+    "name": "Beelink ME Pro: Modular AI NAS With Upgradeable Performance",
+    "blurb": "Drawer-Style Core Module | Up to 86 TOPS | Local AI Deployment | Media Workspace | Quiet 24/7 Cooling | Up to 136TB | 50% Less Space",
+    "url": "https://www.kickstarter.com/projects/1086667996/beelink-me-pro-nas",
+    "category": "Hardware",
+    "creator": "Beelink",
+    "location": "St. Petersburg, FL",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 799774.0,
+    "usdPledged": "799774.0",
+    "goalUsd": 10000.0,
+    "percentFunded": 7997.740000000001,
+    "backers": 1053,
+    "deadline": 1796482808,
+    "launchedAt": 1793890808,
+    "staffPick": false,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai",
+     "nas"
+    ],
+    "score": 0.8397,
+    "coverRemote": "https://i.kickstarter.com/assets/055/809/178/b6e395e7993bd634e707c6e33bc5a35b_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794032504&width=1024&sig=dTROVRx1ofik%2BcXfVHH0%2BF8poz0gOWwNh1MGyT97T2s%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11517351,
+      "price": 469.0,
+      "title": "ME Pro N150 2-Bay",
+      "desc": "【Super Early Bird Offer】\\nYou will get a ME Pro N150 2-Bay version and save 30% off the MSRP. Seize this incredible offer before prices increase!\\n\\n· 3-Year warranty included.\\n· Free shipping to most destinations.\\n· All shown prices are in USD.\\n· Shipping details will be collected after the campaign.",
+      "backers": 235,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11517358,
+      "price": 739.0,
+      "title": "ME Pro 13500H 2-Bay",
+      "desc": "【Super Early Bird Offer】\\nYou will get a ME Pro 13500H 2-Bay version and save 30% off the MSRP. Seize this incredible offer before prices increase!\\n\\n· 3-Year warranty included.\\n· Free shipping to most destinations.\\n· All shown prices are in USD.\\n· Shipping details will be collected after the campaign.",
+      "backers": 183,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11517367,
+      "price": 1279.0,
+      "title": "ME Pro AI 470 2-Bay",
+      "desc": "【Super Early Bird Offer】\\nYou will get a ME Pro AI 470 2-Bay version and save 30% off the MSRP. Seize this incredible offer before prices increase!\\n\\n· 3-Year warranty included.\\n· Free shipping to most destinations.\\n· All shown prices are in USD.\\n· Shipping details will be collected after the campaign.",
+      "backers": 159,
+      "limit": null,
+      "remaining": null,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 29,
+    "tiersDate": "2026-11-07",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": [
+     {
+      "t": "p",
+      "x": "*   [**Find Your Perfect Match**](h:Find-Your-Perfect-Match)",
+      "z": "* [**找到您的完美匹配**](h:找到您的完美匹配)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Key Specs at Glance**](h:Key-Specs-at-Glance)",
+      "z": "* [**主要规格一览**](h:主要规格一览)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What Makes ME Pro Unique**](h:What-Makes-ME-Pro-Unique)",
+      "z": "* [**ME Pro 的独特之处**](h:ME-Pro 的独特之处)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Upgrade, Expand, and Maintain Without Replacing the Entire NAS**](h:Upgrade-Expand-and-Maintain-Without-Replacing-the-Entire-NAS)",
+      "z": "* [**无需更换整个 NAS 即可升级、扩展和维护**](h:无需更换整个 NAS 即可升级、扩展和维护)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Engineered For Quiet, Reliable 24/7 Operation**](h:Engineered-For-Quiet-Reliable-24-7-Operation)",
+      "z": "* [**专为安静、可靠的 24/7 操作而设计**](h:专为安静、可靠的 24-7-操作而设计)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Compact Design. Massive Storage.**](h:Compact-Design-Massive-Storage-)",
+      "z": "* [**紧凑的设计。海量存储。**](h:紧凑设计-海量存储-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Turn Your NAS Into a Collaborative Media Workspace**](h:Turn-Your-NAS-Into-a-Collaborative-Media-Workspace)",
+      "z": "* [**将您的 NAS 转变为协作媒体工作区**](h:将您的 NAS 转变为协作媒体工作区)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Run AI Models and Agents Locally on NAS**](h:Run-AI-Models-and-Agents-Locally-on-NAS)",
+      "z": "* [**在 NAS 本地运行 AI 模型和代理**](h:Run-AI-Models-and-Agents-Locally-on-NAS)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Your Data. Protected on Multiple Levels.**](h:Your-Data-Protected-on-Multiple-Levels-)",
+      "z": "* [**您的数据。多级别保护。**](h:您的数据多级别保护-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Your NAS. More Possibilities.**](h:Your-NAS-More-Possibilities-)",
+      "z": "* [**您的 NAS。更多可能性。**](h:Your-NAS-More-Possibilities-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Ports & Connectivity**](h:Ports-Connectivity)",
+      "z": "* [**端口和连接**](h:端口-连接)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Tech Specs**](h:Tech-Specs)",
+      "z": "* [**技术规格**](h:技术规格)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Choose Your ME Pro**](h:Choose-Your-ME-Pro)",
+      "z": "* [**选择您的 ME Pro**](h:选择您的 ME Pro)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**See ME Pro In Action & Testing**](h:See-ME-Pro-In-Action-Testing)",
+      "z": "* [**查看 ME Pro 的实际操作和测试**](h:See-ME-Pro-In-Action-Testing)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What's in the Box?**](h:What-s-in-the-Box-)",
+      "z": "* [**盒子里有什么？**](h:盒子里有什么-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Shipping, Taxes & VAT**](h:Shipping-Taxes-VAT)",
+      "z": "* [**运费、税费和增值税**](h:运费-税费-增值税)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**After-Sales Services & Customer Support**](h:After-Sales-Services-Customer-Support)",
+      "z": "* [**售后服务和客户支持**](h:售后服务-客户支持)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**About Beelink**](h:About-Beelink)",
+      "z": "* [**关于 Beelink**](h:关于-Beelink)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Purchase Guideline**](h:Purchase-Guideline)",
+      "z": "* [**购买指南**](h:购买指南)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Note for VIP Deposit Holder**](h:Note-for-VIP-Deposit-Holder)",
+      "z": "* [**VIP 存款持有人须知**](h:VIP 存款持有人须知)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Project Timeline**](h:Project-Timeline)",
+      "z": "* [**项目时间表**](h:项目时间表)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Stay Connected with Us**](h:Stay-Connected-with-Us)",
+      "z": "* [**与我们保持联系**](h:与我们保持联系)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/1086667996/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/1086667996/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/1086667996/use-of-ai)",
+      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/1086667996/use-of-ai)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/758/561/52bec48613af10f95e58575971df6399_original.png?fit=scale-down&origin=ugc&q=100&v=1793697060&width=680&sig=iGgDSbzMpHeRnwP3pOz%2FHjGbxcTm6E7YAIKiJyCl%2Fb0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/761/096/189bb1289c9a9b7a35a105c7a6bcb98a_original.png?fit=scale-down&origin=ugc&q=100&v=1793709452&width=680&sig=hLqH6oq1UMrpfFAdsuExmuYTqq%2Bhw6mboml425aKs6M%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/758/650/f8389d1c470a56079648236d849dd192_original.png?fit=scale-down&origin=ugc&q=100&v=1793697486&width=680&sig=iX9IIKmCi9LP%2Bsekw0m5zEtmoLjdvTxiC5gVaC2flf0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/785/270/5fd8576afedfa0216581c6cc33ac7eca_original.png?fit=scale-down&origin=ugc&q=100&v=1793863120&width=680&sig=rdVlApHA%2F0oa36InFM5D3PFxgyn%2FVIjSK59rCNcJiZI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/789/102/e576eb0313dc1e9ce439790e009fb106_original.png?fit=scale-down&origin=ugc&q=100&v=1793887890&width=680&sig=DLM3j5aA4Wktt6cn3xHztfT23E7RX05JA6Sqx9FGv4Q%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/789/559/07ea8b2c0ceb3c610c65a47055c45f91_original.png?fit=scale-down&origin=ugc&q=100&v=1793890514&width=680&sig=tguuGkavjetSBv2w1RAgPxP6SmJGJc9BW69GQ4TVeqg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/789/888/cfcff8000280aaf5d7a1c1499c439004_original.png?fit=scale-down&origin=ugc&q=100&v=1793892029&width=680&sig=lB3T7nyjpoPfZCrdFHipW9dsiaXMhYdQ5B68ZBfZ2cc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/789/890/f5d10586d622e434d904adde55b39c4b_original.png?fit=scale-down&origin=ugc&q=100&v=1793892029&width=680&sig=Hu7os1ylpWfGiSpvLSZ5V8gEywPZ8EheDD13SRbiMNY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/789/891/49707ff5597204e99acdd06e04bbd25a_original.png?fit=scale-down&origin=ugc&q=100&v=1793892030&width=680&sig=AQkQ1xNrE%2FMtxkaHHQs1swPXfrrHQd1zgYOMh2J64mA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/789/561/8ce0d2e73d548f3b6ead767c0bf92240_original.png?fit=scale-down&origin=ugc&q=100&v=1793890524&width=680&sig=QTtT6LF1zgeo3qy8bIdW4s4A2wN5iPCStCs1QV0WeDk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/759/531/4c02a8527c55511f61d64a0aa88623ac_original.png?fit=scale-down&origin=ugc&q=100&v=1793701091&width=680&sig=kembXFJcDL5Da80MirSOUlBIHgnsQjgQh9mZnrAZpFo%3D"
+     },
+     {
+      "t": "p",
+      "x": "A NAS is a long-term home for your data. But your needs won’t stand still. Photo libraries grow. Creative projects get larger. New apps demand more performance.",
+      "z": "NAS 是您数据的长期存放地。但您的需求不会停滞不前。照片库不断增长。创意项目变得越来越大。新的应用程序需要更高的性能。"
+     },
+     {
+      "t": "p",
+      "x": "Meet Beelink ME Pro — a modular AI NAS built for changing needs. Its drawer-style compute module brings greater flexibility to upgrades and maintenance, while intelligent data management, professional media tools, and local AI on select models help you do more with your data. Built for your data today. Designed to evolve with you.",
+      "z": "Beelink ME Pro — 一款专为不断变化的需求而打造的模块化 AI NAS。其抽屉式计算模块为升级和维护带来了更大的灵活性，而智能数据管理、专业媒体工具和特定型号上的本地人工智能可帮助您更好地处理数据。专为您今天的数据而打造。旨在与您一起发展。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/761/114/601bd589cd5375a5a29365525e48295d_original.png?fit=scale-down&origin=ugc&q=100&v=1793709510&width=680&sig=9pSwYRMn7JZVO9VBFXqvHqeGN9Xz%2BWNduPZMbkF15oU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/758/681/03ec2a7d6236f0c23a1b39508949ffb5_original.png?fit=scale-down&origin=ugc&q=100&v=1793697620&width=680&sig=AJCoVz2u2EqPphpxtsrrkzH8wFjxi03kRnApxGJsdL8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/759/538/c3bed587356fc3dae5fe81ea2d3bdbb9_original.png?fit=scale-down&origin=ugc&q=100&v=1793701111&width=680&sig=%2BwdQyq1RkJh9EGoBPOp5RT9eJ44PyWzOQb%2BkMjkDOGg%3D"
+     }
+    ]
+   },
    {
     "id": 1668593440,
     "name": "Flic Cue: The AI Voice Button that keeps your phone away",
@@ -18,11 +279,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 116967.0,
-    "usdPledged": "116967.0",
+    "pledged": 121189.0,
+    "usdPledged": "121189.0",
     "goalUsd": 10000.0,
-    "percentFunded": 1169.67,
-    "backers": 935,
+    "percentFunded": 1211.89,
+    "backers": 965,
     "deadline": 1796479162,
     "launchedAt": 1793887162,
     "staffPick": true,
@@ -33,30 +294,30 @@
      "ai",
      "voice"
     ],
-    "score": 0.793,
+    "score": 0.7942,
     "coverRemote": "https://i.kickstarter.com/assets/055/675/646/83cd5753f21573e4fed9c50a30cb365f_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793100850&width=1024&sig=u2nBXsYg%2F0pTlLdDpCoLvi%2FApjMgEvHLDGtzvvmgB%2FQ%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794037069-CJN1DxydM0qwO99QbuwcOlFUWBAwqlhD4ifFerOKGfI%3D/projects/5397971/video-1471623-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794037069-CJN1DxydM0qwO99QbuwcOlFUWBAwqlhD4ifFerOKGfI%3D/projects/5397971/video-1471623-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11497576,
       "price": 69.0,
       "title": "Single Cue",
       "desc": "One Flic Cue. Choose your colors after the campaign.",
-      "backers": 135,
+      "backers": 201,
       "limit": null,
       "remaining": null,
       "eta": 1801440000,
       "shipping": "unrestricted"
      },
      {
-      "id": 11518071,
-      "price": 119.0,
-      "title": "SECRET Small Bundle",
-      "desc": "Two Flic Cue, one Clip, one Magnetic Wall Mount, one Lanyard and one Sticker Pack. Secret Reward, only available through the secret link. Choose your colors after the campaign.",
-      "backers": 127,
-      "limit": null,
-      "remaining": null,
+      "id": 11497627,
+      "price": 109.0,
+      "title": "Double Cue Early Bird",
+      "desc": "Two Flic Cue. Early Bird price. $129 after the Early Bird. Choose your colors after the campaign.",
+      "backers": 171,
+      "limit": 177,
+      "remaining": 6,
       "eta": 1801440000,
       "shipping": "unrestricted"
      },
@@ -65,181 +326,216 @@
       "price": 149.0,
       "title": "Triple Cue Early Bird",
       "desc": "Three Flic Cue. Early Bird price. Choose your colors after the campaign.",
-      "backers": 135,
-      "limit": 150,
-      "remaining": 15,
+      "backers": 184,
+      "limit": 189,
+      "remaining": 5,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 26,
-    "tiersDate": "2026-11-06",
-    "tiersCarried": "2026-11-06",
+    "tiersDate": "2026-11-07",
+    "tiersCarried": "",
     "cues": [
      [
       15.57,
-      20.25,
-      "让我们构建一些东西，"
+      18.01,
+      "让我们构建一些东西。"
      ],
      [
-      20.25,
-      22.54,
-      "我与我的经纪人交谈"
+      18.01,
+      22.9,
+      "让我可以与我的代理交谈的东西"
      ],
      [
-      23.26,
-      25.42,
+      22.9,
+      25.9,
       "无需坐在电脑前"
      ],
      [
-      26.18,
-      34.08,
-      "无需使用手机。更多"
+      25.9,
+      33.62,
+      "无需使用我的手机。"
      ],
      [
-      34.08,
-      36.39,
-      "和无线"
+      33.62,
+      36.53,
+      "它更加无线，所以我们应该有"
      ],
      [
-      36.39,
-      39.0,
-      "所以我们应该有不同的配件"
+      36.53,
+      39.09,
+      "不同的佩戴配件"
      ],
      [
-      39.0,
-      41.62,
-      "戴在手腕上"
+      39.09,
+      42.62,
+      "在手腕上、在脖子上、在"
      ],
      [
-      41.62,
-      42.69,
-      "脖子在墙上"
+      42.62,
+      43.09,
+      "墙。"
      ],
      [
-      43.33,
-      46.89,
-      "这样我们就可以在您需要的时候为您提供帮助"
+      43.09,
+      47.4,
+      "这样我们就可以在您需要时出现"
      ],
      [
-      46.89,
-      48.76,
-      "更简单的提醒"
+      47.4,
+      51.42,
+      "对于更简单的提醒，例如添加"
      ],
      [
-      49.32,
-      54.16,
-      "喜欢在我的购物清单中添加东西"
+      51.42,
+      54.96,
+      "我的购物清单上的一些东西。"
      ],
      [
-      55.16,
-      58.21,
-      "但也要把任务告诉其他人更多"
+      55.96,
+      58.54,
+      "而且还要处理其他人的任务"
      ],
      [
-      58.21,
-      59.44,
-      "强大的代理"
+      58.54,
+      59.96,
+      "更强大的代理。"
      ],
      [
-      59.44,
-      62.02,
-      "很显然，它应该适用于任何"
+      59.96,
+      62.1,
+      "它显然应该与任何东西一起工作"
      ],
      [
-      62.02,
-      63.0,
-      "它用什么。"
+      62.1,
+      62.96,
+      "你已经有了。"
      ],
      [
-      64.16,
-      67.33,
-      "它至少应该是你不想要的人"
+      62.96,
+      63.96,
+      "像我这样的。"
      ],
      [
-      67.33,
-      70.57,
-      "它到麦克风仅在您按住"
+      63.96,
+      68.13,
+      "至少应该是在你不想要的时候"
      ],
      [
-      70.57,
-      71.34,
-      "按钮"
+      68.13,
+      68.74,
+      "它到。"
      ],
      [
-      71.66,
-      77.34,
-      "您不必全部充电，"
+      68.74,
+      71.29,
+      "仅当您按住 时麦克风才会激活"
      ],
      [
-      77.34,
-      83.03,
-      "时间。我在想鹿更好的生活"
+      71.29,
+      71.74,
+      "按钮。"
      ],
      [
-      84.92,
-      91.22,
-      "是的，你听说过应该有一个应用程序"
+      71.74,
+      80.01,
+      "你不应该把它全部充电"
      ],
      [
-      91.22,
-      97.07,
-      "在那里我可以看到我的所有任务笔记和"
+      80.01,
+      81.07,
+      "时间。"
      ],
      [
-      97.07,
-      98.45,
-      "提醒"
+      81.07,
+      83.07,
+      "我在想，亲爱的，为了更好的生活。"
      ],
      [
-      99.45,
-      102.14,
-      "我的意思是一个非常好的和有用的"
+      83.07,
+      94.61,
+      "是的，你听到了。"
      ],
      [
-      102.14,
-      104.7,
-      "它自己的，但也使其易于连接"
+      94.61,
+      96.94,
+      "应该有一个应用程序可以让我看到所有"
      ],
      [
-      104.7,
-      106.69,
-      "给其他代理商和服务，或"
+      96.94,
+      98.61,
+      "我的任务、笔记和提醒。"
      ],
      [
-      106.69,
-      110.63,
-      "或多或少你能想到的任何东西，"
+      99.61,
+      102.18,
+      "我的意思是一个非常好的并且有用的"
      ],
      [
-      110.63,
-      114.38,
-      "甚至允许您构建自己的应用程序，"
+      102.18,
+      102.61,
+      "它自己的"
      ],
      [
-      114.38,
-      114.94,
-      "it. So"
+      102.61,
+      105.34,
+      "而且还可以轻松连接到其他"
      ],
      [
-      116.1,
-      120.27,
-      "我们应该怎样称呼你？"
+      105.34,
+      106.61,
+      "代理和服务"
      ],
      [
-      120.27,
+      106.61,
+      108.61,
+      "或或多或少任何你能想到的东西。"
+     ],
+     [
+      108.61,
+      113.72,
+      "甚至让您构建自己的应用程序"
+     ],
+     [
+      113.72,
+      114.62,
+      "为了它。"
+     ],
+     [
+      114.62,
+      117.62,
+      "那么，我们应该怎么称呼你呢？"
+     ],
+     [
+      117.62,
       121.79,
-      "轻弹您"
+      "甩你一下"
      ],
      [
-      122.19,
-      125.19,
-      "甩甩你，是啊，我喜欢"
+      121.79,
+      123.79,
+      "甩你一下"
      ],
      [
-      126.75,
-      129.59,
-      "好吧，让我们实施这个计划"
+      123.79,
+      124.79,
+      "是的。"
+     ],
+     [
+      124.79,
+      126.79,
+      "我喜欢它。"
+     ],
+     [
+      126.79,
+      127.79,
+      "好吧。"
+     ],
+     [
+      127.79,
+      129.79,
+      "我们来实施这个计划吧。"
      ]
     ],
     "vttLang": "zh",
@@ -251,7 +547,7 @@
      {
       "t": "p",
       "x": "Flic Cue is an AI voice button. Say what's on your mind, and Cue puts it in the right place.",
-      "z": "Flic Cue是一个AI语音按钮。说出您的想法， Cue会把它放在正确的位置。"
+      "z": "Flic Cue 是一个 AI 语音按钮。说出您的想法，Cue 会将其放在正确的位置。"
      },
      {
       "t": "img",
@@ -268,7 +564,7 @@
      {
       "t": "p",
       "x": "Flic Cue is two things working together: the button you hold, and the Cue app on your phone or Flic Hub. Your voice goes over Bluetooth to the app, which works out what you mean and where it belongs. You don't open anything.",
-      "z": "Flic Cue是两种协同工作的方式：您按住的按钮，以及手机或Flic Hub上的Cue应用程序。您的声音通过蓝牙传输到应用程序，这会显示您的意思以及它所属的位置。你不打开任何东西。"
+      "z": "Flic Cue 是两个协同工作的东西：您按住的按钮以及手机或 Flic Hub 上的 Cue 应用程序。您的声音通过蓝牙传输到应用程序，该应用程序会计算出您的意思及其所属位置。你什么都不打开。"
      },
      {
       "t": "img",
@@ -277,12 +573,12 @@
      {
       "t": "p",
       "x": "Say several things at once, and Cue sorts them into the right places.",
-      "z": "同时说几句话， Cue会把它们分到正确的位置。"
+      "z": "同时说出几件事，Cue 将它们分类到正确的位置。"
      },
      {
       "t": "p",
       "x": "Small tasks shouldn't need your phone.",
-      "z": "小任务不应该需要您的手机。"
+      "z": "小任务不需要你的手机。"
      },
      {
       "t": "img",
@@ -291,7 +587,7 @@
      {
       "t": "p",
       "x": "Most of the time you reach for your phone, it's to get one small thing out of your head. Then the phone keeps you, and your kids notice every time. Say it to Cue instead: hold, speak, done, and they get you, not the back of your phone.",
-      "z": "大多数时候，你伸手去拿手机，是为了从脑海中清除一件小事。然后手机会保留你，你的孩子每次都会注意到。而是对提示说：抓住，说话，完成，他们会抓住你，而不是你的手机背面。"
+      "z": "大多数时候，你拿起手机只是为了摆脱脑子里的一件小事。这样手机就能让您和您的孩子每次都注意到。相反，请对 Cue 说：按住、说话、完成，他们就会接听您的电话，而不是您的手机背面。"
      },
      {
       "t": "p",
@@ -305,7 +601,7 @@
      {
       "t": "p",
       "x": "Hold Cue and say the message and who it's for. It's sent, and your phone stays where it is. In the car, Cue sits on the dashboard with the mount add-on.",
-      "z": "按住提示，说出信息以及信息的目的。系统会向您发送验证码，您的手机会保持原样。在车内， Cue坐在仪表板上，安装附加组件。"
+      "z": "按住 Cue 并说出消息及其收件人。邮件已发送，您的手机仍留在原处。在车里，Cue 位于仪表板上，带有安装附件。"
      },
      {
       "t": "img",
@@ -322,7 +618,7 @@
      {
       "t": "p",
       "x": "That's us: Shortcut Labs in Stockholm, Sweden, the people who made every Flic. Press quotes are about earlier Flic products.",
-      "z": "这就是我们：瑞典斯德哥尔摩的Shortcut Labs ，制作每部Flic的人。新闻报价是关于早期的Flic产品。"
+      "z": "这就是我们：瑞典斯德哥尔摩的 Shortcut Labs，每一款 Flic 的制作者。媒体引述是关于早期 Flic 产品的。"
      },
      {
       "t": "img",
@@ -335,7 +631,7 @@
      {
       "t": "p",
       "x": "The Cue app is the first responder. It handles everyday things on its own, for free, and hands bigger jobs to the agents and tools you connect.",
-      "z": "Cue应用程序是第一响应者。它可以免费处理日常事务，并将更多的工作交给您连接的代理和工具。"
+      "z": "Cue 应用程序是第一响应者。它可以免费自行处理日常事务，并将更大的工作交给您连接的代理和工具。"
      },
      {
       "t": "img",
@@ -348,87 +644,87 @@
      {
       "t": "p",
       "x": "Most of what you say needs no answer: a short beep tells you it landed. For a bigger question you don't sit and wait. Ask now, put Cue away, and two beeps tell you when the answer is ready.",
-      "z": "你说的大部分话都不需要回答：一声短暂的哔哔声告诉你它已经着陆了。对于一个更大的问题，你不要坐以待毙。现在就问，把提示放好，两声哔哔声会告诉你答案什么时候准备好了。"
+      "z": "您所说的大部分内容无需回答：一声短促的蜂鸣声告诉您飞机已着陆。对于更大的问题，你不能坐下来等待。现在就问，把 Cue 收起来，当答案准备好时，会发出两声蜂鸣声告诉您。"
      },
      {
       "t": "p",
       "x": "It comes back in three ways, and you can also have it sent on as a text message, an email or a note in apps like Notion.",
-      "z": "它可以通过三种方式返回，您还可以在Notion等应用程序中以短信、电子邮件或备注的形式发送。"
+      "z": "它以三种方式返回，您还可以将其作为短信、电子邮件或 Notion 等应用程序中的便笺发送。"
      },
      {
       "t": "p",
       "x": "Cue waits on its magnetic wall plate at home. Lift it off and clip it on when you leave. The clip and the wall mount are add-ons, and most homes want more than one Cue: one on you, one by the door, one in the kitchen.",
-      "z": "提示在家里的磁性墙板上等待。离开时，将其提起并夹上。夹子和壁挂式支架是附加组件，大多数房源都需要一个以上的提示：一个在您身上，一个在门边，一个在厨房里。"
+      "z": "Cue 在家里的磁性壁板上等待。离开时将其取下并夹上。夹子和壁挂支架都是附加组件，大多数家庭都需要不止一个 Cue：一个在您身上，一个在门边，一个在厨房。"
      },
      {
       "t": "p",
       "x": "Bigger jobs, in seconds: the kind that usually take an evening of open tabs. Say it to Cue, and your AI agent, for example Grok Bot, researches, gathers and sums up the best options with pros and cons.",
-      "z": "更大的作业，在几秒钟内：通常需要晚上打开标签页的那种。告诉Cue ，您的人工智能代理（例如Grok Bot ）会研究、收集并总结最佳选择和优缺点。"
+      "z": "更大的工作，在几秒钟内完成：通常需要一晚上打开标签的工作。对 Cue 说，你的人工智能代理（例如 Grok Bot）会研究、收集并总结最佳选项的优缺点。"
      },
      {
       "t": "p",
       "x": "Connect your own account in the Cue app, and Flic's cloud hands over what you say, cloud to cloud. More agents are coming.",
-      "z": "在Cue应用程序中连接您自己的帐户， Flic的云将您所说的内容移交给云。更多客服代表即将到来。"
+      "z": "在 Cue 应用程序中连接您自己的帐户，Flic 的云就会将您所说的内容从云传输到云。更多代理即将到来。"
      },
      {
       "t": "p",
       "x": "Start a long task, walk away and know when to come back.",
-      "z": "开始一个漫长的任务，走开，知道什么时候回来。"
+      "z": "开始一项长期任务，走开并知道何时回来。"
      },
      {
       "t": "p",
       "x": "Cue works with the email, calendar and notes you already keep in the cloud, and you pick the destinations in the Cue app. Everything you say shows up there, with where it went. When Cue isn't sure, it asks. It learns from every correction.",
-      "z": "Cue适用于已保存在云端的电子邮件、日历和备注，您可以在Cue应用中选择目的地。你说的每一句话都会显示在那里，以及它去了哪里。当提示不确定时，它会询问。它从每一次更正中学习。"
+      "z": "Cue 可与您已保存在云端的电子邮件、日历和笔记配合使用，并且您可以在 Cue 应用程序中选择目的地。你所说的一切都会显示在那里，以及它去了哪里。当 Cue 不确定时，它会询问。它从每次纠正中学习。"
      },
      {
       "t": "p",
       "x": "Your hand does the routing, so your voice only has to carry the content. Push, double push and hold on two buttons, swipe four ways, turn and shake, and choose in the Cue app what each one does.",
-      "z": "你的手做路由，所以你的声音只需要携带内容。按下，双击并按住两个按钮，滑动四个方向，转动并摇动，然后在Cue应用中选择每个按钮的功能。"
+      "z": "您的手负责路由，因此您的声音只需携带内容。按下、双击并按住两个按钮、向四种方向滑动、转动和摇动，然后在 Cue 应用程序中选择每个按钮的功能。"
      },
      {
       "t": "p",
       "x": "Oskar, our CTO, with a working prototype at his desk. The desktop features in the video are still experiments and can change.",
-      "z": "我们的首席技术官奥斯卡（ Oskar ）的办公桌上摆放着一个工作原型。视频中的桌面功能仍然是实验性的，可能会发生变化。"
+      "z": "我们的首席技术官奥斯卡 (Oskar) 的办公桌上摆着一个工作原型。视频中的桌面功能仍处于实验阶段，可能会发生变化。"
      },
      {
       "t": "p",
       "x": "Pick the agent session by turning Cue, give the next instruction by voice and let the agent get on with it, as in the video above. Cue already drives Claude, Codex and Gemini sessions on your computer.",
-      "z": "通过打开提示选择客服代表会话，通过语音给出下一个指示，然后让客服代表继续操作，如上面的视频所示。CUE已经在您的计算机上驱动Claude、Codex和Gemini会话。"
+      "z": "通过转动 Cue 选择代理会话，通过语音给出下一个指令，然后让代理继续执行，如上面的视频所示。 Cue 已在您的计算机上驱动 Claude、Codex 和 Gemini 会话。"
      },
      {
       "t": "p",
       "x": "Push to start a presentation, and talk to add a note without leaving the stage.",
-      "z": "按下开始演示文稿，然后在不离开舞台的情况下添加备注。"
+      "z": "按下即可开始演示，无需离开讲台即可通过语音添加注释。"
      },
      {
       "t": "p",
       "x": "For the first time, Flic Cue and the Flic buttons you already have connect to Home Assistant, and Cue runs it by voice. It was the integration our waitlist asked for most.",
-      "z": "第一次， Flic Cue和您已经连接到Home Assistant的Flic按钮， Cue通过语音运行它。这是我们的候补名单最需要的整合。"
+      "z": "这是第一次，Flic Cue 和您已有的 Flic 按钮连接到 Home Assistant，Cue 通过语音运行它。这是我们候补名单上最需要的整合。"
      },
      {
       "t": "p",
       "x": "Every Flic Cue can be configured and built into your own apps, agents and systems. Build the thing you wish existed, and share it with the community.",
-      "z": "每个Flic Cue都可以配置并内置到您自己的应用程序、代理和系统中。构建您希望存在的东西，并与社区分享。"
+      "z": "每个 Flic Cue 都可以配置并内置到您自己的应用程序、代理和系统中。构建您希望存在的东西，并与社区分享。"
      },
      {
       "t": "p",
       "x": "The landscape moves fast. New ways to plug into AI agents appear all the time, and some get shut down. We aim for integrations that work on the lowest tiers possible, though they still need an active subscription with each service.",
-      "z": "景观移动得很快。插入人工智能代理的新方法一直在出现，有些会被关闭。我们的目标是尽可能提供最低等级的整合功能，尽管他们仍然需要为每项服务提供有效的订阅。"
+      "z": "风景移动得很快。插入人工智能代理的新方法一直在出现，但有些却被关闭了。我们的目标是尽可能在最低层上进行集成，尽管它们仍然需要对每项服务进行有效订阅。"
      },
      {
       "t": "p",
       "x": "We'll keep adding support for the next big thing, and with help from the community, the small things too. What works today might not be possible tomorrow. What we can promise is to do everything in our power to make Flic Cue the most versatile voice button on the planet.",
-      "z": "我们将继续为下一件大事提供支持，并在社区的帮助下，为小事提供支持。今天行得通的事情明天可能就不可能了。我们可以承诺的是，我们将竭尽全力使Flic Cue成为这个星球上最通用的语音按钮。"
+      "z": "我们将继续增加对下一件大事的支持，并在社区的帮助下，为小事提供支持。今天有效的方法明天可能就行不通了。我们可以承诺的是，尽我们所能，使 Flic Cue 成为地球上最通用的语音按钮。"
      },
      {
       "t": "p",
       "x": "Add-ons ship in the same box as your reward, at no extra shipping cost.",
-      "z": "附加组件与您的奖励在同一个盒子中运送，无需额外运费。"
+      "z": "附加组件与您的奖励在同一个盒子中发货，无需额外运费。"
      },
      {
       "t": "p",
       "x": "The Hub Mini is enough for most homes. Every bundle with a hub comes with one, and the Hub LR upgrade swaps it. The Hacker Bundle comes with a Hub LR.",
-      "z": "Hub Mini足以满足大多数房源的需求。每个带有集线器的捆绑包都有一个，集线器LR升级会替换它。Hacker Bundle附带Hub LR。"
+      "z": "Hub Mini 足以满足大多数家庭的需要。每个带有集线器的捆绑包都附带一个集线器，并且 Hub LR 升级会替换它。 Hacker Bundle 附带 Hub LR。"
      }
     ]
    },
@@ -460,17 +756,28 @@
     ],
     "score": 0.7192,
     "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794044006-cQALF%2B%2Fy3setKFrhT1LGnoJcnxuDaxy8fZ3Ch%2FjpTTg%3D/projects/5343527/video-1466952-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794044006-cQALF%2B%2Fy3setKFrhT1LGnoJcnxuDaxy8fZ3Ch%2FjpTTg%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
     "rewards": [
+     {
+      "id": 11305322,
+      "price": 6267.0,
+      "title": "Super Early Bird | Pro Version",
+      "desc": "Lucy AI Studio Pro Version\\n\\n🔥 Super Early Bird — US$799 | Save $100, 11% Off MSRP $899\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 17,
+      "limit": 500,
+      "remaining": 483,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
      {
       "id": 11488032,
       "price": 19614.0,
       "title": "Super Early Bird | Max Version",
       "desc": "Lucy AI Studio Max Version\\n\\n🔥 Super Early Bird — US$2,499 | Save $1500, 38% Off MSRP $3,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 10,
+      "backers": 12,
       "limit": 500,
-      "remaining": 490,
+      "remaining": 488,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -479,27 +786,16 @@
       "price": 29815.0,
       "title": "Super Early Bird | Ultra Version",
       "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 22,
+      "backers": 26,
       "limit": 500,
-      "remaining": 478,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11488028,
-      "price": 29816.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 10,
-      "limit": 500,
-      "remaining": 490,
+      "remaining": 474,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 12,
-    "tiersDate": "2026-11-05",
-    "tiersCarried": "2026-11-05",
+    "tiersDate": "2026-11-07",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
@@ -509,13 +805,13 @@
      },
      {
       "t": "p",
-      "x": "pledged of $1,274 pledged of $1,274 goal",
-      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
+      "x": "pledged of $1,275 pledged of $1,275 goal",
+      "z": "认捐 1,275 美元 认捐 1,275 美元 目标"
      },
      {
       "t": "p",
-      "x": "19 days to go",
-      "z": "还剩 19 天"
+      "x": "17 days to go",
+      "z": "还剩 17 天"
      },
      {
       "t": "p",
@@ -538,13 +834,13 @@
      },
      {
       "t": "p",
-      "x": "pledged of $1,274 pledged of $1,274 goal",
-      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
+      "x": "pledged of $1,275 pledged of $1,275 goal",
+      "z": "认捐 1,275 美元 认捐 1,275 美元 目标"
      },
      {
       "t": "p",
-      "x": "19 days to go",
-      "z": "还剩 19 天"
+      "x": "17 days to go",
+      "z": "还剩 17 天"
      },
      {
       "t": "p",
@@ -692,45 +988,6 @@
     ]
    },
    {
-    "id": 1773680302,
-    "name": "Beelink ME Pro: Modular AI NAS With Upgradeable Performance",
-    "blurb": "Drawer-Style Core Module | Up to 86 TOPS | Local AI Deployment | Media Workspace | Quiet 24/7 Cooling | Up to 136TB | 50% Less Space",
-    "url": "https://www.kickstarter.com/projects/1086667996/beelink-me-pro-nas",
-    "category": "Hardware",
-    "creator": "Beelink",
-    "location": "St. Petersburg, FL",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 783467.0,
-    "usdPledged": "783467.0",
-    "goalUsd": 10000.0,
-    "percentFunded": 7834.67,
-    "backers": 1031,
-    "deadline": 1796482808,
-    "launchedAt": 1793890808,
-    "staffPick": false,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "nas"
-    ],
-    "score": 0.7139,
-    "coverRemote": "https://i.kickstarter.com/assets/055/809/178/b6e395e7993bd634e707c6e33bc5a35b_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794032504&width=1024&sig=dTROVRx1ofik%2BcXfVHH0%2BF8poz0gOWwNh1MGyT97T2s%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
-    "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
-   },
-   {
     "id": 2002315965,
     "name": "WUBEN G6 | Ultra Slim Multi-Use Keychain Light",
     "blurb": "500 lm Main Light | 100 lm Side Light | Low-Force Switch | Detachable Blade | Adjustable Clip | Hidden USB Port",
@@ -742,11 +999,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 35000.0,
-    "pledged": 1591187.0,
-    "usdPledged": "202754.37801645",
+    "pledged": 1594311.0,
+    "usdPledged": "203152.44856185",
     "goalUsd": 4459.82,
-    "percentFunded": 4546.248571428571,
-    "backers": 3221,
+    "percentFunded": 4555.174285714285,
+    "backers": 3230,
     "deadline": 1795266003,
     "launchedAt": 1792670403,
     "staffPick": true,
@@ -756,10 +1013,10 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.5993,
+    "score": 0.5994,
     "coverRemote": "https://i.kickstarter.com/assets/055/719/992/86443f9d4a1008a821617ad5c36f944d_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793369139&width=1024&sig=1pacSCOQNAeuzV9AwUzbSA%2F%2Bx%2BgJYKjPo858HDVcG%2BQ%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1793974512-a%2FiCqvox03O7d4s7asMuZboMKehsphGXufQGfbE%2BRXk%3D/projects/5393674/video-1469587-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793974512-a%2FiCqvox03O7d4s7asMuZboMKehsphGXufQGfbE%2BRXk%3D/projects/5393674/video-1469587-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11488290,
@@ -777,9 +1034,9 @@
       "price": 267.0,
       "title": "Wuben G6 Standard x1",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 1466,
-      "limit": 1500,
-      "remaining": 34,
+      "backers": 1554,
+      "limit": 1800,
+      "remaining": 246,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -788,16 +1045,16 @@
       "price": 515.0,
       "title": "Wuben G6 Standard x2",
       "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 421,
+      "backers": 447,
       "limit": 500,
-      "remaining": 79,
+      "remaining": 53,
       "eta": 1798761600,
       "shipping": "restricted"
      }
     ],
     "rewardsTotal": 11,
-    "tiersDate": "2026-11-04",
-    "tiersCarried": "2026-11-04",
+    "tiersDate": "2026-11-07",
+    "tiersCarried": "",
     "cues": [
      [
       6.99,
@@ -1017,7 +1274,7 @@
      {
       "t": "p",
       "x": "The WUBEN G6’s concealed, three-way rotating clip quickly became a standout feature for its versatility. For the G6, we’ve taken that idea further with a thicker, sturdier clip and a wider opening, making it easier to attach to your gear and designed for a more secure hold. Clip it on, adjust the angle, and keep your light right where you need it.",
-      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将光线保持在您需要的位置。"
+      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将灯光保持在您需要的位置。"
      },
      {
       "t": "img",
@@ -1072,11 +1329,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 1065809.0,
-    "usdPledged": "1065809.0",
+    "pledged": 1067405.0,
+    "usdPledged": "1067405.0",
     "goalUsd": 20000.0,
-    "percentFunded": 5329.045,
-    "backers": 1039,
+    "percentFunded": 5337.025,
+    "backers": 1041,
     "deadline": 1794067204,
     "launchedAt": 1788879604,
     "staffPick": true,
@@ -1088,8 +1345,8 @@
     ],
     "score": 0.5946,
     "coverRemote": "https://i.kickstarter.com/assets/055/744/986/c1545a3addf403be863e5c85b10d8680_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793617610&width=1024&sig=wEB5rimE%2FVA4undD2AhdCUyfVTuZmkkk44ypWbdZNy8%3D",
-    "videoMp4": "https://v2.kickstarter.com/1793980865-l1raE9JyqqBI%2F3pb32NWWiG0TbeXSNT5lGoDdsPlf5s%3D/projects/5342964/video-1456767-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1793980865-l1raE9JyqqBI%2F3pb32NWWiG0TbeXSNT5lGoDdsPlf5s%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
+    "videoMp4": "https://v2.kickstarter.com/1794038429-zU5klem8u0no1nV%2FtfmOZQLPj34uh1MMJZGu4N9vwvI%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794038429-zU5klem8u0no1nV%2FtfmOZQLPj34uh1MMJZGu4N9vwvI%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11398822,
@@ -1107,7 +1364,7 @@
       "price": 799.0,
       "title": "BirdieSense - Super Early Bird",
       "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 970,
+      "backers": 972,
       "limit": null,
       "remaining": null,
       "eta": 1798761600,
@@ -1132,147 +1389,147 @@
      [
       1.55,
       3.55,
-      "隆重推出Birdie Sense。"
+      "介绍小鸟意识。"
      ],
      [
       3.55,
       6.55,
-      "Gulse第一个人工智能伙伴。"
+      "Gulse 第一个人工智能伴侣。"
      ],
      [
       6.55,
       9.43,
-      "时尚紧凑的设计，专为"
+      "时尚紧凑的设计，方便携带"
      ],
      [
       9.43,
       11.55,
-      "无论游戏带你去哪里。"
+      "无论游戏带您到哪里。"
      ],
      [
       11.55,
       14.58,
-      "提升你的实践，重新定义"
+      "提升您的实践以重新定义"
      ],
      [
       14.58,
       16.55,
-      "游戏的界限。"
+      "你的游戏的边界。"
      ],
      [
       16.55,
       19.78,
-      "采用双摄像头镜头设计，"
+      "采用双摄像头镜头和我们的"
      ],
      [
       19.78,
       21.55,
-      "签名AI处理器。"
+      "签名人工智能处理器。"
      ],
      [
       21.55,
       25.55,
-      "将每个摇摆变成您可以跟踪的数据。"
+      "将每次挥杆动作转化为可追踪的数据。"
      ],
      [
       25.55,
       34.94,
-      "依旧向后靠。"
+      "仍然向后靠。"
      ],
      [
       34.94,
       36.94,
-      "让我们沿途步行接送。"
+      "让我们继续您的换乘之路吧。"
      ],
      [
-      46.17,
+      36.94,
       47.17,
-      "就 像 這樣 。"
+      "就在那里。"
      ],
      [
       47.17,
-      50.52,
-      "如果您希望我严谨严谨"
+      50.3,
+      "如果你希望我严格并且"
      ],
      [
-      50.52,
-      51.96,
-      "我也可以这样做呀！"
+      50.3,
+      52.96,
+      "严谨，我也能做到。"
      ],
      [
-      51.96,
-      55.39,
-      "不仅仅是为了驾驶而设计的"
+      52.96,
+      55.53,
+      "不仅仅是为了驾驶而打造"
      ],
      [
-      55.39,
+      55.53,
       55.96,
-      "区间。"
+      "范围。"
      ],
      [
       55.96,
       58.38,
-      "从绿色的微妙突破到"
+      "从果岭的微妙断裂到"
      ],
      [
       58.38,
       59.96,
-      "碉堡的难度线。"
+      "沙坑线困难。"
      ],
      [
       59.96,
       62.78,
-      "实时指导可帮助您到达"
+      "实时指导帮助您达到目标"
      ],
      [
       62.78,
       65.6,
-      "充分发挥潜力并掌控您的"
+      "充分发挥潜力并掌控你的"
      ],
      [
       65.6,
       65.96,
-      "牌局"
+      "游戏。"
      ],
      [
       65.96,
       68.96,
-      "距离旗帜56码。"
+      "距旗帜 56 码。"
      ],
      [
       68.96,
-      71.76,
-      "根据您的历史数据，我建议我们"
+      71.58,
+      "根据您的历史数据，我建议"
      ],
      [
-      71.76,
+      71.58,
       72.96,
-      "使用50度。"
+      "我们使用50度。"
      ],
      [
       72.96,
       82.8,
-      "如果我们有计划的话。"
+      "如果我们计划的话。"
      ],
      [
       82.8,
       84.8,
-      "今天的第一只小鸟。"
+      "今天第一只小鸟。"
      ],
      [
       84.8,
-      87.65,
-      "不仅仅是精英数字教练的小鸟"
+      87.69,
+      "小鸟不仅仅是一位精英数字教练"
      ],
      [
-      87.65,
-      90.43,
-      "感官是你的智能声音"
+      87.69,
+      90.44,
+      "感觉是你的智能声音"
      ],
      [
-      90.43,
+      90.44,
       90.8,
-      "然后在这边消失。"
+      "边。"
      ],
      [
       90.8,
@@ -1287,17 +1544,17 @@
      [
       94.8,
       96.97,
-      "毕竟，别忘了提高准确性"
+      "毕竟不能忘记提高准确性"
      ],
      [
       96.97,
       97.8,
-      "那种速度是有效的。"
+      "那速度工作。"
      ],
      [
       97.8,
       104.24,
-      "您进度的完整历史记录"
+      "您的进步的完整历史记录"
      ],
      [
       104.24,
@@ -1306,68 +1563,68 @@
      ],
      [
       109.58,
-      112.81,
-      "射击、手套和身体指标小鸟感"
+      112.39,
+      "击球、手套和身体指标、小鸟"
      ],
      [
-      112.81,
+      112.39,
       115.58,
-      "了解你的优点和缺点。"
+      "理智知道你的优点和缺点。"
      ],
      [
       115.58,
       118.27,
-      "游戏化体验让高尔夫更有趣"
+      "游戏化体验让高尔夫变得更有趣"
      ],
      [
       118.27,
       119.58,
-      "比已经存在的要多。"
+      "比现在已经是这样了。"
      ],
      [
       119.58,
-      123.07,
-      "通过将您的秋千视频与球整合"
+      123.27,
+      "通过将您的挥杆视频与球相结合"
      ],
      [
-      123.07,
-      126.55,
-      "来自其他设备的数据，您的实践将"
+      123.27,
+      125.38,
+      "来自其他设备的数据，"
      ],
      [
-      126.55,
+      125.38,
       128.38,
-      "变得更有效。"
+      "你的练习将会变得更加有效。"
      ],
      [
       128.38,
       150.64,
-      "无需进行繁琐的编辑。"
+      "无需繁琐的编辑。"
      ],
      [
       150.64,
-      153.47,
-      "我们的系统会创建您的个人亮点"
+      153.44,
+      "我们的系统打造您的个人亮点"
      ],
      [
-      153.47,
+      153.44,
       156.17,
-      "捕捉您的最佳时刻"
+      "卷轴，捕捉您最美好的时刻"
      ],
      [
       156.17,
       156.64,
-      "加固"
+      "课程。"
      ],
      [
       156.64,
       162.7,
-      "我们是小鸟般的感觉。"
+      "我们是小鸟的感觉。"
      ],
      [
       162.7,
       165.7,
-      "查看您的进度。达到您的巅峰。"
+      "看看你的进步。达到你的巅峰。"
      ]
     ],
     "vttLang": "zh",
@@ -1375,132 +1632,132 @@
      {
       "t": "p",
       "x": "*   [**BirdieSense, At a glance**](h:BirdieSense-At-a-glance)",
-      "z": "* [* * BirdieSense ，概览* *] (h: BirdieSense-At-a-glance)"
+      "z": "* [**BirdieSense, At a glance**](h:BirdieSense-At-a-glance)"
      },
      {
       "t": "p",
       "x": "*   [**Share & Earn 10% Cash Back**](h:Share-Earn-10-Cash-Back)",
-      "z": "* [* *分享并赚取10%的现金返还* *] (h: Share-Earn-10-Cash-Back)"
+      "z": "* [**分享并赚取 10% 现金返还**](h:分享-赚取-10-现金返还)"
      },
      {
       "t": "p",
       "x": "*   [**What Golf Experts Say**](h:What-Golf-Experts-Say)",
-      "z": "* [* *高尔夫专家怎么说* *] (h: What-Golf-Experts-Say)"
+      "z": "* [**高尔夫专家怎么说**](h:高尔夫专家怎么说)"
      },
      {
       "t": "p",
       "x": "*   [**Hear from Our Beta Users**](h:Hear-from-Our-Beta-Users)",
-      "z": "* [* *听取我们的测试版用户的意见* *] (h: Hear-from-Our-Beta-Users)"
+      "z": "* [**听取我们的测试版用户的意见**](h:听取我们的测试版用户的意见)"
      },
      {
       "t": "p",
       "x": "*   [**BirdieSense Around the World**](h:BirdieSense-Around-the-World)",
-      "z": "* [* * BirdieSense Around the World * *] (h: BirdieSense-Around the World)"
+      "z": "* [**BirdieSense 环游世界**](h:BirdieSense-环游世界)"
      },
      {
       "t": "p",
       "x": "*   [**Featured On**](h:Featured-On)",
-      "z": "* [* *精选* *] (h: Featured-On)"
+      "z": "* [**精选**](h:精选)"
      },
      {
       "t": "p",
       "x": "*   [**Why BirdieSense?**](h:Why-BirdieSense-)",
-      "z": "* [* *为什么选择BirdieSense ？ * *] (h: Why-BirdieSense-)"
+      "z": "* [**为什么选择 BirdieSense？**](h:为什么-BirdieSense-)"
      },
      {
       "t": "p",
       "x": "*   [**Capture Every Metric with Precision**](h:Capture-Every-Metric-with-Precision)",
-      "z": "* [* *使用精度捕获每个指标* *] (h:使用精度捕获每个指标)"
+      "z": "* [**精确捕获每个指标**](h:精确捕获每个指标)"
      },
      {
       "t": "p",
       "x": "*   [**3D Motion Tracking**](h:3D-Motion-Tracking)",
-      "z": "* [* * 3D运动跟踪* *] (h: 3D-Motion-Tracking)"
+      "z": "* [**3D 运动跟踪**](h:3D-运动跟踪)"
      },
      {
       "t": "p",
       "x": "*   [**Your AI Companion, Like a Pro Coach**](h:Your-AI-Companion-Like-a-Pro-Coach)",
-      "z": "* [* *你的AI伴侣，像专业教练一样* *] (h: Your-AI-Companion-Like-a-Pro-Coach)"
+      "z": "* [**您的人工智能伴侣，就像专业教练一样**](h:Your-AI-Companion-Like-a-Pro-Coach)"
      },
      {
       "t": "p",
       "x": "*   [**Practice Anywhere. Play Everywhere.**](h:Practice-Anywhere-Play-Everywhere-)",
-      "z": "* [* *随处练习。随处玩。* *] (h: Practice-Anywhere-Play-Everywhere-)"
+      "z": "* [**随时随地练习。随处玩耍。**](h:练习-随处-玩耍-随处-)"
      },
      {
       "t": "p",
       "x": "*   [**Look Closer. See Further.**](h:Look-Closer-See-Further-)",
-      "z": "* [* *仔细观察。请参阅进一步。* *] (h: Look-Closer-See-F further-)"
+      "z": "* [**仔细观察。看得更远。**](h:仔细观察-看得更远-)"
      },
      {
       "t": "p",
       "x": "*   [**Think Faster. Learn Smarter.**](h:Think-Faster-Learn-Smarter-)",
-      "z": "* [* * Think Faster. Learn Smarter. * *] (h: Think-Faster-Learn-Smarter-)"
+      "z": "* [**思考得更快。更聪明地学习。**](h:思考更快-学习更聪明-)"
      },
      {
       "t": "p",
       "x": "*   [**Your Companion, Your Style**](h:Your-Companion-Your-Style)",
-      "z": "* [* *您的同伴，您的风格* *] (h: Your-Companion-Your-Style)"
+      "z": "* [**你的伴侣，你的风格**](h:你的伴侣你的风格)"
      },
      {
       "t": "p",
       "x": "*   [**Designed for Everyone**](h:Designed-for-Everyone)",
-      "z": "* [* *为所有人设计* *] (h:为所有人设计)"
+      "z": "* [**为每个人设计**](h:为每个人设计)"
      },
      {
       "t": "p",
       "x": "*   [**Share Your Best Moments**](h:Share-Your-Best-Moments)",
-      "z": "* [* *分享您的最佳时刻* *] (h: Share-Your-Best-Moments)"
+      "z": "* [**分享您的最佳时刻**](h:分享您的最佳时刻)"
      },
      {
       "t": "p",
       "x": "*   [**Specifications**](h:Specifications)",
-      "z": "* [* *规格* *] （ h ：规格）"
+      "z": "* [**规格**](h:规格)"
      },
      {
       "t": "p",
       "x": "*   [**What's in the Box?**](h:What-s-in-the-Box-)",
-      "z": "* [* *盒子里有什么？ * *] (h: What-s-in-the-Box-)"
+      "z": "* [**盒子里有什么？**](h:盒子里有什么-)"
      },
      {
       "t": "p",
       "x": "*   [**Rewards**](h:Rewards)",
-      "z": "* [* *奖励* *] (h: Rewards)"
+      "z": "* [**奖励**](h:奖励)"
      },
      {
       "t": "p",
       "x": "*   [**Add-on**](h:Add-on)",
-      "z": "* [* *附加组件* *] (h: Add-on)"
+      "z": "* [**附加组件**](h:附加组件)"
      },
      {
       "t": "p",
       "x": "*   [**How to Get Your BirdieSense**](h:How-to-Get-Your-BirdieSense)",
-      "z": "* [* *如何获取您的BirdieSense * *] (h: How-to-Get-Your-BirdieSense)"
+      "z": "* [**如何获得您的 BirdieSense**](h:如何获得您的 BirdieSense)"
      },
      {
       "t": "p",
       "x": "*   [**Timeline**](h:Timeline)",
-      "z": "* [* *时间轴* *] (h: Timeline)"
+      "z": "* [**时间线**](h:时间线)"
      },
      {
       "t": "p",
       "x": "*   [**Shipping & Taxes**](h:Shipping-Taxes)",
-      "z": "* [* *运费和税费* *] （ h ：运费-税费）"
+      "z": "* [**运费和税金**](h:运费税)"
      },
      {
       "t": "p",
       "x": "*   [**Production Ready, Delivery Confident**](h:Production-Ready-Delivery-Confident)",
-      "z": "* [* *生产就绪，交货信心* *] (h:生产就绪-交货信心)"
+      "z": "* [**生产就绪，交付有信心**](h：生产就绪-交付-有信心)"
      },
      {
       "t": "p",
       "x": "*   [**About BirdieSense**](h:About-BirdieSense)",
-      "z": "* [* *关于BirdieSense * *] (h:关于BirdieSense)"
+      "z": "* [**关于 BirdieSense**](h:关于-BirdieSense)"
      },
      {
       "t": "p",
       "x": "*   [**Connect with BirdieSense**](h:Connect-with-BirdieSense)",
-      "z": "* [* *使用BirdieSense连接* *] (h: Connect-with-BirdieSense)"
+      "z": "* [**与 BirdieSense 连接**](h:Connect-with-BirdieSense)"
      },
      {
       "t": "img",
