@@ -1,5 +1,1568 @@
 [
  {
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T13:46:57+07:00",
+  "source": "Kickstarter discover/advanced API + 项目详情页",
+  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
+  "poolSize": 24,
+  "projects": [
+   {
+    "id": 1668593440,
+    "name": "Flic Cue: The AI Voice Button that keeps your phone away",
+    "blurb": "Push-to-talk, reinvented for AI. What you say lands in your list, calendar, inbox or AI agent. Wear it or mount it. No need to charge.",
+    "url": "https://www.kickstarter.com/projects/shortcutlabs/flic-cue",
+    "category": "Wearables",
+    "creator": "Shortcut Labs",
+    "location": "Stockholm, Sweden",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 116967.0,
+    "usdPledged": "116967.0",
+    "goalUsd": 10000.0,
+    "percentFunded": 1169.67,
+    "backers": 935,
+    "deadline": 1796479162,
+    "launchedAt": 1793887162,
+    "staffPick": true,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai",
+     "voice"
+    ],
+    "score": 0.793,
+    "coverRemote": "https://i.kickstarter.com/assets/055/675/646/83cd5753f21573e4fed9c50a30cb365f_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793100850&width=1024&sig=u2nBXsYg%2F0pTlLdDpCoLvi%2FApjMgEvHLDGtzvvmgB%2FQ%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11497576,
+      "price": 69.0,
+      "title": "Single Cue",
+      "desc": "One Flic Cue. Choose your colors after the campaign.",
+      "backers": 135,
+      "limit": null,
+      "remaining": null,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11518071,
+      "price": 119.0,
+      "title": "SECRET Small Bundle",
+      "desc": "Two Flic Cue, one Clip, one Magnetic Wall Mount, one Lanyard and one Sticker Pack. Secret Reward, only available through the secret link. Choose your colors after the campaign.",
+      "backers": 127,
+      "limit": null,
+      "remaining": null,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11497633,
+      "price": 149.0,
+      "title": "Triple Cue Early Bird",
+      "desc": "Three Flic Cue. Early Bird price. Choose your colors after the campaign.",
+      "backers": 135,
+      "limit": 150,
+      "remaining": 15,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 26,
+    "tiersDate": "2026-11-06",
+    "tiersCarried": "2026-11-06",
+    "cues": [
+     [
+      15.57,
+      20.25,
+      "让我们构建一些东西，"
+     ],
+     [
+      20.25,
+      22.54,
+      "我与我的经纪人交谈"
+     ],
+     [
+      23.26,
+      25.42,
+      "无需坐在电脑前"
+     ],
+     [
+      26.18,
+      34.08,
+      "无需使用手机。更多"
+     ],
+     [
+      34.08,
+      36.39,
+      "和无线"
+     ],
+     [
+      36.39,
+      39.0,
+      "所以我们应该有不同的配件"
+     ],
+     [
+      39.0,
+      41.62,
+      "戴在手腕上"
+     ],
+     [
+      41.62,
+      42.69,
+      "脖子在墙上"
+     ],
+     [
+      43.33,
+      46.89,
+      "这样我们就可以在您需要的时候为您提供帮助"
+     ],
+     [
+      46.89,
+      48.76,
+      "更简单的提醒"
+     ],
+     [
+      49.32,
+      54.16,
+      "喜欢在我的购物清单中添加东西"
+     ],
+     [
+      55.16,
+      58.21,
+      "但也要把任务告诉其他人更多"
+     ],
+     [
+      58.21,
+      59.44,
+      "强大的代理"
+     ],
+     [
+      59.44,
+      62.02,
+      "很显然，它应该适用于任何"
+     ],
+     [
+      62.02,
+      63.0,
+      "它用什么。"
+     ],
+     [
+      64.16,
+      67.33,
+      "它至少应该是你不想要的人"
+     ],
+     [
+      67.33,
+      70.57,
+      "它到麦克风仅在您按住"
+     ],
+     [
+      70.57,
+      71.34,
+      "按钮"
+     ],
+     [
+      71.66,
+      77.34,
+      "您不必全部充电，"
+     ],
+     [
+      77.34,
+      83.03,
+      "时间。我在想鹿更好的生活"
+     ],
+     [
+      84.92,
+      91.22,
+      "是的，你听说过应该有一个应用程序"
+     ],
+     [
+      91.22,
+      97.07,
+      "在那里我可以看到我的所有任务笔记和"
+     ],
+     [
+      97.07,
+      98.45,
+      "提醒"
+     ],
+     [
+      99.45,
+      102.14,
+      "我的意思是一个非常好的和有用的"
+     ],
+     [
+      102.14,
+      104.7,
+      "它自己的，但也使其易于连接"
+     ],
+     [
+      104.7,
+      106.69,
+      "给其他代理商和服务，或"
+     ],
+     [
+      106.69,
+      110.63,
+      "或多或少你能想到的任何东西，"
+     ],
+     [
+      110.63,
+      114.38,
+      "甚至允许您构建自己的应用程序，"
+     ],
+     [
+      114.38,
+      114.94,
+      "it. So"
+     ],
+     [
+      116.1,
+      120.27,
+      "我们应该怎样称呼你？"
+     ],
+     [
+      120.27,
+      121.79,
+      "轻弹您"
+     ],
+     [
+      122.19,
+      125.19,
+      "甩甩你，是啊，我喜欢"
+     ],
+     [
+      126.75,
+      129.59,
+      "好吧，让我们实施这个计划"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/288/473c7dd118a1081900303cbf148e5be5_original.webp?fit=scale-down&origin=ugc&q=92&v=1793874476&width=680&sig=L2oKyJUw8LHVA2iKfyw5vNsU0jROKT6DWRQD%2BlbmORQ%3D"
+     },
+     {
+      "t": "p",
+      "x": "Flic Cue is an AI voice button. Say what's on your mind, and Cue puts it in the right place.",
+      "z": "Flic Cue是一个AI语音按钮。说出您的想法， Cue会把它放在正确的位置。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/692/1d3fad531031ad025de769013b8c807a_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876669&width=680&sig=ZFLQLyajF4S%2FLROo8IlJb1wnM3fUVTHhQdcb3xlltio%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/691/1eb47f0b53496011f707219c023d7622_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876669&width=680&sig=traTNdTMUmkeN1cpXuTSePioHw3m%2FfJDBdMwtWN8vvM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/694/183e1b1d42f4dcba669b434413a4ebeb_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876670&width=680&sig=3N0l6smMtuffIOcn5DpC9ohZFctyCOIef4YzDuqnUBs%3D"
+     },
+     {
+      "t": "p",
+      "x": "Flic Cue is two things working together: the button you hold, and the Cue app on your phone or Flic Hub. Your voice goes over Bluetooth to the app, which works out what you mean and where it belongs. You don't open anything.",
+      "z": "Flic Cue是两种协同工作的方式：您按住的按钮，以及手机或Flic Hub上的Cue应用程序。您的声音通过蓝牙传输到应用程序，这会显示您的意思以及它所属的位置。你不打开任何东西。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/693/fcf1e20fdab00469f89176ac69678282_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876670&width=680&sig=I5kYMTEK595KffW758OWsXrOkqEKNhXGSs574ekgx7E%3D"
+     },
+     {
+      "t": "p",
+      "x": "Say several things at once, and Cue sorts them into the right places.",
+      "z": "同时说几句话， Cue会把它们分到正确的位置。"
+     },
+     {
+      "t": "p",
+      "x": "Small tasks shouldn't need your phone.",
+      "z": "小任务不应该需要您的手机。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/698/f556d0a56560b8c80e07d79c4b1cf592_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876679&width=680&sig=Ckski2ezCLLT5Ve%2BJ39sCzFguzaFxVQUJyHzzGCwy5o%3D"
+     },
+     {
+      "t": "p",
+      "x": "Most of the time you reach for your phone, it's to get one small thing out of your head. Then the phone keeps you, and your kids notice every time. Say it to Cue instead: hold, speak, done, and they get you, not the back of your phone.",
+      "z": "大多数时候，你伸手去拿手机，是为了从脑海中清除一件小事。然后手机会保留你，你的孩子每次都会注意到。而是对提示说：抓住，说话，完成，他们会抓住你，而不是你的手机背面。"
+     },
+     {
+      "t": "p",
+      "x": "Text without picking up your phone.",
+      "z": "无需拿起手机即可发短信。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/305/164c4b2471332aa04cb67d78c263f5ae_original.webp?fit=scale-down&origin=ugc&q=92&v=1793874513&width=680&sig=lTLzSq78oXugCSIZYLQZWxAvrs9peYR0RSqYNHF2NTA%3D"
+     },
+     {
+      "t": "p",
+      "x": "Hold Cue and say the message and who it's for. It's sent, and your phone stays where it is. In the car, Cue sits on the dashboard with the mount add-on.",
+      "z": "按住提示，说出信息以及信息的目的。系统会向您发送验证码，您的手机会保持原样。在车内， Cue坐在仪表板上，安装附加组件。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/788/851/d07d8c53c95c4530c970dad836c08c02_original.webp?fit=scale-down&origin=ugc&q=92&v=1793886165&width=680&sig=UOdnKkcRGJVFT6yvAkZVacy%2BNzww1X5sOBan36scOS8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/697/7a1d894334e62472687ca6278a54b28c_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876679&width=680&sig=TDXbxVN3nyFVOE%2FBjI5bWeM4vy%2BZ5s9rJiahXxIz5QM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/699/bee597d27ff110e001d99b04565b6470_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876689&width=680&sig=eioKGTSkSCXGorhyqGy2vDi1yCdhrnaeXr01yekI0UE%3D"
+     },
+     {
+      "t": "p",
+      "x": "That's us: Shortcut Labs in Stockholm, Sweden, the people who made every Flic. Press quotes are about earlier Flic products.",
+      "z": "这就是我们：瑞典斯德哥尔摩的Shortcut Labs ，制作每部Flic的人。新闻报价是关于早期的Flic产品。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/789/262/6b546bbf708ef14d64a729f1071a2b67_original.webp?fit=scale-down&origin=ugc&q=92&v=1793888865&width=680&sig=i0kYhiwIzTnSsa8Lva5wkAbpfqsL9zSlOwx%2FhnLkPIw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/700/35ce4a3d8089e89e989cd15f141ab6b3_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876689&width=680&sig=56AiISVB48UsRLXyKJ%2F88vDuz8rRq1%2Fs6iNcsQC0AZc%3D"
+     },
+     {
+      "t": "p",
+      "x": "The Cue app is the first responder. It handles everyday things on its own, for free, and hands bigger jobs to the agents and tools you connect.",
+      "z": "Cue应用程序是第一响应者。它可以免费处理日常事务，并将更多的工作交给您连接的代理和工具。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/704/79b68e21b032be2e6b0432a2b1434792_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876690&width=680&sig=GIC8LJ1hjHtZgfy7t1HflV9RMtaqy2pnKq9aSfcSO2M%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/787/701/91bea58c1b130c22e9918a2e60da65c9_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876690&width=680&sig=PikmS7MjciCBosbfXkqKxMaERkQVFrNxeY6jKEKM6IM%3D"
+     },
+     {
+      "t": "p",
+      "x": "Most of what you say needs no answer: a short beep tells you it landed. For a bigger question you don't sit and wait. Ask now, put Cue away, and two beeps tell you when the answer is ready.",
+      "z": "你说的大部分话都不需要回答：一声短暂的哔哔声告诉你它已经着陆了。对于一个更大的问题，你不要坐以待毙。现在就问，把提示放好，两声哔哔声会告诉你答案什么时候准备好了。"
+     },
+     {
+      "t": "p",
+      "x": "It comes back in three ways, and you can also have it sent on as a text message, an email or a note in apps like Notion.",
+      "z": "它可以通过三种方式返回，您还可以在Notion等应用程序中以短信、电子邮件或备注的形式发送。"
+     },
+     {
+      "t": "p",
+      "x": "Cue waits on its magnetic wall plate at home. Lift it off and clip it on when you leave. The clip and the wall mount are add-ons, and most homes want more than one Cue: one on you, one by the door, one in the kitchen.",
+      "z": "提示在家里的磁性墙板上等待。离开时，将其提起并夹上。夹子和壁挂式支架是附加组件，大多数房源都需要一个以上的提示：一个在您身上，一个在门边，一个在厨房里。"
+     },
+     {
+      "t": "p",
+      "x": "Bigger jobs, in seconds: the kind that usually take an evening of open tabs. Say it to Cue, and your AI agent, for example Grok Bot, researches, gathers and sums up the best options with pros and cons.",
+      "z": "更大的作业，在几秒钟内：通常需要晚上打开标签页的那种。告诉Cue ，您的人工智能代理（例如Grok Bot ）会研究、收集并总结最佳选择和优缺点。"
+     },
+     {
+      "t": "p",
+      "x": "Connect your own account in the Cue app, and Flic's cloud hands over what you say, cloud to cloud. More agents are coming.",
+      "z": "在Cue应用程序中连接您自己的帐户， Flic的云将您所说的内容移交给云。更多客服代表即将到来。"
+     },
+     {
+      "t": "p",
+      "x": "Start a long task, walk away and know when to come back.",
+      "z": "开始一个漫长的任务，走开，知道什么时候回来。"
+     },
+     {
+      "t": "p",
+      "x": "Cue works with the email, calendar and notes you already keep in the cloud, and you pick the destinations in the Cue app. Everything you say shows up there, with where it went. When Cue isn't sure, it asks. It learns from every correction.",
+      "z": "Cue适用于已保存在云端的电子邮件、日历和备注，您可以在Cue应用中选择目的地。你说的每一句话都会显示在那里，以及它去了哪里。当提示不确定时，它会询问。它从每一次更正中学习。"
+     },
+     {
+      "t": "p",
+      "x": "Your hand does the routing, so your voice only has to carry the content. Push, double push and hold on two buttons, swipe four ways, turn and shake, and choose in the Cue app what each one does.",
+      "z": "你的手做路由，所以你的声音只需要携带内容。按下，双击并按住两个按钮，滑动四个方向，转动并摇动，然后在Cue应用中选择每个按钮的功能。"
+     },
+     {
+      "t": "p",
+      "x": "Oskar, our CTO, with a working prototype at his desk. The desktop features in the video are still experiments and can change.",
+      "z": "我们的首席技术官奥斯卡（ Oskar ）的办公桌上摆放着一个工作原型。视频中的桌面功能仍然是实验性的，可能会发生变化。"
+     },
+     {
+      "t": "p",
+      "x": "Pick the agent session by turning Cue, give the next instruction by voice and let the agent get on with it, as in the video above. Cue already drives Claude, Codex and Gemini sessions on your computer.",
+      "z": "通过打开提示选择客服代表会话，通过语音给出下一个指示，然后让客服代表继续操作，如上面的视频所示。CUE已经在您的计算机上驱动Claude、Codex和Gemini会话。"
+     },
+     {
+      "t": "p",
+      "x": "Push to start a presentation, and talk to add a note without leaving the stage.",
+      "z": "按下开始演示文稿，然后在不离开舞台的情况下添加备注。"
+     },
+     {
+      "t": "p",
+      "x": "For the first time, Flic Cue and the Flic buttons you already have connect to Home Assistant, and Cue runs it by voice. It was the integration our waitlist asked for most.",
+      "z": "第一次， Flic Cue和您已经连接到Home Assistant的Flic按钮， Cue通过语音运行它。这是我们的候补名单最需要的整合。"
+     },
+     {
+      "t": "p",
+      "x": "Every Flic Cue can be configured and built into your own apps, agents and systems. Build the thing you wish existed, and share it with the community.",
+      "z": "每个Flic Cue都可以配置并内置到您自己的应用程序、代理和系统中。构建您希望存在的东西，并与社区分享。"
+     },
+     {
+      "t": "p",
+      "x": "The landscape moves fast. New ways to plug into AI agents appear all the time, and some get shut down. We aim for integrations that work on the lowest tiers possible, though they still need an active subscription with each service.",
+      "z": "景观移动得很快。插入人工智能代理的新方法一直在出现，有些会被关闭。我们的目标是尽可能提供最低等级的整合功能，尽管他们仍然需要为每项服务提供有效的订阅。"
+     },
+     {
+      "t": "p",
+      "x": "We'll keep adding support for the next big thing, and with help from the community, the small things too. What works today might not be possible tomorrow. What we can promise is to do everything in our power to make Flic Cue the most versatile voice button on the planet.",
+      "z": "我们将继续为下一件大事提供支持，并在社区的帮助下，为小事提供支持。今天行得通的事情明天可能就不可能了。我们可以承诺的是，我们将竭尽全力使Flic Cue成为这个星球上最通用的语音按钮。"
+     },
+     {
+      "t": "p",
+      "x": "Add-ons ship in the same box as your reward, at no extra shipping cost.",
+      "z": "附加组件与您的奖励在同一个盒子中运送，无需额外运费。"
+     },
+     {
+      "t": "p",
+      "x": "The Hub Mini is enough for most homes. Every bundle with a hub comes with one, and the Hub LR upgrade swaps it. The Hacker Bundle comes with a Hub LR.",
+      "z": "Hub Mini足以满足大多数房源的需求。每个带有集线器的捆绑包都有一个，集线器LR升级会替换它。Hacker Bundle附带Hub LR。"
+     }
+    ]
+   },
+   {
+    "id": 2099488698,
+    "name": "Lucy AI Studio: A Dedicated Computer for Your AI Agents",
+    "blurb": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+    "url": "https://www.kickstarter.com/projects/744045479/cephalon-ondevice-ai-with-a-selfevolving-ecosystem",
+    "category": "Hardware",
+    "creator": "Cephalon AI",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 1832504.0,
+    "usdPledged": "233509.46100576",
+    "goalUsd": 1274.26,
+    "percentFunded": 18325.04,
+    "backers": 79,
+    "deadline": 1795532381,
+    "launchedAt": 1792504781,
+    "staffPick": true,
+    "sources": [
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.7192,
+    "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11488032,
+      "price": 19614.0,
+      "title": "Super Early Bird | Max Version",
+      "desc": "Lucy AI Studio Max Version\\n\\n🔥 Super Early Bird — US$2,499 | Save $1500, 38% Off MSRP $3,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 10,
+      "limit": 500,
+      "remaining": 490,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11493190,
+      "price": 29815.0,
+      "title": "Super Early Bird | Ultra Version",
+      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 22,
+      "limit": 500,
+      "remaining": 478,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11488028,
+      "price": 29816.0,
+      "title": "Super Early Bird | Ultra Version",
+      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 10,
+      "limit": 500,
+      "remaining": 490,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 12,
+    "tiersDate": "2026-11-05",
+    "tiersCarried": "2026-11-05",
+    "cues": [],
+    "vttLang": "",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $1,274 pledged of $1,274 goal",
+      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
+     },
+     {
+      "t": "p",
+      "x": "19 days to go",
+      "z": "还剩 19 天"
+     },
+     {
+      "t": "p",
+      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/060/319/67b15255a38b25916731383a3310333f_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1781101494&width=160&sig=MM%2FPbg87VKoqOC5VtkC6HMczx2KvRyft7m4b1wTAUhM%3D"
+     },
+     {
+      "t": "p",
+      "x": "First created•0 backed",
+      "z": "首次创建•0 支持"
+     },
+     {
+      "t": "p",
+      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $1,274 pledged of $1,274 goal",
+      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
+     },
+     {
+      "t": "p",
+      "x": "19 days to go",
+      "z": "还剩 19 天"
+     },
+     {
+      "t": "p",
+      "x": "Kickstarter connects creators with backers to fund projects.",
+      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
+     },
+     {
+      "t": "p",
+      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
+      "z": "奖励无法保证，但创作者必须定期更新支持者。"
+     },
+     {
+      "t": "p",
+      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+      "z": "仅当项目在活动截止日期前达到其融资目标时，您才需要付费。"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Reviews**](h:Reviews)",
+      "z": "* [**评论**](h:评论)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The Reason LUCY Exists**](h:The-Reason-LUCY-Exists)",
+      "z": "* [**LUCY 存在的原因**](h:LUCY 存在的原因)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**A Workspace that Stays Ready**](h:A-Workspace-that-Stays-Ready)",
+      "z": "* [**保持就绪的工作空间**](h:保持就绪的工作空间)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**From Request to Result**](h:From-Request-to-Result)",
+      "z": "* [**从请求到结果**](h:从请求到结果)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Why a Dedicated Computer**](h:Why-a-Dedicated-Computer)",
+      "z": "* [**为什么选择专用计算机**](h:为什么选择专用计算机)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Real Work. Status Snapshot**](h:Real-Work-Status-Snapshot)",
+      "z": "* [**实际工作。状态快照**](h:实际工作状态快照)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Remote Workflows**](h:Remote-Workflows)",
+      "z": "* [**远程工作流程**](h:远程工作流程)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Open by Design**](h:Open-by-Design)",
+      "z": "* [**按设计开放**](h：按设计开放)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Private Storage**](h:Private-Storage)",
+      "z": "* [**私有存储**](h:私有存储)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Local Video Generation**](h:Local-Video-Generation)",
+      "z": "* [**本地视频生成**](h:本地视频生成)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**More Than An AI Workstation**](h:More-Than-An-AI-Workstation)",
+      "z": "* [**不仅仅是人工智能工作站**](h:不仅仅是人工智能工作站)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Designed to Stay On**](h:Designed-to-Stay-On)",
+      "z": "* [**设计为保持运行**](h：设计为保持运行)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Choose Your LUCY**](h:Choose-Your-LUCY)",
+      "z": "* [**选择你的 LUCY**](h:选择你的 LUCY)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**HOW TO USE**](h:HOW-TO-USE)",
+      "z": "* [**如何使用**](h:如何使用)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**REWARDS**](h:REWARDS)",
+      "z": "* [**奖励**](h:奖励)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [**时间线**](h:时间线)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/316/829/6e168fa3d7ee6e0e5caee2e594ee801b_original.png?fit=scale-down&origin=ugc&q=100&v=1790702858&width=680&sig=3pm%2BpeI7vSycoDEt5rVx3eoEt6wc5tvjjQKOEVquI40%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/139/c8c104d6a5f6485b4f7d3fd291306895_original.png?fit=scale-down&origin=ugc&q=100&v=1790314954&width=680&sig=4KJu6Kg11W%2FKePoFiUrrgmxNlFfTAC3bPndeZd0365k%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/725/415c199d901eeb5d444a785d538b2e68_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319487&width=680&sig=QXTeTvgsF8xr2gQkWtTxsJnRcWdJkvDCdKncG0xW2rY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/604/809/38bf386f16d519e8eb6d3a28bba073e3_original.png?fit=scale-down&origin=ugc&q=100&v=1792599525&width=680&sig=cVRenq%2FaG8RTrFbHovbf%2FAI0thrX5msAFB70Uc41rR4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/714/114/5052490fa13fcfb30ab3da1bbcc7af46_original.png?fit=scale-down&origin=ugc&q=100&v=1793329008&width=680&sig=hcEhnPUHNnOZ%2FBi5de81Q17ljHCwbPKcbhetd5Lk6ts%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/585/305/7977e4798d86fd1baf4621f78606d89b_original.png?fit=scale-down&origin=ugc&q=100&v=1792495942&width=680&sig=CrFCgPZtKUPhITN2COxWy87x87ecyQ%2B2YN2uA%2Fv8ZGw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/162/98025fb70322db4a0a872845425cb9fa_original.png?fit=scale-down&origin=ugc&q=100&v=1790315126&width=680&sig=9Tzhlc%2FDpDahtLwPQKMPkCduDSnWXjgwKKVJf6L1dtk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/169/ab833cfc4bb27dd7a918822ca937af96_original.png?fit=scale-down&origin=ugc&q=100&v=1790315170&width=680&sig=3mF25kAPlzxyqz4MuKxWKa9KEm3Ds2wMAiFjCynId8c%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/752/23cb80f5bb030f459f2aa1546d84b9ad_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319854&width=680&sig=%2F%2F1%2FF97dUN6IHj2q4g1ttj2NQjKqIMd55hdJgJTUoAk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/173/582ed5763ef51c88abc008bcfc1e8243_original.png?fit=scale-down&origin=ugc&q=100&v=1790315184&width=680&sig=It%2FRUMet1QS52lyh4ocIkVpv6WaWSa4Q9G4P3iU65lA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/792/4dfe5b6a564b99a8cfc166c29f7a13c9_original.gif?fit=scale-down&origin=ugc&q=92&v=1790320183&width=680&sig=vDOOqAVnAir2NfFQqdaQRb%2BD9soY3vIZ0Q%2FewpOfwzM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/174/ed792e97c39a87ec2c6af0a0ade64f41_original.png?fit=scale-down&origin=ugc&q=100&v=1790315204&width=680&sig=ZnF%2Ff4prTWKg8a67Q7II2WdOL9h7Gg%2BZx8Gia%2FkN%2FYo%3D"
+     }
+    ]
+   },
+   {
+    "id": 1773680302,
+    "name": "Beelink ME Pro: Modular AI NAS With Upgradeable Performance",
+    "blurb": "Drawer-Style Core Module | Up to 86 TOPS | Local AI Deployment | Media Workspace | Quiet 24/7 Cooling | Up to 136TB | 50% Less Space",
+    "url": "https://www.kickstarter.com/projects/1086667996/beelink-me-pro-nas",
+    "category": "Hardware",
+    "creator": "Beelink",
+    "location": "St. Petersburg, FL",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 783467.0,
+    "usdPledged": "783467.0",
+    "goalUsd": 10000.0,
+    "percentFunded": 7834.67,
+    "backers": 1031,
+    "deadline": 1796482808,
+    "launchedAt": 1793890808,
+    "staffPick": false,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai",
+     "nas"
+    ],
+    "score": 0.7139,
+    "coverRemote": "https://i.kickstarter.com/assets/055/809/178/b6e395e7993bd634e707c6e33bc5a35b_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794032504&width=1024&sig=dTROVRx1ofik%2BcXfVHH0%2BF8poz0gOWwNh1MGyT97T2s%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [],
+    "rewardsTotal": 0,
+    "tiersDate": "",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": []
+   },
+   {
+    "id": 2002315965,
+    "name": "WUBEN G6 | Ultra Slim Multi-Use Keychain Light",
+    "blurb": "500 lm Main Light | 100 lm Side Light | Low-Force Switch | Detachable Blade | Adjustable Clip | Hidden USB Port",
+    "url": "https://www.kickstarter.com/projects/wubenlight/wuben-g6-ultra-slim-multi-use-keychain-light",
+    "category": "Gadgets",
+    "creator": "WUBEN",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 35000.0,
+    "pledged": 1591187.0,
+    "usdPledged": "202754.37801645",
+    "goalUsd": 4459.82,
+    "percentFunded": 4546.248571428571,
+    "backers": 3221,
+    "deadline": 1795266003,
+    "launchedAt": 1792670403,
+    "staffPick": true,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.5993,
+    "coverRemote": "https://i.kickstarter.com/assets/055/719/992/86443f9d4a1008a821617ad5c36f944d_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793369139&width=1024&sig=1pacSCOQNAeuzV9AwUzbSA%2F%2Bx%2BgJYKjPo858HDVcG%2BQ%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11488290,
+      "price": 235.0,
+      "title": "Wuben G6 Standard x1",
+      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
+      "backers": 300,
+      "limit": 300,
+      "remaining": 0,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11490139,
+      "price": 267.0,
+      "title": "Wuben G6 Standard x1",
+      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
+      "backers": 1466,
+      "limit": 1500,
+      "remaining": 34,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11490144,
+      "price": 515.0,
+      "title": "Wuben G6 Standard x2",
+      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
+      "backers": 421,
+      "limit": 500,
+      "remaining": 79,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 11,
+    "tiersDate": "2026-11-04",
+    "tiersCarried": "2026-11-04",
+    "cues": [
+     [
+      6.99,
+      8.99,
+      "认识一下乌班 G6。"
+     ],
+     [
+      10.49,
+      12.77,
+      "超薄钥匙扣手电筒，"
+     ],
+     [
+      12.77,
+      15.23,
+      "将可靠的照明与日常生活相结合"
+     ],
+     [
+      15.23,
+      15.99,
+      "实用性。"
+     ],
+     [
+      16.99,
+      19.33,
+      "由 70-75 航空航天级精制而成"
+     ],
+     [
+      19.33,
+      22.16,
+      "铝制，坚固耐用"
+     ],
+     [
+      22.16,
+      22.99,
+      "重量轻。"
+     ],
+     [
+      26.34,
+      29.07,
+      "主灯可提供高达 500 流明的亮度"
+     ],
+     [
+      29.07,
+      30.84,
+      "用于日常照明。"
+     ],
+     [
+      30.84,
+      34.27,
+      "侧光提供高达 100 流明"
+     ],
+     [
+      34.27,
+      37.79,
+      "用于特写任务，而两流明红色"
+     ],
+     [
+      37.79,
+      40.88,
+      "信号灯已准备好发出警报并且"
+     ],
+     [
+      40.88,
+      41.91,
+      "紧急情况。"
+     ],
+     [
+      43.41,
+      45.92,
+      "轻触开关响应迅速"
+     ],
+     [
+      45.92,
+      47.41,
+      "您可以感觉到清晰的点击声。"
+     ],
+     [
+      47.91,
+      50.62,
+      "使用起来简单直观，即使在"
+     ],
+     [
+      50.62,
+      53.62,
+      "潮湿时，夹子旋转 90 度以引导"
+     ],
+     [
+      53.62,
+      54.91,
+      "需要浅灰色。"
+     ],
+     [
+      54.91,
+      60.18,
+      "调整角度，然后将 G6 安装到"
+     ],
+     [
+      60.18,
+      64.37,
+      "衣服、背包等等。"
+     ],
+     [
+      64.37,
+      67.1,
+      "被遮盖的 USB 充电端口保持隐藏状态"
+     ],
+     [
+      67.1,
+      69.37,
+      "以获得干净、对称的外观。"
+     ],
+     [
+      69.37,
+      73.01,
+      "侧面内置有细长刀片"
+     ],
+     [
+      73.01,
+      76.64,
+      "身体，为日常增添实用工具"
+     ],
+     [
+      76.64,
+      77.16,
+      "携带。"
+     ],
+     [
+      77.16,
+      79.67,
+      "Wuban G6 包含日常必需品"
+     ],
+     [
+      79.67,
+      82.31,
+      "融入超薄、轻量化设计，"
+     ],
+     [
+      82.31,
+      84.16,
+      "准备好去任何你想去的地方。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/600/240/9854501d3a7f6e9550f347c494bcdb13_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792576301&width=680&sig=QxbSggHbzuoyqHJiwvM3M4ybSPDVGXe6NQh5HXjobd0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/720/017/289cdf26f5d50e2c3f8864e24940bfa4_original.png?fit=scale-down&origin=ugc&q=100&v=1793369284&width=680&sig=LO83sxS5jz1QFeBzdLCHu0DUN4Nu57icE5blfTO4bD4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/560/345/6f81742461d5c9540eb14d9f745d07c2_original.gif?fit=scale-down&origin=ugc&q=92&v=1792336905&width=680&sig=0ERq9P807o4IORl3aGttjkvyaoba40HEqeh09g6ozHU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/477/051/57ef1fba30b2b10f0fdb2f52dcf7c788_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791797114&width=680&sig=Y8y86%2B%2BYX7cNEK7xLyISFaDI%2BGZ8vy1N5NG1ZX6BW1Y%3D"
+     },
+     {
+      "t": "p",
+      "x": "Unlike many lights designed for a single purpose, the WUBEN G6’s compact design opens up more ways to use it. Lightweight and easy to carry, it fits naturally into everyday life and on the go. Wherever life takes you, you can find a place for the G6.",
+      "z": "与许多专为单一用途设计的灯不同，WUBEN G6 的紧凑设计开辟了更多使用方式。它重量轻且易于携带，自然适合日常生活和旅途。无论生活带您去往何处，G6 都能为您找到一席之地。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/559/231/598ba0a0048d4af999199c00a47e0821_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792325378&width=680&sig=%2BO2zeZFL5jcDzCiDedF6tEDDeR%2FDY%2FwptR8%2BsVTgAck%3D"
+     },
+     {
+      "t": "p",
+      "x": "The slim, portable WUBEN G6 offers adjustable brightness from 1 to 500 lumens and a beam distance of up to 66 m. From evening walks and home repairs to outdoor adventures and unexpected power outages, it’s ready to light up everyday moments.",
+      "z": "纤薄便携的 WUBEN G6 提供 1 至 500 流明的可调亮度，光束距离可达 66 m。从晚间散步和房屋维修到户外探险和意外停电，它随时可以照亮日常生活。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/558/256/a22160bb752e402f92cb373020ed19e1_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792312235&width=680&sig=Jr3%2Bwap3GH%2BkvXAnnvWxDhBFDqz%2BkThsO1pxGjxlcRQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/558/513/d25a5d178f71a0127fec9c4dad1fa315_original.gif?fit=scale-down&origin=ugc&q=92&v=1792315173&width=680&sig=3r3iM3xS4xRakwJVf2BZrzsyHEtsg2HyofjqIj3c4oE%3D"
+     },
+     {
+      "t": "p",
+      "x": "Beyond its main beam, the WUBEN G6 offers practical light right at the front. Two 1 W white LEDs deliver 100 lumens for close-up tasks, from checking your gear to making a quick repair. A compact red/blue indicator adds even more versatility: its 2-lumen red light can be used as a signal, and the indicator also shows the light’s power status.",
+      "z": "除了主光束之外，WUBEN G6 还在前方提供实用的光线。两个 1 W 白色 LED 可为近距离任务（从检查装备到快速维修）提供 100 流明的亮度。紧凑的红/蓝指示灯增加了更多的多功能性：其 2 流明红灯可用作信号，并且指示灯还显示灯的电源状态。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/600/927/4c83efac4beebc7d6b39ba7e9dbe76e5_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792578839&width=680&sig=yaiv4ZJ79iV4q1Nf%2BEpFUj%2Fzb5Y7q5DjxboKNeDoMFM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/478/223/0c203b1a0dc459c92c3240d79a19c2e7_original.gif?fit=scale-down&origin=ugc&q=92&v=1791804673&width=680&sig=QwYSspaBXUHmQkDfItsFwANYXFs7yo%2Frb30YX62u4cw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/568/537/cdcec6d897370d311ed3ab30eadc2f21_original.gif?fit=scale-down&origin=ugc&q=92&v=1792402867&width=680&sig=MSJ%2BUkgbEo9QyRWjZdWO67Fs4vupiUpkvLGEOy2Vkww%3D"
+     },
+     {
+      "t": "p",
+      "x": "Slim, easy-to-carry design has been at the heart of the WUBEN G6 from the start. Thinner, then thinner still: at its narrowest point, the G6 is nearly as thin as a USB connector. The result is a thoughtful balance of everyday functionality and effortless portability.",
+      "z": "纤薄、易于携带的设计从一开始就是 WUBEN G6 的核心。越来越薄：在最窄处，G6 几乎与 USB 连接器一样薄。结果是日常功能和轻松便携性之间的深思熟虑的平衡。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/558/518/ec3cfce29f18e2cf7966207791908a94_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792315268&width=680&sig=mIhGGsZPVnBLhYAS3Ke1%2BUsljva8AQHUotuCWG%2BHvEc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/559/227/5e403b5518d983b837cb601e7b091d7e_original.png?fit=scale-down&origin=ugc&q=100&v=1792325297&width=680&sig=RvuC2u3ibnvA5eZHgbhOEsFvBrY2kYQDTCJIm2NsBag%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/443/686/a2710fc9fe47e9163fda0fc76e2018af_original.gif?fit=scale-down&origin=ugc&q=92&v=1791523847&width=680&sig=NkT3QycvkRDt80Xa1WDuZsqhKYvTyGJjHOI%2FHKZQDU0%3D"
+     },
+     {
+      "t": "p",
+      "x": "The WUBEN G6’s concealed, three-way rotating clip quickly became a standout feature for its versatility. For the G6, we’ve taken that idea further with a thicker, sturdier clip and a wider opening, making it easier to attach to your gear and designed for a more secure hold. Clip it on, adjust the angle, and keep your light right where you need it.",
+      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将光线保持在您需要的位置。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/558/517/6638c10a8a928b7f256d60ee860b9ed4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792315259&width=680&sig=nIWaoRGJ%2F1zVieeIMDAiTl4FJPtdLpAA0IJA1SnueZw%3D"
+     },
+     {
+      "t": "p",
+      "x": "On the side opposite the G6’s rotating clip, a compact folding blade is integrated for everyday tasks and outdoor needs. It’s handy for opening packages, cutting cord, or taking care of quick campsite tasks.",
+      "z": "在 G6 旋转夹的对面，集成了一个紧凑的折叠刀片，可满足日常任务和户外需求。它可以方便地打开包裹、剪断电源线或处理快速的露营地任务。"
+     },
+     {
+      "t": "p",
+      "x": "The mini knife detaches from the G6, so you can choose how you carry it. Keep it attached for an all-in-one setup, or remove and stow it separately when you want to carry the G6 on its own. We’re also exploring additional accessory-mounting options to give you more ways to customize your setup.",
+      "z": "迷你刀与 G6 分离，因此您可以选择携带方式。将其固定以实现一体化设置，或者当您想单独携带 G6 时将其取下并单独存放。我们还在探索其他配件安装选项，为您提供更多自定义设置的方法。"
+     },
+     {
+      "t": "p",
+      "x": "We took a different approach with the G6’s switch. It responds to a light press with clear, direct tactile feedback, making operation simple and intuitive. Water won’t interrupt its response. Even underwater, the switch remains usable. A breakthrough in switch design that makes everyday operation easier.",
+      "z": "我们对 G6 的开关采取了不同的方法。轻轻一按，它就会产生清晰、直接的触觉反馈，使操作变得简单直观。水不会中断其反应。即使在水下，开关仍然可用。开关设计的突破，让日常操作更加轻松。"
+     },
+     {
+      "t": "p",
+      "x": "The G6’s high-density 400 mAh battery is protected against overcharging, over-discharge, overcurrent, and short circuits. Electrical insulation adds another layer of protection. The G6 also supports use while charging, so you can keep using the light while it’s plugged in.",
+      "z": "G6 的高密度 400 mAh 电池具有防过度充电、过度放电、过流和短路保护。电气绝缘增加了另一层保护。 G6 还支持边充电边使用，因此您可以在插入电源时继续使用灯。"
+     },
+     {
+      "t": "p",
+      "x": "Made for everyday carry and long-term use, the WUBEN G6 clips onto clothing, backpacks, or key rings with a light press and detaches just as easily. Tested through more than 100,000 press cycles, the sturdy spring clip can support a 5 kg load, providing a secure, dependable hold day after day.",
+      "z": "WUBEN G6 专为日常携带和长期使用而设计，只需轻轻一按即可夹在衣服、背包或钥匙圈上，也可以轻松拆卸。经过超过 100,000 次按压循环测试，坚固的弹簧夹可支撑 5 公斤负载，日复一日地提供安全、可靠的固定。"
+     },
+     {
+      "t": "p",
+      "x": "The Standard and Premium versions are identical in every way except for their materials. The Standard version is CNC-machined from 7075 aerospace-grade aluminum, while the Premium version is made from stonewashed titanium alloy.",
+      "z": "标准版和高级版除了材质不同外，在各方面都相同。标准版由 7075 航空级铝材 CNC 加工而成，而高级版则由石磨钛合金制成。"
+     },
+     {
+      "t": "p",
+      "x": "This project is promoted by Jellop, the ad tech power behind the best Kickstarter launches with 6,000+ successful Kickstarter projects and over $1.4Bn raised in total.",
+      "z": "该项目由 Jellop 推广，Jellop 是最佳 Kickstarter 发布背后的广告技术力量，拥有 6,000 多个成功的 Kickstarter 项目，筹集资金总额超过 14 亿美元。"
+     }
+    ]
+   },
+   {
+    "id": 1841814277,
+    "name": "BirdieSense: Your Golf's First AI Companion!",
+    "blurb": "Capture Every Swing丨Real-Time 3D Mapping丨Proactive AI Coach丨Dual 4K Vision & Edge AI丨6-Hour Runtime丨Portable Design",
+    "url": "https://www.kickstarter.com/projects/1054191270/birdiesense-your-golfs-first-ai-companion",
+    "category": "Robots",
+    "creator": "BirdieSense",
+    "location": "New York, NY",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 20000.0,
+    "pledged": 1065809.0,
+    "usdPledged": "1065809.0",
+    "goalUsd": 20000.0,
+    "percentFunded": 5329.045,
+    "backers": 1039,
+    "deadline": 1794067204,
+    "launchedAt": 1788879604,
+    "staffPick": true,
+    "sources": [
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.5946,
+    "coverRemote": "https://i.kickstarter.com/assets/055/744/986/c1545a3addf403be863e5c85b10d8680_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793617610&width=1024&sig=wEB5rimE%2FVA4undD2AhdCUyfVTuZmkkk44ypWbdZNy8%3D",
+    "videoMp4": "https://v2.kickstarter.com/1793980865-l1raE9JyqqBI%2F3pb32NWWiG0TbeXSNT5lGoDdsPlf5s%3D/projects/5342964/video-1456767-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1793980865-l1raE9JyqqBI%2F3pb32NWWiG0TbeXSNT5lGoDdsPlf5s%3D/projects/5342964/video-1456767-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11398822,
+      "price": 35.0,
+      "title": "Charging Dock",
+      "desc": "Please note: This charging dock is NOT a wireless charger and does not have a built-in charging function. It serves as a stand only, featuring a precise cable cutout at the bottom for the charging cable.",
+      "backers": 104,
+      "limit": null,
+      "remaining": null,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11394490,
+      "price": 799.0,
+      "title": "BirdieSense - Super Early Bird",
+      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
+      "backers": 970,
+      "limit": null,
+      "remaining": null,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11394492,
+      "price": 1498.0,
+      "title": "BirdieSense X2 - Super Early Bird",
+      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️50% OFF $2998 MSRP (save $1500)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
+      "backers": 30,
+      "limit": null,
+      "remaining": null,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 12,
+    "tiersDate": "2026-11-07",
+    "tiersCarried": "",
+    "cues": [
+     [
+      1.55,
+      3.55,
+      "隆重推出Birdie Sense。"
+     ],
+     [
+      3.55,
+      6.55,
+      "Gulse第一个人工智能伙伴。"
+     ],
+     [
+      6.55,
+      9.43,
+      "时尚紧凑的设计，专为"
+     ],
+     [
+      9.43,
+      11.55,
+      "无论游戏带你去哪里。"
+     ],
+     [
+      11.55,
+      14.58,
+      "提升你的实践，重新定义"
+     ],
+     [
+      14.58,
+      16.55,
+      "游戏的界限。"
+     ],
+     [
+      16.55,
+      19.78,
+      "采用双摄像头镜头设计，"
+     ],
+     [
+      19.78,
+      21.55,
+      "签名AI处理器。"
+     ],
+     [
+      21.55,
+      25.55,
+      "将每个摇摆变成您可以跟踪的数据。"
+     ],
+     [
+      25.55,
+      34.94,
+      "依旧向后靠。"
+     ],
+     [
+      34.94,
+      36.94,
+      "让我们沿途步行接送。"
+     ],
+     [
+      46.17,
+      47.17,
+      "就 像 這樣 。"
+     ],
+     [
+      47.17,
+      50.52,
+      "如果您希望我严谨严谨"
+     ],
+     [
+      50.52,
+      51.96,
+      "我也可以这样做呀！"
+     ],
+     [
+      51.96,
+      55.39,
+      "不仅仅是为了驾驶而设计的"
+     ],
+     [
+      55.39,
+      55.96,
+      "区间。"
+     ],
+     [
+      55.96,
+      58.38,
+      "从绿色的微妙突破到"
+     ],
+     [
+      58.38,
+      59.96,
+      "碉堡的难度线。"
+     ],
+     [
+      59.96,
+      62.78,
+      "实时指导可帮助您到达"
+     ],
+     [
+      62.78,
+      65.6,
+      "充分发挥潜力并掌控您的"
+     ],
+     [
+      65.6,
+      65.96,
+      "牌局"
+     ],
+     [
+      65.96,
+      68.96,
+      "距离旗帜56码。"
+     ],
+     [
+      68.96,
+      71.76,
+      "根据您的历史数据，我建议我们"
+     ],
+     [
+      71.76,
+      72.96,
+      "使用50度。"
+     ],
+     [
+      72.96,
+      82.8,
+      "如果我们有计划的话。"
+     ],
+     [
+      82.8,
+      84.8,
+      "今天的第一只小鸟。"
+     ],
+     [
+      84.8,
+      87.65,
+      "不仅仅是精英数字教练的小鸟"
+     ],
+     [
+      87.65,
+      90.43,
+      "感官是你的智能声音"
+     ],
+     [
+      90.43,
+      90.8,
+      "然后在这边消失。"
+     ],
+     [
+      90.8,
+      92.8,
+      "我们今天在做什么？"
+     ],
+     [
+      92.8,
+      94.8,
+      "让我们切换一下。"
+     ],
+     [
+      94.8,
+      96.97,
+      "毕竟，别忘了提高准确性"
+     ],
+     [
+      96.97,
+      97.8,
+      "那种速度是有效的。"
+     ],
+     [
+      97.8,
+      104.24,
+      "您进度的完整历史记录"
+     ],
+     [
+      104.24,
+      109.58,
+      "触手可及。"
+     ],
+     [
+      109.58,
+      112.81,
+      "射击、手套和身体指标小鸟感"
+     ],
+     [
+      112.81,
+      115.58,
+      "了解你的优点和缺点。"
+     ],
+     [
+      115.58,
+      118.27,
+      "游戏化体验让高尔夫更有趣"
+     ],
+     [
+      118.27,
+      119.58,
+      "比已经存在的要多。"
+     ],
+     [
+      119.58,
+      123.07,
+      "通过将您的秋千视频与球整合"
+     ],
+     [
+      123.07,
+      126.55,
+      "来自其他设备的数据，您的实践将"
+     ],
+     [
+      126.55,
+      128.38,
+      "变得更有效。"
+     ],
+     [
+      128.38,
+      150.64,
+      "无需进行繁琐的编辑。"
+     ],
+     [
+      150.64,
+      153.47,
+      "我们的系统会创建您的个人亮点"
+     ],
+     [
+      153.47,
+      156.17,
+      "捕捉您的最佳时刻"
+     ],
+     [
+      156.17,
+      156.64,
+      "加固"
+     ],
+     [
+      156.64,
+      162.7,
+      "我们是小鸟般的感觉。"
+     ],
+     [
+      162.7,
+      165.7,
+      "查看您的进度。达到您的巅峰。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "p",
+      "x": "*   [**BirdieSense, At a glance**](h:BirdieSense-At-a-glance)",
+      "z": "* [* * BirdieSense ，概览* *] (h: BirdieSense-At-a-glance)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Share & Earn 10% Cash Back**](h:Share-Earn-10-Cash-Back)",
+      "z": "* [* *分享并赚取10%的现金返还* *] (h: Share-Earn-10-Cash-Back)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What Golf Experts Say**](h:What-Golf-Experts-Say)",
+      "z": "* [* *高尔夫专家怎么说* *] (h: What-Golf-Experts-Say)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Hear from Our Beta Users**](h:Hear-from-Our-Beta-Users)",
+      "z": "* [* *听取我们的测试版用户的意见* *] (h: Hear-from-Our-Beta-Users)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**BirdieSense Around the World**](h:BirdieSense-Around-the-World)",
+      "z": "* [* * BirdieSense Around the World * *] (h: BirdieSense-Around the World)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Featured On**](h:Featured-On)",
+      "z": "* [* *精选* *] (h: Featured-On)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Why BirdieSense?**](h:Why-BirdieSense-)",
+      "z": "* [* *为什么选择BirdieSense ？ * *] (h: Why-BirdieSense-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Capture Every Metric with Precision**](h:Capture-Every-Metric-with-Precision)",
+      "z": "* [* *使用精度捕获每个指标* *] (h:使用精度捕获每个指标)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**3D Motion Tracking**](h:3D-Motion-Tracking)",
+      "z": "* [* * 3D运动跟踪* *] (h: 3D-Motion-Tracking)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Your AI Companion, Like a Pro Coach**](h:Your-AI-Companion-Like-a-Pro-Coach)",
+      "z": "* [* *你的AI伴侣，像专业教练一样* *] (h: Your-AI-Companion-Like-a-Pro-Coach)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Practice Anywhere. Play Everywhere.**](h:Practice-Anywhere-Play-Everywhere-)",
+      "z": "* [* *随处练习。随处玩。* *] (h: Practice-Anywhere-Play-Everywhere-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Look Closer. See Further.**](h:Look-Closer-See-Further-)",
+      "z": "* [* *仔细观察。请参阅进一步。* *] (h: Look-Closer-See-F further-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Think Faster. Learn Smarter.**](h:Think-Faster-Learn-Smarter-)",
+      "z": "* [* * Think Faster. Learn Smarter. * *] (h: Think-Faster-Learn-Smarter-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Your Companion, Your Style**](h:Your-Companion-Your-Style)",
+      "z": "* [* *您的同伴，您的风格* *] (h: Your-Companion-Your-Style)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Designed for Everyone**](h:Designed-for-Everyone)",
+      "z": "* [* *为所有人设计* *] (h:为所有人设计)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Share Your Best Moments**](h:Share-Your-Best-Moments)",
+      "z": "* [* *分享您的最佳时刻* *] (h: Share-Your-Best-Moments)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Specifications**](h:Specifications)",
+      "z": "* [* *规格* *] （ h ：规格）"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What's in the Box?**](h:What-s-in-the-Box-)",
+      "z": "* [* *盒子里有什么？ * *] (h: What-s-in-the-Box-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Rewards**](h:Rewards)",
+      "z": "* [* *奖励* *] (h: Rewards)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Add-on**](h:Add-on)",
+      "z": "* [* *附加组件* *] (h: Add-on)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**How to Get Your BirdieSense**](h:How-to-Get-Your-BirdieSense)",
+      "z": "* [* *如何获取您的BirdieSense * *] (h: How-to-Get-Your-BirdieSense)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [* *时间轴* *] (h: Timeline)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Shipping & Taxes**](h:Shipping-Taxes)",
+      "z": "* [* *运费和税费* *] （ h ：运费-税费）"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Production Ready, Delivery Confident**](h:Production-Ready-Delivery-Confident)",
+      "z": "* [* *生产就绪，交货信心* *] (h:生产就绪-交货信心)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**About BirdieSense**](h:About-BirdieSense)",
+      "z": "* [* *关于BirdieSense * *] (h:关于BirdieSense)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Connect with BirdieSense**](h:Connect-with-BirdieSense)",
+      "z": "* [* *使用BirdieSense连接* *] (h: Connect-with-BirdieSense)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/744/295/a9b034a9ae04e2149bc86d1bbfac3f76_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793613929&width=680&sig=lZ5hMcslIe7cIi1HaIKWFvN2sL9PQj9WJqB9cWZshEU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/040/831/8c0cdc30e9e064b1ad0ff7da5bdc8cab_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788855575&width=680&sig=F%2FTfOAR8xacpeZsx%2B0GjEM4JwKlHD6826dd6awQOduo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/042/416/6a1992fe857a0b199dd85b53a394a693_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788864267&width=680&sig=vpsrfuHswczj1yizJneCdJPjRq%2FGEa1ehOh5haC17pQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/988/478/61decf9f73e14efa6f0749cdb903069d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788432298&width=680&sig=7tc9aBOgi%2FXTe6xtFtAUvi61bXX2KwF7uCJzNtLtzcw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/988/484/87de4004eca6f63c240948474538bb9f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788432317&width=680&sig=WEu0dj5bk7H%2Fr8jKKuscQ0uXHtWLdO%2FSmdmN07gDqSI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/326/6b0e151a319a1a21e129761874871d0b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764397&width=680&sig=NpAMXWWPr9nly4ZfVivXpyzqSMF2GrY2UyShOBg8bjg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/338/e033b9fcb5cce33a053278dbf8e4637e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764468&width=680&sig=%2FNKz5rpJCHbeoLtRPJPMEAZWzLzt6%2F7lFfWlzqua180%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/340/7fca2a0516dbe06dd75458058d430aec_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764475&width=680&sig=5NO85dhQxviv0XwBVeWZAdiBG2VQMhv74sGtS1YiEPU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/345/d3d39349f04d15afbaf77888379c9b0d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764498&width=680&sig=TrZMrtmDY9OQqO5JkdvErTePRXlqnf0WSOItdGOZAFo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/192/cd4dd76b64c9444ba76432e1754adb2c_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776965&width=680&sig=imL2Zwd7BECA6kln0TgfIVQpxhUiA0f5DkdRge%2FuzY8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/190/8b564805c72291779ef8e7c456e7d152_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776944&width=680&sig=5xEoYiGDMCiu28K6Quhqeri%2Fq2%2FuYVQwxOvMOaNmkJ4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/029/191/e48aab5ac8da3b9495d6f1b34ffdcfcf_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776956&width=680&sig=jabHQa1hUSGr6BztLSCvu7eytHFNZZGA2WQVfHYfNoM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/352/bc04b9016e7aad4c0ea07cb866423d30_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764525&width=680&sig=7o2661SdffZtAUblVwQGHhGziW7TJO179S562XXYGIM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/027/354/e00247e15ea0b76780dfe2e6ff72dcef_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764526&width=680&sig=9ve5HSTv%2BdQ3JDLfngRFRGG3pA1EOVXnglLissGKbUA%3D"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "date": "2026-11-06",
   "generatedAt": "2026-11-06T14:34:15+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
@@ -11469,1672 +13032,6 @@
       "t": "p",
       "x": "*   [**Timeline**](h:Timeline)",
       "z": "* [**Timeline**](h:Timeline)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**What After?**](h:What-After-)",
-      "z": "* [**之后做什么？**](h:之后做什么-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**About Lemmo**](h:About-Lemmo)",
-      "z": "* [**关于 Lemmo**](h:关于-Lemmo)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Risks**](https://www.kickstarter.com/projects/lemmothree/risks-and-challenges)",
-      "z": "* [**风险**](https://www.kickstarter.com/projects/lemmo Three/risks-and-challenges)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/lemmothree/use-of-ai)",
-      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/lemmothird/use-of-ai)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/693/440/bde34844d2d9067ef5aced33bcb43c9b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793200575&width=680&sig=vYc8EXC1UWUjLuFLhDwtgPd0KXZP57Auo1IKfXbWyyA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/693/035/1d456af3d4050845eac786b4eacee3ac_original.png?fit=scale-down&origin=ugc&q=100&v=1793198421&width=680&sig=lHqd5a04SQGr231hR2SWSBa%2BKpY5bzVUrT4YuU%2BPrSM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/692/991/2755dc934bd258c366d04f33fe5b0434_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793198273&width=680&sig=vR0BzX6LIrHe8dm8PMdHJg%2B6ra8RIFq5jpipMn0qyZ0%3D"
-     },
-     {
-      "t": "p",
-      "x": "\"I Didn't Need a Cargo Bike. That Was a Lie.\" - by Everything's Been Done",
-      "z": "“我不需要货运自行车。那是个谎言。” ——一切都已完成"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/688/542/da5ccea6d5f114dd1150b8242955b452_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793171824&width=680&sig=Sn%2BmCnpwEahbOGq4GhQSDP3B%2FRGXm9S3GbGrCiecQHA%3D"
-     },
-     {
-      "t": "p",
-      "x": "\"I didn’t get cargo bikes. Then I rode this one.\" - by Electroheads",
-      "z": "“我没有货运自行车。然后我骑了这辆。” - 作者：Electroheads"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/688/543/eca601a6a79171591dd0928577ec37a3_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793171835&width=680&sig=QxUa5Y0toEKJnXv5QBHNnfKxAfymLjrCccBdpUSnS1M%3D"
-     },
-     {
-      "t": "p",
-      "x": "\"DAS ist das neue LEMMO 3: Longtail im Test\" - by TommysTechReviews",
-      "z": "“DAS ist das neue LEMMO 3：长尾测试”- TommysTechReviews"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/693/014/45f8b4b7c16763b47a7ebef3b719f06e_original.png?fit=scale-down&origin=ugc&q=100&v=1793198313&width=680&sig=NnZYUZZpzQfAR17O5j3VKAMT5LaHf8QZP9xf6JY6yhk%3D"
-     },
-     {
-      "t": "p",
-      "x": "\"Lemmo 3 Q&A: Episode 1, addressing the exact details you’re most curious about.\" - by Lemmo Future",
-      "z": "“Lemmo 3 问答：第 1 集，解决您最好奇的具体细节。” ——Lemmo 未来"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/693/017/816d733de518b749ad67c6294044398f_original.png?fit=scale-down&origin=ugc&q=100&v=1793198326&width=680&sig=aZzbgmm5p9xo1%2FC8FHPK3OAx3Uj588HUSAAWCpGqrUA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/300/287/452ca60dfed3fa371a0f48b1a6c4704b_original.gif?fit=scale-down&origin=ugc&q=92&v=1790616921&width=680&sig=weUTv68iyObVoQXWeUniP3iWyfxkTu6qx%2FrNR1zW2sg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/308/241/ac8fae962d7ea025a1926ef319c8c859_original.gif?fit=scale-down&origin=ugc&q=92&v=1790665370&width=680&sig=GUc2ofp8aw9JhgWSYDVfBdXBxEAePY4TvYPFqhMmbWI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/299/131/64ab5bd831413d01ccfcbe8556e0102a_original.gif?fit=scale-down&origin=ugc&q=92&v=1790611911&width=680&sig=2OObuVzEhx%2BUtNesUdQeRcywnbl2uveGHNL8C1QiXPA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/299/137/6dc3415038bf1161a572daad2c79a014_original.gif?fit=scale-down&origin=ugc&q=92&v=1790611928&width=680&sig=pEIh5vU0qM02XXNExQ0smUz8Bf29DSR%2Fo6SDoZ%2B%2F%2BhY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/308/329/2580af4214f6a63308dd777eff929f04_original.gif?fit=scale-down&origin=ugc&q=92&v=1790665902&width=680&sig=URefeStEfz%2Blqa3Ynoxb8ww5SOJwaMSs%2BjzHmMflT94%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/688/919/114e968bc474ecf71a2172b8311c3330_original.gif?fit=scale-down&origin=ugc&q=92&v=1793174769&width=680&sig=%2BsUvi%2F3yUk2cC9yLSL%2F19AZssxsQQuGmfqPgHKMg8do%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/299/158/6451ee2018e3907b68f322c1dee05f34_original.gif?fit=scale-down&origin=ugc&q=92&v=1790611995&width=680&sig=nn0WRx2yHBPWG2SWP0h2KD5jmvienfeBveXIpTxlPDA%3D"
-     },
-     {
-      "t": "p",
-      "x": "Naturality Digital is the growth-driven marketing agency behind this campaing. We've supported campaigns that have collectively raised over $60M across major crowdfunding platforms. In 2026 alone, our average crowdfunding campaign performance exceeding $1.5M raised per project, reflecting our ability to turn strong products into globally validated market launches.",
-      "z": "Naturality Digital 是本次活动背后的增长驱动型营销机构。我们支持的活动在主要众筹平台上筹集的资金总计超过 6000 万美元。仅 2026 年，我们的众筹活动平均每个项目筹集的资金就超过 150 万美元，这反映出我们有能力将强大的产品转化为经过全球验证的市场发布。"
-     },
-     {
-      "t": "p",
-      "x": "Technical Specifications & Project Details",
-      "z": "技术规格和项目详情"
-     },
-     {
-      "t": "p",
-      "x": "Lemmo 3 APV – Next-Generation Longtail Cargo E-Bike",
-      "z": "Lemmo 3 APV – 下一代长尾货运电动自行车"
-     }
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-10-31",
-  "generatedAt": "2026-10-31T13:31:39+07:00",
-  "source": "Kickstarter discover/advanced API + 项目详情页",
-  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 46,
-  "projects": [
-   {
-    "id": 521399299,
-    "name": "AI WUKONG: Your First AI Humanoid Robot That Does It All",
-    "blurb": "14-DoF Bipedal Kinematics | AI Vision | AI Learning Companion | 50+ Dances, Actions & Fun | Visual/Python Coding | Remote Monitoring",
-    "url": "https://www.kickstarter.com/projects/aiwukong/ai-wukong-your-first-ai-humanoid-robot-that-does-it-all",
-    "category": "Robots",
-    "creator": "AI WUKONG",
-    "location": "Kowloon, Hong Kong",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 20000.0,
-    "pledged": 24887.0,
-    "usdPledged": "24887.0",
-    "goalUsd": 20000.0,
-    "percentFunded": 124.435,
-    "backers": 39,
-    "deadline": 1797089984,
-    "launchedAt": 1793198384,
-    "staffPick": false,
-    "sources": [
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai",
-     "robot"
-    ],
-    "score": 0.8074,
-    "coverRemote": "https://i.kickstarter.com/assets/055/704/493/c69c1614a5012ec480935e03ba6da221_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793268352&width=1024&sig=I5%2F59rVqTBLAirNMPQvivDR8Y90Cf0I9AqvjLV0oFt0%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11502142,
-      "price": 489.0,
-      "title": "Secret Reward - Single Pack",
-      "desc": "🔐Exclusively unlocked for our deposit backers. Thank you for being with us from the start!\\n\\n🤖 Get the AI WUKONG Single Pack at $489, saving 51% off the MSRP of $999! Exclusively unlocked for our deposit backers.\\n\\nYou will receive:\\n· AI WUKONG × 1\\n\\nNote:\\n📍 Shipping addresses will be collected in the upcoming survey.\\n🚚 For detailed shipping fees, please refer to the bottom of our campaign page.",
-      "backers": 12,
-      "limit": 300,
-      "remaining": 288,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11502178,
-      "price": 559.0,
-      "title": "Secret Reward — All-in-One Pack",
-      "desc": "🔐Exclusively unlocked for our deposit backers. Thank you for being with us from the start!\\n\\n🤖 Get the AI WUKONG All-in-One Pack at $559, saving 51% off the combined MSRP of $1,137! Exclusively unlocked for our deposit backers.\\n\\nYou will receive:\\n· AI WUKONG × 1\\n· Suspender Shorts × 1\\n· Cloud Stand × 1\\n\\nNote:\\n📍 Shipping addresses will be collected in the upcoming survey.\\n🎨 You can also select your preferred Suspender Shorts color in the survey.\\n🚚 For detailed shipping fees, please refer to the bottom of our campaign page.",
-      "backers": 4,
-      "limit": 100,
-      "remaining": 96,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11502211,
-      "price": 659.0,
-      "title": "Super Early Bird — All-in-One Pack",
-      "desc": "🤖 Get the AI WUKONG All-in-One Pack at $659, saving 42% off the combined MSRP of $1,137!\\n\\nYou will receive:\\n· AI WUKONG × 1\\n· Suspender Shorts × 1\\n· Cloud Stand × 1\\n\\nNote:\\n📍 Shipping addresses will be collected in the upcoming survey.\\n🎨 You can also select your preferred Suspender Shorts color in the survey.\\n🚚 For detailed shipping fees, please refer to the bottom of our campaign page.",
-      "backers": 16,
-      "limit": 100,
-      "remaining": 84,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 15,
-    "tiersDate": "2026-10-30",
-    "tiersCarried": "2026-10-30",
-    "cues": [
-     [
-      2.38,
-      6.48,
-      "早上好。是时候起床了。"
-     ],
-     [
-      6.48,
-      8.54,
-      "新的一天从熟悉的开始"
-     ],
-     [
-      8.54,
-      9.18,
-      "同伴。"
-     ],
-     [
-      9.18,
-      11.48,
-      "醒来后会收到令人高兴的回应。"
-     ],
-     [
-      11.48,
-      13.98,
-      "认识一下这个家族的最新成员。"
-     ],
-     [
-      13.98,
-      16.84,
-      "您的孩子一直在等待的那个人，"
-     ],
-     [
-      16.84,
-      18.48,
-      "向他们介绍人工智能。"
-     ],
-     [
-      18.48,
-      22.6,
-      "你好！我是一名警察，你的孩子，威廉。"
-     ],
-     [
-      22.6,
-      25.06,
-      "它像朋友一样聊天并陪伴在您身边"
-     ],
-     [
-      25.06,
-      26.1,
-      "身边就像家人一样。"
-     ],
-     [
-      26.1,
-      41.74,
-      "Kong不只是听，它还记得。"
-     ],
-     [
-      41.74,
-      47.33,
-      "谁是我的摇滚乐？"
-     ],
-     [
-      47.33,
-      49.92,
-      "香港有长期记忆"
-     ],
-     [
-      49.92,
-      52.33,
-      "孩子生活中的小事。"
-     ],
-     [
-      52.33,
-      55.37,
-      "块式可视化编程转变思想"
-     ],
-     [
-      55.37,
-      56.33,
-      "付诸行动。"
-     ],
-     [
-      56.33,
-      67.33,
-      "每一步都很容易遵循。每一个想法"
-     ],
-     [
-      67.33,
-      71.18,
-      "变得栩栩如生。"
-     ],
-     [
-      71.18,
-      74.18,
-      "14个伺服电机。香港是一个充满活力的"
-     ],
-     [
-      74.18,
-      75.18,
-      "活动寿命。"
-     ],
-     [
-      75.18,
-      79.83,
-      "一个香港，无处不在"
-     ],
-     [
-      79.83,
-      81.3,
-      "家庭生活。"
-     ],
-     [
-      81.3,
-      85.96,
-      "爸爸，爸爸正在盯着它呢！"
-     ],
-     [
-      85.96,
-      88.96,
-      "你好，香港。马库斯，今天是什么日子？"
-     ],
-     [
-      88.96,
-      97.38,
-      "焕然一新的面貌让每一天都焕然一新。"
-     ],
-     [
-      97.38,
-      100.38,
-      "它移动，它表达自己。"
-     ],
-     [
-      100.38,
-      108.58,
-      "这就是让它感觉真实的原因"
-     ],
-     [
-      108.58,
-      110.13,
-      "朋友。"
-     ],
-     [
-      110.13,
-      114.98,
-      "远程签到，随时通话。"
-     ],
-     [
-      114.98,
-      116.98,
-      "射线绘图。"
-     ],
-     [
-      116.98,
-      118.98,
-      "香港，是什么？"
-     ],
-     [
-      118.98,
-      127.42,
-      "我不能告诉我这里是什么。"
-     ],
-     [
-      127.42,
-      130.42,
-      "而接受练习就是这样的信心。"
-     ],
-     [
-      130.42,
-      132.42,
-      "一次一句话。"
-     ],
-     [
-      132.42,
-      133.42,
-      "一个玩伴。"
-     ],
-     [
-      133.42,
-      135.42,
-      "另外两个人，他随时准备提供帮助。"
-     ],
-     [
-      135.42,
-      138.42,
-      "为什么要画画？为什么要画高级代表？"
-     ],
-     [
-      138.42,
-      146.89,
-      "一本适合全家人的百科全书。"
-     ],
-     [
-      146.89,
-      149.71,
-      "涵盖财经、科普、故事、"
-     ],
-     [
-      149.71,
-      151.89,
-      "天气、历史等等。"
-     ],
-     [
-      151.89,
-      161.54,
-      "还有，久别重逢的家人。"
-     ],
-     [
-      161.54,
-      164.44,
-      "香港清楚地记得在哪里"
-     ],
-     [
-      164.44,
-      166.54,
-      "未完成的故事就此结束。"
-     ],
-     [
-      166.54,
-      169.25,
-      "不仅仅是一个机器人，更是一个成长的伙伴"
-     ],
-     [
-      169.25,
-      170.54,
-      "和你的孩子在一起。"
-     ],
-     [
-      170.54,
-      173.01,
-      "今天为您的孩子准备好了"
-     ],
-     [
-      173.01,
-      173.54,
-      "明天。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "p",
-      "x": "*   [**🤖 | Meet AI WUKONG**](h:-Meet-AI-WUKONG)",
-      "z": "* [**🤖 |认识人工智能悟空**](h:-认识-人工智能-悟空)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**✨ | What Makes WUKONG So Fun?**](h:-What-Makes-WUKONG-So-Fun-)",
-      "z": "* [**✨ |是什么让 WUKONG 如此有趣？**](h:-是什么让 WUKONG 如此有趣-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**🎬 | See AI WUKONG in Action**](h:-See-AI-WUKONG-in-Action)",
-      "z": "* [**🎬 |查看 AI WUKONG 的实际行动**](h:-See-AI-WUKONG-in-Action)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**🕺 | Little Robot. Big Moves.**](h:-Little-Robot-Big-Moves-)",
-      "z": "* [**🕺 |小机器人。大动作。**](h:-小机器人-大动作-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**😊 | A Little Character, Head to Toe**](h:-A-Little-Character-Head-to-Toe)",
-      "z": "* [**😊 |从头到脚的一个小角色**](h:-从头到脚的一个小角色)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**💬 | Talk with WUKONG**](h:-Talk-with-WUKONG)",
-      "z": "* [**💬 |与 WUKONG 交谈**](h:-与 WUKONG 交谈)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**👀 | See the World with WUKONG**](h:-See-the-World-with-WUKONG)",
-      "z": "* [**👀 |和悟空一起看世界**](h:-和悟空一起看世界)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**🏠 | Stay Connected from Anywhere**](h:-Stay-Connected-from-Anywhere)",
-      "z": "* [**🏠 |随时随地保持联系**](h:-随时随地保持联系)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**💻 | Learn to Code with WUKONG**](h:-Learn-to-Code-with-WUKONG)",
-      "z": "* [**💻 |与 WUKONG 一起学习编码**](h:-与 WUKONG 一起学习编码)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**🎵 | Create Your Own Moves**](h:-Create-Your-Own-Moves)",
-      "z": "* [**🎵 |创建您自己的动作**](h:-创建您自己的动作)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**☁️ | Meet the Cloud Stand**](h:-Meet-the-Cloud-Stand)",
-      "z": "* [**☁️ |认识云台**](h:-认识云台)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**🧠 | Key Upgrades**](h:-Key-Upgrades)",
-      "z": "* [**🧠 |关键升级**](h:-关键升级)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**What's in the box**](h:What-s-in-the-box)",
-      "z": "* [**盒子里有什么**](h:盒子里有什么)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Rewards**](h:Rewards)",
-      "z": "* [**奖励**](h:奖励)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Add On**](h:Add-On)",
-      "z": "* [**附加组件**](h:附加组件)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Demo Video**](h:Demo-Video)",
-      "z": "* [**演示视频**](h:演示视频)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Design Journey**](h:Design-Journey)",
-      "z": "* [**设计之旅**](h:设计之旅)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Specification**](h:Specification)",
-      "z": "* [**规格**](h:规格)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Timeline**](h:Timeline)",
-      "z": "* [**时间线**](h:时间线)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**About Us**](h:About-Us)",
-      "z": "* [**关于我们**](h:关于我们)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Risks**](https://www.kickstarter.com/projects/aiwukong/risks-and-challenges)",
-      "z": "* [**风险**](https://www.kickstarter.com/projects/aiwukong/risks-and-challenges)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/aiwukong/use-of-ai)",
-      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/aiwukong/use-of-ai)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/691/582/156b0ff465cdda4881b37721fea14969_original.gif?fit=scale-down&origin=ugc&q=92&v=1793190758&width=680&sig=st%2BV%2BhlcOgFiIGqP%2BTL6v0w%2BdATG3ca3K9P%2BMbJMkWQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/688/177/c3ab457ff66295e361a75d5584b87eaf_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793169036&width=680&sig=IVofo4oVMGbmkBWONzi8NVe%2BJV5XEriXddDzU4wCWMc%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/692/511/a03650ab86d328ac7cfa1252c9e0807c_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793195754&width=680&sig=d0R4NWm9BohJVgxlEV9rIbfuKbDzpZHaFVExLxG8ej8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/690/475/0790efec218a075fd308172b7a24e213_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793183188&width=680&sig=xOZ3NGboeGZla4sLRZZkuATIPGUY3uRiZzv6U%2B1fcHc%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/688/249/1f2a2616c2d945808fcbd1090bcbcb1f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793169604&width=680&sig=NvxuR8B3G%2ByC27HZnhmWFJE8nnq0W7v%2BmaszD%2BDklqA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/688/274/b7ad031731ec45b8c84e61490593307b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793169726&width=680&sig=pi8f7UTGUxALcLBjM8rE%2Bc4ASGb75teu6Ime77Vtmj8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/986/545/f0d3f3d5b26cb570bb0d6442a0bf9882_original.gif?fit=scale-down&origin=ugc&q=92&v=1788421010&width=790&sig=0REuuQ0Wjsrj1GJM9avEutMKMhzDi6S2g6c9ZogMJqA%3D"
-     },
-     {
-      "t": "p",
-      "x": "Driven by 14 high-precision servo actuators across its head, arms, waist, and legs, Wukong 2 performs complex bipedal locomotion, dynamic balance adjustments, and flexible acrobatic motions.",
-      "z": "悟空2由遍布头部、手臂、腰部和腿部的14个高精度伺服执行器驱动，可以执行复杂的双足运动、动态平衡调整和灵活的杂技动作。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/986/654/7735cf21c9716a0a8cc77b792f1299d7_original.gif?fit=scale-down&origin=ugc&q=92&v=1788421934&width=680&sig=vN%2FUiIiKzZSVvhGnz%2BycWAB1a%2Fvast9m5k6zeBqHrxM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/692/614/990459393e9cec7b4278f4f689a17707_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793196171&width=680&sig=dS2LMEF1lYDtR%2F5Mx9JcUFxTlj5l4Q1ZpqHsx%2B7HIn8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/688/341/717e4ec69a9f4fe28c068539e030eb31_original.gif?fit=scale-down&origin=ugc&q=92&v=1793170483&width=680&sig=t1VZHLEKtuxmcItWmE2SeJDjmAegw%2BVGnZspRFk9IEU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/692/620/1fe87b9e731d38b259310418c8ebddf7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793196187&width=680&sig=b8pxng0qpibQ5C42DYB0t7Pmr0Ok6kpLoqQ7KfyoQqI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/688/251/d2a4d91b6d727612121778d7d833d373_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793169626&width=680&sig=FBYAJpoEGTRkGI7dxuWrJAk1JH3%2FqCP9hXz3TKk2SFw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/688/278/049ff7fadbd605ea2aeeb8d979fb41e1_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793169742&width=680&sig=2%2B%2FhG4hc%2F4vtUP6w%2BEp%2B3y4AA90Ll8U6QreHNKx9q5o%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/986/704/d6f20a243031aa232a3b3f0cee9c30da_original.gif?fit=scale-down&origin=ugc&q=92&v=1788422260&width=680&sig=YUJ2ACleNoBmc5A85qbCFbHqjKeBxoNirhiNJYQI4%2FE%3D"
-     },
-     {
-      "t": "p",
-      "x": "Combining vision recognition and audio output, Wukong 2 scans physical educational storybooks page-by-page, functioning as an interactive reading helper and dual-language learning tool.",
-      "z": "悟空2结合视觉识别和音频输出，逐页扫描体育故事书，充当互动阅读助手和双语学习工具。"
-     },
-     {
-      "t": "p",
-      "x": "Built-in HD camera and remote mobility controls enable seamless video calls. Users can remotely check in on home activities, navigate the robot around the room, and stay connected with family members anytime.",
-      "z": "内置高清摄像头和远程移动控制可实现无缝视频通话。用户可以远程查看家庭活动、在房间内导航机器人并随时与家人保持联系。"
-     },
-     {
-      "t": "p",
-      "x": "Offers a comprehensive STEM programming path supporting both graphical drag-and-drop Blockly coding and advanced MicroPython scripting, helping users master robotic movement logic and text-based coding.",
-      "z": "提供全面的 STEM 编程路径，支持图形拖放 Blockly 编码和高级 MicroPython 脚本编写，帮助用户掌握机器人运动逻辑和基于文本的编码。"
-     }
-    ]
-   },
-   {
-    "id": 2002315965,
-    "name": "WUBEN G6 | Ultra Slim Multi-Use Keychain Light",
-    "blurb": "500 lm Main Light | 100 lm Side Light | Low-Force Switch | Detachable Blade | Adjustable Clip | Hidden USB Port",
-    "url": "https://www.kickstarter.com/projects/wubenlight/wuben-g6-ultra-slim-multi-use-keychain-light",
-    "category": "Gadgets",
-    "creator": "WUBEN",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 35000.0,
-    "pledged": 1374940.0,
-    "usdPledged": "175199.460849",
-    "goalUsd": 4459.82,
-    "percentFunded": 3928.4,
-    "backers": 2774,
-    "deadline": 1795266003,
-    "launchedAt": 1792670403,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.7813,
-    "coverRemote": "https://i.kickstarter.com/assets/055/719/992/86443f9d4a1008a821617ad5c36f944d_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793369139&width=1024&sig=1pacSCOQNAeuzV9AwUzbSA%2F%2Bx%2BgJYKjPo858HDVcG%2BQ%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11488290,
-      "price": 235.0,
-      "title": "Wuben G6 Standard x1",
-      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 300,
-      "limit": 300,
-      "remaining": 0,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11490139,
-      "price": 267.0,
-      "title": "Wuben G6 Standard x1",
-      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 1225,
-      "limit": 1500,
-      "remaining": 275,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11490144,
-      "price": 515.0,
-      "title": "Wuben G6 Standard x2",
-      "desc": "*Shipping payment and G6 color selection will be handled in the post-campaign survey",
-      "backers": 357,
-      "limit": 500,
-      "remaining": 143,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 11,
-    "tiersDate": "2026-10-30",
-    "tiersCarried": "2026-10-30",
-    "cues": [
-     [
-      6.99,
-      8.99,
-      "认识一下乌班 G6。"
-     ],
-     [
-      10.49,
-      12.77,
-      "超薄钥匙扣手电筒，"
-     ],
-     [
-      12.77,
-      15.23,
-      "将可靠的照明与日常生活相结合"
-     ],
-     [
-      15.23,
-      15.99,
-      "实用性。"
-     ],
-     [
-      16.99,
-      19.33,
-      "由 70-75 航空航天级精制而成"
-     ],
-     [
-      19.33,
-      22.16,
-      "铝制，坚固耐用"
-     ],
-     [
-      22.16,
-      22.99,
-      "重量轻。"
-     ],
-     [
-      26.34,
-      29.07,
-      "主灯可提供高达 500 流明的亮度"
-     ],
-     [
-      29.07,
-      30.84,
-      "用于日常照明。"
-     ],
-     [
-      30.84,
-      34.27,
-      "侧光提供高达 100 流明"
-     ],
-     [
-      34.27,
-      37.79,
-      "用于特写任务，而两流明红色"
-     ],
-     [
-      37.79,
-      40.88,
-      "信号灯已准备好发出警报并且"
-     ],
-     [
-      40.88,
-      41.91,
-      "紧急情况。"
-     ],
-     [
-      43.41,
-      45.92,
-      "轻触开关响应迅速"
-     ],
-     [
-      45.92,
-      47.41,
-      "您可以感觉到清晰的点击声。"
-     ],
-     [
-      47.91,
-      50.62,
-      "使用起来简单直观，即使在"
-     ],
-     [
-      50.62,
-      53.62,
-      "潮湿时，夹子旋转 90 度以引导"
-     ],
-     [
-      53.62,
-      54.91,
-      "需要浅灰色。"
-     ],
-     [
-      54.91,
-      60.18,
-      "调整角度，然后将 G6 安装到"
-     ],
-     [
-      60.18,
-      64.37,
-      "衣服、背包等等。"
-     ],
-     [
-      64.37,
-      67.1,
-      "被遮盖的 USB 充电端口保持隐藏状态"
-     ],
-     [
-      67.1,
-      69.37,
-      "以获得干净、对称的外观。"
-     ],
-     [
-      69.37,
-      73.01,
-      "侧面内置有细长刀片"
-     ],
-     [
-      73.01,
-      76.64,
-      "身体，为日常增添实用工具"
-     ],
-     [
-      76.64,
-      77.16,
-      "携带。"
-     ],
-     [
-      77.16,
-      79.67,
-      "Wuban G6 包含日常必需品"
-     ],
-     [
-      79.67,
-      82.31,
-      "融入超薄、轻量化设计，"
-     ],
-     [
-      82.31,
-      84.16,
-      "准备好去任何你想去的地方。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/600/240/9854501d3a7f6e9550f347c494bcdb13_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792576301&width=680&sig=QxbSggHbzuoyqHJiwvM3M4ybSPDVGXe6NQh5HXjobd0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/720/017/289cdf26f5d50e2c3f8864e24940bfa4_original.png?fit=scale-down&origin=ugc&q=100&v=1793369284&width=680&sig=LO83sxS5jz1QFeBzdLCHu0DUN4Nu57icE5blfTO4bD4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/560/345/6f81742461d5c9540eb14d9f745d07c2_original.gif?fit=scale-down&origin=ugc&q=92&v=1792336905&width=680&sig=0ERq9P807o4IORl3aGttjkvyaoba40HEqeh09g6ozHU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/477/051/57ef1fba30b2b10f0fdb2f52dcf7c788_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791797114&width=680&sig=Y8y86%2B%2BYX7cNEK7xLyISFaDI%2BGZ8vy1N5NG1ZX6BW1Y%3D"
-     },
-     {
-      "t": "p",
-      "x": "Unlike many lights designed for a single purpose, the WUBEN G6’s compact design opens up more ways to use it. Lightweight and easy to carry, it fits naturally into everyday life and on the go. Wherever life takes you, you can find a place for the G6.",
-      "z": "与许多专为单一用途设计的灯不同，WUBEN G6 的紧凑设计开辟了更多使用方式。它重量轻且易于携带，自然适合日常生活和旅途。无论生活带您去往何处，G6 都能为您找到一席之地。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/559/231/598ba0a0048d4af999199c00a47e0821_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792325378&width=680&sig=%2BO2zeZFL5jcDzCiDedF6tEDDeR%2FDY%2FwptR8%2BsVTgAck%3D"
-     },
-     {
-      "t": "p",
-      "x": "The slim, portable WUBEN G6 offers adjustable brightness from 1 to 500 lumens and a beam distance of up to 66 m. From evening walks and home repairs to outdoor adventures and unexpected power outages, it’s ready to light up everyday moments.",
-      "z": "纤薄便携的 WUBEN G6 提供 1 至 500 流明的可调亮度，光束距离可达 66 m。从晚间散步和房屋维修到户外探险和意外停电，它随时可以照亮日常生活。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/558/256/a22160bb752e402f92cb373020ed19e1_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792312235&width=680&sig=Jr3%2Bwap3GH%2BkvXAnnvWxDhBFDqz%2BkThsO1pxGjxlcRQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/558/513/d25a5d178f71a0127fec9c4dad1fa315_original.gif?fit=scale-down&origin=ugc&q=92&v=1792315173&width=680&sig=3r3iM3xS4xRakwJVf2BZrzsyHEtsg2HyofjqIj3c4oE%3D"
-     },
-     {
-      "t": "p",
-      "x": "Beyond its main beam, the WUBEN G6 offers practical light right at the front. Two 1 W white LEDs deliver 100 lumens for close-up tasks, from checking your gear to making a quick repair. A compact red/blue indicator adds even more versatility: its 2-lumen red light can be used as a signal, and the indicator also shows the light’s power status.",
-      "z": "除了主光束之外，WUBEN G6 还在前方提供实用的光线。两个 1 W 白色 LED 可为近距离任务（从检查装备到快速维修）提供 100 流明的亮度。紧凑的红/蓝指示灯增加了更多的多功能性：其 2 流明红灯可用作信号，并且指示灯还显示灯的电源状态。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/600/927/4c83efac4beebc7d6b39ba7e9dbe76e5_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792578839&width=680&sig=yaiv4ZJ79iV4q1Nf%2BEpFUj%2Fzb5Y7q5DjxboKNeDoMFM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/478/223/0c203b1a0dc459c92c3240d79a19c2e7_original.gif?fit=scale-down&origin=ugc&q=92&v=1791804673&width=680&sig=QwYSspaBXUHmQkDfItsFwANYXFs7yo%2Frb30YX62u4cw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/568/537/cdcec6d897370d311ed3ab30eadc2f21_original.gif?fit=scale-down&origin=ugc&q=92&v=1792402867&width=680&sig=MSJ%2BUkgbEo9QyRWjZdWO67Fs4vupiUpkvLGEOy2Vkww%3D"
-     },
-     {
-      "t": "p",
-      "x": "Slim, easy-to-carry design has been at the heart of the WUBEN G6 from the start. Thinner, then thinner still: at its narrowest point, the G6 is nearly as thin as a USB connector. The result is a thoughtful balance of everyday functionality and effortless portability.",
-      "z": "纤薄、易于携带的设计从一开始就是 WUBEN G6 的核心。越来越薄：在最窄处，G6 几乎与 USB 连接器一样薄。结果是日常功能和轻松便携性之间的深思熟虑的平衡。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/558/518/ec3cfce29f18e2cf7966207791908a94_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792315268&width=680&sig=mIhGGsZPVnBLhYAS3Ke1%2BUsljva8AQHUotuCWG%2BHvEc%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/559/227/5e403b5518d983b837cb601e7b091d7e_original.png?fit=scale-down&origin=ugc&q=100&v=1792325297&width=680&sig=RvuC2u3ibnvA5eZHgbhOEsFvBrY2kYQDTCJIm2NsBag%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/443/686/a2710fc9fe47e9163fda0fc76e2018af_original.gif?fit=scale-down&origin=ugc&q=92&v=1791523847&width=680&sig=NkT3QycvkRDt80Xa1WDuZsqhKYvTyGJjHOI%2FHKZQDU0%3D"
-     },
-     {
-      "t": "p",
-      "x": "The WUBEN G6’s concealed, three-way rotating clip quickly became a standout feature for its versatility. For the G6, we’ve taken that idea further with a thicker, sturdier clip and a wider opening, making it easier to attach to your gear and designed for a more secure hold. Clip it on, adjust the angle, and keep your light right where you need it.",
-      "z": "WUBEN G6 的隐藏式三向旋转夹因其多功能性而迅速成为一个突出的特点。对于 G6，我们进一步采用了这一理念，采用了更厚、更坚固的夹子和更宽的开口，使其更容易连接到您的装备，并设计得更牢固。将其夹上，调整角度，然后将灯光保持在您需要的位置。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/558/517/6638c10a8a928b7f256d60ee860b9ed4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792315259&width=680&sig=nIWaoRGJ%2F1zVieeIMDAiTl4FJPtdLpAA0IJA1SnueZw%3D"
-     },
-     {
-      "t": "p",
-      "x": "On the side opposite the G6’s rotating clip, a compact folding blade is integrated for everyday tasks and outdoor needs. It’s handy for opening packages, cutting cord, or taking care of quick campsite tasks.",
-      "z": "在 G6 旋转夹的对面，集成了一个紧凑的折叠刀片，可满足日常任务和户外需求。它可以方便地打开包裹、剪断电源线或处理快速的露营地任务。"
-     },
-     {
-      "t": "p",
-      "x": "The mini knife detaches from the G6, so you can choose how you carry it. Keep it attached for an all-in-one setup, or remove and stow it separately when you want to carry the G6 on its own. We’re also exploring additional accessory-mounting options to give you more ways to customize your setup.",
-      "z": "迷你刀与 G6 分离，因此您可以选择携带方式。将其固定以实现一体化设置，或者当您想单独携带 G6 时将其取下并单独存放。我们还在探索其他配件安装选项，为您提供更多自定义设置的方法。"
-     },
-     {
-      "t": "p",
-      "x": "We took a different approach with the G6’s switch. It responds to a light press with clear, direct tactile feedback, making operation simple and intuitive. Water won’t interrupt its response. Even underwater, the switch remains usable. A breakthrough in switch design that makes everyday operation easier.",
-      "z": "我们对 G6 的开关采取了不同的方法。轻轻一按，它就会产生清晰、直接的触觉反馈，使操作变得简单直观。水不会中断其反应。即使在水下，开关仍然可用。开关设计的突破，让日常操作更加轻松。"
-     },
-     {
-      "t": "p",
-      "x": "The G6’s high-density 400 mAh battery is protected against overcharging, over-discharge, overcurrent, and short circuits. Electrical insulation adds another layer of protection. The G6 also supports use while charging, so you can keep using the light while it’s plugged in.",
-      "z": "G6 的高密度 400 mAh 电池具有防过度充电、过度放电、过流和短路保护。电气绝缘增加了另一层保护。 G6 还支持边充电边使用，因此您可以在插入电源时继续使用灯。"
-     },
-     {
-      "t": "p",
-      "x": "Made for everyday carry and long-term use, the WUBEN G6 clips onto clothing, backpacks, or key rings with a light press and detaches just as easily. Tested through more than 100,000 press cycles, the sturdy spring clip can support a 5 kg load, providing a secure, dependable hold day after day.",
-      "z": "WUBEN G6 专为日常携带和长期使用而设计，只需轻轻一按即可夹在衣服、背包或钥匙圈上，也可以轻松拆卸。经过超过 100,000 次按压循环测试，坚固的弹簧夹可支撑 5 公斤负载，日复一日地提供安全、可靠的固定。"
-     },
-     {
-      "t": "p",
-      "x": "The Standard and Premium versions are identical in every way except for their materials. The Standard version is CNC-machined from 7075 aerospace-grade aluminum, while the Premium version is made from stonewashed titanium alloy.",
-      "z": "标准版和高级版除了材质不同外，在各方面都相同。标准版由 7075 航空级铝材 CNC 加工而成，而高级版则由石磨钛合金制成。"
-     },
-     {
-      "t": "p",
-      "x": "This project is promoted by Jellop, the ad tech power behind the best Kickstarter launches with 6,000+ successful Kickstarter projects and over $1.4Bn raised in total.",
-      "z": "该项目由 Jellop 推广，Jellop 是最佳 Kickstarter 发布背后的广告技术力量，拥有 6,000 多个成功的 Kickstarter 项目，筹集资金总额超过 14 亿美元。"
-     }
-    ]
-   },
-   {
-    "id": 894993500,
-    "name": "XGIMI AURA 3 Series: The Ultimate 4K RGB Laser TV",
-    "blurb": "5700 ISO Lumens | 8000:1 Native Contrast | Dual Intelligent Iris | 4K 120Hz Refresh Rate | 0.163:1 Ultra Short Throw Ratio",
-    "url": "https://www.kickstarter.com/projects/xgimititannoir/xgimi-aura-3-series-the-ultimate-laser-tv-for-every-moment",
-    "category": "Hardware",
-    "creator": "XGIMI Tech",
-    "location": "Rowland Heights, CA",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 100000.0,
-    "pledged": 20681052.0,
-    "usdPledged": "20681052.0",
-    "goalUsd": 100000.0,
-    "percentFunded": 20681.052,
-    "backers": 7993,
-    "deadline": 1796400007,
-    "launchedAt": 1792508407,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门",
-     "Technology 热门"
-    ],
-    "kwHits": [],
-    "score": 0.6024,
-    "coverRemote": "https://i.kickstarter.com/assets/055/590/014/ce76daee966ec5dc3234f0ac44c4d15a_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792516143&width=1024&sig=cyTDRPWje8fBc4aJoVZV%2FNd6r5m0PfYAfHO%2BrRMOIMo%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11486780,
-      "price": 2399.0,
-      "title": "AURA 3 Max - Launch Special",
-      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 3474,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11459603,
-      "price": 2399.0,
-      "title": "AURA 3 Max - Launch Special",
-      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1673,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11486647,
-      "price": 2399.0,
-      "title": "AURA 3 Max - Launch Special",
-      "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1521,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 9,
-    "tiersDate": "2026-10-26",
-    "tiersCarried": "2026-10-26",
-    "cues": [
-     [
-      1.3,
-      5.02,
-      "认识一下新一代激光 Aura 3"
-     ],
-     [
-      5.02,
-      8.3,
-      "旨在将电影院带回家的电视。"
-     ],
-     [
-      8.3,
-      14.12,
-      "从80英寸到200英寸，带大的"
-     ],
-     [
-      14.12,
-      19.78,
-      "屏幕主页，距离仅几英寸。"
-     ],
-     [
-      19.78,
-      23.51,
-      "由生动的 RGB 激光颜色和高达"
-     ],
-     [
-      23.51,
-      27.07,
-      "5700 ISO流明，每一个细节都精雕细琢"
-     ],
-     [
-      27.07,
-      27.78,
-      "被看到。"
-     ],
-     [
-      27.78,
-      30.4,
-      "彩虹明显减少"
-     ],
-     [
-      30.4,
-      32.78,
-      "效果，享受更清晰的视觉效果。"
-     ],
-     [
-      32.78,
-      35.53,
-      "Aura 3 的核心是精准"
-     ],
-     [
-      35.53,
-      38.34,
-      "光控、双光圈动态"
-     ],
-     [
-      38.34,
-      41.3,
-      "控制光线以显示更深的黑色"
-     ],
-     [
-      41.3,
-      42.78,
-      "更丰富的阴影细节。"
-     ],
-     [
-      42.78,
-      45.58,
-      "我们的 XVision AI 图像处理器"
-     ],
-     [
-      45.58,
-      48.85,
-      "智能增强每一帧，"
-     ],
-     [
-      48.85,
-      52.78,
-      "优化 HDR 以获得更精致的图像。"
-     ],
-     [
-      52.78,
-      56.18,
-      "在其中享受您最喜爱的内容"
-     ],
-     [
-      56.18,
-      57.78,
-      "原始格式。"
-     ],
-     [
-      57.78,
-      61.62,
-      "4K 120Hz刷新率，快速移动"
-     ],
-     [
-      61.62,
-      64.78,
-      "场景保持更清晰、更流畅。"
-     ],
-     [
-      64.78,
-      67.52,
-      "当图片变大时，"
-     ],
-     [
-      67.52,
-      68.78,
-      "声音也应该如此。"
-     ],
-     [
-      68.78,
-      73.91,
-      "体验响应灵敏、流畅且无撕裂"
-     ],
-     [
-      73.91,
-      76.47,
-      "低延迟游戏。"
-     ],
-     [
-      76.47,
-      79.35,
-      "从游戏到观看，体验每一个"
-     ],
-     [
-      79.35,
-      80.47,
-      "在一起的时刻。"
-     ],
-     [
-      80.47,
-      84.56,
-      "配备背光遥控器和 Google TV，"
-     ],
-     [
-      84.56,
-      88.65,
-      "你所爱的一切都在你身边"
-     ],
-     [
-      88.65,
-      89.9,
-      "指尖。"
-     ],
-     [
-      89.9,
-      93.93,
-      "与 X Jimmy Ascent 搭配，Aura 3 成为"
-     ],
-     [
-      93.93,
-      96.9,
-      "完整的激光电视体验。"
-     ],
-     [
-      96.9,
-      100.02,
-      "旨在消失在您的生活中"
-     ],
-     [
-      100.02,
-      103.14,
-      "空间，直到需要带来大的"
-     ],
-     [
-      103.14,
-      106.5,
-      "屏幕点亮终极激光电视"
-     ],
-     [
-      106.5,
-      107.57,
-      "每一刻。"
-     ],
-     [
-      108.88,
-      111.88,
-      "X 吉米 Aura 3 系列。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/367/852e983589af2a91ae3458f022466ebc_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396674&width=680&sig=ktdKnwjoP3rDIKBF9Xrc0uJ0ghF1uZhcmHNI4%2F%2BH%2FsU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/538/252/a4d0f1c6c4b6e7f9a2650668e0edd430_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792136939&width=680&sig=8RyfAjdOkB%2BrArcl8mAOB3nt8NL71CvRwXnliCo1E88%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/368/c86e7e64e383ea306fe3e8ca54cf5e70_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396674&width=680&sig=G1KwtX63XTou3DspDvze9ugl3liS8%2B6QXVCwPKPAeBg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/354/3e73d49efaaf0db40372157246626917_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=77ww2LRY%2BD6FOXoMvdkoouO9QIyP5FfMdKpvsoFjsdo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/365/4ae05f2d0c2c7cc77d5e711f2ca5c1b4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396673&width=680&sig=QQEGbYOeO60QQTLMrYI4GM3r503d8fEL4k8bd43SQ3c%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/804/72e7fe0523c10db76f6705a1e7ff259b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792399396&width=680&sig=4arxSeE6HFi7HbzITqO4qH8c8hgdhK5nP%2FMj7ZfYyPI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/569/111/6d6c326a008a84701eb817d68e5553c8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792405725&width=680&sig=ZSJYfwX%2FDjzaaoe%2FcKXcb0sfryNG0jUa%2BaLmXnC1GEQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/366/4ac0f2dcfc9a4a2ee1534729159a6b45_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396673&width=680&sig=lMCYtBEgBBp3%2F4lRQPkEi1UIT5hYZh1vSv6kMJ0Ci0A%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/355/e1ea26ea2e6363ce2f2eb75e99cd7439_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=UuZB%2FzdY7jHf8v63OdZFHOqvb31%2F0mi8Y6YIA7XdBaY%3D"
-     },
-     {
-      "t": "p",
-      "x": "Powered by dual TI DLPC display controllers, AURA 3 Series delivers 4K UHD at 120Hz, keeping fast-moving scenes sharp and fluid with reduced motion blur and clearer moving detail. From sports and action scenes to gameplay, every frame stays crisp.",
-      "z": "AURA 3 系列由双 TI DLPC 显示控制器提供支持，可提供 120Hz 的 4K UHD，使快速移动的场景保持清晰流畅，减少运动模糊并提供更清晰的移动细节。从体育和动作场景到游戏玩法，每一帧都保持清晰。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/370/3f90441346868d1005ab938b4198b607_original.gif?fit=scale-down&origin=ugc&q=92&v=1792396676&width=680&sig=1UlTVA410jLls1vK%2FWX7OMYcK421HXcSlHpO3Wkz1jk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/369/5d2323ca00b332dc9d140c88a0f67ee1_original.gif?fit=scale-down&origin=ugc&q=92&v=1792396675&width=680&sig=HFsh3J0YRGoJ2f8hzmgGsS0bWXQCXn1lJ77R%2B89PoTU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/362/68da4ad025d04bf4d98a9406c305a660_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396671&width=680&sig=IUHJ04hOmmVfsjigzB0MsffquTr1Dc4yFWDZRrFLxzk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/357/c493f77c5e7962a15f0102afd84ea36b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396669&width=680&sig=vlcuxcWBwy%2Bi6QlKSOOHgg0PUpxYlQQwEg8nc51ac30%3D"
-     },
-     {
-      "t": "p",
-      "x": "With a higher 120Hz refresh rate, colors cycle faster to help reduce visible rainbow effects. Combined with AURA 3 Series’s Anti-RBE technology, it delivers cleaner, more natural visuals across both 2D and 3D content.",
-      "z": "With a higher 120Hz refresh rate, colors cycle faster to help reduce visible rainbow effects.与 AURA 3 系列的 Anti-RBE 技术相结合，它可以在 2D 和 3D 内容中提供更清晰、更自然的视觉效果。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/567/363/dd322221ea6b5e53f4664f6fb65ab509_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792396672&width=680&sig=JUOMffRSOl8prrnpTea8wlhUDqsq6Jcn6tUjkqXDS%2Bc%3D"
-     },
-     {
-      "t": "p",
-      "x": "4K 120Hz Global MEMC intelligently smooths motion across the entire screen, reducing judder and motion blur while preserving image detail. From fast-paced sports to action-packed scenes, every movement stays smooth and clear.",
-      "z": "4K 120Hz Global MEMC intelligently smooths motion across the entire screen, reducing judder and motion blur while preserving image detail. From fast-paced sports to action-packed scenes, every movement stays smooth and clear."
-     },
-     {
-      "t": "p",
-      "x": "Watch films exactly as intended—120Hz is an exact multiple of 24fps, displaying each cinematic frame five times in a consistent 5:5 cadence, without 3:2 pulldown judder.",
-      "z": "完全按照预期观看电影 - 120Hz 是 24fps 的精确倍数，以一致的 5:5 节奏显示每个电影帧五次，没有 3:2 下拉抖动。"
-     },
-     {
-      "t": "p",
-      "x": "Up to 8,000:1 native contrast for deeper black perception in large-screen projection — enabled by precision light control at the source.",
-      "z": "Up to 8,000:1 native contrast for deeper black perception in large-screen projection — enabled by precision light control at the source."
-     },
-     {
-      "t": "p",
-      "x": "Two irises work together to refine every beam of light.",
-      "z": "Two irises work together to refine every beam of light."
-     },
-     {
-      "t": "p",
-      "x": "Automatically adjusting the iris size based on scene brightness for optimal contrast and brightness.",
-      "z": "Automatically adjusting the iris size based on scene brightness for optimal contrast and brightness."
-     },
-     {
-      "t": "p",
-      "x": "Our advanced DBLE technology boosts dynamic contrast by up to 10× while preserving shadow detail and true-to-life color.",
-      "z": "Our advanced DBLE technology boosts dynamic contrast by up to 10× while preserving shadow detail and true-to-life color."
-     },
-     {
-      "t": "p",
-      "x": "RGB triple laser delivers a clear image in bright rooms for anytime viewing.",
-      "z": "RGB 三重激光可在明亮的房间中提供清晰的图像，以便随时观看。"
-     },
-     {
-      "t": "p",
-      "x": "Natural dimensionality brings cinematic realism into your living space.",
-      "z": "自然维度将电影般的真实感带入您的生活空间。"
-     },
-     {
-      "t": "p",
-      "x": "Deeper blacks, brighter highlights, and richer colors across all major HDR formats.",
-      "z": "所有主要 HDR 格式都具有更深的黑色、更明亮的高光和更丰富的色彩。"
-     },
-     {
-      "t": "p",
-      "x": "RGB Triple Laser maintains accurate, vivid color quality — even at peak brightness.",
-      "z": "RGB Triple Laser maintains accurate, vivid color quality — even at peak brightness."
-     },
-     {
-      "t": "p",
-      "x": "Powered by XGIMI-developed X-VISION AI image processor, AURA 3 Series intelligently optimizes every frame in real time for sharper detail, richer contrast, and a more lifelike picture.",
-      "z": "AURA 3系列搭载极米自主研发的X-VISION AI图像处理器，实时智能优化每一帧画面，细节更清晰、对比度更丰富、画面更逼真。"
-     },
-     {
-      "t": "p",
-      "x": "X-VISION intelligently reconstructs every frame in real time, restoring texture, refining edges, and bringing hidden details back into view.",
-      "z": "X-VISION 实时智能地重建每一帧，恢复纹理，细化边缘，并将隐藏的细节带回视野。"
-     },
-     {
-      "t": "p",
-      "x": "X-VISION analyzes every HDR scene in real time, dynamically optimizing brightness and contrast for brighter highlights, deeper shadows, and richer depth.",
-      "z": "X-VISION 实时分析每个 HDR 场景，动态优化亮度和对比度，以获得更亮的高光、更深的阴影和更丰富的深度。"
-     },
-     {
-      "t": "p",
-      "x": "Enjoy instant access to Netflix, YouTube, Prime Video, and more — no extra devices needed. Control your content effortlessly with Google Home and voice commands.",
-      "z": "享受即时访问 Netflix、YouTube、Prime Video 等内容 — 无需额外设备。使用 Google Home 和语音命令轻松控制您的内容。"
-     },
-     {
-      "t": "p",
-      "x": "80W of room-filling sound with remarkable clarity and depth.",
-      "z": "80W 的声音充满整个房间，具有非凡的清晰度和深度。"
-     },
-     {
-      "t": "p",
-      "x": "Hear the movie, not the machine. AURA 3 Series keeps fan noise low, so you can stay immersed in movies, games, and music without distraction.",
-      "z": "听电影，而不是机器。 AURA 3 系列可保持较低的风扇噪音，让您可以专心沉浸在电影、游戏和音乐中。"
-     },
-     {
-      "t": "p",
-      "x": "Everything you need for a more responsive, immersive big-screen gaming experience.",
-      "z": "提供响应更快、身临其境的大屏幕游戏体验所需的一切。"
-     },
-     {
-      "t": "p",
-      "x": "Experience ultra-smooth 4K 120Hz gameplay with reduced motion blur, keeping fast action sharp and responsive.",
-      "z": "体验超流畅的 4K 120Hz 游戏体验，减少运动模糊，保持快速动作的锐利和响应。"
-     },
-     {
-      "t": "p",
-      "x": "VRR & AMD FreeSync™ deliver smooth, tear-free gaming with fluid frames and ultra-low latency.",
-      "z": "VRR 和 AMD FreeSync™ 通过流畅的帧和超低延迟提供流畅、无撕裂的游戏体验。"
-     },
-     {
-      "t": "p",
-      "x": "Experience deeper contrast, lifelike colors, and enhanced shadow detail with Dolby Vision Gaming technology.",
-      "z": "通过杜比视界游戏技术体验更深的对比度、逼真的色彩和增强的阴影细节。"
-     },
-     {
-      "t": "p",
-      "x": "While other UST projectors lose image clarity at the edges, AURA 3 Series maintains full-frame sharpness and color consistency.",
-      "z": "虽然其他 UST 投影机在边缘失去图像清晰度，但 AURA 3 系列保持了全帧清晰度和色彩一致性。"
-     },
-     {
-      "t": "p",
-      "x": "Minimizes chromatic distortion — even at extreme projection angles.",
-      "z": "即使在极端的投影角度下，也能最大限度地减少色彩失真。"
-     },
-     {
-      "t": "p",
-      "x": "Maximizes light transmission while reducing reflection, providing higher brightness and improved image depth.",
-      "z": "最大限度地提高透光率，同时减少反射，提供更高的亮度并改善图像深度。"
-     },
-     {
-      "t": "p",
-      "x": "A precision-engineered optical stack ensures uniform sharpness across the entire screen.",
-      "z": "精密设计的光学堆栈可确保整个屏幕的清晰度一致。"
-     }
-    ]
-   },
-   {
-    "id": 1162759019,
-    "name": "iMicro XL15 - A pocket-sized micro exploration studio.",
-    "blurb": "A complete smartphone microscope kit with a removable light module, improved focus stand, and everything to reveal hidden details.",
-    "url": "https://www.kickstarter.com/projects/uchart/imicro-xl15-a-pocket-sized-micro-exploration-studio",
-    "category": "Gadgets",
-    "creator": "QingYing E&T LLC",
-    "location": "Shanghai, China",
-    "country": "Canada",
-    "currency": "CAD",
-    "currencySymbol": "$",
-    "goal": 14125.0,
-    "pledged": 98988.0,
-    "usdPledged": "70103.326347",
-    "goalUsd": 10003.33,
-    "percentFunded": 700.8,
-    "backers": 910,
-    "deadline": 1797692281,
-    "launchedAt": 1792504681,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "smart"
-    ],
-    "score": 0.596,
-    "coverRemote": "https://i.kickstarter.com/assets/054/694/967/8f35ddcac12e48b0e4f384b0383681bc_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1786198720&width=1024&sig=B%2BXnc9ndlPSD%2BXJxKzRCyHlXZhIX5FHz6Z5XQqvXbeQ%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11345543,
-      "price": 84.0,
-      "title": "iMicro XL15 - Super Early Bird",
-      "desc": "Congrats, you get the iMicro XL15 as Super Early Bird, which includes:\\niMicro XL15 lens, Lighting module, Focusing stand, μRuler M, App i-Seeing, and instruction sheet in a thin PP case also as lighting box",
-      "backers": 725,
-      "limit": 725,
-      "remaining": 0,
-      "eta": 1806537600,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11345545,
-      "price": 89.0,
-      "title": "iMicro XL15 - Early Bird",
-      "desc": "Congrats, you get the iMicro XL15 as Early Bird, which includes:\\niMicro XL15 lens, Lighting module, Focusing stand, μRuler M, App i-Seeing, and instruction sheet in a thin PP case also as lighting box",
-      "backers": 152,
-      "limit": 180,
-      "remaining": 28,
-      "eta": 1806537600,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11345547,
-      "price": 95.0,
-      "title": "Copy of iMicro XL15 - KS Offer",
-      "desc": "Congrats, you get the iMicro XL15 as Kickstarter Special Offer, which includes:\\niMicro XL15 lens, Lighting module, Focusing stand, μRuler M, App i-Seeing, and instruction sheet in a thin PP case also as lighting box",
-      "backers": 13,
-      "limit": null,
-      "remaining": null,
-      "eta": 1806537600,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 11,
-    "tiersDate": "2026-10-30",
-    "tiersCarried": "2026-10-30",
-    "cues": [],
-    "vttLang": "",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/701/991/9c20d043ae997389bcd110b5ad6798ac_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1786286742&width=160&sig=UIqYXGOP1GhX9%2Bx7SQZrnNIy12i3UJpa3WWfbiEfj8I%3D"
-     },
-     {
-      "t": "p",
-      "x": "QingYing E&T LLC",
-      "z": "清盈经济技术有限公司"
-     },
-     {
-      "t": "p",
-      "x": "14 created•0 backed",
-      "z": "14 个创建•0 个支持"
-     },
-     {
-      "t": "p",
-      "x": "We are a team of microscopy enthusiasts and experts dedicated to creating innovative microscope tools that help you enjoy microscopic...",
-      "z": "我们是一支由显微镜爱好者和专家组成的团队，致力于创造创新的显微镜工具，帮助您享受显微镜......"
-     },
-     {
-      "t": "p",
-      "x": "*   [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Dice Throne Nexus](https://www.kickstarter.com/projects/dicethrone/dice-throne-nexus?ref=recommendation-projectpage-footer-1&category_id=Q2F0ZWdvcnktMzQ=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Dice Throne](https://www.kickstarter.com/profile/dicethrone)",
-      "z": "* [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[骰子王座Nexus](https://www.kickstarter.com/projects/dicethrone/dice-throne-nexus?ref=recommendation-projectpage-footer-1&category_id=Q2F0ZWdvcnktMzQ=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[骰子王座](https://www.kickstarter.com/profile/dicethrone)"
-     },
-     {
-      "t": "p",
-      "x": "4 days left • 3693% funded    [![Image 7: Project video for Dice Throne Nexus](https://i.kickstarter.com/assets/055/495/958/c2437663df93edd55de5f89cbee27c6b_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1791895791&width=560&sig=PENeqeLgR4CvGRf%2Buxx8qrpEUi5jlwagE5q1Xho4zi0%3D)[Video 5](https://v2.kickstarter.com/1793370151-zoGrKNirqSNgvxpfKVAuxzM1InSk6f07Gpd7Aq5myxM%3D/projects/5369479/video-1467869-hls_playlist.m3u8)](https://www.kickstarter.com/projects/dicethrone/dice-throne-nexus?ref=recommendation-projectpage-footer-1&category_id=Q2F0ZWdvcnktMzQ=)    [![Image 8: user avatar](https://i.kickstarter.com/assets/025/715/662/f062f2292e2c96c18cd94740ff83f6ba_original.jpg?anim=false&fit=cover&height=80&origin=ugc&q=92&v=1562367091&width=80&sig=PVjxgXEiPYnX3XYQKM8O5p0wx4AmHkfL%2F61R33r3W0Q%3D)](https://www.kickstarter.com/profile/dicethrone)      Four fully charged Heroes and an electric co-op experience for the collectible tabletop game.",
-      "z": "还剩 4 天 • 3693% 资金到位 [![图片 7：Dice Throne 的项目视频Nexus](https://i.kickstarter.com/assets/055/495/958/c2437663df93edd55de5f89cbee27c6b_original.png?anim=false&fit=cover&g ravity=auto&height=315&origin=ugc&q=92&v=1791895791&width=560&sig=PENeqeLgR4CvGRf%2Buxx8qrpEUi5jlwagE5q1Xho4zi0%3D)[视频5](https://v2.kickstarter.com/1793370151-zoGrKNirqSNgvxpfKVAuxzM1InSk6f07Gpd7Aq5myxM%3D/projects/5369479/video-1467869-hls_playlist.m3u8) ](https://www.kickstarter.com/projects/dicethrone/dice-throne-nexus?ref=recommendation-projectpage-footer-1&category_id=Q2F0ZWdvcnktMzQ=) [！[图片8：用户头像](https://i.kickstarter.com/assets/025/715/662/f062f2292e2c96c18cd94740ff83f6ba_original.jpg?anim=false&fit=cover&height=80&origi n=ugc&q=92&v=1562367091&width=80&sig=PVjxgXEiPYnX3XYQKM8O5p0wx4AmHkfL%2F61R33r3W0Q%3D)](https://www.kickstarter.com/profile/dicethrone)四个充满电的英雄和电动合作体验的收藏桌面游戏。"
-     },
-     {
-      "t": "p",
-      "x": "*   [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Rainbow Blvd. - A Colorful and Clever Board Game](https://www.kickstarter.com/projects/steelwinggames/rainbow-blvd?ref=recommendation-projectpage-footer-2&category_id=Q2F0ZWdvcnktMzQ=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Steelwing Games](https://www.kickstarter.com/profile/steelwinggames)",
-      "z": "* [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[彩虹大道。 - 丰富多彩、聪明的棋盘游戏](https://www.kickstarter.com/projects/steelwinggames/rainbow-blvd?ref=recommendation-projectpage-footer-2&category_id=Q2F0ZWdvcnktMzQ=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Steelwing游戏](https://www.kickstarter.com/profile/steelwinggames)"
-     },
-     {
-      "t": "p",
-      "x": "13 days left • 327% funded    [![Image 9: Project video for Rainbow Blvd. - A Colorful and Clever Board Game](https://i.kickstarter.com/assets/055/533/440/a9a7727c3ad81533966c3e5ef4913847_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1792100060&width=560&sig=UsCJKPOaV%2B4jcwfIva6nr87s4jWhYMBCexUoSAOiESg%3D)[Video 6](https://v2.kickstarter.com/1793370151-EMbNM6S6O0i1w%2B5KXAU3A73uNSit58UOA4aMcIbvaZ0%3D/projects/5270115/video-1465874-hls_playlist.m3u8)](https://www.kickstarter.com/projects/steelwinggames/rainbow-blvd?ref=recommendation-projectpage-footer-2&category_id=Q2F0ZWdvcnktMzQ=)    [![Image 10: user avatar](https://i.kickstarter.com/assets/052/122/290/57108c923ee3f93f1f3a56ecd4db0ed0_original.png?anim=false&fit=cover&height=80&origin=ugc&q=92&v=1767633636&width=80&sig=ZjXRBphU3YVh3q4IEP%2FhV9PnWsfq5v7TK3OOD1Eozm0%3D)](https://www.kickstarter.com/profile/steelwinggames)      Build beautiful translucent 3D rainbows & score on any player's turn in a vibrant strategy board game for 1–4 players (5 w/expansion).",
-      "z": "还剩 13 天 • 327% 资金到位 [![图片 9：Rainbow Blvd. 的项目视频。 - 色彩缤纷、巧妙的棋盘游戏](https://i.kickstarter.com/assets/055/533/440/a9a7727c3ad81533966c3e5ef4913847_original.png?anim=false&fit=cover&gr avity=自动&高度=315&原点=ugc&q=92&v=1792100060&宽度=560&sig=UsCJKPOaV%2B4jcwfIva6nr87s4jWhYMBCexUoSAOiESg%3D)[视频6](https://v2.kickstarter.com/1793370151-EMbNM6S6O0i1w%2B5KXAU3A73uNSit58UOA4aMcIbvaZ0%3D/projects/5270115/video-1465874-hls_playlist.m3u 8)](https://www.kickstarter.com/projects/steelwinggames/rainbow-blvd?ref=recommendation-projectpage-footer-2&category_id=Q2F0ZWdvcnktMzQ=) [！[图片10：用户头像](https://i.kickstarter.com/assets/052/122/290/57108c923ee3f93f1f3a56ecd4db0ed0_original.png?anim=false&fit=cover&height=80&origin= ugc&q=92&v=1767633636&width=80&sig=ZjXRBphU3YVh3q4IEP%2FhV9PnWsfq5v7TK3OOD1Eozm0%3D)](https://www.kickstarter.com/profile/steelwinggames)在这款适合 1-4 名玩家（5 人/扩展）的充满活力的策略棋盘游戏中，构建美丽的半透明 3D 彩虹并在任何玩家的回合中得分。"
-     },
-     {
-      "t": "p",
-      "x": "*   [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[AirCannon GPX: UNLEASH 118MPH POWER. THE MONSTER BLOWER](https://www.kickstarter.com/projects/magpietech/aircannon-gpx-unleash-118mph-power-the-monster-blower?ref=recommendation-projectpage-footer-3&category_id=Q2F0ZWdvcnktNTI=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Magpie Tech](https://www.kickstarter.com/profile/magpietech)",
-      "z": "* [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[AirCannon GPX：释放 118MPH 的力量。怪物鼓风机](https://www.kickstarter.com/projects/magpietech/aircannon-gpx-unleash-118mph-power-the-monster-blower?ref=recommendati on-projectpage-footer-3&category_id=Q2F0ZWdvcnktNTI=)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Magpie技术](https://www.kickstarter.com/profile/magpietech)"
-     },
-     {
-      "t": "p",
-      "x": "7 days left • 10287% funded    [![Image 11: Project video for AirCannon GPX: UNLEASH 118MPH POWER. THE MONSTER BLOWER](https://i.kickstarter.com/assets/055/028/205/a7d8a80c5d44d3891cfc5695358d01d6_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1788770799&width=560&sig=A2GOvi37c7buC%2BjwoMRCXWXtbS%2FjcFZ492AWId1d4Pk%3D)[Video 7](https://v2.kickstarter.com/1793370151-iGxSgL%2Fm79prIZ6sHGiDZpe7gYFk6losfND1NxN3F%2Bk%3D/projects/5361281/video-1458010-hls_playlist.m3u8)](https://www.kickstarter.com/projects/magpietech/aircannon-gpx-unleash-118mph-power-the-monster-blower?ref=recommendation-projectpage-footer-3&category_id=Q2F0ZWdvcnktNTI=)    [![Image 12: user avatar](https://i.kickstarter.com/assets/046/867/196/c4314dff43621d8eecf0a65aa5d0ba32_original.png?anim=false&fit=cover&height=80&origin=ugc&q=92&v=1728887525&width=80&sig=QxZP%2BnEMxZBnsil22SJ4VH3OPczcOrBXxRcjhp3JqJg%3D)](https://www.kickstarter.com/profile/magpietech)      118MPH(190km/h) | 0.77lb Handy Size | 16.8V BL Motor | Jet Engine Blades | Heat-Resistant Design | 3 Nozzles with vacuum | 140,000RPM",
-      "z": "还剩 7 天 • 10287% 已获资助 [![图片 11：AirCannon GPX 项目视频：释放 118MPH 的力量。怪物鼓风机](https://i.kickstarter.com/assets/055/028/205/a7d8a80c5d44d3891cfc5695358d01d6_original.jpg?anim=false&fit=cover&gr avity=自动&高度=315&原点=ugc&q=92&v=1788770799&宽度=560&sig=A2GOvi37c7buC%2BjwoMRCXWXtbS%2FjcFZ492AWId1d4Pk%3D)[视频7](https://v2.kickstarter.com/1793370151-iGxSgL%2Fm79prIZ6sHGiDZpe7gYFk6losfND1NxN3F%2Bk%3D/projects/5361281/video-1458010-hls_playlist.m3u8)](https://www.ki ckstarter.com/projects/magpietech/aircannon-gpx-unleash-118mph-power-the-monster-blower?ref=recommendation-projectpage-footer-3&category_id=Q2F0ZWdvcnktNTI=) [！[图12：用户头像](https://i.kickstarter.com/assets/046/867/196/c4314dff43621d8eecf0a65aa5d0ba32_original.png?anim=false&fit=cover&height=80&origi n=ugc&q=92&v=1728887525&width=80&sig=QxZP%2BnEMxZBnsil22SJ4VH3OPczcOrBXxRcjhp3JqJg%3D)](https://www.kickstarter.com/profile/magpietech) 118 英里/小时（190 公里/小时）| 0.77 磅 方便尺寸 | 16.8V 无刷电机 |喷气发动机叶片|耐热设计| 3 个真空喷嘴 | 140,000转/分钟"
-     },
-     {
-      "t": "p",
-      "x": "*   [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[Frost Titan Core Plate: Elevate Your Outdoor Experience.](https://www.kickstarter.com/projects/storagellc-japan/frost-titan-core-plate-10mm-titanium-cooling-plate?ref=recommendation-projectpage-footer-4&category_id=Q2F0ZWdvcnktMzM3)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[storagellc-japan](https://www.kickstarter.com/profile/storagellc-japan)",
-      "z": "* [](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[冰霜泰坦核心板：提升您的户外体验经验。](https://www.kickstarter.com/projects/storagellc-japan/frost-titan-core-plate-10mm-titanium-cooling-plate?ref=recommendation-projectpage-footer-4&cate gory_id=Q2F0ZWdvcnktMzM3)[](https://www.kickstarter.com/discover/pwl?ref=project_pwl_badge)[storagellc-japan](https://www.kickstarter.com/profile/storagellc-japan)"
-     },
-     {
-      "t": "p",
-      "x": "2 days left • 13795% funded    [![Image 13: Project video for Frost Titan Core Plate: Elevate Your Outdoor Experience.](https://i.kickstarter.com/assets/054/974/348/47d0c1f5d29deda7e5d352d439b33d7f_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1788347325&width=560&sig=gvrUTniI79%2F0lpHMfhAZ2zhQwU3rssPDqeXThKNnOKQ%3D)[Video 8](https://v2.kickstarter.com/1793370151-OFCD1wslZsH6BcuugAHZWu3bKos8vsrFWNX8wdgah08%3D/projects/5344310/video-1456201-hls_playlist.m3u8)](https://www.kickstarter.com/projects/storagellc-japan/frost-titan-core-plate-10mm-titanium-cooling-plate?ref=recommendation-projectpage-footer-4&category_id=Q2F0ZWdvcnktMzM3)    [![Image 14: user avatar](https://i.kickstarter.com/assets/054/356/774/6ccb9c5a14e00647fe211c76d88b21fe_original.png?anim=false&fit=cover&height=80&origin=ugc&q=92&v=1783405669&width=80&sig=h%2BNyySd2MGBcZb3NhuWmlhUiBHx%2BF627PciJGF%2F3aLM%3D)](https://www.kickstarter.com/profile/storagellc-japan)      A 10mm Ultra-Slim Titanium Cooling Plate That Reaches 14°F (-10°C)—More Cold, Less Bulk.",
-      "z": "还剩 2 天 • 13795% 资金到位 [![图片 13：Frost Titan 核心板项目视频：提升您的户外体验经验。](https://i.kickstarter.com/assets/054/974/348/47d0c1f5d29deda7e5d352d439b33d7f_original.png?anim=false&fit=cove r&gravity=auto&height=315&origin=ugc&q=92&v=1788347325&width=560&sig=gvrUTniI79%2F0lpHMfhAZ2zhQwU3rssPDqeXThKNnOKQ%3D)[视频8](https://v2.kickstarter.com/1793370151-OFCD1wslZsH6BcuugAHZWu3bKos8vsrFWNX8wdgah08%3D/projects/5344310/video-1456201-hls_playlist.m3u8)](https://www.kicks tarter.com/projects/storagellc-japan/frost-titan-core-plate-10mm-titanium-cooling-plate?ref=recommendation-projectpage-footer-4&category_id=Q2F0ZWdvcnktMzM3) [！[图片14：用户头像](https://i.kickstarter.com/assets/054/356/774/6ccb9c5a14e00647fe211c76d88b21fe_original.png?anim=false&fit=cover&height=80&origin=ugc &q=92&v=1783405669&width=80&sig=h%2BNyySd2MGBcZb3NhuWmlhUiBHx%2BF627PciJGF%2F3aLM%3D)](https://www.kickstarter.com/profile/storagellc-japan) 10 毫米超薄钛冷却板，温度可达 14°F (-10°C) — 温度更低，体积更小。"
-     }
-    ]
-   },
-   {
-    "id": 300815528,
-    "name": "Lemmo 3: Next-Gen Full-Suspension Longtail SUV E-Bike",
-    "blurb": "4D Suspension | Semi-Solid-State Battery | 960Wh | Total Security System | Rear Radar | Combined Braking | Auto Shifting | Cargo Bike",
-    "url": "https://www.kickstarter.com/projects/lemmothree/lemmo-three-an-intelligent-all-purpose-vehicle-for-life",
-    "category": "Hardware",
-    "creator": "Lemmo",
-    "location": "Berlin, Germany",
-    "country": "Germany",
-    "currency": "EUR",
-    "currencySymbol": "€",
-    "goal": 20000.0,
-    "pledged": 985066.0,
-    "usdPledged": "1100570.91859732",
-    "goalUsd": 22345.12,
-    "percentFunded": 4925.33,
-    "backers": 448,
-    "deadline": 1796166000,
-    "launchedAt": 1793199548,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.5915,
-    "coverRemote": "https://i.kickstarter.com/assets/055/690/167/49b15de1a8de8b8964f4d6a24f018013_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793181462&width=1024&sig=R8OSw3Gqv4S1WHREb%2FUNLqy4QToxc4hLBoSHO4b0Baw%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11492462,
-      "price": 1850.0,
-      "title": "Exclusive Reserve: Lemmo 3 White - Chain",
-      "desc": "Get your Lemmo 3 at our exclusive reserve price—limited quantities available.\\nMSRP €3,390\\n44% OFF\\n\\nSelect your add-ons in the next steps:\\n- Family & Passenger Bundle: +€199 (16% OFF)\\n- Outdoor Grand Tour Bundle: +€309 (16% OFF)\\n- More individual accessories available\\n\\n*Pledge price includes import duties and tariffs. VAT/GST/sales tax and shipping fees are excluded and vary by region.\\n*Shipping address, shipping fees, and any applicable VAT/GST will be collected through Pledge Manager when dispatch is closer in Spring 2027.\\n*Regional version auto-matched to your delivery address.",
-      "backers": 115,
-      "limit": null,
-      "remaining": null,
-      "eta": 1809129600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11492467,
-      "price": 1850.0,
-      "title": "Exclusive Reserve: Lemmo 3 Black - Chain",
-      "desc": "Get your Lemmo 3 at our exclusive reserve price—limited quantities available.\\nMSRP €3,390\\n44% OFF\\n\\nSelect your add-ons in the next steps:\\n- Family & Passenger Bundle: +€199 (16% OFF)\\n- Outdoor Grand Tour Bundle: +€309 (16% OFF)\\n- More individual accessories available\\n\\n*Pledge price includes import duties and tariffs. VAT/GST/sales tax and shipping fees are excluded and vary by region.\\n*Shipping address, shipping fees, and any applicable VAT/GST will be collected through Pledge Manager when dispatch is closer in Spring 2027.\\n*Regional version auto-matched to your delivery address.",
-      "backers": 94,
-      "limit": null,
-      "remaining": null,
-      "eta": 1809129600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11492204,
-      "price": 2019.0,
-      "title": "Exclusive Reserve: Lemmo 3 White - Belt",
-      "desc": "Get your Lemmo 3 at our exclusive reserve price—limited quantities available.\\nMSRP €3,559\\n42% OFF\\n\\nSelect your add-ons in the next steps:\\n- Family & Passenger Bundle: +€199 (16% OFF)\\n- Outdoor Grand Tour Bundle: +€309 (16% OFF)\\n- More individual accessories available\\n\\n*Pledge price includes import duties and tariffs. VAT/GST/sales tax and shipping fees are excluded and vary by region.\\n*Shipping address, shipping fees, and any applicable VAT/GST will be collected through Pledge Manager when dispatch is closer in Spring 2027.\\n*Regional version auto-matched to your delivery address.",
-      "backers": 93,
-      "limit": null,
-      "remaining": null,
-      "eta": 1809129600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 26,
-    "tiersDate": "2026-10-30",
-    "tiersCarried": "2026-10-30",
-    "cues": [],
-    "vttLang": "",
-    "story": [
-     {
-      "t": "p",
-      "x": "*   [**Media & Reviews**](h:Media-Reviews)",
-      "z": "* [**媒体与评论**](h:媒体评论)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Lemmo Q&A Ep**](h:Lemmo-Q-A-Ep)",
-      "z": "* [**Lemmo Q&A Ep**](h:Lemmo-Q-A-Ep)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Introducing Lemmo 3**](h:Introducing-Lemmo-3)",
-      "z": "* [**Lemmo 3 简介**](h:Lemmo-3 简介)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**P1. Comfort**](h:P1-Comfort)",
-      "z": "* [**P1。舒适度**](h:P1-舒适度)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**P2. Maneuver**](h:P2-Maneuver)",
-      "z": "* [**P2。机动**](h:P2-机动)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**P3. Versatility**](h:P3-Versatility)",
-      "z": "* [**P3。多功能性**](h:P3-多功能性)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**P4. Safety**](h:P4-Safety)",
-      "z": "* [**P4。安全**](h:P4-安全)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**P5. Intelligence**](h:P5-Intelligence)",
-      "z": "* [**P5。智力**](h:P5-智力)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**P6. Performance**](h:P6-Performance)",
-      "z": "* [**P6。性能**](h:P6-性能)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Lemmo VS.**](h:Lemmo-VS-)",
-      "z": "* [**Lemmo VS.**](h:Lemmo-VS-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Add-ons**](h:Add-ons)",
-      "z": "* [**附加组件**](h:附加组件)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Specs**](h:Specs)",
-      "z": "* [**规格**](h:规格)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Rewards & Bundles**](h:Rewards-Bundles)",
-      "z": "* [**奖励和捆绑包**](h:奖励捆绑包)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Tax & Shipping**](h:Tax-Shipping)",
-      "z": "* [**税费和运费**](h:税费-运费)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Timeline**](h:Timeline)",
-      "z": "* [**时间线**](h:时间线)"
      },
      {
       "t": "p",
