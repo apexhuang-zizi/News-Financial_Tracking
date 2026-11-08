@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T13:53:10+07:00",
+  "generatedAt": "2026-11-08T19:51:21+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 45,
+  "poolSize": 46,
   "projects": [
    {
     "id": 1773680302,
@@ -18,11 +18,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 852775.0,
-    "usdPledged": "852775.0",
+    "pledged": 859477.0,
+    "usdPledged": "859477.0",
     "goalUsd": 10000.0,
-    "percentFunded": 8527.75,
-    "backers": 1120,
+    "percentFunded": 8594.77,
+    "backers": 1127,
     "deadline": 1796482808,
     "launchedAt": 1793890808,
     "staffPick": false,
@@ -34,7 +34,7 @@
      "ai",
      "nas"
     ],
-    "score": 0.842,
+    "score": 0.8423,
     "coverRemote": "https://i.kickstarter.com/assets/055/809/178/b6e395e7993bd634e707c6e33bc5a35b_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794032504&width=1024&sig=dTROVRx1ofik%2BcXfVHH0%2BF8poz0gOWwNh1MGyT97T2s%3D",
     "videoMp4": null,
     "videoHls": null,
@@ -44,7 +44,7 @@
       "price": 469.0,
       "title": "ME Pro N150 2-Bay",
       "desc": "【Super Early Bird Offer】\\nYou will get a ME Pro N150 2-Bay version and save 30% off the MSRP. Seize this incredible offer before prices increase!\\n\\n· 3-Year warranty included.\\n· Free shipping to most destinations.\\n· All shown prices are in USD.\\n· Shipping details will be collected after the campaign.",
-      "backers": 235,
+      "backers": 247,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -55,7 +55,7 @@
       "price": 739.0,
       "title": "ME Pro 13500H 2-Bay",
       "desc": "【Super Early Bird Offer】\\nYou will get a ME Pro 13500H 2-Bay version and save 30% off the MSRP. Seize this incredible offer before prices increase!\\n\\n· 3-Year warranty included.\\n· Free shipping to most destinations.\\n· All shown prices are in USD.\\n· Shipping details will be collected after the campaign.",
-      "backers": 183,
+      "backers": 186,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -66,7 +66,7 @@
       "price": 1279.0,
       "title": "ME Pro AI 470 2-Bay",
       "desc": "【Super Early Bird Offer】\\nYou will get a ME Pro AI 470 2-Bay version and save 30% off the MSRP. Seize this incredible offer before prices increase!\\n\\n· 3-Year warranty included.\\n· Free shipping to most destinations.\\n· All shown prices are in USD.\\n· Shipping details will be collected after the campaign.",
-      "backers": 159,
+      "backers": 169,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -74,8 +74,8 @@
      }
     ],
     "rewardsTotal": 29,
-    "tiersDate": "2026-11-07",
-    "tiersCarried": "2026-11-07",
+    "tiersDate": "2026-11-08",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
@@ -201,10 +201,6 @@
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/758/561/52bec48613af10f95e58575971df6399_original.png?fit=scale-down&origin=ugc&q=100&v=1793697060&width=680&sig=iGgDSbzMpHeRnwP3pOz%2FHjGbxcTm6E7YAIKiJyCl%2Fb0%3D"
-     },
-     {
-      "t": "img",
       "u": "https://i.kickstarter.com/assets/055/761/096/189bb1289c9a9b7a35a105c7a6bcb98a_original.png?fit=scale-down&origin=ugc&q=100&v=1793709452&width=680&sig=hLqH6oq1UMrpfFAdsuExmuYTqq%2Bhw6mboml425aKs6M%3D"
      },
      {
@@ -251,7 +247,7 @@
      {
       "t": "p",
       "x": "Meet Beelink ME Pro — a modular AI NAS built for changing needs. Its drawer-style compute module brings greater flexibility to upgrades and maintenance, while intelligent data management, professional media tools, and local AI on select models help you do more with your data. Built for your data today. Designed to evolve with you.",
-      "z": "Beelink ME Pro — 一款专为不断变化的需求而打造的模块化 AI NAS。其抽屉式计算模块为升级和维护带来了更大的灵活性，而智能数据管理、专业媒体工具和特定型号上的本地人工智能可帮助您更好地处理数据。专为您今天的数据而打造。旨在与您一起发展。"
+      "z": "Beelink ME Pro 是一款专为不断变化的需求而打造的模块化 AI NAS。其抽屉式计算模块为升级和维护带来了更大的灵活性，而智能数据管理、专业媒体工具和特定型号上的本地人工智能可帮助您更好地处理数据。专为您今天的数据而打造。旨在与您一起发展。"
      },
      {
       "t": "img",
@@ -264,6 +260,10 @@
      {
       "t": "img",
       "u": "https://i.kickstarter.com/assets/055/759/538/c3bed587356fc3dae5fe81ea2d3bdbb9_original.png?fit=scale-down&origin=ugc&q=100&v=1793701111&width=680&sig=%2BwdQyq1RkJh9EGoBPOp5RT9eJ44PyWzOQb%2BkMjkDOGg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/727/005/5704e6067af4489778a85d8e798a2eff_original.png?fit=scale-down&origin=ugc&q=100&v=1793427203&width=680&sig=GTUH9OKXK5dj%2B0QRwl3gCbm0m7819r%2FhIhPue3bymB0%3D"
      }
     ]
    },
@@ -279,11 +279,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 130856.0,
-    "usdPledged": "130856.0",
+    "pledged": 134034.0,
+    "usdPledged": "134034.0",
     "goalUsd": 10000.0,
-    "percentFunded": 1308.56,
-    "backers": 1046,
+    "percentFunded": 1340.34,
+    "backers": 1071,
     "deadline": 1796479162,
     "launchedAt": 1793887162,
     "staffPick": true,
@@ -294,17 +294,17 @@
      "ai",
      "voice"
     ],
-    "score": 0.7971,
+    "score": 0.798,
     "coverRemote": "https://i.kickstarter.com/assets/055/675/646/83cd5753f21573e4fed9c50a30cb365f_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793100850&width=1024&sig=u2nBXsYg%2F0pTlLdDpCoLvi%2FApjMgEvHLDGtzvvmgB%2FQ%3D",
-    "videoMp4": "https://v2.kickstarter.com/1794037069-CJN1DxydM0qwO99QbuwcOlFUWBAwqlhD4ifFerOKGfI%3D/projects/5397971/video-1471623-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1794037069-CJN1DxydM0qwO99QbuwcOlFUWBAwqlhD4ifFerOKGfI%3D/projects/5397971/video-1471623-hls_playlist.m3u8",
+    "videoMp4": "https://v2.kickstarter.com/1794123469-jHMibs0zj2i%2Fpy5hxUJa0j%2F%2BG%2B%2BN0XOb%2B%2FyaGCYREyA%3D/projects/5397971/video-1471623-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794123469-jHMibs0zj2i%2Fpy5hxUJa0j%2F%2BG%2B%2BN0XOb%2B%2FyaGCYREyA%3D/projects/5397971/video-1471623-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11497576,
       "price": 69.0,
       "title": "Single Cue",
       "desc": "One Flic Cue. Choose your colors after the campaign.",
-      "backers": 235,
+      "backers": 242,
       "limit": null,
       "remaining": null,
       "eta": 1801440000,
@@ -315,8 +315,8 @@
       "price": 109.0,
       "title": "Double Cue Early Bird",
       "desc": "Two Flic Cue. Early Bird price. $129 after the Early Bird. Choose your colors after the campaign.",
-      "backers": 191,
-      "limit": 197,
+      "backers": 201,
+      "limit": 207,
       "remaining": 6,
       "eta": 1801440000,
       "shipping": "unrestricted"
@@ -326,9 +326,9 @@
       "price": 149.0,
       "title": "Triple Cue Early Bird",
       "desc": "Three Flic Cue. Early Bird price. Choose your colors after the campaign.",
-      "backers": 190,
-      "limit": 194,
-      "remaining": 4,
+      "backers": 197,
+      "limit": 204,
+      "remaining": 7,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
@@ -340,72 +340,202 @@
      [
       15.57,
       18.01,
-      "让我们建立一些东西。"
+      "让我们构建一些东西。"
      ],
      [
       18.01,
-      22.98,
-      "可以让我与经纪人交谈的事情"
+      22.9,
+      "让我可以与我的代理交谈的东西"
      ],
      [
-      22.98,
-      25.98,
+      22.9,
+      25.9,
       "无需坐在电脑前"
      ],
      [
-      25.98,
-      35.29,
-      "无需使用手机。"
+      25.9,
+      33.62,
+      "无需使用我的手机。"
      ],
      [
-      35.29,
+      33.62,
       36.53,
-      "它越来越无线"
+      "它更加无线，所以我们应该有"
      ],
      [
       36.53,
-      38.41,
-      "所以我们应该有不同的配件"
-     ],
-     [
-      38.41,
       39.09,
-      "佩戴它"
+      "不同的佩戴配件"
      ],
      [
       39.09,
-      42.73,
-      "在手腕上，在脖子上，在"
+      42.62,
+      "在手腕上、在脖子上、在"
      ],
      [
-      42.73,
-      43.21,
-      "两侧"
+      42.62,
+      43.09,
+      "墙。"
      ],
      [
-      43.21,
-      47.44,
-      "这样我们就可以在您需要的时候为您提供帮助"
+      43.09,
+      47.4,
+      "这样我们就可以在您需要时出现"
      ],
      [
-      47.44,
-      51.96,
-      "为了更简单的提醒，"
+      47.4,
+      51.42,
+      "对于更简单的提醒，例如添加"
      ],
      [
-      51.96,
-      54.8,
-      "比如在我的购物清单中添加一些东西。"
+      51.42,
+      54.96,
+      "我的购物清单上的一些东西。"
      ],
      [
-      55.8,
-      57.24,
-      "但也要处理任务"
+      55.96,
+      58.54,
+      "而且还要处理其他人的任务"
      ],
      [
-      57.24,
-      58.84,
-      "给其他更强大的……"
+      58.54,
+      59.96,
+      "更强大的代理。"
+     ],
+     [
+      59.96,
+      62.1,
+      "它显然应该与任何东西一起工作"
+     ],
+     [
+      62.1,
+      62.96,
+      "你已经有了。"
+     ],
+     [
+      62.96,
+      63.96,
+      "像我这样的。"
+     ],
+     [
+      63.96,
+      68.13,
+      "至少应该是在你不想要的时候"
+     ],
+     [
+      68.13,
+      68.74,
+      "它到。"
+     ],
+     [
+      68.74,
+      71.29,
+      "仅当您按住 时麦克风才会激活"
+     ],
+     [
+      71.29,
+      71.74,
+      "按钮。"
+     ],
+     [
+      71.74,
+      80.01,
+      "你不应该把它全部充电"
+     ],
+     [
+      80.01,
+      81.07,
+      "时间。"
+     ],
+     [
+      81.07,
+      83.07,
+      "我在想，亲爱的，为了更好的生活。"
+     ],
+     [
+      83.07,
+      94.61,
+      "是的，你听到了。"
+     ],
+     [
+      94.61,
+      96.94,
+      "应该有一个应用程序可以让我看到所有"
+     ],
+     [
+      96.94,
+      98.61,
+      "我的任务、笔记和提醒。"
+     ],
+     [
+      99.61,
+      102.18,
+      "我的意思是一个非常好的并且有用的"
+     ],
+     [
+      102.18,
+      102.61,
+      "它自己的"
+     ],
+     [
+      102.61,
+      105.34,
+      "而且还可以轻松连接到其他"
+     ],
+     [
+      105.34,
+      106.61,
+      "代理和服务"
+     ],
+     [
+      106.61,
+      108.61,
+      "或或多或少任何你能想到的东西。"
+     ],
+     [
+      108.61,
+      113.72,
+      "甚至让您构建自己的应用程序"
+     ],
+     [
+      113.72,
+      114.62,
+      "为了它。"
+     ],
+     [
+      114.62,
+      117.62,
+      "那么，我们应该怎么称呼你呢？"
+     ],
+     [
+      117.62,
+      121.79,
+      "甩你一下"
+     ],
+     [
+      121.79,
+      123.79,
+      "甩你一下"
+     ],
+     [
+      123.79,
+      124.79,
+      "是的。"
+     ],
+     [
+      124.79,
+      126.79,
+      "我喜欢它。"
+     ],
+     [
+      126.79,
+      127.79,
+      "好吧。"
+     ],
+     [
+      127.79,
+      129.79,
+      "我们来实施这个计划吧。"
      ]
     ],
     "vttLang": "zh",
@@ -417,7 +547,7 @@
      {
       "t": "p",
       "x": "Flic Cue is an AI voice button. Say what's on your mind, and Cue puts it in the right place.",
-      "z": "Flic Cue是一个AI语音按钮。说出您的想法， Cue会把它放在正确的位置。"
+      "z": "Flic Cue 是一个 AI 语音按钮。说出您的想法，Cue 会将其放在正确的位置。"
      },
      {
       "t": "img",
@@ -434,7 +564,7 @@
      {
       "t": "p",
       "x": "Flic Cue is two things working together: the button you hold, and the Cue app on your phone or Flic Hub. Your voice goes over Bluetooth to the app, which works out what you mean and where it belongs. You don't open anything.",
-      "z": "Flic Cue是两种协同工作的方式：您按住的按钮，以及手机或Flic Hub上的Cue应用程序。您的声音通过蓝牙传输到应用程序，这会显示您的意思以及它所属的位置。你不打开任何东西。"
+      "z": "Flic Cue 是两个协同工作的东西：您按住的按钮以及手机或 Flic Hub 上的 Cue 应用程序。您的声音通过蓝牙传输到应用程序，该应用程序会计算出您的意思及其所属位置。你什么都不打开。"
      },
      {
       "t": "img",
@@ -443,12 +573,12 @@
      {
       "t": "p",
       "x": "Say several things at once, and Cue sorts them into the right places.",
-      "z": "同时说几句话， Cue会把它们分到正确的位置。"
+      "z": "同时说出几件事，Cue 将它们分类到正确的位置。"
      },
      {
       "t": "p",
       "x": "Small tasks shouldn't need your phone.",
-      "z": "小任务不应该需要您的手机。"
+      "z": "小任务不需要你的手机。"
      },
      {
       "t": "img",
@@ -457,7 +587,7 @@
      {
       "t": "p",
       "x": "Most of the time you reach for your phone, it's to get one small thing out of your head. Then the phone keeps you, and your kids notice every time. Say it to Cue instead: hold, speak, done, and they get you, not the back of your phone.",
-      "z": "大多数时候，你伸手去拿手机，是为了从脑海中清除一件小事。然后手机会保留你，你的孩子每次都会注意到。而是对提示说：抓住，说话，完成，他们会抓住你，而不是你的手机背面。"
+      "z": "大多数时候，你拿起手机只是为了摆脱脑子里的一件小事。这样手机就能让您和您的孩子每次都注意到。相反，请对 Cue 说：按住、说话、完成，他们就会接听您的电话，而不是您的手机背面。"
      },
      {
       "t": "p",
@@ -471,7 +601,7 @@
      {
       "t": "p",
       "x": "Hold Cue and say the message and who it's for. It's sent, and your phone stays where it is. In the car, Cue sits on the dashboard with the mount add-on.",
-      "z": "按住提示，说出信息以及信息的目的。系统会向您发送验证码，您的手机会保持原样。在车内， Cue坐在仪表板上，安装附加组件。"
+      "z": "按住 Cue 并说出消息及其收件人。邮件已发送，您的手机仍留在原处。在车里，Cue 位于仪表板上，带有安装附件。"
      },
      {
       "t": "img",
@@ -488,7 +618,7 @@
      {
       "t": "p",
       "x": "That's us: Shortcut Labs in Stockholm, Sweden, the people who made every Flic. Press quotes are about earlier Flic products.",
-      "z": "这就是我们：瑞典斯德哥尔摩的Shortcut Labs ，制作每部Flic的人。新闻报价是关于早期的Flic产品。"
+      "z": "这就是我们：瑞典斯德哥尔摩的 Shortcut Labs，每一款 Flic 的制作者。媒体引述是关于早期 Flic 产品的。"
      },
      {
       "t": "img",
@@ -501,7 +631,7 @@
      {
       "t": "p",
       "x": "The Cue app is the first responder. It handles everyday things on its own, for free, and hands bigger jobs to the agents and tools you connect.",
-      "z": "Cue应用程序是第一响应者。它可以免费处理日常事务，并将更多的工作交给您连接的代理和工具。"
+      "z": "Cue 应用程序是第一响应者。它可以免费自行处理日常事务，并将更大的工作交给您连接的代理和工具。"
      },
      {
       "t": "img",
@@ -514,87 +644,87 @@
      {
       "t": "p",
       "x": "Most of what you say needs no answer: a short beep tells you it landed. For a bigger question you don't sit and wait. Ask now, put Cue away, and two beeps tell you when the answer is ready.",
-      "z": "你说的大部分话都不需要回答：一声短暂的哔哔声告诉你它已经着陆了。对于一个更大的问题，你不要坐以待毙。现在就问，把提示放好，两声哔哔声会告诉你答案什么时候准备好了。"
+      "z": "您所说的大部分内容无需回答：一声短促的蜂鸣声告诉您飞机已着陆。对于更大的问题，你不能坐下来等待。现在就问，把 Cue 收起来，当答案准备好时，会发出两声蜂鸣声告诉您。"
      },
      {
       "t": "p",
       "x": "It comes back in three ways, and you can also have it sent on as a text message, an email or a note in apps like Notion.",
-      "z": "它可以通过三种方式返回，您还可以在Notion等应用程序中以短信、电子邮件或备注的形式发送。"
+      "z": "它以三种方式返回，您还可以将其作为短信、电子邮件或 Notion 等应用程序中的便笺发送。"
      },
      {
       "t": "p",
       "x": "Cue waits on its magnetic wall plate at home. Lift it off and clip it on when you leave. The clip and the wall mount are add-ons, and most homes want more than one Cue: one on you, one by the door, one in the kitchen.",
-      "z": "提示在家里的磁性墙板上等待。离开时，将其提起并夹上。夹子和壁挂式支架是附加组件，大多数房源都需要一个以上的提示：一个在您身上，一个在门边，一个在厨房里。"
+      "z": "Cue 在家里的磁性壁板上等待。离开时将其取下并夹上。夹子和壁挂支架都是附加组件，大多数家庭都需要不止一个 Cue：一个在您身上，一个在门边，一个在厨房。"
      },
      {
       "t": "p",
       "x": "Bigger jobs, in seconds: the kind that usually take an evening of open tabs. Say it to Cue, and your AI agent, for example Grok Bot, researches, gathers and sums up the best options with pros and cons.",
-      "z": "更大的作业，在几秒钟内：通常需要晚上打开标签页的那种。告诉Cue ，您的人工智能代理（例如Grok Bot ）会研究、收集并总结最佳选择和优缺点。"
+      "z": "更大的工作，在几秒钟内完成：通常需要一晚上打开标签的工作。对 Cue 说，你的人工智能代理（例如 Grok Bot）会研究、收集并总结最佳选项的优缺点。"
      },
      {
       "t": "p",
       "x": "Connect your own account in the Cue app, and Flic's cloud hands over what you say, cloud to cloud. More agents are coming.",
-      "z": "在Cue应用程序中连接您自己的帐户， Flic的云将您所说的内容移交给云。更多客服代表即将到来。"
+      "z": "在 Cue 应用程序中连接您自己的帐户，Flic 的云就会将您所说的内容从云传输到云。更多代理即将到来。"
      },
      {
       "t": "p",
       "x": "Start a long task, walk away and know when to come back.",
-      "z": "开始一个漫长的任务，走开，知道什么时候回来。"
+      "z": "开始一项长期任务，走开并知道何时回来。"
      },
      {
       "t": "p",
       "x": "Cue works with the email, calendar and notes you already keep in the cloud, and you pick the destinations in the Cue app. Everything you say shows up there, with where it went. When Cue isn't sure, it asks. It learns from every correction.",
-      "z": "Cue适用于已保存在云端的电子邮件、日历和备注，您可以在Cue应用中选择目的地。你说的每一句话都会显示在那里，以及它去了哪里。当提示不确定时，它会询问。它从每一次更正中学习。"
+      "z": "Cue 可与您已保存在云端的电子邮件、日历和笔记配合使用，并且您可以在 Cue 应用程序中选择目的地。你所说的一切都会显示在那里，以及它去了哪里。当 Cue 不确定时，它会询问。它从每次纠正中学习。"
      },
      {
       "t": "p",
       "x": "Your hand does the routing, so your voice only has to carry the content. Push, double push and hold on two buttons, swipe four ways, turn and shake, and choose in the Cue app what each one does.",
-      "z": "你的手做路由，所以你的声音只需要携带内容。按下，双击并按住两个按钮，滑动四个方向，转动并摇动，然后在Cue应用中选择每个按钮的功能。"
+      "z": "您的手负责路由，因此您的声音只需携带内容。按下、双击并按住两个按钮、向四种方向滑动、转动和摇动，然后在 Cue 应用程序中选择每个按钮的功能。"
      },
      {
       "t": "p",
       "x": "Oskar, our CTO, with a working prototype at his desk. The desktop features in the video are still experiments and can change.",
-      "z": "我们的首席技术官奥斯卡（ Oskar ）的办公桌上摆放着一个工作原型。视频中的桌面功能仍然是实验性的，可能会发生变化。"
+      "z": "我们的首席技术官奥斯卡 (Oskar) 的办公桌上摆着一个工作原型。视频中的桌面功能仍处于实验阶段，可能会发生变化。"
      },
      {
       "t": "p",
       "x": "Pick the agent session by turning Cue, give the next instruction by voice and let the agent get on with it, as in the video above. Cue already drives Claude, Codex and Gemini sessions on your computer.",
-      "z": "通过打开提示选择客服代表会话，通过语音给出下一个指示，然后让客服代表继续操作，如上面的视频所示。CUE已经在您的计算机上驱动Claude、Codex和Gemini会话。"
+      "z": "通过转动 Cue 选择代理会话，通过语音给出下一个指令，然后让代理继续执行，如上面的视频所示。 Cue 已在您的计算机上驱动 Claude、Codex 和 Gemini 会话。"
      },
      {
       "t": "p",
       "x": "Push to start a presentation, and talk to add a note without leaving the stage.",
-      "z": "按下开始演示文稿，然后在不离开舞台的情况下添加备注。"
+      "z": "按下即可开始演示，无需离开讲台即可通过语音添加注释。"
      },
      {
       "t": "p",
       "x": "For the first time, Flic Cue and the Flic buttons you already have connect to Home Assistant, and Cue runs it by voice. It was the integration our waitlist asked for most.",
-      "z": "第一次， Flic Cue和您已经连接到Home Assistant的Flic按钮， Cue通过语音运行它。这是我们的候补名单最需要的整合。"
+      "z": "这是第一次，Flic Cue 和您已有的 Flic 按钮连接到 Home Assistant，Cue 通过语音运行它。这是我们候补名单上最需要的整合。"
      },
      {
       "t": "p",
       "x": "Every Flic Cue can be configured and built into your own apps, agents and systems. Build the thing you wish existed, and share it with the community.",
-      "z": "每个Flic Cue都可以配置并内置到您自己的应用程序、代理和系统中。构建您希望存在的东西，并与社区分享。"
+      "z": "每个 Flic Cue 都可以配置并内置到您自己的应用程序、代理和系统中。构建您希望存在的东西，并与社区分享。"
      },
      {
       "t": "p",
       "x": "The landscape moves fast. New ways to plug into AI agents appear all the time, and some get shut down. We aim for integrations that work on the lowest tiers possible, though they still need an active subscription with each service.",
-      "z": "景观移动得很快。插入人工智能代理的新方法一直在出现，有些会被关闭。我们的目标是尽可能提供最低等级的整合功能，尽管他们仍然需要为每项服务提供有效的订阅。"
+      "z": "风景移动得很快。插入人工智能代理的新方法一直在出现，但有些却被关闭了。我们的目标是尽可能在最低层上进行集成，尽管它们仍然需要对每项服务进行有效订阅。"
      },
      {
       "t": "p",
       "x": "We'll keep adding support for the next big thing, and with help from the community, the small things too. What works today might not be possible tomorrow. What we can promise is to do everything in our power to make Flic Cue the most versatile voice button on the planet.",
-      "z": "我们将继续为下一件大事提供支持，并在社区的帮助下，为小事提供支持。今天行得通的事情明天可能就不可能了。我们可以承诺的是，我们将竭尽全力使Flic Cue成为这个星球上最通用的语音按钮。"
+      "z": "我们将继续增加对下一件大事的支持，并在社区的帮助下，为小事提供支持。今天有效的方法明天可能就行不通了。我们可以承诺的是，尽我们所能，使 Flic Cue 成为地球上最通用的语音按钮。"
      },
      {
       "t": "p",
       "x": "Add-ons ship in the same box as your reward, at no extra shipping cost.",
-      "z": "附加组件与您的奖励在同一个盒子中运送，无需额外运费。"
+      "z": "附加组件与您的奖励在同一个盒子中发货，无需额外运费。"
      },
      {
       "t": "p",
       "x": "The Hub Mini is enough for most homes. Every bundle with a hub comes with one, and the Hub LR upgrade swaps it. The Hacker Bundle comes with a Hub LR.",
-      "z": "Hub Mini足以满足大多数房源的需求。每个带有集线器的捆绑包都有一个，集线器LR升级会替换它。Hacker Bundle附带Hub LR。"
+      "z": "Hub Mini 足以满足大多数家庭的需要。每个带有集线器的捆绑包都附带一个集线器，并且 Hub LR 升级会替换它。 Hacker Bundle 附带 Hub LR。"
      }
     ]
    },
@@ -610,11 +740,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 1834837.0,
-    "usdPledged": "233806.74689028",
+    "pledged": 1834847.0,
+    "usdPledged": "233808.02115468",
     "goalUsd": 1274.26,
-    "percentFunded": 18348.37,
-    "backers": 81,
+    "percentFunded": 18348.47,
+    "backers": 82,
     "deadline": 1795532381,
     "launchedAt": 1792504781,
     "staffPick": true,
@@ -624,19 +754,19 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7196,
+    "score": 0.7198,
     "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794130444-49cejZ55B7BpYDRvDnFCpR%2B39ayyt5z6QoRdnWrSCKk%3D/projects/5343527/video-1466952-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794130444-49cejZ55B7BpYDRvDnFCpR%2B39ayyt5z6QoRdnWrSCKk%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11305322,
       "price": 6267.0,
       "title": "Super Early Bird | Pro Version",
       "desc": "Lucy AI Studio Pro Version\\n\\n🔥 Super Early Bird — US$799 | Save $100, 11% Off MSRP $899\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 17,
+      "backers": 19,
       "limit": 500,
-      "remaining": 483,
+      "remaining": 481,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -645,9 +775,9 @@
       "price": 19614.0,
       "title": "Super Early Bird | Max Version",
       "desc": "Lucy AI Studio Max Version\\n\\n🔥 Super Early Bird — US$2,499 | Save $1500, 38% Off MSRP $3,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 12,
+      "backers": 13,
       "limit": 500,
-      "remaining": 488,
+      "remaining": 487,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -656,16 +786,16 @@
       "price": 29815.0,
       "title": "Super Early Bird | Ultra Version",
       "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 26,
+      "backers": 25,
       "limit": 500,
-      "remaining": 474,
+      "remaining": 475,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 12,
-    "tiersDate": "2026-11-07",
-    "tiersCarried": "2026-11-07",
+    "tiersDate": "2026-11-08",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
@@ -680,8 +810,8 @@
      },
      {
       "t": "p",
-      "x": "17 days to go",
-      "z": "还剩 17 天"
+      "x": "16 days to go",
+      "z": "还剩 16 天"
      },
      {
       "t": "p",
@@ -709,8 +839,8 @@
      },
      {
       "t": "p",
-      "x": "17 days to go",
-      "z": "还剩 17 天"
+      "x": "16 days to go",
+      "z": "还剩 16 天"
      },
      {
       "t": "p",
@@ -869,11 +999,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 470000.0,
-    "pledged": 255576.0,
-    "usdPledged": "32615.82450168",
+    "pledged": 287929.0,
+    "usdPledged": "36744.61503797",
     "goalUsd": 59979.96,
-    "percentFunded": 54.37787234042554,
-    "backers": 160,
+    "percentFunded": 61.261489361702125,
+    "backers": 179,
     "deadline": 1796652790,
     "launchedAt": 1794060790,
     "staffPick": false,
@@ -884,7 +1014,7 @@
      "ai",
      "smart"
     ],
-    "score": 0.6099,
+    "score": 0.6141,
     "coverRemote": "https://i.kickstarter.com/assets/055/812/906/24e6788f1fa11e328401313ab08bb1cc_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794073321&width=1024&sig=g28IZBZUeStYFhaEx445EFCuOoLWkK7MokUEuxfjRD4%3D",
     "videoMp4": "https://v2.kickstarter.com/1794120631-lleaWLVyCht34rq%2Fw29wyqaOiiEkHl%2B7gqE8vXXQm7o%3D/projects/5348437/video-1475020-h264_high.mp4",
     "videoHls": "https://v2.kickstarter.com/1794120631-lleaWLVyCht34rq%2Fw29wyqaOiiEkHl%2B7gqE8vXXQm7o%3D/projects/5348437/video-1475020-hls_playlist.m3u8",
@@ -930,67 +1060,67 @@
      [
       0.88,
       3.29,
-      "几十年来，如果您想要专业的"
+      "几十年来，如果你想要专业"
      ],
      [
       3.29,
       5.45,
-      "气压，你不得不接受两个"
+      "气压，你必须接受两个"
      ],
      [
       5.45,
       5.88,
-      "件事"
+      "的事情。"
      ],
      [
       5.88,
       8.8,
-      "一个笨重、嘈杂的金属罐和"
+      "一个笨重、吵闹的金属罐"
      ],
      [
       8.8,
       11.88,
-      "永久性地拴在墙上的插座上。"
+      "永久链接到墙上插座。"
      ],
      [
       11.88,
       13.94,
-      "你的创造力不仅仅局限于"
+      "你的创造力并不局限于"
      ],
      [
       13.94,
       15.88,
-      "车库，那么为什么你的设备呢？"
+      "车库，那你的设备为什么是？"
      ],
      [
       15.88,
       19.21,
-      "是时候让空气压缩机"
+      "是时候让空气压缩机发挥作用了"
      ],
      [
       19.21,
       19.88,
-      "瑞雅日盛"
+      "进化。"
      ],
      [
       19.88,
       24.63,
-      "了解Turbox Pro。"
+      "来认识一下 Turbox Pro。"
      ],
      [
       24.63,
       27.02,
-      "我们采用了重型气动性能，"
+      "我们以重型气动性能，"
      ],
      [
       27.02,
       29.24,
-      "切断脐带，并将其设计成"
+      "剪断电线，并将其设计成"
      ],
      [
       29.24,
       31.58,
-      "时尚、现代的足迹不超过"
+      "时尚、现代的占地面积不大于"
      ],
      [
       31.58,
@@ -999,73 +1129,68 @@
      ],
      [
       33.63,
-      36.28,
-      "如何在高强度PC和ABS中"
-     ],
-     [
-      36.28,
       36.63,
-      "顯示"
+      "高强度PC和ABS展会怎么样？"
      ],
      [
       36.63,
-      39.39,
-      "它平衡了美丽的现代设计与"
+      39.41,
+      "它平衡了美丽、现代的设计与"
      ],
      [
-      39.39,
+      39.41,
       40.63,
       "坚固耐用。"
      ],
      [
       40.63,
-      42.91,
-      "Turbox Pro不仅仅是更小的"
+      43.67,
+      "Turbox Pro 不仅仅是一个更小的"
      ],
      [
-      42.91,
-      43.63,
-      "压速机/压缩机"
+      43.67,
+      44.63,
+      "压缩机。"
      ],
      [
-      43.63,
-      46.58,
-      "这是一个完全重新构想的空中中心"
+      44.63,
+      46.99,
+      "这是一个完全重新设计的航空中心"
      ],
      [
-      46.58,
+      46.99,
       48.63,
-      "专为绝对自由而打造。"
+      "为绝对自由而建。"
      ],
      [
       48.63,
-      50.67,
-      "配备了大量15,600"
+      51.57,
+      "配备 15,600 毫安的巨大电流"
      ],
      [
-      50.67,
-      53.76,
-      "毫安时电池，可提供"
+      51.57,
+      54.44,
+      "小时电池，最多可提供三个小时"
      ],
      [
-      53.76,
+      54.44,
       56.63,
-      "三个小时的间歇性弹簧。"
+      "间歇性春天的时间。"
      ],
      [
       57.63,
       60.49,
-      "现在，您可以直接在"
+      "现在，您可以直接喷枪 3D 打印"
      ],
      [
       60.49,
       62.63,
-      "客厅的咖啡桌。"
+      "你客厅的咖啡桌。"
      ],
      [
       62.63,
       64.72,
-      "将其放入完美无瑕的美容盒中"
+      "将其放入美容盒中，打造完美无瑕"
      ],
      [
       64.72,
@@ -1075,12 +1200,12 @@
      [
       65.63,
       68.86,
-      "或者把它拿到油漆下面"
+      "或者把它拿到外面的油漆下"
      ],
      [
       68.86,
       69.63,
-      "开放天空"
+      "开放的天空。"
      ],
      [
       69.63,
@@ -1090,12 +1215,12 @@
      [
       72.63,
       75.63,
-      "但是，没有电力，流动性就没有任何意义。"
+      "但如果没有动力，机动性就毫无意义。"
      ],
      [
       75.63,
       77.36,
-      "我们如何匹配"
+      "我们如何匹配性能"
      ],
      [
       77.36,
@@ -1105,17 +1230,17 @@
      [
       78.63,
       81.35,
-      "Turbox Pro内置无刷"
+      "Turbox Pro 内部有一个无刷"
      ],
      [
       81.35,
       84.63,
-      "双泵系统完美和谐地工作"
+      "双泵系统完美协调工作"
      ],
      [
       84.63,
       87.33,
-      "使用200毫升不锈钢空气"
+      "带有200毫升不锈钢空气"
      ],
      [
       87.33,
@@ -1125,37 +1250,37 @@
      [
       89.9,
       90.63,
-      "科技"
+      "技术。"
      ],
      [
       90.63,
       93.05,
-      "这种智能组合使我们的"
+      "这种智能组合使我们能够"
      ],
      [
       93.05,
       95.65,
-      "占地面积小，可与性能相媲美"
+      "占地面积紧凑，性能媲美"
      ],
      [
       95.65,
       97.63,
-      "传统的2升油箱。"
+      "传统的两升水箱。"
      ],
      [
       97.63,
       100.38,
-      "每平方米重达45磅"
+      "每平方可输送高达 45 磅的重量"
      ],
      [
       100.38,
       103.28,
-      "英寸连续、无脉冲的气流，"
+      "英寸的连续、无脉冲气流，"
      ],
      [
       103.28,
       106.18,
-      "推送重型底漆和高粘度"
+      "推重底漆和高粘度"
      ],
      [
       106.18,
@@ -1165,12 +1290,12 @@
      [
       107.63,
       110.63,
-      "原始电源需要智能控制。"
+      "原始动力需要智能控制。"
      ],
      [
       111.63,
       114.05,
-      "我们将过时的模拟表盘更换为"
+      "我们用一个替换了过时的模拟表盘"
      ],
      [
       114.05,
@@ -1180,7 +1305,7 @@
      [
       115.63,
       118.3,
-      "而不是盲目地以全功率运行，"
+      "而不是盲目全力奔跑，"
      ],
      [
       118.3,
@@ -1190,37 +1315,37 @@
      [
       120.78,
       123.52,
-      "实时空气需求和调整电机"
+      "实时空气需求并调整电机"
      ],
      [
       123.52,
       124.63,
-      "动态速度。"
+      "飞行速度。"
      ],
      [
       124.63,
-      127.88,
-      "这可以停止令人沮丧的起停循环，"
+      127.81,
+      "这会停止令人沮丧的启动-停止循环，"
      ],
      [
-      127.88,
-      131.22,
-      "消除不必要的热量，并使"
+      127.81,
+      131.06,
+      "消除不必要的热量，并降低"
      ],
      [
-      131.22,
-      133.92,
-      "操作噪音到安静43-53"
+      131.06,
+      133.93,
+      "获取它的操作噪音 43-53"
      ],
      [
-      133.92,
+      133.93,
       134.63,
       "分贝。"
      ],
      [
       135.63,
       138.06,
-      "它超越了标准的喷枪，"
+      "超越了标准喷枪，"
      ],
      [
       138.06,
@@ -1230,17 +1355,17 @@
      [
       140.63,
       143.86,
-      "切换到精致的高精度模式"
+      "切换到高精度模式以实现精致"
      ],
      [
       143.86,
       144.63,
-      "详图"
+      "详细说明。"
      ],
      [
       144.63,
       147.48,
-      "用于给运动装备充气的球模式"
+      "球模式为运动装备充气"
      ],
      [
       147.48,
@@ -1250,7 +1375,7 @@
      [
       149.63,
       153.11,
-      "或定制专用气动模式"
+      "或专门气动的自定义模式"
      ],
      [
       153.11,
@@ -1260,7 +1385,7 @@
      [
       153.63,
       155.84,
-      "我们还设计了每日"
+      "我们还设计了日常"
      ],
      [
       155.84,
@@ -1269,98 +1394,98 @@
      ],
      [
       157.63,
-      159.76,
-      "那种令人沮丧的步行效果，"
+      160.13,
+      "令人沮丧的步行效果"
      ],
      [
-      159.76,
-      161.63,
+      160.13,
+      162.33,
       "压缩机在桌子上振动？"
      ],
      [
-      161.63,
+      162.33,
       162.63,
-      "（ 觀眾 笑 ） 煙消雲散 。"
+      "走了。"
      ],
      [
-      163.63,
-      166.13,
-      "高摩擦硅胶垫吸收"
+      162.63,
+      165.63,
+      "高摩擦硅胶垫可吸收"
      ],
      [
-      166.13,
+      165.63,
       168.63,
-      "动能，将其锁定。"
+      "动能，将其锁定静止。"
      ],
      [
       168.63,
-      171.48,
-      "为了保护您的油漆作业，我们整合了"
+      171.19,
+      "为了保护您的油漆工作，我们集成了"
      ],
      [
-      171.48,
-      173.98,
-      "世界首创的数字水分警报"
+      171.19,
+      173.44,
+      "世界首个数字湿度警报"
      ],
      [
-      173.98,
-      176.82,
-      "跟踪冷凝并发出警告的系统"
+      173.44,
+      176.0,
+      "跟踪凝结并发出警告的系统"
      ],
      [
-      176.82,
-      178.63,
-      "你什么时候该排水。"
+      176.0,
+      177.63,
+      "你到底什么时候排水。"
      ],
      [
-      178.63,
-      181.25,
-      "与主动热保护相结合，它"
+      177.63,
+      180.25,
+      "与主动热保护相结合，"
      ],
      [
-      181.25,
-      183.16,
-      "提供坚如磐石的安全性，"
+      180.25,
+      182.16,
+      "提供坚如磐石的安全"
      ],
      [
-      183.16,
-      184.63,
+      182.16,
+      183.63,
       "不间断的创作。"
      ],
      [
       184.63,
-      186.78,
-      "因为不断更换软管废墟"
+      187.09,
+      "因为不断更换软管会造成损坏"
      ],
      [
-      186.78,
-      189.09,
-      "您的专注， Turbox Pro具有双重"
+      187.09,
+      189.73,
+      "Turbox Pro 具有双"
      ],
      [
-      189.09,
-      191.24,
-      "具有模块化磁性的出风口设计"
+      189.73,
+      192.19,
+      "模块化磁性出风口设计"
      ],
      [
-      191.24,
-      191.63,
-      "挂载"
+      192.19,
+      192.63,
+      "坐骑。"
      ],
      [
       192.63,
       195.11,
-      "将两个不同的气刷连接到"
+      "连接两个不同的喷枪"
      ],
      [
       195.11,
       197.73,
-      "推进并无缝切换"
+      "前进并无缝切换"
      ],
      [
       197.73,
       200.14,
-      "底漆和精细细节，无需"
+      "底漆和精细细节无需"
      ],
      [
       200.14,
@@ -1370,77 +1495,72 @@
      [
       201.63,
       204.07,
-      "远远超出了规模建模，这是一个"
+      "它远远超出了比例模型的范畴，"
      ],
      [
       204.07,
       205.63,
-      "多功能的日常工具。"
+      "多功能日常工具。"
      ],
      [
       205.63,
-      208.08,
+      208.23,
       "用它来装饰原始的蛋糕，"
      ],
      [
-      208.08,
-      210.73,
-      "完美无瑕的喷枪彩妆，清除灰尘"
+      208.23,
+      211.04,
+      "无瑕喷枪化妆，清除灰尘"
      ],
      [
-      210.73,
-      213.45,
-      "来自定制PC构建、家用DIY ，或"
+      211.04,
+      212.63,
+      "来自定制 PC 构建，"
      ],
      [
-      213.45,
-      215.63,
-      "只是给你的运动装备充气，"
+      212.63,
+      215.03,
+      "家庭DIY，或者只是膨胀你的"
      ],
      [
-      215.63,
-      218.08,
-      "Turbox Pro可适应您需要的任何功能"
+      215.03,
+      217.75,
+      "运动装备，Turbox Pro 适应任何环境"
      ],
      [
-      218.08,
-      220.61,
-      "从您的工作室办公桌到"
+      217.75,
+      220.4,
+      "你正在创作，从你的工作室办公桌到"
      ],
      [
-      220.61,
+      220.4,
       221.63,
-      "户外活动"
+      "很棒的户外活动。"
      ],
      [
       221.63,
       224.63,
-      "打破每一个界限，掌握你的"
+      "打破一切界限，掌握你的"
      ],
      [
       224.63,
       225.63,
-      "灵感"
+      "灵感。"
      ],
      [
       225.63,
-      228.63,
-      "这是Turbox Pro。"
+      229.63,
+      "这是 Turbox Pro。"
      ],
      [
-      228.63,
+      229.63,
       231.63,
-      "立即在Kickstarter上支持我们。"
+      "现在就在 Kickstarter 上支持我们吧。"
      ],
      [
       231.63,
-      232.63,
-      "画廊"
-     ],
-     [
-      232.63,
       234.63,
-      "改变游戏规则。"
+      "画廊，改变游戏规则。"
      ]
     ],
     "vttLang": "zh",
@@ -1452,12 +1572,12 @@
      {
       "t": "p",
       "x": "For decades,getting professional air pressure meant accepting industrial compromises.You had to sacrifice your desk space for a bulky,heavy metal tank.You had to endure loud,rumbling motors and aggressive vibrations that shook your entire workstation.Worst of all,you were permanently chained to a wall outlet.",
-      "z": "几十年来，获得专业的气压意味着接受工业上的妥协。你不得不牺牲自己的办公空间，买一个笨重的重金属罐。你必须忍受响亮、隆隆的电机和剧烈的振动，这些振动震动了你的整个工作站。最糟糕的是，你被永久地锁在墙上的插座上。"
+      "z": "几十年来，获得专业气压意味着接受工业妥协。你必须牺牲你的办公桌空间，换来一个笨重的金属罐。你必须忍受大声、隆隆的电机和震动整个工作站的强烈振动。最糟糕的是，你被永久地拴在墙上的插座上。"
      },
      {
       "t": "p",
       "x": "Traditional compressors were built for the garage,not the modern creator studio.You shouldn’t have to fight your equipment just to stay in the zone.",
-      "z": "传统的压缩机是为车库而建，而不是为现代创作者工作室而建。您不必为了留在这个区域而与设备作斗争。"
+      "z": "传统的压缩机是为车库建造的，而不是为现代创作者工作室建造的。您不必为了留在该区域而与您的设备战斗。"
      },
      {
       "t": "img",
@@ -1466,17 +1586,17 @@
      {
       "t": "p",
       "x": "It’s time for your air source to evolve.Meet the TurboX Pro.",
-      "z": "是时候让您的空气源进化了。认识TurboX Pro。"
+      "z": "是时候让您的空气源进化了。来认识一下 TurboX Pro。"
      },
      {
       "t": "p",
       "x": "We took heavy-duty pneumatic performance,cut the cord,and engineered it into a sleek,modern footprint no bigger than a standard notebook.Housed in a high-strength PC and ABS shell,it balances rugged durability with a beautiful, minimalist design.",
-      "z": "我们采用了重型气动性能，切断了电源线，并将其设计成一款时尚、现代的笔记本电脑，其尺寸不比标准笔记本电脑大。它采用高强度PC和ABS外壳，兼顾坚固耐用性和美观、简约的设计。"
+      "z": "我们采用重型气动性能，剪掉电源线，并将其设计成时尚、现代的外形，尺寸不超过标准笔记本电脑。它采用高强度 PC 和 ABS 外壳，在坚固耐用与美观简约的设计之间取得了平衡。"
      },
      {
       "t": "p",
       "x": "This isn't just a shrunken compressor; it is a completely reimagined desktop air center built for absolute freedom.Raw power meets smart digital precision,giving you the performance of a traditional 2-liter tank without the noise,the bulk, or the wires.",
-      "z": "这不仅仅是一台萎缩的压缩机；它是一个完全重新构想的桌面空气中心，旨在实现绝对的自由。原始功率与智能数字精度相结合，为您提供传统的2升储罐的性能，没有噪音、体积或电线。"
+      "z": "这不仅仅是一个缩小的压缩机；它是一款完全重新设计的桌面空气中心，专为绝对自由而打造。原始动力与智能数字精度相结合，为您提供传统 2 升水箱的性能，但没有噪音、体积或电线。"
      },
      {
       "t": "img",
@@ -1489,7 +1609,7 @@
      {
       "t": "p",
       "x": "Your inspiration doesn’t stop at the edge of your desk.Armed with a massive 15,600 mAh battery,the TurboX Pro Cordless Edition delivers up to 180mins of intermittent spraying.Paint your scale models on the living room table,pack it into a beauty case for on-the-go makeup,or take it outside to spray under the open sky.No wall outlets.No limits.(Note: A standard corded edition is also available for permanent desk setups).",
-      "z": "您的灵感不会停留在办公桌的边缘。TurboX Pro无绳版配备15,600 mAh大容量电池，可提供长达180分钟的间歇性喷涂。在客厅桌子上绘制您的比例模型，将其打包成美容盒，以便随时随地化妆，或将其带到户外在开阔的天空下喷洒。没有墙壁插座。没有限制。（注意：标准有线版本也可用于永久办公桌设置）。"
+      "z": "您的灵感不会停留在办公桌边缘。TurboX Pro 无绳版配备 15,600 mAh 的大电池，可提供长达 180 分钟的间歇喷涂。在客厅桌子上绘制您的比例模型，将其装入美容盒中以便随身化妆，或将其带到户外在开阔的天空下喷涂。没有墙壁插座。没有限制。（注：标准有线版也可用于永久桌面设置）。"
      },
      {
       "t": "img",
@@ -1498,7 +1618,7 @@
      {
       "t": "p",
       "x": "Mobility means nothing without power.Inside the TurboX Pro’s compact 180mm frame,a brushless dual-pump system works in perfect harmony with a 200ml stainless steel air tank.This intelligent architecture delivers up to 45 PSI of continuous,pulse-free airflow,pushing heavy primers and high-viscosity metallics just as effortlessly as a traditional heavyweight compressor.",
-      "z": "移动性意味着没有动力。在TurboX Pro紧凑的180毫米框架内，无刷双泵系统与200毫升不锈钢气罐完美协调。这种智能架构可提供高达45 PSI的连续无脉冲气流，推动重型底漆和高粘度金属，就像传统的重型压缩机一样轻松。"
+      "z": "没有动力，移动性就毫无意义。在 TurboX Pro 紧凑的 180 毫米框架内，无刷双泵系统与 200 毫升不锈钢气罐完美配合。这种智能架构可提供高达 45 PSI 的连续、无脉冲气流，推动重型底漆和高粘度金属，就像传统的重型压缩机一样轻松。"
      },
      {
       "t": "img",
@@ -1511,7 +1631,7 @@
      {
       "t": "p",
       "x": "With adjustable working air pressure from 1 to 45 PSI, the TurboX Pro accommodates a wide range of air-pressure requirements. Use lower settings for precision spraying and low-pressure tasks, or higher settings for suitable air tools, liquid atomization, and inflation.",
-      "z": "TurboX Pro的工作气压可调，从1磅/平方英寸到45磅/平方英寸，可满足各种气压要求。对于精确喷涂和低压任务，请使用较低的设置，对于合适的空气工具、液体雾化和充气，请使用较高的设置。"
+      "z": "TurboX Pro 的工作气压可调范围为 1 至 45 PSI，可满足各种气压要求。对于精密喷涂和低压任务，请使用较低的设置；对于合适的气动工具、液体雾化和充气，请使用较高的设置。"
      },
      {
       "t": "img",
@@ -1524,7 +1644,7 @@
      {
       "t": "p",
       "x": "Inside the TurboX Pro,a brushless dual-pump system works in perfect harmony with a 200ml stainless steel air tank and our proprietary Smart Inverter Technology.This intelligent combination allows our compact footprint to rival the performance of a traditional 2-liter tank.It delivers up to 45 PSI of continuous,pulse-free airflow,pushing heavy primers and high-viscosity paints effortlessly.",
-      "z": "在TurboX Pro内部，无刷双泵系统与200毫升不锈钢气罐和我们专有的智能变频器技术完美融合。这种智能组合使我们的紧凑型占地面积可与传统的2升气罐相媲美。它可提供高达45 PSI的连续无脉冲气流，轻松推动重质底漆和高粘度涂料。"
+      "z": "在 TurboX Pro 内部，无刷双泵系统与 200 毫升不锈钢气罐和我们专有的智能逆变器技术完美配合。这种智能组合使我们紧凑的占地面积能够与传统 2 升罐的性能相媲美。它提供高达 45 PSI 的连续、无脉冲气流，轻松推动重型底漆和高粘度涂料。"
      },
      {
       "t": "img",
@@ -1533,7 +1653,7 @@
      {
       "t": "p",
       "x": "Going beyond standard airbrushing,the TurboX Pro features 4 built-in operating modes.Switch to High-Precision Mode for delicate detailing,Ball Mode to inflate sports gear with automatic pressure shut-off,or Custom Mode for specialized pneumatic tools.",
-      "z": "TurboX Pro超越标准喷枪，具有4种内置操作模式。切换到高精度模式可实现精致的细节，球模式可为运动装备充气并自动关闭压力，或定制模式可实现专用气动工具。"
+      "z": "TurboX Pro 超越了标准喷枪，具有 4 种内置操作模式。切换到高精度模式可实现精致细节，切换到球模式可通过自动压力关闭为运动装备充气，或切换到自定义模式可实现专用气动工具。"
      },
      {
       "t": "img",
@@ -1546,7 +1666,7 @@
      {
       "t": "p",
       "x": "Whether you’re laying down paint on a scale model,airbrushing special effects makeup,dusting out a custom PC build,decorating culinary piece, or tackling weekend DIY projects, the TurboX Pro adapts to whatever you’re creating.",
-      "z": "无论您是在比例模型上涂漆，喷涂特效化妆，为定制PC构建除尘，装饰烹饪作品，还是处理周末DIY项目， TurboX Pro都能适应您正在创作的任何东西。"
+      "z": "无论您是在比例模型上涂漆、喷枪特效化妆、除尘定制 PC 构建、装饰烹饪作品，还是处理周末 DIY 项目，TurboX Pro 都能适应您正在创作的任何内容。"
      },
      {
       "t": "img",
@@ -1555,7 +1675,7 @@
      {
       "t": "p",
       "x": "Because the Smart Inverter only draws the exact power you need,it eliminates frustrating start-stop cycles,prevents overheating,and drops operational noise to a quiet 43 to 53 decibels.",
-      "z": "由于智能逆变器只消耗您所需的确切功率，它消除了令人沮丧的起停循环，防止过热，并将运行噪音降至43至53分贝。"
+      "z": "由于智能逆变器仅吸取您所需的确切功率，因此它消除了令人沮丧的启停循环，防止过热，并将运行噪音降至安静的 43 至 53 分贝。"
      },
      {
       "t": "img",
@@ -1564,32 +1684,32 @@
      {
       "t": "p",
       "x": "Built with an active protection and a dual-duct cooling pathway, the compressor continuously dissipates heat from the internal core. It prevents unexpected thermal shut-offs, keeping your machine running safely through long, uninterrupted painting sessions.",
-      "z": "压缩机具有主动保护和双通道冷却通道，可连续从内核散热。它可以防止意外的热切断，让您的机器在漫长、不间断的喷漆过程中安全运行。"
+      "z": "压缩机采用主动保护和双管道冷却通道，持续散发内部核心的热量。它可以防止意外的热关闭，使您的机器在长时间、不间断的喷漆过程中保持安全运行。"
      },
      {
       "t": "p",
       "x": "Combining a compact internal layout with high-friction silicone footpads, the TurboX Pro is designed to help reduce vibration and keep the unit stable during operation. Integrated mounting slots on the side accommodate short and long magnetic brackets, keeping compatible tools within easy reach and helping you maintain a more organised workspace.",
-      "z": "TurboX Pro将紧凑的内部布局与高摩擦硅胶脚垫相结合，旨在帮助减少振动并保持设备在运行过程中的稳定性。侧面集成的安装槽可容纳短而长的磁性支架，使兼容的工具触手可及，并帮助您保持更有组织的工作空间。"
+      "z": "TurboX Pro 将紧凑的内部布局与高摩擦硅胶脚垫相结合，旨在帮助减少振动并保持设备在操作过程中稳定。侧面的集成安装槽可容纳短磁性支架和长磁性支架，使兼容工具触手可及，并帮助您保持更有条理的工作空间。"
      },
      {
       "t": "p",
       "x": "Water in your airline ruins paint jobs.To protect your work,we integrated a world-first digital moisture alert system that tracks condensation and warns you exactly when it’s time to drain.Paired with active thermal protection that alerts at 85°C and auto-shuts off at 95°C,it delivers rock-solid safety for heavy-duty,uninterrupted creation.",
-      "z": "航空公司废墟油漆作业中的水分。为了保护您的工作，我们集成了世界首创的数字湿度警报系统，该系统可跟踪冷凝并准确警告您何时需要排水。它配有主动热保护，可在85°C时发出警报并在95°C时自动关闭，为重型不间断的创作提供坚如磐石的安全性。"
+      "z": "飞机上的水会破坏油漆工作。为了保护您的工作，我们集成了世界首个数字湿度警报系统，该系统可跟踪冷凝情况并在需要排水时准确发出警告。搭配主动热保护装置，在 85°C 时发出警报并在 95°C 时自动关闭，为重型、不间断的创作提供坚如磐石的安全性。"
      },
      {
       "t": "p",
       "x": "Constantly swapping hoses kills your focus.The TurboX Pro features a dual air outlet design with modular magnetic mounts.Connect two different airbrushes in advance,and seamlessly switch between broad priming and fine detailing without ever breaking your creative rhythm.",
-      "z": "不断更换软管会扼杀您的专注力。TurboX Pro采用双出风口设计，带有模块化磁性支架。提前连接两种不同的气刷，并在宽阔的底漆和精细的细节之间无缝切换，而不会打破您的创意节奏。"
+      "z": "不断更换软管会分散您的注意力。TurboX Pro 采用双出风口设计和模块化磁性安装座。提前连接两种不同的喷枪，在广泛的底漆和精细细节之间无缝切换，而不会打乱您的创作节奏。"
      },
      {
       "t": "p",
       "x": "The TurboX Pro combines a high-strength PC + ABS housing with a stainless steel air tank for a durable, compact desktop design. Measuring 18 × 13 × 14 cm and weighing approximately 1.5 kg for the corded version and 1.8 kg for the cordless version, it integrates the dual-pump system, air tank, and control electronics into a compact unit that leaves more room for your tools and projects.",
-      "z": "TurboX Pro将高强度PC + ABS外壳与不锈钢气罐相结合，实现耐用、紧凑的桌面设计。它的尺寸为18 × 13 × 14厘米，有线版本的重量约为1.5千克，无线版本的重量约为1.8千克，它将双泵系统、气箱和控制电子设备集成到一个紧凑的单元中，为您的工具和项目留下了更多的空间。"
+      "z": "TurboX Pro 将高强度 PC + ABS 外壳与不锈钢气罐相结合，实现耐用、紧凑的桌面设计。它的尺寸为 18 × 13 × 14 厘米，有线版本重约 1.5 千克，无线版本重约 1.8 千克，它将双泵系统、气罐和控制电子设备集成到一个紧凑的单元中，为您的工具和项目留出更多空间。"
      },
      {
       "t": "p",
       "x": "Available in two configurations: a 24V DC plug-in version for fixed workstations, and a 15,600 mAh Li-ion Battery Edition for cordless operation. Under specified test conditions, the battery version delivers up to 180 minutes of intermittent spraying at 15 PSI or can inflate approximately 400 standard basketballs on a full charge.",
-      "z": "提供两种配置：用于固定工作站的24V直流插入式版本，以及用于无绳操作的15,600 mAh锂离子电池版本。在指定的测试条件下，电池版本可在15 PSI下提供长达180分钟的间歇性喷洒，或者可以在充满电的情况下为大约400个标准篮球充气。"
+      "z": "有两种配置可供选择：用于固定工作站的 24V DC 插入式版本，以及用于无线操作的 15,600 mAh 锂离子电池版本。在指定的测试条件下，电池版本可在 15 PSI 的压力下提供长达 180 分钟的间歇喷射，或者充满电后可为约 400 个标准篮球充气。"
      }
     ]
    },
@@ -1605,30 +1725,29 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 100000.0,
-    "pledged": 22667207.0,
-    "usdPledged": "22667207.0",
+    "pledged": 22717938.0,
+    "usdPledged": "22717938.0",
     "goalUsd": 100000.0,
-    "percentFunded": 22667.207,
-    "backers": 8758,
+    "percentFunded": 22717.938000000002,
+    "backers": 8777,
     "deadline": 1796400007,
     "launchedAt": 1792508407,
     "staffPick": true,
     "sources": [
-     "Hardware 热门",
-     "Technology 热门"
+     "Hardware 热门"
     ],
     "kwHits": [],
-    "score": 0.6058,
+    "score": 0.6059,
     "coverRemote": "https://i.kickstarter.com/assets/055/590/014/ce76daee966ec5dc3234f0ac44c4d15a_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792516143&width=1024&sig=cyTDRPWje8fBc4aJoVZV%2FNd6r5m0PfYAfHO%2BrRMOIMo%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794124909-eKff7OEkPDmc3%2BvWB6Gjvqqvg2LR%2FqfUSUnVGaIW3NI%3D/projects/5398626/video-1468517-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794124909-eKff7OEkPDmc3%2BvWB6Gjvqqvg2LR%2FqfUSUnVGaIW3NI%3D/projects/5398626/video-1468517-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11486780,
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 4344,
+      "backers": 4751,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -1639,7 +1758,7 @@
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1654,
+      "backers": 1647,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -1650,7 +1769,7 @@
       "price": 2399.0,
       "title": "AURA 3 Max - Launch Special",
       "desc": "Experience flagship 4K ultra-short-throw projection at an exclusive launch offer. The AURA 3 Max delivers 5,700 ISO lumens and 8,000:1 native contrast, giving you greater brightness headroom for large-screen viewing and living rooms with ambient light. Combined with RGB triple-laser color, Dual Dynamic Iris, DBLE technology, and 4K 120Hz playback, it's built for viewers who want powerful cinematic performance and high-impact entertainment.",
-      "backers": 1501,
+      "backers": 1492,
       "limit": null,
       "remaining": null,
       "eta": 1796083200,
@@ -1658,8 +1777,8 @@
      }
     ],
     "rewardsTotal": 9,
-    "tiersDate": "2026-11-03",
-    "tiersCarried": "2026-11-03",
+    "tiersDate": "2026-11-08",
+    "tiersCarried": "",
     "cues": [
      [
       1.3,
@@ -1774,7 +1893,7 @@
      [
       68.78,
       73.91,
-      "体验响应灵敏、流畅、无泪"
+      "体验响应灵敏、流畅且无撕裂"
      ],
      [
       73.91,
@@ -1943,7 +2062,7 @@
      {
       "t": "p",
       "x": "RGB triple laser delivers a clear image in bright rooms for anytime viewing.",
-      "z": "RGB 三重激光可在明亮的房间中提供清晰的图像，以便随时查看。"
+      "z": "RGB 三重激光可在明亮的房间中提供清晰的图像，以便随时观看。"
      },
      {
       "t": "p",
