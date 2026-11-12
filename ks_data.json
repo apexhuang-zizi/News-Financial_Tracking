@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T01:12:18+07:00",
+  "generatedAt": "2026-11-12T14:55:49+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 42,
+  "poolSize": 35,
   "projects": [
    {
     "id": 736359379,
@@ -18,25 +18,24 @@
     "currency": "GBP",
     "currencySymbol": "£",
     "goal": 10000.0,
-    "pledged": 458829.0,
-    "usdPledged": "613823.80834593",
+    "pledged": 494330.0,
+    "usdPledged": "661317.2296861",
     "goalUsd": 13378.05,
-    "percentFunded": 4588.29,
-    "backers": 2187,
+    "percentFunded": 4943.3,
+    "backers": 2349,
     "deadline": 1796911200,
     "launchedAt": 1794319091,
     "staffPick": true,
     "sources": [
-     "Hardware 热门",
      "Technology 热门"
     ],
     "kwHits": [
      "ai"
     ],
-    "score": 0.7991,
+    "score": 0.8019,
     "coverRemote": "https://i.kickstarter.com/assets/055/724/828/2baa97c39729466969c66182ce3d7d36_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793399442&width=1024&sig=35yvlpK9G3cnq78nLNcgbxrPpJYctPDPCGDDdUhlt5A%3D",
-    "videoMp4": "https://v2.kickstarter.com/1794407258-%2BMJAvCH1EwlrvyLKLiUGmsv76BOC5YT583U8AVME5y0%3D/projects/4454982/video-1467447-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1794407258-%2BMJAvCH1EwlrvyLKLiUGmsv76BOC5YT583U8AVME5y0%3D/projects/4454982/video-1467447-hls_playlist.m3u8",
+    "videoMp4": null,
+    "videoHls": null,
     "rewards": [
      {
       "id": 11043989,
@@ -489,11 +488,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 2092861.0,
-    "usdPledged": "266685.82664484",
+    "pledged": 2142290.0,
+    "usdPledged": "272984.3881476",
     "goalUsd": 1274.26,
-    "percentFunded": 20928.61,
-    "backers": 105,
+    "percentFunded": 21422.9,
+    "backers": 107,
     "deadline": 1795532381,
     "launchedAt": 1792504781,
     "staffPick": true,
@@ -503,10 +502,10 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7266,
+    "score": 0.7273,
     "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
-    "videoMp4": "https://v2.kickstarter.com/1794370839-F2ToVEaYMYVjfHElSjuYINlzwA3dcS8enm25WI8vNUY%3D/projects/5343527/video-1466952-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1794370839-F2ToVEaYMYVjfHElSjuYINlzwA3dcS8enm25WI8vNUY%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
+    "videoMp4": null,
+    "videoHls": null,
     "rewards": [
      {
       "id": 11305322,
@@ -748,26 +747,25 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 262860.0,
-    "usdPledged": "262860.0",
+    "pledged": 334855.0,
+    "usdPledged": "334855.0",
     "goalUsd": 20000.0,
-    "percentFunded": 1314.3000000000002,
-    "backers": 1780,
+    "percentFunded": 1674.275,
+    "backers": 2195,
     "deadline": 1797786338,
     "launchedAt": 1794330338,
     "staffPick": true,
     "sources": [
-     "Hardware 热门",
      "Technology 热门"
     ],
     "kwHits": [
      "ai",
      "voice"
     ],
-    "score": 0.6949,
+    "score": 0.6617,
     "coverRemote": "https://i.kickstarter.com/assets/055/850/926/3fe1beaaaf89384910a6d1b3617de7e0_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794354517&width=1024&sig=9IJpV6J%2Be5C1Ygb%2B1ek4KwXfZ%2BPvqh64rwWGYFYXw9o%3D",
-    "videoMp4": "https://v2.kickstarter.com/1794408887-JsOgyvV437mhsg7gCRmOqY8XpIAv6NQf56%2BA1%2Bs4c%2B8%3D/projects/5413240/video-1476329-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1794408887-JsOgyvV437mhsg7gCRmOqY8XpIAv6NQf56%2BA1%2Bs4c%2B8%3D/projects/5413240/video-1476329-hls_playlist.m3u8",
+    "videoMp4": null,
+    "videoHls": null,
     "rewards": [
      {
       "id": 11519924,
@@ -1384,442 +1382,6 @@
     ]
    },
    {
-    "id": 1773680302,
-    "name": "Beelink ME Pro: Modular AI NAS With Upgradeable Performance",
-    "blurb": "Drawer-Style Core Module | Up to 86 TOPS | Local AI Deployment | Media Workspace | Quiet 24/7 Cooling | Up to 136TB | 50% Less Space",
-    "url": "https://www.kickstarter.com/projects/1086667996/beelink-me-pro-nas",
-    "category": "Hardware",
-    "creator": "Beelink",
-    "location": "St. Petersburg, FL",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 948489.0,
-    "usdPledged": "948489.0",
-    "goalUsd": 10000.0,
-    "percentFunded": 9484.89,
-    "backers": 1246,
-    "deadline": 1796482808,
-    "launchedAt": 1793890808,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "nas"
-    ],
-    "score": 0.6238,
-    "coverRemote": "https://i.kickstarter.com/assets/055/839/542/1d6732140e855ee5a2db57011eb0b3d2_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794291767&width=1024&sig=Z%2Fm9uTxLhjxFeAEhWjJprj6uu13UCkIJBqkmSLczWUE%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11517351,
-      "price": 469.0,
-      "title": "ME Pro N150 2-Bay",
-      "desc": "【Super Early Bird Offer】\\nYou will get a ME Pro N150 2-Bay version and save 30% off the MSRP. Seize this incredible offer before prices increase!\\n\\n· 3-Year warranty included.\\n· Free shipping to most destinations.\\n· All shown prices are in USD.\\n· Shipping details will be collected after the campaign.",
-      "backers": 265,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11517358,
-      "price": 739.0,
-      "title": "ME Pro 13500H 2-Bay",
-      "desc": "【Super Early Bird Offer】\\nYou will get a ME Pro 13500H 2-Bay version and save 30% off the MSRP. Seize this incredible offer before prices increase!\\n\\n· 3-Year warranty included.\\n· Free shipping to most destinations.\\n· All shown prices are in USD.\\n· Shipping details will be collected after the campaign.",
-      "backers": 195,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11517367,
-      "price": 1279.0,
-      "title": "ME Pro AI 470 2-Bay",
-      "desc": "【Super Early Bird Offer】\\nYou will get a ME Pro AI 470 2-Bay version and save 30% off the MSRP. Seize this incredible offer before prices increase!\\n\\n· 3-Year warranty included.\\n· Free shipping to most destinations.\\n· All shown prices are in USD.\\n· Shipping details will be collected after the campaign.",
-      "backers": 179,
-      "limit": null,
-      "remaining": null,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 29,
-    "tiersDate": "2026-11-12",
-    "tiersCarried": "",
-    "cues": [
-     [
-      1.3,
-      5.02,
-      "认识Aura 3 ，新一代激光"
-     ],
-     [
-      5.02,
-      8.3,
-      "专为将电影院带回家而设计的电视。"
-     ],
-     [
-      8.3,
-      14.12,
-      "从80到200英寸，带大"
-     ],
-     [
-      14.12,
-      19.78,
-      "屏幕回家，仅几英寸远。"
-     ],
-     [
-      19.78,
-      23.51,
-      "由鲜艳的RGB激光颜色提供动力，最高可达"
-     ],
-     [
-      23.51,
-      27.07,
-      "5700 ISO流明，每一个细节都"
-     ],
-     [
-      27.07,
-      27.78,
-      "被看见。"
-     ],
-     [
-      27.78,
-      30.4,
-      "彩虹显著减少"
-     ],
-     [
-      30.4,
-      32.78,
-      "效果，享受更清晰的视觉效果。"
-     ],
-     [
-      32.78,
-      35.53,
-      "Aura 3的核心是精准"
-     ],
-     [
-      35.53,
-      38.34,
-      "光控，双虹膜动态"
-     ],
-     [
-      38.34,
-      41.3,
-      "控制光线以显示更深的黑色，"
-     ],
-     [
-      41.3,
-      42.78,
-      "更丰富的阴影细节。"
-     ],
-     [
-      42.78,
-      45.58,
-      "我们的XVision AI图像处理器"
-     ],
-     [
-      45.58,
-      48.85,
-      "智能地增强每一帧，"
-     ],
-     [
-      48.85,
-      52.78,
-      "优化HDR以获得更精致的画面。"
-     ],
-     [
-      52.78,
-      56.18,
-      "在其中享受您最喜爱的内容"
-     ],
-     [
-      56.18,
-      57.78,
-      "原始格式"
-     ],
-     [
-      57.78,
-      61.62,
-      "4K 120 Hz刷新率，快速移动"
-     ],
-     [
-      61.62,
-      64.78,
-      "场景保持更清晰、更流畅。"
-     ],
-     [
-      64.78,
-      67.52,
-      "当画面变大时，"
-     ],
-     [
-      67.52,
-      68.78,
-      "声音也应该如此。"
-     ],
-     [
-      68.78,
-      73.91,
-      "体验反应灵敏、流畅且无撕裂"
-     ],
-     [
-      73.91,
-      76.47,
-      "低延迟游戏玩法。"
-     ],
-     [
-      76.47,
-      79.35,
-      "从游戏到观看，体验"
-     ],
-     [
-      79.35,
-      80.47,
-      "在一起的时刻。"
-     ],
-     [
-      80.47,
-      84.56,
-      "配备背光遥控器和Google TV ，"
-     ],
-     [
-      84.56,
-      88.65,
-      "你所爱的一切都在你的"
-     ],
-     [
-      88.65,
-      89.9,
-      "指尖"
-     ],
-     [
-      89.9,
-      93.52,
-      "与X Jimmy Ascent配对， Aura 3成为"
-     ],
-     [
-      93.52,
-      96.97,
-      "完整的激光电视体验，"
-     ],
-     [
-      96.97,
-      100.59,
-      "消失在你的生活空间中，直到"
-     ],
-     [
-      100.59,
-      104.21,
-      "是时候让大屏幕亮起来了"
-     ],
-     [
-      104.21,
-      107.57,
-      "终极激光电视，随时随地播放。"
-     ],
-     [
-      108.88,
-      111.88,
-      "X Jimmy Aura 3系列。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "p",
-      "x": "*   [**Find Your Perfect Match**](h:Find-Your-Perfect-Match)",
-      "z": "* [**找到您的完美匹配**](h:找到您的完美匹配)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Key Specs at Glance**](h:Key-Specs-at-Glance)",
-      "z": "* [**主要规格一览**](h:主要规格一览)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**What Makes ME Pro Unique**](h:What-Makes-ME-Pro-Unique)",
-      "z": "* [**ME Pro 的独特之处**](h:ME-Pro 的独特之处)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Upgrade, Expand, and Maintain Without Replacing the Entire NAS**](h:Upgrade-Expand-and-Maintain-Without-Replacing-the-Entire-NAS)",
-      "z": "* [**无需更换整个 NAS 即可升级、扩展和维护**](h:无需更换整个 NAS 即可升级、扩展和维护)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Engineered For Quiet, Reliable 24/7 Operation**](h:Engineered-For-Quiet-Reliable-24-7-Operation)",
-      "z": "* [**专为安静、可靠的 24/7 操作而设计**](h:专为安静、可靠的 24-7-操作而设计)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Compact Design. Massive Storage.**](h:Compact-Design-Massive-Storage-)",
-      "z": "* [**紧凑的设计。海量存储。**](h:紧凑设计-海量存储-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Turn Your NAS Into a Collaborative Media Workspace**](h:Turn-Your-NAS-Into-a-Collaborative-Media-Workspace)",
-      "z": "* [**将您的 NAS 转变为协作媒体工作区**](h:将您的 NAS 转变为协作媒体工作区)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Run AI Models and Agents Locally on NAS**](h:Run-AI-Models-and-Agents-Locally-on-NAS)",
-      "z": "* [**在 NAS 本地运行 AI 模型和代理**](h:Run-AI-Models-and-Agents-Locally-on-NAS)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Your Data. Protected on Multiple Levels.**](h:Your-Data-Protected-on-Multiple-Levels-)",
-      "z": "* [**您的数据。多级别保护。**](h:您的数据多级别保护-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Your NAS. More Possibilities.**](h:Your-NAS-More-Possibilities-)",
-      "z": "* [**您的 NAS。更多可能性。**](h:Your-NAS-More-Possibilities-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Ports & Connectivity**](h:Ports-Connectivity)",
-      "z": "* [**端口和连接**](h:端口-连接)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Tech Specs**](h:Tech-Specs)",
-      "z": "* [**技术规格**](h:技术规格)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Choose Your ME Pro**](h:Choose-Your-ME-Pro)",
-      "z": "* [**选择您的 ME Pro**](h:选择您的 ME Pro)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**See ME Pro In Action & Testing**](h:See-ME-Pro-In-Action-Testing)",
-      "z": "* [**查看 ME Pro 的实际操作和测试**](h:See-ME-Pro-In-Action-Testing)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**What's in the Box?**](h:What-s-in-the-Box-)",
-      "z": "* [**盒子里有什么？**](h:盒子里有什么-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Shipping, Taxes & VAT**](h:Shipping-Taxes-VAT)",
-      "z": "* [**运费、税费和增值税**](h:运费-税费-增值税)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**After-Sales Services & Customer Support**](h:After-Sales-Services-Customer-Support)",
-      "z": "* [**售后服务和客户支持**](h:售后服务-客户支持)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**About Beelink**](h:About-Beelink)",
-      "z": "* [**关于 Beelink**](h:关于-Beelink)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Purchase Guideline**](h:Purchase-Guideline)",
-      "z": "* [**购买指南**](h:购买指南)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Note for VIP Deposit Holder**](h:Note-for-VIP-Deposit-Holder)",
-      "z": "* [**VIP 存款持有人须知**](h:VIP 存款持有人须知)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Project Timeline**](h:Project-Timeline)",
-      "z": "* [**项目时间表**](h:项目时间表)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Stay Connected with Us**](h:Stay-Connected-with-Us)",
-      "z": "* [**与我们保持联系**](h:与我们保持联系)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Risks**](https://www.kickstarter.com/projects/1086667996/risks-and-challenges)",
-      "z": "* [**风险**](https://www.kickstarter.com/projects/1086667996/risks-and-challenges)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/1086667996/use-of-ai)",
-      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/1086667996/use-of-ai)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/761/096/189bb1289c9a9b7a35a105c7a6bcb98a_original.png?fit=scale-down&origin=ugc&q=100&v=1793709452&width=680&sig=hLqH6oq1UMrpfFAdsuExmuYTqq%2Bhw6mboml425aKs6M%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/758/650/f8389d1c470a56079648236d849dd192_original.png?fit=scale-down&origin=ugc&q=100&v=1793697486&width=680&sig=iX9IIKmCi9LP%2Bsekw0m5zEtmoLjdvTxiC5gVaC2flf0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/785/270/5fd8576afedfa0216581c6cc33ac7eca_original.png?fit=scale-down&origin=ugc&q=100&v=1793863120&width=680&sig=rdVlApHA%2F0oa36InFM5D3PFxgyn%2FVIjSK59rCNcJiZI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/789/102/e576eb0313dc1e9ce439790e009fb106_original.png?fit=scale-down&origin=ugc&q=100&v=1793887890&width=680&sig=DLM3j5aA4Wktt6cn3xHztfT23E7RX05JA6Sqx9FGv4Q%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/789/559/07ea8b2c0ceb3c610c65a47055c45f91_original.png?fit=scale-down&origin=ugc&q=100&v=1793890514&width=680&sig=tguuGkavjetSBv2w1RAgPxP6SmJGJc9BW69GQ4TVeqg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/828/591/424d5de97d9edfaad8f80d9344a83b2b_original.png?fit=scale-down&origin=ugc&q=100&v=1794220814&width=680&sig=XD%2FdnZXQZTh6a17pn6k%2BQndqMaAZKJApyhLmAiKI%2F%2Bo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/828/592/8e904d4b7d88c2f2a3c98bba7209f332_original.png?fit=scale-down&origin=ugc&q=100&v=1794220815&width=680&sig=C18yRtuxtWvByR72k%2B2O6EXFD3N4%2BPhMiDE8pE3aQ%2Fo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/828/594/4599a76a560777a52d4532fa6a7283ff_original.png?fit=scale-down&origin=ugc&q=100&v=1794220818&width=680&sig=PRH6ejqSi9kWCVoJnanwrLP9rGcMBOPTVnJDiY8wlEI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/828/597/94aafca2898ad43a9f90b11047600bde_original.png?fit=scale-down&origin=ugc&q=100&v=1794220827&width=680&sig=bm%2FEjgBj3PSJhftrZ6uQQopBpS8nQxJ6GqlbheUaM%2FE%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/759/531/4c02a8527c55511f61d64a0aa88623ac_original.png?fit=scale-down&origin=ugc&q=100&v=1793701091&width=680&sig=kembXFJcDL5Da80MirSOUlBIHgnsQjgQh9mZnrAZpFo%3D"
-     },
-     {
-      "t": "p",
-      "x": "A NAS is a long-term home for your data. But your needs won’t stand still. Photo libraries grow. Creative projects get larger. New apps demand more performance.",
-      "z": "NAS 是您数据的长期存放地。但您的需求不会停滞不前。照片库不断增长。创意项目变得越来越大。新的应用程序需要更高的性能。"
-     },
-     {
-      "t": "p",
-      "x": "Meet Beelink ME Pro — a modular AI NAS built for changing needs. Its drawer-style compute module brings greater flexibility to upgrades and maintenance, while intelligent data management, professional media tools, and local AI on select models help you do more with your data. Built for your data today. Designed to evolve with you.",
-      "z": "Beelink ME Pro — 一款专为不断变化的需求而打造的模块化 AI NAS。其抽屉式计算模块为升级和维护带来了更大的灵活性，而智能数据管理、专业媒体工具和特定型号上的本地人工智能可帮助您更好地处理数据。专为您今天的数据而打造。旨在与您一起发展。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/761/114/601bd589cd5375a5a29365525e48295d_original.png?fit=scale-down&origin=ugc&q=100&v=1793709510&width=680&sig=9pSwYRMn7JZVO9VBFXqvHqeGN9Xz%2BWNduPZMbkF15oU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/758/681/03ec2a7d6236f0c23a1b39508949ffb5_original.png?fit=scale-down&origin=ugc&q=100&v=1793697620&width=680&sig=AJCoVz2u2EqPphpxtsrrkzH8wFjxi03kRnApxGJsdL8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/759/538/c3bed587356fc3dae5fe81ea2d3bdbb9_original.png?fit=scale-down&origin=ugc&q=100&v=1793701111&width=680&sig=%2BwdQyq1RkJh9EGoBPOp5RT9eJ44PyWzOQb%2BkMjkDOGg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/727/005/5704e6067af4489778a85d8e798a2eff_original.png?fit=scale-down&origin=ugc&q=100&v=1793427203&width=680&sig=GTUH9OKXK5dj%2B0QRwl3gCbm0m7819r%2FhIhPue3bymB0%3D"
-     }
-    ]
-   },
-   {
     "id": 402161823,
     "name": "HIYD: Add Health Tracking to the Watch You Love",
     "blurb": "A 2.7mm thin waterproof sensor that adds health tracking to your favorite watch. No magnets. No glue. No monthly fees.",
@@ -1831,11 +1393,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 592873.0,
-    "usdPledged": "592873.0",
+    "pledged": 658922.0,
+    "usdPledged": "658922.0",
     "goalUsd": 10000.0,
-    "percentFunded": 5928.7300000000005,
-    "backers": 3497,
+    "percentFunded": 6589.22,
+    "backers": 3876,
     "deadline": 1796975940,
     "launchedAt": 1794326477,
     "staffPick": true,
@@ -1845,10 +1407,10 @@
     "kwHits": [
      "sensor"
     ],
-    "score": 0.6027,
+    "score": 0.6066,
     "coverRemote": "https://i.kickstarter.com/assets/055/653/568/3a527046aa644a175104f9b6e9e42697_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792971612&width=1024&sig=UCsoZn02Lcphj99qR8zDIRLem341EgxO03UZlOQ%2BVAI%3D",
-    "videoMp4": "https://v2.kickstarter.com/1794415760-sk0oshYNqWN4M4XBvpsflxEagwluY6oL%2FDL%2BwdVzX9I%3D/projects/5368499/video-1470881-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1794415760-sk0oshYNqWN4M4XBvpsflxEagwluY6oL%2FDL%2BwdVzX9I%3D/projects/5368499/video-1470881-hls_playlist.m3u8",
+    "videoMp4": null,
+    "videoHls": null,
     "rewards": [
      {
       "id": 11471912,
@@ -2506,6 +2068,266 @@
      {
       "t": "img",
       "u": "https://i.kickstarter.com/assets/055/631/757/e729e8c798270daf9facfa7d18a8421c_original.png?fit=scale-down&origin=ugc&q=100&v=1792772764&width=680&sig=KoHzNk%2F814Ku9fbGniswzgNYvfljprOsFFLJmXzVhC0%3D"
+     }
+    ]
+   },
+   {
+    "id": 1302468646,
+    "name": "InfiMech MX 3D Printer: 8X More Efficient. 8X Less Waste.",
+    "blurb": "8 Tools | Wireless Heating | Blob Detection | Smart Calibration | Active Chamber Heating",
+    "url": "https://www.kickstarter.com/projects/infimech-mx-series/infimech-mx-3d-printer-8x-more-efficiency-8x-less-waste",
+    "category": "3D Printing",
+    "creator": "InfiMech",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 400000.0,
+    "pledged": 16101606.0,
+    "usdPledged": "2053855.6498557",
+    "goalUsd": 51022.38,
+    "percentFunded": 4025.4015000000004,
+    "backers": 2791,
+    "deadline": 1796914306,
+    "launchedAt": 1794322306,
+    "staffPick": false,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "smart",
+     "3d print"
+    ],
+    "score": 0.598,
+    "coverRemote": "https://i.kickstarter.com/assets/055/844/921/c685f3ba86c00c7ef447d049dfe0d901_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794320920&width=1024&sig=TFSM04hL8zx2q3HF5nYHtEOSFhuuTI2K9pr0I62DxaM%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11166720,
+      "price": 2349.0,
+      "title": "Super Early Bird | InfiMech MX ×1",
+      "desc": "What’s Included: \\n✅ InfiMech MX ×1 (6 Tools Included)\\n✅ 1-Year Warranty (2 Years within EU, CH, NO, IS)\\n💰 HK$2349 ≈ US$299\\n(Note: Charged in HKD at checkout)",
+      "backers": 300,
+      "limit": 300,
+      "remaining": 0,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11166701,
+      "price": 4310.0,
+      "title": "Super Early Bird | InfiMech MX Pro ×1",
+      "desc": "What’s Included: \\n✅ InfiMech MX Pro ×1 (8 Tools Included)\\n✅ 1-Year Warranty (2 Years within EU, CH, NO, IS)\\n💰 HK$4310 ≈ US$549\\n(Note: Charged in HKD at checkout)",
+      "backers": 400,
+      "limit": 400,
+      "remaining": 0,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11521710,
+      "price": 5010.0,
+      "title": "Early Bird | InfiMech MX Pro ×1",
+      "desc": "What’s Included: \\n✅ InfiMech MX Pro ×1 (8 Tools Included)\\n✅ 1-Year Warranty (2 Years within EU, CH, NO, IS)\\n💰 HK$5010 ≈ US$639\\n(Note: Charged in HKD at checkout)",
+      "backers": 999,
+      "limit": 1000,
+      "remaining": 1,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 58,
+    "tiersDate": "2026-11-11",
+    "tiersCarried": "2026-11-11",
+    "cues": [],
+    "vttLang": "",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/727/916/4e37d13e00996ebb6ee266a5fa674c38_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793439058&width=680&sig=ApO%2FapXIq%2BGiqHAH%2FPv%2BBDRQ0STJFjnkzjpFjRzCCfY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/646/035/f3e988356b4a9b1f58dea5a6e3a3b83c_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792897625&width=680&sig=WaLrCP3p0oHnF1vmI%2FhG%2B32l78Z6lOz2bBUl0dEidWA%3D"
+     },
+     {
+      "t": "p",
+      "x": "🚨 Special Update: Super Early Bird Sold Out!",
+      "z": "🚨 特别更新：超级早鸟已售罄！"
+     },
+     {
+      "t": "p",
+      "x": "Super Early Bird for InfiMech MX Pro has officially sold out! The Early Bird tier is now the lowest price available—get the flagship 8-toolhead printer for just $639 (MSRP $1,399, save $760!).",
+      "z": "InfiMech MX Pro的Super Early Bird已正式售罄！ Early Bird会员等级现在是可用的最低价格-仅需$ 639即可获得旗舰8刀头打印机（建议零售价$ 1,399 ，节省$ 760 ！ ）。"
+     },
+     {
+      "t": "p",
+      "x": "💡 Already have a VIP Pass?",
+      "z": "💡 已有VIP通行证？"
+     },
+     {
+      "t": "p",
+      "x": "Use your $5 deposit to claim your $50 Cashback, bringing the MX Pro down to just $589!",
+      "z": "使用您的$ 5存款领取您的$ 50现金返还，将MX Pro降至仅$ 589 ！"
+     },
+     {
+      "t": "p",
+      "x": "👉 [Click Here to Back InfiMech MX Pro on Kickstarter](https://www.kickstarter.com/projects/infimech-mx-series/infimech-mx-3d-printer-8x-more-efficiency-8x-less-waste)",
+      "z": "👉 [点击此处，在Kickstarter上支持InfiMech MX Pro] (https://www.kickstarter.com/projects/infimech-mx-series/infimech-mx-3d-printer-8x-more-efficiency-8x-less-waste)"
+     },
+     {
+      "t": "p",
+      "x": "VIP Cashback Rules: Please pay the standard pledge amount upfront at checkout. The $50 VIP discount will be refunded to your original payment account after your printer is shipped.",
+      "z": "VIP返现规则：请在结账时预先支付标准订阅金额。打印机发货后， $ 50 VIP折扣将退还至您原先的付款账户。"
+     },
+     {
+      "t": "p",
+      "x": "Multiple VIPs & Printers: Each VIP reservation unlocks a $50 refund for one printer. For example, if you reserve 2 VIP spots and pledge for 2 printers, you will receive a total refund of $100 after shipment.",
+      "z": "多台VIP和打印机：每次VIP预订可获得一台打印机50 $的退款。例如，如果您预订了2个VIP名额并订阅了2台打印机，您将在发货后获得总计$ 100的退款。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/646/037/da51c098ba781d12c31182feeffcfa65_original.jpg?fit=scale-down&origin=ugc&q=92&v=1792897647&width=680&sig=zjESzZJ5rMODdC1NOs%2BgXDyen5PYsB5CQoH76yWWCGE%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/743/439/b27f16ad4d2496cb59ca26b399b49b3b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793608680&width=680&sig=BM7JvdRdJT7VcDvD6v16NIrANp7eoNq%2FwugbMXT%2BK9M%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/827/104/be57b98ab37c27ce0f7fedeede421f44_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794212289&width=680&sig=u8koYAypXYvQucvdgr7EbQ6XPrBiC1ilV2Czp1oLHc8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/785/411/0d5cc289b9996836cc30d0ff2506a923_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793864315&width=680&sig=o87wUWhucUJc4Q7NgO9mIm9E0eIqibUCYiGWzZoTuBg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/785/413/9d0f7d037e57206d7c4ba5ce94f4a216_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793864323&width=680&sig=CT1zgWaJvd%2BIJfjbU4g3TkGOEKlEHtF9bLVM2S0pbZ8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/801/671/dbc48860803551ffcf17ef94d30a29d8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793968980&width=680&sig=0XJClFI1wNjI8eqZRQCt3u33Bz8b%2FsAULMOkujbPmwc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/801/632/9267028195d75ffdd9daab80934e00e4_original.gif?fit=scale-down&origin=ugc&q=92&v=1793968688&width=680&sig=ius6PMu6Wf3IXLu6ZWNlK%2Bi7FzMetxNetfmNR4Y2tqE%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/701/625/621f0e1777bb06c53e4c979b8f9ace91_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793250309&width=680&sig=6XY9RCMz0I1D5Y4ukDMScHYbNPxdZYa%2FOdH7mUpv43c%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/727/696/546c22b7b93ffe413c51358f72b7fcc9_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793435636&width=680&sig=kLnyZNXTIGlMjlWSdxGa1zcx0oVJ95OUTjWIOkZHUYM%3D"
+     },
+     {
+      "t": "p",
+      "x": "True 8-tool switching architecture for seamless multi-color and multi-material printing. Eliminates filament waste towers and significantly accelerates execution times.",
+      "z": "真正的8工具切换架构，可实现无缝的多色和多材料打印。消除了灯丝废料塔，大大加快了执行时间。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/645/830/5e81469fd710b8076d96c6b75ca8e03d_original.gif?fit=scale-down&origin=ugc&q=92&v=1792894954&width=680&sig=Vg9zL1Sp%2Fbew4V87zvgMZjGyn%2BlS1MS%2FPD49LRjmYwI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/700/656/bb410ac3736513672dcc9ab0c15214e9_original.gif?fit=scale-down&origin=ugc&q=92&v=1793242925&width=680&sig=%2BAElY8aiR%2FiP760CjtT1iIgqg%2BCgcyL0QhxUuO6RF3g%3D"
+     },
+     {
+      "t": "p",
+      "x": "Engineered for seamless multi-material and multi-color execution, the InfiMech MX Series features an array of independent tool docks with individual filament pathways.",
+      "z": "InfiMech MX系列专为无缝多材料和多色执行而设计，具有一系列具有单个灯丝通路的独立工具底座。"
+     },
+     {
+      "t": "p",
+      "x": "*   Dedicated Channel Design: Each tool maintains an independent filament path, preventing cross-contamination and eliminating multi-color bleed.",
+      "z": "*专用通道设计：每个工具都保持独立的灯丝路径，防止交叉污染并消除多色出血。"
+     },
+     {
+      "t": "p",
+      "x": "*   Precision Mechanical Alignment: High-precision guide rails and docking mechanisms ensure reliable tool pickup and release with sub-millimeter repeatable accuracy.",
+      "z": "*精密机械对中：高精度导轨和对接机构确保可靠的刀具拾取和释放，亚毫米级可重复精度。"
+     },
+     {
+      "t": "p",
+      "x": "*   Streamlined Filament Management: Integrated PTFE routing and sensors ensure smooth filament feeding and instant strain detection.",
+      "z": "*简化的灯丝管理：集成PTFE布线和传感器，确保灯丝顺畅进料和即时应变检测。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/742/112/130b66fc7b860e3528f7cabf7cb63e9c_original.gif?fit=scale-down&origin=ugc&q=92&v=1793598570&width=680&sig=j%2BnO5eJWF2V8uDXKiI7brqvaNsOF6ykWT3T%2F0boxKss%3D"
+     },
+     {
+      "t": "p",
+      "x": "Unlike traditional single-nozzle systems that purge material during every single color swap, the InfiMech MX Series utilizes a smart independent tool architecture.",
+      "z": "与在每次换色时吹扫材料的传统单喷嘴系统不同， InfiMech MX系列采用智能独立工具架构。"
+     },
+     {
+      "t": "p",
+      "x": "*   One Priming Per Tool: Each tool purges only once upon its first activation to ensure the melt zone is perfectly filled.",
+      "z": "*每个工具一个预充：每个工具在第一次激活时仅清除一次，以确保熔化区被完美填充。"
+     },
+     {
+      "t": "p",
+      "x": "*   No Repeated Purging: Subsequent color switches require no further filament waste throughout the entire print.",
+      "z": "*无重复吹扫：后续颜色开关在整个打印过程中无需进一步浪费灯丝。"
+     },
+     {
+      "t": "p",
+      "x": "*   Maximum Waste Reduction: Printing an 8-color model produces only 8 small purge drops in total—reducing material waste and printing time to the absolute minimum.",
+      "z": "*最大限度地减少浪费：打印8色模型只会产生8个小的吹扫液滴，从而将材料浪费和打印时间降至绝对最低。"
+     },
+     {
+      "t": "p",
+      "x": "Cutting-edge electromagnetic induction technology rockets nozzle temperatures from ambient to operating heat in just 8 seconds, eliminating prep waiting times and optimizing multi-tool efficiency.",
+      "z": "尖端电磁感应技术在短短8秒内将喷嘴温度从环境温度提高到工作温度，从而消除了准备等待时间并优化了多工具效率。"
+     },
+     {
+      "t": "p",
+      "x": "Reads precise thermal data using high-accuracy thermistors and transmits signal via NFC. No physical pins to wear out, no wiring clutter, and zero connection errors during tool swaps.",
+      "z": "使用高精度热敏电阻读取精确的热数据，并通过NFC传输信号。没有物理引脚磨损，没有布线杂乱，工具更换过程中零连接错误。"
+     },
+     {
+      "t": "p",
+      "x": "Dedicated printhead sensor actively detects hotend filament buildup in real time. Automatically pauses printing and triggers an on-screen alert to prevent hotend destruction and component damage.",
+      "z": "专用打印头传感器可实时主动检测热端灯丝堆积。自动暂停打印并触发屏幕警报，以防止热端破坏和组件损坏。"
+     },
+     {
+      "t": "p",
+      "x": "Tool-integrated Hall sensor monitors filament feed tension in real time. Automatically pauses printing and prompts on-screen alerts when a spool tangle is detected, protecting your extruder and saving long prints.",
+      "z": "工具集成的霍尔传感器实时监控灯丝进给张力。检测到线轴缠结时，自动暂停打印并提示屏幕警报，保护您的挤出机并节省长时间打印。"
+     },
+     {
+      "t": "p",
+      "x": "Automatically pauses printing when the filament spool rns out, saving your job and allowing instant spool replacements.",
+      "z": "当灯丝线轴退出时自动暂停打印，保存您的工作并允许即时更换线轴。"
+     },
+     {
+      "t": "p",
+      "x": "Auxiliary Part Cooling: A dedicated interior side fan delivers targeted high-volume airflow across the build platform. Enhances overhangs, bridging, and surface finish at extreme speeds without adding weight to the tool.",
+      "z": "辅助部件冷却：专用内部侧风扇在构建平台上提供有针对性的大容量气流。在不增加工具重量的情况下，以极速增强悬垂、桥接和表面光洁度。"
+     },
+     {
+      "t": "p",
+      "x": "Saves printing status and coordinates in non-volatile memory during unexpected blackouts. Prompts a one-touch resume upon power restoration to save time, energy, and filament.",
+      "z": "在意外停电期间将打印状态和坐标保存在非易失性存储器中。电源恢复时提示一键恢复，以节省时间、能源和灯丝。"
+     },
+     {
+      "t": "p",
+      "x": "AI-assisted camera monitoring that automatically pauses execution when prints fail.",
+      "z": "人工智能辅助摄像头监控，在打印失败时自动暂停执行。"
+     },
+     {
+      "t": "p",
+      "x": "Visual bed inspection that detects left-over tools or debris before homing to prevent nozzle crashes.",
+      "z": "目视检查床，在归位前检测剩余的工具或碎屑，以防止喷嘴碰撞。"
+     },
+     {
+      "t": "p",
+      "x": "Precision Tool Calibration:Multi-point perimeter probing → Instant exact center calculation for absolute alignment on every tool swap.",
+      "z": "精密工具校准：多点周边探测→即时精确中心计算，用于每次工具更换时的绝对对准。"
      }
     ]
    }
