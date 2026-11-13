@@ -1,5 +1,2028 @@
 [
  {
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T14:33:07+07:00",
+  "source": "Kickstarter discover/advanced API + 项目详情页",
+  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
+  "poolSize": 43,
+  "projects": [
+   {
+    "id": 736359379,
+    "name": "Altar II — Electronic Materials Office®",
+    "blurb": "Remarkably thin. Fully mechanical. Sustainably made.",
+    "url": "https://www.kickstarter.com/projects/electronicamaterials/altar-ii",
+    "category": "Hardware",
+    "creator": "Electronic Materials Office®",
+    "location": "London, UK",
+    "country": "the United Kingdom",
+    "currency": "GBP",
+    "currencySymbol": "£",
+    "goal": 10000.0,
+    "pledged": 518101.0,
+    "usdPledged": "693118.19638217",
+    "goalUsd": 13378.05,
+    "percentFunded": 5181.01,
+    "backers": 2456,
+    "deadline": 1796911200,
+    "launchedAt": 1794319091,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.8036,
+    "coverRemote": "https://i.kickstarter.com/assets/055/724/828/2baa97c39729466969c66182ce3d7d36_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793399442&width=1024&sig=35yvlpK9G3cnq78nLNcgbxrPpJYctPDPCGDDdUhlt5A%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11043989,
+      "price": 185.0,
+      "title": "Altar II - Reservation",
+      "desc": "Exclusive reservation price — $100 off retail ($349).\\n\\nOnly those who placed a $1 deposit prior to the Altar II Kickstarter campaign are eligible.\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
+      "backers": 1642,
+      "limit": null,
+      "remaining": null,
+      "eta": 1814400000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11043993,
+      "price": 207.0,
+      "title": "Altar II - Early Bird",
+      "desc": "First 48 hours only — $70 off retail ($349).\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
+      "backers": 751,
+      "limit": null,
+      "remaining": null,
+      "eta": 1814400000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11043994,
+      "price": 222.0,
+      "title": "Altar II - Kickstarter Special",
+      "desc": "Exclusive Kickstarter price — $50 off retail ($349).\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
+      "backers": 13,
+      "limit": null,
+      "remaining": null,
+      "eta": 1814400000,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 10,
+    "tiersDate": "2026-11-12",
+    "tiersCarried": "2026-11-12",
+    "cues": [
+     [
+      2.58,
+      4.67,
+      "我们的目标是打造一款"
+     ],
+     [
+      4.67,
+      7.74,
+      "一款不折不扣的键盘，既"
+     ],
+     [
+      7.74,
+      10.58,
+      "纤薄优雅，打字体验妙不可言。"
+     ],
+     [
+      11.58,
+      13.58,
+      "这是Alter 2。"
+     ],
+     [
+      17.01,
+      18.69,
+      "基金会是一个突破"
+     ],
+     [
+      18.69,
+      20.59,
+      "机械键轴设计，"
+     ],
+     [
+      20.59,
+      22.01,
+      "空间利用率极高。"
+     ],
+     [
+      23.01,
+      25.15,
+      "这使得Alter 2比"
+     ],
+     [
+      25.15,
+      26.01,
+      "其前身。"
+     ],
+     [
+      29.57,
+      32.12,
+      "全新M表盘可磁性拆卸，"
+     ],
+     [
+      32.12,
+      33.57,
+      "可点击和可切换。"
+     ],
+     [
+      33.57,
+      35.42,
+      "它支持直观的媒体控制，并"
+     ],
+     [
+      35.42,
+      37.08,
+      "拆下它，Alter 2就很容易"
+     ],
+     [
+      37.08,
+      37.57,
+      "转移"
+     ],
+     [
+      42.5,
+      44.88,
+      "夜间工作时最好避免"
+     ],
+     [
+      44.88,
+      45.5,
+      "蓝光"
+     ],
+     [
+      46.5,
+      48.57,
+      "因此，我们打造了一种温暖的红色背光，名为"
+     ],
+     [
+      48.57,
+      50.39,
+      "夜灯，以减轻眼睛疲劳，并"
+     ],
+     [
+      50.39,
+      51.5,
+      "保持夜视能力。"
+     ],
+     [
+      54.94,
+      56.92,
+      "键盘是"
+     ],
+     [
+      56.92,
+      57.94,
+      "人和计算机。"
+     ],
+     [
+      58.94,
+      60.88,
+      "为了让这种连接尽可能顺畅，"
+     ],
+     [
+      60.88,
+      62.92,
+      "我们让Alter 2成为了"
+     ],
+     [
+      62.92,
+      63.94,
+      "Mac OS 的好搭档。"
+     ],
+     [
+      64.94,
+      66.76,
+      "我们还打造了一款精美的原生Mac应用，"
+     ],
+     [
+      66.76,
+      66.94,
+      "请求。"
+     ],
+     [
+      66.94,
+      70.61,
+      "要打造这样一场令人震撼的活动，"
+     ],
+     [
+      70.61,
+      73.36,
+      "我们不得不重新思考内部"
+     ],
+     [
+      73.36,
+      75.84,
+      "键盘的结构。"
+     ],
+     [
+      76.84,
+      79.22,
+      "不对称设计具有高密度"
+     ],
+     [
+      79.22,
+      81.42,
+      "电池中的电源电池和扬声器"
+     ],
+     [
+      81.42,
+      81.84,
+      "奁"
+     ],
+     [
+      82.84,
+      84.78,
+      "我们通过以下方式最大限度地利用空间："
+     ],
+     [
+      84.78,
+      87.06,
+      "M表盘混合下的包装组件"
+     ],
+     [
+      87.06,
+      87.84,
+      "和空格键。"
+     ],
+     [
+      88.84,
+      91.26,
+      "为了优化按键反馈和声音，我们"
+     ],
+     [
+      91.26,
+      93.62,
+      "发明了双层惯性阻尼器"
+     ],
+     [
+      93.62,
+      96.23,
+      "系统，该系统悬挂着打字平台"
+     ],
+     [
+      96.23,
+      98.22,
+      "用于总声学和振动"
+     ],
+     [
+      98.22,
+      98.84,
+      "隔离控制"
+     ],
+     [
+      98.84,
+      104.45,
+      "最终打造出这款键盘，它恰到好处地"
+     ],
+     [
+      104.45,
+      110.67,
+      "4.75 毫米支架，在 Alter 上打字妙不可言"
+     ],
+     [
+      110.67,
+      110.97,
+      "2."
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "p",
+      "x": "A shockingly thin, fully mechanical keyboard. Altar II combines a superlative typing experience with an unbelievable design.",
+      "z": "一款超薄的全机械键盘。Altar II 将卓越的打字体验与令人惊叹的设计融为一体。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/810/754/dce727b1dcfd8e39ee37238738e6a78d_original.png?fit=scale-down&origin=ugc&q=100&v=1794052045&width=680&sig=o%2BtYrYbn%2BNPRVZxPxrdjvZNC393DXnFIIKZq5%2BtxJD8%3D"
+     },
+     {
+      "t": "p",
+      "x": "The designer of Altar II discusses some of the design goals, background and difficulties of making Altar II a reality.",
+      "z": "Altar II的设计师讨论了将Altar II变为现实的一些设计目标、背景和困难。"
+     },
+     {
+      "t": "p",
+      "x": "A brief overview of some Altar II functionality. Here it is shown pairing over Bluetooth and working with Sanctuary™, its native macOS companion app. We demonstrate using M-Dial™, remapping keys, and more, and give a general tour of the app. Shown on engineering prototype hardware with pre-alpha software and firmware.",
+      "z": "Altar II 部分功能的简要概述。此处展示了通过蓝牙进行配对，以及与原生 macOS 伴侣应用 Sanctuary™ 配合使用的情况。我们将演示如何使用 M-Dial™、重新映射按键等功能，并对该应用程序进行概览。在搭载预先版本软件和固件的工程原型硬件上展示。"
+     },
+     {
+      "t": "p",
+      "x": "The strikingly slim profile is enabled by breakthrough mechanical switch design — a dual steel-armed switch with a laterally arranged spring and 40gf actuation force.",
+      "z": "突破性的机械轴设计造就了这款键盘的超薄外观——双钢臂轴体，弹簧横向布置，40 克触发力。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/734/459/c7ddd77639e39839a756e44f8315429a_original.webp?fit=scale-down&origin=ugc&q=92&v=1778794337&width=680&sig=pGloKCcjUyBQjgrzkJt6OPSAZ6JwYgGwG658P37mlHc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/812/646/65366be659514d6169a6169c30c7e546_original.png?fit=scale-down&origin=ugc&q=100&v=1794071244&width=680&sig=JHOJPrxxZ2PnRO%2B192RDWwAcDWCSqVwTuSLrXLW9qfs%3D"
+     },
+     {
+      "t": "p",
+      "x": "At 4.75mm, Altar II is the thinnest production mechanical keyboard ever made.",
+      "z": "Altar II 厚度仅 4.75 毫米，是有史以来最薄的量产机械键盘。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/731/181/8dbe7a2ca500c53782d8db47d4cb5770_original.png?fit=scale-down&origin=ugc&q=100&v=1778777055&width=680&sig=7rdx5GI%2B%2FtsDBinE7RqMDvUl82yb1em6pgsQjN8ZT2U%3D"
+     },
+     {
+      "t": "p",
+      "x": "A magnetically detachable, clickable, swappable dial for volume, media and other controls. Two sizes of M-Dial™ are included in the box: Standard issue and low-profile.",
+      "z": "可磁吸拆卸、可点击、可更换的旋钮，用于音量、媒体和其他控制。包装盒中包含两种尺寸的 M-Dial™：标准版和低位版。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/741/431/ffc5e8fffb724ea1b4dce85f20597d55_original.webp?fit=scale-down&origin=ugc&q=92&v=1778841822&width=680&sig=NVjPgBgEHzopuTBRa3jxTzUrL09WxBuJKZhMpbRskJQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/741/106/5876c4b3035c12069cf2a6f4a514c771_original.webp?fit=scale-down&origin=ugc&q=92&v=1778840406&width=680&sig=hUextfvGfneeV4GKeFg8LxWF6KY%2Bx%2BlA9fr%2BThAsWLE%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/741/181/e11041602e14bcc775ef6191f9d9ba19_original.webp?fit=scale-down&origin=ugc&q=92&v=1778840738&width=680&sig=OllHr8xvQqn1gidPGSx47N6tvKTn90Q068ydeJ3WLKg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/731/194/68fdc166096d158f5bd56b97228d41d3_original.png?fit=scale-down&origin=ugc&q=100&v=1778777097&width=680&sig=0uWSt25tdYtHS7poJgFv6MVoj3aYheV7gAEW11jzOWw%3D"
+     },
+     {
+      "t": "p",
+      "x": "A haptic driver called Harmonic Synthesiser™ adds subtle physical feedback to typing, dial rotation, and keyboard state changes.",
+      "z": "一款名为 Harmonic Synthesiser™ 的触觉驱动器为打字、旋钮旋转和键盘状态变化增添了微妙的物理反馈。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/740/390/b859ebe269aa500bd2e086a868ed8721_original.webp?fit=scale-down&origin=ugc&q=92&v=1778836016&width=680&sig=jShmvCI3jFtopzZoorOrGEIfLcarIfwcdBdQqduqzMA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/812/652/e1b4d195cd41577629db78970c716877_original.png?fit=scale-down&origin=ugc&q=100&v=1794071291&width=680&sig=lHSz%2B5Jxu%2BGfybK%2BsJsv7S8oAMjKeslKVEXV8of7VYs%3D"
+     },
+     {
+      "t": "p",
+      "x": "A fully native, Swift-based companion app for macOS gives full control over key mapping, backlight, haptics, audio and M-Dial™ functionality. Its lickable UI feels right at home on Mac.",
+      "z": "这款完全原生的 macOS 伴侣应用程序基于 Swift 开发，可全面掌控按键映射、背光、触觉、音频和 M-Dial™ 功能。其令人爱不释手的用户界面在 Mac 上使用起来得心应手。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/741/421/461d5b8b8a9caaa841d8380215f58c15_original.webp?fit=scale-down&origin=ugc&q=92&v=1778841765&width=680&sig=rbbkPpdbwiNDowlYt3nlc9Uq4lpgbaZliVTqRQ0kUY8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/731/230/af2c9716b6eecfa4f95db6f189682b38_original.png?fit=scale-down&origin=ugc&q=100&v=1778777186&width=680&sig=piIeRPeFCwCKMoHAeKLQ0TfTLOit8EApzTxjtFdfmXs%3D"
+     },
+     {
+      "t": "p",
+      "x": "NiteLite™ is a red backlight that preserves night vision, and reduces eye strain by avoiding the blue light used in most keyboard backlights.",
+      "z": "NiteLite™ 是一种红色背光，可保护夜视能力，并通过避免使用大多数键盘背光中常见的蓝光来减轻眼睛疲劳。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/740/411/4601d9e27b77ceb5456e622bb98be83f_original.webp?fit=scale-down&origin=ugc&q=92&v=1778836158&width=680&sig=7NqkbxXiUX7qvE9BHety9DS4oX2nrhdGOnXqc7dqiIk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/053/731/240/a6941475ed834e33dcc9b97e512c7772_original.png?fit=scale-down&origin=ugc&q=100&v=1778777216&width=680&sig=Pef9fd5puzioj%2Fbgc14%2B0p%2BEowvkAFcyJdnHFmflnZE%3D"
+     },
+     {
+      "t": "p",
+      "x": "A two-layer Inertial Damper™ system isolates the typing platform and gives Altar II a unique typing sound and feel.",
+      "z": "双层 Inertial Damper™ 系统将打字平台隔离开来，为 Altar II 带来独特的打字声音和手感。"
+     },
+     {
+      "t": "p",
+      "x": "Every element of Altar II — key shape, layout, typography, materials, footprint — is painstakingly designed, down to the last detail.",
+      "z": "Altar II的每个元素——琴键形状、布局、字体、材质、占地面积——都经过精心设计，无一疏漏。"
+     },
+     {
+      "t": "p",
+      "x": "Altar II's slimline chassis keeps wrists almost flat during typing, reducing the strain associated with most keyboards, and negating the need for angling the typing platform.",
+      "z": "Altar II的纤薄机身使手腕在打字时几乎保持平直，从而减轻了大多数键盘带来的压力，无需将打字平台倾斜。"
+     },
+     {
+      "t": "p",
+      "x": "Fitting a full mechanical keyboard, battery, haptic system, speaker, and wireless radio into a sub-5mm chassis required bleeding-edge engineering and effort.",
+      "z": "将全机械键盘、电池、触觉系统、扬声器和无线电收发器装入不到 5 毫米的机身中，需要尖端工程技术和不懈的努力。"
+     },
+     {
+      "t": "p",
+      "x": "Altar II is made from recycled plastic and recyclable aluminium, and ships in completely plastic-free packaging.",
+      "z": "Altar II 由再生塑料和可回收铝制成，采用完全不含塑料的包装发货。"
+     },
+     {
+      "t": "p",
+      "x": "Up to 30 days of typical use on a single charge, with two days of usage from two minutes of charging over USB-C.",
+      "z": "单次充电可提供长达 30 天的典型使用时间，通过 USB-C 充电两分钟即可使用两天。"
+     },
+     {
+      "t": "p",
+      "x": "Altar II keyboard, coiled USB-C cable, two M-Dials (standard issue and low profile), field manual, and EMO stickers.",
+      "z": "Altar II 键盘、盘绕式 USB-C 线缆、两个 M-Dial（标准版和低位版）、使用手册和 EMO 贴纸。"
+     },
+     {
+      "t": "p",
+      "x": "Recorded on pre-production hardware with Zoom H5, 24-bit/48kHz, XY stereo, 40cm above device, 80Hz high-pass.",
+      "z": "使用 Zoom H5 在量产前硬件上录制，24 位/48kHz，XY 立体声，麦克风距设备 40 厘米，80Hz 高通。"
+     },
+     {
+      "t": "p",
+      "x": "*   Height — 4.75mm",
+      "z": "* 高度 — 4.75 毫米"
+     },
+     {
+      "t": "p",
+      "x": "*   Width — 299mm",
+      "z": "* 宽度 — 299 毫米"
+     },
+     {
+      "t": "p",
+      "x": "*   Depth — 116.5mm",
+      "z": "* 厚度 — 116.5 毫米"
+     },
+     {
+      "t": "p",
+      "x": "*   Firmware — ZMK, Zephyr-based real-time operating system (RTOS)",
+      "z": "* 固件 — ZMK，基于 Zephyr 的实时操作系统 (RTOS)"
+     },
+     {
+      "t": "p",
+      "x": "*   Switches — Dual steel arm scissor switch w/ retention spring, 40gf actuation force",
+      "z": "* 键轴 — 双钢臂剪刀脚键轴，带保持弹簧，40 克触发力"
+     },
+     {
+      "t": "p",
+      "x": "*   Materials — REGEN polymer, 6061 aluminium, TPU footpad, silicone membrane, FR4 logic board",
+      "z": "* 材料 — REGEN 聚合物、6061 铝、TPU 脚垫、硅胶膜、FR4 主板"
+     },
+     {
+      "t": "p",
+      "x": "*   Battery life — Up to 30-day battery life with normal use",
+      "z": "* 电池续航时间 — 在正常使用情况下，电池续航时间长达 30 天"
+     },
+     {
+      "t": "p",
+      "x": "*   Connectivity — 2× Bluetooth 5.0 Low Energy (LE) channels, 1× USB-C",
+      "z": "* 连接 — 2 个蓝牙 5.0 低功耗 (LE) 通道，1 个 USB-C 接口"
+     },
+     {
+      "t": "p",
+      "x": "*   OS support — Apple macOS 12 (Monterey) and up, Microsoft Windows 10 and up, Linux",
+      "z": "* 支持的操作系统 — Apple macOS 12 (Monterey) 及更高版本、Microsoft Windows 10 及更高版本、Linux"
+     }
+    ]
+   },
+   {
+    "id": 402161823,
+    "name": "HIYD: Add Health Tracking to the Watch You Love",
+    "blurb": "A 2.7mm thin waterproof sensor that adds health tracking to your favorite watch. No magnets. No glue. No monthly fees.",
+    "url": "https://www.kickstarter.com/projects/salahb/hiyd-add-health-tracking-to-the-watch-you-love",
+    "category": "Wearables",
+    "creator": "Hiyd",
+    "location": "San Jose, CA",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 704948.0,
+    "usdPledged": "704948.0",
+    "goalUsd": 10000.0,
+    "percentFunded": 7049.48,
+    "backers": 4129,
+    "deadline": 1796975940,
+    "launchedAt": 1794326477,
+    "staffPick": true,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "sensor"
+    ],
+    "score": 0.734,
+    "coverRemote": "https://i.kickstarter.com/assets/055/653/568/3a527046aa644a175104f9b6e9e42697_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792971612&width=1024&sig=UCsoZn02Lcphj99qR8zDIRLem341EgxO03UZlOQ%2BVAI%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11471912,
+      "price": 149.0,
+      "title": "VIP Reserved Tier",
+      "desc": "Are you one of the 15,000+ early supporters who put down a deposit before our Kickstarter launch? Thank you! Your early belief in HIYD helped make this campaign possible. Besides getting HIYD at the cheapest price ever - as a token of our appreciation, we’re including an additional Soft Band with your order as a special gift from us to you. \\n\\nThe sensor is fully waterproof and 100% magnet-free for maximum comfort and watch safety. No monthly subscriptions or hidden paywalls. Completely risk-free with our 30-day fit guarantee.Thank you again for being with us from day one!",
+      "backers": 3403,
+      "limit": null,
+      "remaining": null,
+      "eta": 1809129600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11471932,
+      "price": 199.0,
+      "title": "Super Early Bird",
+      "desc": "Save $100! Limited to the first 500 backers. Built for round-the-clock wear, your kit includes the HIYD sensor in black, our ultra-breathable SoftBand: perfect for training, sleep, and recovery, and a fast-charging charger. \\n\\nEngineered for active lifestyles, the sensor is fully waterproof and 100% magnet-free for maximum comfort and watch safety. No monthly subscriptions or hidden paywalls. Completely risk-free with our 30-day fit guarantee.",
+      "backers": 413,
+      "limit": 500,
+      "remaining": 87,
+      "eta": 1809129600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11526026,
+      "price": 199.0,
+      "title": "Super Early Bird Waitlist",
+      "desc": "Save $100! Limited to our waitlisters for a limited time only. Built for round-the-clock wear, your kit includes the HIYD sensor in black, our ultra-breathable SoftBand: perfect for training, sleep, and recovery, and a fast-charging charger. \\n\\nEngineered for active lifestyles, the sensor is fully waterproof and 100% magnet-free for maximum comfort and watch safety. No monthly subscriptions or hidden paywalls. Completely risk-free with our 30-day fit guarantee.",
+      "backers": 62,
+      "limit": null,
+      "remaining": null,
+      "eta": 1809129600,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 21,
+    "tiersDate": "2026-11-12",
+    "tiersCarried": "2026-11-12",
+    "cues": [
+     [
+      0.0,
+      3.86,
+      "哦，你真棒。"
+     ],
+     [
+      3.86,
+      6.66,
+      "你爷爷在婚礼上戴的就是这款。"
+     ],
+     [
+      6.66,
+      6.94,
+      "天"
+     ],
+     [
+      6.94,
+      9.98,
+      "握着你奶奶的手。"
+     ],
+     [
+      9.98,
+      12.06,
+      "几十年来，这对他大有裨益。"
+     ],
+     [
+      12.06,
+      14.14,
+      "它从未错过一个节拍。"
+     ],
+     [
+      14.14,
+      17.27,
+      "你爸爸花了很长时间看"
+     ],
+     [
+      17.27,
+      18.42,
+      "那条老走廊。"
+     ],
+     [
+      18.42,
+      20.58,
+      "从他最糟糕的日子到他最好的日子，"
+     ],
+     [
+      20.58,
+      25.77,
+      "还有那些他永远不会忘记的人，时间流逝"
+     ],
+     [
+      25.77,
+      26.14,
+      "开"
+     ],
+     [
+      26.14,
+      28.66,
+      "你也长大了。"
+     ],
+     [
+      28.66,
+      32.38,
+      "生活中的大多数事物都不会长久。"
+     ],
+     [
+      32.38,
+      35.27,
+      "请记住，在以下方面存在天壤之别："
+     ],
+     [
+      35.27,
+      35.82,
+      "看着"
+     ],
+     [
+      35.82,
+      37.46,
+      "坚持追求卓越。"
+     ],
+     [
+      37.46,
+      39.66,
+      "时间流逝"
+     ],
+     [
+      39.66,
+      44.1,
+      "所以，当腕表具有某种意义时，"
+     ],
+     [
+      44.1,
+      47.18,
+      "你已经爱上的那个人。"
+     ],
+     [
+      47.18,
+      50.26,
+      "因为我们在一起的时间有限。"
+     ],
+     [
+      50.26,
+      53.13,
+      "又绕着太阳转了一圈，在这些日子里"
+     ],
+     [
+      53.13,
+      54.42,
+      "我们的先辈"
+     ],
+     [
+      54.42,
+      57.14,
+      "献给那些将长久留存的人。"
+     ],
+     [
+      57.14,
+      59.22,
+      "手表可以显示时间。"
+     ],
+     [
+      59.22,
+      61.82,
+      "隐藏会让你深陷其中。"
+     ],
+     [
+      61.82,
+      63.3,
+      "嗨，我是Salon。"
+     ],
+     [
+      63.3,
+      64.86,
+      "我是Hide的联合创始人之一。"
+     ],
+     [
+      64.86,
+      67.06,
+      "我在苹果公司度过了近10年的学习时光"
+     ],
+     [
+      67.06,
+      68.93,
+      "开发一款产品需要多长时间，"
+     ],
+     [
+      68.93,
+      69.54,
+      "人们信任"
+     ],
+     [
+      69.54,
+      71.18,
+      "并每天使用。"
+     ],
+     [
+      71.18,
+      72.74,
+      "然后我离开去打造这个。"
+     ],
+     [
+      72.74,
+      73.9,
+      "这是Hide。"
+     ],
+     [
+      73.9,
+      76.62,
+      "这是一款超薄传感器套件，配备"
+     ],
+     [
+      76.62,
+      77.46,
+      "光学 LED，"
+     ],
+     [
+      77.46,
+      79.72,
+      "以及一个加速度计和一个温度传感器"
+     ],
+     [
+      79.72,
+      80.14,
+      "测传"
+     ],
+     [
+      80.14,
+      82.75,
+      "它使用微吸附力附着在"
+     ],
+     [
+      82.75,
+      83.98,
+      "任何腕表的表背，"
+     ],
+     [
+      83.98,
+      85.22,
+      "就那样。"
+     ],
+     [
+      85.22,
+      87.26,
+      "不使用磁铁，不使用粘合剂。"
+     ],
+     [
+      87.26,
+      89.7,
+      "厚度正好是2.7毫米"
+     ],
+     [
+      89.7,
+      91.74,
+      "机身采用阳极氧化铝材质。"
+     ],
+     [
+      91.74,
+      93.75,
+      "这意味着它具有生物相容性，并且"
+     ],
+     [
+      93.75,
+      94.66,
+      "防过敏"
+     ],
+     [
+      94.66,
+      96.74,
+      "只要您的表壳背面是平的，"
+     ],
+     [
+      96.74,
+      99.7,
+      "它就是像这样用一点点……固定住。"
+     ],
+     [
+      99.7,
+      100.14,
+      "press"
+     ],
+     [
+      100.14,
+      101.81,
+      "一旦你想切换到下一个"
+     ],
+     [
+      101.81,
+      102.06,
+      "观看"
+     ],
+     [
+      102.06,
+      103.18,
+      "你只要把它撬下来就行了。"
+     ],
+     [
+      103.18,
+      106.3,
+      "有了它，您可以跟踪心率、HRV、"
+     ],
+     [
+      106.3,
+      108.57,
+      "您的恢复、您的活动、您的睡眠"
+     ],
+     [
+      108.57,
+      109.02,
+      "暂存"
+     ],
+     [
+      110.02,
+      111.89,
+      "所有这一切都不需要切换您的"
+     ],
+     [
+      111.89,
+      112.14,
+      "锁定"
+     ],
+     [
+      112.14,
+      114.02,
+      "所有内容，完整且清晰可见。"
+     ],
+     [
+      114.02,
+      116.4,
+      "我可以组装它吗？因为我的手表放在"
+     ],
+     [
+      116.4,
+      117.14,
+      "在梳妆台上，"
+     ],
+     [
+      117.14,
+      119.63,
+      "传家宝、礼物、一时冲动"
+     ],
+     [
+      119.63,
+      120.3,
+      "采购"
+     ],
+     [
+      120.3,
+      121.9,
+      "不是因为他们停止了工作，"
+     ],
+     [
+      121.9,
+      124.03,
+      "但因为生活变得智能化，他们"
+     ],
+     [
+      124.03,
+      124.46,
+      "没有。"
+     ],
+     [
+      124.46,
+      127.5,
+      "您的腕表仍然是您的腕表，只是现在，"
+     ],
+     [
+      127.5,
+      129.85,
+      "它不仅仅能显示时间和"
+     ],
+     [
+      129.85,
+      130.14,
+      "日期。"
+     ],
+     [
+      130.14,
+      131.22,
+      "这是一张渲染图。"
+     ],
+     [
+      131.22,
+      132.78,
+      "这不是一句空话。"
+     ],
+     [
+      132.78,
+      134.26,
+      "这证明它有效。"
+     ],
+     [
+      134.26,
+      136.54,
+      "我们上个月推出了第一代产品"
+     ],
+     [
+      136.54,
+      138.34,
+      "以征求顾客的反馈意见。"
+     ],
+     [
+      138.34,
+      141.18,
+      "因此，我们已经在实际风险中对其进行测试。"
+     ],
+     [
+      141.18,
+      143.26,
+      "现在，我们已经准备好推出我们经过改进的"
+     ],
+     [
+      143.26,
+      145.33,
+      "并在此处改进了第二代产品，"
+     ],
+     [
+      145.33,
+      146.06,
+      "Kickstarter"
+     ],
+     [
+      146.06,
+      148.23,
+      "我们的制造合作伙伴已经"
+     ],
+     [
+      148.23,
+      148.74,
+      "排好队。"
+     ],
+     [
+      148.74,
+      150.14,
+      "我们的时间线是公开的。"
+     ],
+     [
+      150.14,
+      151.74,
+      "我会每周与您联系"
+     ],
+     [
+      151.74,
+      153.58,
+      "直到高潮尽在掌握。"
+     ],
+     [
+      153.58,
+      155.35,
+      "我们不是在要求您相信"
+     ],
+     [
+      155.35,
+      155.74,
+      "产品。"
+     ],
+     [
+      155.74,
+      158.2,
+      "我们要求您穿上您"
+     ],
+     [
+      158.2,
+      158.98,
+      "已经爱上了。"
+     ],
+     [
+      158.98,
+      160.66,
+      "感谢您参与其中。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "p",
+      "x": "We apologize, but it looks like something's gone wrong. We've been notified about this issue, and we're currently looking into it.",
+      "z": "很抱歉，似乎出了一些问题。我们已收到有关此问题的通知，目前正在调查中。"
+     },
+     {
+      "t": "p",
+      "x": "Thanks for your patience, and sorry for the inconvenience. Please try again later.",
+      "z": "感谢您的耐心等待，对于给您带来的不便，我们深表歉意。请稍后再试。"
+     }
+    ]
+   },
+   {
+    "id": 2099488698,
+    "name": "Lucy AI Studio: A Dedicated Computer for Your AI Agents",
+    "blurb": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+    "url": "https://www.kickstarter.com/projects/744045479/cephalon-ondevice-ai-with-a-selfevolving-ecosystem",
+    "category": "Hardware",
+    "creator": "Cephalon AI",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 2286618.0,
+    "usdPledged": "291375.59137992",
+    "goalUsd": 1274.26,
+    "percentFunded": 22866.18,
+    "backers": 115,
+    "deadline": 1795532381,
+    "launchedAt": 1792504781,
+    "staffPick": true,
+    "sources": [
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.7298,
+    "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11305322,
+      "price": 6267.0,
+      "title": "Super Early Bird | Pro Version",
+      "desc": "Lucy AI Studio Pro Version\\n\\n🔥 Super Early Bird — US$799 | Save $100, 11% Off MSRP $899\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 34,
+      "limit": 500,
+      "remaining": 466,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11488032,
+      "price": 19614.0,
+      "title": "Super Early Bird | Max Version",
+      "desc": "Lucy AI Studio Max Version\\n\\n🔥 Super Early Bird — US$2,499 | Save $1500, 38% Off MSRP $3,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 20,
+      "limit": 500,
+      "remaining": 480,
+      "eta": 1796083200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11493190,
+      "price": 29815.0,
+      "title": "Super Early Bird | Ultra Version",
+      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
+      "backers": 28,
+      "limit": 500,
+      "remaining": 472,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 12,
+    "tiersDate": "2026-11-12",
+    "tiersCarried": "2026-11-12",
+    "cues": [],
+    "vttLang": "",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $1,274 pledged of $1,274 goal",
+      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
+     },
+     {
+      "t": "p",
+      "x": "12 days to go",
+      "z": "还剩 12 天"
+     },
+     {
+      "t": "p",
+      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/060/319/67b15255a38b25916731383a3310333f_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1781101494&width=160&sig=MM%2FPbg87VKoqOC5VtkC6HMczx2KvRyft7m4b1wTAUhM%3D"
+     },
+     {
+      "t": "p",
+      "x": "First created•0 backed",
+      "z": "首次创建•0 支持"
+     },
+     {
+      "t": "p",
+      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $1,274 pledged of $1,274 goal",
+      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
+     },
+     {
+      "t": "p",
+      "x": "12 days to go",
+      "z": "还剩 12 天"
+     },
+     {
+      "t": "p",
+      "x": "Kickstarter connects creators with backers to fund projects.",
+      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
+     },
+     {
+      "t": "p",
+      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
+      "z": "奖励无法保证，但创作者必须定期更新支持者。"
+     },
+     {
+      "t": "p",
+      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+      "z": "仅当项目在活动截止日期前达到其融资目标时，您才需要付费。"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Reviews**](h:Reviews)",
+      "z": "* [**评论**](h:评论)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The Reason LUCY Exists**](h:The-Reason-LUCY-Exists)",
+      "z": "* [**LUCY 存在的原因**](h:LUCY 存在的原因)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**A Workspace that Stays Ready**](h:A-Workspace-that-Stays-Ready)",
+      "z": "* [**保持就绪的工作空间**](h:保持就绪的工作空间)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**From Request to Result**](h:From-Request-to-Result)",
+      "z": "* [**从请求到结果**](h:从请求到结果)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Why a Dedicated Computer**](h:Why-a-Dedicated-Computer)",
+      "z": "* [**为什么选择专用计算机**](h:为什么选择专用计算机)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Real Work. Status Snapshot**](h:Real-Work-Status-Snapshot)",
+      "z": "* [**实际工作。状态快照**](h:实际工作状态快照)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Remote Workflows**](h:Remote-Workflows)",
+      "z": "* [**远程工作流程**](h:远程工作流程)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Open by Design**](h:Open-by-Design)",
+      "z": "* [**按设计开放**](h：按设计开放)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Private Storage**](h:Private-Storage)",
+      "z": "* [**私有存储**](h:私有存储)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Local Video Generation**](h:Local-Video-Generation)",
+      "z": "* [**本地视频生成**](h:本地视频生成)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**More Than An AI Workstation**](h:More-Than-An-AI-Workstation)",
+      "z": "* [**不仅仅是人工智能工作站**](h:不仅仅是人工智能工作站)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Designed to Stay On**](h:Designed-to-Stay-On)",
+      "z": "* [**设计为保持运行**](h：设计为保持运行)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Choose Your LUCY**](h:Choose-Your-LUCY)",
+      "z": "* [**选择你的 LUCY**](h:选择你的 LUCY)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**HOW TO USE**](h:HOW-TO-USE)",
+      "z": "* [**如何使用**](h:如何使用)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**REWARDS**](h:REWARDS)",
+      "z": "* [**奖励**](h:奖励)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [**时间线**](h:时间线)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/316/829/6e168fa3d7ee6e0e5caee2e594ee801b_original.png?fit=scale-down&origin=ugc&q=100&v=1790702858&width=680&sig=3pm%2BpeI7vSycoDEt5rVx3eoEt6wc5tvjjQKOEVquI40%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/139/c8c104d6a5f6485b4f7d3fd291306895_original.png?fit=scale-down&origin=ugc&q=100&v=1790314954&width=680&sig=4KJu6Kg11W%2FKePoFiUrrgmxNlFfTAC3bPndeZd0365k%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/725/415c199d901eeb5d444a785d538b2e68_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319487&width=680&sig=QXTeTvgsF8xr2gQkWtTxsJnRcWdJkvDCdKncG0xW2rY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/604/809/38bf386f16d519e8eb6d3a28bba073e3_original.png?fit=scale-down&origin=ugc&q=100&v=1792599525&width=680&sig=cVRenq%2FaG8RTrFbHovbf%2FAI0thrX5msAFB70Uc41rR4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/714/114/5052490fa13fcfb30ab3da1bbcc7af46_original.png?fit=scale-down&origin=ugc&q=100&v=1793329008&width=680&sig=hcEhnPUHNnOZ%2FBi5de81Q17ljHCwbPKcbhetd5Lk6ts%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/585/305/7977e4798d86fd1baf4621f78606d89b_original.png?fit=scale-down&origin=ugc&q=100&v=1792495942&width=680&sig=CrFCgPZtKUPhITN2COxWy87x87ecyQ%2B2YN2uA%2Fv8ZGw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/162/98025fb70322db4a0a872845425cb9fa_original.png?fit=scale-down&origin=ugc&q=100&v=1790315126&width=680&sig=9Tzhlc%2FDpDahtLwPQKMPkCduDSnWXjgwKKVJf6L1dtk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/169/ab833cfc4bb27dd7a918822ca937af96_original.png?fit=scale-down&origin=ugc&q=100&v=1790315170&width=680&sig=3mF25kAPlzxyqz4MuKxWKa9KEm3Ds2wMAiFjCynId8c%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/752/23cb80f5bb030f459f2aa1546d84b9ad_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319854&width=680&sig=%2F%2F1%2FF97dUN6IHj2q4g1ttj2NQjKqIMd55hdJgJTUoAk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/173/582ed5763ef51c88abc008bcfc1e8243_original.png?fit=scale-down&origin=ugc&q=100&v=1790315184&width=680&sig=It%2FRUMet1QS52lyh4ocIkVpv6WaWSa4Q9G4P3iU65lA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/792/4dfe5b6a564b99a8cfc166c29f7a13c9_original.gif?fit=scale-down&origin=ugc&q=92&v=1790320183&width=680&sig=vDOOqAVnAir2NfFQqdaQRb%2BD9soY3vIZ0Q%2FewpOfwzM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/174/ed792e97c39a87ec2c6af0a0ade64f41_original.png?fit=scale-down&origin=ugc&q=100&v=1790315204&width=680&sig=ZnF%2Ff4prTWKg8a67Q7II2WdOL9h7Gg%2BZx8Gia%2FkN%2FYo%3D"
+     }
+    ]
+   },
+   {
+    "id": 1114943611,
+    "name": "Interface Ring: Your Agents, Memory, Health and Sleep.",
+    "blurb": "Your AI agents on your finger. 24/7 Health & Sleep Tracking | Voice AI Agents | Record Ideas & Meetings | 7-Day Battery | IP68",
+    "url": "https://www.kickstarter.com/projects/rollingsquare/interface-ai-smart-ring-for-voice-notes-agents-and-health",
+    "category": "Wearables",
+    "creator": "Rolling Square | Natura Inc",
+    "location": "San Francisco, CA",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 20000.0,
+    "pledged": 368879.0,
+    "usdPledged": "368879.0",
+    "goalUsd": 20000.0,
+    "percentFunded": 1844.395,
+    "backers": 2376,
+    "deadline": 1797786338,
+    "launchedAt": 1794330338,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai",
+     "voice"
+    ],
+    "score": 0.7066,
+    "coverRemote": "https://i.kickstarter.com/assets/055/869/797/bfcad38118e9c711060c5806e2f9c558_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794479140&width=1024&sig=UyS8SPLXyzmBY%2F9PRysXGpHgxxhcWCnbmpytFMtf8j0%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11519924,
+      "price": 99.0,
+      "title": "Founding Member: Ring + 3 months",
+      "desc": "Save 69% | Founding Member · Waitlist only, first 24 hours → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
+      "backers": 1300,
+      "limit": 1350,
+      "remaining": 50,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11519925,
+      "price": 159.0,
+      "title": "Early Bird: Ring + 3 months",
+      "desc": "Save 51% | Early Bird → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
+      "backers": 618,
+      "limit": 630,
+      "remaining": 12,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11519929,
+      "price": 249.0,
+      "title": "Early Bird: Ring + HumanPods + 6 months",
+      "desc": "Save 54% | Early Bird → One Interface ring with its charging case, HumanPods, and 6 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
+      "backers": 162,
+      "limit": 180,
+      "remaining": 18,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 12,
+    "tiersDate": "2026-11-12",
+    "tiersCarried": "2026-11-12",
+    "cues": [
+     [
+      0.0,
+      2.51,
+      "Natura 的使命是让您摆脱"
+     ],
+     [
+      2.51,
+      3.0,
+      "屏幕"
+     ],
+     [
+      3.0,
+      6.05,
+      "相反，我们希望为您节省时间。"
+     ],
+     [
+      6.05,
+      7.0,
+      "服用该药物。"
+     ],
+     [
+      7.0,
+      9.52,
+      "过去两年里，我们一直在努力"
+     ],
+     [
+      9.52,
+      12.04,
+      "一种全新的互动方式"
+     ],
+     [
+      12.04,
+      13.0,
+      "您的技术。"
+     ],
+     [
+      13.0,
+      15.73,
+      "今天，我非常自豪地与大家分享"
+     ],
+     [
+      15.73,
+      16.0,
+      "你"
+     ],
+     [
+      16.0,
+      20.54,
+      "这是Interface。它是一个圆环。你按下"
+     ],
+     [
+      20.54,
+      22.31,
+      "它和你说话。"
+     ],
+     [
+      22.31,
+      24.99,
+      "它有三个功能。它会记住"
+     ],
+     [
+      24.99,
+      27.75,
+      "你，它适合你，而且看起来"
+     ],
+     [
+      27.75,
+      28.31,
+      "。"
+     ],
+     [
+      28.31,
+      30.57,
+      "捕捉稍纵即逝的思绪、想法和"
+     ],
+     [
+      30.57,
+      32.31,
+      "您总是会忘记的提醒。"
+     ],
+     [
+      32.31,
+      35.31,
+      "提醒我午饭后给Lily打电话。"
+     ],
+     [
+      35.31,
+      37.57,
+      "按两下，即可转录"
+     ],
+     [
+      37.57,
+      39.31,
+      "时长不超过两小时的会议。"
+     ],
+     [
+      39.31,
+      41.31,
+      "我们在上次会议上决定了什么？"
+     ],
+     [
+      41.31,
+      43.31,
+      "记住，这仅仅是个开始。"
+     ],
+     [
+      43.31,
+      45.41,
+      "它适合您。按住按钮，然后"
+     ],
+     [
+      45.41,
+      47.51,
+      "说话。您的言语将出现在"
+     ],
+     [
+      47.51,
+      48.31,
+      "你在潜水。"
+     ],
+     [
+      48.31,
+      51.31,
+      "进行最后检查，然后部署。"
+     ],
+     [
+      51.31,
+      52.31,
+      "请告诉我您的想法。"
+     ],
+     [
+      52.31,
+      54.6,
+      "但它不止于此。界面控件"
+     ],
+     [
+      54.6,
+      57.07,
+      "能够真正使用您的应用程序的代理"
+     ],
+     [
+      57.07,
+      57.31,
+      "你"
+     ],
+     [
+      57.31,
+      60.05,
+      "比如云、ChatGPT、静音、直觉，"
+     ],
+     [
+      60.05,
+      61.31,
+      "以及用餐的性质。"
+     ],
+     [
+      61.31,
+      63.31,
+      "所以，您只需说出您的需求。"
+     ],
+     [
+      63.31,
+      65.31,
+      "从那家泰国餐厅点我们常点的菜。"
+     ],
+     [
+      65.31,
+      68.31,
+      "预订晚上7点的普拉提课。"
+     ],
+     [
+      68.31,
+      69.31,
+      "关灯"
+     ],
+     [
+      69.31,
+      72.82,
+      "您的手机、您的电脑、您的家，它"
+     ],
+     [
+      72.82,
+      74.31,
+      "完成事情"
+     ],
+     [
+      74.31,
+      76.31,
+      "同时保持当下。"
+     ],
+     [
+      76.31,
+      79.25,
+      "Interface还关注"
+     ],
+     [
+      79.25,
+      81.31,
+      "最重要。您的健康。"
+     ],
+     [
+      81.31,
+      84.69,
+      "Interface可以跟踪您的心率、睡眠情况，"
+     ],
+     [
+      84.69,
+      87.91,
+      "您的压力，甚至是您的生理年龄。"
+     ],
+     [
+      87.91,
+      89.91,
+      "刚才在Quartato吃了一份牛油果吐司。"
+     ],
+     [
+      89.91,
+      92.91,
+      "弯举？10次，30磅。"
+     ],
+     [
+      92.91,
+      94.91,
+      "今天摄入的热量少了400卡。"
+     ],
+     [
+      94.91,
+      97.92,
+      "您将在6月前实现目标。恢复进度为"
+     ],
+     [
+      97.92,
+      99.91,
+      "30%。今天放松一下。"
+     ],
+     [
+      99.91,
+      101.97,
+      "把这些信息综合起来，您就会看到"
+     ],
+     [
+      101.97,
+      102.91,
+      "真的有效。"
+     ],
+     [
+      102.91,
+      104.93,
+      "在其他卡车司机观看时，界面"
+     ],
+     [
+      104.93,
+      105.91,
+      "会照顾你。"
+     ],
+     [
+      105.91,
+      108.21,
+      "所有这些都采用坚固的不锈钢材质"
+     ],
+     [
+      108.21,
+      110.63,
+      "钢材。它看起来像珠宝，但它是"
+     ],
+     [
+      110.63,
+      111.91,
+      "像个傻瓜一样被耍。"
+     ],
+     [
+      111.91,
+      114.06,
+      "一款捕捉每个字词的麦克风。"
+     ],
+     [
+      114.06,
+      116.39,
+      "来自 Apple 信赖的制造商的传感器"
+     ],
+     [
+      116.39,
+      116.91,
+      "还有Woop。"
+     ],
+     [
+      116.91,
+      119.51,
+      "完成后，一个小电机会振动。它"
+     ],
+     [
+      119.51,
+      122.04,
+      "防水，在一次充电后可使用长达一周"
+     ],
+     [
+      122.04,
+      122.91,
+      "单次收费"
+     ],
+     [
+      122.91,
+      124.91,
+      "界面以隐私为核心。"
+     ],
+     [
+      124.91,
+      127.3,
+      "只有当您按下它时，它才会聆听，而且"
+     ],
+     [
+      127.3,
+      128.91,
+      "只保留您要求的内容。"
+     ],
+     [
+      128.91,
+      132.6,
+      "你甚至听不到"
+     ],
+     [
+      132.6,
+      135.91,
+      "你旁边的人都能听到。"
+     ],
+     [
+      135.91,
+      138.38,
+      "这是界面。您的想法，您的"
+     ],
+     [
+      138.38,
+      141.27,
+      "会议、您的客服代表以及您的健康状况"
+     ],
+     [
+      141.27,
+      141.91,
+      "一环"
+     ],
+     [
+      141.91,
+      144.16,
+      "预订现已开放，并且永远不会"
+     ],
+     [
+      144.16,
+      145.91,
+      "成本像今天这样低廉。"
+     ],
+     [
+      145.91,
+      148.91,
+      "我们迫不及待地想让您体验一下。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://www.kickstarter.com/favicon.ico"
+     },
+     {
+      "t": "p",
+      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "z": "本网站使用安全服务来防范恶意机器人。在网站验证您不是机器人时，会显示此页面。"
+     }
+    ]
+   },
+   {
+    "id": 10019076,
+    "name": "AXILOOP MC8 — 8 Independent Tool Head Multi-Color 3D Printer",
+    "blurb": "4s Tool Changes | No-Wipe Alignment | 600mm/s Speed | 300³ Build Volume | 2500-Point Eddy Current Leveling | AI Smart Monitoring",
+    "url": "https://www.kickstarter.com/projects/axiloop/axiloop-mc8-8-independent-tool-head-multi-color-3d-printer",
+    "category": "3D Printing",
+    "creator": "AXILOOP",
+    "location": "Hong Kong, Hong Kong",
+    "country": "Hong Kong",
+    "currency": "HKD",
+    "currencySymbol": "$",
+    "goal": 392210.0,
+    "pledged": 4451560.0,
+    "usdPledged": "567372.7340036",
+    "goalUsd": 49989.05,
+    "percentFunded": 1134.9940083118736,
+    "backers": 380,
+    "deadline": 1798383606,
+    "launchedAt": 1794495606,
+    "staffPick": true,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai",
+     "smart",
+     "3d print"
+    ],
+    "score": 0.6756,
+    "coverRemote": "https://i.kickstarter.com/assets/055/872/154/4262c055a62d23a7b99bc38c3d1b8993_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794495639&width=1024&sig=GRb03ziMaQc19lAxnw%2FprUxgoppMsMOgXh7jG9lSWKQ%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11444086,
+      "price": 8627.0,
+      "title": "Super Early Bird | AXILOOP MC8",
+      "desc": "⚡ Get AXILOOP MC8 at US$1,099  -27% Off MSRP（US$1,499）\\n\\n🛡️ 1-Year Limited Warranty* + Expert Technical Support\\n🔧 3-Month Warranty on Consumables (Hotends, Extruder Gears & PEI Plate)\\n🌍 Local Support Teams in US, Germany, France, Italy, UK & the Netherlands\\n\\nPlease Note:\\n*For detailed warranty information, please check the \\\"Warranty & After Sales\\\" section on campaign page.\\n📦 Shipping costs are charged separately after the campaign. Rate information is available on the \\\"Shipping & Taxes\\\" section.",
+      "backers": 76,
+      "limit": 200,
+      "remaining": 124,
+      "eta": 1803859200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11528859,
+      "price": 11767.0,
+      "title": "Super Early Bird | AXILOOP MC8 Pro",
+      "desc": "⚡ Get AXILOOP MC8 Pro at US$1,499  -25% Off MSRP（US$1,999）\\n\\n🛡️ 1-Year Limited Warranty* + Expert Technical Support\\n🔧 3-Month Warranty on Consumables (Hotends, Extruder Gears & PEI Plate)\\n🌍 Local Support Teams in US, Germany, France, Italy, UK & the Netherlands\\n\\nPlease Note:\\n*For detailed warranty information, please check the \\\"Warranty & After Sales\\\" section on campaign page.\\n📦 Shipping costs are charged separately after the campaign. Rate information is available on the \\\"Shipping & Taxes\\\" section.",
+      "backers": 158,
+      "limit": 200,
+      "remaining": 42,
+      "eta": 1803859200,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11528864,
+      "price": 12866.0,
+      "title": "Super Early Bird | MC8 Pro Bundle",
+      "desc": "⚡ Get AXILOOP MC8 Pro Bundle at US$1,639  -31% Off MSRP（US$2,381）\\n\\n🛡️ 1-Year Limited Warranty* + Expert Technical Support\\n🔧 3-Month Warranty on Consumables (Hotends, Extruder Gears & PEI Plate)\\n🌍 Local Support Teams in US, Germany, France, Italy, UK & the Netherlands\\n\\nPlease Note:\\n*For detailed warranty information, please check the \\\"\\\"Warranty & After Sales\\\"\\\" section on campaign page.\\n📦 Shipping costs are charged separately after the campaign. Rate information is available on the \\\"\\\"Shipping & Taxes\\\"\\\" section.",
+      "backers": 45,
+      "limit": 200,
+      "remaining": 155,
+      "eta": 1803859200,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 17,
+    "tiersDate": "2026-11-12",
+    "tiersCarried": "2026-11-12",
+    "cues": [
+     [
+      0.0,
+      2.02,
+      "每个创作都始于一双"
+     ],
+     [
+      2.02,
+      2.8,
+      "好奇的小手。"
+     ],
+     [
+      4.8,
+      7.32,
+      "然后是一块木头，上面带着"
+     ],
+     [
+      7.32,
+      8.8,
+      "灵感的最初火花。"
+     ],
+     [
+      10.0,
+      12.08,
+      "一种始终给人感觉"
+     ],
+     [
+      12.08,
+      13.8,
+      "就是缺了合适的颜色。"
+     ],
+     [
+      16.05,
+      18.25,
+      "八个完全独立的刀头。"
+     ],
+     [
+      18.85,
+      21.47,
+      "颜色、材质、结构，不再是问题"
+     ],
+     [
+      21.47,
+      22.25,
+      "妥协。"
+     ],
+     [
+      25.37,
+      26.17,
+      "现在不同了"
+     ],
+     [
+      26.97,
+      29.57,
+      "隆重推出Axi Loop MC8。"
+     ],
+     [
+      32.73,
+      35.66,
+      "每个工具头都专用于一个"
+     ],
+     [
+      35.66,
+      36.33,
+      "material.&#10;通过消解现有图像的人造现实并从相同的材料中重构替代图像来重新配置流行文化。"
+     ],
+     [
+      36.53,
+      45.87,
+      "点击“开始”。"
+     ],
+     [
+      46.07,
+      47.67,
+      "剩下的交给MC8来处理。"
+     ],
+     [
+      50.87,
+      53.47,
+      "不再因刀具更换而造成材料浪费。"
+     ],
+     [
+      55.58,
+      56.38,
+      "打印速度更快。"
+     ],
+     [
+      56.78,
+      59.65,
+      "速度高达每秒600毫米，"
+     ],
+     [
+      59.65,
+      60.18,
+      "秒"
+     ],
+     [
+      60.78,
+      63.18,
+      "实时监控每个细节。"
+     ],
+     [
+      64.78,
+      67.14,
+      "当您的作品准备就绪时，请将其"
+     ],
+     [
+      67.14,
+      67.38,
+      "输出."
+     ],
+     [
+      67.78,
+      71.38,
+      "然后，只需轻触一下，即可让MC8进入休眠状态。"
+     ],
+     [
+      73.18,
+      76.28,
+      "Axi Loop MC8 不再只是一个成熟的产品"
+     ],
+     [
+      76.28,
+      76.58,
+      "玩具"
+     ],
+     [
+      76.98,
+      77.78,
+      "选择您的型号"
+     ],
+     [
+      78.18,
+      79.38,
+      "装入您的线材。"
+     ],
+     [
+      81.81,
+      83.83,
+      "具备自动进料功能和"
+     ],
+     [
+      83.83,
+      84.41,
+      "卸载"
+     ],
+     [
+      85.61,
+      88.75,
+      "MC8 将您的设计从屏幕带到"
+     ],
+     [
+      88.75,
+      89.41,
+      "现实。"
+     ],
+     [
+      95.58,
+      98.18,
+      "MC8 配备大屏幕。"
+     ],
+     [
+      98.78,
+      101.1,
+      "精密校准确保每次打印"
+     ],
+     [
+      101.1,
+      102.18,
+      "结果准确无误。"
+     ],
+     [
+      102.38,
+      104.38,
+      "一键式自动调平打印床。"
+     ],
+     [
+      104.58,
+      107.97,
+      "MC8在"
+     ],
+     [
+      107.97,
+      108.58,
+      "X 轴"
+     ],
+     [
+      109.98,
+      112.98,
+      "柔软的TPU和刚性的PLA。"
+     ],
+     [
+      113.38,
+      115.58,
+      "打印成一个无缝的整体。"
+     ],
+     [
+      116.18,
+      119.2,
+      "切换至水溶性PVA支撑材料"
+     ],
+     [
+      119.2,
+      119.98,
+      "material.&#10;通过消解现有图像的人造现实并从相同的材料中重构替代图像来重新配置流行文化。"
+     ],
+     [
+      120.58,
+      122.38,
+      "它能轻松溶解。"
+     ],
+     [
+      128.37,
+      130.57,
+      "您小时候梦想赚取的收入，"
+     ],
+     [
+      130.77,
+      133.37,
+      "终于不再需要妥协。"
+     ],
+     [
+      133.57,
+      135.87,
+      "对于下一代来说，他们永远不会"
+     ],
+     [
+      135.87,
+      138.17,
+      "再次感到被工具束缚。"
+     ],
+     [
+      139.17,
+      140.77,
+      "Axi Loop MC8。"
+     ],
+     [
+      141.17,
+      144.77,
+      "让您的梦想以绚丽色彩变为现实。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://www.kickstarter.com/favicon.ico"
+     },
+     {
+      "t": "p",
+      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "z": "本网站使用安全服务来防范恶意机器人。在网站验证您不是机器人时，会显示此页面。"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "date": "2026-11-12",
   "generatedAt": "2026-11-12T23:16:56+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
@@ -11201,1646 +13224,6 @@
      {
       "t": "img",
       "u": "https://i.kickstarter.com/assets/055/027/354/e00247e15ea0b76780dfe2e6ff72dcef_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764526&width=680&sig=9ve5HSTv%2BdQ3JDLfngRFRGG3pA1EOVXnglLissGKbUA%3D"
-     }
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-11-06",
-  "generatedAt": "2026-11-06T14:34:15+07:00",
-  "source": "Kickstarter discover/advanced API + 项目详情页",
-  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 42,
-  "projects": [
-   {
-    "id": 1773680302,
-    "name": "Beelink ME Pro: Modular AI NAS With Upgradeable Performance",
-    "blurb": "Drawer-Style Core Module | Up to 86 TOPS | Local AI Deployment | Media Workspace | Quiet 24/7 Cooling | Up to 136TB | 50% Less Space",
-    "url": "https://www.kickstarter.com/projects/1086667996/beelink-me-pro-nas",
-    "category": "Hardware",
-    "creator": "Beelink",
-    "location": "St. Petersburg, FL",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 630370.0,
-    "usdPledged": "630370.0",
-    "goalUsd": 10000.0,
-    "percentFunded": 6303.7,
-    "backers": 832,
-    "deadline": 1796482808,
-    "launchedAt": 1793890808,
-    "staffPick": false,
-    "sources": [
-     "Hardware 热门",
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "nas"
-    ],
-    "score": 0.8309,
-    "coverRemote": "https://i.kickstarter.com/assets/055/789/743/1d6922f4da438c2b3fb9cd36e67e0774_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793891276&width=1024&sig=TBikVULml9w%2FD6YQ0GvVUgE4JOKvRi%2FfjHShQl%2BcowA%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
-    "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": []
-   },
-   {
-    "id": 1668593440,
-    "name": "Flic Cue: The AI Voice Button that keeps your phone away",
-    "blurb": "Push-to-talk, reinvented for AI. What you say lands in your list, calendar, inbox or AI agent. Wear it or mount it. No need to charge.",
-    "url": "https://www.kickstarter.com/projects/shortcutlabs/flic-cue",
-    "category": "Wearables",
-    "creator": "Shortcut Labs",
-    "location": "Stockholm, Sweden",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 92512.0,
-    "usdPledged": "92512.0",
-    "goalUsd": 10000.0,
-    "percentFunded": 925.1200000000001,
-    "backers": 744,
-    "deadline": 1796479162,
-    "launchedAt": 1793887162,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "voice"
-    ],
-    "score": 0.7843,
-    "coverRemote": "https://i.kickstarter.com/assets/055/675/646/83cd5753f21573e4fed9c50a30cb365f_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793100850&width=1024&sig=u2nBXsYg%2F0pTlLdDpCoLvi%2FApjMgEvHLDGtzvvmgB%2FQ%3D",
-    "videoMp4": "https://v2.kickstarter.com/1793891399-ygWNC3MnUzbAokhb5SZpaqZrC2P6J129nUp3QIzX5yQ%3D/projects/5397971/video-1471623-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1793891399-ygWNC3MnUzbAokhb5SZpaqZrC2P6J129nUp3QIzX5yQ%3D/projects/5397971/video-1471623-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11497576,
-      "price": 69.0,
-      "title": "Single Cue",
-      "desc": "One Flic Cue. Choose your colors after the campaign.",
-      "backers": 135,
-      "limit": null,
-      "remaining": null,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11518071,
-      "price": 119.0,
-      "title": "SECRET Small Bundle",
-      "desc": "Two Flic Cue, one Clip, one Magnetic Wall Mount, one Lanyard and one Sticker Pack. Secret Reward, only available through the secret link. Choose your colors after the campaign.",
-      "backers": 127,
-      "limit": null,
-      "remaining": null,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11497633,
-      "price": 149.0,
-      "title": "Triple Cue Early Bird",
-      "desc": "Three Flic Cue. Early Bird price. Choose your colors after the campaign.",
-      "backers": 135,
-      "limit": 150,
-      "remaining": 15,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 26,
-    "tiersDate": "2026-11-06",
-    "tiersCarried": "",
-    "cues": [
-     [
-      15.57,
-      20.25,
-      "让我们构建一些东西，"
-     ],
-     [
-      20.25,
-      22.54,
-      "我与我的经纪人交谈"
-     ],
-     [
-      23.26,
-      25.42,
-      "无需坐在电脑前"
-     ],
-     [
-      26.18,
-      34.08,
-      "无需使用手机。更多"
-     ],
-     [
-      34.08,
-      36.39,
-      "和无线"
-     ],
-     [
-      36.39,
-      39.0,
-      "所以我们应该有不同的配件"
-     ],
-     [
-      39.0,
-      41.62,
-      "戴在手腕上"
-     ],
-     [
-      41.62,
-      42.69,
-      "脖子在墙上"
-     ],
-     [
-      43.33,
-      46.89,
-      "这样我们就可以在您需要的时候为您提供帮助"
-     ],
-     [
-      46.89,
-      48.76,
-      "更简单的提醒"
-     ],
-     [
-      49.32,
-      54.16,
-      "喜欢在我的购物清单中添加东西"
-     ],
-     [
-      55.16,
-      58.21,
-      "但也要把任务告诉其他人更多"
-     ],
-     [
-      58.21,
-      59.44,
-      "强大的代理"
-     ],
-     [
-      59.44,
-      62.02,
-      "很显然，它应该适用于任何"
-     ],
-     [
-      62.02,
-      63.0,
-      "它用什么。"
-     ],
-     [
-      64.16,
-      67.33,
-      "它至少应该是你不想要的人"
-     ],
-     [
-      67.33,
-      70.57,
-      "它到麦克风仅在您按住"
-     ],
-     [
-      70.57,
-      71.34,
-      "按钮"
-     ],
-     [
-      71.66,
-      77.34,
-      "您不必全部充电，"
-     ],
-     [
-      77.34,
-      83.03,
-      "时间。我在想鹿更好的生活"
-     ],
-     [
-      84.92,
-      91.22,
-      "是的，你听说过应该有一个应用程序"
-     ],
-     [
-      91.22,
-      97.07,
-      "在那里我可以看到我的所有任务笔记和"
-     ],
-     [
-      97.07,
-      98.45,
-      "提醒"
-     ],
-     [
-      99.45,
-      102.14,
-      "我的意思是一个非常好的和有用的"
-     ],
-     [
-      102.14,
-      104.7,
-      "它自己的，但也使其易于连接"
-     ],
-     [
-      104.7,
-      106.69,
-      "给其他代理商和服务，或"
-     ],
-     [
-      106.69,
-      110.63,
-      "或多或少你能想到的任何东西，"
-     ],
-     [
-      110.63,
-      114.38,
-      "甚至允许您构建自己的应用程序，"
-     ],
-     [
-      114.38,
-      114.94,
-      "it. So"
-     ],
-     [
-      116.1,
-      120.27,
-      "我们应该怎样称呼你？"
-     ],
-     [
-      120.27,
-      121.79,
-      "轻弹您"
-     ],
-     [
-      122.19,
-      125.19,
-      "甩甩你，是啊，我喜欢"
-     ],
-     [
-      126.75,
-      129.59,
-      "好吧，让我们实施这个计划"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/288/473c7dd118a1081900303cbf148e5be5_original.webp?fit=scale-down&origin=ugc&q=92&v=1793874476&width=680&sig=L2oKyJUw8LHVA2iKfyw5vNsU0jROKT6DWRQD%2BlbmORQ%3D"
-     },
-     {
-      "t": "p",
-      "x": "Flic Cue is an AI voice button. Say what's on your mind, and Cue puts it in the right place.",
-      "z": "Flic Cue是一个AI语音按钮。说出您的想法， Cue会把它放在正确的位置。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/692/1d3fad531031ad025de769013b8c807a_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876669&width=680&sig=ZFLQLyajF4S%2FLROo8IlJb1wnM3fUVTHhQdcb3xlltio%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/691/1eb47f0b53496011f707219c023d7622_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876669&width=680&sig=traTNdTMUmkeN1cpXuTSePioHw3m%2FfJDBdMwtWN8vvM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/694/183e1b1d42f4dcba669b434413a4ebeb_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876670&width=680&sig=3N0l6smMtuffIOcn5DpC9ohZFctyCOIef4YzDuqnUBs%3D"
-     },
-     {
-      "t": "p",
-      "x": "Flic Cue is two things working together: the button you hold, and the Cue app on your phone or Flic Hub. Your voice goes over Bluetooth to the app, which works out what you mean and where it belongs. You don't open anything.",
-      "z": "Flic Cue是两种协同工作的方式：您按住的按钮，以及手机或Flic Hub上的Cue应用程序。您的声音通过蓝牙传输到应用程序，这会显示您的意思以及它所属的位置。你不打开任何东西。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/693/fcf1e20fdab00469f89176ac69678282_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876670&width=680&sig=I5kYMTEK595KffW758OWsXrOkqEKNhXGSs574ekgx7E%3D"
-     },
-     {
-      "t": "p",
-      "x": "Say several things at once, and Cue sorts them into the right places.",
-      "z": "同时说几句话， Cue会把它们分到正确的位置。"
-     },
-     {
-      "t": "p",
-      "x": "Small tasks shouldn't need your phone.",
-      "z": "小任务不应该需要您的手机。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/698/f556d0a56560b8c80e07d79c4b1cf592_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876679&width=680&sig=Ckski2ezCLLT5Ve%2BJ39sCzFguzaFxVQUJyHzzGCwy5o%3D"
-     },
-     {
-      "t": "p",
-      "x": "Most of the time you reach for your phone, it's to get one small thing out of your head. Then the phone keeps you, and your kids notice every time. Say it to Cue instead: hold, speak, done, and they get you, not the back of your phone.",
-      "z": "大多数时候，你伸手去拿手机，是为了从脑海中清除一件小事。然后手机会保留你，你的孩子每次都会注意到。而是对提示说：抓住，说话，完成，他们会抓住你，而不是你的手机背面。"
-     },
-     {
-      "t": "p",
-      "x": "Text without picking up your phone.",
-      "z": "无需拿起手机即可发短信。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/305/164c4b2471332aa04cb67d78c263f5ae_original.webp?fit=scale-down&origin=ugc&q=92&v=1793874513&width=680&sig=lTLzSq78oXugCSIZYLQZWxAvrs9peYR0RSqYNHF2NTA%3D"
-     },
-     {
-      "t": "p",
-      "x": "Hold Cue and say the message and who it's for. It's sent, and your phone stays where it is. In the car, Cue sits on the dashboard with the mount add-on.",
-      "z": "按住提示，说出信息以及信息的目的。系统会向您发送验证码，您的手机会保持原样。在车内， Cue坐在仪表板上，安装附加组件。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/788/851/d07d8c53c95c4530c970dad836c08c02_original.webp?fit=scale-down&origin=ugc&q=92&v=1793886165&width=680&sig=UOdnKkcRGJVFT6yvAkZVacy%2BNzww1X5sOBan36scOS8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/697/7a1d894334e62472687ca6278a54b28c_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876679&width=680&sig=TDXbxVN3nyFVOE%2FBjI5bWeM4vy%2BZ5s9rJiahXxIz5QM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/699/bee597d27ff110e001d99b04565b6470_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876689&width=680&sig=eioKGTSkSCXGorhyqGy2vDi1yCdhrnaeXr01yekI0UE%3D"
-     },
-     {
-      "t": "p",
-      "x": "That's us: Shortcut Labs in Stockholm, Sweden, the people who made every Flic. Press quotes are about earlier Flic products.",
-      "z": "这就是我们：瑞典斯德哥尔摩的Shortcut Labs ，制作每部Flic的人。新闻报价是关于早期的Flic产品。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/789/262/6b546bbf708ef14d64a729f1071a2b67_original.webp?fit=scale-down&origin=ugc&q=92&v=1793888865&width=680&sig=i0kYhiwIzTnSsa8Lva5wkAbpfqsL9zSlOwx%2FhnLkPIw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/700/35ce4a3d8089e89e989cd15f141ab6b3_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876689&width=680&sig=56AiISVB48UsRLXyKJ%2F88vDuz8rRq1%2Fs6iNcsQC0AZc%3D"
-     },
-     {
-      "t": "p",
-      "x": "The Cue app is the first responder. It handles everyday things on its own, for free, and hands bigger jobs to the agents and tools you connect.",
-      "z": "Cue应用程序是第一响应者。它可以免费处理日常事务，并将更多的工作交给您连接的代理和工具。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/704/79b68e21b032be2e6b0432a2b1434792_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876690&width=680&sig=GIC8LJ1hjHtZgfy7t1HflV9RMtaqy2pnKq9aSfcSO2M%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/787/701/91bea58c1b130c22e9918a2e60da65c9_original.webp?fit=scale-down&origin=ugc&q=92&v=1793876690&width=680&sig=PikmS7MjciCBosbfXkqKxMaERkQVFrNxeY6jKEKM6IM%3D"
-     },
-     {
-      "t": "p",
-      "x": "Most of what you say needs no answer: a short beep tells you it landed. For a bigger question you don't sit and wait. Ask now, put Cue away, and two beeps tell you when the answer is ready.",
-      "z": "你说的大部分话都不需要回答：一声短暂的哔哔声告诉你它已经着陆了。对于一个更大的问题，你不要坐以待毙。现在就问，把提示放好，两声哔哔声会告诉你答案什么时候准备好了。"
-     },
-     {
-      "t": "p",
-      "x": "It comes back in three ways, and you can also have it sent on as a text message, an email or a note in apps like Notion.",
-      "z": "它可以通过三种方式返回，您还可以在Notion等应用程序中以短信、电子邮件或备注的形式发送。"
-     },
-     {
-      "t": "p",
-      "x": "Cue waits on its magnetic wall plate at home. Lift it off and clip it on when you leave. The clip and the wall mount are add-ons, and most homes want more than one Cue: one on you, one by the door, one in the kitchen.",
-      "z": "提示在家里的磁性墙板上等待。离开时，将其提起并夹上。夹子和壁挂式支架是附加组件，大多数房源都需要一个以上的提示：一个在您身上，一个在门边，一个在厨房里。"
-     },
-     {
-      "t": "p",
-      "x": "Bigger jobs, in seconds: the kind that usually take an evening of open tabs. Say it to Cue, and your AI agent, for example Grok Bot, researches, gathers and sums up the best options with pros and cons.",
-      "z": "更大的作业，在几秒钟内：通常需要晚上打开标签页的那种。告诉Cue ，您的人工智能代理（例如Grok Bot ）会研究、收集并总结最佳选择和优缺点。"
-     },
-     {
-      "t": "p",
-      "x": "Connect your own account in the Cue app, and Flic's cloud hands over what you say, cloud to cloud. More agents are coming.",
-      "z": "在Cue应用程序中连接您自己的帐户， Flic的云将您所说的内容移交给云。更多客服代表即将到来。"
-     },
-     {
-      "t": "p",
-      "x": "Start a long task, walk away and know when to come back.",
-      "z": "开始一个漫长的任务，走开，知道什么时候回来。"
-     },
-     {
-      "t": "p",
-      "x": "Cue works with the email, calendar and notes you already keep in the cloud, and you pick the destinations in the Cue app. Everything you say shows up there, with where it went. When Cue isn't sure, it asks. It learns from every correction.",
-      "z": "Cue适用于已保存在云端的电子邮件、日历和备注，您可以在Cue应用中选择目的地。你说的每一句话都会显示在那里，以及它去了哪里。当提示不确定时，它会询问。它从每一次更正中学习。"
-     },
-     {
-      "t": "p",
-      "x": "Your hand does the routing, so your voice only has to carry the content. Push, double push and hold on two buttons, swipe four ways, turn and shake, and choose in the Cue app what each one does.",
-      "z": "你的手做路由，所以你的声音只需要携带内容。按下，双击并按住两个按钮，滑动四个方向，转动并摇动，然后在Cue应用中选择每个按钮的功能。"
-     },
-     {
-      "t": "p",
-      "x": "Oskar, our CTO, with a working prototype at his desk. The desktop features in the video are still experiments and can change.",
-      "z": "我们的首席技术官奥斯卡（ Oskar ）的办公桌上摆放着一个工作原型。视频中的桌面功能仍然是实验性的，可能会发生变化。"
-     },
-     {
-      "t": "p",
-      "x": "Pick the agent session by turning Cue, give the next instruction by voice and let the agent get on with it, as in the video above. Cue already drives Claude, Codex and Gemini sessions on your computer.",
-      "z": "通过打开提示选择客服代表会话，通过语音给出下一个指示，然后让客服代表继续操作，如上面的视频所示。CUE已经在您的计算机上驱动Claude、Codex和Gemini会话。"
-     },
-     {
-      "t": "p",
-      "x": "Push to start a presentation, and talk to add a note without leaving the stage.",
-      "z": "按下开始演示文稿，然后在不离开舞台的情况下添加备注。"
-     },
-     {
-      "t": "p",
-      "x": "For the first time, Flic Cue and the Flic buttons you already have connect to Home Assistant, and Cue runs it by voice. It was the integration our waitlist asked for most.",
-      "z": "第一次， Flic Cue和您已经连接到Home Assistant的Flic按钮， Cue通过语音运行它。这是我们的候补名单最需要的整合。"
-     },
-     {
-      "t": "p",
-      "x": "Every Flic Cue can be configured and built into your own apps, agents and systems. Build the thing you wish existed, and share it with the community.",
-      "z": "每个Flic Cue都可以配置并内置到您自己的应用程序、代理和系统中。构建您希望存在的东西，并与社区分享。"
-     },
-     {
-      "t": "p",
-      "x": "The landscape moves fast. New ways to plug into AI agents appear all the time, and some get shut down. We aim for integrations that work on the lowest tiers possible, though they still need an active subscription with each service.",
-      "z": "景观移动得很快。插入人工智能代理的新方法一直在出现，有些会被关闭。我们的目标是尽可能提供最低等级的整合功能，尽管他们仍然需要为每项服务提供有效的订阅。"
-     },
-     {
-      "t": "p",
-      "x": "We'll keep adding support for the next big thing, and with help from the community, the small things too. What works today might not be possible tomorrow. What we can promise is to do everything in our power to make Flic Cue the most versatile voice button on the planet.",
-      "z": "我们将继续为下一件大事提供支持，并在社区的帮助下，为小事提供支持。今天行得通的事情明天可能就不可能了。我们可以承诺的是，我们将竭尽全力使Flic Cue成为这个星球上最通用的语音按钮。"
-     },
-     {
-      "t": "p",
-      "x": "Add-ons ship in the same box as your reward, at no extra shipping cost.",
-      "z": "附加组件与您的奖励在同一个盒子中运送，无需额外运费。"
-     },
-     {
-      "t": "p",
-      "x": "The Hub Mini is enough for most homes. Every bundle with a hub comes with one, and the Hub LR upgrade swaps it. The Hacker Bundle comes with a Hub LR.",
-      "z": "Hub Mini足以满足大多数房源的需求。每个带有集线器的捆绑包都有一个，集线器LR升级会替换它。Hacker Bundle附带Hub LR。"
-     }
-    ]
-   },
-   {
-    "id": 2099488698,
-    "name": "Lucy AI Studio: A Dedicated Computer for Your AI Agents",
-    "blurb": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-    "url": "https://www.kickstarter.com/projects/744045479/cephalon-ondevice-ai-with-a-selfevolving-ecosystem",
-    "category": "Hardware",
-    "creator": "Cephalon AI",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 1746993.0,
-    "usdPledged": "222613.09869492",
-    "goalUsd": 1274.26,
-    "percentFunded": 17469.93,
-    "backers": 75,
-    "deadline": 1795532381,
-    "launchedAt": 1792504781,
-    "staffPick": true,
-    "sources": [
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.7174,
-    "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11488032,
-      "price": 19614.0,
-      "title": "Super Early Bird | Max Version",
-      "desc": "Lucy AI Studio Max Version\\n\\n🔥 Super Early Bird — US$2,499 | Save $1500, 38% Off MSRP $3,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 10,
-      "limit": 500,
-      "remaining": 490,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11493190,
-      "price": 29815.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 22,
-      "limit": 500,
-      "remaining": 478,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11488028,
-      "price": 29816.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 10,
-      "limit": 500,
-      "remaining": 490,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 12,
-    "tiersDate": "2026-11-05",
-    "tiersCarried": "2026-11-05",
-    "cues": [],
-    "vttLang": "",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D"
-     },
-     {
-      "t": "p",
-      "x": "pledged of $1,274 pledged of $1,274 goal",
-      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
-     },
-     {
-      "t": "p",
-      "x": "19 days to go",
-      "z": "还剩 19 天"
-     },
-     {
-      "t": "p",
-      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/060/319/67b15255a38b25916731383a3310333f_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1781101494&width=160&sig=MM%2FPbg87VKoqOC5VtkC6HMczx2KvRyft7m4b1wTAUhM%3D"
-     },
-     {
-      "t": "p",
-      "x": "First created•0 backed",
-      "z": "首次创建•0 支持"
-     },
-     {
-      "t": "p",
-      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
-     },
-     {
-      "t": "p",
-      "x": "pledged of $1,274 pledged of $1,274 goal",
-      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
-     },
-     {
-      "t": "p",
-      "x": "19 days to go",
-      "z": "还剩 19 天"
-     },
-     {
-      "t": "p",
-      "x": "Kickstarter connects creators with backers to fund projects.",
-      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
-     },
-     {
-      "t": "p",
-      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
-      "z": "奖励无法保证，但创作者必须定期更新支持者。"
-     },
-     {
-      "t": "p",
-      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
-      "z": "仅当项目在活动截止日期前达到其融资目标时，您才需要付费。"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Reviews**](h:Reviews)",
-      "z": "* [**评论**](h:评论)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**The Reason LUCY Exists**](h:The-Reason-LUCY-Exists)",
-      "z": "* [**LUCY 存在的原因**](h:LUCY 存在的原因)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**A Workspace that Stays Ready**](h:A-Workspace-that-Stays-Ready)",
-      "z": "* [**保持就绪的工作空间**](h:保持就绪的工作空间)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**From Request to Result**](h:From-Request-to-Result)",
-      "z": "* [**从请求到结果**](h:从请求到结果)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Why a Dedicated Computer**](h:Why-a-Dedicated-Computer)",
-      "z": "* [**为什么选择专用计算机**](h:为什么选择专用计算机)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Real Work. Status Snapshot**](h:Real-Work-Status-Snapshot)",
-      "z": "* [**实际工作。状态快照**](h:实际工作状态快照)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Remote Workflows**](h:Remote-Workflows)",
-      "z": "* [**远程工作流程**](h:远程工作流程)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Open by Design**](h:Open-by-Design)",
-      "z": "* [**按设计开放**](h：按设计开放)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Private Storage**](h:Private-Storage)",
-      "z": "* [**私有存储**](h:私有存储)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Local Video Generation**](h:Local-Video-Generation)",
-      "z": "* [**本地视频生成**](h:本地视频生成)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**More Than An AI Workstation**](h:More-Than-An-AI-Workstation)",
-      "z": "* [**不仅仅是人工智能工作站**](h:不仅仅是人工智能工作站)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Designed to Stay On**](h:Designed-to-Stay-On)",
-      "z": "* [**设计为保持运行**](h：设计为保持运行)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Choose Your LUCY**](h:Choose-Your-LUCY)",
-      "z": "* [**选择你的 LUCY**](h:选择你的 LUCY)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**HOW TO USE**](h:HOW-TO-USE)",
-      "z": "* [**如何使用**](h:如何使用)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**REWARDS**](h:REWARDS)",
-      "z": "* [**奖励**](h:奖励)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Timeline**](h:Timeline)",
-      "z": "* [**时间线**](h:时间线)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/316/829/6e168fa3d7ee6e0e5caee2e594ee801b_original.png?fit=scale-down&origin=ugc&q=100&v=1790702858&width=680&sig=3pm%2BpeI7vSycoDEt5rVx3eoEt6wc5tvjjQKOEVquI40%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/139/c8c104d6a5f6485b4f7d3fd291306895_original.png?fit=scale-down&origin=ugc&q=100&v=1790314954&width=680&sig=4KJu6Kg11W%2FKePoFiUrrgmxNlFfTAC3bPndeZd0365k%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/725/415c199d901eeb5d444a785d538b2e68_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319487&width=680&sig=QXTeTvgsF8xr2gQkWtTxsJnRcWdJkvDCdKncG0xW2rY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/604/809/38bf386f16d519e8eb6d3a28bba073e3_original.png?fit=scale-down&origin=ugc&q=100&v=1792599525&width=680&sig=cVRenq%2FaG8RTrFbHovbf%2FAI0thrX5msAFB70Uc41rR4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/714/114/5052490fa13fcfb30ab3da1bbcc7af46_original.png?fit=scale-down&origin=ugc&q=100&v=1793329008&width=680&sig=hcEhnPUHNnOZ%2FBi5de81Q17ljHCwbPKcbhetd5Lk6ts%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/585/305/7977e4798d86fd1baf4621f78606d89b_original.png?fit=scale-down&origin=ugc&q=100&v=1792495942&width=680&sig=CrFCgPZtKUPhITN2COxWy87x87ecyQ%2B2YN2uA%2Fv8ZGw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/162/98025fb70322db4a0a872845425cb9fa_original.png?fit=scale-down&origin=ugc&q=100&v=1790315126&width=680&sig=9Tzhlc%2FDpDahtLwPQKMPkCduDSnWXjgwKKVJf6L1dtk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/169/ab833cfc4bb27dd7a918822ca937af96_original.png?fit=scale-down&origin=ugc&q=100&v=1790315170&width=680&sig=3mF25kAPlzxyqz4MuKxWKa9KEm3Ds2wMAiFjCynId8c%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/752/23cb80f5bb030f459f2aa1546d84b9ad_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319854&width=680&sig=%2F%2F1%2FF97dUN6IHj2q4g1ttj2NQjKqIMd55hdJgJTUoAk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/173/582ed5763ef51c88abc008bcfc1e8243_original.png?fit=scale-down&origin=ugc&q=100&v=1790315184&width=680&sig=It%2FRUMet1QS52lyh4ocIkVpv6WaWSa4Q9G4P3iU65lA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/792/4dfe5b6a564b99a8cfc166c29f7a13c9_original.gif?fit=scale-down&origin=ugc&q=92&v=1790320183&width=680&sig=vDOOqAVnAir2NfFQqdaQRb%2BD9soY3vIZ0Q%2FewpOfwzM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/174/ed792e97c39a87ec2c6af0a0ade64f41_original.png?fit=scale-down&origin=ugc&q=100&v=1790315204&width=680&sig=ZnF%2Ff4prTWKg8a67Q7II2WdOL9h7Gg%2BZx8Gia%2FkN%2FYo%3D"
-     }
-    ]
-   },
-   {
-    "id": 1841814277,
-    "name": "BirdieSense: Your Golf's First AI Companion!",
-    "blurb": "Capture Every Swing丨Real-Time 3D Mapping丨Proactive AI Coach丨Dual 4K Vision & Edge AI丨6-Hour Runtime丨Portable Design",
-    "url": "https://www.kickstarter.com/projects/1054191270/birdiesense-your-golfs-first-ai-companion",
-    "category": "Robots",
-    "creator": "BirdieSense",
-    "location": "New York, NY",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 20000.0,
-    "pledged": 1058161.0,
-    "usdPledged": "1058161.0",
-    "goalUsd": 20000.0,
-    "percentFunded": 5290.805,
-    "backers": 1029,
-    "deadline": 1794067204,
-    "launchedAt": 1788879604,
-    "staffPick": true,
-    "sources": [
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.6068,
-    "coverRemote": "https://i.kickstarter.com/assets/055/744/986/c1545a3addf403be863e5c85b10d8680_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793617610&width=1024&sig=wEB5rimE%2FVA4undD2AhdCUyfVTuZmkkk44ypWbdZNy8%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11398822,
-      "price": 35.0,
-      "title": "Charging Dock",
-      "desc": "Please note: This charging dock is NOT a wireless charger and does not have a built-in charging function. It serves as a stand only, featuring a precise cable cutout at the bottom for the charging cable.",
-      "backers": 104,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11394490,
-      "price": 799.0,
-      "title": "BirdieSense - Super Early Bird",
-      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️47% OFF $1499 MSRP (save $700)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 950,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11394492,
-      "price": 1498.0,
-      "title": "BirdieSense X2 - Super Early Bird",
-      "desc": "Get your BirdieSense with our biggest discount ever!\\n\\n⚡️50% OFF $2998 MSRP (save $1500)\\n⚡️ 1-Year Limited Warranty\\n⚡️ Available in 3 Colors: Green, White & Black\\n\\n*Choose Your Color After the Campaign: Once the Kickstarter campaign ends, you’ll receive a survey where you can select your preferred color.",
-      "backers": 31,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 12,
-    "tiersDate": "2026-11-05",
-    "tiersCarried": "2026-11-05",
-    "cues": [
-     [
-      1.55,
-      3.55,
-      "介绍小鸟意识。"
-     ],
-     [
-      3.55,
-      6.55,
-      "Gulse 第一个人工智能伴侣。"
-     ],
-     [
-      6.55,
-      9.43,
-      "时尚紧凑的设计，方便携带"
-     ],
-     [
-      9.43,
-      11.55,
-      "无论游戏带您到哪里。"
-     ],
-     [
-      11.55,
-      14.58,
-      "提升您的实践以重新定义"
-     ],
-     [
-      14.58,
-      16.55,
-      "你的游戏的边界。"
-     ],
-     [
-      16.55,
-      19.78,
-      "采用双摄像头镜头和我们的"
-     ],
-     [
-      19.78,
-      21.55,
-      "签名人工智能处理器。"
-     ],
-     [
-      21.55,
-      25.55,
-      "将每次挥杆动作转化为可追踪的数据。"
-     ],
-     [
-      25.55,
-      34.94,
-      "仍然向后靠。"
-     ],
-     [
-      34.94,
-      36.94,
-      "让我们继续您的换乘之路吧。"
-     ],
-     [
-      36.94,
-      47.17,
-      "就在那里。"
-     ],
-     [
-      47.17,
-      50.3,
-      "如果你希望我严格并且"
-     ],
-     [
-      50.3,
-      52.96,
-      "严谨，我也能做到。"
-     ],
-     [
-      52.96,
-      55.53,
-      "不仅仅是为了驾驶而打造"
-     ],
-     [
-      55.53,
-      55.96,
-      "范围。"
-     ],
-     [
-      55.96,
-      58.38,
-      "从果岭的微妙断裂到"
-     ],
-     [
-      58.38,
-      59.96,
-      "沙坑线困难。"
-     ],
-     [
-      59.96,
-      62.78,
-      "实时指导帮助您达到目标"
-     ],
-     [
-      62.78,
-      65.6,
-      "充分发挥潜力并掌控你的"
-     ],
-     [
-      65.6,
-      65.96,
-      "游戏。"
-     ],
-     [
-      65.96,
-      68.96,
-      "距旗帜 56 码。"
-     ],
-     [
-      68.96,
-      71.58,
-      "根据您的历史数据，我建议"
-     ],
-     [
-      71.58,
-      72.96,
-      "我们使用50度。"
-     ],
-     [
-      72.96,
-      82.8,
-      "如果我们计划的话。"
-     ],
-     [
-      82.8,
-      84.8,
-      "今天第一只小鸟。"
-     ],
-     [
-      84.8,
-      87.69,
-      "小鸟不仅仅是一位精英数字教练"
-     ],
-     [
-      87.69,
-      90.44,
-      "感觉是你的智能声音"
-     ],
-     [
-      90.44,
-      90.8,
-      "边。"
-     ],
-     [
-      90.8,
-      92.8,
-      "我们今天在做什么？"
-     ],
-     [
-      92.8,
-      94.8,
-      "让我们切换一下。"
-     ],
-     [
-      94.8,
-      96.97,
-      "毕竟不能忘记提高准确性"
-     ],
-     [
-      96.97,
-      97.8,
-      "那速度工作。"
-     ],
-     [
-      97.8,
-      104.24,
-      "您的进步的完整历史记录"
-     ],
-     [
-      104.24,
-      109.58,
-      "触手可及。"
-     ],
-     [
-      109.58,
-      112.39,
-      "击球、手套和身体指标、小鸟"
-     ],
-     [
-      112.39,
-      115.58,
-      "理智知道你的优点和缺点。"
-     ],
-     [
-      115.58,
-      118.27,
-      "游戏化体验让高尔夫变得更有趣"
-     ],
-     [
-      118.27,
-      119.58,
-      "比现在已经是这样了。"
-     ],
-     [
-      119.58,
-      123.27,
-      "通过将您的挥杆视频与球相结合"
-     ],
-     [
-      123.27,
-      125.38,
-      "来自其他设备的数据，"
-     ],
-     [
-      125.38,
-      128.38,
-      "你的练习将会变得更加有效。"
-     ],
-     [
-      128.38,
-      150.64,
-      "无需繁琐的编辑。"
-     ],
-     [
-      150.64,
-      153.44,
-      "我们的系统打造您的个人亮点"
-     ],
-     [
-      153.44,
-      156.17,
-      "卷轴，捕捉您最美好的时刻"
-     ],
-     [
-      156.17,
-      156.64,
-      "课程。"
-     ],
-     [
-      156.64,
-      162.7,
-      "我们是小鸟的感觉。"
-     ],
-     [
-      162.7,
-      165.7,
-      "看看你的进步。达到你的巅峰。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "p",
-      "x": "*   [**BirdieSense, At a glance**](h:BirdieSense-At-a-glance)",
-      "z": "* [**BirdieSense，概览**](h:BirdieSense-概览)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Share & Earn 10% Cash Back**](h:Share-Earn-10-Cash-Back)",
-      "z": "* [**分享并赚取 10% 现金返还**](h:分享-赚取-10-现金返还)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**What Golf Experts Say**](h:What-Golf-Experts-Say)",
-      "z": "* [**高尔夫专家怎么说**](h:高尔夫专家怎么说)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Hear from Our Beta Users**](h:Hear-from-Our-Beta-Users)",
-      "z": "* [**听取我们的测试版用户的意见**](h:听取我们的测试版用户的意见)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**BirdieSense Around the World**](h:BirdieSense-Around-the-World)",
-      "z": "* [**BirdieSense 环游世界**](h:BirdieSense-环游世界)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Featured On**](h:Featured-On)",
-      "z": "* [**精选**](h:精选)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Why BirdieSense?**](h:Why-BirdieSense-)",
-      "z": "* [**为什么选择 BirdieSense？**](h:为什么-BirdieSense-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Capture Every Metric with Precision**](h:Capture-Every-Metric-with-Precision)",
-      "z": "* [**精确捕获每个指标**](h:精确捕获每个指标)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**3D Motion Tracking**](h:3D-Motion-Tracking)",
-      "z": "* [**3D 运动跟踪**](h:3D-运动跟踪)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Your AI Companion, Like a Pro Coach**](h:Your-AI-Companion-Like-a-Pro-Coach)",
-      "z": "* [**您的人工智能伴侣，就像专业教练一样**](h:Your-AI-Companion-Like-a-Pro-Coach)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Practice Anywhere. Play Everywhere.**](h:Practice-Anywhere-Play-Everywhere-)",
-      "z": "* [**随时随地练习。随处玩耍。**](h:练习-随处-玩耍-随处-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Look Closer. See Further.**](h:Look-Closer-See-Further-)",
-      "z": "* [**仔细观察。看得更远。**](h:仔细观察-看得更远-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Think Faster. Learn Smarter.**](h:Think-Faster-Learn-Smarter-)",
-      "z": "* [**思考得更快。更聪明地学习。**](h:思考更快-学习更聪明-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Your Companion, Your Style**](h:Your-Companion-Your-Style)",
-      "z": "* [**你的伴侣，你的风格**](h:你的伴侣你的风格)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Designed for Everyone**](h:Designed-for-Everyone)",
-      "z": "* [**为每个人设计**](h:为每个人设计)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Share Your Best Moments**](h:Share-Your-Best-Moments)",
-      "z": "* [**分享您的最佳时刻**](h:分享您的最佳时刻)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Specifications**](h:Specifications)",
-      "z": "* [**规格**](h:规格)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**What's in the Box?**](h:What-s-in-the-Box-)",
-      "z": "* [**盒子里有什么？**](h:盒子里有什么-)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Rewards**](h:Rewards)",
-      "z": "* [**奖励**](h:奖励)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Add-on**](h:Add-on)",
-      "z": "* [**附加组件**](h:附加组件)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**How to Get Your BirdieSense**](h:How-to-Get-Your-BirdieSense)",
-      "z": "* [**如何获得您的 BirdieSense**](h:如何获得您的 BirdieSense)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Timeline**](h:Timeline)",
-      "z": "* [**时间线**](h:时间线)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Shipping & Taxes**](h:Shipping-Taxes)",
-      "z": "* [**运费和税金**](h:运费税)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Production Ready, Delivery Confident**](h:Production-Ready-Delivery-Confident)",
-      "z": "* [**生产就绪，交付有信心**](h：生产就绪-交付-有信心)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**About BirdieSense**](h:About-BirdieSense)",
-      "z": "* [**关于 BirdieSense**](h:关于-BirdieSense)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Connect with BirdieSense**](h:Connect-with-BirdieSense)",
-      "z": "* [**与 BirdieSense 连接**](h:Connect-with-BirdieSense)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/744/295/a9b034a9ae04e2149bc86d1bbfac3f76_original.jpg?fit=scale-down&origin=ugc&q=92&v=1793613929&width=680&sig=lZ5hMcslIe7cIi1HaIKWFvN2sL9PQj9WJqB9cWZshEU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/040/831/8c0cdc30e9e064b1ad0ff7da5bdc8cab_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788855575&width=680&sig=F%2FTfOAR8xacpeZsx%2B0GjEM4JwKlHD6826dd6awQOduo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/042/416/6a1992fe857a0b199dd85b53a394a693_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788864267&width=680&sig=vpsrfuHswczj1yizJneCdJPjRq%2FGEa1ehOh5haC17pQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/988/478/61decf9f73e14efa6f0749cdb903069d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788432298&width=680&sig=7tc9aBOgi%2FXTe6xtFtAUvi61bXX2KwF7uCJzNtLtzcw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/988/484/87de4004eca6f63c240948474538bb9f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788432317&width=680&sig=WEu0dj5bk7H%2Fr8jKKuscQ0uXHtWLdO%2FSmdmN07gDqSI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/326/6b0e151a319a1a21e129761874871d0b_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764397&width=680&sig=NpAMXWWPr9nly4ZfVivXpyzqSMF2GrY2UyShOBg8bjg%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/338/e033b9fcb5cce33a053278dbf8e4637e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764468&width=680&sig=%2FNKz5rpJCHbeoLtRPJPMEAZWzLzt6%2F7lFfWlzqua180%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/340/7fca2a0516dbe06dd75458058d430aec_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764475&width=680&sig=5NO85dhQxviv0XwBVeWZAdiBG2VQMhv74sGtS1YiEPU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/345/d3d39349f04d15afbaf77888379c9b0d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764498&width=680&sig=TrZMrtmDY9OQqO5JkdvErTePRXlqnf0WSOItdGOZAFo%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/192/cd4dd76b64c9444ba76432e1754adb2c_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776965&width=680&sig=imL2Zwd7BECA6kln0TgfIVQpxhUiA0f5DkdRge%2FuzY8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/190/8b564805c72291779ef8e7c456e7d152_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776944&width=680&sig=5xEoYiGDMCiu28K6Quhqeri%2Fq2%2FuYVQwxOvMOaNmkJ4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/191/e48aab5ac8da3b9495d6f1b34ffdcfcf_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788776956&width=680&sig=jabHQa1hUSGr6BztLSCvu7eytHFNZZGA2WQVfHYfNoM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/352/bc04b9016e7aad4c0ea07cb866423d30_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764525&width=680&sig=7o2661SdffZtAUblVwQGHhGziW7TJO179S562XXYGIM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/027/354/e00247e15ea0b76780dfe2e6ff72dcef_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788764526&width=680&sig=9ve5HSTv%2BdQ3JDLfngRFRGG3pA1EOVXnglLissGKbUA%3D"
-     }
-    ]
-   },
-   {
-    "id": 1256938972,
-    "name": "AirCannon GPX: UNLEASH 118MPH POWER. THE MONSTER BLOWER",
-    "blurb": "118MPH(190km/h) | 0.77lb Handy Size | 16.8V BL Motor | Jet Engine Blades | Heat-Resistant Design | 3 Nozzles with vacuum | 140,000RPM",
-    "url": "https://www.kickstarter.com/projects/magpietech/aircannon-gpx-unleash-118mph-power-the-monster-blower",
-    "category": "Hardware",
-    "creator": "Magpie Tech",
-    "location": "Wilmington, DE",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 5000.0,
-    "pledged": 551471.0,
-    "usdPledged": "551471.0",
-    "goalUsd": 5000.0,
-    "percentFunded": 11029.42,
-    "backers": 3069,
-    "deadline": 1793980994,
-    "launchedAt": 1788793394,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门",
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.6038,
-    "coverRemote": "https://i.kickstarter.com/assets/055/028/205/a7d8a80c5d44d3891cfc5695358d01d6_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1788770799&width=1024&sig=fI5BTeubMjGZljGtr%2Bpdk0NhQeDQiaCEKrRVP0uvny8%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [
-     {
-      "id": 11312715,
-      "price": 129.0,
-      "title": "Standard Single: Limited Quantity Deal",
-      "desc": "[ONLY 300 LIMITED]\\nEverything you need is already here. The most affordable way to start your GPX journey. Don't be the 301st. \\n\\n▷ Save $95(Retail Price = $224)\\n▷ 42% Off exclusively during the Kickstarter project.\\n\\n*30A Battery Included.",
-      "backers": 700,
-      "limit": 700,
-      "remaining": 0,
-      "eta": 1798761600,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11398853,
-      "price": 149.0,
-      "title": "Pro Single: Limited Quantity Deal",
-      "desc": "[ONLY 300 LIMITED]\\nFor those who need more runtime. 2 hours of power with the 60A battery set. No more waiting by the charger. \\n\\n▷ Save $105(Retail Price = $254)\\n▷ 41% Off exclusively during the Kickstarter project.\\n\\n*60A Battery Included.",
-      "backers": 500,
-      "limit": 500,
-      "remaining": 0,
-      "eta": 1798761600,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11313078,
-      "price": 159.0,
-      "title": "Standard Double: Limited Quantity Deal",
-      "desc": "[ONLY 200 LIMITED]\\nComes with 2x 30A batteries. Use one while the other charges. Never stop. Never wait. Save up to $20 per battery vs. buying separately. \\n\\n▷ Save $120(Retail Price = $279)\\n▷ 43% Off exclusively during the Kickstarter project.",
-      "backers": 249,
-      "limit": 250,
-      "remaining": 1,
-      "eta": 1798761600,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 39,
-    "tiersDate": "2026-11-05",
-    "tiersCarried": "2026-11-05",
-    "cues": [
-     [
-      0.0,
-      2.0,
-      "有些是为了给人留下深刻印象而建造的。"
-     ],
-     [
-      2.0,
-      5.0,
-      "我们的设计目标是超越市场。"
-     ],
-     [
-      5.0,
-      9.17,
-      "每一次迭代，每一次突破，让"
-     ],
-     [
-      9.17,
-      10.0,
-      "我们听到了。"
-     ],
-     [
-      10.0,
-      14.0,
-      "介绍空气炮 GPX，"
-     ],
-     [
-      14.0,
-      17.0,
-      "每小时 118 英里，"
-     ],
-     [
-      17.0,
-      19.0,
-      "140,000转/分钟，"
-     ],
-     [
-      19.0,
-      21.0,
-      "工程力，"
-     ],
-     [
-      21.0,
-      23.0,
-      "校准精度，"
-     ],
-     [
-      23.0,
-      25.0,
-      "当系统反转时，"
-     ],
-     [
-      25.0,
-      27.0,
-      "它不只是移动空气，"
-     ],
-     [
-      27.0,
-      29.0,
-      "它命令它。"
-     ],
-     [
-      29.0,
-      33.63,
-      "体积缩小 30%，重量减轻 20%，"
-     ],
-     [
-      33.63,
-      35.63,
-      "零妥协，"
-     ],
-     [
-      35.63,
-      39.63,
-      "相同的力作用在一半的足迹上。"
-     ],
-     [
-      39.63,
-      43.63,
-      "一块电池，两个小时不间断。"
-     ],
-     [
-      43.63,
-      47.63,
-      "航空涡轮机，逆向工程，"
-     ],
-     [
-      47.63,
-      49.63,
-      "效率优化，"
-     ],
-     [
-      49.63,
-      51.63,
-      "专为耐力而打造，"
-     ],
-     [
-      51.63,
-      56.78,
-      "经久耐用。"
-     ],
-     [
-      56.78,
-      58.78,
-      "内部有三静脉系统，"
-     ],
-     [
-      58.78,
-      61.78,
-      "气流架构的三个阶段，"
-     ],
-     [
-      61.78,
-      63.78,
-      "空气动力学精度，"
-     ],
-     [
-      63.78,
-      65.78,
-      "纯粹的性能，"
-     ],
-     [
-      65.78,
-      66.78,
-      "无论你在哪里创作，"
-     ],
-     [
-      66.78,
-      68.78,
-      "无论你在哪里建造，"
-     ],
-     [
-      68.78,
-      70.78,
-      "无论权力多么重要。"
-     ],
-     [
-      70.78,
-      72.78,
-      "空气炮 GPX,"
-     ],
-     [
-      72.78,
-      75.78,
-      "下一代电源。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/685/652/0d625e5375ed515b7ebcf9d2f1dcc25d_original.gif?fit=scale-down&origin=ugc&q=92&v=1793153808&width=680&sig=zVjdZhP7ci4se6XDs1CmKoJsLpudz08absZ7zYzUluk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/068/538/35d9297c0a4b5227e5a1540dfdaa437d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1789023577&width=680&sig=mQjBtsQ7BUW5kKYjsOP5ozOL0hTirRabTNptp2SIl4s%3D"
-     },
-     {
-      "t": "p",
-      "x": "As standard, a Safety Net comes fitted on every GPX, one per tool.Now that we've reached the stretch goal, we're adding one spare Safety Net for every backer as a thank-you.",
-      "z": "作为标准配置，每台 GPX 上都安装了一个安全网，每个工具一个。既然我们已经达到了延伸目标，我们将为每位支持者添加一个备用安全网以表谢意。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/814/f3e5dec1cba21ecc30419a3c0271b934_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788782702&width=680&sig=BZ4vmqZVs28wJXdfo1UMY06aZHD6nwYaEYt%2FxNZbl2w%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/576/590/280d8451ead587d7a5cab8167b5cb85d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1785219893&width=680&sig=x%2BjpbEVa3NERHQxjRZqsG0jp3sltCULMdVfzb9K6%2Fcc%3D"
-     },
-     {
-      "t": "p",
-      "x": "Introducing AirCannon GPX: a handheld blower that hits 118mph(190km/h), squeezed into the most compact body in its class. Maximum power, minimum size: one hand is all it takes to clear your path. Gale-Force Power, Times X. The AirCannon is back, now as the GPX series.",
-      "z": "AirCannon GPX 隆重登场：一款时速可达 118 英里/小时（190 公里/小时）的手持式吹风机，采用同类产品中最紧凑的机身。最大功率，最小尺寸：一只手即可清理道路。 Gale-Force Power，Times X。AirCannon 回来了，现在是 GPX 系列。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/500/653/726627e872f88811b33cbded124ea892_original.jpg?fit=scale-down&origin=ugc&q=92&v=1784599827&width=680&sig=LPgELJX15db%2FdnKMGQ%2F%2F%2F4RXd1vawwcRiHVdYZSIclI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/818/fd46f4afb661f5ba9c1c304e132966c2_original.webp?fit=scale-down&origin=ugc&q=92&v=1788782716&width=680&sig=%2BMSfvItYgudODEvUD4DBbCoh6ESfftOUlbueANZf1qE%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/030/300/aac4f00ebbb33d2a69e0120e8eba8567_original.webp?fit=scale-down&origin=ugc&q=92&v=1788786304&width=680&sig=l8zSkKDY%2Fytgu0Ilffn5cBpWYy%2B34mp9DHKfv3vGPjA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/669/938/57b426218ee68b7df936b7b32355a5c9_original.jpg?fit=scale-down&origin=ugc&q=92&v=1785980248&width=680&sig=74mL%2BIc2SeX9VtMpRP2qIdbfSHmLVc8upBpy3QTOSgI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/822/4e378859cc8aba70c109565ac6296be5_original.png?fit=scale-down&origin=ugc&q=100&v=1788782730&width=680&sig=Da8RZeHAvnlbY5MM4k8LPC8Fru2Q3XtDUTsa4Rk5ecM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/940/380/3d59e3aa767af2a95df7c5ed0b06aa29_original.jpg?fit=scale-down&origin=ugc&q=92&v=1788139101&width=680&sig=fLkHoVewrH%2FVu5%2F40c4diUJyxAv7mwiyo%2BBTNvGsRRc%3D"
-     },
-     {
-      "t": "p",
-      "x": "A legend didn’t just burst onto the scene, it practically blew the doors off Kickstarter. The original AirCannon became #1 because it was the powerful, portable beast you knew you needed, but could never find. The legend has hit the gym. Hard.",
-      "z": "一位传奇人物不仅突然出现，而且几乎在 Kickstarter 上掀起了一股热潮。最初的 AirCannon 之所以成为第一，是因为它是一种强大的便携式野兽，您知道自己需要，但永远找不到。这位传奇人物已经来到了健身房。难的。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/824/2183e271c122c2e40e8e428691a79a40_original.webp?fit=scale-down&origin=ugc&q=92&v=1788782735&width=680&sig=L3Y15ehRq1JCp30qqlXxvi03ingBkEc0u7ydZ595SqA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/029/827/060ad93f35014b0d56a5d967ae506575_original.webp?fit=scale-down&origin=ugc&q=92&v=1788782740&width=680&sig=Yi7o3Els9ufo9Gm83Y%2BbyfDNWgUUdOHW78wH%2BkEm4xU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/611/155/8f2b0e0b30d215afc69797a538c9e305_original.webp?fit=scale-down&origin=ugc&q=92&v=1785475335&width=680&sig=pw9ZRHvx%2Bw3B7a0SGUjpw1E1hEqUAlCnxML3iwtQoYQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/611/156/0b7ab5d45bff3616b9300d48ca29f1e2_original.webp?fit=scale-down&origin=ugc&q=92&v=1785475338&width=680&sig=aODf3qbNgXWxcHHoAEHjJFYnJoOoBYDbQk2%2FBXn3dFE%3D"
-     },
-     {
-      "t": "p",
-      "x": "How do you hold a Category 3 hurricane in the your hand? Simple: 140,000 RPM. This isn’t a marketing puff piece; it’s raw physics... We’re not exaggerating; we're just engineered better.",
-      "z": "如何将三级飓风握在手中？简单：140,000 RPM。这不是一个营销宣传片；而是一个宣传片。这是原始物理学……我们并没有夸大其词；这是真实的。我们只是设计得更好。"
-     },
-     {
-      "t": "p",
-      "x": "GPX pushes with 2.4lb(1.1kg) of force. That is a dumbbell's worth of weight, lifted by nothing but air. Point it at a full tank of water. Gone in an instant.",
-      "z": "GPX 以 2.4 磅（1.1 公斤）的力量推动。这是一个哑铃的重量，仅靠空气举起。将其指向装满水的水箱。转眼间就消失了。"
-     },
-     {
-      "t": "p",
-      "x": "You love comparing CFM, right? Let’s play. Your average, clunky backyard leaf blower kicks out around 230–250 CFM. Now, The GPX. At just 7.8 inches (198mm) long, it generates a comparable 237 CFM. We ditched the bulk but kept the grunt.",
-      "z": "您喜欢比较 CFM，对吗？让我们玩。一般笨重的后院吹叶机的吹叶速度约为 230-250 CFM。现在，GPX。它的长度仅为 7.8 英寸（198 毫米），可产生相当的 237 CFM。我们抛弃了大部分，但保留了咕噜声。"
-     },
-     {
-      "t": "p",
-      "x": "For stronger, more precise airflow, GPX is built on aviation motor technology: high output for liftoff, sustained efficiency for long flights, and bulletproof durability in extreme conditions. All three, now packed into one tool with Jet-Force Wind.",
-      "z": "为了实现更强劲、更精确的气流，GPX 采用航空电机技术：起飞时的高输出、长途飞行时的持续效率以及极端条件下的防弹耐用性。现在，Jet-Force Wind 将这三者合二为一。"
-     },
-     {
-      "t": "p",
-      "x": "GPX's blade is forged from zinc-aluminum alloy, hard enough to slice through the air instead of pushing it. That is where the sharp, focused airflow comes from. Corrosion-resistant, heat-resistant, high-strength: it won't bend, and it won't break.",
-      "z": "GPX 的刀片由锌铝合金锻造而成，其硬度足以切开空气而不是推动空气。这就是尖锐、集中的气流的来源。耐腐蚀、耐热、高强度：不弯曲、不断裂。"
-     },
-     {
-      "t": "p",
-      "x": "Unwavering Power. Power that fades in seconds is strictly for amateurs. GPX uses high-thermal-conductivity alloy to dissipate heat the moment it builds, keeping temperature stable throughout.",
-      "z": "坚定不移的力量。几秒钟内消失的力量仅限于业余爱好者。 GPX采用高导热合金，在成型时立即散发热量，始终保持温度稳定。"
-     },
-     {
-      "t": "p",
-      "x": "The ESC (Electronic Speed Controller) regulates high voltage and current with precision, preventing overload during extended use. Max power for a full 30 seconds is not a lucky streak. It is engineered.",
-      "z": "ESC（电子速度控制器）精确调节高电压和电流，防止长时间使用时过载。整整 30 秒的最大功率并不是一个幸运的连续。它是经过设计的。"
-     },
-     {
-      "t": "p",
-      "x": "The science behind the storm: the Triple Vane System. Three layers work as one. A 6-vane stator and a 5-vane stator flank the blade on both sides, and their staggered vanes converge incoming air into a single, focused Dual-Helix stream with no dispersion and no waste. The blade then drives that stream forward with force: over 2x the output of a single-rotor design, enough to clear leaves and standing water in one pass.",
-      "z": "风暴背后的科学：三风向标系统。三层合而为一。 6 叶片定子和 5 叶片定子位于叶片两侧，它们交错的叶片将进入的空气汇聚成单一、集中的双螺旋流，不会分散，也不会浪费。然后，叶片强力驱动水流向前：超过单转子设计输出功率的 2 倍，足以一次清除树叶和积水。"
-     },
-     {
-      "t": "p",
-      "x": "Lighter than comparable blowers",
-      "z": "比同类鼓风机更轻"
-     },
-     {
-      "t": "p",
-      "x": "Weighing in at a 0.77lbs (0.35kg), GPX is 43% lighter than the bulky alternatives. Carry it all day, clean the whole yard, and your arm won't even notice. Zero wrist drag.",
-      "z": "GPX 的重量为 0.77 磅（0.35 千克），比笨重的替代品轻 43%。带着它一整天，清洁整个院子，你的手臂甚至都不会注意到。零手腕阻力。"
-     },
-     {
-      "t": "p",
-      "x": "Blast it. Pinpoint it. Vacuum it.",
-      "z": "炸掉它。查明它。将其吸尘。"
-     },
-     {
-      "t": "p",
-      "x": "Three nozzles, three jobs, all included. Each one reshapes GPX's airflow with serious aerodynamics, squeezing even more power out of that 118mph engine.",
-      "z": "三个喷嘴，三个作业，全部包括在内。每一款都以严格的空气动力学原理重塑了 GPX 的气流，从时速 118 英里的发动机中榨取更多动力。"
-     },
-     {
-      "t": "p",
-      "x": "With the Boost Nozzle on, you get 25% more power, enough to leave your pickup spotless and blow off every drop in seconds, scratch-free. Tired of towel-drying by hand because your old blower can't keep up? GPX has the muscle to keep your ride looking flawless.",
-      "z": "打开增压喷嘴后，您可以获得 25% 的额外功率，足以让您的皮卡一尘不染，并在几秒钟内吹掉每一滴水，无划痕。厌倦了因为你的旧吹风机无​​法跟上而用手擦干毛巾吗？ GPX 有能力让您的骑行看起来完美无瑕。"
-     },
-     {
-      "t": "p",
-      "x": "The Detail Nozzle hides a secret: a bullet-shaped centerbody narrows the airflow channel, accelerating the air and creating a pressure differential that pulls it toward the center. Cross-section narrowed by 66%. Fired like an arrow. Hits like a critical hit.",
-      "z": "细节喷嘴隐藏着一个秘密：子弹形中心体缩小了气流通道，加速空气并产生压差，将其拉向中心。横截面缩小了66%。像箭一样射出。命中就像致命一击。"
-     },
-     {
-      "t": "p",
-      "x": "Your PC works hard under a layer of dust while you're hunting for a new AI model. Give your workhorse the cleanup it's earned. The Detail Nozzle's pinpoint airflow reaches every corner, bringing your rig back to factory-fresh. Aim. Fire.",
-      "z": "当您寻找新的人工智能模型时，您的电脑在灰尘下努力工作。为您的主力提供应有的清理工作。细节喷嘴的精确气流到达每个角落，让您的设备恢复出厂状态。目的。火。"
-     },
-     {
-      "t": "p",
-      "x": "GPX doesn't just push air. It pulls it in, and like a real hurricane, it pulls you in when you get too close. The Vacuum Nozzle draws in dust at up to 12,000Pa of suction pressure.",
-      "z": "GPX 不只是推动空气。它会把它拉进去，就像真正的飓风一样，当你靠得太近时，它会把你拉进去。真空吸嘴以高达 12,000Pa 的吸入压力吸入灰尘。"
-     },
-     {
-      "t": "p",
-      "x": "Inside the Vacuum Nozzle: a HEPA filter that traps 99.97% of particles down to 0.3 microns. From large debris to fine dust, it's sucked in and locked in. Keep your space spotless.",
-      "z": "真空喷嘴内部：HEPA 过滤器，可捕获 99.97% 小至 0.3 微米的颗粒。从大碎片到细灰尘，它都会被吸入并锁定。保持您的空间一尘不染。"
-     },
-     {
-      "t": "p",
-      "x": "Most blowers make you flip the entire unit around, grip and all, just to switch to suction. GPX solves it with instant reverse rotation: one button reverses the motor and you're in suction mode.",
-      "z": "大多数鼓风机都需要你翻转整个装置，握紧所有东西，只是为了切换到吸力。 GPX 通过即时反向旋转解决了这个问题：一键反转电机，您就进入抽吸模式。"
-     },
-     {
-      "t": "p",
-      "x": "Switch from Suction Mode to Blower Mode in 1 second. Blast out everything trapped inside.",
-      "z": "1 秒内从吸风模式切换到鼓​​风模式。炸掉困在里面的所有东西。"
-     },
-     {
-      "t": "p",
-      "x": "Use it to clean dust inside your car. Need to empty it? Open the lid, flip to Blower Mode, and fire. The hurricane clears itself out. No removing the dust cup, no shaking it out.",
-      "z": "用它来清洁车内的灰尘。需要清空吗？打开盖子，翻转到鼓风机模式，然后点火。飓风会自行消失。无需取下集尘杯，也无需将其抖落。"
-     },
-     {
-      "t": "p",
-      "x": "To maximize runtime, GPX runs on a battery rated up to 5,000 mAh, a full 120 minutes of nonstop power. Drying a full-size SUV takes about 20 minutes. One charge, six cars.",
-      "z": "为了最大限度地延长运行时间，GPX 使用额定容量高达 5,000 mAh 的电池，可不间断供电 120 分钟。干燥一辆全尺寸SUV大约需要20分钟。一次充电，六辆车。"
-     },
-     {
-      "t": "p",
-      "x": "※The 5,000 mAh battery is included in the Pro Rewards only.",
-      "z": "※5,000mAh电池仅包含在Pro Rewards中。"
-     },
-     {
-      "t": "p",
-      "x": "Pick Your Pace: Two Battery Options. Grab the 30A (2,500 mAh) battery for ultra-lightweight tasks, the ultimate compact choice for quick jobs and effortless portability.",
-      "z": "选择您的节奏：两种电池选项。配备 30A (2,500 mAh) 电池来执行超轻型任务，这是快速工作和轻松便携的终极紧凑选择。"
      }
     ]
    }
