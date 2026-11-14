@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T14:15:21+07:00",
+  "generatedAt": "2026-11-14T19:30:56+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 43,
@@ -18,11 +18,11 @@
     "currency": "GBP",
     "currencySymbol": "£",
     "goal": 10000.0,
-    "pledged": 535601.0,
-    "usdPledged": "716529.78685717",
+    "pledged": 536991.0,
+    "usdPledged": "718389.33604347",
     "goalUsd": 13378.05,
-    "percentFunded": 5356.01,
-    "backers": 2538,
+    "percentFunded": 5369.91,
+    "backers": 2544,
     "deadline": 1796911200,
     "launchedAt": 1794319091,
     "staffPick": true,
@@ -33,17 +33,17 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.8048,
+    "score": 0.8049,
     "coverRemote": "https://i.kickstarter.com/assets/055/724/828/2baa97c39729466969c66182ce3d7d36_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793399442&width=1024&sig=35yvlpK9G3cnq78nLNcgbxrPpJYctPDPCGDDdUhlt5A%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794586705-c97dBl%2B8cXbwqLTopxPumFtHS4Q8aXsq%2FAdDEg3Wkh4%3D/projects/4454982/video-1467447-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794586705-c97dBl%2B8cXbwqLTopxPumFtHS4Q8aXsq%2FAdDEg3Wkh4%3D/projects/4454982/video-1467447-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11043989,
       "price": 185.0,
       "title": "Altar II - Reservation",
       "desc": "Exclusive reservation price — $100 off retail ($349).\\n\\nOnly those who placed a $1 deposit prior to the Altar II Kickstarter campaign are eligible.\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
-      "backers": 1668,
+      "backers": 1728,
       "limit": null,
       "remaining": null,
       "eta": 1814400000,
@@ -54,7 +54,7 @@
       "price": 207.0,
       "title": "Altar II - Early Bird",
       "desc": "First 48 hours only — $70 off retail ($349).\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
-      "backers": 749,
+      "backers": 743,
       "limit": null,
       "remaining": null,
       "eta": 1814400000,
@@ -65,7 +65,7 @@
       "price": 222.0,
       "title": "Altar II - Kickstarter Special",
       "desc": "Exclusive Kickstarter price — $50 off retail ($349).\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
-      "backers": 43,
+      "backers": 66,
       "limit": null,
       "remaining": null,
       "eta": 1814400000,
@@ -73,8 +73,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-11-13",
-    "tiersCarried": "2026-11-13",
+    "tiersDate": "2026-11-14",
+    "tiersCarried": "",
     "cues": [
      [
       2.58,
@@ -148,13 +148,13 @@
      ],
      [
       42.5,
-      44.56,
-      "晚上工作时，最好"
+      44.88,
+      "晚上工作时最好避免"
      ],
      [
-      44.56,
+      44.88,
       45.5,
-      "避免蓝光。"
+      "蓝光。"
      ],
      [
       46.5,
@@ -198,21 +198,26 @@
      ],
      [
       64.94,
+      66.76,
+      "我们打造了一款精美的原生 Mac"
+     ],
+     [
+      66.76,
       66.94,
-      "我们制作了一个漂亮的原生 Mac 应用程序。"
+      "应用程序。"
      ],
      [
       66.94,
-      70.66,
-      "为了实现如此令人震惊的事件概况，"
+      70.61,
+      "才能成就如此令人震惊的事件概况"
      ],
      [
-      70.66,
-      73.39,
+      70.61,
+      73.36,
       "我们必须重新思考内部"
      ],
      [
-      73.39,
+      73.36,
       75.84,
       "键盘的架构。"
      ],
@@ -233,36 +238,36 @@
      ],
      [
       82.84,
-      84.76,
+      84.78,
       "我们通过以下方式最大限度地利用空间"
      ],
      [
-      84.76,
-      87.07,
-      "M表盘长度下的包装组件"
+      84.78,
+      87.06,
+      "M 表盘混合下的包装组件"
      ],
      [
-      87.07,
+      87.06,
       87.84,
       "和空格键。"
      ],
      [
       88.84,
-      91.31,
+      91.26,
       "为了完善关键反馈和声学效果，我们"
      ],
      [
-      91.31,
-      93.65,
+      91.26,
+      93.62,
       "创造双层惯性阻尼器"
      ],
      [
-      93.65,
-      96.25,
+      93.62,
+      96.23,
       "系统，暂停打字平台"
      ],
      [
-      96.25,
+      96.23,
       98.22,
       "总声学和振动"
      ],
@@ -279,7 +284,7 @@
      [
       104.45,
       110.67,
-      "4.75 毫米支架，在 Alter 上打字的神奇体验"
+      "4.75 毫米支架，在 Alter 上打字的神奇效果"
      ],
      [
       110.67,
@@ -393,7 +398,7 @@
      {
       "t": "p",
       "x": "A two-layer Inertial Damper™ system isolates the typing platform and gives Altar II a unique typing sound and feel.",
-      "z": "两层 Inertial Damper™ 系统隔离打字平台，并为 Altar II 带来独特的打字声音和感觉。"
+      "z": "两层 Inertial Damper™ 系统隔离打字平台，并赋予 Altar II 独特的打字声音和感觉。"
      },
      {
       "t": "p",
@@ -489,11 +494,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 790701.0,
-    "usdPledged": "790701.0",
+    "pledged": 797523.0,
+    "usdPledged": "797523.0",
     "goalUsd": 10000.0,
-    "percentFunded": 7907.009999999999,
-    "backers": 4617,
+    "percentFunded": 7975.2300000000005,
+    "backers": 4657,
     "deadline": 1796975940,
     "launchedAt": 1794326477,
     "staffPick": true,
@@ -503,17 +508,17 @@
     "kwHits": [
      "sensor"
     ],
-    "score": 0.7382,
+    "score": 0.7386,
     "coverRemote": "https://i.kickstarter.com/assets/055/653/568/3a527046aa644a175104f9b6e9e42697_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792971612&width=1024&sig=UCsoZn02Lcphj99qR8zDIRLem341EgxO03UZlOQ%2BVAI%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794591205-PwU%2FStKIB8EnMandIrhk1imZlZTnKuj275vQtEAjfMw%3D/projects/5368499/video-1470881-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794591205-PwU%2FStKIB8EnMandIrhk1imZlZTnKuj275vQtEAjfMw%3D/projects/5368499/video-1470881-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11471912,
       "price": 149.0,
       "title": "VIP Reserved Tier",
       "desc": "Are you one of the 15,000+ early supporters who put down a deposit before our Kickstarter launch? Thank you! Your early belief in HIYD helped make this campaign possible. Besides getting HIYD at the cheapest price ever - as a token of our appreciation, we’re including an additional Soft Band with your order as a special gift from us to you. \\n\\nThe sensor is fully waterproof and 100% magnet-free for maximum comfort and watch safety. No monthly subscriptions or hidden paywalls. Completely risk-free with our 30-day fit guarantee.Thank you again for being with us from day one!",
-      "backers": 3676,
+      "backers": 3949,
       "limit": null,
       "remaining": null,
       "eta": 1809129600,
@@ -524,9 +529,9 @@
       "price": 199.0,
       "title": "Super Early Bird",
       "desc": "Save $100! Limited to the first 500 backers. Built for round-the-clock wear, your kit includes the HIYD sensor in black, our ultra-breathable SoftBand: perfect for training, sleep, and recovery, and a fast-charging charger. \\n\\nEngineered for active lifestyles, the sensor is fully waterproof and 100% magnet-free for maximum comfort and watch safety. No monthly subscriptions or hidden paywalls. Completely risk-free with our 30-day fit guarantee.",
-      "backers": 473,
+      "backers": 500,
       "limit": 500,
-      "remaining": 27,
+      "remaining": 0,
       "eta": 1809129600,
       "shipping": "unrestricted"
      },
@@ -535,7 +540,7 @@
       "price": 199.0,
       "title": "Super Early Bird Waitlist",
       "desc": "Save $100! Limited to our waitlisters for a limited time only. Built for round-the-clock wear, your kit includes the HIYD sensor in black, our ultra-breathable SoftBand: perfect for training, sleep, and recovery, and a fast-charging charger. \\n\\nEngineered for active lifestyles, the sensor is fully waterproof and 100% magnet-free for maximum comfort and watch safety. No monthly subscriptions or hidden paywalls. Completely risk-free with our 30-day fit guarantee.",
-      "backers": 63,
+      "backers": 64,
       "limit": null,
       "remaining": null,
       "eta": 1809129600,
@@ -543,8 +548,8 @@
      }
     ],
     "rewardsTotal": 21,
-    "tiersDate": "2026-11-13",
-    "tiersCarried": "2026-11-13",
+    "tiersDate": "2026-11-14",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -563,11 +568,11 @@
      ],
      [
       6.94,
-      9.94,
+      9.98,
       "握着你祖母的手。"
      ],
      [
-      9.94,
+      9.98,
       12.06,
       "几十年来，这对他很有帮助。"
      ],
@@ -589,7 +594,7 @@
      [
       18.42,
       20.58,
-      "从他最糟糕的日子到他最好的日子"
+      "从他最糟糕的日子到他最好的日子，"
      ],
      [
       20.58,
@@ -703,46 +708,46 @@
      ],
      [
       71.18,
-      72.78,
+      72.74,
       "我离开去建造这个。"
      ],
      [
-      72.78,
+      72.74,
       73.9,
       "这是隐藏。"
      ],
      [
       73.9,
-      76.68,
+      76.62,
       "这是一款超薄传感器套件，具有"
      ],
      [
-      76.68,
+      76.62,
       77.46,
-      "光学LED"
+      "光学LED，"
      ],
      [
       77.46,
-      79.76,
+      79.72,
       "以及加速度计和温度"
      ],
      [
-      79.76,
-      80.18,
+      79.72,
+      80.14,
       "传感器。"
      ],
      [
-      80.18,
-      82.79,
+      80.14,
+      82.75,
       "它利用微吸力吸附在"
      ],
      [
-      82.79,
-      84.02,
+      82.75,
+      83.98,
       "任何手表的背面，"
      ],
      [
-      84.02,
+      83.98,
       85.22,
       "就这样。"
      ],
@@ -773,11 +778,11 @@
      ],
      [
       94.66,
-      96.78,
+      96.74,
       "只要你有一个平坦的底盖，"
      ],
      [
-      96.78,
+      96.74,
       99.7,
       "它就像这样附上一点"
      ],
@@ -844,7 +849,7 @@
      [
       117.14,
       119.63,
-      "空气若隐若现，礼物，冲动"
+      "传家宝、礼物、冲动"
      ],
      [
       119.63,
@@ -869,7 +874,7 @@
      [
       124.46,
       127.5,
-      "你的手表仍然是你的手表，除了现在，"
+      "你的手表还是你的手表，除了现在，"
      ],
      [
       127.5,
@@ -914,7 +919,7 @@
      [
       141.18,
       143.26,
-      "现在我们准备推出我们的精致版"
+      "现在我们准备推出我们的改进版"
      ],
      [
       143.26,
@@ -928,65 +933,242 @@
      ],
      [
       146.06,
-      148.19,
+      148.23,
       "我们的制造合作伙伴已经"
      ],
      [
-      148.19,
-      148.7,
+      148.23,
+      148.74,
       "排队。"
      ],
      [
-      148.7,
+      148.74,
       150.14,
       "我们的时间表公开。"
      ],
      [
       150.14,
-      151.7,
+      151.74,
       "你每周都会收到我的来信"
      ],
      [
-      151.7,
-      153.54,
+      151.74,
+      153.58,
       "直到高在你手中。"
      ],
      [
-      153.54,
-      155.31,
+      153.58,
+      155.35,
       "我们并不是要求你相信一个"
      ],
      [
-      155.31,
-      155.7,
+      155.35,
+      155.74,
       "产品。"
      ],
      [
-      155.7,
-      158.16,
+      155.74,
+      158.2,
       "我们要求您穿您喜欢的那一件"
      ],
      [
-      158.16,
-      158.94,
+      158.2,
+      158.98,
       "已经爱了。"
      ],
      [
-      158.94,
-      160.82,
+      158.98,
+      160.66,
       "感谢您参与其中。"
      ]
     ],
     "vttLang": "zh",
     "story": [
      {
-      "t": "img",
-      "u": "https://www.kickstarter.com/favicon.ico"
+      "t": "p",
+      "x": "*   Keep your watch and style. No more bands, rings or other wearables.",
+      "z": "* 保持你的手表和风格。不再有手环、戒指或其他可穿戴设备。"
      },
      {
       "t": "p",
-      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
-      "z": "该网站使用安全服务来防范恶意机器人。当网站验证您不是机器人时会显示此页面。"
+      "x": "*   HIYD is tiny. Only 2.7mm thin and 25mm across",
+      "z": "* HIYD 很小。厚度仅 2.7 毫米，宽度仅 25 毫米"
+     },
+     {
+      "t": "p",
+      "x": "*   Data privacy. Your data is yours. Now and forever.",
+      "z": "* 数据隐私。您的数据是您的。现在和永远。"
+     },
+     {
+      "t": "p",
+      "x": "*   No subscription. Free for life for all Kickstarter backers.",
+      "z": "* 无需订阅。所有 Kickstarter 支持者终身免费。"
+     },
+     {
+      "t": "p",
+      "x": "*   Battery life up to 20 days. With additional BatteryBand. 4 days without.",
+      "z": "* 电池寿命长达 20 天。带有额外的电池带。 4天没有。"
+     },
+     {
+      "t": "p",
+      "x": "*   Fits 95% of watches and straps. From \"NATO Style\" straps to women's sizes.",
+      "z": "* 适合 95% 的手表和表带。从“北约风格”肩带到女士尺码。"
+     },
+     {
+      "t": "p",
+      "x": "*   Kickstarter discount. Pledge now for launch pricing before we hit retail!",
+      "z": "* Kickstarter 折扣。现在就在我们开始零售之前承诺发布价格！"
+     },
+     {
+      "t": "p",
+      "x": "*   FREE Soft Band. Choose your color, FREE with every HIYD bought on Kickstarter.",
+      "z": "* 免费软带。在 Kickstarter 上购买的每件 HIYD 均可免费选择您的颜色。"
+     },
+     {
+      "t": "p",
+      "x": "Your special VIP reservation price and gift (additional Soft Band) is waiting for you Check your email for the link.Thanks again ❤️",
+      "z": "您的特别 VIP 预订价格和礼物（额外软带）正在等您查看您的电子邮件中的链接。再次感谢❤️"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/632/012/c375d37c4f82e6b155feda7ac587089f_original.png?fit=scale-down&origin=ugc&q=100&v=1792774034&width=680&sig=HbETmTrNvAGFcRw9xG4vyfIBA8poJp3LzQJbyNCwvpY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/632/454/17346c37726d7a9117a5401bbe545cf6_original.gif?fit=scale-down&origin=ugc&q=92&v=1792776165&width=680&sig=Vjl%2F0ezYxzkNs2YCt%2Fits%2F9PtfC%2BH%2BqgLZ47zaWFBFY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/632/461/b220b0c103f6a8ec86dca7f03906b078_original.png?fit=scale-down&origin=ugc&q=100&v=1792776239&width=680&sig=G5edbW6%2B13ECjC5u1vaEVbB6aoy64AE%2FaePIihq3Dzc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/631/828/9d18d39e27f0d872a59e52796f4587b0_original.png?fit=scale-down&origin=ugc&q=100&v=1792773133&width=680&sig=7F6mIiHLg2tvZIp%2BIxNxY00SGBWEBeMtjItU3iI8uKo%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/539/752/5185e97bc0641260bb76c6b536573167_original.png?fit=scale-down&origin=ugc&q=100&v=1792144791&width=680&sig=wBwORkLJqXBPbC6RzrH15vTZ6msEfplu57wU0%2BgNEcg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/593/470/8f9fb863b52dd0171cc7b745d61d42fe_original.png?fit=scale-down&origin=ugc&q=100&v=1792532430&width=680&sig=T3fdQQeBzY%2BXBQtAbgC%2F1c3XMrvITKspxidnHpvHoD8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/498/819/393dc071f13c60b741690ece7ca14a02_original.png?fit=scale-down&origin=ugc&q=100&v=1791907018&width=680&sig=XH7EyeMdhuU99N%2BVgS5uux5wLZuAqi7OAMxOskaahbI%3D"
+     },
+     {
+      "t": "p",
+      "x": "Smartwatches ask you to trade all that for a screen and distractions. Plenty of us tried. Most of us went back to the watches we love.",
+      "z": "智能手表要求你用所有这些来换取屏幕和干扰。我们很多人都尝试过。我们大多数人都回到了我们喜爱的手表上。"
+     },
+     {
+      "t": "p",
+      "x": "Smart rings and fitness bands aren't much better. A band means wearing something on your other wrist. A ring can feel bulky and strange. Neither was designed around your style. And many people, us included, simply find them uncomfortable and ugly.",
+      "z": "智能戒指和健身手环也好不了多少。腕带意味着在另一只手腕上佩戴一些东西。戒指给人的感觉是笨重且奇怪。两者都不是根据您的风格设计的。许多人，包括我们，只是觉得它们不舒服而且丑陋。"
+     },
+     {
+      "t": "p",
+      "x": "So you're left with a choice: The watch you love, or knowing how you sleep, recover and perform...",
+      "z": "因此，您面临的选择是：您喜爱的手表，或者了解您的睡眠、恢复和表现情况......"
+     },
+     {
+      "t": "p",
+      "x": "We're a team of ex Apple, Tesla and YC engineers who love watches ourselves.",
+      "z": "我们是一支由前 Apple、Tesla 和 YC 工程师组成的团队，他们自己也热爱手表。"
+     },
+     {
+      "t": "p",
+      "x": "We didn't think anyone should have to make that choice. So we built something that doesn't ask you to: HIYD. Earlier this year, we put our field prototype (which we called our Gen 1) into the hands of real customers and testers. Their feedback shaped everything we did next—and today, we’re excited to kick-start the HIYD Gen 2 right here on Kickstarter!",
+      "z": "我们认为任何人都不必做出这样的选择。因此，我们构建了一些不需要您这样做的东西：HIYD。今年早些时候，我们将现场原型（我们称之为第一代）交付给真正的客户和测试人员。他们的反馈影响了我们接下来所做的一切——今天，我们很高兴能在 Kickstarter 上启动 HIYD Gen 2！"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/632/471/3e8adcb0fc5c8af5ab78df72f09622fd_original.png?fit=scale-down&origin=ugc&q=100&v=1792776275&width=680&sig=UpXJ0GrN7vxQlSgA5ssH7Kz0mbE5I7SJ%2FhXvsPWYWgg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/533/521/a63fe0275f5b2b55b94ba3051ec6cc79_original.png?fit=scale-down&origin=ugc&q=100&v=1792100480&width=680&sig=9AwITA9PwwnVxTq%2FifkI7y6u4xRN5vNXtJyLVTKVlIM%3D"
+     },
+     {
+      "t": "p",
+      "x": "No notifications. No sounds. No lights. No Alarms. No distractions.",
+      "z": "没有通知。没有声音。没有灯。无警报。没有干扰。"
+     },
+     {
+      "t": "p",
+      "x": "Your watch looks exactly as it always has. Underneath, an optical window reads your pulse with red, infrared and green light. An accelerometer follows how you move. Together, they show how you sleep, recover, perform and more.",
+      "z": "您的手表看起来与以往一模一样。下面的光学窗口用红光、红外光和绿光读取您的脉搏。加速度计会跟踪您的移动方式。它们共同展示您的睡眠、恢复、表现等方面的情况。"
+     },
+     {
+      "t": "p",
+      "x": "What HIYD tracks",
+      "z": "HIYD 追踪什么"
+     },
+     {
+      "t": "p",
+      "x": "*   Heart rate, resting heart rate and HRV. The clearest signals of stress and fitness.",
+      "z": "* 心率、静息心率和 HRV。最清晰的压力和健康信号。"
+     },
+     {
+      "t": "p",
+      "x": "*   Blood oxygen, respiratory rate and skin temperature. Early signs that something is off, often before you feel it.",
+      "z": "* 血氧、呼吸频率和皮肤温度。出现问题的早期迹象通常是在您感觉到之前。"
+     },
+     {
+      "t": "p",
+      "x": "*   Sleep score and stages. How long you slept, and how well.",
+      "z": "* 睡眠分数和阶段。你睡了多久，睡得怎么样。"
+     },
+     {
+      "t": "p",
+      "x": "*   Daily readiness. Whether today is for pushing or for recovering.",
+      "z": "* 日常准备。今天是为了推动还是为了恢复。"
+     },
+     {
+      "t": "p",
+      "x": "*   Steps, activity and VO2 max. Every day in the background, plus how your cardio fitness is improving.",
+      "z": "* 步数、活动量和最大摄氧量。每天在后台，以及您的有氧运动的改善情况。"
+     },
+     {
+      "t": "p",
+      "x": "*   Cycle tracking. Know where you are in your cycle.",
+      "z": "* 周期跟踪。了解您处于周期中的哪个位置。"
+     },
+     {
+      "t": "p",
+      "x": "*   Nutrition. Log calories and macros alongside your sleep and recovery.",
+      "z": "* 营养。记录卡路里和宏指令以及您的睡眠和恢复情况。"
+     },
+     {
+      "t": "p",
+      "x": "*   Coach HIYD. An optional AI coach that explains your data in plain language. Free for life for backers.",
+      "z": "* HIYD 教练。可选的人工智能教练，可以用简单的语言解释您的数据。支持者终身免费。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/632/477/850031c16534981b3bbff0111ca64171_original.png?fit=scale-down&origin=ugc&q=100&v=1792776299&width=680&sig=wJyrxna7VbqRUbGwjth4d9I29eKs7CpzuwvGBBucHfM%3D"
+     },
+     {
+      "t": "p",
+      "x": "During our early pilot program, users tracked core health metrics including sleep quality, daily steps, and Heart Rate Variability (HRV). When benchmarked directly against top industry competitors, our field prototype architecture delivered matching accuracy across key metrics, proving that world-class health tracking doesn't require compromising on style.",
+      "z": "在我们的早期试点计划中，用户跟踪了核心健康指标，包括睡眠质量、每日步数和心率变异性 (HRV)。当直接与顶级行业竞争对手进行基准测试时，我们的现场原型架构在关键指标上提供了匹配的准确性，证明世界一流的健康跟踪不需要在风格上做出妥协。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/666/407/161a95bcc5f93e104d931f6e17178912_original.png?fit=scale-down&origin=ugc&q=100&v=1793047855&width=680&sig=nKehsZG06Y7cMdKMZiyoTDJdrgabCdg5lt4ZZcWcUrs%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/631/811/4d6320e8b5951f349331c5b0b09b4f5f_original.png?fit=scale-down&origin=ugc&q=100&v=1792773008&width=680&sig=V732NOeGAi9Dzkj2QJIeeuU6FnAuqI%2FaDNhK9c37fDw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/632/480/2e60f9d796dd2e8eb803fd1c68263da5_original.png?fit=scale-down&origin=ugc&q=100&v=1792776312&width=680&sig=xn46kq95jX2p1vGRoqKrt6Zxx1g%2FyPmK7IWMHY1APtM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/631/757/e729e8c798270daf9facfa7d18a8421c_original.png?fit=scale-down&origin=ugc&q=100&v=1792772764&width=680&sig=KoHzNk%2F814Ku9fbGniswzgNYvfljprOsFFLJmXzVhC0%3D"
      }
     ]
    },
@@ -1002,11 +1184,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 2459154.0,
-    "usdPledged": "313361.23963176",
+    "pledged": 2496756.0,
+    "usdPledged": "318152.72862864",
     "goalUsd": 1274.26,
-    "percentFunded": 24591.54,
-    "backers": 136,
+    "percentFunded": 24967.56,
+    "backers": 142,
     "deadline": 1795532381,
     "launchedAt": 1792504781,
     "staffPick": true,
@@ -1016,19 +1198,19 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7341,
+    "score": 0.7352,
     "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794586727-j4OasyE1BCMF4i79VmBb5LWgnkBkA%2FOHVqzjZpHyZ88%3D/projects/5343527/video-1466952-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794586727-j4OasyE1BCMF4i79VmBb5LWgnkBkA%2FOHVqzjZpHyZ88%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11305322,
       "price": 6267.0,
       "title": "Super Early Bird | Pro Version",
       "desc": "Lucy AI Studio Pro Version\\n\\n🔥 Super Early Bird — US$799 | Save $100, 11% Off MSRP $899\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 38,
+      "backers": 62,
       "limit": 500,
-      "remaining": 462,
+      "remaining": 438,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -1048,27 +1230,204 @@
       "price": 29815.0,
       "title": "Super Early Bird | Ultra Version",
       "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 33,
+      "backers": 35,
       "limit": 500,
-      "remaining": 467,
+      "remaining": 465,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 12,
-    "tiersDate": "2026-11-13",
-    "tiersCarried": "2026-11-13",
+    "tiersDate": "2026-11-14",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
      {
       "t": "img",
-      "u": "https://www.kickstarter.com/favicon.ico"
+      "u": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D"
      },
      {
       "t": "p",
-      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
-      "z": "该网站使用安全服务来防范恶意机器人。当网站验证您不是机器人时会显示此页面。"
+      "x": "pledged of $1,274 pledged of $1,274 goal",
+      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
+     },
+     {
+      "t": "p",
+      "x": "10 days to go",
+      "z": "还剩 10 天"
+     },
+     {
+      "t": "p",
+      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/060/319/67b15255a38b25916731383a3310333f_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1781101494&width=160&sig=MM%2FPbg87VKoqOC5VtkC6HMczx2KvRyft7m4b1wTAUhM%3D"
+     },
+     {
+      "t": "p",
+      "x": "First created•0 backed",
+      "z": "首次创建•0 支持"
+     },
+     {
+      "t": "p",
+      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
+      "z": "安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $1,274 pledged of $1,274 goal",
+      "z": "认捐 1,274 美元 认捐 1,274 美元 目标"
+     },
+     {
+      "t": "p",
+      "x": "10 days to go",
+      "z": "还剩 10 天"
+     },
+     {
+      "t": "p",
+      "x": "Kickstarter connects creators with backers to fund projects.",
+      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
+     },
+     {
+      "t": "p",
+      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
+      "z": "奖励无法保证，但创作者必须定期更新支持者。"
+     },
+     {
+      "t": "p",
+      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+      "z": "仅当项目在活动截止日期前达到其融资目标时，您才需要付费。"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Reviews**](h:Reviews)",
+      "z": "* [**评论**](h:评论)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The Reason LUCY Exists**](h:The-Reason-LUCY-Exists)",
+      "z": "* [**露西存在的原因**](h:露西存在的原因)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**A Workspace that Stays Ready**](h:A-Workspace-that-Stays-Ready)",
+      "z": "* [**保持就绪的工作空间**](h:保持就绪的工作空间)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**From Request to Result**](h:From-Request-to-Result)",
+      "z": "* [**从请求到结果**](h:从请求到结果)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Why a Dedicated Computer**](h:Why-a-Dedicated-Computer)",
+      "z": "* [**为什么选择专用计算机**](h:为什么选择专用计算机)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Real Work. Status Snapshot**](h:Real-Work-Status-Snapshot)",
+      "z": "* [**实际工作。状态快照**](h:实际工作状态快照)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Remote Workflows**](h:Remote-Workflows)",
+      "z": "* [**远程工作流程**](h:远程工作流程)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Open by Design**](h:Open-by-Design)",
+      "z": "* [**按设计开放**](h：按设计开放)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Private Storage**](h:Private-Storage)",
+      "z": "* [**私有存储**](h:私有存储)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Local Video Generation**](h:Local-Video-Generation)",
+      "z": "* [**本地视频生成**](h:本地视频生成)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**More Than An AI Workstation**](h:More-Than-An-AI-Workstation)",
+      "z": "* [**不仅仅是人工智能工作站**](h:不仅仅是人工智能工作站)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Designed to Stay On**](h:Designed-to-Stay-On)",
+      "z": "* [**设计为保持运行**](h：设计为保持运行)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Choose Your LUCY**](h:Choose-Your-LUCY)",
+      "z": "* [**选择你的 LUCY**](h:选择你的 LUCY)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**HOW TO USE**](h:HOW-TO-USE)",
+      "z": "* [**如何使用**](h:如何使用)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**REWARDS**](h:REWARDS)",
+      "z": "* [**奖励**](h:奖励)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [**时间线**](h:时间线)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/316/829/6e168fa3d7ee6e0e5caee2e594ee801b_original.png?fit=scale-down&origin=ugc&q=100&v=1790702858&width=680&sig=3pm%2BpeI7vSycoDEt5rVx3eoEt6wc5tvjjQKOEVquI40%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/139/c8c104d6a5f6485b4f7d3fd291306895_original.png?fit=scale-down&origin=ugc&q=100&v=1790314954&width=680&sig=4KJu6Kg11W%2FKePoFiUrrgmxNlFfTAC3bPndeZd0365k%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/725/415c199d901eeb5d444a785d538b2e68_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319487&width=680&sig=QXTeTvgsF8xr2gQkWtTxsJnRcWdJkvDCdKncG0xW2rY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/604/809/38bf386f16d519e8eb6d3a28bba073e3_original.png?fit=scale-down&origin=ugc&q=100&v=1792599525&width=680&sig=cVRenq%2FaG8RTrFbHovbf%2FAI0thrX5msAFB70Uc41rR4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/714/114/5052490fa13fcfb30ab3da1bbcc7af46_original.png?fit=scale-down&origin=ugc&q=100&v=1793329008&width=680&sig=hcEhnPUHNnOZ%2FBi5de81Q17ljHCwbPKcbhetd5Lk6ts%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/585/305/7977e4798d86fd1baf4621f78606d89b_original.png?fit=scale-down&origin=ugc&q=100&v=1792495942&width=680&sig=CrFCgPZtKUPhITN2COxWy87x87ecyQ%2B2YN2uA%2Fv8ZGw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/162/98025fb70322db4a0a872845425cb9fa_original.png?fit=scale-down&origin=ugc&q=100&v=1790315126&width=680&sig=9Tzhlc%2FDpDahtLwPQKMPkCduDSnWXjgwKKVJf6L1dtk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/169/ab833cfc4bb27dd7a918822ca937af96_original.png?fit=scale-down&origin=ugc&q=100&v=1790315170&width=680&sig=3mF25kAPlzxyqz4MuKxWKa9KEm3Ds2wMAiFjCynId8c%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/752/23cb80f5bb030f459f2aa1546d84b9ad_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319854&width=680&sig=%2F%2F1%2FF97dUN6IHj2q4g1ttj2NQjKqIMd55hdJgJTUoAk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/173/582ed5763ef51c88abc008bcfc1e8243_original.png?fit=scale-down&origin=ugc&q=100&v=1790315184&width=680&sig=It%2FRUMet1QS52lyh4ocIkVpv6WaWSa4Q9G4P3iU65lA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/792/4dfe5b6a564b99a8cfc166c29f7a13c9_original.gif?fit=scale-down&origin=ugc&q=92&v=1790320183&width=680&sig=vDOOqAVnAir2NfFQqdaQRb%2BD9soY3vIZ0Q%2FewpOfwzM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/262/174/ed792e97c39a87ec2c6af0a0ade64f41_original.png?fit=scale-down&origin=ugc&q=100&v=1790315204&width=680&sig=ZnF%2Ff4prTWKg8a67Q7II2WdOL9h7Gg%2BZx8Gia%2FkN%2FYo%3D"
      }
     ]
    },
@@ -1084,11 +1443,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 381999.0,
-    "usdPledged": "381999.0",
+    "pledged": 384593.0,
+    "usdPledged": "384593.0",
     "goalUsd": 20000.0,
-    "percentFunded": 1909.995,
-    "backers": 2444,
+    "percentFunded": 1922.965,
+    "backers": 2460,
     "deadline": 1797786338,
     "launchedAt": 1794330338,
     "staffPick": true,
@@ -1100,19 +1459,19 @@
      "ai",
      "voice"
     ],
-    "score": 0.7078,
+    "score": 0.7081,
     "coverRemote": "https://i.kickstarter.com/assets/055/869/797/bfcad38118e9c711060c5806e2f9c558_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794479140&width=1024&sig=UyS8SPLXyzmBY%2F9PRysXGpHgxxhcWCnbmpytFMtf8j0%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794573803-hams7nPWBSGS%2FR%2FvW%2FGDBLiBjLnvu%2FGNSNXoOS1CQOA%3D/projects/5413240/video-1476329-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794573803-hams7nPWBSGS%2FR%2FvW%2FGDBLiBjLnvu%2FGNSNXoOS1CQOA%3D/projects/5413240/video-1476329-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11519924,
       "price": 99.0,
       "title": "Founding Member: Ring + 3 months",
       "desc": "Save 69% | Founding Member · Waitlist only, first 24 hours → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 1304,
+      "backers": 1309,
       "limit": 1350,
-      "remaining": 46,
+      "remaining": 41,
       "eta": 1798761600,
       "shipping": "unrestricted"
      },
@@ -1121,9 +1480,9 @@
       "price": 159.0,
       "title": "Early Bird: Ring + 3 months",
       "desc": "Save 51% | Early Bird → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 698,
-      "limit": 710,
-      "remaining": 12,
+      "backers": 739,
+      "limit": 750,
+      "remaining": 11,
       "eta": 1801440000,
       "shipping": "unrestricted"
      },
@@ -1132,34 +1491,34 @@
       "price": 249.0,
       "title": "Early Bird: Ring + HumanPods + 6 months",
       "desc": "Save 54% | Early Bird → One Interface ring with its charging case, HumanPods, and 6 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 171,
+      "backers": 177,
       "limit": 190,
-      "remaining": 19,
+      "remaining": 13,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 12,
-    "tiersDate": "2026-11-13",
-    "tiersCarried": "2026-11-13",
+    "tiersDate": "2026-11-14",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
-      2.68,
+      2.51,
       "Natura，我们的使命是让你摆脱困境"
      ],
      [
-      2.68,
-      3.2,
+      2.51,
+      3.0,
       "屏幕。"
      ],
      [
-      3.2,
-      6.1,
+      3.0,
+      6.05,
       "我们想把时间还给您"
      ],
      [
-      6.1,
+      6.05,
       7.0,
       "接受它。"
      ],
@@ -1200,26 +1559,26 @@
      ],
      [
       22.31,
-      25.02,
+      24.99,
       "它做了三件事。它记住的是"
      ],
      [
-      25.02,
-      28.02,
-      "你，它为你工作并且照顾你"
+      24.99,
+      27.75,
+      "你，它适合你，而且看起来很漂亮"
      ],
      [
-      28.02,
+      27.75,
       28.31,
-      "你。"
+      "为了你。"
      ],
      [
       28.31,
-      30.55,
-      "捕捉一闪即逝的想法、想法和"
+      30.57,
+      "抓住一闪即逝的想法、想法和"
      ],
      [
-      30.55,
+      30.57,
       32.31,
       "你总是会忘记的提醒。"
      ],
@@ -1250,13 +1609,13 @@
      ],
      [
       43.31,
-      45.44,
+      45.41,
       "它适合你。按住按钮并"
      ],
      [
-      45.44,
+      45.41,
       47.51,
-      "说话，你的话就会出现在任何地方"
+      "说话。你的话出现在任何地方"
      ],
      [
       47.51,
@@ -1266,7 +1625,7 @@
      [
       48.31,
       51.31,
-      "进行最终检查然后部署。"
+      "进行最终检查，然后部署。"
      ],
      [
       51.31,
@@ -1290,18 +1649,18 @@
      ],
      [
       57.31,
-      60.31,
-      "喜欢云、聊天 GPT、静音、本能和"
+      60.05,
+      "喜欢云、聊天 GPT、静音、本能，"
      ],
      [
-      60.31,
+      60.05,
       61.31,
-      "餐饮性质。"
+      "和餐饮性质。"
      ],
      [
       61.31,
       63.31,
-      "所以，你只要说你需要什么就可以了。"
+      "所以你只要说你需要什么就可以了。"
      ],
      [
       63.31,
@@ -1335,18 +1694,13 @@
      ],
      [
       76.31,
-      79.27,
+      79.25,
       "接口还注意什么"
      ],
      [
-      79.27,
-      80.31,
-      "最重要。"
-     ],
-     [
-      80.31,
+      79.25,
       81.31,
-      "你的健康。"
+      "最重要。你的健康。"
      ],
      [
       81.31,
@@ -1365,13 +1719,8 @@
      ],
      [
       89.91,
-      90.91,
-      "卷发。"
-     ],
-     [
-      90.91,
       92.91,
-      "10 次，30 磅。"
+      "卷发？ 10 次，30 磅。"
      ],
      [
       92.91,
@@ -1380,13 +1729,13 @@
      ],
      [
       94.91,
-      96.91,
-      "到六月你就会实现你的目标。"
+      97.92,
+      "到六月你就会实现你的目标。恢复是"
      ],
      [
-      96.91,
+      97.92,
       99.91,
-      "恢复率为 30%。今天放轻松。"
+      "30%。今天放轻松。"
      ],
      [
       99.91,
@@ -1410,53 +1759,48 @@
      ],
      [
       105.91,
-      108.48,
+      108.21,
       "所有这一切都生活在坚固的不锈钢中"
      ],
      [
-      108.48,
-      108.91,
-      "钢。"
+      108.21,
+      110.63,
+      "钢。感觉像珠宝，但它"
      ],
      [
-      108.91,
-      111.48,
-      "感觉像珠宝，但实际上是这样的"
-     ],
-     [
-      111.48,
+      110.63,
       111.91,
-      "一个工具。"
+      "像工具一样塞满。"
      ],
      [
       111.91,
-      113.91,
+      114.06,
       "麦克风可以捕捉每一个字。"
      ],
      [
-      113.91,
-      116.36,
+      114.06,
+      116.39,
       "来自 Apple 信赖的制造商的传感器"
      ],
      [
-      116.36,
+      116.39,
       116.91,
       "和吴普。"
      ],
      [
       116.91,
-      118.91,
-      "完成后，一个微型电机会振动。"
+      119.51,
+      "完成后，一个微型电机会振动。这是"
      ],
      [
-      118.91,
-      121.64,
-      "防水且可持续使用一周"
+      119.51,
+      122.04,
+      "防水，可持续使用一周"
      ],
      [
-      121.64,
+      122.04,
       122.91,
-      "一次充电。"
+      "单次充电。"
      ],
      [
       122.91,
@@ -1465,66 +1809,51 @@
      ],
      [
       124.91,
-      126.91,
-      "只有当您按下它时它才会听。"
+      127.3,
+      "它只在您按下它时才听"
      ],
      [
-      126.91,
+      127.3,
       128.91,
-      "它只保留你要求的内容。"
+      "只保留你要求的内容。"
      ],
      [
       128.91,
-      130.93,
-      "提醒我预订丹的生日晚餐"
-     ],
-     [
-      130.93,
-      131.91,
-      "今天星期六。"
-     ],
-     [
-      131.91,
-      134.02,
+      132.6,
       "你可以听到如此低的耳语，甚至听不到"
      ],
      [
-      134.02,
+      132.6,
       135.91,
       "您旁边的人可以听到。"
      ],
      [
       135.91,
-      137.91,
-      "这是界面。"
+      138.38,
+      "这是界面。你的想法，你的"
      ],
      [
-      137.91,
-      140.46,
-      "您的想法、您的会议、您的代理人和"
+      138.38,
+      141.27,
+      "会议、您的代理人以及您的健康状况"
      ],
      [
-      140.46,
+      141.27,
       141.91,
-      "一环呵护您的健康。"
+      "一环。"
      ],
      [
       141.91,
-      143.91,
-      "现已开放预订。"
+      144.16,
+      "预购现已开放，并且永远不会开放"
      ],
      [
-      143.91,
-      146.24,
-      "而且它的成本永远不会像它那么低"
+      144.16,
+      145.91,
+      "成本与今天一样低。"
      ],
      [
-      146.24,
-      146.91,
-      "今天确实如此。"
-     ],
-     [
-      146.91,
+      145.91,
       148.91,
       "我们迫不及待地想让您尝试一下。"
      ]
@@ -1695,7 +2024,7 @@
      {
       "t": "p",
       "x": "Record a meeting and get the full transcript, who said what, and a recap with decisions and next steps. Later, just ask what you decided. The light on the ring shows when it's recording.",
-      "z": "记录会议并获取完整的记录、谁说了什么，以及决策和后续步骤的回顾。稍后，问问你的决定。录音时，环上的灯会显示。"
+      "z": "记录一次会议并获取完整的记录、谁说了什么，以及决策和后续步骤的回顾。稍后，问问你的决定。录音时，环上的灯会显示。"
      },
      {
       "t": "p",
@@ -1731,11 +2060,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 392210.0,
-    "pledged": 4845219.0,
-    "usdPledged": "617546.46705339",
+    "pledged": 4903507.0,
+    "usdPledged": "624975.55301867",
     "goalUsd": 49989.05,
-    "percentFunded": 1235.3634532520844,
-    "backers": 413,
+    "percentFunded": 1250.2248795288237,
+    "backers": 418,
     "deadline": 1798383606,
     "launchedAt": 1794495606,
     "staffPick": true,
@@ -1747,19 +2076,19 @@
      "smart",
      "3d print"
     ],
-    "score": 0.6598,
+    "score": 0.6583,
     "coverRemote": "https://i.kickstarter.com/assets/055/872/154/4262c055a62d23a7b99bc38c3d1b8993_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794495639&width=1024&sig=GRb03ziMaQc19lAxnw%2FprUxgoppMsMOgXh7jG9lSWKQ%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794579946-pqPa0o0oHJOkn3yFor8XxxoSvt5bFfTA4GJfj9VfJe8%3D/projects/5394964/video-1476612-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794579946-pqPa0o0oHJOkn3yFor8XxxoSvt5bFfTA4GJfj9VfJe8%3D/projects/5394964/video-1476612-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11444086,
       "price": 8627.0,
       "title": "Super Early Bird | AXILOOP MC8",
       "desc": "⚡ Get AXILOOP MC8 at US$1,099  -27% Off MSRP（US$1,499）\\n\\n🛡️ 1-Year Limited Warranty* + Expert Technical Support\\n🔧 3-Month Warranty on Consumables (Hotends, Extruder Gears & PEI Plate)\\n🌍 Local Support Teams in US, Germany, France, Italy, UK & the Netherlands\\n\\nPlease Note:\\n*For detailed warranty information, please check the \\\"Warranty & After Sales\\\" section on campaign page.\\n📦 Shipping costs are charged separately after the campaign. Rate information is available on the \\\"Shipping & Taxes\\\" section.",
-      "backers": 114,
+      "backers": 129,
       "limit": 400,
-      "remaining": 286,
+      "remaining": 271,
       "eta": 1803859200,
       "shipping": "unrestricted"
      },
@@ -1768,9 +2097,9 @@
       "price": 11767.0,
       "title": "Super Early Bird | AXILOOP MC8 Pro",
       "desc": "⚡ Get AXILOOP MC8 Pro at US$1,499  -25% Off MSRP（US$1,999）\\n\\n🛡️ 1-Year Limited Warranty* + Expert Technical Support\\n🔧 3-Month Warranty on Consumables (Hotends, Extruder Gears & PEI Plate)\\n🌍 Local Support Teams in US, Germany, France, Italy, UK & the Netherlands\\n\\nPlease Note:\\n*For detailed warranty information, please check the \\\"Warranty & After Sales\\\" section on campaign page.\\n📦 Shipping costs are charged separately after the campaign. Rate information is available on the \\\"Shipping & Taxes\\\" section.",
-      "backers": 163,
+      "backers": 154,
       "limit": 300,
-      "remaining": 137,
+      "remaining": 146,
       "eta": 1803859200,
       "shipping": "unrestricted"
      },
@@ -1779,16 +2108,16 @@
       "price": 12866.0,
       "title": "Super Early Bird | MC8 Pro Bundle",
       "desc": "⚡ Get AXILOOP MC8 Pro Bundle at US$1,639  -31% Off MSRP（US$2,381）\\n\\n🛡️ 1-Year Limited Warranty* + Expert Technical Support\\n🔧 3-Month Warranty on Consumables (Hotends, Extruder Gears & PEI Plate)\\n🌍 Local Support Teams in US, Germany, France, Italy, UK & the Netherlands\\n\\nPlease Note:\\n*For detailed warranty information, please check the \\\"\\\"Warranty & After Sales\\\"\\\" section on campaign page.\\n📦 Shipping costs are charged separately after the campaign. Rate information is available on the \\\"\\\"Shipping & Taxes\\\"\\\" section.",
-      "backers": 75,
+      "backers": 94,
       "limit": 300,
-      "remaining": 225,
+      "remaining": 206,
       "eta": 1803859200,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 18,
-    "tiersDate": "2026-11-13",
-    "tiersCarried": "2026-11-13",
+    "tiersDate": "2026-11-14",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -1802,22 +2131,22 @@
      ],
      [
       4.8,
-      7.29,
-      "然后是一块木头，上面载着"
+      7.32,
+      "然后来了一块木头，上面载着"
      ],
      [
-      7.29,
+      7.32,
       8.8,
       "一个想法的第一个火花。"
      ],
      [
       10.0,
-      12.19,
+      12.08,
       "总感觉就像是一个印刷品"
      ],
      [
-      12.19,
-      14.0,
+      12.08,
+      13.8,
       "缺少正确的颜色。"
      ],
      [
@@ -1827,13 +2156,13 @@
      ],
      [
       18.85,
-      21.12,
-      "颜色、材质、结构，意味着我不"
+      21.47,
+      "颜色、材质、结构，不再意味着什么"
      ],
      [
-      21.12,
-      22.05,
-      "更多妥协。"
+      21.47,
+      22.25,
+      "妥协。"
      ],
      [
       25.37,
@@ -1861,8 +2190,8 @@
       "点击开始。"
      ],
      [
-      45.87,
-      47.87,
+      46.07,
+      47.67,
       "让 MC8 处理剩下的事情。"
      ],
      [
@@ -2012,18 +2341,13 @@
      ],
      [
       133.57,
-      135.07,
-      "而对于下一代来说，"
+      135.87,
+      "对于下一代来说，他们永远不会"
      ],
      [
-      135.07,
-      137.16,
-      "他们永远不会感到受到限制"
-     ],
-     [
-      137.16,
+      135.87,
       138.17,
-      "再次他们的工具。"
+      "不得不再次感受到他们的工具的限制。"
      ],
      [
       139.17,
@@ -2032,25 +2356,197 @@
      ],
      [
       141.17,
-      142.97,
-      "将您的梦想变为现实。"
-     ],
-     [
-      143.37,
       144.77,
-      "全彩。"
+      "让您的梦想以全彩的方式变为现实。"
      ]
     ],
     "vttLang": "zh",
     "story": [
      {
-      "t": "img",
-      "u": "https://www.kickstarter.com/favicon.ico"
+      "t": "p",
+      "x": "*   [**Launch Event**](h:Launch-Event)",
+      "z": "* [**启动事件**](h:启动事件)"
      },
      {
       "t": "p",
-      "x": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
-      "z": "该网站使用安全服务来防范恶意机器人。当网站验证您不是机器人时会显示此页面。"
+      "x": "*   [**Earn Commissions**](h:Earn-Commissions)",
+      "z": "* [**赚取佣金**](h:赚取佣金)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What the Press Is Saying**](h:What-the-Press-Is-Saying)",
+      "z": "* [**媒体在说什么**](h:媒体在说什么)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Check MC8 in Tester's View**](h:Check-MC8-in-Tester-s-View)",
+      "z": "* [**在测试人员视图中检查 MC8**](h:Check-MC8-in-Tester-s-View)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Complete Printing Creation Starts Here**](h:Complete-Printing-Creation-Starts-Here)",
+      "z": "* [**完整的打印创建从这里开始**](h:完整打印创建-开始-这里)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**More Colors. Less Waste.**](h:More-Colors-Less-Waste-)",
+      "z": "* [**更多颜色。减少浪费。**](h:更多颜色-更少浪费-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Built To Keep Printing. Keep Creativity Moving.**](h:Built-To-Keep-Printing-Keep-Creativity-Moving-)",
+      "z": "* [**专为持续打印而设计。让创造力不断前进。**](h:为保持打印而构建，让创造力不断前进-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Precision At Every Layer**](h:Precision-At-Every-Layer)",
+      "z": "* [**每层精度**](h:每层精度)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Your Ideas Are Bigger Than Your Printer**](h:Your-Ideas-Are-Bigger-Than-Your-Printer)",
+      "z": "* [**你的想法比你的打印机更大**](h:你的想法比你的打印机更大)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Designed Around People**](h:Designed-Around-People)",
+      "z": "* [**以人为本**](h:以人为本)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Two Editions. One Powerful Platform.**](h:Two-Editions-One-Powerful-Platform-)",
+      "z": "* [**两个版本。一个强大的平台。**](h:两个版本-一个强大的平台-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Specifications**](h:Specifications)",
+      "z": "* [**规格**](h:规格)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**How to Pledge**](h:How-to-Pledge)",
+      "z": "* [**如何质押**](h:如何质押)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What’s in the Box**](h:What-s-in-the-Box)",
+      "z": "* [**盒子里有什么**](h:盒子里有什么)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Rewards & Add-ons**](h:Rewards-Add-ons)",
+      "z": "* [**奖励和附加组件**](h:奖励附加组件)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Shipping & Taxes**](h:Shipping-Taxes)",
+      "z": "* [**运费和税金**](h:运费税)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Warranty & After Sales**](h:Warranty-After-Sales)",
+      "z": "* [**保修和售后**](h:保修-售后)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Why AXILOOP**](h:Why-AXILOOP-)",
+      "z": "* [**为什么选择 AXILOOP**](h:为什么-AXILOOP-)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Product Design Process**](h:Product-Design-Process)",
+      "z": "* [**产品设计流程**](h:产品设计流程)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [**时间线**](h:时间线)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Connect with AXILOOP**](h:Connect-with-AXILOOP)",
+      "z": "* [**与 AXILOOP 连接**](h:Connect-with-AXILOOP)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/axiloop/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/axiloop/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/axiloop/use-of-ai)",
+      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/axiloop/use-of-ai)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/856/499/85ced7e5b89a0ef86027bdc0fd82e535_original.png?fit=scale-down&origin=ugc&q=100&v=1794392997&width=680&sig=p%2F1ebgoIbaypJNFNfcNum0vYyDbMbPddirKQNbpJzdQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/871/874/df6dc35294b115e67ba8e6cf1c2ad16b_original.png?fit=scale-down&origin=ugc&q=100&v=1794493768&width=680&sig=rmm2BQkEcRnzhocvhr0LV2Gi3JixU7gO%2BjBWEsgjidA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/871/868/46503b625d689e586ec0ac457f9d10f5_original.png?fit=scale-down&origin=ugc&q=100&v=1794493755&width=680&sig=ZbvFfVNMIh9li5g%2BNUfqW8G2k2L0Ur04v6%2FbjBWuX90%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/873/906/cb8d8c62c4588bbc767c06fff7baa8f2_original.png?fit=scale-down&origin=ugc&q=100&v=1794506732&width=680&sig=v6rQEPmWQuAMpeH%2BtmRGLAvzW8q4PJ7l%2BdOed9J6ojg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/674/132/2dd3a27bcf77a7097a7229f3f81412fd_original.png?fit=scale-down&origin=ugc&q=100&v=1793093112&width=680&sig=vUw6F5eUNvwFo9hlgbjqUjC7fmlWPdx4v8QZKrVlLQQ%3D"
+     },
+     {
+      "t": "p",
+      "x": "When we were young, we built whatever we had — cardboard, wood, clay, and imagination. The ideas were always bigger than the tools.",
+      "z": "当我们年轻的时候，我们用我们拥有的一切来建造——纸板、木头、粘土和想象力。想法总是比工具更重要。"
+     },
+     {
+      "t": "p",
+      "x": "Now, it’s time to bring those ideas to life.",
+      "z": "现在，是时候将这些想法变为现实了。"
+     },
+     {
+      "t": "p",
+      "x": "AXILOOP MC8 combines 8 independent tool heads, near-zero waste switching, and a spacious 300×300×300 mm build volume to help creators turn every idea into something complete.",
+      "z": "AXILOOP MC8 结合了 8 个独立工具头、近乎零浪费的切换以及宽敞的 300×300×300 毫米构建体积，可帮助创作者将每个想法变成完整的作品。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/689/892/61da321d93e9f9a486013415ef7bf63d_original.png?fit=scale-down&origin=ugc&q=100&v=1793180049&width=680&sig=k8CQPCf8fPQgFXGohCj70ZoRxKW5qTkC7yKRNgCisXs%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/871/880/1ff7e01e4055e02bcc5d214101be243f_original.png?fit=scale-down&origin=ugc&q=100&v=1794493787&width=680&sig=WRdNElAV6LjrM6thQD9B7w5BsbHGo2ZL%2Bly754AIBSk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/674/128/ae6d373ff7193cf92703e2cbf0cfdaf8_original.png?fit=scale-down&origin=ugc&q=100&v=1793093075&width=680&sig=NTdZ%2FWDP5tdkVCTjSLocaXap1wAKAx7tamI4kZEmrWI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/674/141/e665cf1115a88b7e3a673aa11bb87dbc_original.png?fit=scale-down&origin=ugc&q=100&v=1793093147&width=680&sig=kNBsdb3yH16A41u1gEbblUzcn8SdhUGHL4UrEGc0%2BQE%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/685/871/bc77fe5d2af6d6569d9de5303b679f40_original.gif?fit=scale-down&origin=ugc&q=92&v=1793155064&width=680&sig=E6XFjj%2F%2FuPE9020sRW4jSH%2Ftont6TajDQmkAPS%2F6Gg8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/674/225/957225ccdd08bfa6ee3a9f2135a8c31b_original.png?fit=scale-down&origin=ugc&q=100&v=1793093559&width=680&sig=C%2FpgHUXcBh%2F3mKvKPYFxNDTuFY8%2FOUmo5KH2PlVQn%2BM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/674/652/ddf185e0be38a4a8204cb7ab7ac0866c_original.webp?fit=scale-down&origin=ugc&q=92&v=1793095377&width=680&sig=xzgVYQD1rRX%2Bu2kAZE7ZQSWAQWYu8bkzdV2XmeeesBs%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/674/233/212df14b3f889025d0e102f506a47270_original.png?fit=scale-down&origin=ugc&q=100&v=1793093603&width=680&sig=a60pVTZqsN9mVnF%2BOQuJw4fI9DMLRMd8KrTR5ykcxCY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/674/653/fb7e6ed58a1b502d243353487229ad68_original.png?fit=scale-down&origin=ugc&q=100&v=1793095391&width=680&sig=cUA6y%2F5hxoeZK2ZikpBTSmfJzIqc3jNLPsL%2FR0eXBr0%3D"
      }
     ]
    }
