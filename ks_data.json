@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T14:25:14+07:00",
+  "generatedAt": "2026-11-15T19:31:06+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
   "poolSize": 41,
@@ -18,11 +18,11 @@
     "currency": "GBP",
     "currencySymbol": "£",
     "goal": 10000.0,
-    "pledged": 543633.0,
-    "usdPledged": "727275.03798261",
+    "pledged": 544765.0,
+    "usdPledged": "728789.43343505",
     "goalUsd": 13378.05,
-    "percentFunded": 5436.33,
-    "backers": 2573,
+    "percentFunded": 5447.650000000001,
+    "backers": 2578,
     "deadline": 1796911200,
     "launchedAt": 1794319091,
     "staffPick": true,
@@ -33,17 +33,17 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.8053,
+    "score": 0.8054,
     "coverRemote": "https://i.kickstarter.com/assets/055/724/828/2baa97c39729466969c66182ce3d7d36_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793399442&width=1024&sig=35yvlpK9G3cnq78nLNcgbxrPpJYctPDPCGDDdUhlt5A%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794673106-zCWtpSSBnRwti8hRzVG7NSi9n6nCkIlQ3b3NR%2BF%2Ff70%3D/projects/4454982/video-1467447-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794673106-zCWtpSSBnRwti8hRzVG7NSi9n6nCkIlQ3b3NR%2BF%2Ff70%3D/projects/4454982/video-1467447-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11043989,
       "price": 185.0,
       "title": "Altar II - Reservation",
       "desc": "Exclusive reservation price — $100 off retail ($349).\\n\\nOnly those who placed a $1 deposit prior to the Altar II Kickstarter campaign are eligible.\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
-      "backers": 1728,
+      "backers": 1741,
       "limit": null,
       "remaining": null,
       "eta": 1814400000,
@@ -54,7 +54,7 @@
       "price": 207.0,
       "title": "Altar II - Early Bird",
       "desc": "First 48 hours only — $70 off retail ($349).\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
-      "backers": 743,
+      "backers": 738,
       "limit": null,
       "remaining": null,
       "eta": 1814400000,
@@ -65,7 +65,7 @@
       "price": 222.0,
       "title": "Altar II - Kickstarter Special",
       "desc": "Exclusive Kickstarter price — $50 off retail ($349).\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
-      "backers": 66,
+      "backers": 91,
       "limit": null,
       "remaining": null,
       "eta": 1814400000,
@@ -73,8 +73,8 @@
      }
     ],
     "rewardsTotal": 10,
-    "tiersDate": "2026-11-14",
-    "tiersCarried": "2026-11-14",
+    "tiersDate": "2026-11-15",
+    "tiersCarried": "",
     "cues": [
      [
       2.58,
@@ -148,13 +148,13 @@
      ],
      [
       42.5,
-      44.88,
-      "晚上工作时最好避免"
+      44.56,
+      "晚上工作时，最好"
      ],
      [
-      44.88,
+      44.56,
       45.5,
-      "蓝光。"
+      "避免蓝光。"
      ],
      [
       46.5,
@@ -198,26 +198,21 @@
      ],
      [
       64.94,
-      66.76,
-      "我们打造了一款精美的原生 Mac"
-     ],
-     [
-      66.76,
       66.94,
-      "应用程序。"
+      "我们制作了一个漂亮的原生 Mac 应用程序。"
      ],
      [
       66.94,
-      70.61,
-      "才能成就如此令人震惊的事件概况"
+      70.66,
+      "为了实现如此令人震惊的事件概况，"
      ],
      [
-      70.61,
-      73.36,
+      70.66,
+      73.39,
       "我们必须重新思考内部"
      ],
      [
-      73.36,
+      73.39,
       75.84,
       "键盘的架构。"
      ],
@@ -238,36 +233,36 @@
      ],
      [
       82.84,
-      84.78,
+      84.76,
       "我们通过以下方式最大限度地利用空间"
      ],
      [
-      84.78,
-      87.06,
-      "M 表盘混合下的包装组件"
+      84.76,
+      87.07,
+      "M表盘长度下的包装组件"
      ],
      [
-      87.06,
+      87.07,
       87.84,
       "和空格键。"
      ],
      [
       88.84,
-      91.26,
+      91.31,
       "为了完善关键反馈和声学效果，我们"
      ],
      [
-      91.26,
-      93.62,
+      91.31,
+      93.65,
       "创造双层惯性阻尼器"
      ],
      [
-      93.62,
-      96.23,
+      93.65,
+      96.25,
       "系统，暂停打字平台"
      ],
      [
-      96.23,
+      96.25,
       98.22,
       "总声学和振动"
      ],
@@ -284,7 +279,7 @@
      [
       104.45,
       110.67,
-      "4.75 毫米支架，在 Alter 上打字的神奇效果"
+      "4.75 毫米支架，在 Alter 上打字的神奇体验"
      ],
      [
       110.67,
@@ -398,7 +393,7 @@
      {
       "t": "p",
       "x": "A two-layer Inertial Damper™ system isolates the typing platform and gives Altar II a unique typing sound and feel.",
-      "z": "两层 Inertial Damper™ 系统隔离打字平台，并赋予 Altar II 独特的打字声音和感觉。"
+      "z": "两层 Inertial Damper™ 系统隔离打字平台，并为 Altar II 带来独特的打字声音和感觉。"
      },
      {
       "t": "p",
@@ -494,11 +489,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 819791.0,
-    "usdPledged": "819791.0",
+    "pledged": 824177.0,
+    "usdPledged": "824177.0",
     "goalUsd": 10000.0,
-    "percentFunded": 8197.91,
-    "backers": 4773,
+    "percentFunded": 8241.77,
+    "backers": 4796,
     "deadline": 1796975940,
     "launchedAt": 1794326477,
     "staffPick": true,
@@ -508,17 +503,17 @@
     "kwHits": [
      "sensor"
     ],
-    "score": 0.7395,
+    "score": 0.7397,
     "coverRemote": "https://i.kickstarter.com/assets/055/653/568/3a527046aa644a175104f9b6e9e42697_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1792971612&width=1024&sig=UCsoZn02Lcphj99qR8zDIRLem341EgxO03UZlOQ%2BVAI%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794677606-PU7Ugdutbt2sV3jz0o5ZULuFjywxYdDHCx0CDrv1pZc%3D/projects/5368499/video-1470881-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794677606-PU7Ugdutbt2sV3jz0o5ZULuFjywxYdDHCx0CDrv1pZc%3D/projects/5368499/video-1470881-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11471912,
       "price": 149.0,
       "title": "VIP Reserved Tier",
       "desc": "Are you one of the 15,000+ early supporters who put down a deposit before our Kickstarter launch? Thank you! Your early belief in HIYD helped make this campaign possible. Besides getting HIYD at the cheapest price ever - as a token of our appreciation, we’re including an additional Soft Band with your order as a special gift from us to you. \\n\\nThe sensor is fully waterproof and 100% magnet-free for maximum comfort and watch safety. No monthly subscriptions or hidden paywalls. Completely risk-free with our 30-day fit guarantee.Thank you again for being with us from day one!",
-      "backers": 3949,
+      "backers": 4055,
       "limit": null,
       "remaining": null,
       "eta": 1809129600,
@@ -548,8 +543,8 @@
      }
     ],
     "rewardsTotal": 21,
-    "tiersDate": "2026-11-14",
-    "tiersCarried": "2026-11-14",
+    "tiersDate": "2026-11-15",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -568,11 +563,11 @@
      ],
      [
       6.94,
-      9.98,
+      9.94,
       "握着你祖母的手。"
      ],
      [
-      9.98,
+      9.94,
       12.06,
       "几十年来，这对他很有帮助。"
      ],
@@ -594,7 +589,7 @@
      [
       18.42,
       20.58,
-      "从他最糟糕的日子到他最好的日子，"
+      "从他最糟糕的日子到他最好的日子"
      ],
      [
       20.58,
@@ -708,46 +703,46 @@
      ],
      [
       71.18,
-      72.74,
+      72.78,
       "我离开去建造这个。"
      ],
      [
-      72.74,
+      72.78,
       73.9,
       "这是隐藏。"
      ],
      [
       73.9,
-      76.62,
+      76.68,
       "这是一款超薄传感器套件，具有"
      ],
      [
-      76.62,
+      76.68,
       77.46,
-      "光学LED，"
+      "光学LED"
      ],
      [
       77.46,
-      79.72,
+      79.76,
       "以及加速度计和温度"
      ],
      [
-      79.72,
-      80.14,
+      79.76,
+      80.18,
       "传感器。"
      ],
      [
-      80.14,
-      82.75,
+      80.18,
+      82.79,
       "它利用微吸力吸附在"
      ],
      [
-      82.75,
-      83.98,
+      82.79,
+      84.02,
       "任何手表的背面，"
      ],
      [
-      83.98,
+      84.02,
       85.22,
       "就这样。"
      ],
@@ -778,11 +773,11 @@
      ],
      [
       94.66,
-      96.74,
+      96.78,
       "只要你有一个平坦的底盖，"
      ],
      [
-      96.74,
+      96.78,
       99.7,
       "它就像这样附上一点"
      ],
@@ -849,7 +844,7 @@
      [
       117.14,
       119.63,
-      "传家宝、礼物、冲动"
+      "空气若隐若现，礼物，冲动"
      ],
      [
       119.63,
@@ -874,7 +869,7 @@
      [
       124.46,
       127.5,
-      "你的手表还是你的手表，除了现在，"
+      "你的手表仍然是你的手表，除了现在，"
      ],
      [
       127.5,
@@ -919,7 +914,7 @@
      [
       141.18,
       143.26,
-      "现在我们准备推出我们的改进版"
+      "现在我们准备推出我们的精致版"
      ],
      [
       143.26,
@@ -933,52 +928,52 @@
      ],
      [
       146.06,
-      148.23,
+      148.19,
       "我们的制造合作伙伴已经"
      ],
      [
-      148.23,
-      148.74,
+      148.19,
+      148.7,
       "排队。"
      ],
      [
-      148.74,
+      148.7,
       150.14,
       "我们的时间表公开。"
      ],
      [
       150.14,
-      151.74,
+      151.7,
       "你每周都会收到我的来信"
      ],
      [
-      151.74,
-      153.58,
+      151.7,
+      153.54,
       "直到高在你手中。"
      ],
      [
-      153.58,
-      155.35,
+      153.54,
+      155.31,
       "我们并不是要求你相信一个"
      ],
      [
-      155.35,
-      155.74,
+      155.31,
+      155.7,
       "产品。"
      ],
      [
-      155.74,
-      158.2,
+      155.7,
+      158.16,
       "我们要求您穿您喜欢的那一件"
      ],
      [
-      158.2,
-      158.98,
+      158.16,
+      158.94,
       "已经爱了。"
      ],
      [
-      158.98,
-      160.66,
+      158.94,
+      160.82,
       "感谢您参与其中。"
      ]
     ],
@@ -1184,11 +1179,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 2679393.0,
-    "usdPledged": "341425.51135092",
+    "pledged": 2699007.0,
+    "usdPledged": "343924.85354508",
     "goalUsd": 1274.26,
-    "percentFunded": 26793.93,
-    "backers": 162,
+    "percentFunded": 26990.069999999996,
+    "backers": 163,
     "deadline": 1795532381,
     "launchedAt": 1792504781,
     "staffPick": true,
@@ -1198,19 +1193,19 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7388,
+    "score": 0.7391,
     "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1794673138-6%2B%2FAMlxYwfcT9%2FPZVZBgoasgbF9RAQsms5NArox6iO8%3D/projects/5343527/video-1466952-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1794673138-6%2B%2FAMlxYwfcT9%2FPZVZBgoasgbF9RAQsms5NArox6iO8%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11305322,
       "price": 6267.0,
       "title": "Super Early Bird | Pro Version",
       "desc": "Lucy AI Studio Pro Version\\n\\n🔥 Super Early Bird — US$799 | Save $100, 11% Off MSRP $899\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 62,
+      "backers": 80,
       "limit": 500,
-      "remaining": 438,
+      "remaining": 420,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -1230,16 +1225,16 @@
       "price": 29815.0,
       "title": "Super Early Bird | Ultra Version",
       "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 InfiMaker Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 35,
+      "backers": 38,
       "limit": 500,
-      "remaining": 465,
+      "remaining": 462,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 12,
-    "tiersDate": "2026-11-14",
-    "tiersCarried": "2026-11-14",
+    "tiersDate": "2026-11-15",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
@@ -1254,8 +1249,8 @@
      },
      {
       "t": "p",
-      "x": "10 days to go",
-      "z": "还剩 10 天"
+      "x": "9 days to go",
+      "z": "还剩 9 天"
      },
      {
       "t": "p",
@@ -1283,8 +1278,8 @@
      },
      {
       "t": "p",
-      "x": "10 days to go",
-      "z": "还剩 10 天"
+      "x": "9 days to go",
+      "z": "还剩 9 天"
      },
      {
       "t": "p",
@@ -1309,7 +1304,7 @@
      {
       "t": "p",
       "x": "*   [**The Reason LUCY Exists**](h:The-Reason-LUCY-Exists)",
-      "z": "* [**露西存在的原因**](h:露西存在的原因)"
+      "z": "* [**LUCY 存在的原因**](h:LUCY 存在的原因)"
      },
      {
       "t": "p",
@@ -1443,11 +1438,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 397430.0,
-    "usdPledged": "397430.0",
+    "pledged": 400397.0,
+    "usdPledged": "400397.0",
     "goalUsd": 20000.0,
-    "percentFunded": 1987.15,
-    "backers": 2523,
+    "percentFunded": 2001.9850000000001,
+    "backers": 2536,
     "deadline": 1797786338,
     "launchedAt": 1794330338,
     "staffPick": true,
@@ -1459,7 +1454,7 @@
      "ai",
      "voice"
     ],
-    "score": 0.7091,
+    "score": 0.7094,
     "coverRemote": "https://i.kickstarter.com/assets/055/869/797/bfcad38118e9c711060c5806e2f9c558_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794479140&width=1024&sig=UyS8SPLXyzmBY%2F9PRysXGpHgxxhcWCnbmpytFMtf8j0%3D",
     "videoMp4": "https://v2.kickstarter.com/1794684219-xXyXV5Ux1Zavfv4d9jvMpRjSPsgIaZdAZfrSK8JdD%2Fs%3D/projects/5413240/video-1476329-h264_high.mp4",
     "videoHls": "https://v2.kickstarter.com/1794684219-xXyXV5Ux1Zavfv4d9jvMpRjSPsgIaZdAZfrSK8JdD%2Fs%3D/projects/5413240/video-1476329-hls_playlist.m3u8",
@@ -1469,9 +1464,9 @@
       "price": 99.0,
       "title": "Founding Member: Ring + 3 months",
       "desc": "Save 69% | Founding Member · Waitlist only, first 24 hours → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 1308,
+      "backers": 1309,
       "limit": 1350,
-      "remaining": 42,
+      "remaining": 41,
       "eta": 1798761600,
       "shipping": "unrestricted"
      },
@@ -1480,9 +1475,9 @@
       "price": 159.0,
       "title": "Early Bird: Ring + 3 months",
       "desc": "Save 51% | Early Bird → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 781,
+      "backers": 789,
       "limit": 800,
-      "remaining": 19,
+      "remaining": 11,
       "eta": 1801440000,
       "shipping": "unrestricted"
      },
@@ -1491,9 +1486,9 @@
       "price": 249.0,
       "title": "Early Bird: Ring + HumanPods + 6 months",
       "desc": "Save 54% | Early Bird → One Interface ring with its charging case, HumanPods, and 6 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 187,
+      "backers": 188,
       "limit": 200,
-      "remaining": 13,
+      "remaining": 12,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
@@ -1504,106 +1499,466 @@
     "cues": [
      [
       0.0,
-      2.51,
-      "And Natura, our mission is to get you off"
+      2.68,
+      "Natura，我们的使命是让你摆脱困境"
      ],
      [
-      2.51,
-      3.0,
-      "screens."
+      2.68,
+      3.2,
+      "屏幕。"
      ],
      [
-      3.0,
-      6.05,
-      "We want to give you your time back instead"
+      3.2,
+      6.1,
+      "我们想把时间还给您"
      ],
      [
-      6.05,
+      6.1,
       7.0,
-      "of taking it."
+      "接受它。"
      ],
      [
       7.0,
       9.52,
-      "For the past two years, we've been working"
+      "过去两年，我们一直在努力"
      ],
      [
       9.52,
       12.04,
-      "on an entirely new way of interacting with"
+      "以一种全新的方式与人互动"
      ],
      [
       12.04,
       13.0,
-      "your technology."
+      "你的技术。"
      ],
      [
       13.0,
       15.73,
-      "And today, I am so proud to share it with"
+      "今天，我很自豪能与大家分享"
      ],
      [
       15.73,
       16.0,
-      "you."
+      "你。"
      ],
      [
       16.0,
       20.54,
-      "This is Interface. It's a ring. You press"
+      "这是界面。这是一枚戒指。你按"
      ],
      [
       20.54,
       22.31,
-      "it and you talk."
+      "它和你说话。"
      ],
      [
       22.31,
-      24.99,
-      "It does three things. It remembers for"
+      25.02,
+      "它做了三件事。它记住的是"
      ],
      [
-      24.99,
-      27.75,
-      "you, it works for you, and it looks out"
+      25.02,
+      28.02,
+      "你，它为你工作并且照顾你"
      ],
      [
-      27.75,
+      28.02,
       28.31,
-      "for you."
+      "你。"
      ],
      [
       28.31,
-      30.48,
-      "Catch the flitting thoughts, ideas, and"
+      30.55,
+      "捕捉一闪即逝的想法、想法和"
      ],
      [
-      30.48,
+      30.55,
       32.31,
-      "reminders you'd otherwise forget."
+      "你总是会忘记的提醒。"
      ],
      [
       32.31,
       35.31,
-      "Remind me to call Lily after lunch."
+      "提醒我午饭后给莉莉打电话。"
      ],
      [
       35.31,
-      36.31,
-      "And with a double press..."
+      37.57,
+      "按两下，它就会转录"
+     ],
+     [
+      37.57,
+      39.31,
+      "会议长达两个小时。"
+     ],
+     [
+      39.31,
+      41.31,
+      "上次会议我们决定了什么？"
+     ],
+     [
+      41.31,
+      43.31,
+      "记住，这只是一个开始。"
+     ],
+     [
+      43.31,
+      45.44,
+      "它适合你。按住按钮并"
+     ],
+     [
+      45.44,
+      47.51,
+      "说话，你的话就会出现在任何地方"
+     ],
+     [
+      47.51,
+      48.31,
+      "你在潜水。"
+     ],
+     [
+      48.31,
+      51.31,
+      "进行最终检查然后部署。"
+     ],
+     [
+      51.31,
+      52.31,
+      "让我知道你的想法。"
+     ],
+     [
+      52.31,
+      54.6,
+      "但它更进一步。界面控制"
+     ],
+     [
+      54.6,
+      57.07,
+      "真正可以使用您的应用程序的代理"
+     ],
+     [
+      57.07,
+      57.31,
+      "你。"
+     ],
+     [
+      57.31,
+      60.31,
+      "喜欢云、聊天 GPT、静音、本能和"
+     ],
+     [
+      60.31,
+      61.31,
+      "餐饮性质。"
+     ],
+     [
+      61.31,
+      63.31,
+      "所以，你只要说你需要什么就可以了。"
+     ],
+     [
+      63.31,
+      65.31,
+      "从泰国餐厅订购我们平常的食物。"
+     ],
+     [
+      65.31,
+      68.31,
+      "预订晚上 7 点普拉提。"
+     ],
+     [
+      68.31,
+      69.31,
+      "灯关了。"
+     ],
+     [
+      69.31,
+      72.82,
+      "你的手机，你的电脑，你的家，它"
+     ],
+     [
+      72.82,
+      74.31,
+      "把事情做好。"
+     ],
+     [
+      74.31,
+      76.31,
+      "当你留在现场时。"
+     ],
+     [
+      76.31,
+      79.27,
+      "接口还注意什么"
+     ],
+     [
+      79.27,
+      80.31,
+      "最重要。"
+     ],
+     [
+      80.31,
+      81.31,
+      "你的健康。"
+     ],
+     [
+      81.31,
+      84.69,
+      "界面跟踪您的心脏、您的睡眠、"
+     ],
+     [
+      84.69,
+      87.91,
+      "你的压力，甚至你的生理年龄。"
+     ],
+     [
+      87.91,
+      89.91,
+      "刚刚吃了四片鳄梨吐司。"
+     ],
+     [
+      89.91,
+      90.91,
+      "卷发。"
+     ],
+     [
+      90.91,
+      92.91,
+      "10 次，30 磅。"
+     ],
+     [
+      92.91,
+      94.91,
+      "今天低于 400 卡路里。"
+     ],
+     [
+      94.91,
+      96.91,
+      "到六月你就会实现你的目标。"
+     ],
+     [
+      96.91,
+      99.91,
+      "恢复率为 30%。今天放轻松。"
+     ],
+     [
+      99.91,
+      101.97,
+      "把它放在一起你就会看到是什么"
+     ],
+     [
+      101.97,
+      102.91,
+      "实际上在工作。"
+     ],
+     [
+      102.91,
+      104.93,
+      "当其他卡车司机观看时，界面"
+     ],
+     [
+      104.93,
+      105.91,
+      "照顾你。"
+     ],
+     [
+      105.91,
+      108.48,
+      "所有这一切都生活在坚固的不锈钢中"
+     ],
+     [
+      108.48,
+      108.91,
+      "钢。"
+     ],
+     [
+      108.91,
+      111.48,
+      "感觉像珠宝，但实际上是这样的"
+     ],
+     [
+      111.48,
+      111.91,
+      "一个工具。"
+     ],
+     [
+      111.91,
+      113.91,
+      "麦克风可以捕捉每一个字。"
+     ],
+     [
+      113.91,
+      116.36,
+      "来自 Apple 信赖的制造商的传感器"
+     ],
+     [
+      116.36,
+      116.91,
+      "和吴普。"
+     ],
+     [
+      116.91,
+      118.91,
+      "完成后，一个微型电机会振动。"
+     ],
+     [
+      118.91,
+      121.64,
+      "防水且可持续使用一周"
+     ],
+     [
+      121.64,
+      122.91,
+      "一次充电。"
+     ],
+     [
+      122.91,
+      124.91,
+      "界面是围绕隐私构建的。"
+     ],
+     [
+      124.91,
+      126.91,
+      "只有当您按下它时它才会听。"
+     ],
+     [
+      126.91,
+      128.91,
+      "它只保留你要求的内容。"
+     ],
+     [
+      128.91,
+      130.93,
+      "提醒我预订丹的生日晚餐"
+     ],
+     [
+      130.93,
+      131.91,
+      "今天星期六。"
+     ],
+     [
+      131.91,
+      134.02,
+      "你可以听到如此低的耳语，甚至听不到"
+     ],
+     [
+      134.02,
+      135.91,
+      "您旁边的人可以听到。"
+     ],
+     [
+      135.91,
+      137.91,
+      "这是界面。"
+     ],
+     [
+      137.91,
+      140.46,
+      "您的想法、您的会议、您的代理人和"
+     ],
+     [
+      140.46,
+      141.91,
+      "一环呵护您的健康。"
+     ],
+     [
+      141.91,
+      143.91,
+      "现已开放预订。"
+     ],
+     [
+      143.91,
+      146.24,
+      "而且它的成本永远不会像它那么低"
+     ],
+     [
+      146.24,
+      146.91,
+      "今天确实如此。"
+     ],
+     [
+      146.91,
+      148.91,
+      "我们迫不及待地想让您尝试一下。"
      ]
     ],
-    "vttLang": "en",
+    "vttLang": "zh",
     "story": [
      {
       "t": "p",
+      "x": "*   [**No Subscription needed**](h:No-Subscription-needed)",
+      "z": "* [**无需订阅**](h:无需订阅)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**How it works**](h:How-it-works)",
+      "z": "* [**工作原理**](h:工作原理)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Health and sleep**](h:Health-and-sleep)",
+      "z": "* [**健康与睡眠**](h:健康与睡眠)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Dictation and AI agents**](h:Dictation-and-AI-agents)",
+      "z": "* [**听写和人工智能代理**](h:听写和人工智能代理)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Notes and meetings**](h:Notes-and-meetings)",
+      "z": "* [**笔记和会议**](h:笔记和会议)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**HumanPods**](h:HumanPods)",
+      "z": "* [**HumanPods**](h:HumanPods)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Rewards**](h:Rewards)",
+      "z": "* [**奖励**](h:奖励)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The ring**](h:The-ring)",
+      "z": "* [**戒指**](h:戒指)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Privacy and NatureOS**](h:Privacy-and-NatureOS)",
+      "z": "* [**隐私和 NatureOS**](h:隐私和 NatureOS)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Tech specs**](h:Tech-specs)",
+      "z": "* [**技术规格**](h:技术规格)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [**时间线**](h:时间线)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Everything in one ring**](h:Everything-in-one-ring)",
+      "z": "* [**一切都在一个环中**](h:一切都在一个环中)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The team**](h:The-team)",
+      "z": "* [**团队**](h:团队)"
+     },
+     {
+      "t": "p",
       "x": "*   [**Risks**](https://www.kickstarter.com/projects/rollingsquare/risks-and-challenges)",
-      "z": "* [**Risks**](https://www.kickstarter.com/projects/rollingsquare/risks-and-challenges)"
+      "z": "* [**风险**](https://www.kickstarter.com/projects/rollingsquare/risks-and-challenges)"
      },
      {
       "t": "p",
       "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/rollingsquare/use-of-ai)",
-      "z": "* [**Use of AI**](https://www.kickstarter.com/projects/rollingsquare/use-of-ai)"
+      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/rollingsquare/use-of-ai)"
      },
      {
       "t": "img",
@@ -1620,7 +1975,7 @@
      {
       "t": "p",
       "x": "Interface is a ring with one button: press it, talk, and your words become a note, a message or a request to your AI agents, without taking out your phone. It works with NatureOS on iPhone and Android, and with your Mac or Windows computer.",
-      "z": "Interface is a ring with one button: press it, talk, and your words become a note, a message or a request to your AI agents, without taking out your phone. It works with NatureOS on iPhone and Android, and with your Mac or Windows computer."
+      "z": "界面是一个带有一个按钮的戒指：按下它，说话，你的话语就会变成一条笔记、一条消息或对你的人工智能代理的请求，而无需拿出你的手机。它可与 iPhone 和 Android 上的 NatureOS 以及 Mac 或 Windows 计算机配合使用。"
      },
      {
       "t": "img",
@@ -1633,12 +1988,12 @@
      {
       "t": "p",
       "x": "Without a Membership, Interface tracks your health and records your notes as audio. Every recording is sent automatically, as an audio file, to the AI you already use, through a webhook.",
-      "z": "Without a Membership, Interface tracks your health and records your notes as audio. Every recording is sent automatically, as an audio file, to the AI you already use, through a webhook."
+      "z": "如果没有会员资格，Interface 会跟踪您的健康状况并将您的笔记记录为音频。每个录音都会通过 Webhook 以音频文件的形式自动发送到您已经使用的 AI。"
      },
      {
       "t": "p",
       "x": "Membership ($9/month) adds our built-in AI: fast and accurate transcripts in 90+ languages, meeting recaps, dictation into any app, insights on your health, and a ready-to-use infrastructure for connecting multiple AI agents to your Interface. 3 to 6 months are included with your reward. If you stop, your ring keeps working with your own AI via webhook, and everything you recorded and transcribed stays yours.",
-      "z": "Membership ($9/month) adds our built-in AI: fast and accurate transcripts in 90+ languages, meeting recaps, dictation into any app, insights on your health, and a ready-to-use infrastructure for connecting multiple AI agents to your Interface. 3 to 6 months are included with your reward. If you stop, your ring keeps working with your own AI via webhook, and everything you recorded and transcribed stays yours."
+      "z": "会员资格（9 美元/月）增加了我们的内置人工智能：90 多种语言的快速准确的文字记录、会议回顾、对任何应用程序的听写、对您健康状况的见解以及用于将多个人工智能代理连接到您的界面的即用型基础设施。您的奖励包含 3 至 6 个月。如果您停止，您的戒指将继续通过 webhook 与您自己的 AI 配合工作，并且您记录和转录的所有内容都属于您。"
      },
      {
       "t": "img",
@@ -1651,7 +2006,7 @@
      {
       "t": "p",
       "x": "Whisper in a waiting room, or speak up at a concert. When it's very quiet or very loud, bring the ring close to your lips. The rest of the time, just talk with your hand wherever it is.",
-      "z": "Whisper in a waiting room, or speak up at a concert. When it's very quiet or very loud, bring the ring close to your lips. The rest of the time, just talk with your hand wherever it is."
+      "z": "在候诊室里窃窃私语，或者在音乐会上发言。当环境非常安静或非常吵闹时，将戒指靠近嘴唇。其余时间，无论手在哪里，都可以用手说话。"
      },
      {
       "t": "img",
@@ -1684,77 +2039,37 @@
      {
       "t": "p",
       "x": "Interface reads your heart rate, HRV, blood oxygen, sleep, skin temperature and activity, day and night. Log what you eat, your workouts, your supplements and how you feel, and your AI pairs it with your biometrics to give you insights made for you.",
-      "z": "Interface reads your heart rate, HRV, blood oxygen, sleep, skin temperature and activity, day and night. Log what you eat, your workouts, your supplements and how you feel, and your AI pairs it with your biometrics to give you insights made for you."
+      "z": "界面可读取您白天和晚上的心率、HRV、血氧、睡眠、皮肤温度和活动。记录您的饮食、锻炼、补充品以及您的感受，您的人工智能将其与您的生物识别数据配对，为您提供量身定制的见解。"
      },
      {
       "t": "p",
       "x": "Your agents use your apps for you. Ask, and the agent you chose does the work. Anything that matters waits for your approval, and in NatureOS you choose which apps each agent can use.",
-      "z": "Your agents use your apps for you. Ask, and the agent you chose does the work. Anything that matters waits for your approval, and in NatureOS you choose which apps each agent can use."
+      "z": "您的代理为您使用您的应用程序。询问后，您选择的代理就会帮您完成这项工作。任何重要的事情都等待您的批准，在 NatureOS 中您可以选择每个代理可以使用哪些应用程序。"
      },
      {
       "t": "p",
       "x": "Catch a thought before it's gone. Dictate an idea, a reminder or a name, and find it later in NatureOS, or let your agents organize it for you.",
-      "z": "Catch a thought before it's gone. Dictate an idea, a reminder or a name, and find it later in NatureOS, or let your agents organize it for you."
+      "z": "在一个想法消失之前抓住它。口述一个想法、一个提醒或一个名称，然后在 NatureOS 中找到它，或者让您的代理为您组织它。"
      },
      {
       "t": "p",
       "x": "Record a meeting and get the full transcript, who said what, and a recap with decisions and next steps. Later, just ask what you decided. The light on the ring shows when it's recording.",
-      "z": "Record a meeting and get the full transcript, who said what, and a recap with decisions and next steps. Later, just ask what you decided. The light on the ring shows when it's recording."
+      "z": "记录会议并获取完整的记录、谁说了什么，以及决策和后续步骤的回顾。稍后，问问你的决定。录音时，环上的灯会显示。"
      },
      {
       "t": "p",
       "x": "Talk to your agents through HumanPods while your phone stays in your pocket. Ask a question, start a task or hear an update. With Interface, press the ring and ask, and hear the reply in your HumanPods.",
-      "z": "Talk to your agents through HumanPods while your phone stays in your pocket. Ask a question, start a task or hear an update. With Interface, press the ring and ask, and hear the reply in your HumanPods."
+      "z": "当您的手机放在口袋里时，即可通过 HumanPods 与您的客服人员交谈。提出问题、开始任务或听取更新。通过 Interface，按响铃并询问，然后在 HumanPods 中听到答复。"
      },
      {
       "t": "p",
       "x": "All of this lives in one ring of stainless steel, brushed, with polished edges, made to be worn every day.",
-      "z": "All of this lives in one ring of stainless steel, brushed, with polished edges, made to be worn every day."
+      "z": "所有这些都集中在一枚不锈钢戒指上，经过拉丝处理，边缘抛光，适合每天佩戴。"
      },
      {
       "t": "p",
       "x": "Worn on your index finger, with the button facing your thumb. Waterproof.",
-      "z": "Worn on your index finger, with the button facing your thumb. Waterproof."
-     },
-     {
-      "t": "p",
-      "x": "Interface only records while you press the button, and a light shows when it does. Nothing is recorded without your approval.",
-      "z": "Interface only records while you press the button, and a light shows when it does. Nothing is recorded without your approval."
-     },
-     {
-      "t": "p",
-      "x": "NatureOS is where your agents live: tasks, chats and notes in one place, and you decide what each agent can reach.",
-      "z": "NatureOS is where your agents live: tasks, chats and notes in one place, and you decide what each agent can reach."
-     },
-     {
-      "t": "p",
-      "x": "Rings ship in February 2027.",
-      "z": "Rings ship in February 2027."
-     },
-     {
-      "t": "p",
-      "x": "We're Natura, from the creators of Rolling Square, based in Lugano, Switzerland. Across 20 crowdfunding campaigns, more than 169,000 backers have supported our products, rated 4.4 on Trustpilot.",
-      "z": "We're Natura, from the creators of Rolling Square, based in Lugano, Switzerland. Across 20 crowdfunding campaigns, more than 169,000 backers have supported our products, rated 4.4 on Trustpilot."
-     },
-     {
-      "t": "p",
-      "x": "Rolling Square has run crowdfunding campaigns for years, and Interface is our most complex product yet: a microphone, sensors, a battery and a vibration motor inside a stainless steel ring. Our H54 prototypes have passed battery, charging, Bluetooth and electrical-safety tests. Water-resistance, drop and heat tests are next, and health tracking and voice capture in noisy places are still being validated. We'll confirm each one in a backer update before shipping, and we won't ship claims we can't stand behind. Agent features depend on third-party AI services that can change. If an integration changes, we'll tell you. If anything changes on timing, you'll hear it from us first, with the reason and the new date.",
-      "z": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
-     },
-     {
-      "t": "p",
-      "x": "We want backers to know exactly what’s real. Real: the Interface ring, every product photo of it, our working prototypes, the technical specs and test results, and all the demo videos showing the ring and the app in use. AI-assisted: some of the scenes that show everyday moments, like someone on a run, in the kitchen or at their desk, were generated or expanded with AI, built on footage of our actual ring on our own hands.",
-      "z": "We want backers to know exactly what’s real. Real: the Interface ring, every product photo of it, our working prototypes, the technical specs and test results, and all the demo videos showing the ring and the app in use. AI-assisted: some of the scenes that show everyday moments, like someone on a run, in the kitchen or at their desk, were generated or expanded with AI, built on footage of our actual ring on our own hands."
-     },
-     {
-      "t": "p",
-      "x": "Yes. We are the owners of everything that went in. Each AI-assisted image or video was built from our own photos and footage of the Interface ring, worn on our own hands, so there was no outside work whose consent we needed. We never fed the tools anyone else’s photography, artwork or video, and we never asked them to get inspiration from a particular artist or brand.",
-      "z": "Yes. We are the owners of everything that went in. Each AI-assisted image or video was built from our own photos and footage of the Interface ring, worn on our own hands, so there was no outside work whose consent we needed. We never fed the tools anyone else’s photography, artwork or video, and we never asked them to get inspiration from a particular artist or brand."
-     },
-     {
-      "t": "p",
-      "x": "AI is at the heart of how Interface works. Press the button, talk, let go: your voice travels to the NatureOS app on your iPhone, where AI models turn it into a note, a reminder, a message, a meeting recap, or a request for one of your AI agents, such as Claude Code, Codex and the many others you can connect. The same AI explains your health data from the ring’s sensors in plain words. Interface only records when you press it, holding the button to talk or double-clicking to record a meeting, and a light shows whenever it’s recording.",
-      "z": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+      "z": "戴在食指上，按钮面向拇指。防水的。"
      }
     ]
    },
@@ -1770,11 +2085,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 400000.0,
-    "pledged": 17744049.0,
-    "usdPledged": "2263359.02704155",
+    "pledged": 17799207.0,
+    "usdPledged": "2270394.75813165",
     "goalUsd": 51022.38,
-    "percentFunded": 4436.012250000001,
-    "backers": 3042,
+    "percentFunded": 4449.8017500000005,
+    "backers": 3049,
     "deadline": 1796914306,
     "launchedAt": 1794322306,
     "staffPick": false,
@@ -1785,7 +2100,7 @@
      "smart",
      "3d print"
     ],
-    "score": 0.6014,
+    "score": 0.6015,
     "coverRemote": "https://i.kickstarter.com/assets/055/890/158/5d2d755cd04abafb6dc7567b41c6d703_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794639358&width=1024&sig=5XDehCsxfE2Y283qGxIVL6sUr3RiK7HImpvgriL3xc0%3D",
     "videoMp4": "https://v2.kickstarter.com/1794722895-ZpIjxVL1sEf0K3eK%2FPlA3p%2FPAdKLC9y1K2I3hNxpH8g%3D/projects/5277779/video-1475460-h264_high.mp4",
     "videoHls": "https://v2.kickstarter.com/1794722895-ZpIjxVL1sEf0K3eK%2FPlA3p%2FPAdKLC9y1K2I3hNxpH8g%3D/projects/5277779/video-1475460-hls_playlist.m3u8",
@@ -1806,9 +2121,9 @@
       "price": 5010.0,
       "title": "Early Bird | InfiMech MX Pro ×1",
       "desc": "What’s Included: \\n✅ InfiMech MX Pro ×1 (8 Tools Included)\\n✅ 1-Year Warranty (2 Years within EU, CH, NO, IS)\\n💰 HK$5010 ≈ US$639\\n(Note: Charged in HKD at checkout)",
-      "backers": 1000,
+      "backers": 998,
       "limit": 1000,
-      "remaining": 0,
+      "remaining": 2,
       "eta": 1798761600,
       "shipping": "unrestricted"
      },
@@ -1817,9 +2132,9 @@
       "price": 5010.0,
       "title": "Early Bird (Tier 2) | InfiMech MX Pro ×1",
       "desc": "What's Included:\\n✅ InfiMech MX Pro ×1 (8 Tools Included)\\n✅ 1-Year Warranty (2 Years within EU, CH, NO, IS)\\n💰 HK$5010 ≈ US$639\\n(Note: Charged in HKD at checkout)",
-      "backers": 464,
+      "backers": 472,
       "limit": 500,
-      "remaining": 36,
+      "remaining": 28,
       "eta": 1798761600,
       "shipping": "unrestricted"
      }
@@ -1845,12 +2160,12 @@
      {
       "t": "p",
       "x": "VIP Cashback Rules: Please pay the standard pledge amount upfront at checkout. The $50 VIP discount will be refunded to your original payment account after your printer is shipped.",
-      "z": "VIP Cashback Rules: Please pay the standard pledge amount upfront at checkout. The $50 VIP discount will be refunded to your original payment account after your printer is shipped."
+      "z": "VIP返现规则：请在结帐时预先支付标准质押金额。打印机发货后，50 美元的 VIP 折扣将退还至您的原始付款帐户。"
      },
      {
       "t": "p",
       "x": "Multiple VIPs & Printers: Each VIP reservation unlocks a $50 refund for one printer. For example, if you reserve 2 VIP spots and pledge for 2 printers, you will receive a total refund of $100 after shipment.",
-      "z": "Multiple VIPs & Printers: Each VIP reservation unlocks a $50 refund for one printer. For example, if you reserve 2 VIP spots and pledge for 2 printers, you will receive a total refund of $100 after shipment."
+      "z": "多个 VIP 和打印机：每个 VIP 预订可解锁一台打印机 50 美元的退款。例如，如果您预订 2 个 VIP 名额并质押 2 台打印机，发货后您将收到 100 美元的全额退款。"
      },
      {
       "t": "img",
@@ -1891,7 +2206,7 @@
      {
       "t": "p",
       "x": "True 8-tool switching architecture for seamless multi-color and multi-material printing. Eliminates filament waste towers and significantly accelerates execution times.",
-      "z": "True 8-tool switching architecture for seamless multi-color and multi-material printing. Eliminates filament waste towers and significantly accelerates execution times."
+      "z": "真正的 8 工具切换架构，可实现无缝多色和多材料打印。消除了废丝塔并显着加快了执行时间。"
      },
      {
       "t": "img",
@@ -1904,117 +2219,117 @@
      {
       "t": "p",
       "x": "Engineered for seamless multi-material and multi-color execution, the InfiMech MX Series features an array of independent tool docks with individual filament pathways.",
-      "z": "Engineered for seamless multi-material and multi-color execution, the InfiMech MX Series features an array of independent tool docks with individual filament pathways."
+      "z": "InfiMech MX 系列专为无缝多材料和多颜色执行而设计，具有一系列带有单独灯丝路径的独立工具坞。"
      },
      {
       "t": "p",
       "x": "*   Dedicated Channel Design: Each tool maintains an independent filament path, preventing cross-contamination and eliminating multi-color bleed.",
-      "z": "* Dedicated Channel Design: Each tool maintains an independent filament path, preventing cross-contamination and eliminating multi-color bleed."
+      "z": "* 专用通道设计：每个工具都保持独立的灯丝路径，防止交叉污染并消除多色渗色。"
      },
      {
       "t": "p",
       "x": "*   Precision Mechanical Alignment: High-precision guide rails and docking mechanisms ensure reliable tool pickup and release with sub-millimeter repeatable accuracy.",
-      "z": "* Precision Mechanical Alignment: High-precision guide rails and docking mechanisms ensure reliable tool pickup and release with sub-millimeter repeatable accuracy."
+      "z": "* 精密机械对准：高精度导轨和对接机构确保可靠的工具拾取和释放，具有亚毫米可重复精度。"
      },
      {
       "t": "p",
       "x": "*   Streamlined Filament Management: Integrated PTFE routing and sensors ensure smooth filament feeding and instant strain detection.",
-      "z": "* Streamlined Filament Management: Integrated PTFE routing and sensors ensure smooth filament feeding and instant strain detection."
+      "z": "* 简化的灯丝管理：集成的 PTFE 布线和传感器确保灯丝顺利进给和即时应变检测。"
      },
      {
       "t": "p",
       "x": "Unlike traditional single-nozzle systems that purge material during every single color swap, the InfiMech MX Series utilizes a smart independent tool architecture.",
-      "z": "Unlike traditional single-nozzle systems that purge material during every single color swap, the InfiMech MX Series utilizes a smart independent tool architecture."
+      "z": "与在每次单一颜色交换期间清除材料的传统单喷嘴系统不同，InfiMech MX 系列采用智能独立工具架构。"
      },
      {
       "t": "p",
       "x": "*   One Priming Per Tool: Each tool purges only once upon its first activation to ensure the melt zone is perfectly filled.",
-      "z": "* One Priming Per Tool: Each tool purges only once upon its first activation to ensure the melt zone is perfectly filled."
+      "z": "* 每个工具一次灌注：每个工具在首次激活时仅清洗一次，以确保熔化区域完美填充。"
      },
      {
       "t": "p",
       "x": "*   No Repeated Purging: Subsequent color switches require no further filament waste throughout the entire print.",
-      "z": "* No Repeated Purging: Subsequent color switches require no further filament waste throughout the entire print."
+      "z": "* 无需重复清洗：后续颜色切换不需要在整个打印过程中进一步浪费灯丝。"
      },
      {
       "t": "p",
       "x": "*   Maximum Waste Reduction: Printing an 8-color model produces only 8 small purge drops in total—reducing material waste and printing time to the absolute minimum.",
-      "z": "* Maximum Waste Reduction: Printing an 8-color model produces only 8 small purge drops in total—reducing material waste and printing time to the absolute minimum."
+      "z": "* 最大程度地减少浪费：打印 8 色模型总共仅产生 8 个小清洗滴，将材料浪费和打印时间减少到绝对最低限度。"
      },
      {
       "t": "p",
       "x": "Cutting-edge electromagnetic induction technology rockets nozzle temperatures from ambient to operating heat in just 8 seconds, eliminating prep waiting times and optimizing multi-tool efficiency.",
-      "z": "Cutting-edge electromagnetic induction technology rockets nozzle temperatures from ambient to operating heat in just 8 seconds, eliminating prep waiting times and optimizing multi-tool efficiency."
+      "z": "尖端的电磁感应技术只需 8 秒即可将喷嘴温度从环境温度升高到工作温度，从而消除了准备等待时间并优化了多工具效率。"
      },
      {
       "t": "p",
       "x": "Reads precise thermal data using high-accuracy thermistors and transmits signal via NFC. No physical pins to wear out, no wiring clutter, and zero connection errors during tool swaps.",
-      "z": "Reads precise thermal data using high-accuracy thermistors and transmits signal via NFC. No physical pins to wear out, no wiring clutter, and zero connection errors during tool swaps."
+      "z": "使用高精度热敏电阻读取精确的热数据并通过 NFC 传输信号。没有物理引脚磨损，没有接线混乱，工具交换期间连接错误为零。"
      },
      {
       "t": "p",
       "x": "Dedicated printhead sensor actively detects hotend filament buildup in real time. Automatically pauses printing and triggers an on-screen alert to prevent hotend destruction and component damage.",
-      "z": "Dedicated printhead sensor actively detects hotend filament buildup in real time. Automatically pauses printing and triggers an on-screen alert to prevent hotend destruction and component damage."
+      "z": "专用打印头传感器实时主动检测热端丝堆积情况。自动暂停打印并触发屏幕警报，以防止热端损坏和组件损坏。"
      },
      {
       "t": "p",
       "x": "Tool-integrated Hall sensor monitors filament feed tension in real time. Automatically pauses printing and prompts on-screen alerts when a spool tangle is detected, protecting your extruder and saving long prints.",
-      "z": "Tool-integrated Hall sensor monitors filament feed tension in real time. Automatically pauses printing and prompts on-screen alerts when a spool tangle is detected, protecting your extruder and saving long prints."
+      "z": "工具集成的霍尔传感器实时监控细丝进给张力。当检测到线轴缠结时，自动暂停打印并在屏幕上提示警报，从而保护您的挤出机并节省长打印件。"
      },
      {
       "t": "p",
       "x": "Automatically pauses printing when the filament spool rns out, saving your job and allowing instant spool replacements.",
-      "z": "Automatically pauses printing when the filament spool rns out, saving your job and allowing instant spool replacements."
+      "z": "当耗材线轴用完时，自动暂停打印，从而节省您的工作并允许即时更换线轴。"
      },
      {
       "t": "p",
       "x": "Auxiliary Part Cooling: A dedicated interior side fan delivers targeted high-volume airflow across the build platform. Enhances overhangs, bridging, and surface finish at extreme speeds without adding weight to the tool.",
-      "z": "Auxiliary Part Cooling: A dedicated interior side fan delivers targeted high-volume airflow across the build platform. Enhances overhangs, bridging, and surface finish at extreme speeds without adding weight to the tool."
+      "z": "辅助部件冷却：专用的内侧风扇在整个构建平台上提供有针对性的大流量气流。以极快的速度增强悬伸、桥接和表面光洁度，而不增加工具的重量。"
      },
      {
       "t": "p",
       "x": "Saves printing status and coordinates in non-volatile memory during unexpected blackouts. Prompts a one-touch resume upon power restoration to save time, energy, and filament.",
-      "z": "Saves printing status and coordinates in non-volatile memory during unexpected blackouts. Prompts a one-touch resume upon power restoration to save time, energy, and filament."
+      "z": "在意外停电期间将打印状态和坐标保存在非易失性存储器中。电源恢复后提示一键恢复，以节省时间、能源和灯丝。"
      },
      {
       "t": "p",
       "x": "AI-assisted camera monitoring that automatically pauses execution when prints fail.",
-      "z": "AI-assisted camera monitoring that automatically pauses execution when prints fail."
+      "z": "AI辅助摄像头监控，打印失败时自动暂停执行。"
      },
      {
       "t": "p",
       "x": "Visual bed inspection that detects left-over tools or debris before homing to prevent nozzle crashes.",
-      "z": "Visual bed inspection that detects left-over tools or debris before homing to prevent nozzle crashes."
+      "z": "目视床检查可在归位前检测剩余的工具或碎片，以防止喷嘴碰撞。"
      },
      {
       "t": "p",
       "x": "Precision Tool Calibration:Multi-point perimeter probing → Instant exact center calculation for absolute alignment on every tool swap.",
-      "z": "Precision Tool Calibration:Multi-point perimeter probing → Instant exact center calculation for absolute alignment on every tool swap."
+      "z": "精密工具校准：多点周边探测 → 即时精确中心计算，以便在每次工具交换时实现绝对对准。"
      },
      {
       "t": "p",
       "x": "Actively warms the build enclosure up to 60–65°C. Prevents shrinkage, layer delamination, and warping when printing engineering materials like ABS, ASA, PC, and Nylon.",
-      "z": "Actively warms the build enclosure up to 60–65°C. Prevents shrinkage, layer delamination, and warping when printing engineering materials like ABS, ASA, PC, and Nylon."
+      "z": "主动将构建外壳加热至 60–65°C。打印 ABS、ASA、PC 和尼龙等工程材料时，可防止收缩、分层和翘曲。"
      },
      {
       "t": "p",
       "x": "Filters out fine particulates and absorbs harmful fumes and odors. Designed for safer indoor printing with high-temp materials like ABS and ASA.",
-      "z": "Filters out fine particulates and absorbs harmful fumes and odors. Designed for safer indoor printing with high-temp materials like ABS and ASA."
+      "z": "过滤掉细颗粒并吸收有害烟雾和气味。专为使用 ABS 和 ASA 等高温材料进行更安全的室内打印而设计。"
      },
      {
       "t": "p",
       "x": "Powered by high-precision closed-loop motors with real-time encoder feedback, the InfiMech MX Series eliminates layer shift caused by accidental bumps or external interference.",
-      "z": "Powered by high-precision closed-loop motors with real-time encoder feedback, the InfiMech MX Series eliminates layer shift caused by accidental bumps or external interference."
+      "z": "InfiMech MX 系列由具有实时编码器反馈的高精度闭环电机提供动力，消除了因意外碰撞或外部干扰而导致的层移位。"
      },
      {
       "t": "p",
       "x": "*   Real-Time Step Tracking: High-resolution encoders continuously monitor motor positions to detect any physical displacement immediately.",
-      "z": "* Real-Time Step Tracking: High-resolution encoders continuously monitor motor positions to detect any physical displacement immediately."
+      "z": "* 实时步进跟踪：高分辨率编码器持续监控电机位置，以立即检测任何物理位移。"
      },
      {
       "t": "p",
       "x": "*   Instant Auto-Recovery: If bumped or pushed out of place, the system compensates in milliseconds, automatically driving the tool back to its exact trajectory to save your print.",
-      "z": "* Instant Auto-Recovery: If bumped or pushed out of place, the system compensates in milliseconds, automatically driving the tool back to its exact trajectory to save your print."
+      "z": "* 即时自动恢复：如果碰撞或推离原位，系统会在几毫秒内进行补偿，自动将工具驱动回其精确轨迹以保存打印。"
      }
     ]
    }
