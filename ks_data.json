@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T15:29:35+07:00",
+  "generatedAt": "2026-11-23T19:30:25+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 40,
+  "poolSize": 41,
   "projects": [
    {
     "id": 2099488698,
@@ -18,11 +18,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 4057013.0,
-    "usdPledged": "516970.72362372",
+    "pledged": 4076626.0,
+    "usdPledged": "519469.93839144",
     "goalUsd": 1274.26,
-    "percentFunded": 40570.13,
-    "backers": 348,
+    "percentFunded": 40766.26,
+    "backers": 349,
     "deadline": 1795532381,
     "launchedAt": 1792504781,
     "staffPick": true,
@@ -32,19 +32,19 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7606,
+    "score": 0.7607,
     "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1795403411-k8WLfuaxxmnvNuXeKwhOxZnIbd5okaQeG1BV5Ju0EMw%3D/projects/5343527/video-1466952-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1795403411-k8WLfuaxxmnvNuXeKwhOxZnIbd5okaQeG1BV5Ju0EMw%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11305322,
       "price": 6267.0,
       "title": "Super Early Bird | Pro Version",
       "desc": "Lucy AI Studio Pro Version\\n\\n🔥 Super Early Bird — US$799 | Save $100, 11% Off MSRP $899\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 Cephalon Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 233,
+      "backers": 253,
       "limit": 500,
-      "remaining": 267,
+      "remaining": 247,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -53,9 +53,9 @@
       "price": 19614.0,
       "title": "Super Early Bird | Max Version",
       "desc": "Lucy AI Studio Max Version\\n\\n🔥 Super Early Bird — US$2,499 | Save $1500, 38% Off MSRP $3,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 Cephalon Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 29,
+      "backers": 31,
       "limit": 500,
-      "remaining": 471,
+      "remaining": 469,
       "eta": 1796083200,
       "shipping": "unrestricted"
      },
@@ -72,8 +72,8 @@
      }
     ],
     "rewardsTotal": 12,
-    "tiersDate": "2026-11-22",
-    "tiersCarried": "2026-11-22",
+    "tiersDate": "2026-11-23",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
@@ -84,11 +84,11 @@
      {
       "t": "p",
       "x": "pledged of $1,275 pledged of $1,275 goal",
-      "z": "已认捐 $1,275 目标金额为 $1,275"
+      "z": "已认捐 $1,275 已认捐 $1,275 目标金额"
      },
      {
       "t": "p",
-      "x": "50 hours to go",
+      "x": "26 hours to go",
       "z": "小时结束"
      },
      {
@@ -117,13 +117,13 @@
      },
      {
       "t": "p",
-      "x": "50 hours to go",
+      "x": "26 hours to go",
       "z": "小时结束"
      },
      {
       "t": "p",
       "x": "Kickstarter connects creators with backers to fund projects.",
-      "z": "Kickstarter 将创作者与支持者联系起来，为项目提供资金。"
+      "z": "Kickstarter 将创作者与支持者联系起来，为项目筹集资金。"
      },
      {
       "t": "p",
@@ -133,7 +133,7 @@
      {
       "t": "p",
       "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
-      "z": "只有在项目在活动截止日期前达到筹资目标时，您才需要支付费用。"
+      "z": "只有在项目在活动截止日期前达到筹资目标时，您才会被收取费用。"
      },
      {
       "t": "p",
@@ -143,7 +143,7 @@
      {
       "t": "p",
       "x": "*   [**The Reason LUCY Exists**](h:The-Reason-LUCY-Exists)",
-      "z": "* [**LUCY存在的理由**](h:The-Reason-LUCY-Exists)"
+      "z": "* [**LUCY 存在的理由**](h:The-Reason-LUCY-Exists)"
      },
      {
       "t": "p",
@@ -198,7 +198,7 @@
      {
       "t": "p",
       "x": "*   [**Choose Your LUCY**](h:Choose-Your-LUCY)",
-      "z": "* [**选择您的 LUCY**](h:Choose-Your-LUCY)"
+      "z": "* [**选择您的LUCY**](h:Choose-Your-LUCY)"
      },
      {
       "t": "p",
@@ -277,11 +277,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 300000.0,
-    "pledged": 16437371.0,
-    "usdPledged": "16437371.0",
+    "pledged": 16483287.0,
+    "usdPledged": "16483287.0",
     "goalUsd": 300000.0,
-    "percentFunded": 5479.123666666667,
-    "backers": 30186,
+    "percentFunded": 5494.429,
+    "backers": 30270,
     "deadline": 1797523230,
     "launchedAt": 1794931230,
     "staffPick": true,
@@ -289,17 +289,17 @@
      "Technology 热门"
     ],
     "kwHits": [],
-    "score": 0.7493,
+    "score": 0.7494,
     "coverRemote": "https://i.kickstarter.com/assets/055/911/490/bf1403f6f980e336ad06342777f770a6_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794842563&width=1024&sig=QHsqw%2BTnLacT%2F36u6WKC4kYWC9svw4uciAxb%2Fd7iDg0%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1795362706-j9yy7x79YUFS0tBfmxz%2B1JjjCKWrdCgKnPjvDQXl2Ro%3D/projects/5339535/video-1477755-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1795362706-j9yy7x79YUFS0tBfmxz%2B1JjjCKWrdCgKnPjvDQXl2Ro%3D/projects/5339535/video-1477755-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11532338,
       "price": 359.0,
       "title": "Flipper One — Pre-order Special",
       "desc": "Exclusive price for Pre-order coupon holders only\\n35% Off Estimate Retail Price ($550)\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
-      "backers": 11692,
+      "backers": 11813,
       "limit": null,
       "remaining": null,
       "eta": 1814400000,
@@ -310,9 +310,9 @@
       "price": 399.0,
       "title": "Flipper One — Kickstarter Special",
       "desc": "Limited Kickstarter Special Price\\n25% Off Estimate Retail Price ($550)\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
-      "backers": 6110,
+      "backers": 6312,
       "limit": 15000,
-      "remaining": 8890,
+      "remaining": 8688,
       "eta": 1814400000,
       "shipping": "restricted"
      },
@@ -321,7 +321,7 @@
       "price": 759.0,
       "title": "Ultimate Bundle — F1 + 5G + SDR + LoRa",
       "desc": "Limited Early Bird Price\\n35% Off Estimate Retail Price\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
-      "backers": 6933,
+      "backers": 7187,
       "limit": null,
       "remaining": null,
       "eta": 1814400000,
@@ -329,160 +329,191 @@
      }
     ],
     "rewardsTotal": 16,
-    "tiersDate": "2026-11-22",
-    "tiersCarried": "2026-11-22",
+    "tiersDate": "2026-11-23",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/911/490/bf1403f6f980e336ad06342777f770a6_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794842563&width=1024&sig=QHsqw%2BTnLacT%2F36u6WKC4kYWC9svw4uciAxb%2Fd7iDg0%3D"
+      "u": "https://i.kickstarter.com/assets/055/902/255/99337c9b488ecc4bcd7d07b716b4056a_original.png?fit=scale-down&origin=ugc&q=92&v=1794775271&width=1360&sig=jHtMUndCvyiUt5gIDaWJoM49ylro3cpr1UD05Q%2BVK0M%3D"
      },
      {
       "t": "p",
-      "x": "pledged of $300,000 pledged of $300,000 goal",
-      "z": "已认捐 30 万美元 已认捐 30 万美元的目标金额"
+      "x": "Flipper One runs on completely open-source Linux firmware with a mainline kernel. This means full compatibility with the latest kernel versions:",
+      "z": "Flipper One 运行于完全开源的 Linux 固件上，采用主线内核。这意味着与最新内核版本完全兼容："
      },
      {
       "t": "p",
-      "x": "25 days to go",
-      "z": "天数"
+      "x": "*   Mainline Linux kernel support — full support in upstream Linux kernel.",
+      "z": "* 主线 Linux 内核支持 — 在上游 Linux 内核中提供全面支持。"
      },
      {
       "t": "p",
-      "x": "Open Linux Multi-tool based on a powerful ARM processor. Network toolkit expandable with modules.",
-      "z": "基于强大 ARM 处理器的开放式 Linux 多功能工具。网络工具包，可使用模块进行扩展。"
+      "x": "*   No binary blobs — no proprietary code or binaries in the boot process.",
+      "z": "* 无二进制大对象 — 启动过程中没有专有代码或二进制文件。"
      },
      {
       "t": "p",
-      "x": "Open Linux Multi-tool based on a powerful ARM processor. Network toolkit expandable with modules.",
-      "z": "基于强大 ARM 处理器的开放式 Linux 多功能工具。网络工具包，可使用模块进行扩展。"
+      "x": "*   No vendor-locked BSP — free from outdated vendor board support packages.",
+      "z": "* 无供应商锁定 BSP — 无需使用过时的供应商板级支持包。"
      },
      {
       "t": "p",
-      "x": "pledged of $300,000 pledged of $300,000 goal",
-      "z": "已认捐 $300,000 已认捐 $300,000 目标金额"
-     },
-     {
-      "t": "p",
-      "x": "25 days to go",
-      "z": "天数"
-     },
-     {
-      "t": "p",
-      "x": "Kickstarter connects creators with backers to fund projects.",
-      "z": "Kickstarter 将创作者与支持者联系起来，为项目筹集资金。"
-     },
-     {
-      "t": "p",
-      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
-      "z": "回报并非有保证，但创作者必须定期向支持者提供最新消息。"
-     },
-     {
-      "t": "p",
-      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
-      "z": "只有在项目在活动截止日期前达到筹资目标时，您才会被收取费用。"
-     },
-     {
-      "t": "p",
-      "x": "Pledge amount",
-      "z": "认捐数额"
-     },
-     {
-      "t": "p",
-      "x": "Support the project for no reward, just because it speaks to you.",
-      "z": "支持该项目，不为回报，只因它与您产生共鸣。"
-     },
-     {
-      "t": "p",
-      "x": "*   ![Image 2](https://i.kickstarter.com/assets/055/885/287/9427ec6879e934156ecad846bf97dcbe_original.png?fit=scale-down&origin=ugc&q=80&v=1794590925&width=600&sig=9OPxS1TO%2FkREfn8lR6HvdN70hcCGsiLIW%2BhQMY6hGBg%3D) ### Flipper One — Kickstarter Special",
-      "z": "* ![图片2](https://i.kickstarter.com/assets/055/885/287/9427ec6879e934156ecad846bf97dcbe_original.png?fit=scale-down&origin=ugc&q=80&v=1794590925&width=600&sig=9OPxS1TO%2FkREfn8lR6HvdN70hcCGsiLIW%2BhQMY6hGBg%3D) ### Flipper One — Kickstarter特别版"
-     },
-     {
-      "t": "p",
-      "x": "Limited Kickstarter Special Price 25% Off Estimate Retail Price ($550) Shipping and taxes will be charged via our pledge manager after the campaign ### Ships to",
-      "z": "限时Kickstarter特惠价，比预计零售价（$550）低25%运费和税费将在众筹活动结束后通过我们的支持者管理系统收取###发货至"
-     },
-     {
-      "t": "p",
-      "x": "Only certain countries ### Estimated delivery",
-      "z": "仅限特定国家/地区 ### 预计送达时间"
-     },
-     {
-      "t": "p",
-      "x": "Jul 2027 ### Limited quantity",
-      "z": "2027年7月###数量有限"
-     },
-     {
-      "t": "p",
-      "x": "8890 left of 15000  ### 1 item included+ optional add-ons",
-      "z": "15000个中还剩8890个###包含1件商品+可选附加项"
+      "x": "Our goal is to create a fully upstream-supported ARM computer that never becomes outdated, along with a well-documented platform giving the community maximum freedom to customize. To pull this off, we've [partnered with the Collabora team](https://www.collabora.com/news-and-blog/news-and-events/collabora-flipper-opening-up-the-rk3576.html), well-known contributors to the Linux kernel.",
+      "z": "我们的目标是打造一款完全由上游支持的 ARM 电脑，它永远不会过时，同时提供一个文档齐全的平台，让社区享有最大的定制自由。为了实现这一目标，我们[与 Collabora 团队](https://www.collabora.com/news-and-blog/news-and-events/collabora-flipper-opening-up-the-rk3576.html)建立了合作关系，该团队是 Linux 内核的知名贡献者。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/876/120/61cc9af0d0a162705b027a6d1ce8aaf1_original.png?fit=scale-down&origin=ugc&q=80&v=1794521802&width=600&sig=k4zO9qy5Wvd5b%2Bll7WuZxOQ3jRVFa7rbDFFa0VTFQ3M%3D"
+      "u": "https://i.kickstarter.com/assets/055/911/480/9372a396ea4d5c60f05c052021cb6d50_original.png?fit=scale-down&origin=ugc&q=92&v=1794842482&width=1360&sig=A36jIviJJ2akw1NB2jc8GI62kYgwJ0NB7OEKqVNGKno%3D"
      },
      {
       "t": "p",
-      "x": "*   ![Image 4: Flipper One — LoRa bundle](https://i.kickstarter.com/assets/055/925/638/f43480e260ce0defae4e31ca145109a4_original.png?fit=scale-down&origin=ugc&q=80&v=1794925597&width=600&sig=6tc%2FDXQ3hWVchEihg%2BKIwFy4WnUZySiej37iSGfETDw%3D) ### LoRa Bundle — F1 + LoRa Module",
-      "z": "* ![图片 4：Flipper One — LoRa 套装](https://i.kickstarter.com/assets/055/925/638/f43480e260ce0defae4e31ca145109a4_original.png?fit=scale-down&origin=ugc&q=80&v=1794925597&width=600&sig=6tc%2FDXQ3hWVchEihg%2BKIwFy4WnUZySiej37iSGfETDw%3D) ### LoRa 套装 — F1 + LoRa 模块"
+      "x": "*   Layer 0 (Zero) — Offline point-to-point access-control protocols: NFC, low-frequency RFID, Sub-1 GHz radio, Infrared, wired protocols like iButton, UART, SPI, I2C. Based on a low-power microcontroller.",
+      "z": "*第0层（零层）— 离线点对点访问控制协议：NFC、低频RFID、Sub-1 GHz无线电、红外、有线协议（如iButton、UART、SPI、I2C）。基于低功耗微控制器。"
      },
      {
       "t": "p",
-      "x": "Limited Early Bird Price 30% Off Estimate Retail Price Shipping and taxes will be charged via our pledge manager after the campaign ### Ships to",
-      "z": "限时早鸟价，享受零售价估算价30%的折扣运费和税费将在众筹活动结束后通过我们的支持者管理系统收取###发货至"
-     },
-     {
-      "t": "p",
-      "x": "Only certain countries ### Estimated delivery",
-      "z": "仅限特定国家/地区 ### 预计送达时间"
-     },
-     {
-      "t": "p",
-      "x": "Jul 2027  ### 2 items included+ optional add-ons",
-      "z": "2027年7月###包含2项服务+可选附加服务"
+      "x": "*   Layer 1 (One) — Everything that's IP-connected: Wi-Fi, Ethernet, 5G, and satellite. It's all about networking, data transfer, and high-performance computing. An open Linux toolkit running on powerful hardware, enough computing power to handle SDR and local AI.",
+      "z": "*第1层（一层）——所有通过IP连接的设备：Wi-Fi、以太网、5G和卫星。它与网络、数据传输和高性能计算息息相关。一个在强大硬件上运行的开放式Linux工具包，具备足够的计算能力来处理SDR和本地AI。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/876/122/b655d3df35342522f56673deceb608e1_original.png?fit=scale-down&origin=ugc&q=80&v=1794521811&width=600&sig=753qTkU91Ilt8KxfkvjADDY3Ry9KzmDJns6cw3j6h5U%3D"
+      "u": "https://i.kickstarter.com/assets/055/923/640/50558c1fd842700e4a0733b7710541d1_original.png?fit=scale-down&origin=ugc&q=92&v=1794914871&width=1360&sig=9vWN6hRxeTqfLP82xzFOJXxRnzkW2LfgjjtqbW3upYE%3D"
      },
      {
       "t": "p",
-      "x": "*   ![Image 7](https://i.kickstarter.com/assets/055/925/608/bb794b56902ac2fde39537115dd22d47_original.png?fit=scale-down&origin=ugc&q=80&v=1794925501&width=600&sig=zRHZT2h85wwyofr4jk%2Fs5uQ%2F2IXr4lNibRsdSyUHwWY%3D) ### SDR Bundle — F1 + SDR Module",
-      "z": "* ![图片 7](https://i.kickstarter.com/assets/055/925/608/bb794b56902ac2fde39537115dd22d47_original.png?fit=scale-down&origin=ugc&q=80&v=1794925501&width=600&sig=zRHZT2h85wwyofr4jk%2Fs5uQ%2F2IXr4lNibRsdSyUHwWY%3D) ### SDR 套装 — F1 + SDR 模块"
-     },
-     {
-      "t": "p",
-      "x": "Limited Early Bird Price 30% Off Estimate Retail Price Shipping and taxes will be charged via our pledge manager after the campaign ### Ships to",
-      "z": "限时早鸟价，预计零售价立减30%运费和税费将在众筹活动结束后通过我们的支持者管理系统收取###发货至"
-     },
-     {
-      "t": "p",
-      "x": "Only certain countries ### Estimated delivery",
-      "z": "仅限特定国家/地区###预计送达时间"
-     },
-     {
-      "t": "p",
-      "x": "Jul 2027  ### 2 items included+ optional add-ons",
-      "z": "2027年7月###包含2项+可选附加项"
+      "x": "So they're not \"newer\" and \"older\" generations of the same product. Flipper One doesn't replace Flipper Zero — they're different categories of devices. Comparing them directly would be like comparing a hammer to a screwdriver.",
+      "z": "因此，它们并不是同一款产品的“更新”和“更旧”的代际产品。Flipper One 并不能取代 Flipper Zero，它们属于不同类别的设备。直接比较它们就像拿锤子和螺丝刀作比较。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/876/124/22789251192c746b39ce6985c909224a_original.png?fit=scale-down&origin=ugc&q=80&v=1794521822&width=600&sig=IUdLOM%2BcyWm3tjcqugkT0v6lOvuIXnjdy0yDbS3%2BLUg%3D"
+      "u": "https://i.kickstarter.com/assets/055/902/061/980de2280d8e1e8f2296c7710af621fd_original.png?fit=scale-down&origin=ugc&q=92&v=1794773449&width=1360&sig=0iCfR7Fe5ubqCufZd9Fmhm4PKLl9vrxusBusKY5AsNI%3D"
      },
      {
       "t": "p",
-      "x": "*   ![Image 10: Flipper One — 5G Bundle](https://i.kickstarter.com/assets/055/925/621/2bc1a2ae8002b71ffb53cf4992e8fcea_original.png?fit=scale-down&origin=ugc&q=80&v=1794925539&width=600&sig=tDifGd6sQmJ8vnb5qkfWKOjWh2dng%2F7bqdS8SAU7pkU%3D) ### 5G Bundle — F1 + 5G Module",
-      "z": "* ![图片 10：Flipper One — 5G 套装](https://i.kickstarter.com/assets/055/925/621/2bc1a2ae8002b71ffb53cf4992e8fcea_original.png?fit=scale-down&origin=ugc&q=80&v=1794925539&width=600&sig=tDifGd6sQmJ8vnb5qkfWKOjWh2dng%2F7bqdS8SAU7pkU%3D) ### 5G 套装 — F1 + 5G 模块"
+      "x": "*   Low-power MCU (Raspberry Pi RP2350) — manages LCD display, buttons, power and controls system boot stages.",
+      "z": "* 低功耗 MCU（Raspberry Pi RP2350）— 管理液晶屏、按钮、电源并控制系统启动阶段。"
      },
      {
       "t": "p",
-      "x": "Limited Early Bird Price 30% Off Estimate Retail Price Shipping and taxes will be charged via our pledge manager after the campaign ### Ships to",
-      "z": "限时早鸟价，享受建议零售价三折优惠运费和税费将在众筹活动结束后通过我们的支持者管理系统收取###发货至"
+      "x": "*   High-performance CPU (Rockchip RK3576) — runs Linux kernel and user apps, and manages high-speed peripheral interfaces: Ethernet, Wi-Fi, PCIe, USB, HDMI, etc.",
+      "z": "* 高性能 CPU（Rockchip RK3576）——运行 Linux 内核和用户应用程序，并管理高速外设接口：以太网、Wi-Fi、PCIe、USB、HDMI 等。"
+     },
+     {
+      "t": "p",
+      "x": "The idea behind the [2-processor architecture](https://docs.flipper.net/one/mcu-firmware/architecture) is to make Flipper One a fully standalone device that remains operational even if the user completely breaks the Linux system. It allows to recover OS without needing an external computer or additional software.",
+      "z": "[双处理器架构](https://docs.flipper.net/one/mcu-firmware/architecture)的理念是，即使用户完全破坏了Linux系统，Flipper One也能作为一个完全独立的设备保持运行。它允许在不需要外接电脑或额外软件的情况下恢复操作系统。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/876/118/15011b577f668fb88972804f149e8b46_original.png?fit=scale-down&origin=ugc&q=80&v=1794521789&width=600&sig=R0KHZHAFn8z0DE01G63ISKkhw6QnD4UFT1nOw9Ixqcg%3D"
+      "u": "https://i.kickstarter.com/assets/055/915/674/a30eb9086c681f47ece3e6996576f18b_original.png?fit=scale-down&origin=ugc&q=92&v=1794862501&width=1360&sig=IFfnAv6uAdS8c4c3j0ho8LpToRdqbIRBa2GAJFaeLDo%3D"
+     },
+     {
+      "t": "p",
+      "x": "Connect Flipper One to a laptop with a single USB-C cable to get SSH console access and charge the device at the same time. No extra adapters are needed for Linux console access or power — Flipper One can simultaneously emulate a USB network adapter, a serial (COM port), or disk device.![Image 8](https://i.kickstarter.com/assets/055/915/013/b36f023ae1f0579f18e918885b6d21ce_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794859211&width=1360&sig=y6mWufNb1H5cJeEzqLFRFm%2Bq4O%2Bze3PFFrDrUqXCzLo%3D)",
+      "z": "使用一根USB-C线缆将Flipper One连接到笔记本电脑，即可获得SSH控制台访问权限，同时还能为设备充电。访问 Linux 控制台或供电无需额外的适配器——Flipper One 可以同时模拟 USB 网络适配器、串行（COM 端口）或磁盘设备！[图片 8](https://i.kickstarter.com/assets/055/915/013/b36f023ae1f0579f18e918885b6d21ce_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794859211&width=1360&sig=y6mWufNb1H5cJeEzqLFRFm%2Bq4O%2Bze3PFFrDrUqXCzLo%3D)"
+     },
+     {
+      "t": "p",
+      "x": "*   Power IN/OUT — the USB-C1 port supports 5–20 V Power Delivery and can charge Flipper One or power your laptop.",
+      "z": "* 电源输入/输出 — USB-C1 端口支持 5–20 V 电源传输，可为 Flipper One 充电或为您的笔记本电脑供电。"
+     },
+     {
+      "t": "p",
+      "x": "*   Device Emulation — the same port also emulates a USB network adapter, serial device, or disk drive. All at speeds of up to 5 Gbps.",
+      "z": "* 设备仿真 — 同一端口还可仿真 USB 网络适配器、串行设备或磁盘驱动器。所有速度均高达 5 Gbps。"
+     },
+     {
+      "t": "p",
+      "x": "Connect Flipper One to an external display using a single USB Type-C cable and get a full desktop experience. ![Image 9](https://i.kickstarter.com/assets/055/923/658/b9093058f1922391792bcb0d1025bbd6_original.png?fit=scale-down&origin=ugc&q=92&v=1794914956&width=1360&sig=ReYnTcSZBGfwNJG0M2AfTDJnHCQlsFHwcucui878umE%3D)",
+      "z": "使用一根 USB Type-C 线缆将 Flipper One 连接到外接显示器，即可获得完整的桌面体验。！[图片 9](https://i.kickstarter.com/assets/055/923/658/b9093058f1922391792bcb0d1025bbd6_original.png?fit=scale-down&origin=ugc&q=92&v=1794914956&width=1360&sig=ReYnTcSZBGfwNJG0M2AfTDJnHCQlsFHwcucui878umE%3D)"
+     },
+     {
+      "t": "p",
+      "x": "*   USB DisplayPort Alt Mode — video output at 4K@120Hz to an external display over a single USB-C cable.",
+      "z": "* USB DisplayPort Alt 模式 — 通过单根 USB-C 线缆以 4K@120Hz 的分辨率将视频输出到外接显示器。"
+     },
+     {
+      "t": "p",
+      "x": "*   USB Host + Charging — connect peripherals such as a keyboard and mouse through your monitor’s USB hub while charging Flipper One over the same cable.",
+      "z": "* USB主机 + 充电 — 通过显示器的USB集线器连接键盘和鼠标等外围设备，同时通过同一根线缆为Flipper One充电。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/915/690/7612ccda161b085bf24c666608a2241f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794862528&width=1360&sig=tvdavX45lTwQLhI%2F81PTf9XGRb7UzBeozjtZFjTu7jo%3D"
+     },
+     {
+      "t": "p",
+      "x": "We wanted to make alternative firmware development for Flipper One easier. You can debug and perform a full system recovery through the same primary USB-C port (USB-C1). For most development tasks, you won't need a separate debugger.",
+      "z": "我们希望让Flipper One的替代固件开发变得更加容易。您可以通过同一个主USB-C端口（USB-C1）进行调试和执行完整系统恢复。对于大多数开发任务，您不需要单独的调试器。"
+     },
+     {
+      "t": "p",
+      "x": "Using the USB-C1 port, you can access the debug console & BOOTSEL mode for recovering the RP2350 MCU, and MaskROM mode for recovering the RK3576 CPU.",
+      "z": "使用 USB-C1 端口，您可以访问调试控制台和 BOOTSEL 模式以恢复 RP2350 MCU，以及 MaskROM 模式以恢复 RK3576 CPU。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/901/972/341f390c1a8ba3223e116fca20bf2bfc_original.png?fit=scale-down&origin=ugc&q=92&v=1794772827&width=1360&sig=jFoa1SGS2UeM9kAeM7nlXo5OpxMjEP6C%2BUgbDhRdbm4%3D"
+     },
+     {
+      "t": "p",
+      "x": "*   2× Gigabit Ethernet— two independent WAN/LAN ports, each running at 1 Gbps. Can be used for a transparent bridge, MitM sniffing, and more.",
+      "z": "* 2 个千兆以太网端口——两个独立的 WAN/LAN 端口，每个端口的运行速度均为 1 Gbps。可用于透明网桥、中间人攻击嗅探等。"
+     },
+     {
+      "t": "p",
+      "x": "*   Wi-Fi 6E— based on the MT7921AUN chipset with monitor mode support. Covers 2.4/5/6 GHz bands and can run as both a Wi-Fi Client (STA) and a Hotspot (AP).",
+      "z": "* Wi-Fi 6E— 基于 MT7921AUN 芯片组，支持监视模式。覆盖 2.4/5/6 GHz 频段，既可以作为 Wi-Fi 客户端 (STA) 运行，也可以作为热点 (AP) 运行。"
+     },
+     {
+      "t": "p",
+      "x": "*   Cellular modem— 5G or LTE modem via the M.2 expansion module, with support for external antennas. Accepts a physical Nano SIM (4FF) and eSIM.",
+      "z": "* 蜂窝调制解调器——通过 M.2 扩展模块实现的 5G 或 LTE 调制解调器，支持外置天线。支持物理 Nano SIM 卡（4FF）和 eSIM 卡。"
+     },
+     {
+      "t": "p",
+      "x": "*   USB Ethernet— up to 5 Gbps emulated over USB-C. Connect your laptop or smartphone via a USB cable to add an extra network interface. Works via USB CDC-NCM, so no drivers are required.",
+      "z": "* USB 以太网——通过 USB-C 模拟，速度高达 5 Gbps。通过 USB 线缆连接笔记本电脑或智能手机，即可添加额外的网络接口。通过 USB CDC-NCM 工作，因此无需驱动程序。"
+     },
+     {
+      "t": "p",
+      "x": "Out of the box, Flipper One can work as a gateway to any network, a multi-hotspot bridge, an inline Ethernet sniffer, a USB Wi-Fi/Ethernet adapter for a PC or phone.",
+      "z": "Flipper One 开箱即用，可作为任何网络的网关、多热点桥接器、串联式以太网嗅探器、用于电脑或手机的 USB Wi-Fi/以太网适配器。"
+     },
+     {
+      "t": "p",
+      "x": "Analyze wired and wireless IP networks: discover active hosts, scan for open ports and services, detect network attacks and report anomalies. Flipper One comes with built-in apps for network analysis, mapping network topology, and detecting host misconfigurations.![Image 13](https://i.kickstarter.com/assets/055/901/978/c2894be981d98c00ee8d0a063b05ceb1_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794772894&width=1360&sig=b8%2BQACZj70PNfVrKKT0uzYmMNTfFCY8OEM1kvDS5CGM%3D)It can also identify vulnerable and outdated services, act as a honeypot to detect network scanning activity, and save the results as exportable reports.",
+      "z": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/901/981/e9933d565eed1456387079c4b7480e32_original.png?fit=scale-down&origin=ugc&q=92&v=1794772918&width=1360&sig=sAAsgFnt5lqfzHEe6qLvDjFHhbrpG5eiyhhZ2uuaaW4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/901/988/3a5dc5623f3902d1cf39a5838f1b954e_original.png?fit=scale-down&origin=ugc&q=92&v=1794772976&width=1360&sig=4f3ZFB3tpYpntQQ5inDk0YhsGBkQ9MLhbnwPQrINdDY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/913/464/bd70b762861f1c416784cdc94cbafddc_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794852348&width=680&sig=9sAlCmmbz8GzI6X2uGN7SY12E32HLABNYD0NXKDDnN0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/902/006/b504bda05a8841369f36fcbe2bf2cf3d_original.png?fit=scale-down&origin=ugc&q=92&v=1794773088&width=1360&sig=fp1LTMS%2Bw27uowCS%2FPLBWE4%2FRpzcvWxORcICa1Ml7hw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/911/964/c57d4460e6c683fac98935ae05197102_original.png?fit=scale-down&origin=ugc&q=92&v=1794845396&width=1360&sig=oQWsYSMJbbwLDs1l2VIfkPt2I4By9W5cuuCIA1RbY1Y%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/911/967/a64e6607fb5375c880cc623b4f9778e9_original.png?fit=scale-down&origin=ugc&q=92&v=1794845421&width=1360&sig=%2BXUCsqPSffEqa%2F8b7U5c9d6dx3s%2FakQVQ%2FhP%2BSR8afQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/902/072/cb069f204af3ad0b863eca2e387a6a49_original.png?fit=scale-down&origin=ugc&q=92&v=1794773580&width=1360&sig=2e2e9GxKM5tie8kda0U2OU0TP9x0r0YFPXLOIWQ9Ni0%3D"
      }
     ]
    },
@@ -498,11 +529,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 547445.0,
-    "usdPledged": "547445.0",
+    "pledged": 551228.0,
+    "usdPledged": "551228.0",
     "goalUsd": 20000.0,
-    "percentFunded": 2737.225,
-    "backers": 3272,
+    "percentFunded": 2756.14,
+    "backers": 3291,
     "deadline": 1797786338,
     "launchedAt": 1794330338,
     "staffPick": true,
@@ -514,10 +545,10 @@
      "ai",
      "voice"
     ],
-    "score": 0.7199,
+    "score": 0.6785,
     "coverRemote": "https://i.kickstarter.com/assets/055/869/797/bfcad38118e9c711060c5806e2f9c558_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794479140&width=1024&sig=UyS8SPLXyzmBY%2F9PRysXGpHgxxhcWCnbmpytFMtf8j0%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1795376102-Z1MzZcWWk594KbIXFh3E19XAAyXB1nqAiZ2jogbxX2o%3D/projects/5413240/video-1476329-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1795376102-Z1MzZcWWk594KbIXFh3E19XAAyXB1nqAiZ2jogbxX2o%3D/projects/5413240/video-1476329-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11519924,
@@ -535,9 +566,9 @@
       "price": 159.0,
       "title": "Early Bird: Ring + 3 months",
       "desc": "Save 51% | Early Bird → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 1300,
-      "limit": 1320,
-      "remaining": 20,
+      "backers": 1385,
+      "limit": 1420,
+      "remaining": 35,
       "eta": 1801440000,
       "shipping": "unrestricted"
      },
@@ -546,16 +577,16 @@
       "price": 249.0,
       "title": "Early Bird: Ring + HumanPods + 6 months",
       "desc": "Save 54% | Early Bird → One Interface ring with its charging case, HumanPods, and 6 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 258,
-      "limit": 270,
-      "remaining": 12,
+      "backers": 269,
+      "limit": 280,
+      "remaining": 11,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 13,
-    "tiersDate": "2026-11-22",
-    "tiersCarried": "2026-11-22",
+    "tiersDate": "2026-11-23",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -645,7 +676,7 @@
      [
       35.31,
       37.57,
-      "按两下，它就会转录"
+      "按两下，即可转录"
      ],
      [
       37.57,
@@ -680,7 +711,7 @@
      [
       48.31,
       51.31,
-      "进行最终检查，然后部署。"
+      "进行最后检查，然后部署。"
      ],
      [
       51.31,
@@ -690,7 +721,7 @@
      [
       52.31,
       54.6,
-      "但它还能做到更多。界面控件"
+      "但它还能做得更多。界面控件"
      ],
      [
       54.6,
@@ -750,7 +781,7 @@
      [
       76.31,
       79.27,
-      "界面还关注"
+      "Interface还关注"
      ],
      [
       79.27,
@@ -775,7 +806,7 @@
      [
       87.91,
       89.91,
-      "刚在Quartato吃了牛油果吐司。"
+      "刚才在一家小餐馆吃了牛油果吐司。"
      ],
      [
       89.91,
@@ -795,7 +826,7 @@
      [
       94.91,
       96.91,
-      "您将在 6 月前实现目标。"
+      "您将在6月前实现目标。"
      ],
      [
       96.91,
@@ -805,7 +836,7 @@
      [
       99.91,
       101.97,
-      "把这些因素结合起来，你就会看到"
+      "把这些信息综合起来，你就会看到"
      ],
      [
       101.97,
@@ -820,7 +851,7 @@
      [
       104.93,
       105.91,
-      "会照顾您。"
+      "会照顾你。"
      ],
      [
       105.91,
@@ -880,12 +911,12 @@
      [
       124.91,
       126.91,
-      "只有在您按下时，它才会聆听。"
+      "只有当您按下它时，它才会聆听。"
      ],
      [
       126.91,
       128.91,
-      "它只会保留您要求它保留的内容。"
+      "它只会保留您要求保留的内容。"
      ],
      [
       128.91,
@@ -895,7 +926,7 @@
      [
       130.93,
       131.91,
-      "今天星期六。"
+      "今天周六。"
      ],
      [
       131.91,
@@ -930,7 +961,7 @@
      [
       143.91,
       146.24,
-      "而且价格永远不会像现在这么低。"
+      "而且价格永远不会像现在这样低。"
      ],
      [
       146.24,
@@ -1035,7 +1066,7 @@
      {
       "t": "p",
       "x": "Interface is a ring with one button: press it, talk, and your words become a note, a message or a request to your AI agents, without taking out your phone. It works with NatureOS on iPhone and Android, and with your Mac or Windows computer.",
-      "z": "Interface是一款带有一个按钮的戒指：按下按钮，说出您的话，这些话就会变成一条备忘、一条消息或一项向您的AI代理发出的请求，无需拿出手机。它可在iPhone和Android上与NatureOS配合使用，也可与您的Mac或Windows电脑配合使用。"
+      "z": "Interface是一款带有一个按钮的戒指：按下按钮并说话，您的言语就会变成一条备忘、一条消息或对AI代理的请求，无需拿出手机。它可在iPhone和Android上与NatureOS配合使用，也可与您的Mac或Windows电脑配合使用。"
      },
      {
       "t": "img",
@@ -1053,7 +1084,7 @@
      {
       "t": "p",
       "x": "Membership ($9/month) adds our built-in AI: fast and accurate transcripts in 90+ languages, meeting recaps, dictation into any app, insights on your health, and a ready-to-use infrastructure for connecting multiple AI agents to your Interface. 3 to 6 months are included with your reward. If you stop, your ring keeps working with your own AI via webhook, and everything you recorded and transcribed stays yours.",
-      "z": "会员（$9/月）可使用我们的内置AI：90多种语言的快速准确转录、会议摘要、向任何应用听写、健康洞察，以及将多个AI代理连接到您的Interface的即用型基础设施。您的奖励包含3至6个月的会员资格。如果您停止订阅，您的戒指将通过 Webhook 继续与您自己的 AI 配合工作，并且您录制和转录的所有内容都归您所有。"
+      "z": "会员（$9/月）可使用我们的内置AI：90多种语言的快速准确转录、会议摘要、向任何应用听写、健康洞察，以及将多个AI代理连接到您的Interface的即用型基础设施。您的奖励包含3至6个月的会员资格。如果您停止订阅，您的戒指将通过 Webhook 继续与您自己的 AI 配合工作，您录制和转录的所有内容都将归您所有。"
      },
      {
       "t": "img",
@@ -1099,37 +1130,37 @@
      {
       "t": "p",
       "x": "Interface reads your heart rate, HRV, blood oxygen, sleep, skin temperature and activity, day and night. Log what you eat, your workouts, your supplements and how you feel, and your AI pairs it with your biometrics to give you insights made for you.",
-      "z": "Interface reads your heart rate, HRV, blood oxygen, sleep, skin temperature and activity, day and night. Log what you eat, your workouts, your supplements and how you feel, and your AI pairs it with your biometrics to give you insights made for you."
+      "z": "Interface全天候读取您的心率、HRV、血氧、睡眠、体表温度和活动情况。记录您的饮食、锻炼、补充剂以及您的感受，人工智能会将这些信息与您的生物特征数据相结合，为您提供量身定制的洞察分析。"
      },
      {
       "t": "p",
       "x": "Your agents use your apps for you. Ask, and the agent you chose does the work. Anything that matters waits for your approval, and in NatureOS you choose which apps each agent can use.",
-      "z": "Your agents use your apps for you. Ask, and the agent you chose does the work. Anything that matters waits for your approval, and in NatureOS you choose which apps each agent can use."
+      "z": "您的代理为您使用您的应用程序。您提出要求，您选择的代理就会为您完成任务。所有重要事项均需等待您的批准，在 NatureOS 中，您可以选择每个代理可以使用哪些应用程序。"
      },
      {
       "t": "p",
       "x": "Catch a thought before it's gone. Dictate an idea, a reminder or a name, and find it later in NatureOS, or let your agents organize it for you.",
-      "z": "Catch a thought before it's gone. Dictate an idea, a reminder or a name, and find it later in NatureOS, or let your agents organize it for you."
+      "z": "在念头消失之前捕捉它。口述一个想法、一条提醒或一个名字，稍后在NatureOS中找到它，或者让您的智能体为您整理。"
      },
      {
       "t": "p",
       "x": "Record a meeting and get the full transcript, who said what, and a recap with decisions and next steps. Later, just ask what you decided. The light on the ring shows when it's recording.",
-      "z": "Record a meeting and get the full transcript, who said what, and a recap with decisions and next steps. Later, just ask what you decided. The light on the ring shows when it's recording."
+      "z": "录制会议并获取完整文字记录，包括发言人和发言内容，以及包含决策和后续步骤的摘要。稍后，只需询问你们决定了什么。环形灯亮起时表示正在录制。"
      },
      {
       "t": "p",
       "x": "Talk to your agents through HumanPods while your phone stays in your pocket. Ask a question, start a task or hear an update. With Interface, press the ring and ask, and hear the reply in your HumanPods.",
-      "z": "Talk to your agents through HumanPods while your phone stays in your pocket. Ask a question, start a task or hear an update. With Interface, press the ring and ask, and hear the reply in your HumanPods."
+      "z": "通过HumanPods与您的客服代表交谈，同时您的手机可以留在口袋里。提出问题、开始任务或听取最新消息。使用Interface，按下圆环并提问，然后在HumanPods中听到回复。"
      },
      {
       "t": "p",
       "x": "All of this lives in one ring of stainless steel, brushed, with polished edges, made to be worn every day.",
-      "z": "All of this lives in one ring of stainless steel, brushed, with polished edges, made to be worn every day."
+      "z": "所有这一切都蕴含在一枚拉丝不锈钢戒指中，边缘经过抛光处理，适合日常佩戴。"
      },
      {
       "t": "p",
       "x": "Worn on your index finger, with the button facing your thumb. Waterproof.",
-      "z": "Worn on your index finger, with the button facing your thumb. Waterproof."
+      "z": "戴在食指上，按钮朝向拇指。防水。"
      }
     ]
    },
@@ -1145,11 +1176,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 446912.0,
-    "usdPledged": "446912.0",
+    "pledged": 448320.0,
+    "usdPledged": "448320.0",
     "goalUsd": 10000.0,
-    "percentFunded": 4469.12,
-    "backers": 2859,
+    "percentFunded": 4483.2,
+    "backers": 2867,
     "deadline": 1799244023,
     "launchedAt": 1794924023,
     "staffPick": true,
@@ -1161,19 +1192,19 @@
      "ai",
      "mechanical keyboard"
     ],
-    "score": 0.672,
+    "score": 0.6513,
     "coverRemote": "https://i.kickstarter.com/assets/055/968/259/65ad52f5cdb29ff02cebd2f37985401d_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1795252901&width=1024&sig=UMkgdUp%2Fl0opcXDPwBTW0llEqqWnRIapj68lebsM71c%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1795406863-zZPFI7jYxTatSQbf9eOwfHV5EmNzBAdk5fx6NXQEKTg%3D/projects/5405349/video-1477659-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1795406863-zZPFI7jYxTatSQbf9eOwfHV5EmNzBAdk5fx6NXQEKTg%3D/projects/5405349/video-1477659-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11498595,
       "price": 105.0,
       "title": "Returning Customer Exclusive",
       "desc": "An exclusive price for returning customers from our official website or Amazon. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
-      "backers": 354,
+      "backers": 358,
       "limit": 3000,
-      "remaining": 2646,
+      "remaining": 2642,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -1182,9 +1213,9 @@
       "price": 108.0,
       "title": "12-Hour Launch Special",
       "desc": "Launch pricing for the first 12 hours of the Rainy 75 V2 campaign. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
-      "backers": 1471,
+      "backers": 1468,
       "limit": 2000,
-      "remaining": 529,
+      "remaining": 532,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -1193,16 +1224,16 @@
       "price": 115.0,
       "title": "Super Early Bird",
       "desc": "Get the Rainy 75 V2 at the Super Early Bird price. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
-      "backers": 519,
-      "limit": 521,
-      "remaining": 2,
+      "backers": 621,
+      "limit": 621,
+      "remaining": 0,
       "eta": 1798761600,
       "shipping": "restricted"
      }
     ],
     "rewardsTotal": 16,
-    "tiersDate": "2026-11-22",
-    "tiersCarried": "2026-11-22",
+    "tiersDate": "2026-11-23",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -1237,7 +1268,7 @@
      [
       21.78,
       23.38,
-      "它从来就不是一部手机。"
+      "它从来都不是一部手机。"
      ],
      [
       24.38,
@@ -1272,7 +1303,7 @@
      [
       39.99,
       41.99,
-      "他一言不发。"
+      "他没有回答一个字。"
      ],
      [
       42.99,
@@ -1295,7 +1326,7 @@
      {
       "t": "p",
       "x": "*   [**Battery, 8K & Low Front**](h:Battery-8K-Low-Front)",
-      "z": "* [**电池、8K 和低前置**](h:Battery-8K-Low-Front)"
+      "z": "* [**电池、8K 和低前置摄像头**](h:Battery-8K-Low-Front)"
      },
      {
       "t": "p",
@@ -1315,7 +1346,7 @@
      {
       "t": "p",
       "x": "*   [**Shows & Meetups**](h:Shows-Meetups)",
-      "z": "* [**演出和见面会**](h:Shows-Meetups)"
+      "z": "* [**展会与见面会**](h:Shows-Meetups)"
      },
      {
       "t": "p",
@@ -1330,7 +1361,7 @@
      {
       "t": "p",
       "x": "*   [**Shipping & Support**](h:Shipping-Support)",
-      "z": "* [**配送与支持**](h:Shipping-Support)"
+      "z": "* [**发货与支持**](h:Shipping-Support)"
      },
      {
       "t": "p",
@@ -1380,17 +1411,17 @@
      {
       "t": "p",
       "x": "Keyboards make you choose. A big battery means a thick case. Speed means charging every few days. Lights mean a higher price. You pick one and give up the other.",
-      "z": "键盘让您做出选择。大电池意味着厚机身。速度意味着每隔几天就要充电。灯光意味着更高的价格。您只能二选一。"
+      "z": "键盘让您不得不做出选择。大电池意味着厚机身。速度意味着每隔几天就要充电。灯光意味着更高的价格。您只能二选一。"
      },
      {
       "t": "p",
       "x": "We spent two years refusing to pick. V2 carries 10,000 mAh and still sits 17.4 mm low at the front. It reports 8,000 times a second when you want speed, and runs up to 1,000 hours when you would rather forget the cable. Every key lights up, and the price still starts at $99.",
-      "z": "我们花了两年时间，拒绝做出选择。V2 搭载 10000 mAh 电池，前部仍仅有 17.4 毫米厚。当您需要速度时，它每秒可报告 8,000 次；当您不想使用充电线时，它最长可运行 1,000 小时。每个按键都会亮起，起售价仍为 99 美元。"
+      "z": "我们花了两年时间，拒绝做出选择。V2 拥有 10000 mAh 的电量，前部厚度仍仅为 17.4 毫米。当您需要速度时，它每秒可报告 8000 次；当您不想使用充电线时，它最长可运行 1000 小时。每个按键都会亮起，起售价仍为 99 美元。"
      },
      {
       "t": "p",
       "x": "Big battery and low front. Fast and long-lived. Bright and $99. All of it, at once.",
-      "z": "大电池，低前脸。快速且持久。明亮，售价99美元。所有优点，一应俱全。"
+      "z": "大电池，低前置。快速且持久。明亮，售价99美元。所有这些，一次到位。"
      },
      {
       "t": "img",
@@ -1412,7 +1443,7 @@
      {
       "t": "p",
       "x": "Then the feel. Three gasket mounts, soft, even and firm, that swap without tools.",
-      "z": "然后是手感。三个垫片支架，柔软、均匀且牢固，无需工具即可更换。"
+      "z": "然后是手感。三个垫片支架，柔软、均匀且稳固，无需工具即可更换。"
      },
      {
       "t": "p",
@@ -1432,7 +1463,7 @@
      {
       "t": "p",
       "x": "Three gasket mounts, six foam layers, two switches. That is 256 ways to build one keyboard, or 512 if you own both switches. One press opens the case, every switch is hot-swap, and nothing needs solder or a screwdriver. Finding your sound takes minutes, not a weekend.",
-      "z": "三种垫片安装方式、六层泡棉、两种轴体。这意味着有 256 种方式可以组装一个键盘，如果您同时拥有两种开关，则有 512 种方式。按一下即可打开外壳，每个轴体均可热插拔，无需焊接或使用螺丝刀。找到您的专属声音只需几分钟，而不是一个周末。"
+      "z": "三个垫片支架、六层泡棉、两个开关。这意味着有 256 种方式可以组装一个键盘，如果您同时拥有两种开关，则有 512 种方式。一按即可打开外壳，每个轴体均可热插拔，无需焊接或使用螺丝刀。找到您的声音只需几分钟，而不是一个周末。"
      },
      {
       "t": "img",
@@ -1471,43 +1502,264 @@
     ]
    },
    {
-    "id": 222639409,
-    "name": "Hydra LED 140W: The Smart Cable That Charges Two Laptops",
-    "blurb": "One charger, three devices. Up to 140W from a single port, shared automatically between three USB-C devices, with every watt on screen.",
-    "url": "https://www.kickstarter.com/projects/futuriztatech/hydra-led-140w-the-smart-cable-that-charges-two-laptops",
-    "category": "Gadgets",
-    "creator": "Futurizta Tech",
-    "location": "Sydney, AU",
-    "country": "Australia",
-    "currency": "AUD",
+    "id": 1519469324,
+    "name": "Catsights: We Rethought the Keyboard",
+    "blurb": "Keyboard, trackpad, and numpad in one—with familiar macOS gestures for smooth scrolling, pinch-to-zoom, and desktop switching.",
+    "url": "https://www.kickstarter.com/projects/1536611755/catsights-one-touchpad-two-ways-to-work",
+    "category": "Hardware",
+    "creator": "Catsights",
+    "location": "Colorado, Brazil",
+    "country": "the United States",
+    "currency": "USD",
     "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 111457.0,
-    "usdPledged": "75338.25684027",
-    "goalUsd": 6759.4,
-    "percentFunded": 1114.57,
-    "backers": 849,
-    "deadline": 1797512402,
-    "launchedAt": 1794920402,
+    "goal": 2000.0,
+    "pledged": 31908.0,
+    "usdPledged": "31908.0",
+    "goalUsd": 2000.0,
+    "percentFunded": 1595.4,
+    "backers": 295,
+    "deadline": 1796981479,
+    "launchedAt": 1794389479,
     "staffPick": false,
     "sources": [
      "Hardware 热门",
      "Technology 热门"
     ],
     "kwHits": [
-     "smart"
+     "gesture"
     ],
-    "score": 0.6632,
-    "coverRemote": "https://i.kickstarter.com/assets/055/899/282/273a8f726a350cf409781f8bc779bccb_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794753218&width=1024&sig=BIlji9D9sMEf6wfkJiA8Xi56zYhgRFqQdzOKH6%2FoIo4%3D",
-    "videoMp4": null,
-    "videoHls": null,
-    "rewards": [],
-    "rewardsTotal": 0,
-    "tiersDate": "",
+    "score": 0.5976,
+    "coverRemote": "https://i.kickstarter.com/assets/055/866/095/edc4dbba5779574b4be510a30ac1a1b3_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794450857&width=1024&sig=u%2BQizf3gvNpgIihOf5V8ZDlZJFweVmrUxJBDEVZUBoo%3D",
+    "videoMp4": "https://v2.kickstarter.com/1795369297-SEHpIzrXvVHX9RSJsZ8H1X%2B19XCb0A%2FTaivcMr9QnNo%3D/projects/5412289/video-1475357-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1795369297-SEHpIzrXvVHX9RSJsZ8H1X%2B19XCb0A%2FTaivcMr9QnNo%3D/projects/5412289/video-1475357-hls_playlist.m3u8",
+    "rewards": [
+     {
+      "id": 11515435,
+      "price": 99.0,
+      "title": "Super Early Bird",
+      "desc": "50% OFF | Retail Price: $198\\n\\nBe among the very first to experience Catsights at our most exclusive single-unit price! Enjoy a thoughtfully designed 3-in-1 keyboard that brings typing, precise trackpad navigation, and dedicated numeric input together in one seamless device. A smarter, simpler workspace starts here.\\n\\nIncludes:\\n\\n1 × Catsights 3-in-1 Keyboard",
+      "backers": 264,
+      "limit": 400,
+      "remaining": 136,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11528533,
+      "price": 109.0,
+      "title": "Early Bird",
+      "desc": "45% OFF | Retail Price: $198\\n\\nGreat ideas deserve a great workspace. Secure your Catsights at a special early supporter price and discover the convenience of having a keyboard, multi-touch trackpad, and numeric keypad beautifully integrated into one device. Designed to make everyday interactions feel more natural and effortless.\\n\\nIncludes:\\n\\n1 × Catsights 3-in-1 Keyboard",
+      "backers": 2,
+      "limit": null,
+      "remaining": null,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11515436,
+      "price": 179.0,
+      "title": "Super Early Bird*2",
+      "desc": "55% OFF | Retail Price: $396\\n\\nTwo workspaces, twice the possibilities. Keep one Catsights at home and another at the office, or share the experience with someone who appreciates thoughtful technology. Enjoy the freedom of seamless typing, precise navigation, and convenient number entry wherever your work takes you.\\n\\nIncludes:\\n\\n2 × Catsights 3-in-1 Keyboards",
+      "backers": 27,
+      "limit": 100,
+      "remaining": 73,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 6,
+    "tiersDate": "2026-11-23",
     "tiersCarried": "",
     "cues": [],
     "vttLang": "",
-    "story": []
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/854/699/34bb16c4bdec28341e5b01688ef60fd2_original.png?fit=scale-down&origin=ugc&q=100&v=1794382445&width=680&sig=W6fCIa8cyTsoovPawEJISpgUC1NwrL%2F5e5F6zou1HDg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/869/295/81a311e8b8626d1e18d3b5e6e08689f1_original.png?fit=scale-down&origin=ugc&q=100&v=1794474771&width=680&sig=ImnVmkvSXVr%2Fen2TGxe%2F8Dv0HFbNYxqOSZycX5pcRwQ%3D"
+     },
+     {
+      "t": "p",
+      "x": "Great design makes complicated things feel simple.",
+      "z": "优秀的设计让复杂的事情变得简单。"
+     },
+     {
+      "t": "p",
+      "x": "Meet Catsights, a new kind of trackpad that brings precision navigation and effortless number entry together on one beautifully simple surface.",
+      "z": "认识一下 Catsights，这是一款新型触控板，在一个简洁美观的表面上集成了精准导航和轻松数字输入功能。"
+     },
+     {
+      "t": "p",
+      "x": "Thoughtfully designed for the modern workspace, Catsights combines a responsive touchpad, an integrated numeric keypad, tactile haptic feedback, and intelligent cross-platform gestures into one versatile device.",
+      "z": "Catsights专为现代工作空间精心设计，将灵敏的触摸板、集成数字小键盘、触觉反馈和智能跨平台手势融于一体，打造出一款多功能设备。"
+     },
+     {
+      "t": "p",
+      "x": "Everything you need to navigate and work with numbers, right at your fingertips.",
+      "z": "您需要的一切，尽在指尖，轻松浏览和处理数字。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/854/705/03136fa9a51e1b91830cacc50f06e043_original.png?fit=scale-down&origin=ugc&q=100&v=1794382475&width=680&sig=gfm6Y4cF3kZ5E2tzNL3nc0fn0d7BjsHrg8Jkfu9nyZw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/837/779/c4439e1b19f0a27b7e15198bd3391e62_original.png?fit=scale-down&origin=ugc&q=100&v=1794277414&width=680&sig=3ZJWsJVHkTz3DjRJe0BRWJm%2FtVJ%2FGd96SMg0LZaWiwk%3D"
+     },
+     {
+      "t": "p",
+      "x": "We've always admired the seamless experience of Apple's Magic Keyboard and Magic Trackpad. But we kept asking ourselves: Why should a great typing experience, precise touch control, and effortless number entry require separate devices?",
+      "z": "我们一直钦佩 Apple 的妙控键盘和妙控触控板带来的顺畅体验。但我们一直在问自己：为什么出色的打字体验、精准的触摸控制和轻松的数字输入需要使用不同的设备？"
+     },
+     {
+      "t": "p",
+      "x": "So we challenged ourselves to bring them together. One beautifully integrated design, three essential functions, and the premium experience you expect.",
+      "z": "因此，我们挑战自我，将它们融为一体。一个完美一体化的设计，三种基本功能，以及您所期望的尊享体验。"
+     },
+     {
+      "t": "p",
+      "x": "Because great technology shouldn't be a luxury. It should be something everyone can enjoy.",
+      "z": "因为出色的技术不应成为一种奢侈品。它应该是每个人都能享受的东西。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/854/710/59ec6839975607788d1a8bd03a5601db_original.png?fit=scale-down&origin=ugc&q=100&v=1794382489&width=680&sig=OCJgFwupSLbZiDFAgy0zgAOWGg5qSSfGOoJgC006C08%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/840/634/4b40d1d8eae634a943fa02e4593fe492_original.png?fit=scale-down&origin=ugc&q=100&v=1794299518&width=680&sig=NHgUMAB1yx0dH%2F2U%2FvkTm2VpRnL%2Bwt5yrSvND%2BLH13A%3D"
+     },
+     {
+      "t": "p",
+      "x": "Great technology should feel right at home in your workspace.",
+      "z": "出色的技术应该让您在工作空间中感到宾至如归。"
+     },
+     {
+      "t": "p",
+      "x": "Catsights is designed with Mac users in mind, bringing familiar macOS gestures, precise navigation, and effortless typing into one thoughtfully integrated device.",
+      "z": "Catsights专为Mac用户设计，将熟悉的macOS手势、精准的导航和轻松的打字体验融于一款精心集成的设备中。"
+     },
+     {
+      "t": "p",
+      "x": "From navigating your desktop to entering numbers in a spreadsheet, everything feels intuitive and connected.",
+      "z": "从浏览桌面到在电子表格中输入数字，一切都感觉直观且连贯。"
+     },
+     {
+      "t": "p",
+      "x": "A familiar experience, with more possibilities built in",
+      "z": "熟悉的体验，内置更多可能性"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/904/731/c4e9fc1ecbbf6ca9bf1b3f5ed66fef4d_original.gif?fit=scale-down&origin=ugc&q=92&v=1794797896&width=680&sig=VgLrwUlhimNKFyw4pU9TqMKxqgrfkG7Ze6vHzhoSxMY%3D"
+     },
+     {
+      "t": "p",
+      "x": "The gestures you know and love on your Mac should feel just as natural with Catsights.",
+      "z": "您在Mac上熟悉并喜爱的手势，在Catsights上同样自然顺畅。"
+     },
+     {
+      "t": "p",
+      "x": "Featuring full support for Apple Magic Trackpad gestures on macOS, Catsights brings the familiar multi-touch experience to its spacious 6.8-inch glass trackpad. From effortless two-finger scrolling and pinch-to-zoom to Mission Control, switching between desktops, and navigating applications, every gesture feels intuitive and familiar.",
+      "z": "Catsights完全支持macOS上的Apple Magic Trackpad手势，在其宽敞的6.8英寸玻璃触控板上带来熟悉的 多点触控体验。从轻松的两指滚动和捏合缩放，到 Mission Control、在桌面之间切换以及浏览应用程序，每个手势都感觉直观而熟悉。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/904/883/935e97310aacf53f33aeb3e58dc90515_original.png?fit=scale-down&origin=ugc&q=100&v=1794798920&width=680&sig=xJnt%2BGGsJXGacCTkgNvStDGKP9VOdEPnZ8cbX4SJWNY%3D"
+     },
+     {
+      "t": "p",
+      "x": "Enjoy the freedom to navigate, create, and multitask using the gestures you've already mastered, with the precision and fluidity you expect from a great trackpad.",
+      "z": "Enjoy the freedom to navigate, create, and multitask using the gestures you've already mastered, with the precision and fluidity you expect from a great trackpad."
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/906/825/d8e3b841675be3a903f0e2e4ed6a65a0_original.gif?fit=scale-down&origin=ugc&q=92&v=1794813040&width=680&sig=Wg1GQq5a%2BYGKOCINXraY6%2FkV7gW4R2FNVWJuL%2BD9SIk%3D"
+     },
+     {
+      "t": "p",
+      "x": "Every familiar gesture, beautifully integrated into your everyday workflow.",
+      "z": "Every familiar gesture, beautifully integrated into your everyday workflow."
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/854/714/fd3b03ec814af8c0e571099202cd8b19_original.png?fit=scale-down&origin=ugc&q=100&v=1794382515&width=680&sig=LgU615ITWWoT8Ng0MiHw6ffk0NaEinVYtKprefD3plM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/837/860/2c74d23d89323e4c58a52e4b39799cfb_original.gif?fit=scale-down&origin=ugc&q=92&v=1794278059&width=680&sig=X7dx7%2FP821U%2BdYNnKf7PbgNIPJNZ25VYPUbVK5TuZ0M%3D"
+     },
+     {
+      "t": "p",
+      "x": "Why should navigation and number entry require two separate devices?",
+      "z": "Why should navigation and number entry require two separate devices?"
+     },
+     {
+      "t": "p",
+      "x": "Catsights brings them together. In Trackpad Mode, enjoy smooth, intuitive navigation across your screen. Switch to Numpad Mode, and the same surface becomes a dedicated space for entering numbers.",
+      "z": "Catsights brings them together. In Trackpad Mode, enjoy smooth, intuitive navigation across your screen. Switch to Numpad Mode, and the same surface becomes a dedicated space for entering numbers."
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/906/618/e6867fa5b4dede9f83921f0ed8bb0a92_original.png?fit=scale-down&origin=ugc&q=100&v=1794811420&width=680&sig=MAF8oKazFx95Jz%2FaO0XiobApTL3XGV8ktnz77drEFus%3D"
+     },
+     {
+      "t": "p",
+      "x": "Move from scrolling through a document to working with spreadsheets without reaching for another accessory. Every interaction feels more connected, and your workspace stays beautifully simple.",
+      "z": "Move from scrolling through a document to working with spreadsheets without reaching for another accessory. Every interaction feels more connected, and your workspace stays beautifully simple."
+     },
+     {
+      "t": "p",
+      "x": "It's everything you appreciate about a great trackpad, with another dimension of productivity built right in.",
+      "z": "It's everything you appreciate about a great trackpad, with another dimension of productivity built right in."
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/854/720/7969890928f59c29a8e4b210787042b6_original.png?fit=scale-down&origin=ugc&q=100&v=1794382552&width=680&sig=TZoXeduQv6Z%2BD9LX9sG1el5huLKI3fuMRMINWMWuTrI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/839/442/3468e3d149e3cf281c11e2b7484b067c_original.gif?fit=scale-down&origin=ugc&q=92&v=1794290950&width=680&sig=CUUQeKtxvQeumL5tDdWao2gljM2rUPnwC%2F%2BI3NDIHYk%3D"
+     },
+     {
+      "t": "p",
+      "x": "For anyone who spends hours working with numbers, the right tools can make all the difference.",
+      "z": "For anyone who spends hours working with numbers, the right tools can make all the difference."
+     },
+     {
+      "t": "p",
+      "x": "Catsights transforms its touch surface into a dedicated numeric keypad, bringing convenient number entry to the same place you navigate. From financial reports and spreadsheets to everyday calculations, it's designed to keep numerical tasks feeling natural and efficient.",
+      "z": "Catsights transforms its touch surface into a dedicated numeric keypad, bringing convenient number entry to the same place you navigate. From financial reports and spreadsheets to everyday calculations, it's designed to keep numerical tasks feeling natural and efficient."
+     },
+     {
+      "t": "p",
+      "x": "Its accidental-touch prevention technology helps minimize unintended inputs in Numpad Mode, while haptic feedback gives each supported touch a clearer tactile response.",
+      "z": "Its accidental-touch prevention technology helps minimize unintended inputs in Numpad Mode, while haptic feedback gives each supported touch a clearer tactile response."
+     },
+     {
+      "t": "p",
+      "x": "Your workflow shouldn't have to change when your computer does.",
+      "z": "Your workflow shouldn't have to change when your computer does."
+     },
+     {
+      "t": "p",
+      "x": "Catsights intelligently recognizes Windows and macOS environments, automatically adapting its gesture behavior to the connected system. Whether you're scrolling, navigating, or switching between supported gestures, the experience is designed to feel familiar on either platform.",
+      "z": "Catsights intelligently recognizes Windows and macOS environments, automatically adapting its gesture behavior to the connected system. Whether you're scrolling, navigating, or switching between supported gestures, the experience is designed to feel familiar on either platform."
+     },
+     {
+      "t": "p",
+      "x": "Move between your Mac and Windows setup with greater confidence and less adjustment.",
+      "z": "Move between your Mac and Windows setup with greater confidence and less adjustment."
+     },
+     {
+      "t": "p",
+      "x": "Catsights features 2 mm key travel and generously sized 16.6 mm keys, giving your fingers more room to move and every keystroke a satisfying, responsive feel. The carefully designed scissor-switch mechanism delivers a comfortable balance of tactile feedback and smooth operation, making everything from quick messages to long writing sessions feel natural and effortless.",
+      "z": "Catsights features 2 mm key travel and generously sized 16.6 mm keys, giving your fingers more room to move and every keystroke a satisfying, responsive feel. The carefully designed scissor-switch mechanism delivers a comfortable balance of tactile feedback and smooth operation, making everything from quick messages to long writing sessions feel natural and effortless."
+     }
+    ]
    }
   ]
  },
