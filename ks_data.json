@@ -1,10 +1,10 @@
 [
  {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T17:37:38+07:00",
+  "generatedAt": "2026-11-24T19:30:48+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
   "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 42,
+  "poolSize": 41,
   "projects": [
    {
     "id": 2099488698,
@@ -18,11 +18,11 @@
     "currency": "HKD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 4154233.0,
-    "usdPledged": "529359.12212052",
+    "pledged": 4094612.0,
+    "usdPledged": "521761.83034128",
     "goalUsd": 1274.26,
-    "percentFunded": 41542.33,
-    "backers": 355,
+    "percentFunded": 40946.12,
+    "backers": 354,
     "deadline": 1795532381,
     "launchedAt": 1792504781,
     "staffPick": true,
@@ -32,7 +32,7 @@
     "kwHits": [
      "ai"
     ],
-    "score": 0.7614,
+    "score": 0.7611,
     "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
     "videoMp4": "https://v2.kickstarter.com/1795503630-tT8x7W%2BZwvUkU9xj%2FHKOC5RKVjKXcCxrhmwRtjep3nc%3D/projects/5343527/video-1466952-h264_high.mp4",
     "videoHls": "https://v2.kickstarter.com/1795503630-tT8x7W%2BZwvUkU9xj%2FHKOC5RKVjKXcCxrhmwRtjep3nc%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
@@ -84,11 +84,11 @@
      {
       "t": "p",
       "x": "pledged of $1,275 pledged of $1,275 goal",
-      "z": "已认捐 $1,275 已认捐 $1,275 目标金额"
+      "z": "已认捐 $1,275 目标金额为 $1,275"
      },
      {
       "t": "p",
-      "x": "4 hours to go",
+      "x": "2 hours to go",
       "z": "小时结束"
      },
      {
@@ -113,11 +113,11 @@
      {
       "t": "p",
       "x": "pledged of $1,275 pledged of $1,275 goal",
-      "z": "已认捐 $1,275 已认捐 $1,275 目标金额"
+      "z": "已认捐 $1,275 目标金额为 $1,275"
      },
      {
       "t": "p",
-      "x": "4 hours to go",
+      "x": "2 hours to go",
       "z": "小时结束"
      },
      {
@@ -158,7 +158,7 @@
      {
       "t": "p",
       "x": "*   [**Why a Dedicated Computer**](h:Why-a-Dedicated-Computer)",
-      "z": "* [**为什么需要专用电脑**](h:Why-a-Dedicated-Computer)"
+      "z": "* [**为什么需要专用计算机**](h:Why-a-Dedicated-Computer)"
      },
      {
       "t": "p",
@@ -277,11 +277,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 300000.0,
-    "pledged": 16789036.0,
-    "usdPledged": "16789036.0",
+    "pledged": 16805645.0,
+    "usdPledged": "16805645.0",
     "goalUsd": 300000.0,
-    "percentFunded": 5596.345333333334,
-    "backers": 30802,
+    "percentFunded": 5601.881666666666,
+    "backers": 30831,
     "deadline": 1797523230,
     "launchedAt": 1794931230,
     "staffPick": true,
@@ -289,17 +289,17 @@
      "Technology 热门"
     ],
     "kwHits": [],
-    "score": 0.75,
+    "score": 0.7501,
     "coverRemote": "https://i.kickstarter.com/assets/055/987/203/5c24718c11c02c86b3fcad7fb8657e91_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1795456865&width=1024&sig=0Ez3avhsm69Yi70TpW1UZ%2FkRTA%2BRpu%2BXHE1RZikRaYE%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1795458675-cSdCgIbyQ0tZCXNRyEEu0zFmHnmDnjNRthnfHA8FA1w%3D/projects/5339535/video-1477755-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1795458675-cSdCgIbyQ0tZCXNRyEEu0zFmHnmDnjNRthnfHA8FA1w%3D/projects/5339535/video-1477755-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11532338,
       "price": 359.0,
       "title": "Flipper One — Pre-order Special",
       "desc": "Exclusive price for Pre-order coupon holders only\\n35% Off Estimate Retail Price ($550)\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
-      "backers": 11813,
+      "backers": 11955,
       "limit": null,
       "remaining": null,
       "eta": 1814400000,
@@ -310,9 +310,9 @@
       "price": 399.0,
       "title": "Flipper One — Kickstarter Special",
       "desc": "Limited Kickstarter Special Price\\n25% Off Estimate Retail Price ($550)\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
-      "backers": 6312,
+      "backers": 6432,
       "limit": 15000,
-      "remaining": 8688,
+      "remaining": 8568,
       "eta": 1814400000,
       "shipping": "restricted"
      },
@@ -321,7 +321,7 @@
       "price": 759.0,
       "title": "Ultimate Bundle — F1 + 5G + SDR + LoRa",
       "desc": "Limited Early Bird Price\\n35% Off Estimate Retail Price\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
-      "backers": 7187,
+      "backers": 7367,
       "limit": null,
       "remaining": null,
       "eta": 1814400000,
@@ -329,8 +329,8 @@
      }
     ],
     "rewardsTotal": 16,
-    "tiersDate": "2026-11-23",
-    "tiersCarried": "2026-11-23",
+    "tiersDate": "2026-11-24",
+    "tiersCarried": "",
     "cues": [],
     "vttLang": "",
     "story": [
@@ -341,7 +341,7 @@
      {
       "t": "p",
       "x": "Flipper One runs on completely open-source Linux firmware with a mainline kernel. This means full compatibility with the latest kernel versions:",
-      "z": "Flipper One 运行于完全开源的 Linux 固件上，采用主线内核。这意味着与最新内核版本完全兼容："
+      "z": "Flipper One 运行于完全开源的 Linux 固件之上，采用主线内核。这意味着与最新内核版本完全兼容："
      },
      {
       "t": "p",
@@ -351,7 +351,7 @@
      {
       "t": "p",
       "x": "*   No binary blobs — no proprietary code or binaries in the boot process.",
-      "z": "* 无二进制大对象 — 启动过程中没有专有代码或二进制文件。"
+      "z": "* 无二进制 Blob — 启动过程中没有专有代码或二进制文件。"
      },
      {
       "t": "p",
@@ -361,7 +361,7 @@
      {
       "t": "p",
       "x": "Our goal is to create a fully upstream-supported ARM computer that never becomes outdated, along with a well-documented platform giving the community maximum freedom to customize. To pull this off, we've [partnered with the Collabora team](https://www.collabora.com/news-and-blog/news-and-events/collabora-flipper-opening-up-the-rk3576.html), well-known contributors to the Linux kernel.",
-      "z": "我们的目标是打造一款完全由上游支持的 ARM 电脑，它永远不会过时，同时提供一个文档齐全的平台，让社区享有最大的定制自由。为了实现这一目标，我们[与 Collabora 团队](https://www.collabora.com/news-and-blog/news-and-events/collabora-flipper-opening-up-the-rk3576.html)建立了合作关系，该团队是 Linux 内核的知名贡献者。"
+      "z": "我们的目标是打造一款完全由上游支持的 ARM 电脑，它永远不会过时，同时提供一个文档齐全的平台，让社区拥有最大的定制自由。为了实现这一目标，我们[与 Collabora 团队](https://www.collabora.com/news-and-blog/news-and-events/collabora-flipper-opening-up-the-rk3576.html)建立了合作关系，他们是 Linux 内核的知名贡献者。"
      },
      {
       "t": "img",
@@ -375,16 +375,16 @@
      {
       "t": "p",
       "x": "*   Layer 1 (One) — Everything that's IP-connected: Wi-Fi, Ethernet, 5G, and satellite. It's all about networking, data transfer, and high-performance computing. An open Linux toolkit running on powerful hardware, enough computing power to handle SDR and local AI.",
-      "z": "*第1层（一层）——所有通过IP连接的设备：Wi-Fi、以太网、5G和卫星。它与网络、数据传输和高性能计算息息相关。一个在强大硬件上运行的开放式Linux工具包，具备足够的计算能力来处理SDR和本地AI。"
+      "z": "*第1层（一层）—所有通过IP连接的设备：Wi-Fi、以太网、5G和卫星。这完全与联网、数据传输和高性能计算有关。一个在强大硬件上运行的开放式Linux工具包，具有足够的算力来处理SDR和本地AI。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/923/640/50558c1fd842700e4a0733b7710541d1_original.png?fit=scale-down&origin=ugc&q=92&v=1794914871&width=1360&sig=9vWN6hRxeTqfLP82xzFOJXxRnzkW2LfgjjtqbW3upYE%3D"
+      "u": "https://i.kickstarter.com/assets/055/987/264/c228665f0793c9caef7f02f1204a9b70_original.png?fit=scale-down&origin=ugc&q=92&v=1795457241&width=1360&sig=lC76q1PEDaS%2Fsx%2FHJBeew6jWBPCrD%2B5mCeMXCLlGAOg%3D"
      },
      {
       "t": "p",
       "x": "So they're not \"newer\" and \"older\" generations of the same product. Flipper One doesn't replace Flipper Zero — they're different categories of devices. Comparing them directly would be like comparing a hammer to a screwdriver.",
-      "z": "因此，它们并不是同一款产品的“更新”和“更旧”的代际产品。Flipper One 并不能取代 Flipper Zero，它们属于不同类别的设备。直接比较它们就像拿锤子和螺丝刀作比较。"
+      "z": "因此，它们并不是同一款产品的“更新”和“更旧”的代次。Flipper One 并不取代 Flipper Zero，它们属于不同类别的设备。直接比较它们就像拿锤子和螺丝刀作比较。"
      },
      {
       "t": "img",
@@ -393,7 +393,7 @@
      {
       "t": "p",
       "x": "*   Low-power MCU (Raspberry Pi RP2350) — manages LCD display, buttons, power and controls system boot stages.",
-      "z": "* 低功耗 MCU（Raspberry Pi RP2350）— 管理液晶屏、按钮、电源并控制系统启动阶段。"
+      "z": "* 低功耗 MCU（Raspberry Pi RP2350）— 管理液晶显示屏、按钮、电源并控制系统启动阶段。"
      },
      {
       "t": "p",
@@ -403,7 +403,7 @@
      {
       "t": "p",
       "x": "The idea behind the [2-processor architecture](https://docs.flipper.net/one/mcu-firmware/architecture) is to make Flipper One a fully standalone device that remains operational even if the user completely breaks the Linux system. It allows to recover OS without needing an external computer or additional software.",
-      "z": "[双处理器架构](https://docs.flipper.net/one/mcu-firmware/architecture)的理念是，即使用户完全破坏了Linux系统，Flipper One也能作为一个完全独立的设备保持运行。它允许在不需要外接电脑或额外软件的情况下恢复操作系统。"
+      "z": "[双处理器架构](https://docs.flipper.net/one/mcu-firmware/architecture)的理念是，即使用户完全破坏了Linux系统，Flipper One也能作为一个完全独立的设备保持运行。它允许在不需要外部计算机或额外软件的情况下恢复操作系统。"
      },
      {
       "t": "img",
@@ -412,7 +412,7 @@
      {
       "t": "p",
       "x": "Connect Flipper One to a laptop with a single USB-C cable to get SSH console access and charge the device at the same time. No extra adapters are needed for Linux console access or power — Flipper One can simultaneously emulate a USB network adapter, a serial (COM port), or disk device.![Image 8](https://i.kickstarter.com/assets/055/915/013/b36f023ae1f0579f18e918885b6d21ce_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794859211&width=1360&sig=y6mWufNb1H5cJeEzqLFRFm%2Bq4O%2Bze3PFFrDrUqXCzLo%3D)",
-      "z": "使用一根USB-C线缆将Flipper One连接到笔记本电脑，即可获得SSH控制台访问权限，同时还能为设备充电。访问 Linux 控制台或供电无需额外的适配器——Flipper One 可以同时模拟 USB 网络适配器、串行（COM 端口）或磁盘设备！[图片 8](https://i.kickstarter.com/assets/055/915/013/b36f023ae1f0579f18e918885b6d21ce_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794859211&width=1360&sig=y6mWufNb1H5cJeEzqLFRFm%2Bq4O%2Bze3PFFrDrUqXCzLo%3D)"
+      "z": "使用一根USB-C线缆将Flipper One连接到笔记本电脑，即可获得SSH控制台访问权限，并同时为设备充电。访问Linux控制台或供电无需额外的适配器——Flipper One可以同时模拟USB网络适配器、串行（COM端口）或磁盘设备！[图片 8](https://i.kickstarter.com/assets/055/915/013/b36f023ae1f0579f18e918885b6d21ce_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794859211&width=1360&sig=y6mWufNb1H5cJeEzqLFRFm%2Bq4O%2Bze3PFFrDrUqXCzLo%3D)"
      },
      {
       "t": "p",
@@ -427,12 +427,12 @@
      {
       "t": "p",
       "x": "Connect Flipper One to an external display using a single USB Type-C cable and get a full desktop experience. ![Image 9](https://i.kickstarter.com/assets/055/923/658/b9093058f1922391792bcb0d1025bbd6_original.png?fit=scale-down&origin=ugc&q=92&v=1794914956&width=1360&sig=ReYnTcSZBGfwNJG0M2AfTDJnHCQlsFHwcucui878umE%3D)",
-      "z": "使用一根 USB Type-C 线缆将 Flipper One 连接到外接显示器，即可获得完整的桌面体验。！[图片 9](https://i.kickstarter.com/assets/055/923/658/b9093058f1922391792bcb0d1025bbd6_original.png?fit=scale-down&origin=ugc&q=92&v=1794914956&width=1360&sig=ReYnTcSZBGfwNJG0M2AfTDJnHCQlsFHwcucui878umE%3D)"
+      "z": "使用一根USB Type-C线缆将Flipper One连接到外接显示器，即可获得完整的桌面体验。！[图片 9](https://i.kickstarter.com/assets/055/923/658/b9093058f1922391792bcb0d1025bbd6_original.png?fit=scale-down&origin=ugc&q=92&v=1794914956&width=1360&sig=ReYnTcSZBGfwNJG0M2AfTDJnHCQlsFHwcucui878umE%3D)"
      },
      {
       "t": "p",
       "x": "*   USB DisplayPort Alt Mode — video output at 4K@120Hz to an external display over a single USB-C cable.",
-      "z": "* USB DisplayPort Alt 模式 — 通过单根 USB-C 线缆以 4K@120Hz 的分辨率将视频输出到外接显示器。"
+      "z": "* USB DisplayPort 备用模式 — 通过单根 USB-C 线缆以 4K@120Hz 的分辨率将视频输出到外接显示器。"
      },
      {
       "t": "p",
@@ -460,7 +460,7 @@
      {
       "t": "p",
       "x": "*   2× Gigabit Ethernet— two independent WAN/LAN ports, each running at 1 Gbps. Can be used for a transparent bridge, MitM sniffing, and more.",
-      "z": "* 2 个千兆以太网端口——两个独立的 WAN/LAN 端口，每个端口的运行速度均为 1 Gbps。可用于透明网桥、中间人攻击嗅探等。"
+      "z": "* 2 个千兆以太网端口：两个独立的 WAN/LAN 端口，每个端口的运行速度均为 1 Gbps。可用于透明网桥、中间人攻击 (MitM) 嗅探等。"
      },
      {
       "t": "p",
@@ -475,12 +475,12 @@
      {
       "t": "p",
       "x": "*   USB Ethernet— up to 5 Gbps emulated over USB-C. Connect your laptop or smartphone via a USB cable to add an extra network interface. Works via USB CDC-NCM, so no drivers are required.",
-      "z": "* USB 以太网——通过 USB-C 模拟，速度高达 5 Gbps。通过 USB 线缆连接笔记本电脑或智能手机，即可添加额外的网络接口。通过 USB CDC-NCM 工作，因此无需驱动程序。"
+      "z": "* USB 以太网——通过 USB-C 模拟，速度高达 5 Gbps。通过 USB 线缆连接您的笔记本电脑或智能手机，即可添加额外的网络接口。通过 USB CDC-NCM 工作，因此无需驱动程序。"
      },
      {
       "t": "p",
       "x": "Out of the box, Flipper One can work as a gateway to any network, a multi-hotspot bridge, an inline Ethernet sniffer, a USB Wi-Fi/Ethernet adapter for a PC or phone.",
-      "z": "Flipper One 开箱即用，可作为任何网络的网关、多热点桥接器、串联式以太网嗅探器、用于电脑或手机的 USB Wi-Fi/以太网适配器。"
+      "z": "Flipper One 开箱即用，可充当任何网络的网关、多热点桥接器、串联式以太网嗅探器、用于电脑或手机的 USB Wi-Fi/以太网适配器。"
      },
      {
       "t": "p",
@@ -529,11 +529,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 20000.0,
-    "pledged": 580668.0,
-    "usdPledged": "580668.0",
+    "pledged": 581886.0,
+    "usdPledged": "581886.0",
     "goalUsd": 20000.0,
-    "percentFunded": 2903.34,
-    "backers": 3438,
+    "percentFunded": 2909.43,
+    "backers": 3445,
     "deadline": 1797786338,
     "launchedAt": 1794330338,
     "staffPick": true,
@@ -545,19 +545,19 @@
      "ai",
      "voice"
     ],
-    "score": 0.722,
+    "score": 0.6804,
     "coverRemote": "https://i.kickstarter.com/assets/055/869/797/bfcad38118e9c711060c5806e2f9c558_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794479140&width=1024&sig=UyS8SPLXyzmBY%2F9PRysXGpHgxxhcWCnbmpytFMtf8j0%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1795462506-slrwGN7a3pNVxP8AoRH%2BPPTza%2FUcfXv%2FYTs1jPNP220%3D/projects/5413240/video-1476329-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1795462506-slrwGN7a3pNVxP8AoRH%2BPPTza%2FUcfXv%2FYTs1jPNP220%3D/projects/5413240/video-1476329-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11519924,
       "price": 99.0,
       "title": "Founding Member: Ring + 3 months",
       "desc": "Save 69% | Founding Member · Waitlist only, first 24 hours → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 1298,
+      "backers": 1300,
       "limit": 1350,
-      "remaining": 52,
+      "remaining": 50,
       "eta": 1798761600,
       "shipping": "unrestricted"
      },
@@ -566,9 +566,9 @@
       "price": 159.0,
       "title": "Early Bird: Ring + 3 months",
       "desc": "Save 51% | Early Bird → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 1385,
-      "limit": 1420,
-      "remaining": 35,
+      "backers": 1508,
+      "limit": 1540,
+      "remaining": 32,
       "eta": 1801440000,
       "shipping": "unrestricted"
      },
@@ -577,16 +577,16 @@
       "price": 249.0,
       "title": "Early Bird: Ring + HumanPods + 6 months",
       "desc": "Save 54% | Early Bird → One Interface ring with its charging case, HumanPods, and 6 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
-      "backers": 269,
-      "limit": 280,
-      "remaining": 11,
+      "backers": 281,
+      "limit": 300,
+      "remaining": 19,
       "eta": 1801440000,
       "shipping": "unrestricted"
      }
     ],
     "rewardsTotal": 13,
-    "tiersDate": "2026-11-23",
-    "tiersCarried": "2026-11-23",
+    "tiersDate": "2026-11-24",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
@@ -611,7 +611,7 @@
      [
       7.0,
       9.52,
-      "过去两年里，我们一直在努力"
+      "过去两年，我们一直在努力"
      ],
      [
       9.52,
@@ -636,7 +636,7 @@
      [
       16.0,
       20.54,
-      "这是Interface。它是一个圆环。你按下"
+      "这是Interface。这是一个圆环。你按下"
      ],
      [
       20.54,
@@ -691,7 +691,7 @@
      [
       41.31,
       43.31,
-      "记住，这只是一个开始。"
+      "记住，这仅仅是个开始。"
      ],
      [
       43.31,
@@ -701,7 +701,7 @@
      [
       45.44,
       47.51,
-      "说话，您的言语就会出现在任何地方"
+      "说话，您的文字就会出现在任何地方"
      ],
      [
       47.51,
@@ -736,7 +736,7 @@
      [
       57.31,
       60.31,
-      "比如云、ChatGPT、静音、直觉以及"
+      "比如云、ChatGPT、静音、直觉和"
      ],
      [
       60.31,
@@ -781,7 +781,7 @@
      [
       76.31,
       79.27,
-      "Interface还关注"
+      "界面还关注"
      ],
      [
       79.27,
@@ -806,7 +806,7 @@
      [
       87.91,
       89.91,
-      "刚才在一家小餐馆吃了牛油果吐司。"
+      "刚在Quartato吃了牛油果吐司。"
      ],
      [
       89.91,
@@ -836,7 +836,7 @@
      [
       99.91,
       101.97,
-      "把这些信息综合起来，你就会看到"
+      "把它们放在一起，你就会看到"
      ],
      [
       101.97,
@@ -856,7 +856,7 @@
      [
       105.91,
       108.48,
-      "所有这些都蕴含在坚固的不锈钢中。"
+      "所有这些都蕴含在坚固的不锈钢中"
      ],
      [
       108.48,
@@ -906,12 +906,12 @@
      [
       122.91,
       124.91,
-      "界面以隐私为核心设计。"
+      "界面以隐私为核心。"
      ],
      [
       124.91,
       126.91,
-      "只有当您按下它时，它才会聆听。"
+      "只有在您按下时，它才会聆听。"
      ],
      [
       126.91,
@@ -926,7 +926,7 @@
      [
       130.93,
       131.91,
-      "今天周六。"
+      "今天星期六。"
      ],
      [
       131.91,
@@ -936,7 +936,7 @@
      [
       134.02,
       135.91,
-      "你旁边的人都能听到。"
+      "您旁边的人都能听到。"
      ],
      [
       135.91,
@@ -1019,7 +1019,7 @@
      {
       "t": "p",
       "x": "*   [**Privacy and NatureOS**](h:Privacy-and-NatureOS)",
-      "z": "* [**隐私和 NatureOS**](h:Privacy-and-NatureOS)"
+      "z": "* [**隐私和NatureOS**](h:Privacy-and-NatureOS)"
      },
      {
       "t": "p",
@@ -1034,7 +1034,7 @@
      {
       "t": "p",
       "x": "*   [**Everything in one ring**](h:Everything-in-one-ring)",
-      "z": "* [**一环全包**](h:Everything-in-one-ring)"
+      "z": "* [**一环囊括一切**](h:Everything-in-one-ring)"
      },
      {
       "t": "p",
@@ -1066,7 +1066,7 @@
      {
       "t": "p",
       "x": "Interface is a ring with one button: press it, talk, and your words become a note, a message or a request to your AI agents, without taking out your phone. It works with NatureOS on iPhone and Android, and with your Mac or Windows computer.",
-      "z": "Interface是一款带有一个按钮的戒指：按下按钮并说话，您的言语就会变成一条备忘、一条消息或对AI代理的请求，无需拿出手机。它可在iPhone和Android上与NatureOS配合使用，也可与您的Mac或Windows电脑配合使用。"
+      "z": "Interface是一款带有一个按钮的戒指：按下按钮，说出您的话，这些话就会变成一条备忘、一条消息或向您的AI代理发出的请求，无需拿出手机。它可在iPhone和Android上与NatureOS配合使用，也可与您的Mac或Windows电脑配合使用。"
      },
      {
       "t": "img",
@@ -1084,7 +1084,7 @@
      {
       "t": "p",
       "x": "Membership ($9/month) adds our built-in AI: fast and accurate transcripts in 90+ languages, meeting recaps, dictation into any app, insights on your health, and a ready-to-use infrastructure for connecting multiple AI agents to your Interface. 3 to 6 months are included with your reward. If you stop, your ring keeps working with your own AI via webhook, and everything you recorded and transcribed stays yours.",
-      "z": "会员（$9/月）可使用我们的内置AI：90多种语言的快速准确转录、会议摘要、向任何应用听写、健康洞察，以及将多个AI代理连接到您的Interface的即用型基础设施。您的奖励包含3至6个月的会员资格。如果您停止订阅，您的戒指将通过 Webhook 继续与您自己的 AI 配合工作，您录制和转录的所有内容都将归您所有。"
+      "z": "会员（$9/月）可使用我们的内置AI：90多种语言的快速准确转录、会议摘要、向任何应用听写、健康洞察，以及将多个AI代理连接到您的界面的即用型基础设施。您的奖励包含3至6个月的会员资格。如果您停止订阅，您的戒指将通过 Webhook 继续与您自己的 AI 配合工作，您录制和转录的所有内容仍归您所有。"
      },
      {
       "t": "img",
@@ -1130,22 +1130,22 @@
      {
       "t": "p",
       "x": "Interface reads your heart rate, HRV, blood oxygen, sleep, skin temperature and activity, day and night. Log what you eat, your workouts, your supplements and how you feel, and your AI pairs it with your biometrics to give you insights made for you.",
-      "z": "Interface全天候读取您的心率、HRV、血氧、睡眠、体表温度和活动情况。记录您的饮食、锻炼、补充剂以及您的感受，人工智能会将这些信息与您的生物特征数据相结合，为您提供量身定制的洞察分析。"
+      "z": "Interface全天候读取您的心率、心率变异性（HRV）、血氧、睡眠、体表温度和活动情况。记录您的饮食、锻炼、补充剂和感受，人工智能会将这些信息与您的生物特征数据相结合，为您提供个性化的洞察分析。"
      },
      {
       "t": "p",
       "x": "Your agents use your apps for you. Ask, and the agent you chose does the work. Anything that matters waits for your approval, and in NatureOS you choose which apps each agent can use.",
-      "z": "您的代理为您使用您的应用程序。您提出要求，您选择的代理就会为您完成任务。所有重要事项均需等待您的批准，在 NatureOS 中，您可以选择每个代理可以使用哪些应用程序。"
+      "z": "您的代理为您使用您的应用程序。您提出要求，您选择的代理就会为您完成任务。所有重要事项均需等待您的批准，在NatureOS中，您可以选择每个代理可以使用哪些应用程序。"
      },
      {
       "t": "p",
       "x": "Catch a thought before it's gone. Dictate an idea, a reminder or a name, and find it later in NatureOS, or let your agents organize it for you.",
-      "z": "在念头消失之前捕捉它。口述一个想法、一条提醒或一个名字，稍后在NatureOS中找到它，或者让您的智能体为您整理。"
+      "z": "在念头消失之前捕捉它。口述一个想法、一个提醒或一个名字，稍后在NatureOS中找到它，或者让您的代理为您整理。"
      },
      {
       "t": "p",
       "x": "Record a meeting and get the full transcript, who said what, and a recap with decisions and next steps. Later, just ask what you decided. The light on the ring shows when it's recording.",
-      "z": "录制会议并获取完整文字记录，包括发言人和发言内容，以及包含决策和后续步骤的摘要。稍后，只需询问你们决定了什么。环形灯亮起时表示正在录制。"
+      "z": "录制会议并获取完整文字记录、发言人及发言内容，以及包含决策和后续步骤的摘要。稍后，只需询问你们决定了什么。环形灯亮起时表示正在录制。"
      },
      {
       "t": "p",
@@ -1176,11 +1176,11 @@
     "currency": "USD",
     "currencySymbol": "$",
     "goal": 10000.0,
-    "pledged": 466554.0,
-    "usdPledged": "466554.0",
+    "pledged": 467676.0,
+    "usdPledged": "467676.0",
     "goalUsd": 10000.0,
-    "percentFunded": 4665.54,
-    "backers": 2955,
+    "percentFunded": 4676.76,
+    "backers": 2962,
     "deadline": 1799244023,
     "launchedAt": 1794924023,
     "staffPick": true,
@@ -1192,19 +1192,19 @@
      "ai",
      "mechanical keyboard"
     ],
-    "score": 0.6401,
+    "score": 0.6402,
     "coverRemote": "https://i.kickstarter.com/assets/055/968/259/65ad52f5cdb29ff02cebd2f37985401d_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1795252901&width=1024&sig=UMkgdUp%2Fl0opcXDPwBTW0llEqqWnRIapj68lebsM71c%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "videoMp4": "https://v2.kickstarter.com/1795493264-n2SLtOePYnznA6BB3z2GdozJ9qhBMl9AZW%2Fyx1IZwWk%3D/projects/5405349/video-1477659-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1795493264-n2SLtOePYnznA6BB3z2GdozJ9qhBMl9AZW%2Fyx1IZwWk%3D/projects/5405349/video-1477659-hls_playlist.m3u8",
     "rewards": [
      {
       "id": 11498595,
       "price": 105.0,
       "title": "Returning Customer Exclusive",
       "desc": "An exclusive price for returning customers from our official website or Amazon. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
-      "backers": 358,
+      "backers": 367,
       "limit": 3000,
-      "remaining": 2642,
+      "remaining": 2633,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -1213,9 +1213,9 @@
       "price": 108.0,
       "title": "12-Hour Launch Special",
       "desc": "Launch pricing for the first 12 hours of the Rainy 75 V2 campaign. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
-      "backers": 1468,
+      "backers": 1465,
       "limit": 2000,
-      "remaining": 532,
+      "remaining": 535,
       "eta": 1798761600,
       "shipping": "restricted"
      },
@@ -1224,21 +1224,21 @@
       "price": 115.0,
       "title": "Super Early Bird",
       "desc": "Get the Rainy 75 V2 at the Super Early Bird price. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
-      "backers": 621,
-      "limit": 621,
-      "remaining": 0,
+      "backers": 702,
+      "limit": 705,
+      "remaining": 3,
       "eta": 1798761600,
       "shipping": "restricted"
      }
     ],
     "rewardsTotal": 16,
-    "tiersDate": "2026-11-23",
-    "tiersCarried": "2026-11-23",
+    "tiersDate": "2026-11-24",
+    "tiersCarried": "",
     "cues": [
      [
       0.0,
       3.0,
-      "历史铭记着那部红色电话。"
+      "历史铭记着一部红色电话。"
      ],
      [
       5.2,
@@ -1303,7 +1303,7 @@
      [
       39.99,
       41.99,
-      "他没有回答一个字。"
+      "他一言不发。"
      ],
      [
       42.99,
@@ -1326,7 +1326,7 @@
      {
       "t": "p",
       "x": "*   [**Battery, 8K & Low Front**](h:Battery-8K-Low-Front)",
-      "z": "* [**电池、8K 和低前置摄像头**](h:Battery-8K-Low-Front)"
+      "z": "* [**电池、8K 和低前置**](h:Battery-8K-Low-Front)"
      },
      {
       "t": "p",
@@ -1346,7 +1346,7 @@
      {
       "t": "p",
       "x": "*   [**Shows & Meetups**](h:Shows-Meetups)",
-      "z": "* [**展会与见面会**](h:Shows-Meetups)"
+      "z": "* [**演出和见面会**](h:Shows-Meetups)"
      },
      {
       "t": "p",
@@ -1361,7 +1361,7 @@
      {
       "t": "p",
       "x": "*   [**Shipping & Support**](h:Shipping-Support)",
-      "z": "* [**发货与支持**](h:Shipping-Support)"
+      "z": "* [**配送与支持**](h:Shipping-Support)"
      },
      {
       "t": "p",
@@ -1416,12 +1416,12 @@
      {
       "t": "p",
       "x": "We spent two years refusing to pick. V2 carries 10,000 mAh and still sits 17.4 mm low at the front. It reports 8,000 times a second when you want speed, and runs up to 1,000 hours when you would rather forget the cable. Every key lights up, and the price still starts at $99.",
-      "z": "我们花了两年时间，拒绝做出选择。V2 拥有 10000 mAh 的电量，前部厚度仍仅为 17.4 毫米。当您需要速度时，它每秒可报告 8000 次；当您不想使用充电线时，它最长可运行 1000 小时。每个按键都会亮起，起售价仍为 99 美元。"
+      "z": "我们花了两年时间，拒绝做出选择。V2 搭载 10000 mAh 电池，前部仍仅有 17.4 mm 厚。当您需要速度时，它每秒可报告 8,000 次；当您不想使用充电线时，它最长可运行 1,000 小时。每个按键都会亮起，起售价仍为 99 美元。"
      },
      {
       "t": "p",
       "x": "Big battery and low front. Fast and long-lived. Bright and $99. All of it, at once.",
-      "z": "大电池，低前置。快速且持久。明亮，售价99美元。所有这些，一次到位。"
+      "z": "大电池，低前脸。快速且持久。明亮，售价 99 美元。所有优点，一应俱全。"
      },
      {
       "t": "img",
@@ -1438,17 +1438,17 @@
      {
       "t": "p",
       "x": "First the sound. Two switch housings: Thock, deep and round; Clack, bright and short. Pick one, or both if you want.",
-      "z": "首先是声音。两种轴体外壳：Thock，声音低沉圆润；Clack，声音清脆短促。选择一种，或者如果您愿意，也可以两种都选。"
+      "z": "首先是声音。两种轴体外壳：Thock，声音低沉圆润；Clack，声音清脆短促。选择其一，或者如果您愿意，也可以两者兼有。"
      },
      {
       "t": "p",
       "x": "Then the feel. Three gasket mounts, soft, even and firm, that swap without tools.",
-      "z": "然后是手感。三个垫片支架，柔软、均匀且稳固，无需工具即可更换。"
+      "z": "然后是手感。三个垫片支架，柔软、均匀且牢固，无需工具即可更换。"
      },
      {
       "t": "p",
       "x": "Under all of it, foams, rebuilt: six layers instead of five, so what reaches your ear is the key and nothing else. You will do this for years. Every keystroke should be one you look forward to.",
-      "z": "在所有这些之下，是经过重新设计的泡沫：由五层变为六层，因此传到您耳朵里的只有按键声，别无其他。您将使用它很多年。每一次敲击键盘都应该让您充满期待。"
+      "z": "在所有这些之下，是经过重新设计的泡沫：由五层变为六层，因此传到您耳朵里的只有按键声，别无其他。您将多年如一日地使用它。每一次敲击键盘都应该让您充满期待。"
      },
      {
       "t": "p",
@@ -1463,7 +1463,7 @@
      {
       "t": "p",
       "x": "Three gasket mounts, six foam layers, two switches. That is 256 ways to build one keyboard, or 512 if you own both switches. One press opens the case, every switch is hot-swap, and nothing needs solder or a screwdriver. Finding your sound takes minutes, not a weekend.",
-      "z": "三个垫片支架、六层泡棉、两个开关。这意味着有 256 种方式可以组装一个键盘，如果您同时拥有两种开关，则有 512 种方式。一按即可打开外壳，每个轴体均可热插拔，无需焊接或使用螺丝刀。找到您的声音只需几分钟，而不是一个周末。"
+      "z": "三个垫片支架、六层泡棉、两个开关。这意味着有 256 种方式可以组装一个键盘，如果您同时拥有两种开关，则有 512 种方式。一按即可打开外壳，每个轴体均可热插拔，无需焊接或使用螺丝刀。找到您的专属声音只需几分钟，而不是一个周末。"
      },
      {
       "t": "img",
@@ -1489,7 +1489,7 @@
      {
       "t": "p",
       "x": "One press and the case is open. No screws, no tools.",
-      "z": "一按即可打开保护壳。无需螺丝，无需工具。"
+      "z": "一按即可打开表壳。无需螺丝，无需工具。"
      },
      {
       "t": "img",
@@ -1502,472 +1502,267 @@
     ]
    },
    {
-    "id": 736359379,
-    "name": "Altar II — Electronic Materials Office®",
-    "blurb": "Remarkably thin. Fully mechanical. Sustainably made.",
-    "url": "https://www.kickstarter.com/projects/electronicamaterials/altar-ii",
-    "category": "Hardware",
-    "creator": "Electronic Materials Office®",
-    "location": "London, UK",
-    "country": "the United Kingdom",
-    "currency": "GBP",
-    "currencySymbol": "£",
-    "goal": 10000.0,
-    "pledged": 581597.0,
-    "usdPledged": "778063.47345649",
-    "goalUsd": 13378.05,
-    "percentFunded": 5815.97,
-    "backers": 2742,
-    "deadline": 1796911200,
-    "launchedAt": 1794319091,
+    "id": 647705462,
+    "name": "Amoeba One: Mini keychain-phone.",
+    "blurb": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
+    "url": "https://www.kickstarter.com/projects/amoebaone/amoeba-one-mini-keychain-phone",
+    "category": "Gadgets",
+    "creator": "Amoeba One",
+    "location": "Troy, NY",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 25000.0,
+    "pledged": 535549.0,
+    "usdPledged": "535549.0",
+    "goalUsd": 25000.0,
+    "percentFunded": 2142.196,
+    "backers": 4443,
+    "deadline": 1795791604,
+    "launchedAt": 1791900004,
     "staffPick": true,
     "sources": [
-     "Hardware 热门"
+     "Technology 热门"
     ],
     "kwHits": [
      "ai"
     ],
-    "score": 0.5828,
-    "coverRemote": "https://i.kickstarter.com/assets/055/724/828/2baa97c39729466969c66182ce3d7d36_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793399442&width=1024&sig=35yvlpK9G3cnq78nLNcgbxrPpJYctPDPCGDDdUhlt5A%3D",
-    "videoMp4": null,
-    "videoHls": null,
+    "score": 0.5832,
+    "coverRemote": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D",
+    "videoMp4": "https://v2.kickstarter.com/1795455551-PSP5zteFQzspyzqcQriF%2FCPzTp0sjAw0qs9hpwYUi1Q%3D/projects/5347395/video-1464810-h264_high.mp4",
+    "videoHls": "https://v2.kickstarter.com/1795455551-PSP5zteFQzspyzqcQriF%2FCPzTp0sjAw0qs9hpwYUi1Q%3D/projects/5347395/video-1464810-hls_playlist.m3u8",
     "rewards": [
      {
-      "id": 11043989,
-      "price": 185.0,
-      "title": "Altar II - Reservation",
-      "desc": "Exclusive reservation price — $100 off retail ($349).\\n\\nOnly those who placed a $1 deposit prior to the Altar II Kickstarter campaign are eligible.\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
-      "backers": 1756,
+      "id": 11313442,
+      "price": 94.0,
+      "title": "Random color",
+      "desc": "One Amoeba One device in a random color.",
+      "backers": 860,
       "limit": null,
       "remaining": null,
-      "eta": 1814400000,
+      "eta": 1822348800,
       "shipping": "unrestricted"
      },
      {
-      "id": 11043993,
-      "price": 207.0,
-      "title": "Altar II - Early Bird",
-      "desc": "First 48 hours only — $70 off retail ($349).\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
-      "backers": 731,
+      "id": 11261115,
+      "price": 99.0,
+      "title": "Super Early Bird",
+      "desc": "One Amoeba One in your color. For our earliest backers.\\n\\nChoose your color after campaign via backer tools, all colors available.",
+      "backers": 1200,
       "limit": null,
       "remaining": null,
-      "eta": 1814400000,
+      "eta": 1822348800,
       "shipping": "unrestricted"
      },
      {
-      "id": 11043994,
-      "price": 222.0,
-      "title": "Altar II - Kickstarter Special",
-      "desc": "Exclusive Kickstarter price — $50 off retail ($349).\\n\\nChoose English ANSI or English ISO layout in the survey sent closer to shipping time.\\n\\nShipping and taxes not included. This will be charged when your order is ready to ship. See shipping section for more details.",
-      "backers": 121,
+      "id": 11261139,
+      "price": 110.0,
+      "title": "Early Bird",
+      "desc": "One Amoeba One in your color. Early bird price.\\n\\nChoose your color after campaign via backer tools, all colors available.",
+      "backers": 1011,
       "limit": null,
       "remaining": null,
-      "eta": 1814400000,
+      "eta": 1822348800,
       "shipping": "unrestricted"
      }
     ],
-    "rewardsTotal": 10,
-    "tiersDate": "2026-11-17",
-    "tiersCarried": "2026-11-17",
+    "rewardsTotal": 16,
+    "tiersDate": "2026-11-24",
+    "tiersCarried": "",
     "cues": [
      [
-      2.58,
-      4.67,
-      "我们的目标是打造一个"
-     ],
-     [
-      4.67,
-      7.74,
-      "毫不妥协的键盘，两者兼而有之"
-     ],
-     [
-      7.74,
-      10.58,
-      "优雅纤薄，打字神奇。"
-     ],
-     [
-      11.58,
-      13.58,
-      "这是改变2。"
-     ],
-     [
-      17.01,
-      18.69,
-      "基础是突破"
-     ],
-     [
-      18.69,
-      20.59,
-      "机械按键开关设计"
-     ],
-     [
-      20.59,
-      22.01,
-      "令人难以置信的空间效率。"
-     ],
-     [
-      23.01,
-      25.15,
-      "它使 Alter 2 比"
-     ],
-     [
-      25.15,
-      26.01,
-      "它的前身。"
-     ],
-     [
-      29.57,
-      32.12,
-      "新款M表盘可磁力拆卸，"
-     ],
-     [
-      32.12,
-      33.57,
-      "可点击和可交换。"
-     ],
-     [
-      33.57,
-      35.42,
-      "它支持直观的媒体控制和"
-     ],
-     [
-      35.42,
-      37.08,
-      "分离它使 Alter 2 更容易"
-     ],
-     [
-      37.08,
-      37.57,
-      "运输。"
-     ],
-     [
-      42.5,
-      44.56,
-      "晚上工作时，最好"
-     ],
-     [
-      44.56,
-      45.5,
-      "避免蓝光。"
-     ],
-     [
-      46.5,
-      48.57,
-      "所以我们创建了一个暖红色背光，称为"
-     ],
-     [
-      48.57,
-      50.39,
-      "夜灯可减轻眼睛疲劳"
-     ],
-     [
-      50.39,
-      51.5,
-      "保留夜视能力。"
-     ],
-     [
-      54.94,
-      56.92,
-      "键盘是两者之间的接口"
-     ],
-     [
-      56.92,
-      57.94,
-      "人和计算机。"
-     ],
-     [
-      58.94,
-      60.88,
-      "为了使这种连接无缝"
-     ],
-     [
-      60.88,
-      62.92,
-      "可能，我们已经使 Alter 2 成为完美的"
-     ],
-     [
-      62.92,
-      63.94,
-      "Mac 操作系统的伴侣。"
-     ],
-     [
-      64.94,
-      66.94,
-      "我们制作了一个漂亮的原生 Mac 应用程序。"
-     ],
-     [
-      66.94,
-      70.66,
-      "为了实现如此令人震惊的事件概况，"
-     ],
-     [
-      70.66,
-      73.39,
-      "我们必须重新思考内部"
-     ],
-     [
-      73.39,
-      75.84,
-      "键盘的架构。"
-     ],
-     [
-      76.84,
-      79.22,
-      "不对称设计，密度高"
-     ],
-     [
-      79.22,
-      81.42,
-      "电池中的动力电池和扬声器"
-     ],
-     [
-      81.42,
-      81.84,
-      "棺材。"
-     ],
-     [
-      82.84,
-      84.76,
-      "我们通过以下方式最大限度地利用空间"
-     ],
-     [
-      84.76,
-      87.07,
-      "M表盘长度下的包装组件"
-     ],
-     [
-      87.07,
-      87.84,
-      "和空格键。"
-     ],
-     [
-      88.84,
-      91.31,
-      "为了完善关键反馈和声学效果，我们"
-     ],
-     [
-      91.31,
-      93.65,
-      "创造双层惯性阻尼器"
-     ],
-     [
-      93.65,
-      96.25,
-      "系统，暂停打字平台"
-     ],
-     [
-      96.25,
-      98.22,
-      "总声学和振动"
-     ],
-     [
-      98.22,
-      98.84,
-      "隔离。"
-     ],
-     [
-      98.84,
-      104.45,
-      "结果是一个键盘"
-     ],
-     [
-      104.45,
-      110.67,
-      "4.75 毫米支架，在 Alter 上打字的神奇效果"
-     ],
-     [
-      110.67,
-      110.97,
-      "2."
+      35.38,
+      37.38,
+      "好，一会见。"
      ]
     ],
     "vttLang": "zh",
     "story": [
      {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D"
+     },
+     {
       "t": "p",
-      "x": "A shockingly thin, fully mechanical keyboard. Altar II combines a superlative typing experience with an unbelievable design.",
-      "z": "超薄的全机械键盘。 Altar II 结合了最高级的打字体验和令人难以置信的设计。"
+      "x": "pledged of $25,000 pledged of $25,000 goal",
+      "z": "已认捐 $25,000 已认捐 $25,000 目标金额"
+     },
+     {
+      "t": "p",
+      "x": "3 days to go",
+      "z": "天数"
+     },
+     {
+      "t": "p",
+      "x": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
+      "z": "Amoeba配备波浪形屏幕和内置登山扣，有多种靓丽色彩可供选择。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/810/754/dce727b1dcfd8e39ee37238738e6a78d_original.png?fit=scale-down&origin=ugc&q=100&v=1794052045&width=680&sig=o%2BtYrYbn%2BNPRVZxPxrdjvZNC393DXnFIIKZq5%2BtxJD8%3D"
+      "u": "https://i.kickstarter.com/assets/054/488/418/4feddc14715d0fa2d7deca711aa7a126_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1784510340&width=160&sig=td9wUZlWIBoKtrsO%2FnSJhNcATfsUjWPkeRYh3Xz5kH8%3D"
      },
      {
       "t": "p",
-      "x": "The designer of Altar II discusses some of the design goals, background and difficulties of making Altar II a reality.",
-      "z": "《Altar II》的设计师讨论了一些设计目标、​​背景以及使《Altar II》成为现实的困难。"
+      "x": "First created•0 backed",
+      "z": "首次创建•0 人支持"
      },
      {
       "t": "p",
-      "x": "A brief overview of some Altar II functionality. Here it is shown pairing over Bluetooth and working with Sanctuary™, its native macOS companion app. We demonstrate using M-Dial™, remapping keys, and more, and give a general tour of the app. Shown on engineering prototype hardware with pre-alpha software and firmware.",
-      "z": "Altar II 部分功能的简要概述。此处显示它通过蓝牙配对并与其本机 macOS 配套应用程序 Sanctuary™ 配合使用。我们演示如何使用 M-Dial™、重新映射按键等，并对该应用程序进行总体介绍。显示在带有 pre-alpha 软件和固件的工程原型硬件上。"
+      "x": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
+      "z": "Amoeba 配有波浪形屏幕和内置钥匙扣，有多种有趣的颜色可供选择。"
      },
      {
       "t": "p",
-      "x": "The strikingly slim profile is enabled by breakthrough mechanical switch design — a dual steel-armed switch with a laterally arranged spring and 40gf actuation force.",
-      "z": "突破性的机械开关设计实现了惊人的纤薄外形——双钢臂开关，带有横向排列的弹簧和 40gf 的驱动力。"
+      "x": "pledged of $25,000 pledged of $25,000 goal",
+      "z": "已认捐 $25,000 已认捐 $25,000 目标金额"
+     },
+     {
+      "t": "p",
+      "x": "3 days to go",
+      "z": "天数"
+     },
+     {
+      "t": "p",
+      "x": "Kickstarter connects creators with backers to fund projects.",
+      "z": "Kickstarter 将创作者与支持者联系起来，为项目筹集资金。"
+     },
+     {
+      "t": "p",
+      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
+      "z": "回报不予保证，但创作者必须定期向支持者提供最新消息。"
+     },
+     {
+      "t": "p",
+      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+      "z": "只有在项目在活动截止日期前达到筹资目标时，您才需要支付费用。"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The phone**](h:The-phone)",
+      "z": "* [**手机**](h:The-phone)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Colors**](h:Colors)",
+      "z": "* [**颜色**](h:Colors)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Features**](h:Features)",
+      "z": "* [**功能**](h:Features)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Everyday**](h:Everyday)",
+      "z": "* [**每天**](h:Everyday)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Under the hood**](h:Under-the-hood)",
+      "z": "* [**幕后揭秘**](h:Under-the-hood)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Spiky and Weirdoz**](h:Spiky-and-Weirdoz)",
+      "z": "* [**Spiky和Weirdoz**](h:Spiky-and-Weirdoz)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Prices**](h:Prices)",
+      "z": "* [**价格**](h:Prices)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Development**](h:Development)",
+      "z": "* [**开发**](h:Development)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Schedule and funding**](h:Schedule-and-funding)",
+      "z": "* [**时间安排和资金**](h:Schedule-and-funding)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Amoeba Tech**](h:Amoeba-Tech)",
+      "z": "* [**变形虫科技**](h:Amoeba-Tech)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/amoebaone/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/amoebaone/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Environmental commitments**](https://www.kickstarter.com/projects/amoebaone/environmental-commitments)",
+      "z": "* [**环保承诺**](https://www.kickstarter.com/projects/amoebaone/environmental-commitments)"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/734/459/c7ddd77639e39839a756e44f8315429a_original.webp?fit=scale-down&origin=ugc&q=92&v=1778794337&width=680&sig=pGloKCcjUyBQjgrzkJt6OPSAZ6JwYgGwG658P37mlHc%3D"
+      "u": "https://i.kickstarter.com/assets/055/490/181/5f3bfd190e487e92007ce8850e14ea1a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869536&width=680&sig=kmTzi4s4hi20cARCFs6C3vrJHQNSnkhcY1ooC9zYcLA%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/812/646/65366be659514d6169a6169c30c7e546_original.png?fit=scale-down&origin=ugc&q=100&v=1794071244&width=680&sig=JHOJPrxxZ2PnRO%2B192RDWwAcDWCSqVwTuSLrXLW9qfs%3D"
+      "u": "https://i.kickstarter.com/assets/055/490/189/ade3d2dfe0a9533f383a98d4487f223e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869583&width=680&sig=0hyrbnPyyILrK%2BRWAka0z6WiUSA%2F3rAQx2uEsk%2BWelQ%3D"
      },
      {
       "t": "p",
-      "x": "At 4.75mm, Altar II is the thinnest production mechanical keyboard ever made.",
-      "z": "Altar II 厚度为 4.75 毫米，是有史以来最薄的量产机械键盘。"
+      "x": "Amoeba One. A keychain dumb phone with a clip-on carabiner and rotating camera.",
+      "z": "Amoeba One。一款带钥匙扣的非智能手机，配有挂钩和旋转摄像头。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/731/181/8dbe7a2ca500c53782d8db47d4cb5770_original.png?fit=scale-down&origin=ugc&q=100&v=1778777055&width=680&sig=7rdx5GI%2B%2FtsDBinE7RqMDvUl82yb1em6pgsQjN8ZT2U%3D"
+      "u": "https://i.kickstarter.com/assets/055/490/191/aefd6f8c670e56d458546a69e5266e5e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869622&width=680&sig=gyo3yk4o2BxEVjkqck4JTYwcpV%2BkKxxHCVMczKF8gg0%3D"
      },
      {
       "t": "p",
-      "x": "A magnetically detachable, clickable, swappable dial for volume, media and other controls. Two sizes of M-Dial™ are included in the box: Standard issue and low-profile.",
-      "z": "可磁性拆卸、可点击、可更换的音量、媒体和其他控制旋钮。包装盒中包含两种尺寸的 M-Dial™：标准型和低调型。"
+      "x": "A mini phone for calls, texts, maps, rides, music and banking. No social feeds.",
+      "z": "一款迷你手机，可用于通话、发短信、查看地图、叫车、听音乐和办理银行业务。没有社交动态。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/741/431/ffc5e8fffb724ea1b4dce85f20597d55_original.webp?fit=scale-down&origin=ugc&q=92&v=1778841822&width=680&sig=NVjPgBgEHzopuTBRa3jxTzUrL09WxBuJKZhMpbRskJQ%3D"
+      "u": "https://i.kickstarter.com/assets/055/490/196/0418cb87d9c51bf60f4e3c4771b466f2_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869657&width=680&sig=kJPW%2BZAVDyN1sC5Cj%2F9Untyl35rYKCVM5N%2BI4MWefCk%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/741/106/5876c4b3035c12069cf2a6f4a514c771_original.webp?fit=scale-down&origin=ugc&q=92&v=1778840406&width=680&sig=hUextfvGfneeV4GKeFg8LxWF6KY%2Bx%2BlA9fr%2BThAsWLE%3D"
+      "u": "https://i.kickstarter.com/assets/055/490/194/ec09b8c7f11428e43b7da3bf056347c7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869631&width=680&sig=Lg%2FCpRsob6S98vBt41YTaKePNhjx%2FDDnSOR34ctKdEM%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/741/181/e11041602e14bcc775ef6191f9d9ba19_original.webp?fit=scale-down&origin=ugc&q=92&v=1778840738&width=680&sig=OllHr8xvQqn1gidPGSx47N6tvKTn90Q068ydeJ3WLKg%3D"
+      "u": "https://i.kickstarter.com/assets/055/490/198/c66c33e244138d09699a8b452df4c14f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869658&width=680&sig=16N6JvsF7R48QpFQyFAiuATkcJutX%2FHzDLZyGPOqL%2BA%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/731/194/68fdc166096d158f5bd56b97228d41d3_original.png?fit=scale-down&origin=ugc&q=100&v=1778777097&width=680&sig=0uWSt25tdYtHS7poJgFv6MVoj3aYheV7gAEW11jzOWw%3D"
+      "u": "https://i.kickstarter.com/assets/055/490/200/34562088b257f80945198a860810d46e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869663&width=680&sig=xHzrzPuCWuqM5%2BUP1m0JjpyFeCJCLTrQFY0GQjd2Xhs%3D"
      },
      {
       "t": "p",
-      "x": "A haptic driver called Harmonic Synthesiser™ adds subtle physical feedback to typing, dial rotation, and keyboard state changes.",
-      "z": "称为 Harmonic Synthesiser™ 的触觉驱动器为打字、拨号盘旋转和键盘状态变化添加了微妙的物理反馈。"
+      "x": "Y2K color. Silicone colorways, glass screen, stainless steel inner core.",
+      "z": "Y2K配色。硅胶配色、玻璃屏幕、不锈钢内芯。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/740/390/b859ebe269aa500bd2e086a868ed8721_original.webp?fit=scale-down&origin=ugc&q=92&v=1778836016&width=680&sig=jShmvCI3jFtopzZoorOrGEIfLcarIfwcdBdQqduqzMA%3D"
+      "u": "https://i.kickstarter.com/assets/055/490/202/eee7b81b6aa803db6cf3bc3381debb0a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869668&width=680&sig=h7VfjlI5T3Bx%2FXIyuXXQ%2BUIB5nBkyc9jDZdXIor2YW0%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/812/652/e1b4d195cd41577629db78970c716877_original.png?fit=scale-down&origin=ugc&q=100&v=1794071291&width=680&sig=lHSz%2B5Jxu%2BGfybK%2BsJsv7S8oAMjKeslKVEXV8of7VYs%3D"
+      "u": "https://i.kickstarter.com/assets/055/490/203/f57645d2817e8541796a4d9eae108275_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869672&width=680&sig=5HsUss9z3aLV5Ck92aB51u4KVd1FE63pfNVuxYalKqk%3D"
      },
      {
       "t": "p",
-      "x": "A fully native, Swift-based companion app for macOS gives full control over key mapping, backlight, haptics, audio and M-Dial™ functionality. Its lickable UI feels right at home on Mac.",
-      "z": "一款完全原生、基于 Swift 的 macOS 配套应用程序可以完全控制按键映射、背光、触觉、音频和 M-Dial™ 功能。其可爱的用户界面在 Mac 上给人一种宾至如归的感觉。"
+      "x": "Five swirls: Mango Orange, Berry Swirl, Cotton Candy, Lagoon Swirl, Lime Soda.",
+      "z": "五款漩涡：芒果橙、莓果漩涡、棉花糖、泻湖漩涡、青柠苏打。"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/741/421/461d5b8b8a9caaa841d8380215f58c15_original.webp?fit=scale-down&origin=ugc&q=92&v=1778841765&width=680&sig=rbbkPpdbwiNDowlYt3nlc9Uq4lpgbaZliVTqRQ0kUY8%3D"
+      "u": "https://i.kickstarter.com/assets/055/490/206/b84fec0e79aff1a9880dec8a7fdf1b62_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869677&width=680&sig=vgW5WrKoBvzGJKed%2F0UU4zaR9axmovcMiFtyyBr3X6k%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/731/230/af2c9716b6eecfa4f95db6f189682b38_original.png?fit=scale-down&origin=ugc&q=100&v=1778777186&width=680&sig=piIeRPeFCwCKMoHAeKLQ0TfTLOit8EApzTxjtFdfmXs%3D"
-     },
-     {
-      "t": "p",
-      "x": "NiteLite™ is a red backlight that preserves night vision, and reduces eye strain by avoiding the blue light used in most keyboard backlights.",
-      "z": "NiteLite™ 是一种红色背光灯，可保持夜视能力，并通过避免大多数键盘背光灯中使用的蓝光来减轻眼睛疲劳。"
+      "u": "https://i.kickstarter.com/assets/055/490/212/af5d70c7745623389c02f46cff07e8c8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869702&width=680&sig=YajspE7xLR9u5df7109ntlu3hEg3aMPPz0shvChBO%2Fk%3D"
      },
      {
       "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/740/411/4601d9e27b77ceb5456e622bb98be83f_original.webp?fit=scale-down&origin=ugc&q=92&v=1778836158&width=680&sig=7NqkbxXiUX7qvE9BHety9DS4oX2nrhdGOnXqc7dqiIk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/053/731/240/a6941475ed834e33dcc9b97e512c7772_original.png?fit=scale-down&origin=ugc&q=100&v=1778777216&width=680&sig=Pef9fd5puzioj%2Fbgc14%2B0p%2BEowvkAFcyJdnHFmflnZE%3D"
-     },
-     {
-      "t": "p",
-      "x": "A two-layer Inertial Damper™ system isolates the typing platform and gives Altar II a unique typing sound and feel.",
-      "z": "两层 Inertial Damper™ 系统隔离打字平台，并为 Altar II 带来独特的打字声音和感觉。"
-     },
-     {
-      "t": "p",
-      "x": "Every element of Altar II — key shape, layout, typography, materials, footprint — is painstakingly designed, down to the last detail.",
-      "z": "《Altar II》的每一个元素——关键形状、布局、排版、材料、占地面积——都经过精心设计，直至最后一个细节。"
-     },
-     {
-      "t": "p",
-      "x": "Altar II's slimline chassis keeps wrists almost flat during typing, reducing the strain associated with most keyboards, and negating the need for angling the typing platform.",
-      "z": "Altar II 的纤薄底盘使手腕在打字时几乎保持平坦，减少了大多数键盘带来的压力，并且无需调整打字平台的角度。"
-     },
-     {
-      "t": "p",
-      "x": "Fitting a full mechanical keyboard, battery, haptic system, speaker, and wireless radio into a sub-5mm chassis required bleeding-edge engineering and effort.",
-      "z": "将全机械键盘、电池、触觉系统、扬声器和无线电装置安装到 5 毫米以下的底盘中需要尖端的工程技术和努力。"
-     },
-     {
-      "t": "p",
-      "x": "Altar II is made from recycled plastic and recyclable aluminium, and ships in completely plastic-free packaging.",
-      "z": "Altar II 由回收塑料和可回收铝制成，并采用完全不含塑料的包装运输。"
-     },
-     {
-      "t": "p",
-      "x": "Up to 30 days of typical use on a single charge, with two days of usage from two minutes of charging over USB-C.",
-      "z": "一次充电典型使用时间长达 30 天，通过 USB-C 充电两分钟即可使用两天。"
-     },
-     {
-      "t": "p",
-      "x": "Altar II keyboard, coiled USB-C cable, two M-Dials (standard issue and low profile), field manual, and EMO stickers.",
-      "z": "Altar II 键盘、USB-C 盘绕线、两个 M-Dial（标准版和低调版）、现场手册和 EMO 贴纸。"
-     },
-     {
-      "t": "p",
-      "x": "Recorded on pre-production hardware with Zoom H5, 24-bit/48kHz, XY stereo, 40cm above device, 80Hz high-pass.",
-      "z": "使用 Zoom H5、24 位/48kHz、XY 立体声、设备上方 40 厘米、80Hz 高通在预制作硬件上录制。"
-     },
-     {
-      "t": "p",
-      "x": "*   Height — 4.75mm",
-      "z": "* 高度 — 4.75 毫米"
-     },
-     {
-      "t": "p",
-      "x": "*   Width — 299mm",
-      "z": "* 宽度 — 299 毫米"
-     },
-     {
-      "t": "p",
-      "x": "*   Depth — 116.5mm",
-      "z": "* 深度 — 116.5 毫米"
-     },
-     {
-      "t": "p",
-      "x": "*   Firmware — ZMK, Zephyr-based real-time operating system (RTOS)",
-      "z": "* 固件 — ZMK、基于 Zephyr 的实时操作系统 (RTOS)"
-     },
-     {
-      "t": "p",
-      "x": "*   Switches — Dual steel arm scissor switch w/ retention spring, 40gf actuation force",
-      "z": "* 开关 — 双钢臂剪刀式开关，带保持弹簧，40gf 驱动力"
-     },
-     {
-      "t": "p",
-      "x": "*   Materials — REGEN polymer, 6061 aluminium, TPU footpad, silicone membrane, FR4 logic board",
-      "z": "* 材料 — REGEN 聚合物、6061 铝、TPU 脚垫、硅胶膜、FR4 逻辑板"
-     },
-     {
-      "t": "p",
-      "x": "*   Battery life — Up to 30-day battery life with normal use",
-      "z": "* 电池寿命 — 正常使用情况下电池寿命长达 30 天"
-     },
-     {
-      "t": "p",
-      "x": "*   Connectivity — 2× Bluetooth 5.0 Low Energy (LE) channels, 1× USB-C",
-      "z": "* 连接性 — 2 个蓝牙 5.0 低功耗 (LE) 通道、1 个 USB-C"
-     },
-     {
-      "t": "p",
-      "x": "*   OS support — Apple macOS 12 (Monterey) and up, Microsoft Windows 10 and up, Linux",
-      "z": "* 操作系统支持 — Apple macOS 12 (Monterey) 及更高版本、Microsoft Windows 10 及更高版本、Linux"
+      "u": "https://i.kickstarter.com/assets/055/490/213/1bfdade06281d9950b55df757d5fdd99_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869706&width=680&sig=Gfl9TsXFbrcwSV%2FqrDR5rb1JqOBqeJxixJ5ageCKDL0%3D"
      }
     ]
    }
