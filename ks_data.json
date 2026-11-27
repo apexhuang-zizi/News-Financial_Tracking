@@ -1,5 +1,1554 @@
 [
  {
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T16:21:30+07:00",
+  "source": "Kickstarter discover/advanced API + 项目详情页",
+  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
+  "poolSize": 43,
+  "projects": [
+   {
+    "id": 368265392,
+    "name": "Flipper One — Open Linux Multi-tool",
+    "blurb": "Open Linux Multi-tool based on a powerful ARM processor. Network toolkit expandable with modules.",
+    "url": "https://www.kickstarter.com/projects/flipper-devices/flipper-one",
+    "category": "Gadgets",
+    "creator": "Flipper Devices Inc.",
+    "location": "Claymont, DE",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 300000.0,
+    "pledged": 17711835.0,
+    "usdPledged": "17711835.0",
+    "goalUsd": 300000.0,
+    "percentFunded": 5903.945000000001,
+    "backers": 32382,
+    "deadline": 1797523230,
+    "launchedAt": 1794931230,
+    "staffPick": true,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [],
+    "score": 0.752,
+    "coverRemote": "https://i.kickstarter.com/assets/055/987/203/5c24718c11c02c86b3fcad7fb8657e91_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1795456865&width=1024&sig=0Ez3avhsm69Yi70TpW1UZ%2FkRTA%2BRpu%2BXHE1RZikRaYE%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11532338,
+      "price": 359.0,
+      "title": "Flipper One — Pre-order Special",
+      "desc": "Exclusive price for Pre-order coupon holders only\\n35% Off Estimate Retail Price ($550)\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
+      "backers": 12076,
+      "limit": null,
+      "remaining": null,
+      "eta": 1814400000,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11498029,
+      "price": 399.0,
+      "title": "Flipper One — Kickstarter Special",
+      "desc": "Limited Kickstarter Special Price\\n25% Off Estimate Retail Price ($550)\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
+      "backers": 6580,
+      "limit": 15000,
+      "remaining": 8420,
+      "eta": 1814400000,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11498062,
+      "price": 759.0,
+      "title": "Ultimate Bundle — F1 + 5G + SDR + LoRa",
+      "desc": "Limited Early Bird Price\\n35% Off Estimate Retail Price\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
+      "backers": 7539,
+      "limit": null,
+      "remaining": null,
+      "eta": 1814400000,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 16,
+    "tiersDate": "2026-11-25",
+    "tiersCarried": "2026-11-25",
+    "cues": [],
+    "vttLang": "",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/902/255/99337c9b488ecc4bcd7d07b716b4056a_original.png?fit=scale-down&origin=ugc&q=92&v=1794775271&width=1360&sig=jHtMUndCvyiUt5gIDaWJoM49ylro3cpr1UD05Q%2BVK0M%3D"
+     },
+     {
+      "t": "p",
+      "x": "Flipper One runs on completely open-source Linux firmware with a mainline kernel. This means full compatibility with the latest kernel versions:",
+      "z": "Flipper One 在带有主线内核的完全开源 Linux 固件上运行。这意味着与最新内核版本完全兼容："
+     },
+     {
+      "t": "p",
+      "x": "*   Mainline Linux kernel support — full support in upstream Linux kernel.",
+      "z": "* 主线 Linux 内核支持 — 上游 Linux 内核的完全支持。"
+     },
+     {
+      "t": "p",
+      "x": "*   No binary blobs — no proprietary code or binaries in the boot process.",
+      "z": "* 无二进制 blob — 启动过程中没有专有代码或二进制文件。"
+     },
+     {
+      "t": "p",
+      "x": "*   No vendor-locked BSP — free from outdated vendor board support packages.",
+      "z": "* 无供应商锁定的 BSP — 不受过时的供应商板支持包的影响。"
+     },
+     {
+      "t": "p",
+      "x": "Our goal is to create a fully upstream-supported ARM computer that never becomes outdated, along with a well-documented platform giving the community maximum freedom to customize. To pull this off, we've [partnered with the Collabora team](https://www.collabora.com/news-and-blog/news-and-events/collabora-flipper-opening-up-the-rk3576.html), well-known contributors to the Linux kernel.",
+      "z": "我们的目标是创建一款完全受上游支持且永不过时的 ARM 计算机，以及一个文档齐全的平台，为社区提供最大程度的定制自由。为了实现这一目标，我们与 Collabora 团队合作，他们是 Linux 内核的知名贡献者。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/911/480/9372a396ea4d5c60f05c052021cb6d50_original.png?fit=scale-down&origin=ugc&q=92&v=1794842482&width=1360&sig=A36jIviJJ2akw1NB2jc8GI62kYgwJ0NB7OEKqVNGKno%3D"
+     },
+     {
+      "t": "p",
+      "x": "*   Layer 0 (Zero) — Offline point-to-point access-control protocols: NFC, low-frequency RFID, Sub-1 GHz radio, Infrared, wired protocols like iButton, UART, SPI, I2C. Based on a low-power microcontroller.",
+      "z": "* 第 0 层（零）— 离线点对点访问控制协议：NFC、低频 RFID、Sub-1 GHz 无线电、红外、有线协议，如 iButton、UART、SPI、I2C。基于低功耗微控制器。"
+     },
+     {
+      "t": "p",
+      "x": "*   Layer 1 (One) — Everything that's IP-connected: Wi-Fi, Ethernet, 5G, and satellite. It's all about networking, data transfer, and high-performance computing. An open Linux toolkit running on powerful hardware, enough computing power to handle SDR and local AI.",
+      "z": "* 第 1 层（一）- IP 连接的一切：Wi-Fi、以太网、5G 和卫星。这一切都与网络、数据传输和高性能计算有关。一个开放的Linux工具包，运行在强大的硬件上，有足够的计算能力来处理SDR和本地AI。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/987/264/c228665f0793c9caef7f02f1204a9b70_original.png?fit=scale-down&origin=ugc&q=92&v=1795457241&width=1360&sig=lC76q1PEDaS%2Fsx%2FHJBeew6jWBPCrD%2B5mCeMXCLlGAOg%3D"
+     },
+     {
+      "t": "p",
+      "x": "So they're not \"newer\" and \"older\" generations of the same product. Flipper One doesn't replace Flipper Zero — they're different categories of devices. Comparing them directly would be like comparing a hammer to a screwdriver.",
+      "z": "因此它们不是同一产品的“新”和“旧”代。 Flipper One 不会取代 Flipper Zero——它们是不同类别的设备。直接比较它们就像将锤子与螺丝刀进行比较一样。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/902/061/980de2280d8e1e8f2296c7710af621fd_original.png?fit=scale-down&origin=ugc&q=92&v=1794773449&width=1360&sig=0iCfR7Fe5ubqCufZd9Fmhm4PKLl9vrxusBusKY5AsNI%3D"
+     },
+     {
+      "t": "p",
+      "x": "*   Low-power MCU (Raspberry Pi RP2350) — manages LCD display, buttons, power and controls system boot stages.",
+      "z": "* 低功耗 MCU (Raspberry Pi RP2350) — 管理 LCD 显示屏、按钮、电源并控制系统启动阶段。"
+     },
+     {
+      "t": "p",
+      "x": "*   High-performance CPU (Rockchip RK3576) — runs Linux kernel and user apps, and manages high-speed peripheral interfaces: Ethernet, Wi-Fi, PCIe, USB, HDMI, etc.",
+      "z": "* 高性能 CPU (Rockchip RK3576) — 运行 Linux 内核和用户应用程序，并管理高速外围接口：以太网、Wi-Fi、PCIe、USB、HDMI 等。"
+     },
+     {
+      "t": "p",
+      "x": "The idea behind the [2-processor architecture](https://docs.flipper.net/one/mcu-firmware/architecture) is to make Flipper One a fully standalone device that remains operational even if the user completely breaks the Linux system. It allows to recover OS without needing an external computer or additional software.",
+      "z": "[2 处理器架构](https://docs.flipper.net/one/mcu-firmware/architecture) 背后的想法是使 Flipper One 成为一款完全独立的设备，即使用户完全破坏 Linux 系统也能保持运行。它允许恢复操作系统，而无需外部计算机或其他软件。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/915/674/a30eb9086c681f47ece3e6996576f18b_original.png?fit=scale-down&origin=ugc&q=92&v=1794862501&width=1360&sig=IFfnAv6uAdS8c4c3j0ho8LpToRdqbIRBa2GAJFaeLDo%3D"
+     },
+     {
+      "t": "p",
+      "x": "Connect Flipper One to a laptop with a single USB-C cable to get SSH console access and charge the device at the same time. No extra adapters are needed for Linux console access or power — Flipper One can simultaneously emulate a USB network adapter, a serial (COM port), or disk device.![Image 8](https://i.kickstarter.com/assets/055/915/013/b36f023ae1f0579f18e918885b6d21ce_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794859211&width=1360&sig=y6mWufNb1H5cJeEzqLFRFm%2Bq4O%2Bze3PFFrDrUqXCzLo%3D)",
+      "z": "使用一根 USB-C 电缆将 Flipper One 连接到笔记本电脑，以访问 SSH 控制台并同时为设备充电。 Linux 控制台访问或电源不需要额外的适配器 - Flipper One 可以同时模拟 USB 网络适配器、串行（COM 端口）或磁盘设备。！[图片8](https://i.kickstarter.com/assets/055/915/013/b36f023ae1f0579f18e918885b6d21ce_original.jpg?fit=scal e-down&origin=ugc&q=92&v=1794859211&width=1360&sig=y6mWufNb1H5cJeEzqLFRFm%2Bq4O%2Bze3PFFrDrUqXCzLo%3D)"
+     },
+     {
+      "t": "p",
+      "x": "*   Power IN/OUT — the USB-C1 port supports 5–20 V Power Delivery and can charge Flipper One or power your laptop.",
+      "z": "* 电源输入/输出 — USB-C1 端口支持 5–20 V 供电，可为 Flipper One 充电或为笔记本电脑供电。"
+     },
+     {
+      "t": "p",
+      "x": "*   Device Emulation — the same port also emulates a USB network adapter, serial device, or disk drive. All at speeds of up to 5 Gbps.",
+      "z": "* 设备仿真 — 同一端口还可以仿真 USB 网络适配器、串行设备或磁盘驱动器。全部速度高达 5 Gbps。"
+     },
+     {
+      "t": "p",
+      "x": "Connect Flipper One to an external display using a single USB Type-C cable and get a full desktop experience. ![Image 9](https://i.kickstarter.com/assets/055/923/658/b9093058f1922391792bcb0d1025bbd6_original.png?fit=scale-down&origin=ugc&q=92&v=1794914956&width=1360&sig=ReYnTcSZBGfwNJG0M2AfTDJnHCQlsFHwcucui878umE%3D)",
+      "z": "使用一根 USB Type-C 电缆将 Flipper One 连接到外部显示器，并获得完整的桌面体验。 ![图片9](https://i.kickstarter.com/assets/055/923/658/b9093058f1922391792bcb0d1025bbd6_original.png?fit=sc ale-down&origin=ugc&q=92&v=1794914956&width=1360&sig=ReYnTcSZBGfwNJG0M2AfTDJnHCQlsFHwcucui878umE%3D)"
+     },
+     {
+      "t": "p",
+      "x": "*   USB DisplayPort Alt Mode — video output at 4K@120Hz to an external display over a single USB-C cable.",
+      "z": "* USB DisplayPort Alt 模式 — 通过单根 USB-C 电缆以 4K@120Hz 的视频输出到外部显示器。"
+     },
+     {
+      "t": "p",
+      "x": "*   USB Host + Charging — connect peripherals such as a keyboard and mouse through your monitor’s USB hub while charging Flipper One over the same cable.",
+      "z": "* USB 主机 + 充电 — 通过显示器的 USB 集线器连接键盘和鼠标等外围设备，同时通过同一根电缆为 Flipper One 充电。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/915/690/7612ccda161b085bf24c666608a2241f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794862528&width=1360&sig=tvdavX45lTwQLhI%2F81PTf9XGRb7UzBeozjtZFjTu7jo%3D"
+     },
+     {
+      "t": "p",
+      "x": "We wanted to make alternative firmware development for Flipper One easier. You can debug and perform a full system recovery through the same primary USB-C port (USB-C1). For most development tasks, you won't need a separate debugger.",
+      "z": "我们希望让 Flipper One 的替代固件开发变得更加容易。您可以通过同一主 USB-C 端口 (USB-C1) 调试并执行完整系统恢复。对于大多数开发任务，您不需要单独的调试器。"
+     },
+     {
+      "t": "p",
+      "x": "Using the USB-C1 port, you can access the debug console & BOOTSEL mode for recovering the RP2350 MCU, and MaskROM mode for recovering the RK3576 CPU.",
+      "z": "使用USB-C1端口，您可以访问调试控制台和BOOTSEL模式以恢复RP2350 MCU，以及MaskROM模式以恢复RK3576 CPU。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/901/972/341f390c1a8ba3223e116fca20bf2bfc_original.png?fit=scale-down&origin=ugc&q=92&v=1794772827&width=1360&sig=jFoa1SGS2UeM9kAeM7nlXo5OpxMjEP6C%2BUgbDhRdbm4%3D"
+     },
+     {
+      "t": "p",
+      "x": "*   2× Gigabit Ethernet— two independent WAN/LAN ports, each running at 1 Gbps. Can be used for a transparent bridge, MitM sniffing, and more.",
+      "z": "* 2 个千兆位以太网 — 两个独立的 WAN/LAN 端口，每个端口以 1 Gbps 运行。可用于透明桥、MitM 嗅探等。"
+     },
+     {
+      "t": "p",
+      "x": "*   Wi-Fi 6E— based on the MT7921AUN chipset with monitor mode support. Covers 2.4/5/6 GHz bands and can run as both a Wi-Fi Client (STA) and a Hotspot (AP).",
+      "z": "* Wi-Fi 6E — 基于 MT7921AUN 芯片组，支持监控模式。覆盖 2.4/5/6 GHz 频段，可作为 Wi-Fi 客户端 (STA) 和热点 (AP) 运行。"
+     },
+     {
+      "t": "p",
+      "x": "*   Cellular modem— 5G or LTE modem via the M.2 expansion module, with support for external antennas. Accepts a physical Nano SIM (4FF) and eSIM.",
+      "z": "* 蜂窝调制解调器 — 通过 M.2 扩展模块的 5G 或 LTE 调制解调器，支持外部天线。接受物理 Nano SIM (4FF) 和 eSIM。"
+     },
+     {
+      "t": "p",
+      "x": "*   USB Ethernet— up to 5 Gbps emulated over USB-C. Connect your laptop or smartphone via a USB cable to add an extra network interface. Works via USB CDC-NCM, so no drivers are required.",
+      "z": "* USB 以太网 — 通过 USB-C 模拟高达 5 Gbps。通过 USB 电缆连接笔记本电脑或智能手机以添加额外的网络接口。通过 USB CDC-NCM 工作，因此无需驱动程序。"
+     },
+     {
+      "t": "p",
+      "x": "Out of the box, Flipper One can work as a gateway to any network, a multi-hotspot bridge, an inline Ethernet sniffer, a USB Wi-Fi/Ethernet adapter for a PC or phone.",
+      "z": "Flipper One 开箱即用，可以用作任何网络的网关、多热点桥接器、内联以太网嗅探器、PC 或手机的 USB Wi-Fi/以太网适配器。"
+     },
+     {
+      "t": "p",
+      "x": "Analyze wired and wireless IP networks: discover active hosts, scan for open ports and services, detect network attacks and report anomalies. Flipper One comes with built-in apps for network analysis, mapping network topology, and detecting host misconfigurations.![Image 13](https://i.kickstarter.com/assets/055/901/978/c2894be981d98c00ee8d0a063b05ceb1_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794772894&width=1360&sig=b8%2BQACZj70PNfVrKKT0uzYmMNTfFCY8OEM1kvDS5CGM%3D)It can also identify vulnerable and outdated services, act as a honeypot to detect network scanning activity, and save the results as exportable reports.",
+      "z": "分析有线和无线 IP 网络：发现活动主机、扫描开放端口和服务、检测网络攻击并报告异常情况。 Flipper One 附带用于网络分析、映射网络拓扑和检测主机错误配置的内置应用程序。！[图片13](https://i.kickstarter.com/assets/055/901/978/c2894be981d98c00ee8d0a063b05ceb1_original.jpg?fit=sca le-down&origin=ugc&q=92&v=1794772894&width=1360&sig=b8%2BQACZj70PNfVrKKT0uzYmMNTfFCY8OEM1kvDS5CGM%3D)It还可以识别易受攻击和过时的服务，充当蜜罐来检测网络扫描活动，并将结果保存为可导出的报告。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/901/981/e9933d565eed1456387079c4b7480e32_original.png?fit=scale-down&origin=ugc&q=92&v=1794772918&width=1360&sig=sAAsgFnt5lqfzHEe6qLvDjFHhbrpG5eiyhhZ2uuaaW4%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/901/988/3a5dc5623f3902d1cf39a5838f1b954e_original.png?fit=scale-down&origin=ugc&q=92&v=1794772976&width=1360&sig=4f3ZFB3tpYpntQQ5inDk0YhsGBkQ9MLhbnwPQrINdDY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/913/464/bd70b762861f1c416784cdc94cbafddc_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794852348&width=680&sig=9sAlCmmbz8GzI6X2uGN7SY12E32HLABNYD0NXKDDnN0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/902/006/b504bda05a8841369f36fcbe2bf2cf3d_original.png?fit=scale-down&origin=ugc&q=92&v=1794773088&width=1360&sig=fp1LTMS%2Bw27uowCS%2FPLBWE4%2FRpzcvWxORcICa1Ml7hw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/911/964/c57d4460e6c683fac98935ae05197102_original.png?fit=scale-down&origin=ugc&q=92&v=1794845396&width=1360&sig=oQWsYSMJbbwLDs1l2VIfkPt2I4By9W5cuuCIA1RbY1Y%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/911/967/a64e6607fb5375c880cc623b4f9778e9_original.png?fit=scale-down&origin=ugc&q=92&v=1794845421&width=1360&sig=%2BXUCsqPSffEqa%2F8b7U5c9d6dx3s%2FakQVQ%2FhP%2BSR8afQ%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/902/072/cb069f204af3ad0b863eca2e387a6a49_original.png?fit=scale-down&origin=ugc&q=92&v=1794773580&width=1360&sig=2e2e9GxKM5tie8kda0U2OU0TP9x0r0YFPXLOIWQ9Ni0%3D"
+     }
+    ]
+   },
+   {
+    "id": 2110062810,
+    "name": "Rainy 75 V2: Redefining the $100 Mechanical Keyboard. Again.",
+    "blurb": "Best-sounding wireless mechanical keyboard for work & gaming: 10000 mAh battery, 17.4mm front height and 8kHz wired & wireless polling.",
+    "url": "https://www.kickstarter.com/projects/keeb/rainy75v2",
+    "category": "Hardware",
+    "creator": "Keeb Inc.",
+    "location": "Middletown, DE",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 509296.0,
+    "usdPledged": "509296.0",
+    "goalUsd": 10000.0,
+    "percentFunded": 5092.96,
+    "backers": 3225,
+    "deadline": 1799244023,
+    "launchedAt": 1794924023,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai",
+     "mechanical keyboard"
+    ],
+    "score": 0.6434,
+    "coverRemote": "https://i.kickstarter.com/assets/055/968/259/65ad52f5cdb29ff02cebd2f37985401d_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1795252901&width=1024&sig=UMkgdUp%2Fl0opcXDPwBTW0llEqqWnRIapj68lebsM71c%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11498595,
+      "price": 105.0,
+      "title": "Returning Customer Exclusive",
+      "desc": "An exclusive price for returning customers from our official website or Amazon. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
+      "backers": 370,
+      "limit": 3000,
+      "remaining": 2630,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11498605,
+      "price": 108.0,
+      "title": "12-Hour Launch Special",
+      "desc": "Launch pricing for the first 12 hours of the Rainy 75 V2 campaign. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
+      "backers": 1462,
+      "limit": 2000,
+      "remaining": 538,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     },
+     {
+      "id": 11498621,
+      "price": 115.0,
+      "title": "Super Early Bird",
+      "desc": "Get the Rainy 75 V2 at the Super Early Bird price. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
+      "backers": 784,
+      "limit": 787,
+      "remaining": 3,
+      "eta": 1798761600,
+      "shipping": "restricted"
+     }
+    ],
+    "rewardsTotal": 16,
+    "tiersDate": "2026-11-25",
+    "tiersCarried": "2026-11-25",
+    "cues": [
+     [
+      0.0,
+      3.0,
+      "历史记住了一部红色手机。"
+     ],
+     [
+      5.2,
+      6.2,
+      "一行。"
+     ],
+     [
+      7.0,
+      9.0,
+      "华盛顿，飞往莫斯科。"
+     ],
+     [
+      11.1,
+      12.5,
+      "它的第一句话。"
+     ],
+     [
+      13.7,
+      15.3,
+      "每一个按键都被触动了。"
+     ],
+     [
+      17.18,
+      20.18,
+      "在莫斯科的某个地方，有人回了信息。"
+     ],
+     [
+      21.78,
+      23.38,
+      "它从来都不是电话。"
+     ],
+     [
+      24.38,
+      27.79,
+      "那是一个键盘。"
+     ],
+     [
+      27.99,
+      30.39,
+      "每个人都记得第一步。"
+     ],
+     [
+      30.99,
+      32.59,
+      "1969 年。"
+     ],
+     [
+      32.79,
+      33.99,
+      "月球轨道。"
+     ],
+     [
+      33.99,
+      36.82,
+      "发动机点火前五秒，"
+     ],
+     [
+      36.82,
+      38.99,
+      "计算机请求许可。"
+     ],
+     [
+      39.99,
+      41.99,
+      "没有用一句话来回答。"
+     ],
+     [
+      42.99,
+      44.99,
+      "答案是一把钥匙。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "p",
+      "x": "*   [**Meet Rainy 75 V2**](h:Meet-Rainy-75-V2)",
+      "z": "* [**认识 Rainy 75 V2**](h:认识 Rainy-75-V2)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**What's New**](h:What-s-New)",
+      "z": "* [**新消息**](h:新消息)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Battery, 8K & Low Front**](h:Battery-8K-Low-Front)",
+      "z": "* [**电池，8K 和低前置**](h:电池-8K-低前置)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Modules**](h:Modules)",
+      "z": "* [**模块**](h:模块)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Design & Finish**](h:Design-Finish)",
+      "z": "* [**设计与完成**](h:设计-完成)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Reviews**](h:Reviews)",
+      "z": "* [**评论**](h:评论)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Shows & Meetups**](h:Shows-Meetups)",
+      "z": "* [**演出和聚会**](h:演出-聚会)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**In Stores**](h:In-Stores)",
+      "z": "* [**店内**](h:店内)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Why This Price**](h:Why-This-Price)",
+      "z": "* [**为什么这个价格**](h:为什么这个价格)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Shipping & Support**](h:Shipping-Support)",
+      "z": "* [**运输和支持**](h：运输-支持)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Quality & Warranty**](h:Quality-Warranty)",
+      "z": "* [**质量和保修**](h:质量-保修)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Still $99**](h:Still-99)",
+      "z": "* [**仍为 99 美元**](h:仍为 99)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Full Spec Sheet**](h:Full-Spec-Sheet)",
+      "z": "* [**完整规格表**](h：完整规格表)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/keeb/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/keeb/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/keeb/use-of-ai)",
+      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/keeb/use-of-ai)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Environmental commitments**](https://www.kickstarter.com/projects/keeb/environmental-commitments)",
+      "z": "* [**环境承诺**](https://www.kickstarter.com/projects/keeb/environmental-commitments)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/920/409/cddbd730535e9ca90123597e174d4083_original.png?fit=scale-down&origin=ugc&q=100&v=1794894364&width=680&sig=MFSJHhP%2FpyUtPRSBGCTK7aCuPUwXE%2FTIiEKXzcnQu4A%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/829/398/93bcb1cceb6af9a3429b9eaf1c0b0b84_original.png?fit=scale-down&origin=ugc&q=100&v=1794226191&width=680&sig=LpLnyd2C82RqV2y0cVwqwzsqw%2FGPcqw7YwZ0KFW%2BGnE%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/926/261/4fb44fd718cf8d6e6699152c50e7e815_original.png?fit=scale-down&origin=ugc&q=100&v=1794928244&width=680&sig=Kd8xrASD1VdchTOTIZmZy7I8%2FvrciCSn%2BmLthJI8jGU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/920/473/62fa23f78eaa15eac81a0ff00d6994c6_original.png?fit=scale-down&origin=ugc&q=100&v=1794894711&width=680&sig=VVCGN%2BQJhAq%2BE1o8NEMNHkCKWlFztKksxkZkWPDzE%2B8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/869/977/3af6b80337d91ef22a1f02f12d54fb3b_original.png?fit=scale-down&origin=ugc&q=100&v=1794480472&width=680&sig=un9KQkbpc2NKL%2BAsIgY90wIEYqKe28E4frx%2F2wYPK%2B4%3D"
+     },
+     {
+      "t": "p",
+      "x": "Keyboards make you choose. A big battery means a thick case. Speed means charging every few days. Lights mean a higher price. You pick one and give up the other.",
+      "z": "键盘让您做出选择。大电池意味着厚外壳。速度意味着每隔几天充电一次。灯意味着更高的价格。你选择一个并放弃另一个。"
+     },
+     {
+      "t": "p",
+      "x": "We spent two years refusing to pick. V2 carries 10,000 mAh and still sits 17.4 mm low at the front. It reports 8,000 times a second when you want speed, and runs up to 1,000 hours when you would rather forget the cable. Every key lights up, and the price still starts at $99.",
+      "z": "我们花了两年时间拒绝挑选。 V2 拥有 10,000 mAh 电池，正面高度仍为 17.4 毫米。当您需要速度时，它每秒报告 8,000 次；当您不想忘记电缆时，它可以运行长达 1,000 小时。每个按键都会亮起，起价仍为 99 美元。"
+     },
+     {
+      "t": "p",
+      "x": "Big battery and low front. Fast and long-lived. Bright and $99. All of it, at once.",
+      "z": "大电池和低前端。快速且寿命长。明亮，99 美元。所有这一切，一次完成。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/926/457/db6b2dd499cfbc5c27fb6667dc993ec9_original.png?fit=scale-down&origin=ugc&q=100&v=1794929399&width=680&sig=RLOw2HeklODH5CbpVI5E6a2a4P4BWwm4EwFSKfVDWUw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/925/642/58aba813f7a2fc7b7c53e3a5484bb8ff_original.png?fit=scale-down&origin=ugc&q=100&v=1794925629&width=680&sig=aJw5%2B5YkSYzArh5YAonPVyzChkbbZRREKFRkt4JAaUI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/907/789/6c53d24e7a6da4cedee7616e10426ee0_original.gif?fit=scale-down&origin=ugc&q=92&v=1794821113&width=680&sig=4NgICU5Ww3aNnbns0%2BxTpYk7dFw4B2H9aXt1fPiJ4ok%3D"
+     },
+     {
+      "t": "p",
+      "x": "First the sound. Two switch housings: Thock, deep and round; Clack, bright and short. Pick one, or both if you want.",
+      "z": "首先是声音。两个开关外壳：Thock、深型和圆形；噼啪声，明亮而短促。如果需要，请选择其中之一或两者。"
+     },
+     {
+      "t": "p",
+      "x": "Then the feel. Three gasket mounts, soft, even and firm, that swap without tools.",
+      "z": "然后是手感。三个垫圈安装座，柔软、均匀且坚固，无需工具即可更换。"
+     },
+     {
+      "t": "p",
+      "x": "Under all of it, foams, rebuilt: six layers instead of five, so what reaches your ear is the key and nothing else. You will do this for years. Every keystroke should be one you look forward to.",
+      "z": "在所有这些之下，泡沫被重建：六层而不是五层，所以到达你耳朵的东西是关键，没有别的。你会这样做很多年。每一次击键都应该是您所期待的。"
+     },
+     {
+      "t": "p",
+      "x": "Hear the sound test:",
+      "z": "试听声音测试："
+     },
+     {
+      "t": "p",
+      "x": "256 keyboards in one case.",
+      "z": "一台机箱内有 256 个键盘。"
+     },
+     {
+      "t": "p",
+      "x": "Three gasket mounts, six foam layers, two switches. That is 256 ways to build one keyboard, or 512 if you own both switches. One press opens the case, every switch is hot-swap, and nothing needs solder or a screwdriver. Finding your sound takes minutes, not a weekend.",
+      "z": "三个垫圈安装座、六个泡沫层、两个开关。也就是说，构建一款键盘有 256 种方法，如果您拥有两台开关，则有 512 种方法。按一下即可打开外壳，每个开关都是热插拔的，不需要焊接或螺丝刀。找到你的声音只需几分钟，而不是一个周末。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/923/671/4f1ca43e42125ff5eecb080f9ec2bf12_original.gif?fit=scale-down&origin=ugc&q=92&v=1794915021&width=680&sig=wRKP5F7avuTu8h5VZP0clnl86X%2FKTbMKAoV2zPQKhXw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/830/283/d92461ac2e040f7fb90979de788aba67_original.png?fit=scale-down&origin=ugc&q=100&v=1794230783&width=680&sig=PnZY%2FQgTwJ0sZb8Vh5ctFM4omntKgy%2B8aWdm6YR8eow%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/923/586/7594ffae521bfcb286480411338db21b_original.gif?fit=scale-down&origin=ugc&q=92&v=1794914648&width=680&sig=bww1eOwi9Rvu79iaQAOXpFk9UB%2FBo3gKzVW0f9MmN0E%3D"
+     },
+     {
+      "t": "p",
+      "x": "Three gasket mounts. Swap them by hand.",
+      "z": "三个垫圈安装座。用手交换它们。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/925/324/c468d1d1f918f88d36117db79e2882f2_original.gif?fit=scale-down&origin=ugc&q=92&v=1794923854&width=680&sig=QOhOa7Y%2Fpb7e8ItVRbeDy0SQyDozvIJbmbfjJYspxGI%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/925/649/e1b8ce62feb4ad554f9d03cc5db7cfd1_original.png?fit=scale-down&origin=ugc&q=100&v=1794925650&width=680&sig=mApNfTuq%2B%2FNZ523x%2FFh5zmNvxb5bCjjsZL890Wi8dcw%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/923/589/6d12196d0567033984472c0359e3cc4e_original.gif?fit=scale-down&origin=ugc&q=92&v=1794914665&width=680&sig=XnL6JRdFVavLbcL4Dr75leT%2FwVvjjeV7hg2CZmsn6%2Bg%3D"
+     }
+    ]
+   },
+   {
+    "id": 1114943611,
+    "name": "Interface Ring: Your Agents, Memory, Health and Sleep.",
+    "blurb": "Your AI agents on your finger. 24/7 Health & Sleep Tracking | Voice AI Agents | Record Ideas & Meetings | 7-Day Battery | IP68",
+    "url": "https://www.kickstarter.com/projects/rollingsquare/interface-ai-smart-ring-for-voice-notes-agents-and-health",
+    "category": "Wearables",
+    "creator": "Rolling Square | Natura Inc",
+    "location": "San Francisco, CA",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 20000.0,
+    "pledged": 641565.0,
+    "usdPledged": "641565.0",
+    "goalUsd": 20000.0,
+    "percentFunded": 3207.825,
+    "backers": 3745,
+    "deadline": 1797786338,
+    "launchedAt": 1794330338,
+    "staffPick": true,
+    "sources": [
+     "Hardware 热门",
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai",
+     "voice"
+    ],
+    "score": 0.6421,
+    "coverRemote": "https://i.kickstarter.com/assets/055/869/797/bfcad38118e9c711060c5806e2f9c558_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794479140&width=1024&sig=UyS8SPLXyzmBY%2F9PRysXGpHgxxhcWCnbmpytFMtf8j0%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11519924,
+      "price": 99.0,
+      "title": "Founding Member: Ring + 3 months",
+      "desc": "Save 69% | Founding Member · Waitlist only, first 24 hours → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
+      "backers": 1298,
+      "limit": 1350,
+      "remaining": 52,
+      "eta": 1798761600,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11519925,
+      "price": 159.0,
+      "title": "Early Bird: Ring + 3 months",
+      "desc": "Save 51% | Early Bird → One Interface ring in your size, with its charging case and 3 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
+      "backers": 1575,
+      "limit": 1600,
+      "remaining": 25,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11519929,
+      "price": 249.0,
+      "title": "Early Bird: Ring + HumanPods + 6 months",
+      "desc": "Save 54% | Early Bird → One Interface ring with its charging case, HumanPods, and 6 months of Membership. After the campaign, manage your order via Backer Tools: choose your ring size and color, add extras, and update shipping details.",
+      "backers": 289,
+      "limit": 300,
+      "remaining": 11,
+      "eta": 1801440000,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 13,
+    "tiersDate": "2026-11-25",
+    "tiersCarried": "2026-11-25",
+    "cues": [
+     [
+      0.0,
+      2.68,
+      "Natura，我们的使命是让你摆脱困境"
+     ],
+     [
+      2.68,
+      3.2,
+      "屏幕。"
+     ],
+     [
+      3.2,
+      6.1,
+      "我们想把时间还给您"
+     ],
+     [
+      6.1,
+      7.0,
+      "接受它。"
+     ],
+     [
+      7.0,
+      9.52,
+      "过去两年，我们一直在努力"
+     ],
+     [
+      9.52,
+      12.04,
+      "以一种全新的方式与人互动"
+     ],
+     [
+      12.04,
+      13.0,
+      "你的技术。"
+     ],
+     [
+      13.0,
+      15.73,
+      "今天，我很自豪能与大家分享"
+     ],
+     [
+      15.73,
+      16.0,
+      "你。"
+     ],
+     [
+      16.0,
+      20.54,
+      "这是界面。这是一枚戒指。你按"
+     ],
+     [
+      20.54,
+      22.31,
+      "它和你说话。"
+     ],
+     [
+      22.31,
+      25.02,
+      "它做了三件事。它记住的是"
+     ],
+     [
+      25.02,
+      28.02,
+      "你，它为你工作并且照顾你"
+     ],
+     [
+      28.02,
+      28.31,
+      "你。"
+     ],
+     [
+      28.31,
+      30.55,
+      "捕捉一闪即逝的想法、想法和"
+     ],
+     [
+      30.55,
+      32.31,
+      "你总是会忘记的提醒。"
+     ],
+     [
+      32.31,
+      35.31,
+      "提醒我午饭后给莉莉打电话。"
+     ],
+     [
+      35.31,
+      37.57,
+      "按两下，它就会转录"
+     ],
+     [
+      37.57,
+      39.31,
+      "会议长达两个小时。"
+     ],
+     [
+      39.31,
+      41.31,
+      "上次会议我们决定了什么？"
+     ],
+     [
+      41.31,
+      43.31,
+      "记住，这只是一个开始。"
+     ],
+     [
+      43.31,
+      45.44,
+      "它适合你。按住按钮并"
+     ],
+     [
+      45.44,
+      47.51,
+      "说话，你的话就会出现在任何地方"
+     ],
+     [
+      47.51,
+      48.31,
+      "你在潜水。"
+     ],
+     [
+      48.31,
+      51.31,
+      "进行最终检查然后部署。"
+     ],
+     [
+      51.31,
+      52.31,
+      "让我知道你的想法。"
+     ],
+     [
+      52.31,
+      54.6,
+      "但它更进一步。界面控制"
+     ],
+     [
+      54.6,
+      57.07,
+      "真正可以使用您的应用程序的代理"
+     ],
+     [
+      57.07,
+      57.31,
+      "你。"
+     ],
+     [
+      57.31,
+      60.31,
+      "喜欢云、聊天 GPT、静音、本能和"
+     ],
+     [
+      60.31,
+      61.31,
+      "餐饮性质。"
+     ],
+     [
+      61.31,
+      63.31,
+      "所以，你只要说你需要什么就可以了。"
+     ],
+     [
+      63.31,
+      65.31,
+      "从泰国餐厅订购我们平常的食物。"
+     ],
+     [
+      65.31,
+      68.31,
+      "预订晚上 7 点普拉提。"
+     ],
+     [
+      68.31,
+      69.31,
+      "灯关了。"
+     ],
+     [
+      69.31,
+      72.82,
+      "你的手机，你的电脑，你的家，它"
+     ],
+     [
+      72.82,
+      74.31,
+      "把事情做好。"
+     ],
+     [
+      74.31,
+      76.31,
+      "当你留在现场时。"
+     ],
+     [
+      76.31,
+      79.27,
+      "接口还注意什么"
+     ],
+     [
+      79.27,
+      80.31,
+      "最重要。"
+     ],
+     [
+      80.31,
+      81.31,
+      "你的健康。"
+     ],
+     [
+      81.31,
+      84.69,
+      "界面跟踪您的心脏、您的睡眠、"
+     ],
+     [
+      84.69,
+      87.91,
+      "你的压力，甚至你的生理年龄。"
+     ],
+     [
+      87.91,
+      89.91,
+      "刚刚吃了四片鳄梨吐司。"
+     ],
+     [
+      89.91,
+      90.91,
+      "卷发。"
+     ],
+     [
+      90.91,
+      92.91,
+      "10 次，30 磅。"
+     ],
+     [
+      92.91,
+      94.91,
+      "今天低于 400 卡路里。"
+     ],
+     [
+      94.91,
+      96.91,
+      "到六月你就会实现你的目标。"
+     ],
+     [
+      96.91,
+      99.91,
+      "恢复率为 30%。今天放轻松。"
+     ],
+     [
+      99.91,
+      101.97,
+      "把它放在一起你就会看到是什么"
+     ],
+     [
+      101.97,
+      102.91,
+      "实际上在工作。"
+     ],
+     [
+      102.91,
+      104.93,
+      "当其他卡车司机观看时，界面"
+     ],
+     [
+      104.93,
+      105.91,
+      "照顾你。"
+     ],
+     [
+      105.91,
+      108.48,
+      "所有这一切都生活在坚固的不锈钢中"
+     ],
+     [
+      108.48,
+      108.91,
+      "钢。"
+     ],
+     [
+      108.91,
+      111.48,
+      "感觉像珠宝，但实际上是这样的"
+     ],
+     [
+      111.48,
+      111.91,
+      "一个工具。"
+     ],
+     [
+      111.91,
+      113.91,
+      "麦克风可以捕捉每一个字。"
+     ],
+     [
+      113.91,
+      116.36,
+      "来自 Apple 信赖的制造商的传感器"
+     ],
+     [
+      116.36,
+      116.91,
+      "和吴普。"
+     ],
+     [
+      116.91,
+      118.91,
+      "完成后，一个微型电机会振动。"
+     ],
+     [
+      118.91,
+      121.64,
+      "防水且可持续使用一周"
+     ],
+     [
+      121.64,
+      122.91,
+      "一次充电。"
+     ],
+     [
+      122.91,
+      124.91,
+      "界面是围绕隐私构建的。"
+     ],
+     [
+      124.91,
+      126.91,
+      "只有当您按下它时它才会听。"
+     ],
+     [
+      126.91,
+      128.91,
+      "它只保留你要求的内容。"
+     ],
+     [
+      128.91,
+      130.93,
+      "提醒我预订丹的生日晚餐"
+     ],
+     [
+      130.93,
+      131.91,
+      "今天星期六。"
+     ],
+     [
+      131.91,
+      134.02,
+      "你可以听到如此低的耳语，甚至听不到"
+     ],
+     [
+      134.02,
+      135.91,
+      "您旁边的人可以听到。"
+     ],
+     [
+      135.91,
+      137.91,
+      "这是界面。"
+     ],
+     [
+      137.91,
+      140.46,
+      "您的想法、您的会议、您的代理人和"
+     ],
+     [
+      140.46,
+      141.91,
+      "一环呵护您的健康。"
+     ],
+     [
+      141.91,
+      143.91,
+      "现已开放预订。"
+     ],
+     [
+      143.91,
+      146.24,
+      "而且它的成本永远不会像它那么低"
+     ],
+     [
+      146.24,
+      146.91,
+      "今天确实如此。"
+     ],
+     [
+      146.91,
+      148.91,
+      "我们迫不及待地想让您尝试一下。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "p",
+      "x": "*   [**No Subscription needed**](h:No-Subscription-needed)",
+      "z": "* [**无需订阅**](h:无需订阅)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**How it works**](h:How-it-works)",
+      "z": "* [**工作原理**](h:工作原理)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Health and sleep**](h:Health-and-sleep)",
+      "z": "* [**健康与睡眠**](h:健康与睡眠)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Dictation and AI agents**](h:Dictation-and-AI-agents)",
+      "z": "* [**听写和人工智能代理**](h:听写和人工智能代理)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Notes and meetings**](h:Notes-and-meetings)",
+      "z": "* [**笔记和会议**](h:笔记和会议)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**HumanPods**](h:HumanPods)",
+      "z": "* [**HumanPods**](h:HumanPods)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Rewards**](h:Rewards)",
+      "z": "* [**奖励**](h:奖励)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The ring**](h:The-ring)",
+      "z": "* [**戒指**](h:戒指)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Privacy and NatureOS**](h:Privacy-and-NatureOS)",
+      "z": "* [**隐私和 NatureOS**](h:隐私和 NatureOS)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Tech specs**](h:Tech-specs)",
+      "z": "* [**技术规格**](h:技术规格)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Timeline**](h:Timeline)",
+      "z": "* [**时间线**](h:时间线)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Everything in one ring**](h:Everything-in-one-ring)",
+      "z": "* [**一切都在一个环中**](h:一切都在一个环中)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The team**](h:The-team)",
+      "z": "* [**团队**](h:团队)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/rollingsquare/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/rollingsquare/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/rollingsquare/use-of-ai)",
+      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/rollingsquare/use-of-ai)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/843/434/173c4104421ec732eafca6759b9b27b9_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794312784&width=680&sig=2Ky84NlFasyKBCf55u17aSgQ1mIPSJbLm6M1FCJyqwY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/850/346/0b2fea90bba61525789b5b3bb8974a7d_original.webp?fit=scale-down&origin=ugc&q=92&v=1794349993&width=680&sig=C7W6PVu8afRhwukvxBpuKMxhaqzgObhFLVzxOU%2F1juU%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/841/661/a5ec2e68f07b8707373eeffb6180271c_original.webp?fit=scale-down&origin=ugc&q=92&v=1794304235&width=680&sig=BrIdoilcabb3qc%2Fmydo12AJLUoJP2BUevSDz7CBkqR8%3D"
+     },
+     {
+      "t": "p",
+      "x": "Interface is a ring with one button: press it, talk, and your words become a note, a message or a request to your AI agents, without taking out your phone. It works with NatureOS on iPhone and Android, and with your Mac or Windows computer.",
+      "z": "界面是一个带有一个按钮的戒指：按下它，说话，你的话语就会变成一条笔记、一条消息或对你的人工智能代理的请求，而无需拿出你的手机。它可与 iPhone 和 Android 上的 NatureOS 以及 Mac 或 Windows 计算机配合使用。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/841/660/51863f2e674d24135568588e88e71590_original.webp?fit=scale-down&origin=ugc&q=92&v=1794304234&width=680&sig=00j3MBx1PlY3TWZfzWc35XiTF0p3cOF5QIy0KoUh%2BPg%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/894/304/714f8628042152bd0cd7fe2a3e4e3433_original.png?fit=scale-down&origin=ugc&q=100&v=1794684216&width=680&sig=G2vqn6gTkjo7sgSXM89YoFVL63fyQUmk4GO%2FypuBhko%3D"
+     },
+     {
+      "t": "p",
+      "x": "Without a Membership, Interface tracks your health and records your notes as audio. Every recording is sent automatically, as an audio file, to the AI you already use, through a webhook.",
+      "z": "如果没有会员资格，Interface 会跟踪您的健康状况并将您的笔记记录为音频。每个录音都会通过 Webhook 以音频文件的形式自动发送到您已经使用的 AI。"
+     },
+     {
+      "t": "p",
+      "x": "Membership ($9/month) adds our built-in AI: fast and accurate transcripts in 90+ languages, meeting recaps, dictation into any app, insights on your health, and a ready-to-use infrastructure for connecting multiple AI agents to your Interface. 3 to 6 months are included with your reward. If you stop, your ring keeps working with your own AI via webhook, and everything you recorded and transcribed stays yours.",
+      "z": "会员资格（9 美元/月）增加了我们的内置人工智能：90 多种语言的快速准确的文字记录、会议回顾、对任何应用程序的听写、对您健康状况的见解以及用于将多个人工智能代理连接到您的界面的即用型基础设施。您的奖励包含 3 至 6 个月。如果您停止，您的戒指将继续通过 webhook 与您自己的 AI 配合工作，并且您记录和转录的所有内容都属于您。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/841/666/7664499cc35f7e105c1dc3d2ea73b7af_original.webp?fit=scale-down&origin=ugc&q=92&v=1794304259&width=680&sig=uK%2BdoFFSUPs72bbyjD3X88s7qy%2BkobhBZDBBVOtufPk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/841/667/32db87ae8ee1ecab24a5f353ee0a345d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794304259&width=680&sig=74ECCPqX3DrE2Wewf3%2BRCXcVokDoJS%2FAG50AQXM7L0M%3D"
+     },
+     {
+      "t": "p",
+      "x": "Whisper in a waiting room, or speak up at a concert. When it's very quiet or very loud, bring the ring close to your lips. The rest of the time, just talk with your hand wherever it is.",
+      "z": "在候诊室里窃窃私语，或者在音乐会上发言。当环境非常安静或非常吵闹时，将戒指靠近嘴唇。其余时间，无论手在哪里，都可以用手说话。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/841/670/c8a54660935cb75dcc61b9dba66e1eeb_original.webp?fit=scale-down&origin=ugc&q=92&v=1794304260&width=680&sig=PIwgdQdDKuZFnFLEEQL5Ks4Jzb74qqIQ00Ha0dk3mn8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/843/436/725d687d0242cdb3099b0cc215dcff6f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794312796&width=680&sig=BrCtQ%2BzDFWvwysS56fxY2FbjcWtkB7E8AcDIZN2vLiA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/841/669/2e901e77fe6c4df6fbf5b9956ec12218_original.webp?fit=scale-down&origin=ugc&q=92&v=1794304260&width=680&sig=78%2BKv5kALqXrKFI%2FriQUn4%2FhQyt0Btjrv8LIuoOAOPc%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/841/696/e207b30626b4ead41bb50dde8873228c_original.webp?fit=scale-down&origin=ugc&q=92&v=1794304391&width=680&sig=GGROC639aFWYNX8%2BYk9NwZyZ7ny8wqgdpFnOLGAobqY%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/846/747/24939a532edfdc455ad1827eb5b5177f_original.webp?fit=scale-down&origin=ugc&q=92&v=1794329043&width=680&sig=gK3rcgP8YzWVTixEL5oLNkyWs6BB3fAMx9ytQEnWo5g%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/841/697/8a09801cea1bce4c8a224f4ed251e3c6_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794304391&width=680&sig=cB66h6wuTbVo1weeQ6HJ2ZmgG0DTNmZR3G3UK8h%2B2M8%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/841/698/3020633a58445054c28371416fc0aa09_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794304391&width=1360&sig=fut8Xw%2BTJ0GSsOfrv9Y2qFi%2FlwXAgy%2FlEwzvrmtGT24%3D"
+     },
+     {
+      "t": "p",
+      "x": "Interface reads your heart rate, HRV, blood oxygen, sleep, skin temperature and activity, day and night. Log what you eat, your workouts, your supplements and how you feel, and your AI pairs it with your biometrics to give you insights made for you.",
+      "z": "界面可读取您白天和晚上的心率、HRV、血氧、睡眠、皮肤温度和活动。记录您的饮食、锻炼、补充品以及您的感受，您的人工智能将其与您的生物识别数据配对，为您提供量身定制的见解。"
+     },
+     {
+      "t": "p",
+      "x": "Your agents use your apps for you. Ask, and the agent you chose does the work. Anything that matters waits for your approval, and in NatureOS you choose which apps each agent can use.",
+      "z": "您的代理为您使用您的应用程序。询问后，您选择的代理就会帮您完成这项工作。任何重要的事情都等待您的批准，在 NatureOS 中您可以选择每个代理可以使用哪些应用程序。"
+     },
+     {
+      "t": "p",
+      "x": "Catch a thought before it's gone. Dictate an idea, a reminder or a name, and find it later in NatureOS, or let your agents organize it for you.",
+      "z": "在一个想法消失之前抓住它。口述一个想法、一个提醒或一个名称，然后在 NatureOS 中找到它，或者让您的代理为您组织它。"
+     },
+     {
+      "t": "p",
+      "x": "Record a meeting and get the full transcript, who said what, and a recap with decisions and next steps. Later, just ask what you decided. The light on the ring shows when it's recording.",
+      "z": "记录会议并获取完整的记录、谁说了什么，以及决策和后续步骤的回顾。稍后，问问你的决定。录音时，环上的灯会显示。"
+     },
+     {
+      "t": "p",
+      "x": "Talk to your agents through HumanPods while your phone stays in your pocket. Ask a question, start a task or hear an update. With Interface, press the ring and ask, and hear the reply in your HumanPods.",
+      "z": "当您的手机放在口袋里时，即可通过 HumanPods 与您的客服人员交谈。提出问题、开始任务或听取更新。通过 Interface，按响铃并询问，然后在 HumanPods 中听到答复。"
+     },
+     {
+      "t": "p",
+      "x": "All of this lives in one ring of stainless steel, brushed, with polished edges, made to be worn every day.",
+      "z": "所有这些都集中在一枚不锈钢戒指上，经过拉丝处理，边缘抛光，适合每天佩戴。"
+     },
+     {
+      "t": "p",
+      "x": "Worn on your index finger, with the button facing your thumb. Waterproof.",
+      "z": "戴在食指上，按钮面向拇指。防水的。"
+     }
+    ]
+   },
+   {
+    "id": 647705462,
+    "name": "Amoeba One: Mini keychain-phone.",
+    "blurb": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
+    "url": "https://www.kickstarter.com/projects/amoebaone/amoeba-one-mini-keychain-phone",
+    "category": "Gadgets",
+    "creator": "Amoeba One",
+    "location": "Troy, NY",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 25000.0,
+    "pledged": 588751.0,
+    "usdPledged": "588751.0",
+    "goalUsd": 25000.0,
+    "percentFunded": 2355.004,
+    "backers": 4848,
+    "deadline": 1795791604,
+    "launchedAt": 1791900004,
+    "staffPick": true,
+    "sources": [
+     "Technology 热门"
+    ],
+    "kwHits": [
+     "ai"
+    ],
+    "score": 0.5996,
+    "coverRemote": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [
+     {
+      "id": 11313442,
+      "price": 94.0,
+      "title": "Random color",
+      "desc": "One Amoeba One device in a random color.",
+      "backers": 860,
+      "limit": null,
+      "remaining": null,
+      "eta": 1822348800,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11261115,
+      "price": 99.0,
+      "title": "Super Early Bird",
+      "desc": "One Amoeba One in your color. For our earliest backers.\\n\\nChoose your color after campaign via backer tools, all colors available.",
+      "backers": 1200,
+      "limit": null,
+      "remaining": null,
+      "eta": 1822348800,
+      "shipping": "unrestricted"
+     },
+     {
+      "id": 11261139,
+      "price": 110.0,
+      "title": "Early Bird",
+      "desc": "One Amoeba One in your color. Early bird price.\\n\\nChoose your color after campaign via backer tools, all colors available.",
+      "backers": 1011,
+      "limit": null,
+      "remaining": null,
+      "eta": 1822348800,
+      "shipping": "unrestricted"
+     }
+    ],
+    "rewardsTotal": 16,
+    "tiersDate": "2026-11-24",
+    "tiersCarried": "2026-11-24",
+    "cues": [
+     [
+      35.38,
+      37.38,
+      "好，一会见。"
+     ]
+    ],
+    "vttLang": "zh",
+    "story": [
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/498/050/6aab9c8975d47a8e629963b901e4c885_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1791904234&width=1024&sig=FgFsc5p%2BBGKmaLA1Kz%2B8huKuOeNWVnTg8RlcrIGvDp4%3D"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $25,000 pledged of $25,000 goal",
+      "z": "已认捐 $25,000 已认捐 $25,000 目标金额"
+     },
+     {
+      "t": "p",
+      "x": "3 days to go",
+      "z": "天数"
+     },
+     {
+      "t": "p",
+      "x": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
+      "z": "Amoeba配备波浪形屏幕和内置登山扣，有多种靓丽色彩可供选择。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/054/488/418/4feddc14715d0fa2d7deca711aa7a126_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1784510340&width=160&sig=td9wUZlWIBoKtrsO%2FnSJhNcATfsUjWPkeRYh3Xz5kH8%3D"
+     },
+     {
+      "t": "p",
+      "x": "First created•0 backed",
+      "z": "首次创建•0 人支持"
+     },
+     {
+      "t": "p",
+      "x": "Amoeba has a wavy screen, a built-in carabiner, and comes in a variety of fun colors.",
+      "z": "Amoeba 配有波浪形屏幕和内置钥匙扣，有多种有趣的颜色可供选择。"
+     },
+     {
+      "t": "p",
+      "x": "pledged of $25,000 pledged of $25,000 goal",
+      "z": "已认捐 $25,000 已认捐 $25,000 目标金额"
+     },
+     {
+      "t": "p",
+      "x": "3 days to go",
+      "z": "天数"
+     },
+     {
+      "t": "p",
+      "x": "Kickstarter connects creators with backers to fund projects.",
+      "z": "Kickstarter 将创作者与支持者联系起来，为项目筹集资金。"
+     },
+     {
+      "t": "p",
+      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
+      "z": "回报不予保证，但创作者必须定期向支持者提供最新消息。"
+     },
+     {
+      "t": "p",
+      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+      "z": "只有在项目在活动截止日期前达到筹资目标时，您才需要支付费用。"
+     },
+     {
+      "t": "p",
+      "x": "*   [**The phone**](h:The-phone)",
+      "z": "* [**手机**](h:The-phone)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Colors**](h:Colors)",
+      "z": "* [**颜色**](h:Colors)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Features**](h:Features)",
+      "z": "* [**功能**](h:Features)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Everyday**](h:Everyday)",
+      "z": "* [**每天**](h:Everyday)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Under the hood**](h:Under-the-hood)",
+      "z": "* [**幕后揭秘**](h:Under-the-hood)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Spiky and Weirdoz**](h:Spiky-and-Weirdoz)",
+      "z": "* [**Spiky和Weirdoz**](h:Spiky-and-Weirdoz)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Prices**](h:Prices)",
+      "z": "* [**价格**](h:Prices)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Development**](h:Development)",
+      "z": "* [**开发**](h:Development)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Schedule and funding**](h:Schedule-and-funding)",
+      "z": "* [**时间安排和资金**](h:Schedule-and-funding)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Amoeba Tech**](h:Amoeba-Tech)",
+      "z": "* [**变形虫科技**](h:Amoeba-Tech)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Risks**](https://www.kickstarter.com/projects/amoebaone/risks-and-challenges)",
+      "z": "* [**风险**](https://www.kickstarter.com/projects/amoebaone/risks-and-challenges)"
+     },
+     {
+      "t": "p",
+      "x": "*   [**Environmental commitments**](https://www.kickstarter.com/projects/amoebaone/environmental-commitments)",
+      "z": "* [**环保承诺**](https://www.kickstarter.com/projects/amoebaone/environmental-commitments)"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/181/5f3bfd190e487e92007ce8850e14ea1a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869536&width=680&sig=kmTzi4s4hi20cARCFs6C3vrJHQNSnkhcY1ooC9zYcLA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/189/ade3d2dfe0a9533f383a98d4487f223e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869583&width=680&sig=0hyrbnPyyILrK%2BRWAka0z6WiUSA%2F3rAQx2uEsk%2BWelQ%3D"
+     },
+     {
+      "t": "p",
+      "x": "Amoeba One. A keychain dumb phone with a clip-on carabiner and rotating camera.",
+      "z": "Amoeba One。一款带钥匙扣的非智能手机，配有挂钩和旋转摄像头。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/191/aefd6f8c670e56d458546a69e5266e5e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869622&width=680&sig=gyo3yk4o2BxEVjkqck4JTYwcpV%2BkKxxHCVMczKF8gg0%3D"
+     },
+     {
+      "t": "p",
+      "x": "A mini phone for calls, texts, maps, rides, music and banking. No social feeds.",
+      "z": "一款迷你手机，可用于通话、发短信、查看地图、叫车、听音乐和办理银行业务。没有社交动态。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/196/0418cb87d9c51bf60f4e3c4771b466f2_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869657&width=680&sig=kJPW%2BZAVDyN1sC5Cj%2F9Untyl35rYKCVM5N%2BI4MWefCk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/194/ec09b8c7f11428e43b7da3bf056347c7_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869631&width=680&sig=Lg%2FCpRsob6S98vBt41YTaKePNhjx%2FDDnSOR34ctKdEM%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/198/c66c33e244138d09699a8b452df4c14f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869658&width=680&sig=16N6JvsF7R48QpFQyFAiuATkcJutX%2FHzDLZyGPOqL%2BA%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/200/34562088b257f80945198a860810d46e_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869663&width=680&sig=xHzrzPuCWuqM5%2BUP1m0JjpyFeCJCLTrQFY0GQjd2Xhs%3D"
+     },
+     {
+      "t": "p",
+      "x": "Y2K color. Silicone colorways, glass screen, stainless steel inner core.",
+      "z": "Y2K配色。硅胶配色、玻璃屏幕、不锈钢内芯。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/202/eee7b81b6aa803db6cf3bc3381debb0a_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869668&width=680&sig=h7VfjlI5T3Bx%2FXIyuXXQ%2BUIB5nBkyc9jDZdXIor2YW0%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/203/f57645d2817e8541796a4d9eae108275_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869672&width=680&sig=5HsUss9z3aLV5Ck92aB51u4KVd1FE63pfNVuxYalKqk%3D"
+     },
+     {
+      "t": "p",
+      "x": "Five swirls: Mango Orange, Berry Swirl, Cotton Candy, Lagoon Swirl, Lime Soda.",
+      "z": "五款漩涡：芒果橙、莓果漩涡、棉花糖、泻湖漩涡、青柠苏打。"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/206/b84fec0e79aff1a9880dec8a7fdf1b62_original.gif?fit=scale-down&origin=ugc&q=92&v=1791869677&width=680&sig=vgW5WrKoBvzGJKed%2F0UU4zaR9axmovcMiFtyyBr3X6k%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/212/af5d70c7745623389c02f46cff07e8c8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869702&width=680&sig=YajspE7xLR9u5df7109ntlu3hEg3aMPPz0shvChBO%2Fk%3D"
+     },
+     {
+      "t": "img",
+      "u": "https://i.kickstarter.com/assets/055/490/213/1bfdade06281d9950b55df757d5fdd99_original.jpg?fit=scale-down&origin=ugc&q=92&v=1791869706&width=680&sig=Gfl9TsXFbrcwSV%2FqrDR5rb1JqOBqeJxixJ5ageCKDL0%3D"
+     }
+    ]
+   },
+   {
+    "id": 1668593440,
+    "name": "Flic Cue: The AI Voice Button that keeps your phone away",
+    "blurb": "Push-to-talk, reinvented for AI. What you say lands in your list, calendar, inbox or AI agent. Wear it or mount it. No need to charge.",
+    "url": "https://www.kickstarter.com/projects/shortcutlabs/flic-cue",
+    "category": "Wearables",
+    "creator": "Shortcut Labs",
+    "location": "Stockholm, Sweden",
+    "country": "the United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "goal": 10000.0,
+    "pledged": 231104.0,
+    "usdPledged": "231104.0",
+    "goalUsd": 10000.0,
+    "percentFunded": 2311.04,
+    "backers": 1836,
+    "deadline": 1796479162,
+    "launchedAt": 1793887162,
+    "staffPick": true,
+    "sources": [
+     "AI 关键词"
+    ],
+    "kwHits": [
+     "ai",
+     "voice"
+    ],
+    "score": 0.5891,
+    "coverRemote": "https://i.kickstarter.com/assets/055/883/871/80adb09f803a9521768699b466255e16_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794580560&width=1024&sig=JZgKyxrjuW%2FofgwXVzj%2BQ2uzibvU6V4Um0d9iDlxSPc%3D",
+    "videoMp4": null,
+    "videoHls": null,
+    "rewards": [],
+    "rewardsTotal": 0,
+    "tiersDate": "",
+    "tiersCarried": "",
+    "cues": [],
+    "vttLang": "",
+    "story": []
+   }
+  ]
+ },
+ {
   "date": "2026-11-26",
   "generatedAt": "2026-11-26T16:05:17+07:00",
   "source": "Kickstarter discover/advanced API + 项目详情页",
@@ -11510,1643 +13059,6 @@
       "t": "p",
       "x": "Worn on your index finger, with the button facing your thumb. Waterproof.",
       "z": "Worn on your index finger, with the button facing your thumb. Waterproof."
-     }
-    ]
-   }
-  ]
- },
- {
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T19:30:40+07:00",
-  "source": "Kickstarter discover/advanced API + 项目详情页",
-  "method": "popularity 位次 + 筹款/支持人数加权 + AI/自动化关键词加权",
-  "poolSize": 40,
-  "projects": [
-   {
-    "id": 2110062810,
-    "name": "Rainy 75 V2: Redefining the $100 Mechanical Keyboard. Again.",
-    "blurb": "Best-sounding wireless mechanical keyboard for work & gaming: 10000 mAh battery, 17.4mm front height and 8kHz wired & wireless polling.",
-    "url": "https://www.kickstarter.com/projects/keeb/rainy75v2",
-    "category": "Hardware",
-    "creator": "Keeb Inc.",
-    "location": "Middletown, DE",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 393963.0,
-    "usdPledged": "393963.0",
-    "goalUsd": 10000.0,
-    "percentFunded": 3939.6299999999997,
-    "backers": 2564,
-    "deadline": 1799244023,
-    "launchedAt": 1794924023,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门",
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "mechanical keyboard"
-    ],
-    "score": 0.8343,
-    "coverRemote": "https://i.kickstarter.com/assets/055/925/881/f51cb7be7bfa929a0bc535370864a8df_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794926587&width=1024&sig=ZpxFxe9b48yaSA9D4P3IiT%2Fa%2FWoMfjrYhxVj3ByMMU4%3D",
-    "videoMp4": "https://v2.kickstarter.com/1795158307-H88zItsCRkNJKoXU9MhGF83zAhc5A%2B4taBrYpdqGg8s%3D/projects/5405349/video-1477659-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1795158307-H88zItsCRkNJKoXU9MhGF83zAhc5A%2B4taBrYpdqGg8s%3D/projects/5405349/video-1477659-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11498595,
-      "price": 105.0,
-      "title": "Returning Customer Exclusive",
-      "desc": "An exclusive price for returning customers from our official website or Amazon. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
-      "backers": 339,
-      "limit": 3000,
-      "remaining": 2661,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11498605,
-      "price": 108.0,
-      "title": "12-Hour Launch Special",
-      "desc": "Launch pricing for the first 12 hours of the Rainy 75 V2 campaign. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
-      "backers": 1484,
-      "limit": 2000,
-      "remaining": 516,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11498621,
-      "price": 115.0,
-      "title": "Super Early Bird",
-      "desc": "Get the Rainy 75 V2 at the Super Early Bird price. Shipping fee is charged separately.\\n\\nIncludes 1 × Rainy 75 V2 fully assembled keyboard with 1 complete set of preinstalled keycaps and 81 preinstalled switches.\\n\\nScreen modules are not included and are sold separately as optional add-ons.",
-      "backers": 396,
-      "limit": 500,
-      "remaining": 104,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 16,
-    "tiersDate": "2026-11-20",
-    "tiersCarried": "",
-    "cues": [
-     [
-      0.0,
-      3.0,
-      "历史铭记着那部红色电话。"
-     ],
-     [
-      5.2,
-      6.2,
-      "一行"
-     ],
-     [
-      7.0,
-      9.0,
-      "华盛顿致莫斯科。"
-     ],
-     [
-      11.1,
-      12.5,
-      "第一次说话"
-     ],
-     [
-      13.7,
-      15.3,
-      "按过每个键。"
-     ],
-     [
-      17.18,
-      20.18,
-      "莫斯科的某个地方，有人回复了消息。"
-     ],
-     [
-      21.78,
-      23.38,
-      "它从来都不是一部手机。"
-     ],
-     [
-      24.38,
-      27.79,
-      "那是一块键盘。"
-     ],
-     [
-      27.99,
-      30.39,
-      "每个人都记得第一步。"
-     ],
-     [
-      30.99,
-      32.59,
-      "至"
-     ],
-     [
-      32.79,
-      33.99,
-      "月球轨道。"
-     ],
-     [
-      33.99,
-      36.82,
-      "在发动机点火前五秒，"
-     ],
-     [
-      36.82,
-      38.99,
-      "电脑请求权限。"
-     ],
-     [
-      39.99,
-      41.99,
-      "他一言不发。"
-     ],
-     [
-      42.99,
-      44.99,
-      "答案是一把钥匙。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "p",
-      "x": "*   [**Meet Rainy 75 V2**](h:Meet-Rainy-75-V2)",
-      "z": "* [**认识 Rainy 75 V2**](h:Meet-Rainy-75-V2)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**What's New**](h:What-s-New)",
-      "z": "* [**最新动态**](h:What-s-New)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Battery, 8K & Low Front**](h:Battery-8K-Low-Front)",
-      "z": "* [**电池、8K 和低前置**](h:Battery-8K-Low-Front)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Modules**](h:Modules)",
-      "z": "* [**模块**](h:Modules)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Design & Finish**](h:Design-Finish)",
-      "z": "* [**设计与饰面**](h:Design-Finish)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Reviews**](h:Reviews)",
-      "z": "* [**评价**](h:Reviews)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Shows & Meetups**](h:Shows-Meetups)",
-      "z": "* [**展会与见面会**](h:Shows-Meetups)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**In Stores**](h:In-Stores)",
-      "z": "* [**实体店**](h:In-Stores)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Why This Price**](h:Why-This-Price)",
-      "z": "* [**为什么是这个价格**](h:Why-This-Price)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Shipping & Support**](h:Shipping-Support)",
-      "z": "* [**发货与支持**](h:Shipping-Support)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Quality & Warranty**](h:Quality-Warranty)",
-      "z": "* [**质量与质保**](h:Quality-Warranty)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Still $99**](h:Still-99)",
-      "z": "* [**仍为 $99**](h:Still-99)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Risks**](https://www.kickstarter.com/projects/keeb/risks-and-challenges)",
-      "z": "* [**风险**](https://www.kickstarter.com/projects/keeb/risks-and-challenges)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Use of AI**](https://www.kickstarter.com/projects/keeb/use-of-ai)",
-      "z": "* [**人工智能的使用**](https://www.kickstarter.com/projects/keeb/use-of-ai)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Environmental commitments**](https://www.kickstarter.com/projects/keeb/environmental-commitments)",
-      "z": "* [**环保承诺**](https://www.kickstarter.com/projects/keeb/environmental-commitments)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/920/409/cddbd730535e9ca90123597e174d4083_original.png?fit=scale-down&origin=ugc&q=100&v=1794894364&width=680&sig=MFSJHhP%2FpyUtPRSBGCTK7aCuPUwXE%2FTIiEKXzcnQu4A%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/829/398/93bcb1cceb6af9a3429b9eaf1c0b0b84_original.png?fit=scale-down&origin=ugc&q=100&v=1794226191&width=680&sig=LpLnyd2C82RqV2y0cVwqwzsqw%2FGPcqw7YwZ0KFW%2BGnE%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/926/261/4fb44fd718cf8d6e6699152c50e7e815_original.png?fit=scale-down&origin=ugc&q=100&v=1794928244&width=680&sig=Kd8xrASD1VdchTOTIZmZy7I8%2FvrciCSn%2BmLthJI8jGU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/920/473/62fa23f78eaa15eac81a0ff00d6994c6_original.png?fit=scale-down&origin=ugc&q=100&v=1794894711&width=680&sig=VVCGN%2BQJhAq%2BE1o8NEMNHkCKWlFztKksxkZkWPDzE%2B8%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/869/977/3af6b80337d91ef22a1f02f12d54fb3b_original.png?fit=scale-down&origin=ugc&q=100&v=1794480472&width=680&sig=un9KQkbpc2NKL%2BAsIgY90wIEYqKe28E4frx%2F2wYPK%2B4%3D"
-     },
-     {
-      "t": "p",
-      "x": "Keyboards make you choose. A big battery means a thick case. Speed means charging every few days. Lights mean a higher price. You pick one and give up the other.",
-      "z": "键盘让您不得不做出选择。大电池意味着厚机身。速度意味着每隔几天就要充电。灯光意味着更高的价格。您只能二选一。"
-     },
-     {
-      "t": "p",
-      "x": "We spent two years refusing to pick. V2 carries 10,000 mAh and still sits 17.4 mm low at the front. It reports 8,000 times a second when you want speed, and runs up to 1,000 hours when you would rather forget the cable. Every key lights up, and the price still starts at $99.",
-      "z": "我们花了两年时间，拒绝做出选择。V2 搭载 10000 mAh 电池，前部厚度仍仅为 17.4 毫米。当您需要速度时，它每秒可报告 8000 次；当您不想使用充电线时，它最长可运行 1000 小时。每个按键都会亮起，起售价仍为 99 美元。"
-     },
-     {
-      "t": "p",
-      "x": "Big battery and low front. Fast and long-lived. Bright and $99. All of it, at once.",
-      "z": "大电池，低前置。快速且持久。明亮，售价 99 美元。所有优点，一应俱全。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/926/457/db6b2dd499cfbc5c27fb6667dc993ec9_original.png?fit=scale-down&origin=ugc&q=100&v=1794929399&width=680&sig=RLOw2HeklODH5CbpVI5E6a2a4P4BWwm4EwFSKfVDWUw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/925/642/58aba813f7a2fc7b7c53e3a5484bb8ff_original.png?fit=scale-down&origin=ugc&q=100&v=1794925629&width=680&sig=aJw5%2B5YkSYzArh5YAonPVyzChkbbZRREKFRkt4JAaUI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/907/789/6c53d24e7a6da4cedee7616e10426ee0_original.gif?fit=scale-down&origin=ugc&q=92&v=1794821113&width=680&sig=4NgICU5Ww3aNnbns0%2BxTpYk7dFw4B2H9aXt1fPiJ4ok%3D"
-     },
-     {
-      "t": "p",
-      "x": "First the sound. Two switch housings: Thock, deep and round; Clack, bright and short. Pick one, or both if you want.",
-      "z": "首先是声音。两种轴体外壳：Thock，声音低沉圆润；Clack，声音清脆短促。选择一种，或者如果您愿意，也可以两种都选。"
-     },
-     {
-      "t": "p",
-      "x": "Then the feel. Three gasket mounts, soft, even and firm, that swap without tools.",
-      "z": "然后是手感。三个垫片支架，柔软、均匀且稳固，无需工具即可更换。"
-     },
-     {
-      "t": "p",
-      "x": "Under all of it, foams, rebuilt: six layers instead of five, so what reaches your ear is the key and nothing else. You will do this for years. Every keystroke should be one you look forward to.",
-      "z": "在所有这些之下，是经过重新设计的泡沫：由五层变为六层，因此传到您耳朵里的只有按键声，别无其他。您将使用它很多年。每一次敲击键盘都应该让您充满期待。"
-     },
-     {
-      "t": "p",
-      "x": "Hear the sound test:",
-      "z": "听到声音"
-     },
-     {
-      "t": "p",
-      "x": "256 keyboards in one case.",
-      "z": "一个包装箱中装有256个键盘。"
-     },
-     {
-      "t": "p",
-      "x": "Three gasket mounts, six foam layers, two switches. That is 256 ways to build one keyboard, or 512 if you own both switches. One press opens the case, every switch is hot-swap, and nothing needs solder or a screwdriver. Finding your sound takes minutes, not a weekend.",
-      "z": "三个垫片支架、六层泡棉、两个开关。这意味着有 256 种方式可以组装一个键盘，如果您同时拥有两种轴体，则有 512 种方式。一按即可打开外壳，每个轴体均可热插拔，无需焊接或使用螺丝刀。找到您的专属声音只需几分钟，而不是一个周末。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/923/671/4f1ca43e42125ff5eecb080f9ec2bf12_original.gif?fit=scale-down&origin=ugc&q=92&v=1794915021&width=680&sig=wRKP5F7avuTu8h5VZP0clnl86X%2FKTbMKAoV2zPQKhXw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/830/283/d92461ac2e040f7fb90979de788aba67_original.png?fit=scale-down&origin=ugc&q=100&v=1794230783&width=680&sig=PnZY%2FQgTwJ0sZb8Vh5ctFM4omntKgy%2B8aWdm6YR8eow%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/923/586/7594ffae521bfcb286480411338db21b_original.gif?fit=scale-down&origin=ugc&q=92&v=1794914648&width=680&sig=bww1eOwi9Rvu79iaQAOXpFk9UB%2FBo3gKzVW0f9MmN0E%3D"
-     },
-     {
-      "t": "p",
-      "x": "Three gasket mounts. Swap them by hand.",
-      "z": "三个垫片支架。用手更换。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/925/324/c468d1d1f918f88d36117db79e2882f2_original.gif?fit=scale-down&origin=ugc&q=92&v=1794923854&width=680&sig=QOhOa7Y%2Fpb7e8ItVRbeDy0SQyDozvIJbmbfjJYspxGI%3D"
-     },
-     {
-      "t": "p",
-      "x": "One press and the case is open. No screws, no tools.",
-      "z": "一按即可打开保护壳。无需螺丝，无需工具。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/925/649/e1b8ce62feb4ad554f9d03cc5db7cfd1_original.png?fit=scale-down&origin=ugc&q=100&v=1794925650&width=680&sig=mApNfTuq%2B%2FNZ523x%2FFh5zmNvxb5bCjjsZL890Wi8dcw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/923/589/6d12196d0567033984472c0359e3cc4e_original.gif?fit=scale-down&origin=ugc&q=92&v=1794914665&width=680&sig=XnL6JRdFVavLbcL4Dr75leT%2FwVvjjeV7hg2CZmsn6%2Bg%3D"
-     }
-    ]
-   },
-   {
-    "id": 103950657,
-    "name": "ARANIX — The World's First 4WD+4WS All-Terrain Robotic Mower",
-    "blurb": "4WD+4WS | 0-Radius Turning | 40° Slope Capability | FlowCut 2.0 | Edge-Cutting Module | Tri-Fusion Position | AI Obstacle Avoidance",
-    "url": "https://www.kickstarter.com/projects/airseekers/aranix-the-worlds-first-4wd-4ws-all-terrain-robotic-mower",
-    "category": "Hardware",
-    "creator": "Airseekers",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 392305.0,
-    "pledged": 8627902.0,
-    "usdPledged": "1099724.81309888",
-    "goalUsd": 50003.76,
-    "percentFunded": 2199.284230381973,
-    "backers": 426,
-    "deadline": 1798812007,
-    "launchedAt": 1794924007,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "robot",
-     "robotic"
-    ],
-    "score": 0.8307,
-    "coverRemote": "https://i.kickstarter.com/assets/055/958/343/c131e95e49d4689b9cc7bd1d79684c18_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1795155035&width=1024&sig=JCcOVbOzxiv%2FW6puHMm7fn7EhBCFbSYhZR5GojkOIus%3D",
-    "videoMp4": "https://v2.kickstarter.com/1795170984-p6Nnv%2Fe%2BWMNCLGbpBxN7jDfkG7FadiZy0%2BkPf0V7Sas%3D/projects/5395307/video-1476538-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1795170984-p6Nnv%2Fe%2BWMNCLGbpBxN7jDfkG7FadiZy0%2BkPf0V7Sas%3D/projects/5395307/video-1476538-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11446053,
-      "price": 14907.0,
-      "title": "Super Early Bird - ARANIX 2000",
-      "desc": "41% OFF MSRP, Save US$1,300 with our lowest-ever price.\\n\\nWhat’s included:\\n• ARANIX 2000 x 1\\n\\nWarranty & After-Sales Support:\\n• 3-Year Warranty\\n• 30-Day Return\\n• 24/7 Customer Support\\n\\n*Please Note:\\n• Shipping fees will be collected via survey after the campaign ends.",
-      "backers": 71,
-      "limit": 200,
-      "remaining": 129,
-      "eta": 1806537600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11529094,
-      "price": 16477.0,
-      "title": "Super Early Bird - ARANIX 4000",
-      "desc": "40% OFF MSRP, Save US$1,400 with our lowest-ever price.\\n\\nWhat’s included:\\n• ARANIX 4000 x 1\\n\\nWarranty & After-Sales Support:\\n• 3-Year Warranty\\n• 30-Day Return\\n• 24/7 Customer Support\\n\\n*Please Note:\\n• Shipping fees will be collected via survey after the campaign ends.",
-      "backers": 164,
-      "limit": 300,
-      "remaining": 136,
-      "eta": 1806537600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11529139,
-      "price": 25112.0,
-      "title": "Super Early Bird - ARANIX 6000 Bundle",
-      "desc": "37% OFF MSRP, Save US$1,895 on the mower plus essential add-ons.\\nWhat’s included:\\n• ARANIX 6000 x 1\\n• 2-in-1 Trimming & Edging Module x 1\\n• Charging Station Extension Cable x 1\\n• RTK Power Extension Cable x 1\\n• ARANIX Battery (12Ah) x 1\\n• Battery Charging Dock x 1\\n\\nWarranty & After-Sales Support:\\n• 3-Year Warranty\\n• 30-Day Return\\n• 24/7 Customer Support\\n\\n*Please Note:\\n• Shipping fees will be collected via survey after the campaign ends.",
-      "backers": 84,
-      "limit": 200,
-      "remaining": 116,
-      "eta": 1806537600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 20,
-    "tiersDate": "2026-11-20",
-    "tiersCarried": "",
-    "cues": [
-     [
-      39.41,
-      40.41,
-      "演出时间"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/926/070/bd782956d9257e44962fb464985a570b_original.png?fit=scale-down&origin=ugc&q=100&v=1794927390&width=680&sig=UJS1aqtlRDSYYROgtYVmKOM49XIHuYsRKTibvfBu3Nk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/958/341/02b5c9d85ebc0afdb50e6f200d4116d3_original.png?fit=scale-down&origin=ugc&q=100&v=1795155002&width=680&sig=t4fqPZaKppFj%2BZsBg2uQjbIySvKeHR7HuEy6fCc7l3Y%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/960/668/2e2b9de13be94c4f6b10766a96d94da1_original.png?fit=scale-down&origin=ugc&q=100&v=1795170952&width=680&sig=PD6sV2b7JD458BWjFCeGuzQX3W1%2BfoSN%2F9kOINw%2Bn68%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/960/676/001b8f3d0f46f25dc816e2f4236ba352_original.png?fit=scale-down&origin=ugc&q=100&v=1795170972&width=680&sig=iF6hJ7HtEy2xirKMq6SwQjMUs5B2UY%2FldX%2FyraL2VsY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/761/979/abdeff2b24780a012c9e87b3767594a0_original.png?fit=scale-down&origin=ugc&q=100&v=1793713827&width=680&sig=eXum30uMG9DhuMGHjdzACbfI%2B8%2FSbRF%2Fp1OJx6Gi3FE%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/882/480/22c5029ba395bb1bd01c6e8cd8ce7b1d_original.gif?fit=scale-down&origin=ugc&q=92&v=1794569732&width=680&sig=O4XQKl1easdmpqqSha1yXoTIHNjlvlDzd%2BjRWkZcA0Q%3D"
-     },
-     {
-      "t": "p",
-      "x": "Why should your yard adapt to your mower?",
-      "z": "为什么您的庭院要适应您的割草机？"
-     },
-     {
-      "t": "p",
-      "x": "ARANIX adapts to your yard—the challenging conditions other robotic mowers often struggle with.",
-      "z": "ARANIX 可适应您的庭院——其他割草机器人往往难以应对的严苛条件。"
-     },
-     {
-      "t": "p",
-      "x": "From steep slopes and uneven ground to tight turns and complex layouts, it gives you complete confidence to let it mow—without spending time rescuing, trimming, or mowing what your robot leaves behind.",
-      "z": "从陡峭的斜坡和不平坦的地面，到急转弯和复杂的布局，它让您完全放心让它去割草——无需花费时间来补救、修剪或割掉机器人遗漏的草。"
-     },
-     {
-      "t": "p",
-      "x": "Because real lawns deserve a mower designed for real conditions.",
-      "z": "因为真正的草坪需要一款专为真实条件设计的割草机。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/921/195/5739941dd6ae9ec45a8e56a5b131002b_original.png?fit=scale-down&origin=ugc&q=100&v=1794899914&width=680&sig=OwZnhA5vUyoVFUeWi1AbvLZLlljBBo39cOULLqbzG3U%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/882/483/51f576a8fdd19de8c509d96d8125cbdc_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794569755&width=680&sig=8ndSH2%2BzeP4S8Y3wvLQQ7b59DfESB8AzaEj3%2BpUt3%2F4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/926/076/7a06eadabbda3b8d41c427794b2c568f_original.png?fit=scale-down&origin=ugc&q=100&v=1794927409&width=680&sig=5q3fnygqYogE3IxvoQM%2B5loehK8eXGsJBa%2FDkdK3Uyc%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/907/878/5e225ae95367643dfe7fcb2a1cd02328_original.png?fit=scale-down&origin=ugc&q=100&v=1794821625&width=680&sig=Xyjv8k34MN8ELBLGg3Y5yVKPnZCtcwfBJaJg%2F%2F7Doco%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/925/579/2dad8aa0f616e76e9bc0583a97022004_original.png?fit=scale-down&origin=ugc&q=100&v=1794925251&width=680&sig=XmdHpmHPOuxKXIWHvxVSQwFEh1DbamJX8xMGHSi06EU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/927/175/dfd8c3ae9c206f4ec512efee16683a90_original.png?fit=scale-down&origin=ugc&q=100&v=1794933137&width=680&sig=Utp%2F9wyfDhS%2BGGB2USEcUNRHbQ8okupRxCtuMQjDbLs%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/923/381/870a378752da82f4b1dac72c65e54695_original.png?fit=scale-down&origin=ugc&q=100&v=1794912924&width=680&sig=fJnHNHg5b2M0LBiaOwOvidugGuxiu5PdQKwa%2Bl%2BLrwc%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/762/016/6087fb5cc6af76c8760f39d242580199_original.png?fit=scale-down&origin=ugc&q=100&v=1793714037&width=680&sig=Kiq73Wh9g9zWOFGqi0boG2PCRKoBh9pa74%2B4%2FuHhEBM%3D"
-     },
-     {
-      "t": "p",
-      "x": "Each wheel is independently driven and steered. The Motion AI Agent combines perception of obstacles, terrain, slopes and available space with real-time analysis of resistance and traction at each wheel. It then coordinates the drive and steering of all four wheels to select and execute the most suitable maneuver, including zero-radius turns, diagonal movement, crab-style lateral movement and multi-step self-recovery.",
-      "z": "每个车轮都独立驱动和转向。Motion AI Agent将对障碍物、地形、坡度和可用空间的感知与对每个车轮的阻力和牵引力的实时分析相结合。然后，它协调所有四个车轮的驱动和转向，以选择并执行最合适的操纵动作，包括零半径转弯、对角线移动、螃蟹式横向移动和多步自救。"
-     },
-     {
-      "t": "p",
-      "x": "ARANIX performs true 0-radius turns without needing extra turning space. It moves effortlessly through narrow passages, tight corners, and complex lawn layouts, delivering smooth, uninterrupted mowing with fewer missed spots.",
-      "z": "ARANIX能够实现真正的零半径转弯，无需额外的转弯空间。它能轻松穿过狭窄通道、拐角处和布局复杂的草坪，实现平稳、不间断的割草，漏割的区域更少。"
-     },
-     {
-      "t": "p",
-      "x": "Powered by AI, ARANIX intelligently switches between crab-walk and diagonal movement to maneuver in multiple directions. Compared with conventional steering, its omnidirectional mobility delivers smoother turns, faster recovery, and uninterrupted mowing across complex terrain.",
-      "z": "ARANIX 由人工智能驱动，可在螃蟹步和对角线移动之间智能切换，从而实现多方向的操控。与传统转向相比，其全向移动性可实现更平稳的转弯、更快的恢复以及在复杂地形上的不间断割草。"
-     },
-     {
-      "t": "p",
-      "x": "Unlike conventional mowers that drag, crush, or scuff the lawn, ARANIX minimizes turf scuffing, grass flattening, and unnecessary pressure on the lawn, helping protect healthy growth while keeping your yard looking its best.",
-      "z": "与拖拽、碾压或磨损草坪的传统割草机不同，ARANIX最大限度地减少了草坪的磨损、草的压扁和对草坪的不必要压力，有助于保护草坪的健康生长，同时让您的庭院保持最佳外观。"
-     },
-     {
-      "t": "p",
-      "x": "With its omnidirectional mobility, ARANIX reaches deep into corners and along complex lawn edges with ease. It maximizes mowing coverage, reducing the need for manual touch-ups after mowing.",
-      "z": "凭借全向移动能力，ARANIX可以轻松深入角落，并沿着复杂的草坪边缘行进。它最大限度地扩大了割草覆盖范围，减少了割草后人工修剪的需要。"
-     },
-     {
-      "t": "p",
-      "x": "ARANIX confidently climbs, turns, and moves laterally on slopes up to 40° (85%), maintaining outstanding stability and control for smooth, reliable mowing across challenging terrain.",
-      "z": "ARANIX能够自信地在坡度高达40°（85%）的斜坡上攀爬、转向和横向移动，保持出色的稳定性和操控性，从而在崎岖的地形上实现平稳可靠的割草。"
-     },
-     {
-      "t": "p",
-      "x": "Each wheel adapts independently to uneven terrain, helping maintain continuous ground contact over roots, ruts, and bumps. By keeping the cutting deck stable, ARANIX delivers a cleaner, more consistent cut even across challenging lawns.",
-      "z": "每个车轮都能独立适应不平坦的地形，有助于在树根、车辙和颠簸处保持持续的地面接触。通过保持割草盘的稳定性，ARANIX即使在崎岖不平的草坪上也能实现更干净、更均匀的割草效果。"
-     },
-     {
-      "t": "p",
-      "x": "Easily climbs over roots, uneven ground, and overcomes obstacles up to 70mm (2.8 in) to maintain continuous, efficient mowing where other mowers struggle.",
-      "z": "轻松越过树根、不平地面，并克服高达70毫米（2.8英寸）的障碍物，在其他割草机难以胜任的地方保持持续、高效的割草。"
-     },
-     {
-      "t": "p",
-      "x": "Cut. Mulch. Nourish. All in one pass.",
-      "z": "割草。铺设覆盖物。滋养。一次完成。"
-     },
-     {
-      "t": "p",
-      "x": "Before every cut, FlowCut 2.0 uses powerful airflow lifts bent and flattened grass upright for improved blade contact. The result is a cleaner, more even cut with less tearing, helping keep your lawn healthier and better looking.",
-      "z": "每次割草前，FlowCut 2.0都会利用强劲气流将弯曲和压扁的草抬起并立起，以改善刀片接触。这样一来，割草效果更干净、更均匀，撕裂更少，有助于保持草坪的健康和美观。"
-     },
-     {
-      "t": "p",
-      "x": "18 staggered blades work with dual-layer cutting discs and integrated airflow to recut clippings into millimeter-sized pieces. Finer mulch breaks down faster, returning nutrients naturally to your lawn.",
-      "z": "18片交错排列的刀片与双层切割盘和集成气流配合工作，将剪下的草屑再次切割成毫米大小的碎屑。更细的覆盖物分解得更快，将营养物质自然地归还给您的草坪。"
-     },
-     {
-      "t": "p",
-      "x": "Counter-rotating cutting discs and optimized airflow distribute fine grass clippings evenly across your lawn. With fewer clumps and less buildup beneath the deck, your lawn stays naturally nourished—no collection required.",
-      "z": "反向旋转的切割盘和优化的气流将细碎的草屑均匀地撒在草坪上。由于割草机机架下方积聚的草屑更少、结块更少，您的草坪将得到天然滋养，无需收集。"
-     },
-     {
-      "t": "p",
-      "x": "Handles tall, wet and tough grass with ease.",
-      "z": "轻松应对高大、潮湿和坚韧的草。"
-     },
-     {
-      "t": "p",
-      "x": "Switch between pivoting razor blade discs for everyday mowing and straight blade discs for more demanding mowing conditions. Adjust the cutting height from 25 to 95 mm to suit different grass types and seasonal growth, giving you greater flexibility for a consistently well-maintained lawn.",
-      "z": "在用于日常割草的旋转剃刀刀盘和用于更苛刻割草条件的直刀盘之间切换。将割草高度从25毫米调整到95毫米，以适应不同草种和季节性生长，为您提供更大的灵活性，让草坪始终保持良好状态。"
-     },
-     {
-      "t": "p",
-      "x": "Dual high-output cutting motors maintain consistent blade speed through thick, dense, and demanding grass conditions. With powerful, reliable cutting performance, ARANIX delivers cleaner results while reducing slowdowns during every mow.",
-      "z": "双高功率切割电机可在草地茂密、密集且条件苛刻的情况下保持刀片转速的恒定。ARANIX具备强大而可靠的切割性能，在每次割草过程中都能提供更干净的作业效果，同时减少速度减慢的情况。"
-     },
-     {
-      "t": "p",
-      "x": "Wider coverage. Faster mowing. Fewer missed spots.",
-      "z": "覆盖范围更广。割草速度更快。漏割的区域更少。"
-     },
-     {
-      "t": "p",
-      "x": "The standard cutting deck mows within 3 cm of the lawn edge, while the dedicated edging module trims right up to the edge for true 0 cm edge cutting. Fewer uncut strips mean less manual trimming and a cleaner-looking lawn.",
-      "z": "标准割草盘可在距草坪边缘3厘米的范围内割草，而专用修边模块则可修剪至草坪边缘，实现真正的0厘米边缘修剪。未割草带更少，意味着需要进行的人工修剪更少，草坪看起来也更整洁。"
-     },
-     {
-      "t": "p",
-      "x": "Multimodal AI fuses data from 360° LiDAR, 300° Vision SLAM and nRTK to understand the yard in real time, enabling centimeter-level navigation without relying on a single signal source.",
-      "z": "多模态人工智能融合来自360°激光雷达、300°视觉SLAM和nRTK的数据，实时了解场地情况，实现厘米级导航，而无需依赖单一信号源。"
-     },
-     {
-      "t": "p",
-      "x": "With repeat positioning accuracy of up to ±2 cm, ARANIX follows planned mowing paths with exceptional precision. Accurate path tracking helps reduce missed areas while maintaining a clean, consistent finish.",
-      "z": "ARANIX的重复定位精度高达±2厘米，能够以出色的精度遵循规划的割草路径。精确的路径跟踪有助于减少漏刈区域，同时保持整洁一致的刈草效果。"
-     },
-     {
-      "t": "p",
-      "x": "*nRTK is available on ARANIX 4000 and ARANIX 6000 only. Specifications vary by model and region.",
-      "z": "*nRTK 仅在 ARANIX 4000 和 ARANIX 6000 上可用。规格因型号和地区而异。"
-     },
-     {
-      "t": "p",
-      "x": "No complicated antenna installation is required to get started. Auto mapping makes setup quick and intuitive, while optional nRTK is available whenever higher positioning precision is needed.",
-      "z": "无需进行复杂的天线安装即可开始使用。自动测绘使设置快速直观，而当需要更高的定位精度时，可选择使用 nRTK。"
-     },
-     {
-      "t": "p",
-      "x": "Even if RTK signals are temporarily unavailable, ARANIX can continue mowing areas of up to 2,000㎡ using its onboard perception system. No constant RTK, Wi-Fi, or 4G connection is required for reliable, uninterrupted mowing.",
-      "z": "即使RTK信号暂时不可用，ARANIX仍可使用其车载感知系统继续在面积达2000㎡的区域内进行割草作业。无需持续的RTK、Wi-Fi或4G连接，即可实现可靠、不间断的割草。"
-     }
-    ]
-   },
-   {
-    "id": 2099488698,
-    "name": "Lucy AI Studio: A Dedicated Computer for Your AI Agents",
-    "blurb": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-    "url": "https://www.kickstarter.com/projects/744045479/cephalon-ondevice-ai-with-a-selfevolving-ecosystem",
-    "category": "Hardware",
-    "creator": "Cephalon AI",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 10000.0,
-    "pledged": 3843215.0,
-    "usdPledged": "489727.2056046",
-    "goalUsd": 1274.26,
-    "percentFunded": 38432.15,
-    "backers": 306,
-    "deadline": 1795532381,
-    "launchedAt": 1792504781,
-    "staffPick": true,
-    "sources": [
-     "AI 关键词"
-    ],
-    "kwHits": [
-     "ai"
-    ],
-    "score": 0.7572,
-    "coverRemote": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D",
-    "videoMp4": "https://v2.kickstarter.com/1795110026-VKacRU96ocPTeDqgh1vUOQheFhQ4ehQI3WHF6EhoMkw%3D/projects/5343527/video-1466952-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1795110026-VKacRU96ocPTeDqgh1vUOQheFhQ4ehQI3WHF6EhoMkw%3D/projects/5343527/video-1466952-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11305322,
-      "price": 6267.0,
-      "title": "Super Early Bird | Pro Version",
-      "desc": "Lucy AI Studio Pro Version\\n\\n🔥 Super Early Bird — US$799 | Save $100, 11% Off MSRP $899\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 Cephalon Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 212,
-      "limit": 500,
-      "remaining": 288,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11488032,
-      "price": 19614.0,
-      "title": "Super Early Bird | Max Version",
-      "desc": "Lucy AI Studio Max Version\\n\\n🔥 Super Early Bird — US$2,499 | Save $1500, 38% Off MSRP $3,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 Cephalon Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins December 2026.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 25,
-      "limit": 500,
-      "remaining": 475,
-      "eta": 1796083200,
-      "shipping": "unrestricted"
-     },
-     {
-      "id": 11493190,
-      "price": 29815.0,
-      "title": "Super Early Bird | Ultra Version",
-      "desc": "Lucy AI Studio Ultra Version\\n\\n🔥 Super Early Bird — US$3,799 | Save $1200, 24% Off MSRP $4,999\\n\\n🛡 1-Year Warranty, Backed by Dedicated Support\\n🌍 Cephalon Guaranteed Delivery\\n💬 Reach Us Anytime at ks@cephalon.ai\\n🔶 Customs Fees and VAT Covered Worldwide\\n\\nNote:\\n· Prices may appear in HKD on Kickstarter, but will automatically convert to your local currency at checkout.\\n· Shipping begins February 2027.\\n· Shipping fees will be collected via a post-campaign survey after the project ends.",
-      "backers": 47,
-      "limit": 500,
-      "remaining": 453,
-      "eta": 1801440000,
-      "shipping": "unrestricted"
-     }
-    ],
-    "rewardsTotal": 12,
-    "tiersDate": "2026-11-20",
-    "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/770/695/da21c2248bea0deedfeddd4fc24fc723_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1793769115&width=1024&sig=jH3W0C%2FnM%2FPmC9%2BpeBR1NgMQ%2FdSd8mjj5kS%2Br5h2OBk%3D"
-     },
-     {
-      "t": "p",
-      "x": "pledged of $1,275 pledged of $1,275 goal",
-      "z": "已认捐 $1,275 已认捐 $1,275 目标金额"
-     },
-     {
-      "t": "p",
-      "x": "4 days to go",
-      "z": "天数"
-     },
-     {
-      "t": "p",
-      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-      "z": "一款安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/054/060/319/67b15255a38b25916731383a3310333f_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1781101494&width=160&sig=MM%2FPbg87VKoqOC5VtkC6HMczx2KvRyft7m4b1wTAUhM%3D"
-     },
-     {
-      "t": "p",
-      "x": "First created•0 backed",
-      "z": "首次创建•0 人支持"
-     },
-     {
-      "t": "p",
-      "x": "A quiet, always-on AI workstation for Codex, Claude Code, Hermes, and selected local models.",
-      "z": "一款安静、始终在线的 AI 工作站，适用于 Codex、Claude Code、Hermes 和选定的本地模型。"
-     },
-     {
-      "t": "p",
-      "x": "pledged of $1,275 pledged of $1,275 goal",
-      "z": "已认捐 $1,275 已认捐 $1,275 目标金额"
-     },
-     {
-      "t": "p",
-      "x": "4 days to go",
-      "z": "天数"
-     },
-     {
-      "t": "p",
-      "x": "Kickstarter connects creators with backers to fund projects.",
-      "z": "Kickstarter 将创作者与支持者联系起来，为项目筹集资金。"
-     },
-     {
-      "t": "p",
-      "x": "Rewards aren’t guaranteed, but creators must regularly update backers.",
-      "z": "回报并非有保证，但创作者必须定期向支持者提供最新消息。"
-     },
-     {
-      "t": "p",
-      "x": "You’re only charged if the project meets its funding goal by the campaign deadline.",
-      "z": "只有在项目在活动截止日期前达到筹资目标时，您才会被收取费用。"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Reviews**](h:Reviews)",
-      "z": "* [**评价**](h:Reviews)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**The Reason LUCY Exists**](h:The-Reason-LUCY-Exists)",
-      "z": "* [**LUCY 存在的理由**](h:The-Reason-LUCY-Exists)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**A Workspace that Stays Ready**](h:A-Workspace-that-Stays-Ready)",
-      "z": "* [**始终保持就绪状态的工作空间**](h:A-Workspace-that-Stays-Ready)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**From Request to Result**](h:From-Request-to-Result)",
-      "z": "* [**从请求到结果**](h:From-Request-to-Result)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Why a Dedicated Computer**](h:Why-a-Dedicated-Computer)",
-      "z": "* [**为什么需要专用计算机**](h:Why-a-Dedicated-Computer)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Real Work. Status Snapshot**](h:Real-Work-Status-Snapshot)",
-      "z": "* [**真实工作状态快照**](h:Real-Work-Status-Snapshot)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Remote Workflows**](h:Remote-Workflows)",
-      "z": "* [**远程工作流程**](h:Remote-Workflows)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Open by Design**](h:Open-by-Design)",
-      "z": "* [**开放式设计**](h:Open-by-Design)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Private Storage**](h:Private-Storage)",
-      "z": "* [**私人储存空间**](h:Private-Storage)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Local Video Generation**](h:Local-Video-Generation)",
-      "z": "* [**本地视频生成**](h:Local-Video-Generation)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**More Than An AI Workstation**](h:More-Than-An-AI-Workstation)",
-      "z": "* [**不仅仅是 AI 工作站**](h:More-Than-An-AI-Workstation)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Designed to Stay On**](h:Designed-to-Stay-On)",
-      "z": "* [**稳固贴合**](h:Designed-to-Stay-On)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Choose Your LUCY**](h:Choose-Your-LUCY)",
-      "z": "* [**选择您的LUCY**](h:Choose-Your-LUCY)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**HOW TO USE**](h:HOW-TO-USE)",
-      "z": "* [**使用方法**](h:HOW-TO-USE)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**REWARDS**](h:REWARDS)",
-      "z": "* [**奖励**](h:REWARDS)"
-     },
-     {
-      "t": "p",
-      "x": "*   [**Timeline**](h:Timeline)",
-      "z": "* [**时间轴**](h:Timeline)"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/316/829/6e168fa3d7ee6e0e5caee2e594ee801b_original.png?fit=scale-down&origin=ugc&q=100&v=1790702858&width=680&sig=3pm%2BpeI7vSycoDEt5rVx3eoEt6wc5tvjjQKOEVquI40%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/139/c8c104d6a5f6485b4f7d3fd291306895_original.png?fit=scale-down&origin=ugc&q=100&v=1790314954&width=680&sig=4KJu6Kg11W%2FKePoFiUrrgmxNlFfTAC3bPndeZd0365k%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/725/415c199d901eeb5d444a785d538b2e68_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319487&width=680&sig=QXTeTvgsF8xr2gQkWtTxsJnRcWdJkvDCdKncG0xW2rY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/604/809/38bf386f16d519e8eb6d3a28bba073e3_original.png?fit=scale-down&origin=ugc&q=100&v=1792599525&width=680&sig=cVRenq%2FaG8RTrFbHovbf%2FAI0thrX5msAFB70Uc41rR4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/714/114/5052490fa13fcfb30ab3da1bbcc7af46_original.png?fit=scale-down&origin=ugc&q=100&v=1793329008&width=680&sig=hcEhnPUHNnOZ%2FBi5de81Q17ljHCwbPKcbhetd5Lk6ts%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/585/305/7977e4798d86fd1baf4621f78606d89b_original.png?fit=scale-down&origin=ugc&q=100&v=1792495942&width=680&sig=CrFCgPZtKUPhITN2COxWy87x87ecyQ%2B2YN2uA%2Fv8ZGw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/162/98025fb70322db4a0a872845425cb9fa_original.png?fit=scale-down&origin=ugc&q=100&v=1790315126&width=680&sig=9Tzhlc%2FDpDahtLwPQKMPkCduDSnWXjgwKKVJf6L1dtk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/169/ab833cfc4bb27dd7a918822ca937af96_original.png?fit=scale-down&origin=ugc&q=100&v=1790315170&width=680&sig=3mF25kAPlzxyqz4MuKxWKa9KEm3Ds2wMAiFjCynId8c%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/752/23cb80f5bb030f459f2aa1546d84b9ad_original.gif?fit=scale-down&origin=ugc&q=92&v=1790319854&width=680&sig=%2F%2F1%2FF97dUN6IHj2q4g1ttj2NQjKqIMd55hdJgJTUoAk%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/173/582ed5763ef51c88abc008bcfc1e8243_original.png?fit=scale-down&origin=ugc&q=100&v=1790315184&width=680&sig=It%2FRUMet1QS52lyh4ocIkVpv6WaWSa4Q9G4P3iU65lA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/792/4dfe5b6a564b99a8cfc166c29f7a13c9_original.gif?fit=scale-down&origin=ugc&q=92&v=1790320183&width=680&sig=vDOOqAVnAir2NfFQqdaQRb%2BD9soY3vIZ0Q%2FewpOfwzM%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/262/174/ed792e97c39a87ec2c6af0a0ade64f41_original.png?fit=scale-down&origin=ugc&q=100&v=1790315204&width=680&sig=ZnF%2Ff4prTWKg8a67Q7II2WdOL9h7Gg%2BZx8Gia%2FkN%2FYo%3D"
-     }
-    ]
-   },
-   {
-    "id": 368265392,
-    "name": "Flipper One — Open Linux Multi-tool",
-    "blurb": "Open Linux Multi-tool based on a powerful ARM processor. Network toolkit expandable with modules.",
-    "url": "https://www.kickstarter.com/projects/flipper-devices/flipper-one",
-    "category": "Gadgets",
-    "creator": "Flipper Devices Inc.",
-    "location": "Claymont, DE",
-    "country": "the United States",
-    "currency": "USD",
-    "currencySymbol": "$",
-    "goal": 300000.0,
-    "pledged": 14629350.0,
-    "usdPledged": "14629350.0",
-    "goalUsd": 300000.0,
-    "percentFunded": 4876.45,
-    "backers": 27092,
-    "deadline": 1797523230,
-    "launchedAt": 1794931230,
-    "staffPick": true,
-    "sources": [
-     "Technology 热门"
-    ],
-    "kwHits": [],
-    "score": 0.7451,
-    "coverRemote": "https://i.kickstarter.com/assets/055/911/490/bf1403f6f980e336ad06342777f770a6_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1794842563&width=1024&sig=QHsqw%2BTnLacT%2F36u6WKC4kYWC9svw4uciAxb%2Fd7iDg0%3D",
-    "videoMp4": "https://v2.kickstarter.com/1795143447-NWZlJkczRtzNFU5K0VqG1eoZEP24%2BJ%2B5piHNvlOaEUI%3D/projects/5339535/video-1477755-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1795143447-NWZlJkczRtzNFU5K0VqG1eoZEP24%2BJ%2B5piHNvlOaEUI%3D/projects/5339535/video-1477755-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11532338,
-      "price": 359.0,
-      "title": "Flipper One — Pre-order Special",
-      "desc": "Exclusive price for Pre-order coupon holders only\\n35% Off Estimate Retail Price ($550)\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
-      "backers": 11237,
-      "limit": null,
-      "remaining": null,
-      "eta": 1814400000,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11498029,
-      "price": 399.0,
-      "title": "Flipper One — Kickstarter Special",
-      "desc": "Limited Kickstarter Special Price\\n25% Off Estimate Retail Price ($550)\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
-      "backers": 5400,
-      "limit": 15000,
-      "remaining": 9600,
-      "eta": 1814400000,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11498062,
-      "price": 759.0,
-      "title": "Ultimate Bundle — F1 + 5G + SDR + LoRa",
-      "desc": "Limited Early Bird Price\\n35% Off Estimate Retail Price\\n\\nShipping and taxes will be charged via our pledge manager after the campaign",
-      "backers": 6093,
-      "limit": null,
-      "remaining": null,
-      "eta": 1814400000,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 16,
-    "tiersDate": "2026-11-20",
-    "tiersCarried": "",
-    "cues": [],
-    "vttLang": "",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/902/255/99337c9b488ecc4bcd7d07b716b4056a_original.png?fit=scale-down&origin=ugc&q=92&v=1794775271&width=1360&sig=jHtMUndCvyiUt5gIDaWJoM49ylro3cpr1UD05Q%2BVK0M%3D"
-     },
-     {
-      "t": "p",
-      "x": "Flipper One runs on completely open-source Linux firmware with a mainline kernel. This means full compatibility with the latest kernel versions:",
-      "z": "Flipper One 运行在完全开源的 Linux 固件上，采用主线内核。这意味着与最新内核版本完全兼容："
-     },
-     {
-      "t": "p",
-      "x": "*   Mainline Linux kernel support — full support in upstream Linux kernel.",
-      "z": "* 主线 Linux 内核支持 — 在上游 Linux 内核中提供全面支持。"
-     },
-     {
-      "t": "p",
-      "x": "*   No binary blobs — no proprietary code or binaries in the boot process.",
-      "z": "* 无二进制 Blob — 启动过程中没有专有代码或二进制文件。"
-     },
-     {
-      "t": "p",
-      "x": "*   No vendor-locked BSP — free from outdated vendor board support packages.",
-      "z": "* 无供应商锁定 BSP — 无需使用过时的供应商板级支持包。"
-     },
-     {
-      "t": "p",
-      "x": "Our goal is to create a fully upstream-supported ARM computer that never becomes outdated, along with a well-documented platform giving the community maximum freedom to customize. To pull this off, we've [partnered with the Collabora team](https://www.collabora.com/news-and-blog/news-and-events/collabora-flipper-opening-up-the-rk3576.html), well-known contributors to the Linux kernel.",
-      "z": "我们的目标是打造一款完全由上游支持的 ARM 电脑，它永远不会过时，同时提供一个文档齐全的平台，让社区享有最大的定制自由。为了实现这一目标，我们[与 Collabora 团队](https://www.collabora.com/news-and-blog/news-and-events/collabora-flipper-opening-up-the-rk3576.html)建立了合作关系，该团队是 Linux 内核的知名贡献者。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/911/480/9372a396ea4d5c60f05c052021cb6d50_original.png?fit=scale-down&origin=ugc&q=92&v=1794842482&width=1360&sig=A36jIviJJ2akw1NB2jc8GI62kYgwJ0NB7OEKqVNGKno%3D"
-     },
-     {
-      "t": "p",
-      "x": "*   Layer 0 (Zero) — Offline point-to-point access-control protocols: NFC, low-frequency RFID, Sub-1 GHz radio, Infrared, wired protocols like iButton, UART, SPI, I2C. Based on a low-power microcontroller.",
-      "z": "* 第0层（零层）— 离线点对点访问控制协议：NFC、低频RFID、Sub-1 GHz无线电、红外、有线协议（如iButton、UART、SPI、I2C）。基于低功耗微控制器。"
-     },
-     {
-      "t": "p",
-      "x": "*   Layer 1 (One) — Everything that's IP-connected: Wi-Fi, Ethernet, 5G, and satellite. It's all about networking, data transfer, and high-performance computing. An open Linux toolkit running on powerful hardware, enough computing power to handle SDR and local AI.",
-      "z": "*第1层（一层）—所有通过IP连接的设备：Wi-Fi、以太网、5G和卫星。核心在于联网、数据传输和高性能计算。一个在强大硬件上运行的开放式Linux工具包，具备足够的算力来处理SDR和本地AI。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/923/640/50558c1fd842700e4a0733b7710541d1_original.png?fit=scale-down&origin=ugc&q=92&v=1794914871&width=1360&sig=9vWN6hRxeTqfLP82xzFOJXxRnzkW2LfgjjtqbW3upYE%3D"
-     },
-     {
-      "t": "p",
-      "x": "So they're not \"newer\" and \"older\" generations of the same product. Flipper One doesn't replace Flipper Zero — they're different categories of devices. Comparing them directly would be like comparing a hammer to a screwdriver.",
-      "z": "因此，它们并不是同一款产品的“更新”和“更旧”的代际产品。Flipper One 并不取代 Flipper Zero——它们属于不同类别的设备。直接比较它们就像拿锤子和螺丝刀作比较。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/902/061/980de2280d8e1e8f2296c7710af621fd_original.png?fit=scale-down&origin=ugc&q=92&v=1794773449&width=1360&sig=0iCfR7Fe5ubqCufZd9Fmhm4PKLl9vrxusBusKY5AsNI%3D"
-     },
-     {
-      "t": "p",
-      "x": "*   Low-power MCU (Raspberry Pi RP2350) — manages LCD display, buttons, power and controls system boot stages.",
-      "z": "* 低功耗 MCU（Raspberry Pi RP2350）— 管理 LCD 显示屏、按钮、电源并控制系统启动阶段。"
-     },
-     {
-      "t": "p",
-      "x": "*   High-performance CPU (Rockchip RK3576) — runs Linux kernel and user apps, and manages high-speed peripheral interfaces: Ethernet, Wi-Fi, PCIe, USB, HDMI, etc.",
-      "z": "* 高性能 CPU（Rockchip RK3576）——运行 Linux 内核和用户应用程序，并管理高速外设接口：以太网、Wi-Fi、PCIe、USB、HDMI 等。"
-     },
-     {
-      "t": "p",
-      "x": "The idea behind the [2-processor architecture](https://docs.flipper.net/one/mcu-firmware/architecture) is to make Flipper One a fully standalone device that remains operational even if the user completely breaks the Linux system. It allows to recover OS without needing an external computer or additional software.",
-      "z": "[双处理器架构](https://docs.flipper.net/one/mcu-firmware/architecture)背后的理念是，让Flipper One成为一款完全独立的设备，即使用户彻底破坏了Linux系统，它也能保持正常运行。它允许在不需要外部计算机或额外软件的情况下恢复操作系统。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/915/674/a30eb9086c681f47ece3e6996576f18b_original.png?fit=scale-down&origin=ugc&q=92&v=1794862501&width=1360&sig=IFfnAv6uAdS8c4c3j0ho8LpToRdqbIRBa2GAJFaeLDo%3D"
-     },
-     {
-      "t": "p",
-      "x": "Connect Flipper One to a laptop with a single USB-C cable to get SSH console access and charge the device at the same time. No extra adapters are needed for Linux console access or power — Flipper One can simultaneously emulate a USB network adapter, a serial (COM port), or disk device.![Image 8](https://i.kickstarter.com/assets/055/915/013/b36f023ae1f0579f18e918885b6d21ce_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794859211&width=1360&sig=y6mWufNb1H5cJeEzqLFRFm%2Bq4O%2Bze3PFFrDrUqXCzLo%3D)",
-      "z": "使用一根USB-C线缆将Flipper One连接到笔记本电脑，即可获得SSH控制台访问权限，并同时为设备充电。访问 Linux 控制台或为其供电无需额外的适配器——Flipper One 可以同时模拟 USB 网络适配器、串行（COM 端口）或磁盘设备！[图片 8](https://i.kickstarter.com/assets/055/915/013/b36f023ae1f0579f18e918885b6d21ce_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794859211&width=1360&sig=y6mWufNb1H5cJeEzqLFRFm%2Bq4O%2Bze3PFFrDrUqXCzLo%3D)"
-     },
-     {
-      "t": "p",
-      "x": "*   Power IN/OUT — the USB-C1 port supports 5–20 V Power Delivery and can charge Flipper One or power your laptop.",
-      "z": "* 电源输入/输出 — USB-C1 端口支持 5–20 V 电源传输，可为 Flipper One 充电或为您的笔记本电脑供电。"
-     },
-     {
-      "t": "p",
-      "x": "*   Device Emulation — the same port also emulates a USB network adapter, serial device, or disk drive. All at speeds of up to 5 Gbps.",
-      "z": "* 设备仿真 — 同一个端口还可以仿真 USB 网络适配器、串行设备或磁盘驱动器。所有速度均高达 5 Gbps。"
-     },
-     {
-      "t": "p",
-      "x": "Connect Flipper One to an external display using a single USB Type-C cable and get a full desktop experience. ![Image 9](https://i.kickstarter.com/assets/055/923/658/b9093058f1922391792bcb0d1025bbd6_original.png?fit=scale-down&origin=ugc&q=92&v=1794914956&width=1360&sig=ReYnTcSZBGfwNJG0M2AfTDJnHCQlsFHwcucui878umE%3D)",
-      "z": "使用一根 USB Type-C 线缆将 Flipper One 连接到外接显示器，即可获得完整的桌面体验。！[图片 9](https://i.kickstarter.com/assets/055/923/658/b9093058f1922391792bcb0d1025bbd6_original.png?fit=scale-down&origin=ugc&q=92&v=1794914956&width=1360&sig=ReYnTcSZBGfwNJG0M2AfTDJnHCQlsFHwcucui878umE%3D)"
-     },
-     {
-      "t": "p",
-      "x": "*   USB DisplayPort Alt Mode — video output at 4K@120Hz to an external display over a single USB-C cable.",
-      "z": "* USB DisplayPort 备用模式 — 通过单根 USB-C 线缆以 4K@120Hz 的分辨率将视频输出到外接显示器。"
-     },
-     {
-      "t": "p",
-      "x": "*   USB Host + Charging — connect peripherals such as a keyboard and mouse through your monitor’s USB hub while charging Flipper One over the same cable.",
-      "z": "* USB主机 + 充电 — 通过显示器的USB集线器连接外围设备（如键盘和鼠标），同时通过同一根线缆为Flipper One充电。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/915/690/7612ccda161b085bf24c666608a2241f_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794862528&width=1360&sig=tvdavX45lTwQLhI%2F81PTf9XGRb7UzBeozjtZFjTu7jo%3D"
-     },
-     {
-      "t": "p",
-      "x": "We wanted to make alternative firmware development for Flipper One easier. You can debug and perform a full system recovery through the same primary USB-C port (USB-C1). For most development tasks, you won't need a separate debugger.",
-      "z": "我们希望让Flipper One的替代固件开发变得更加容易。您可以通过同一个主USB-C端口（USB-C1）进行调试和执行完整系统恢复。对于大多数开发任务，您不需要单独的调试器。"
-     },
-     {
-      "t": "p",
-      "x": "Using the USB-C1 port, you can access the debug console & BOOTSEL mode for recovering the RP2350 MCU, and MaskROM mode for recovering the RK3576 CPU.",
-      "z": "使用 USB-C1 端口，您可以访问调试控制台和 BOOTSEL 模式以恢复 RP2350 MCU，以及 MaskROM 模式以恢复 RK3576 CPU。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/901/972/341f390c1a8ba3223e116fca20bf2bfc_original.png?fit=scale-down&origin=ugc&q=92&v=1794772827&width=1360&sig=jFoa1SGS2UeM9kAeM7nlXo5OpxMjEP6C%2BUgbDhRdbm4%3D"
-     },
-     {
-      "t": "p",
-      "x": "*   2× Gigabit Ethernet— two independent WAN/LAN ports, each running at 1 Gbps. Can be used for a transparent bridge, MitM sniffing, and more.",
-      "z": "* 2 个千兆以太网端口——两个独立的 WAN/LAN 端口，每个端口的运行速度均为 1 Gbps。可用于透明网桥、中间人攻击嗅探等。"
-     },
-     {
-      "t": "p",
-      "x": "*   Wi-Fi 6E— based on the MT7921AUN chipset with monitor mode support. Covers 2.4/5/6 GHz bands and can run as both a Wi-Fi Client (STA) and a Hotspot (AP).",
-      "z": "* Wi-Fi 6E— 基于 MT7921AUN 芯片组，支持监视模式。覆盖 2.4/5/6 GHz 频段，既可以作为 Wi-Fi 客户端 (STA) 运行，也可以作为热点 (AP) 运行。"
-     },
-     {
-      "t": "p",
-      "x": "*   Cellular modem— 5G or LTE modem via the M.2 expansion module, with support for external antennas. Accepts a physical Nano SIM (4FF) and eSIM.",
-      "z": "* 蜂窝调制解调器——通过 M.2 扩展模块实现的 5G 或 LTE 调制解调器，支持外置天线。支持物理 Nano SIM 卡（4FF）和 eSIM 卡。"
-     },
-     {
-      "t": "p",
-      "x": "*   USB Ethernet— up to 5 Gbps emulated over USB-C. Connect your laptop or smartphone via a USB cable to add an extra network interface. Works via USB CDC-NCM, so no drivers are required.",
-      "z": "* USB 以太网——通过 USB-C 模拟，速度高达 5 Gbps。通过 USB 线缆连接笔记本电脑或智能手机，即可添加额外的网络接口。通过 USB CDC-NCM 工作，因此无需驱动程序。"
-     },
-     {
-      "t": "p",
-      "x": "Out of the box, Flipper One can work as a gateway to any network, a multi-hotspot bridge, an inline Ethernet sniffer, a USB Wi-Fi/Ethernet adapter for a PC or phone.",
-      "z": "Flipper One 开箱即用，可充当任何网络的网关、多热点桥接器、串联式以太网嗅探器、用于电脑或手机的 USB Wi-Fi/以太网适配器。"
-     },
-     {
-      "t": "p",
-      "x": "Analyze wired and wireless IP networks: discover active hosts, scan for open ports and services, detect network attacks and report anomalies. Flipper One comes with built-in apps for network analysis, mapping network topology, and detecting host misconfigurations.![Image 13](https://i.kickstarter.com/assets/055/901/978/c2894be981d98c00ee8d0a063b05ceb1_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794772894&width=1360&sig=b8%2BQACZj70PNfVrKKT0uzYmMNTfFCY8OEM1kvDS5CGM%3D)It can also identify vulnerable and outdated services, act as a honeypot to detect network scanning activity, and save the results as exportable reports.",
-      "z": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/901/981/e9933d565eed1456387079c4b7480e32_original.png?fit=scale-down&origin=ugc&q=92&v=1794772918&width=1360&sig=sAAsgFnt5lqfzHEe6qLvDjFHhbrpG5eiyhhZ2uuaaW4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/901/988/3a5dc5623f3902d1cf39a5838f1b954e_original.png?fit=scale-down&origin=ugc&q=92&v=1794772976&width=1360&sig=4f3ZFB3tpYpntQQ5inDk0YhsGBkQ9MLhbnwPQrINdDY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/913/464/bd70b762861f1c416784cdc94cbafddc_original.jpg?fit=scale-down&origin=ugc&q=92&v=1794852348&width=680&sig=9sAlCmmbz8GzI6X2uGN7SY12E32HLABNYD0NXKDDnN0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/902/006/b504bda05a8841369f36fcbe2bf2cf3d_original.png?fit=scale-down&origin=ugc&q=92&v=1794773088&width=1360&sig=fp1LTMS%2Bw27uowCS%2FPLBWE4%2FRpzcvWxORcICa1Ml7hw%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/911/964/c57d4460e6c683fac98935ae05197102_original.png?fit=scale-down&origin=ugc&q=92&v=1794845396&width=1360&sig=oQWsYSMJbbwLDs1l2VIfkPt2I4By9W5cuuCIA1RbY1Y%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/911/967/a64e6607fb5375c880cc623b4f9778e9_original.png?fit=scale-down&origin=ugc&q=92&v=1794845421&width=1360&sig=%2BXUCsqPSffEqa%2F8b7U5c9d6dx3s%2FakQVQ%2FhP%2BSR8afQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/902/072/cb069f204af3ad0b863eca2e387a6a49_original.png?fit=scale-down&origin=ugc&q=92&v=1794773580&width=1360&sig=2e2e9GxKM5tie8kda0U2OU0TP9x0r0YFPXLOIWQ9Ni0%3D"
-     }
-    ]
-   },
-   {
-    "id": 653025201,
-    "name": "XAIStack: Modular AI Workstation NAS That Grows With You",
-    "blurb": "Opus 4.6-class and GPT 5.6 Sol-Class Local AI, 224TB Storage, Dual 10GbE, PCIe 5.0 GPU Slot, 4 PCIe 4.0 M.2, Open Models, Any OS.",
-    "url": "https://www.kickstarter.com/projects/xaistack/xaistack",
-    "category": "Hardware",
-    "creator": "XAIStack",
-    "location": "Hong Kong, Hong Kong",
-    "country": "Hong Kong",
-    "currency": "HKD",
-    "currencySymbol": "$",
-    "goal": 78000.0,
-    "pledged": 2438314.0,
-    "usdPledged": "310793.18371162",
-    "goalUsd": 9942.06,
-    "percentFunded": 3126.0435897435896,
-    "backers": 131,
-    "deadline": 1797645600,
-    "launchedAt": 1795096695,
-    "staffPick": true,
-    "sources": [
-     "Hardware 热门",
-     "Technology 热门"
-    ],
-    "kwHits": [
-     "ai",
-     "gpt",
-     "nas"
-    ],
-    "score": 0.6845,
-    "coverRemote": "https://i.kickstarter.com/assets/055/949/037/06371acd53984e9acb640c8e060e68d4_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1795083874&width=1024&sig=W177C95ODXpV1g4Oj3Ssh1Nx4F6hlRRFfAqTBM89eLI%3D",
-    "videoMp4": "https://v2.kickstarter.com/1795177587-RaetOUgD7MwiLZiYTv8tpXZmH4MNmcRRZfwH4ZDkCPM%3D/projects/5374388/video-1478312-h264_high.mp4",
-    "videoHls": "https://v2.kickstarter.com/1795177587-RaetOUgD7MwiLZiYTv8tpXZmH4MNmcRRZfwH4ZDkCPM%3D/projects/5374388/video-1478312-hls_playlist.m3u8",
-    "rewards": [
-     {
-      "id": 11539794,
-      "price": 10974.0,
-      "title": "VIP | X1 Pro Modular Bundle",
-      "desc": "Customize your XAIStack further in Add-ons.\\n\\nWhat's Included:\\n• X1 Pro Host\\n• GPU Module\\n• Storage Module\\n• 256GB System SSD + Linux OS included\\n\\nAvailable in Add-ons:\\n• RAM: 16GB, 32GB & 64GB options\\n• SSD: 2TB System SSD Upgrade & Extra 2TB SSD\\n• FygoOS Lifetime Upgrade\\n\\nRAM can be added in Add-ons, or you can use your own.\\nGPU and storage drives are not included.",
-      "backers": 32,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11539797,
-      "price": 20780.0,
-      "title": "VIP | X1 Pro Premier Bundle",
-      "desc": "Your local AI stack, ready to go.\\n\\nWhat's Included:\\n• X1 Pro Host\\n• GPU Module\\n• Storage Module\\n• 64GB DDR5 RAM (2 × 32GB)\\n• 2TB System SSD + Linux OS preinstalled\\n\\nAvailable in Add-ons:\\n• FygoOS Lifetime Upgrade\\n• Additional 2TB SSD\\n• Extra Hosts, GPU Modules & Storage Modules\\n• RAM & 2TB System SSD upgrades for extra Hosts\\n\\nGPU and storage drives are not included.",
-      "backers": 33,
-      "limit": null,
-      "remaining": null,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     },
-     {
-      "id": 11539737,
-      "price": 22349.0,
-      "title": "Super Early Bird | X1 Pro Premier Bundle",
-      "desc": "Your local AI stack, ready to go.\\n\\nWhat's Included:\\n• X1 Pro Host\\n• GPU Module\\n• Storage Module\\n• 64GB DDR5 RAM (2 × 32GB)\\n• 2TB System SSD + Linux OS preinstalled\\n\\nAvailable in Add-ons:\\n• FygoOS Lifetime Upgrade\\n• Additional 2TB SSD\\n• Extra Hosts, GPU Modules & Storage Modules\\n• RAM & 2TB System SSD upgrades for extra Hosts\\n\\nGPU and storage drives are not included.",
-      "backers": 27,
-      "limit": 200,
-      "remaining": 173,
-      "eta": 1798761600,
-      "shipping": "restricted"
-     }
-    ],
-    "rewardsTotal": 31,
-    "tiersDate": "2026-11-20",
-    "tiersCarried": "",
-    "cues": [
-     [
-      1.26,
-      4.05,
-      "仍在为人工智能和存储付费"
-     ],
-     [
-      4.05,
-      4.5,
-      "个月"
-     ],
-     [
-      4.5,
-      8.97,
-      "认识 XAI Stack，一款模块化 AI 工作站"
-     ],
-     [
-      8.97,
-      9.42,
-      "NAS"
-     ],
-     [
-      9.42,
-      12.62,
-      "专为强大的本地 AI 而打造，具有隐私性"
-     ],
-     [
-      12.62,
-      14.06,
-      "始终在线的存储。"
-     ],
-     [
-      14.06,
-      17.09,
-      "一个真正属于您的人工智能系统，一个"
-     ],
-     [
-      17.09,
-      18.26,
-      "与您共同成长。"
-     ],
-     [
-      18.26,
-      19.42,
-      "从您的需求开始。"
-     ],
-     [
-      19.42,
-      22.38,
-      "主机本身就是一个便携式 AI NAS。"
-     ],
-     [
-      22.38,
-      23.74,
-      "需要更多 AI 算力吗？"
-     ],
-     [
-      23.74,
-      25.62,
-      "随着业务发展而扩展。"
-     ],
-     [
-      25.62,
-      28.33,
-      "创新的模块化设计，具备"
-     ],
-     [
-      28.33,
-      30.22,
-      "高速连接。"
-     ],
-     [
-      30.38,
-      36.67,
-      "让一个模型跨越 GPU、内存和 SSD。"
-     ],
-     [
-      36.67,
-      40.19,
-      "在中端 GPU 上运行 Opus 4.6 级"
-     ],
-     [
-      40.19,
-      40.71,
-      "车型"
-     ],
-     [
-      40.71,
-      43.83,
-      "提升档次，将 GPT 5.6 带回家"
-     ],
-     [
-      43.83,
-      45.15,
-      "鞋底级AI。"
-     ],
-     [
-      45.15,
-      47.43,
-      "需要更多的存储空间？"
-     ],
-     [
-      47.43,
-      51.07,
-      "六个托架，最高 224TB。"
-     ],
-     [
-      51.07,
-      53.11,
-      "并且配备双10千兆以太网"
-     ],
-     [
-      53.11,
-      53.79,
-      "社交活动"
-     ],
-     [
-      53.79,
-      56.99,
-      "多功能连接和双 USB 4.0 接口"
-     ],
-     [
-      56.99,
-      57.47,
-      "端口"
-     ],
-     [
-      57.47,
-      60.27,
-      "移动大文件仍然快速而轻松。"
-     ],
-     [
-      60.27,
-      62.39,
-      "现在，让所有这些动力发挥作用。"
-     ],
-     [
-      62.39,
-      65.17,
-      "编码、研究、报告、您的代理"
-     ],
-     [
-      65.17,
-      66.19,
-      "处理好所有事情。"
-     ],
-     [
-      66.19,
-      67.43,
-      "生成视频。"
-     ],
-     [
-      67.43,
-      70.83,
-      "自己动手，全部切割。"
-     ],
-     [
-      70.83,
-      71.99,
-      "那您的数据呢？"
-     ],
-     [
-      71.99,
-      73.79,
-      "它存在于您的私有云中。"
-     ],
-     [
-      73.79,
-      76.19,
-      "随时随地向您的文件提问。"
-     ],
-     [
-      76.19,
-      78.79,
-      "请查阅第三季度财务报告文件。"
-     ],
-     [
-      78.79,
-      81.83,
-      "它了解您的工作，并据此运作。"
-     ],
-     [
-      81.83,
-      83.71,
-      "您的数据留在本地。"
-     ],
-     [
-      83.71,
-      85.35,
-      "您的资金，由您做主。"
-     ],
-     [
-      85.35,
-      88.55,
-      "运行最适合您的模型。"
-     ],
-     [
-      88.55,
-      92.43,
-      "Fygo OS、Ubuntu Linux 或您喜欢的任何操作系统。"
-     ],
-     [
-      92.43,
-      94.03,
-      "自定义屏幕。"
-     ],
-     [
-      94.03,
-      95.71,
-      "自定义面板。"
-     ],
-     [
-      95.71,
-      97.39,
-      "全归你了。"
-     ],
-     [
-      97.39,
-      100.65,
-      "采用24个电池的空气流通设计，实现高效"
-     ],
-     [
-      100.65,
-      101.27,
-      "件采取降温措施。"
-     ],
-     [
-      101.27,
-      104.31,
-      "减少干扰，更加专注于重要事项。"
-     ],
-     [
-      104.31,
-      106.63,
-      "您自己的 AI 工作站具备这些功能。"
-     ],
-     [
-      106.63,
-      110.39,
-      "一个旨在发展、经久耐用的技术栈。"
-     ],
-     [
-      110.39,
-      111.63,
-      "现已上线Kickstarter。"
-     ],
-     [
-      111.63,
-      113.43,
-      "立即支持我们。"
-     ]
-    ],
-    "vttLang": "zh",
-    "story": [
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/961/308/ee703d2da85d3ad3e00adb55fe643751_original.png?fit=scale-down&origin=ugc&q=100&v=1795177229&width=680&sig=H%2BSPyavvkUw8WfDiEoSjpa%2Bs%2B3zuTrV4sfBVQ05iBwA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/946/965/b30581a1fe4f79f89d09eee89aa6f758_original.jpg?fit=scale-down&origin=ugc&q=92&v=1795073566&width=680&sig=0TQ9uMD4UzLxy1Om1FhKKhjG%2F4oHq26OC9icXFd5X14%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/938/956/c882172ebe4545b0b471aa58e2233891_original.webp?fit=scale-down&origin=ugc&q=92&v=1795015723&width=680&sig=uxXhMm4x4rRtQ9PDR5P5LcfPYGIYpuJVSfXivJyluKA%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/937/106/28a9ad3f0caf36377dfe3ce7949f86d4_original.jpg?fit=scale-down&origin=ugc&q=92&v=1795006038&width=680&sig=s9ZkHAS4WMiUZ6NHO9k8rP53iM3AR8wNUcyv%2BDQn87U%3D"
-     },
-     {
-      "t": "p",
-      "x": "We built XAIStack so you can start with the hardware your work calls for today. Run AI locally, where your files already live. When you need more GPU power or storage, upgrade what you need without replacing the rest.",
-      "z": "我们打造了 XAIStack，让您可以从当前工作所需的硬件开始。在您的文件已存放的本地运行 AI。当您需要更多的 GPU 算力或存储空间时，只需升级所需部分，无需更换其他组件。"
-     },
-     {
-      "t": "p",
-      "x": "With expandable NAS storage, you can keep years of files, projects, and knowledge in a personal library your local AI can draw on. Build an AI assistant around your projects, preferences, and the way you work.",
-      "z": "借助可扩展的 NAS 存储，您可以将多年的文件、项目和知识保存在个人库中，供本地 AI 引用。根据您的项目、偏好和工作方式打造 AI 助手。"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/939/652/9113f56494c7aec09f18421b279e1701_original.jpg?fit=scale-down&origin=ugc&q=92&v=1795018994&width=680&sig=kwvmoQVUoFHUswq6aPhlLfB%2BZAbyGc4eB4xaIpo2fr4%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/935/071/5e27e7658c460032f168e654f6d14b67_original.png?fit=scale-down&origin=ugc&q=100&v=1794991986&width=680&sig=P4HGIJESTnZwfLNhl0jJIiFzL7Up65ad%2FODt2TSH%2FnY%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/947/045/c8b0e7470dcfe6cf883611d9da79fe19_original.jpg?fit=scale-down&origin=ugc&q=92&v=1795074063&width=680&sig=tlQnAlFmNGqAjIZ3z4MBxuVo%2B9l18Y2LH0dP%2BSuxYbI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/950/461/ec0a3c6c1e4e425eff6330860f396dda_original.jpg?fit=scale-down&origin=ugc&q=92&v=1795093736&width=680&sig=OHWUg435UJn%2F47Tg87X6%2FuhU8hJnGUOBF65EAMK4YDQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/947/047/d8091cb7a6c572698339d1e56cacf56d_original.jpg?fit=scale-down&origin=ugc&q=92&v=1795074082&width=680&sig=LtA8r0z%2BgOri%2FVNG99cYS3HgmktbnChyKHZmjhvZYv0%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/947/050/a07ba2d8f6f15ccb463d81f497177dee_original.jpg?fit=scale-down&origin=ugc&q=92&v=1795074093&width=680&sig=FmFb0f%2BJQs2r6lXurc8Gm9oYtwNe34RaCte7J7QJJ%2FU%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/947/056/f6384116b9627cc98a4135e01d849ac8_original.jpg?fit=scale-down&origin=ugc&q=92&v=1795074113&width=680&sig=L68YBgs%2FqGV4CTw57Bo7gMMUHEeAjeTuiro2YfUOA54%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/949/514/3faa772fc6d5578a96a96ae8d54619f0_original.jpg?fit=scale-down&origin=ugc&q=92&v=1795086980&width=680&sig=RmQhXFlMcKcggUjIjGsKK3MZWGVtoJPT%2F8TmFBcWWfQ%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/935/309/ec341686a45b3ccded55f972adec632a_original.png?fit=scale-down&origin=ugc&q=100&v=1794993415&width=680&sig=gJsmzEFa2fgB%2BuJXD%2Fuu0QEXet5KJji%2FCePAVDd0TFI%3D"
-     },
-     {
-      "t": "img",
-      "u": "https://i.kickstarter.com/assets/055/950/512/a30111687c5009de718587f1b4fd0b34_original.webp?fit=scale-down&origin=ugc&q=92&v=1795094292&width=680&sig=gmjKM%2BKImt3i0cDiVqIy84Wo0IqtBlnSrx6vt%2BG7nMg%3D"
-     },
-     {
-      "t": "p",
-      "x": "Connect the modules. Lock them in. That’s it.",
-      "z": "连接模块。将其锁定。就是这样。"
-     },
-     {
-      "t": "p",
-      "x": "Stand it up or lay it flat. Upright works just as well and takes up less desk space.",
-      "z": "可竖放，也可平放。竖放同样好用，且占用更少的桌面空间。"
-     },
-     {
-      "t": "p",
-      "x": "Give an AI agent a real job. Let it tackle complex research, analyze data, and deliver results you can actually use.",
-      "z": "为AI代理分配一项真正的工作。让它处理复杂的研究、分析数据，并提供您真正可以使用的结果。"
-     },
-     {
-      "t": "p",
-      "x": "Start with a prompt, an image, or your own footage. Use ComfyUI workflows to generate, edit, and upscale images, or create and edit videos.",
-      "z": "Start with a prompt, an image, or your own footage. Use ComfyUI workflows to generate, edit, and upscale images, or create and edit videos."
-     },
-     {
-      "t": "p",
-      "x": "Bring your files and projects into one private cloud with up to 224TB of storage. Dual 10GbE and USB4 move big files in seconds. Access everything across devices and bring local AI to your data.",
-      "z": "Bring your files and projects into one private cloud with up to 224TB of storage. Dual 10GbE and USB4 move big files in seconds. Access everything across devices and bring local AI to your data."
-     },
-     {
-      "t": "p",
-      "x": "Bring smart home automation and always-on AI-powered security to your home or workspace. Monitor up to 32 1080p camera feeds or 8 4K feeds. Keep footage and data under your control.",
-      "z": "Bring smart home automation and always-on AI-powered security to your home or workspace. Monitor up to 32 1080p camera feeds or 8 4K feeds. Keep footage and data under your control."
-     },
-     {
-      "t": "p",
-      "x": "With local AI, private storage, and open software, XAIStack gives you the foundation to build a personal AI assistant around your knowledge, projects, and workflows. Let it help with everyday tasks and grow more capable as your needs evolve.",
-      "z": "With local AI, private storage, and open software, XAIStack gives you the foundation to build a personal AI assistant around your knowledge, projects, and workflows. Let it help with everyday tasks and grow more capable as your needs evolve."
-     },
-     {
-      "t": "p",
-      "x": "Choose your hardware, AI models, OS, and even the look. Your stack, your call.",
-      "z": "Choose your hardware, AI models, OS, and even the look. Your stack, your call."
-     },
-     {
-      "t": "p",
-      "x": "Choose the OS that fits the way you work. Run a NAS-optimized system for centralized data storage, multi-device sharing and advanced file management, or install another compatible operating system for a different workflow.",
-      "z": "Choose the OS that fits the way you work. Run a NAS-optimized system for centralized data storage, multi-device sharing and advanced file management, or install another compatible operating system for a different workflow."
-     },
-     {
-      "t": "p",
-      "x": "Preinstalled with FygoOS or Ubuntu Linux, or install any OS you like. Each SSD can run its own OS, so you can keep several systems on one machine.",
-      "z": "Preinstalled with FygoOS or Ubuntu Linux, or install any OS you like. Each SSD can run its own OS, so you can keep several systems on one machine."
-     },
-     {
-      "t": "p",
-      "x": "Access files remotely across devices, find photos with AI, stream your media, install apps, and manage your NAS in one place. Here’s what that looks like with FygoOS.",
-      "z": "Access files remotely across devices, find photos with AI, stream your media, install apps, and manage your NAS in one place. Here’s what that looks like with FygoOS."
-     },
-     {
-      "t": "p",
-      "x": "Your AI and private cloud, ready whenever you are.",
-      "z": "Your AI and private cloud, ready whenever you are."
-     },
-     {
-      "t": "p",
-      "x": "Designed for continuous operation, XAIStack combines low-power design, modular air cooling, and rigorous quality control to support long-term reliability.",
-      "z": "Designed for continuous operation, XAIStack combines low-power design, modular air cooling, and rigorous quality control to support long-term reliability."
-     },
-     {
-      "t": "p",
-      "x": "A deliberate choice to make the whole system work together.",
-      "z": "A deliberate choice to make the whole system work together."
-     },
-     {
-      "t": "p",
-      "x": "XAIStack relies on the GPU for heavy AI computation, with system memory and SSDs supporting larger models. The CPU connects these components at high speed while also handling your NAS, apps, and AI agents.",
-      "z": "XAIStack relies on the GPU for heavy AI computation, with system memory and SSDs supporting larger models. The CPU connects these components at high speed while also handling your NAS, apps, and AI agents."
-     },
-     {
-      "t": "p",
-      "x": "For this role, two things matter: plenty of PCIe lanes, and low power for 24/7 use.",
-      "z": "For this role, two things matter: plenty of PCIe lanes, and low power for 24/7 use."
-     },
-     {
-      "t": "p",
-      "x": "XAIStack is developed by Centerm, a global leader in enterprise hardware manufacturing, with proven experience serving businesses across 120+ countries.",
-      "z": "XAIStack is developed by Centerm, a global leader in enterprise hardware manufacturing, with proven experience serving businesses across 120+ countries."
-     },
-     {
-      "t": "p",
-      "x": "Building on Centerm’s longstanding partnership with Intel and with active support from the Intel team, XAIStack showcased a new approach to local AI computing for individuals and teams.",
-      "z": "Building on Centerm’s longstanding partnership with Intel and with active support from the Intel team, XAIStack showcased a new approach to local AI computing for individuals and teams."
-     },
-     {
-      "t": "p",
-      "x": "Centerm brings extensive experience in enterprise hardware production, with established manufacturing facilities and quality control processes covering component inspection, assembly, and product testing.",
-      "z": "Centerm brings extensive experience in enterprise hardware production, with established manufacturing facilities and quality control processes covering component inspection, assembly, and product testing."
-     },
-     {
-      "t": "p",
-      "x": "*   Taxes, Tariffs & Customs Fees",
-      "z": "* Taxes, Tariffs & Customs Fees"
-     },
-     {
-      "t": "p",
-      "x": "For the destinations below, all applicable taxes, tariffs, and customs fees are covered.",
-      "z": "For the destinations below, all applicable taxes, tariffs, and customs fees are covered."
-     },
-     {
-      "t": "p",
-      "x": "Other Destinations:We also ship to many other countries beyond those listed above, where local import taxes and customs fees may apply.",
-      "z": "Other Destinations:We also ship to many other countries beyond those listed above, where local import taxes and customs fees may apply."
-     },
-     {
-      "t": "p",
-      "x": "*   Remote Area Surcharge: Remote areas may require additional shipping fees.",
-      "z": "* Remote Area Surcharge: Remote areas may require additional shipping fees."
-     },
-     {
-      "t": "p",
-      "x": "*   Don’t See Your Country or Region? Contact us on [Discord](https://discord.com/invite/369BwtJyAj) or at [hello@xaistack.hk](mailto:hello@xaistack.hk) to check shipping availability.",
-      "z": "* Don’t See Your Country or Region? Contact us on [Discord](https://discord.com/invite/369BwtJyAj) or at [hello@xaistack.hk](mailto:hello@xaistack.hk) to check shipping availability."
      }
     ]
    }
